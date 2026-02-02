@@ -1,0 +1,12 @@
+{
+  "framework": null,
+  "buildCommand": "yarn --cwd packages/calculator-core build && yarn --cwd packages/calculator-ui build",
+  "outputDirectory": "packages/calculator-ui/build",
+  "installCommand": "yarn install",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

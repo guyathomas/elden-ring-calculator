@@ -1,0 +1,14 @@
+# Generated data files (created by yarn generate-data)
+src/data/precomputed.json
+src/data/precomputed.json.gz
+src/data/precomputed.msgpack.gz
+src/data/aow-precomputed.json
+src/data/aow-precomputed.json.gz
+src/data/aow-precomputed.msgpack.gz
+src/data/animation-index.json
+src/data/animation-index.json.gz
+src/data/animation-index.msgpack.gz
+
+# Playwright test artifacts
+playwright-report/
+test-results/

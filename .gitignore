@@ -1,0 +1,19 @@
+node_modules/
+dist/
+build/
+*.log
+.DS_Store
+test/output/
+test/*.xlsx
+.playwright-mcp/
+.vercel
+.env*.local
+.turbo
+coverage/
+
+# Generated intermediate data files (only compressed .gz versions are needed)
+packages/calculator-ui/src/data/weapon-attacks-data.json
+packages/calculator-ui/src/data/weapon-combos-detail.json
+
+# Yarn 4
+.yarn/install-state.gz

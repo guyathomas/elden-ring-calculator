@@ -1,0 +1,2641 @@
+AtkId	Name	swordArtsParamId
+300000290	Stamp (Upward Cut)	106
+300000295	Stamp (Upward Cut) (Lacking FP)	106
+300000891	Stamp (Sweep) [1]	107
+300000892	Stamp (Sweep) [2]	107
+300000895	Stamp (Sweep) [1] (Lacking FP)	107
+300000896	Stamp (Sweep) [2] (Lacking FP)	107
+301401800	Wild Strikes - Loop [1]	110
+301401810	Wild Strikes - Loop [2]	110
+301401801	Wild Strikes R1 [1]	110
+301401802	Wild Strikes R1 [2]	110
+301401803	Wild Strikes R2 [1]	110
+301401804	Wild Strikes R2 [2]	110
+301401805	Wild Strikes - Loop (Lacking FP)	110
+301401806	Wild Strikes R1 [1] (Lacking FP)	110
+301401807	Wild Strikes R1 [2] (Lacking FP)	110
+301401808	Wild Strikes R2 [1] (Lacking FP)	110
+301401809	Wild Strikes R2 [2] (Lacking FP)	110
+301400800	[Curved Sword] Wild Strikes - Loop [1]	110
+301400810	[Curved Sword] Wild Strikes - Loop [2]	110
+301400801	[Curved Sword] Wild Strikes R1 [1]	110
+301400802	[Curved Sword] Wild Strikes R1 [2]	110
+301400803	[Curved Sword] Wild Strikes R2 [1]	110
+301400804	[Curved Sword] Wild Strikes R2 [2]	110
+301400805	[Curved Sword] Wild Strikes - Loop (Lacking FP)	110
+301400806	[Curved Sword] Wild Strikes R1 [1] (Lacking FP)	110
+301400807	[Curved Sword] Wild Strikes R1 [2] (Lacking FP)	110
+301400808	[Curved Sword] Wild Strikes R2 [1] (Lacking FP)	110
+301400809	[Curved Sword] Wild Strikes R2 [2] (Lacking FP)	110
+301400800	[Axe] Wild Strikes - Loop [1]	110
+301400810	[Axe] Wild Strikes - Loop [2]	110
+301400801	[Axe] Wild Strikes R1 [1]	110
+301400802	[Axe] Wild Strikes R1 [2]	110
+301400803	[Axe] Wild Strikes R2 [1]	110
+301400804	[Axe] Wild Strikes R2 [2]	110
+301400805	[Axe] Wild Strikes - Loop (Lacking FP)	110
+301400806	[Axe] Wild Strikes R1 [1] (Lacking FP)	110
+301400807	[Axe] Wild Strikes R1 [2] (Lacking FP)	110
+301400808	[Axe] Wild Strikes R2 [1] (Lacking FP)	110
+301400809	[Axe] Wild Strikes R2 [2] (Lacking FP)	110
+301400800	[Hammer] Wild Strikes - Loop [1]	110
+301400810	[Hammer] Wild Strikes - Loop [2]	110
+301400801	[Hammer] Wild Strikes R1 [1]	110
+301400802	[Hammer] Wild Strikes R1 [2]	110
+301400803	[Hammer] Wild Strikes R2 [1]	110
+301400804	[Hammer] Wild Strikes R2 [2]	110
+301400805	[Hammer] Wild Strikes - Loop (Lacking FP)	110
+301400806	[Hammer] Wild Strikes R1 [1] (Lacking FP)	110
+301400807	[Hammer] Wild Strikes R1 [2] (Lacking FP)	110
+301400808	[Hammer] Wild Strikes R2 [1] (Lacking FP)	110
+301400809	[Hammer] Wild Strikes R2 [2] (Lacking FP)	110
+301400800	[Flail] Wild Strikes - Loop [1]	110
+301400810	[Flail] Wild Strikes - Loop [2]	110
+301400801	[Flail] Wild Strikes R1 [1]	110
+301400802	[Flail] Wild Strikes R1 [2]	110
+301400803	[Flail] Wild Strikes R2 [1]	110
+301400804	[Flail] Wild Strikes R2 [2]	110
+301400805	[Flail] Wild Strikes - Loop (Lacking FP)	110
+301400806	[Flail] Wild Strikes R1 [1] (Lacking FP)	110
+301400807	[Flail] Wild Strikes R1 [2] (Lacking FP)	110
+301400808	[Flail] Wild Strikes R2 [1] (Lacking FP)	110
+301400809	[Flail] Wild Strikes R2 [2] (Lacking FP)	110
+300300820	Lion's Claw	100
+300300821	Lion's Claw (Lacking FP)	100
+600000140	Savage Lion's Claw #1	4150
+600000141	Savage Lion's Claw #2 [1]	4150
+600000142	Savage Lion's Claw #2 [2]	4150
+600000143	Savage Lion's Claw #1 (Lacking FP)	4150
+600000144	Savage Lion's Claw #2 [1] (Lacking FP)	4150
+600000145	Savage Lion's Claw #2 [2] (Lacking FP)	4150
+300000860	Cragblade [1]	607
+300000861	Cragblade [2]	607
+300000865	Cragblade [1] (Lacking FP)	607
+300000866	Cragblade [2] (Lacking FP)	607
+600000010	Spinning Gravity Thrust #1 [1]	4000
+600000010	Spinning Gravity Thrust #1 [2]	4000
+600000010	Spinning Gravity Thrust #1 [3]	4000
+600000010	Spinning Gravity Thrust #1 [4]	4000
+600000011	Spinning Gravity Thrust #1 [5]	4000
+600000012	Spinning Gravity Thrust #2 [1]	4000
+600000012	Spinning Gravity Thrust #2 [2]	4000
+600000012	Spinning Gravity Thrust #2 [3]	4000
+600000013	Spinning Gravity Thrust #2 [4]	4000
+600000015	Spinning Gravity Thrust #1 [1] (Lacking FP)	4000
+600000015	Spinning Gravity Thrust #1 [2] (Lacking FP)	4000
+600000015	Spinning Gravity Thrust #1 [3] (Lacking FP)	4000
+600000015	Spinning Gravity Thrust #1 [4] (Lacking FP)	4000
+600000016	Spinning Gravity Thrust #1 [5] (Lacking FP)	4000
+600000017	Spinning Gravity Thrust #2 [1] (Lacking FP)	4000
+600000017	Spinning Gravity Thrust #2 [2] (Lacking FP)	4000
+600000017	Spinning Gravity Thrust #2 [3] (Lacking FP)	4000
+600000018	Spinning Gravity Thrust #2 [4] (Lacking FP)	4000
+301100800	Kick	503
+301100801	Kick (Lacking FP)	503
+300000790	Ground Slam - Tush	506
+300000791	Ground Slam - Shockwave	506
+300000795	Ground Slam - Tush (Lacking FP)	506
+300000796	Ground Slam - Shockwave (Lacking FP)	506
+300000320	Earthshaker [1]	212
+300000321	Earthshaker [2]	212
+300000322	Earthshaker - Shockwave	212
+300000323	Earthshaker R2	212
+300000325	Earthshaker (Lacking FP)	212
+300000326	Earthshaker (Lacking FP)	212
+300000327	Earthshaker - Shockwave (Lacking FP)	212
+300000328	Earthshaker R2 (Lacking FP)	212
+300000880	Hoarah Loux's Earthshaker - Slam 1	509
+300000881	Hoarah Loux's Earthshaker - Slam 2	509
+300000882	Hoarah Loux's Earthshaker - Roar Tick	509
+300000883	Hoarah Loux's Earthshaker - Roar Tick	509
+300000884	Hoarah Loux's Earthshaker - Initial Roar	509
+300000120	War Cry - Roar	651
+300000121	War Cry - Roar (Lacking FP)	651
+300200981	[Straight Sword] War Cry 1h R2 #1	651
+300200982	[Straight Sword] War Cry Charged 1h R2 #1 (Tick)	651
+300200983	[Straight Sword] War Cry Charged 1h R2 #1 (Tick)	651
+300200980	[Straight Sword] War Cry Charged 1h R2 #1	651
+300200985	[Straight Sword] War Cry 1h R2 #2	651
+300200986	[Straight Sword] War Cry Charged 1h R2 #2 (Tick)	651
+300200984	[Straight Sword] War Cry Charged 1h R2 #2	651
+300200988	[Straight Sword] War Cry 2h R2 #1	651
+300200989	[Straight Sword] War Cry Charged 2h R2 #1 (Tick)	651
+300200990	[Straight Sword] War Cry Charged 2h R2 #1 (Tick)	651
+300200987	[Straight Sword] War Cry Charged 2h R2 #1	651
+300200992	[Straight Sword] War Cry 2h R2 #2	651
+300200993	[Straight Sword] War Cry Charged 2h R2 #2 (Tick)	651
+300200991	[Straight Sword] War Cry Charged 2h R2 #2	651
+306700981	[Light Greatsword] War Cry 1h R2 #1	651
+306700982	[Light Greatsword] War Cry Charged 1h R2 #1 (Tick)	651
+306700983	[Light Greatsword] War Cry Charged 1h R2 #1 (Tick)	651
+306700980	[Light Greatsword] War Cry Charged 1h R2 #1	651
+306700985	[Light Greatsword] War Cry 1h R2 #2	651
+306700986	[Light Greatsword] War Cry Charged 1h R2 #2 (Tick)	651
+306700984	[Light Greatsword] War Cry Charged 1h R2 #2	651
+306700988	[Light Greatsword] War Cry 2h R2 #1	651
+306700989	[Light Greatsword] War Cry Charged 2h R2 #1 (Tick)	651
+306700990	[Light Greatsword] War Cry Charged 2h R2 #1 (Tick)	651
+306700987	[Light Greatsword] War Cry Charged 2h R2 #1	651
+306700992	[Light Greatsword] War Cry 2h R2 #2	651
+306700993	[Light Greatsword] War Cry Charged 2h R2 #2 (Tick)	651
+306700991	[Light Greatsword] War Cry Charged 2h R2 #2	651
+300300981	[Greatsword] War Cry 1h R2 #1	651
+300300982	[Greatsword] War Cry Charged 1h R2 #1 (Tick)	651
+300300983	[Greatsword] War Cry Charged 1h R2 #1 (Tick)	651
+300300980	[Greatsword] War Cry Charged 1h R2 #1	651
+300300985	[Greatsword] War Cry 1h R2 #2	651
+300300986	[Greatsword] War Cry Charged 1h R2 #2 (Tick)	651
+300300984	[Greatsword] War Cry Charged 1h R2 #2	651
+300300988	[Greatsword] War Cry 2h R2 #1	651
+300300989	[Greatsword] War Cry Charged 2h R2 #1 (Tick)	651
+300300990	[Greatsword] War Cry Charged 2h R2 #1 (Tick)	651
+300300987	[Greatsword] War Cry Charged 2h R2 #1	651
+300300992	[Greatsword] War Cry 2h R2 #2	651
+300300993	[Greatsword] War Cry Charged 2h R2 #2 (Tick)	651
+300300991	[Greatsword] War Cry Charged 2h R2 #2	651
+300400981	[Colossal Sword] War Cry 1h R2 #1	651
+300400982	[Colossal Sword] War Cry Charged 1h R2 #1 (Tick)	651
+300400983	[Colossal Sword] War Cry Charged 1h R2 #1 (Tick)	651
+300400980	[Colossal Sword] War Cry Charged 1h R2 #1	651
+300400985	[Colossal Sword] War Cry 1h R2 #2	651
+300400986	[Colossal Sword] War Cry Charged 1h R2 #2 (Tick)	651
+300400984	[Colossal Sword] War Cry Charged 1h R2 #2	651
+300400988	[Colossal Sword] War Cry 2h R2 #1	651
+300400989	[Colossal Sword] War Cry Charged 2h R2 #1 (Tick)	651
+300400990	[Colossal Sword] War Cry Charged 2h R2 #1 (Tick)	651
+300400987	[Colossal Sword] War Cry Charged 2h R2 #1	651
+300400992	[Colossal Sword] War Cry 2h R2 #2	651
+300400993	[Colossal Sword] War Cry Charged 2h R2 #2 (Tick)	651
+300400991	[Colossal Sword] War Cry Charged 2h R2 #2	651
+300700981	[Curved Sword] War Cry 1h R2 #1	651
+300700982	[Curved Sword] War Cry Charged 1h R2 #1 (Tick)	651
+300700983	[Curved Sword] War Cry Charged 1h R2 #1 (Tick)	651
+300700980	[Curved Sword] War Cry Charged 1h R2 #1	651
+300700985	[Curved Sword] War Cry 1h R2 #2	651
+300700986	[Curved Sword] War Cry Charged 1h R2 #2 (Tick)	651
+300700984	[Curved Sword] War Cry Charged 1h R2 #2	651
+300700988	[Curved Sword] War Cry 2h R2 #1	651
+300700989	[Curved Sword] War Cry Charged 2h R2 #1 (Tick)	651
+300700990	[Curved Sword] War Cry Charged 2h R2 #1 (Tick)	651
+300700987	[Curved Sword] War Cry Charged 2h R2 #1	651
+300700992	[Curved Sword] War Cry 2h R2 #2	651
+300700993	[Curved Sword] War Cry Charged 2h R2 #2 (Tick)	651
+300700991	[Curved Sword] War Cry Charged 2h R2 #2	651
+300800981	[Curved Greatsword] War Cry 1h R2 #1	651
+300800982	[Curved Greatsword] War Cry Charged 1h R2 #1 (Tick)	651
+300800983	[Curved Greatsword] War Cry Charged 1h R2 #1 (Tick)	651
+300800980	[Curved Greatsword] War Cry Charged 1h R2 #1	651
+300800985	[Curved Greatsword] War Cry 1h R2 #2	651
+300800986	[Curved Greatsword] War Cry Charged 1h R2 #2 (Tick)	651
+300800984	[Curved Greatsword] War Cry Charged 1h R2 #2	651
+300800988	[Curved Greatsword] War Cry 2h R2 #1	651
+300800989	[Curved Greatsword] War Cry Charged 2h R2 #1 (Tick)	651
+300800990	[Curved Greatsword] War Cry Charged 2h R2 #1 (Tick)	651
+300800987	[Curved Greatsword] War Cry Charged 2h R2 #1	651
+300800992	[Curved Greatsword] War Cry 2h R2 #2	651
+300800993	[Curved Greatsword] War Cry Charged 2h R2 #2 (Tick)	651
+300800991	[Curved Greatsword] War Cry Charged 2h R2 #2	651
+300900981	[Katana] War Cry 1h R2 #1	651
+300900982	[Katana] War Cry Charged 1h R2 #1 (Tick)	651
+300900983	[Katana] War Cry Charged 1h R2 #1 (Tick)	651
+300900980	[Katana] War Cry Charged 1h R2 #1	651
+300900985	[Katana] War Cry 1h R2 #2	651
+300900986	[Katana] War Cry Charged 1h R2 #2 (Tick)	651
+300900984	[Katana] War Cry Charged 1h R2 #2	651
+300900988	[Katana] War Cry 2h R2 #1	651
+300900989	[Katana] War Cry Charged 2h R2 #1 (Tick)	651
+300900990	[Katana] War Cry Charged 2h R2 #1 (Tick)	651
+300900987	[Katana] War Cry Charged 2h R2 #1	651
+300900992	[Katana] War Cry 2h R2 #2	651
+300900993	[Katana] War Cry Charged 2h R2 #2 (Tick)	651
+300900991	[Katana] War Cry Charged 2h R2 #2	651
+300000981	[Great Katana] War Cry 1h R2 #1	651
+300000982	[Great Katana] War Cry Charged 1h R2 #1 (Tick)	651
+300000983	[Great Katana] War Cry Charged 1h R2 #1 (Tick)	651
+300000980	[Great Katana] War Cry Charged 1h R2 #1	651
+300000985	[Great Katana] War Cry 1h R2 #2	651
+300000986	[Great Katana] War Cry Charged 1h R2 #2 (Tick)	651
+300000984	[Great Katana] War Cry Charged 1h R2 #2	651
+300000988	[Great Katana] War Cry 2h R2 #1	651
+300000989	[Great Katana] War Cry Charged 2h R2 #1 (Tick)	651
+300000990	[Great Katana] War Cry Charged 2h R2 #1 (Tick)	651
+300000987	[Great Katana] War Cry Charged 2h R2 #1	651
+300000992	[Great Katana] War Cry 2h R2 #2	651
+300000993	[Great Katana] War Cry Charged 2h R2 #2 (Tick)	651
+300000991	[Great Katana] War Cry Charged 2h R2 #2	651
+301000981	[Twinblade] War Cry 1h R2 #1	651
+301000982	[Twinblade] War Cry Charged 1h R2 #1 (Tick)	651
+301000983	[Twinblade] War Cry Charged 1h R2 #1 (Tick)	651
+301000980	[Twinblade] War Cry Charged 1h R2 #1	651
+301000985	[Twinblade] War Cry 1h R2 #2	651
+301000986	[Twinblade] War Cry Charged 1h R2 #2 (Tick)	651
+301000984	[Twinblade] War Cry Charged 1h R2 #2	651
+301000988	[Twinblade] War Cry 2h R2 #1	651
+301000989	[Twinblade] War Cry Charged 2h R2 #1 (Tick)	651
+301000990	[Twinblade] War Cry Charged 2h R2 #1 (Tick)	651
+301000987	[Twinblade] War Cry Charged 2h R2 #1	651
+301000992	[Twinblade] War Cry 2h R2 #2	651
+301000993	[Twinblade] War Cry Charged 2h R2 #2 (Tick)	651
+301000991	[Twinblade] War Cry Charged 2h R2 #2	651
+301400981	[Axe] War Cry 1h R2 #1	651
+301400982	[Axe] War Cry Charged 1h R2 #1 (Tick)	651
+301400983	[Axe] War Cry Charged 1h R2 #1 (Tick)	651
+301400980	[Axe] War Cry Charged 1h R2 #1	651
+301400985	[Axe] War Cry 1h R2 #2	651
+301400986	[Axe] War Cry Charged 1h R2 #2 (Tick)	651
+301400984	[Axe] War Cry Charged 1h R2 #2	651
+301400988	[Axe] War Cry 2h R2 #1	651
+301400989	[Axe] War Cry Charged 2h R2 #1 (Tick)	651
+301400990	[Axe] War Cry Charged 2h R2 #1 (Tick)	651
+301400987	[Axe] War Cry Charged 2h R2 #1	651
+301400992	[Axe] War Cry 2h R2 #2	651
+301400993	[Axe] War Cry Charged 2h R2 #2 (Tick)	651
+301400991	[Axe] War Cry Charged 2h R2 #2	651
+301500981	[Greataxe] War Cry 1h R2 #1	651
+301500982	[Greataxe] War Cry Charged 1h R2 #1 (Tick)	651
+301500983	[Greataxe] War Cry Charged 1h R2 #1 (Tick)	651
+301500980	[Greataxe] War Cry Charged 1h R2 #1	651
+301500985	[Greataxe] War Cry 1h R2 #2	651
+301500986	[Greataxe] War Cry Charged 1h R2 #2 (Tick)	651
+301500984	[Greataxe] War Cry Charged 1h R2 #2	651
+301500988	[Greataxe] War Cry 2h R2 #1	651
+301500989	[Greataxe] War Cry Charged 2h R2 #1 (Tick)	651
+301500990	[Greataxe] War Cry Charged 2h R2 #1 (Tick)	651
+301500987	[Greataxe] War Cry Charged 2h R2 #1	651
+301500992	[Greataxe] War Cry 2h R2 #2	651
+301500993	[Greataxe] War Cry Charged 2h R2 #2 (Tick)	651
+301500991	[Greataxe] War Cry Charged 2h R2 #2	651
+301100981	[Hammer] War Cry 1h R2 #1	651
+301100982	[Hammer] War Cry Charged 1h R2 #1 (Tick)	651
+301100983	[Hammer] War Cry Charged 1h R2 #1 (Tick)	651
+301100980	[Hammer] War Cry Charged 1h R2 #1	651
+301100985	[Hammer] War Cry 1h R2 #2	651
+301100986	[Hammer] War Cry Charged 1h R2 #2 (Tick)	651
+301100984	[Hammer] War Cry Charged 1h R2 #2	651
+301100988	[Hammer] War Cry 2h R2 #1	651
+301100989	[Hammer] War Cry Charged 2h R2 #1 (Tick)	651
+301100990	[Hammer] War Cry Charged 2h R2 #1 (Tick)	651
+301100987	[Hammer] War Cry Charged 2h R2 #1	651
+301100992	[Hammer] War Cry 2h R2 #2	651
+301100993	[Hammer] War Cry Charged 2h R2 #2 (Tick)	651
+301100991	[Hammer] War Cry Charged 2h R2 #2	651
+301300981	[Flail] War Cry 1h R2 #1	651
+301300982	[Flail] War Cry Charged 1h R2 #1 (Tick)	651
+301300983	[Flail] War Cry Charged 1h R2 #1 (Tick)	651
+301300980	[Flail] War Cry Charged 1h R2 #1	651
+301300985	[Flail] War Cry 1h R2 #2	651
+301300986	[Flail] War Cry Charged 1h R2 #2 (Tick)	651
+301300984	[Flail] War Cry Charged 1h R2 #2	651
+301300988	[Flail] War Cry 2h R2 #1	651
+301300989	[Flail] War Cry Charged 2h R2 #1 (Tick)	651
+301300990	[Flail] War Cry Charged 2h R2 #1 (Tick)	651
+301300987	[Flail] War Cry Charged 2h R2 #1	651
+301300992	[Flail] War Cry 2h R2 #2	651
+301300993	[Flail] War Cry Charged 2h R2 #2 (Tick)	651
+301300991	[Flail] War Cry Charged 2h R2 #2	651
+301200981	[Great Hammer] War Cry 1h R2 #1	651
+301200982	[Great Hammer] War Cry Charged 1h R2 #1 (Tick)	651
+301200983	[Great Hammer] War Cry Charged 1h R2 #1 (Tick)	651
+301200980	[Great Hammer] War Cry Charged 1h R2 #1	651
+301200985	[Great Hammer] War Cry 1h R2 #2	651
+301200986	[Great Hammer] War Cry Charged 1h R2 #2 (Tick)	651
+301200984	[Great Hammer] War Cry Charged 1h R2 #2	651
+301200988	[Great Hammer] War Cry 2h R2 #1	651
+301200989	[Great Hammer] War Cry Charged 2h R2 #1 (Tick)	651
+301200990	[Great Hammer] War Cry Charged 2h R2 #1 (Tick)	651
+301200987	[Great Hammer] War Cry Charged 2h R2 #1	651
+301200992	[Great Hammer] War Cry 2h R2 #2	651
+301200993	[Great Hammer] War Cry Charged 2h R2 #2 (Tick)	651
+301200991	[Great Hammer] War Cry Charged 2h R2 #2	651
+302300981	[Colossal Weapon] War Cry 1h R2 #1	651
+302300982	[Colossal Weapon] War Cry Charged 1h R2 #1 (Tick)	651
+302300983	[Colossal Weapon] War Cry Charged 1h R2 #1 (Tick)	651
+302300980	[Colossal Weapon] War Cry Charged 1h R2 #1	651
+302300985	[Colossal Weapon] War Cry 1h R2 #2	651
+302300986	[Colossal Weapon] War Cry Charged 1h R2 #2 (Tick)	651
+302300984	[Colossal Weapon] War Cry Charged 1h R2 #2	651
+302300988	[Colossal Weapon] War Cry 2h R2 #1	651
+302300989	[Colossal Weapon] War Cry Charged 2h R2 #1 (Tick)	651
+302300990	[Colossal Weapon] War Cry Charged 2h R2 #1 (Tick)	651
+302300987	[Colossal Weapon] War Cry Charged 2h R2 #1	651
+302300992	[Colossal Weapon] War Cry 2h R2 #2	651
+302300993	[Colossal Weapon] War Cry Charged 2h R2 #2 (Tick)	651
+302300991	[Colossal Weapon] War Cry Charged 2h R2 #2	651
+301600981	[Spear] War Cry 1h R2 #1	651
+301600982	[Spear] War Cry Charged 1h R2 #1 (Tick)	651
+301600983	[Spear] War Cry Charged 1h R2 #1 (Tick)	651
+301600980	[Spear] War Cry Charged 1h R2 #1	651
+301600985	[Spear] War Cry 1h R2 #2	651
+301600986	[Spear] War Cry Charged 1h R2 #2 (Tick)	651
+301600984	[Spear] War Cry Charged 1h R2 #2	651
+301600988	[Spear] War Cry 2h R2 #1	651
+301600989	[Spear] War Cry Charged 2h R2 #1 (Tick)	651
+301600990	[Spear] War Cry Charged 2h R2 #1 (Tick)	651
+301600987	[Spear] War Cry Charged 2h R2 #1	651
+301600992	[Spear] War Cry 2h R2 #2	651
+301600993	[Spear] War Cry Charged 2h R2 #2 (Tick)	651
+301600991	[Spear] War Cry Charged 2h R2 #2	651
+301700981	[Great Spear] War Cry 1h R2 #1	651
+301700982	[Great Spear] War Cry Charged 1h R2 #1 (Tick)	651
+301700983	[Great Spear] War Cry Charged 1h R2 #1 (Tick)	651
+301700980	[Great Spear] War Cry Charged 1h R2 #1	651
+301700985	[Great Spear] War Cry 1h R2 #2	651
+301700986	[Great Spear] War Cry Charged 1h R2 #2 (Tick)	651
+301700984	[Great Spear] War Cry Charged 1h R2 #2	651
+301700988	[Great Spear] War Cry 2h R2 #1	651
+301700989	[Great Spear] War Cry Charged 2h R2 #1 (Tick)	651
+301700990	[Great Spear] War Cry Charged 2h R2 #1 (Tick)	651
+301700987	[Great Spear] War Cry Charged 2h R2 #1	651
+301700992	[Great Spear] War Cry 2h R2 #2	651
+301700993	[Great Spear] War Cry Charged 2h R2 #2 (Tick)	651
+301700991	[Great Spear] War Cry Charged 2h R2 #2	651
+301800981	[Halberd] War Cry 1h R2 #1	651
+301800982	[Halberd] War Cry Charged 1h R2 #1 (Tick)	651
+301800983	[Halberd] War Cry Charged 1h R2 #1 (Tick)	651
+301800980	[Halberd] War Cry Charged 1h R2 #1	651
+301800985	[Halberd] War Cry 1h R2 #2	651
+301800986	[Halberd] War Cry Charged 1h R2 #2 (Tick)	651
+301800984	[Halberd] War Cry Charged 1h R2 #2	651
+301800988	[Halberd] War Cry 2h R2 #1	651
+301800989	[Halberd] War Cry Charged 2h R2 #1 (Tick)	651
+301800990	[Halberd] War Cry Charged 2h R2 #1 (Tick)	651
+301800987	[Halberd] War Cry Charged 2h R2 #1	651
+301800992	[Halberd] War Cry 2h R2 #2	651
+301800993	[Halberd] War Cry Charged 2h R2 #2 (Tick)	651
+301800991	[Halberd] War Cry Charged 2h R2 #2	651
+301900981	[Reaper] War Cry 1h R2 #1	651
+301900982	[Reaper] War Cry Charged 1h R2 #1 (Tick)	651
+301900983	[Reaper] War Cry Charged 1h R2 #1 (Tick)	651
+301900980	[Reaper] War Cry Charged 1h R2 #1	651
+301900985	[Reaper] War Cry 1h R2 #2	651
+301900986	[Reaper] War Cry Charged 1h R2 #2 (Tick)	651
+301900984	[Reaper] War Cry Charged 1h R2 #2	651
+301900988	[Reaper] War Cry 2h R2 #1	651
+301900989	[Reaper] War Cry Charged 2h R2 #1 (Tick)	651
+301900990	[Reaper] War Cry Charged 2h R2 #1 (Tick)	651
+301900987	[Reaper] War Cry Charged 2h R2 #1	651
+301900992	[Reaper] War Cry 2h R2 #2	651
+301900993	[Reaper] War Cry Charged 2h R2 #2 (Tick)	651
+301900991	[Reaper] War Cry Charged 2h R2 #2	651
+302100981	[Fist] War Cry 1h R2 #1	651
+302100982	[Fist] War Cry Charged 1h R2 #1 (Tick)	651
+302100983	[Fist] War Cry Charged 1h R2 #1 (Tick)	651
+302100980	[Fist] War Cry Charged 1h R2 #1	651
+302100985	[Fist] War Cry 1h R2 #2	651
+302100986	[Fist] War Cry Charged 1h R2 #2 (Tick)	651
+302100984	[Fist] War Cry Charged 1h R2 #2	651
+302100989	[Fist] War Cry 2h R2 #1	651
+302100990	[Fist] War Cry 2h R2 #1	651
+302100991	[Fist] War Cry Charged 2h R2 #1 (Tick)	651
+302100992	[Fist] War Cry Charged 2h R2 #1 (Tick)	651
+302100987	[Fist] War Cry Charged 2h R2 #1	651
+302100988	[Fist] War Cry Charged 2h R2 #1	651
+302100995	[Fist] War Cry 2h R2 #2	651
+302100996	[Fist] War Cry 2h R2 #2	651
+302100997	[Fist] War Cry Charged 2h R2 #2 (Tick)	651
+302100993	[Fist] War Cry Charged 2h R2 #2	651
+302100994	[Fist] War Cry Charged 2h R2 #2	651
+306300981	[Hand-to-Hand] War Cry 1h R2 #1	651
+306300982	[Hand-to-Hand] War Cry Charged 1h R2 #1 (Tick)	651
+306300983	[Hand-to-Hand] War Cry Charged 1h R2 #1 (Tick)	651
+306300980	[Hand-to-Hand] War Cry Charged 1h R2 #1	651
+306300985	[Hand-to-Hand] War Cry 1h R2 #2	651
+306300986	[Hand-to-Hand] War Cry Charged 1h R2 #2 (Tick)	651
+306300984	[Hand-to-Hand] War Cry Charged 1h R2 #2	651
+306300989	[Hand-to-Hand] War Cry 2h R2 #1	651
+306300990	[Hand-to-Hand] War Cry 2h R2 #1	651
+306300991	[Hand-to-Hand] War Cry Charged 2h R2 #1 (Tick)	651
+306300992	[Hand-to-Hand] War Cry Charged 2h R2 #1 (Tick)	651
+306300987	[Hand-to-Hand] War Cry Charged 2h R2 #1	651
+306300988	[Hand-to-Hand] War Cry Charged 2h R2 #1	651
+306300995	[Hand-to-Hand] War Cry 2h R2 #2	651
+306300996	[Hand-to-Hand] War Cry 2h R2 #2	651
+306300997	[Hand-to-Hand] War Cry Charged 2h R2 #2 (Tick)	651
+306300993	[Hand-to-Hand] War Cry Charged 2h R2 #2	651
+306300994	[Hand-to-Hand] War Cry Charged 2h R2 #2	651
+302200981	[Claw] War Cry 1h R2 #1	651
+302200982	[Claw] War Cry Charged 1h R2 #1 (Tick)	651
+302200983	[Claw] War Cry Charged 1h R2 #1 (Tick)	651
+302200980	[Claw] War Cry Charged 1h R2 #1	651
+302200985	[Claw] War Cry 1h R2 #2	651
+302200986	[Claw] War Cry Charged 1h R2 #2 (Tick)	651
+302200984	[Claw] War Cry Charged 1h R2 #2	651
+302200989	[Claw] War Cry 2h R2 #1	651
+302200990	[Claw] War Cry 2h R2 #1	651
+302200991	[Claw] War Cry Charged 2h R2 #1 (Tick)	651
+302200992	[Claw] War Cry Charged 2h R2 #1 (Tick)	651
+302200987	[Claw] War Cry Charged 2h R2 #1	651
+302200988	[Claw] War Cry Charged 2h R2 #1	651
+302200995	[Claw] War Cry 2h R2 #2	651
+302200996	[Claw] War Cry 2h R2 #2	651
+302200997	[Claw] War Cry Charged 2h R2 #2 (Tick)	651
+302200993	[Claw] War Cry Charged 2h R2 #2	651
+302200994	[Claw] War Cry Charged 2h R2 #2	651
+306800981	[Beast Claw] War Cry 1h R2 #1	651
+306800982	[Beast Claw] War Cry Charged 1h R2 #1 (Tick)	651
+306800983	[Beast Claw] War Cry Charged 1h R2 #1 (Tick)	651
+306800980	[Beast Claw] War Cry Charged 1h R2 #1	651
+306800985	[Beast Claw] War Cry 1h R2 #2	651
+306800986	[Beast Claw] War Cry Charged 1h R2 #2 (Tick)	651
+306800984	[Beast Claw] War Cry Charged 1h R2 #2	651
+306800989	[Beast Claw] War Cry 2h R2 #1	651
+306800990	[Beast Claw] War Cry 2h R2 #1	651
+306800991	[Beast Claw] War Cry Charged 2h R2 #1 (Tick)	651
+306800992	[Beast Claw] War Cry Charged 2h R2 #1 (Tick)	651
+306800987	[Beast Claw] War Cry Charged 2h R2 #1	651
+306800988	[Beast Claw] War Cry Charged 2h R2 #1	651
+306800995	[Beast Claw] War Cry 2h R2 #2	651
+306800996	[Beast Claw] War Cry 2h R2 #2	651
+306800997	[Beast Claw] War Cry Charged 2h R2 #2 (Tick)	651
+306800993	[Beast Claw] War Cry Charged 2h R2 #2	651
+306800994	[Beast Claw] War Cry Charged 2h R2 #2	651
+300000125	Barbaric Roar - Roar	650
+300000126	Barbaric Roar - Roar (Lacking FP)	650
+300200953	[Straight Sword] Barbaric Roar 1h R2 #1 [1]	650
+300200954	[Straight Sword] Barbaric Roar 1h R2 #1 [2]	650
+300200955	[Straight Sword] Barbaric Roar 1h R2 #1 [3]	650
+300200950	[Straight Sword] Barbaric Roar Charged 1h R2 #1 [1]	650
+300200951	[Straight Sword] Barbaric Roar Charged 1h R2 #1 [2]	650
+300200952	[Straight Sword] Barbaric Roar Charged 1h R2 #1 [3]	650
+300200958	[Straight Sword] Barbaric Roar 1h R2 #2 [1]	650
+300200959	[Straight Sword] Barbaric Roar 1h R2 #2 [2]	650
+300200956	[Straight Sword] Barbaric Roar Charged 1h R2 #2 [1]	650
+300200957	[Straight Sword] Barbaric Roar Charged 1h R2 #2 [2]	650
+300200963	[Straight Sword] Barbaric Roar 2h R2 #1 [1]	650
+300200964	[Straight Sword] Barbaric Roar 2h R2 #1 [2]	650
+300200965	[Straight Sword] Barbaric Roar 2h R2 #1 [3]	650
+300200960	[Straight Sword] Barbaric Roar Charged 2h R2 #1 [1]	650
+300200961	[Straight Sword] Barbaric Roar Charged 2h R2 #1 [2]	650
+300200962	[Straight Sword] Barbaric Roar Charged 2h R2 #1 [3]	650
+300200968	[Straight Sword] Barbaric Roar 2h R2 #2 [1]	650
+300200969	[Straight Sword] Barbaric Roar 2h R2 #2 [2]	650
+300200966	[Straight Sword] Barbaric Roar Charged 2h R2 #2 [1]	650
+300200967	[Straight Sword] Barbaric Roar Charged 2h R2 #2 [2]	650
+306700953	[Light Greatsword] Barbaric Roar 1h R2 #1 [1]	650
+306700954	[Light Greatsword] Barbaric Roar 1h R2 #1 [2]	650
+306700955	[Light Greatsword] Barbaric Roar 1h R2 #1 [3]	650
+306700950	[Light Greatsword] Barbaric Roar Charged 1h R2 #1 [1]	650
+306700951	[Light Greatsword] Barbaric Roar Charged 1h R2 #1 [2]	650
+306700952	[Light Greatsword] Barbaric Roar Charged 1h R2 #1 [3]	650
+306700958	[Light Greatsword] Barbaric Roar 1h R2 #2 [1]	650
+306700959	[Light Greatsword] Barbaric Roar 1h R2 #2 [2]	650
+306700956	[Light Greatsword] Barbaric Roar Charged 1h R2 #2 [1]	650
+306700957	[Light Greatsword] Barbaric Roar Charged 1h R2 #2 [2]	650
+306700963	[Light Greatsword] Barbaric Roar 2h R2 #1 [1]	650
+306700964	[Light Greatsword] Barbaric Roar 2h R2 #1 [2]	650
+306700965	[Light Greatsword] Barbaric Roar 2h R2 #1 [3]	650
+306700960	[Light Greatsword] Barbaric Roar Charged 2h R2 #1 [1]	650
+306700961	[Light Greatsword] Barbaric Roar Charged 2h R2 #1 [2]	650
+306700962	[Light Greatsword] Barbaric Roar Charged 2h R2 #1 [3]	650
+306700968	[Light Greatsword] Barbaric Roar 2h R2 #2 [1]	650
+306700969	[Light Greatsword] Barbaric Roar 2h R2 #2 [2]	650
+306700966	[Light Greatsword] Barbaric Roar Charged 2h R2 #2 [1]	650
+306700967	[Light Greatsword] Barbaric Roar Charged 2h R2 #2 [2]	650
+300300953	[Greatsword] Barbaric Roar 1h R2 #1 [1]	650
+300300954	[Greatsword] Barbaric Roar 1h R2 #1 [2]	650
+300300955	[Greatsword] Barbaric Roar 1h R2 #1 [3]	650
+300300950	[Greatsword] Barbaric Roar Charged 1h R2 #1 [1]	650
+300300951	[Greatsword] Barbaric Roar Charged 1h R2 #1 [2]	650
+300300952	[Greatsword] Barbaric Roar Charged 1h R2 #1 [3]	650
+300300958	[Greatsword] Barbaric Roar 1h R2 #2	650
+300300956	[Greatsword] Barbaric Roar Charged 1h R2 #2	650
+300300963	[Greatsword] Barbaric Roar 2h R2 #1 [1]	650
+300300964	[Greatsword] Barbaric Roar 2h R2 #1 [2]	650
+300300965	[Greatsword] Barbaric Roar 2h R2 #1 [3]	650
+300300960	[Greatsword] Barbaric Roar Charged 2h R2 #1 [1]	650
+300300961	[Greatsword] Barbaric Roar Charged 2h R2 #1 [2]	650
+300300962	[Greatsword] Barbaric Roar Charged 2h R2 #1 [3]	650
+300300968	[Greatsword] Barbaric Roar 2h R2 #2	650
+300300966	[Greatsword] Barbaric Roar Charged 2h R2 #2	650
+300400953	[Colossal Sword] Barbaric Roar 1h R2 #1 [1]	650
+300400954	[Colossal Sword] Barbaric Roar 1h R2 #1 [2]	650
+300400955	[Colossal Sword] Barbaric Roar 1h R2 #1 [3]	650
+300400950	[Colossal Sword] Barbaric Roar Charged 1h R2 #1 [1]	650
+300400951	[Colossal Sword] Barbaric Roar Charged 1h R2 #1 [2]	650
+300400952	[Colossal Sword] Barbaric Roar Charged 1h R2 #1 [3]	650
+300400958	[Colossal Sword] Barbaric Roar 1h R2 #2	650
+300400956	[Colossal Sword] Barbaric Roar Charged 1h R2 #2	650
+300400963	[Colossal Sword] Barbaric Roar 2h R2 #1 [1]	650
+300400964	[Colossal Sword] Barbaric Roar 2h R2 #1 [2]	650
+300400965	[Colossal Sword] Barbaric Roar 2h R2 #1 [3]	650
+300400960	[Colossal Sword] Barbaric Roar Charged 2h R2 #1 [1]	650
+300400961	[Colossal Sword] Barbaric Roar Charged 2h R2 #1 [2]	650
+300400962	[Colossal Sword] Barbaric Roar Charged 2h R2 #1 [3]	650
+300400968	[Colossal Sword] Barbaric Roar 2h R2 #2	650
+300400966	[Colossal Sword] Barbaric Roar Charged 2h R2 #2	650
+300700953	[Curved Sword] Barbaric Roar 1h R2 #1 [1]	650
+300700954	[Curved Sword] Barbaric Roar 1h R2 #1 [2]	650
+300700955	[Curved Sword] Barbaric Roar 1h R2 #1 [3]	650
+300700950	[Curved Sword] Barbaric Roar Charged 1h R2 #1 [1]	650
+300700951	[Curved Sword] Barbaric Roar Charged 1h R2 #1 [2]	650
+300700952	[Curved Sword] Barbaric Roar Charged 1h R2 #1 [3]	650
+300700958	[Curved Sword] Barbaric Roar 1h R2 #2 [1]	650
+300700959	[Curved Sword] Barbaric Roar 1h R2 #2 [2]	650
+300700956	[Curved Sword] Barbaric Roar Charged 1h R2 #2 [1]	650
+300700957	[Curved Sword] Barbaric Roar Charged 1h R2 #2 [2]	650
+300700963	[Curved Sword] Barbaric Roar 2h R2 #1 [1]	650
+300700964	[Curved Sword] Barbaric Roar 2h R2 #1 [2]	650
+300700965	[Curved Sword] Barbaric Roar 2h R2 #1 [3]	650
+300700960	[Curved Sword] Barbaric Roar Charged 2h R2 #1 [1]	650
+300700961	[Curved Sword] Barbaric Roar Charged 2h R2 #1 [2]	650
+300700962	[Curved Sword] Barbaric Roar Charged 2h R2 #1 [3]	650
+300700968	[Curved Sword] Barbaric Roar 2h R2 #2 [1]	650
+300700969	[Curved Sword] Barbaric Roar 2h R2 #2 [2]	650
+300700966	[Curved Sword] Barbaric Roar Charged 2h R2 #2 [1]	650
+300700967	[Curved Sword] Barbaric Roar Charged 2h R2 #2 [2]	650
+300800953	[Curved Greatsword] Barbaric Roar 1h R2 #1 [1]	650
+300800954	[Curved Greatsword] Barbaric Roar 1h R2 #1 [2]	650
+300800955	[Curved Greatsword] Barbaric Roar 1h R2 #1 [3]	650
+300800950	[Curved Greatsword] Barbaric Roar Charged 1h R2 #1 [1]	650
+300800951	[Curved Greatsword] Barbaric Roar Charged 1h R2 #1 [2]	650
+300800952	[Curved Greatsword] Barbaric Roar Charged 1h R2 #1 [3]	650
+300800958	[Curved Greatsword] Barbaric Roar 1h R2 #2	650
+300800956	[Curved Greatsword] Barbaric Roar Charged 1h R2 #2	650
+300800963	[Curved Greatsword] Barbaric Roar 2h R2 #1 [1]	650
+300800964	[Curved Greatsword] Barbaric Roar 2h R2 #1 [2]	650
+300800965	[Curved Greatsword] Barbaric Roar 2h R2 #1 [3]	650
+300800960	[Curved Greatsword] Barbaric Roar Charged 2h R2 #1 [1]	650
+300800961	[Curved Greatsword] Barbaric Roar Charged 2h R2 #1 [2]	650
+300800962	[Curved Greatsword] Barbaric Roar Charged 2h R2 #1 [3]	650
+300800968	[Curved Greatsword] Barbaric Roar 2h R2 #2	650
+300800966	[Curved Greatsword] Barbaric Roar Charged 2h R2 #2	650
+300900953	[Katana] Barbaric Roar 1h R2 #1 [1]	650
+300900954	[Katana] Barbaric Roar 1h R2 #1 [2]	650
+300900955	[Katana] Barbaric Roar 1h R2 #1 [3]	650
+300900950	[Katana] Barbaric Roar Charged 1h R2 #1 [1]	650
+300900951	[Katana] Barbaric Roar Charged 1h R2 #1 [2]	650
+300900952	[Katana] Barbaric Roar Charged 1h R2 #1 [3]	650
+300900958	[Katana] Barbaric Roar 1h R2 #2 [1]	650
+300900959	[Katana] Barbaric Roar 1h R2 #2 [2]	650
+300900956	[Katana] Barbaric Roar Charged 1h R2 #2 [1]	650
+300900957	[Katana] Barbaric Roar Charged 1h R2 #2 [2]	650
+300900963	[Katana] Barbaric Roar 2h R2 #1 [1]	650
+300900964	[Katana] Barbaric Roar 2h R2 #1 [2]	650
+300900965	[Katana] Barbaric Roar 2h R2 #1 [3]	650
+300900960	[Katana] Barbaric Roar Charged 2h R2 #1 [1]	650
+300900961	[Katana] Barbaric Roar Charged 2h R2 #1 [2]	650
+300900962	[Katana] Barbaric Roar Charged 2h R2 #1 [3]	650
+300900968	[Katana] Barbaric Roar 2h R2 #2 [1]	650
+300900969	[Katana] Barbaric Roar 2h R2 #2 [2]	650
+300900966	[Katana] Barbaric Roar Charged 2h R2 #2 [1]	650
+300900967	[Katana] Barbaric Roar Charged 2h R2 #2 [2]	650
+300000953	[Great Katana] Barbaric Roar 1h R2 #1 [1]	650
+300000954	[Great Katana] Barbaric Roar 1h R2 #1 [2]	650
+300000955	[Great Katana] Barbaric Roar 1h R2 #1 [3]	650
+300000950	[Great Katana] Barbaric Roar Charged 1h R2 #1 [1]	650
+300000951	[Great Katana] Barbaric Roar Charged 1h R2 #1 [2]	650
+300000952	[Great Katana] Barbaric Roar Charged 1h R2 #1 [3]	650
+300000958	[Great Katana] Barbaric Roar 1h R2 #2 [1]	650
+300000959	[Great Katana] Barbaric Roar 1h R2 #2 [2]	650
+300000956	[Great Katana] Barbaric Roar Charged 1h R2 #2 [1]	650
+300000957	[Great Katana] Barbaric Roar Charged 1h R2 #2 [2]	650
+300000963	[Great Katana] Barbaric Roar 2h R2 #1 [1]	650
+300000964	[Great Katana] Barbaric Roar 2h R2 #1 [2]	650
+300000965	[Great Katana] Barbaric Roar 2h R2 #1 [3]	650
+300000960	[Great Katana] Barbaric Roar Charged 2h R2 #1 [1]	650
+300000961	[Great Katana] Barbaric Roar Charged 2h R2 #1 [2]	650
+300000962	[Great Katana] Barbaric Roar Charged 2h R2 #1 [3]	650
+300000968	[Great Katana] Barbaric Roar 2h R2 #2 [1]	650
+300000969	[Great Katana] Barbaric Roar 2h R2 #2 [2]	650
+300000966	[Great Katana] Barbaric Roar Charged 2h R2 #2 [1]	650
+300000967	[Great Katana] Barbaric Roar Charged 2h R2 #2 [2]	650
+301000953	[Twinblade] Barbaric Roar 1h R2 #1 [1]	650
+301000954	[Twinblade] Barbaric Roar 1h R2 #1 [2]	650
+301000955	[Twinblade] Barbaric Roar 1h R2 #1 [3]	650
+301000950	[Twinblade] Barbaric Roar Charged 1h R2 #1 [1]	650
+301000951	[Twinblade] Barbaric Roar Charged 1h R2 #1 [2]	650
+301000952	[Twinblade] Barbaric Roar Charged 1h R2 #1 [3]	650
+301000958	[Twinblade] Barbaric Roar 1h R2 #2	650
+301000956	[Twinblade] Barbaric Roar Charged 1h R2 #2	650
+301000963	[Twinblade] Barbaric Roar 2h R2 #1 [1]	650
+301000964	[Twinblade] Barbaric Roar 2h R2 #1 [2]	650
+301000965	[Twinblade] Barbaric Roar 2h R2 #1 [3]	650
+301000960	[Twinblade] Barbaric Roar Charged 2h R2 #1 [1]	650
+301000961	[Twinblade] Barbaric Roar Charged 2h R2 #1 [2]	650
+301000962	[Twinblade] Barbaric Roar Charged 2h R2 #1 [3]	650
+301000968	[Twinblade] Barbaric Roar 2h R2 #2	650
+301000966	[Twinblade] Barbaric Roar Charged 2h R2 #2	650
+301400953	[Axe] Barbaric Roar 1h R2 #1 [1]	650
+301400954	[Axe] Barbaric Roar 1h R2 #1 [2]	650
+301400955	[Axe] Barbaric Roar 1h R2 #1 [3]	650
+301400950	[Axe] Barbaric Roar Charged 1h R2 #1 [1]	650
+301400951	[Axe] Barbaric Roar Charged 1h R2 #1 [2]	650
+301400952	[Axe] Barbaric Roar Charged 1h R2 #1 [3]	650
+301400958	[Axe] Barbaric Roar 1h R2 #2 [1]	650
+301400959	[Axe] Barbaric Roar 1h R2 #2 [2]	650
+301400956	[Axe] Barbaric Roar Charged 1h R2 #2 [1]	650
+301400957	[Axe] Barbaric Roar Charged 1h R2 #2 [2]	650
+301400963	[Axe] Barbaric Roar 2h R2 #1 [1]	650
+301400964	[Axe] Barbaric Roar 2h R2 #1 [2]	650
+301400965	[Axe] Barbaric Roar 2h R2 #1 [3]	650
+301400960	[Axe] Barbaric Roar Charged 2h R2 #1 [1]	650
+301400961	[Axe] Barbaric Roar Charged 2h R2 #1 [2]	650
+301400962	[Axe] Barbaric Roar Charged 2h R2 #1 [3]	650
+301400968	[Axe] Barbaric Roar 2h R2 #2 [1]	650
+301400969	[Axe] Barbaric Roar 2h R2 #2 [2]	650
+301400966	[Axe] Barbaric Roar Charged 2h R2 #2 [1]	650
+301400967	[Axe] Barbaric Roar Charged 2h R2 #2 [2]	650
+301500953	[Greataxe] Barbaric Roar 1h R2 #1 [1]	650
+301500954	[Greataxe] Barbaric Roar 1h R2 #1 [2]	650
+301500955	[Greataxe] Barbaric Roar 1h R2 #1 [3]	650
+301500950	[Greataxe] Barbaric Roar Charged 1h R2 #1 [1]	650
+301500951	[Greataxe] Barbaric Roar Charged 1h R2 #1 [2]	650
+301500952	[Greataxe] Barbaric Roar Charged 1h R2 #1 [3]	650
+301500958	[Greataxe] Barbaric Roar 1h R2 #2	650
+301500956	[Greataxe] Barbaric Roar Charged 1h R2 #2	650
+301500963	[Greataxe] Barbaric Roar 2h R2 #1 [1]	650
+301500964	[Greataxe] Barbaric Roar 2h R2 #1 [2]	650
+301500965	[Greataxe] Barbaric Roar 2h R2 #1 [3]	650
+301500960	[Greataxe] Barbaric Roar Charged 2h R2 #1 [1]	650
+301500961	[Greataxe] Barbaric Roar Charged 2h R2 #1 [2]	650
+301500962	[Greataxe] Barbaric Roar Charged 2h R2 #1 [3]	650
+301500968	[Greataxe] Barbaric Roar 2h R2 #2	650
+301500966	[Greataxe] Barbaric Roar Charged 2h R2 #2	650
+301100953	[Hammer] Barbaric Roar 1h R2 #1 [1]	650
+301100954	[Hammer] Barbaric Roar 1h R2 #1 [2]	650
+301100955	[Hammer] Barbaric Roar 1h R2 #1 [3]	650
+301100950	[Hammer] Barbaric Roar Charged 1h R2 #1 [1]	650
+301100951	[Hammer] Barbaric Roar Charged 1h R2 #1 [2]	650
+301100952	[Hammer] Barbaric Roar Charged 1h R2 #1 [3]	650
+301100958	[Hammer] Barbaric Roar 1h R2 #2 [1]	650
+301100959	[Hammer] Barbaric Roar 1h R2 #2 [2]	650
+301100956	[Hammer] Barbaric Roar Charged 1h R2 #2 [1]	650
+301100957	[Hammer] Barbaric Roar Charged 1h R2 #2 [2]	650
+301100963	[Hammer] Barbaric Roar 2h R2 #1 [1]	650
+301100964	[Hammer] Barbaric Roar 2h R2 #1 [2]	650
+301100965	[Hammer] Barbaric Roar 2h R2 #1 [3]	650
+301100960	[Hammer] Barbaric Roar Charged 2h R2 #1 [1]	650
+301100961	[Hammer] Barbaric Roar Charged 2h R2 #1 [2]	650
+301100962	[Hammer] Barbaric Roar Charged 2h R2 #1 [3]	650
+301100968	[Hammer] Barbaric Roar 2h R2 #2 [1]	650
+301100969	[Hammer] Barbaric Roar 2h R2 #2 [2]	650
+301100966	[Hammer] Barbaric Roar Charged 2h R2 #2 [1]	650
+301100967	[Hammer] Barbaric Roar Charged 2h R2 #2 [2]	650
+301300953	[Flail] Barbaric Roar 1h R2 #1 [1]	650
+301300954	[Flail] Barbaric Roar 1h R2 #1 [2]	650
+301300955	[Flail] Barbaric Roar 1h R2 #1 [3]	650
+301300950	[Flail] Barbaric Roar Charged 1h R2 #1 [1]	650
+301300951	[Flail] Barbaric Roar Charged 1h R2 #1 [2]	650
+301300952	[Flail] Barbaric Roar Charged 1h R2 #1 [3]	650
+301300958	[Flail] Barbaric Roar 1h R2 #2 [1]	650
+301300959	[Flail] Barbaric Roar 1h R2 #2 [2]	650
+301300956	[Flail] Barbaric Roar Charged 1h R2 #2 [1]	650
+301300957	[Flail] Barbaric Roar Charged 1h R2 #2 [2]	650
+301300963	[Flail] Barbaric Roar 2h R2 #1 [1]	650
+301300964	[Flail] Barbaric Roar 2h R2 #1 [2]	650
+301300965	[Flail] Barbaric Roar 2h R2 #1 [3]	650
+301300960	[Flail] Barbaric Roar Charged 2h R2 #1 [1]	650
+301300961	[Flail] Barbaric Roar Charged 2h R2 #1 [2]	650
+301300962	[Flail] Barbaric Roar Charged 2h R2 #1 [3]	650
+301300968	[Flail] Barbaric Roar 2h R2 #2 [1]	650
+301300969	[Flail] Barbaric Roar 2h R2 #2 [2]	650
+301300966	[Flail] Barbaric Roar Charged 2h R2 #2 [1]	650
+301300967	[Flail] Barbaric Roar Charged 2h R2 #2 [2]	650
+301200953	[Great Hammer] Barbaric Roar 1h R2 #1 [1]	650
+301200954	[Great Hammer] Barbaric Roar 1h R2 #1 [2]	650
+301200955	[Great Hammer] Barbaric Roar 1h R2 #1 [3]	650
+301200950	[Great Hammer] Barbaric Roar Charged 1h R2 #1 [1]	650
+301200951	[Great Hammer] Barbaric Roar Charged 1h R2 #1 [2]	650
+301200952	[Great Hammer] Barbaric Roar Charged 1h R2 #1 [3]	650
+301200958	[Great Hammer] Barbaric Roar 1h R2 #2	650
+301200956	[Great Hammer] Barbaric Roar Charged 1h R2 #2	650
+301200963	[Great Hammer] Barbaric Roar 2h R2 #1 [1]	650
+301200964	[Great Hammer] Barbaric Roar 2h R2 #1 [2]	650
+301200965	[Great Hammer] Barbaric Roar 2h R2 #1 [3]	650
+301200960	[Great Hammer] Barbaric Roar Charged 2h R2 #1 [1]	650
+301200961	[Great Hammer] Barbaric Roar Charged 2h R2 #1 [2]	650
+301200962	[Great Hammer] Barbaric Roar Charged 2h R2 #1 [3]	650
+301200968	[Great Hammer] Barbaric Roar 2h R2 #2	650
+301200966	[Great Hammer] Barbaric Roar Charged 2h R2 #2	650
+302300953	[Colossal Weapon] Barbaric Roar 1h R2 #1 [1]	650
+302300954	[Colossal Weapon] Barbaric Roar 1h R2 #1 [2]	650
+302300955	[Colossal Weapon] Barbaric Roar 1h R2 #1 [3]	650
+302300950	[Colossal Weapon] Barbaric Roar Charged 1h R2 #1 [1]	650
+302300951	[Colossal Weapon] Barbaric Roar Charged 1h R2 #1 [2]	650
+302300952	[Colossal Weapon] Barbaric Roar Charged 1h R2 #1 [3]	650
+302300958	[Colossal Weapon] Barbaric Roar 1h R2 #2	650
+302300956	[Colossal Weapon] Barbaric Roar Charged 1h R2 #2	650
+302300963	[Colossal Weapon] Barbaric Roar 2h R2 #1 [1]	650
+302300964	[Colossal Weapon] Barbaric Roar 2h R2 #1 [2]	650
+302300965	[Colossal Weapon] Barbaric Roar 2h R2 #1 [3]	650
+302300960	[Colossal Weapon] Barbaric Roar Charged 2h R2 #1 [1]	650
+302300961	[Colossal Weapon] Barbaric Roar Charged 2h R2 #1 [2]	650
+302300962	[Colossal Weapon] Barbaric Roar Charged 2h R2 #1 [3]	650
+302300968	[Colossal Weapon] Barbaric Roar 2h R2 #2	650
+302300966	[Colossal Weapon] Barbaric Roar Charged 2h R2 #2	650
+301600953	[Spear] Barbaric Roar 1h R2 #1 [1]	650
+301600954	[Spear] Barbaric Roar 1h R2 #1 [2]	650
+301600955	[Spear] Barbaric Roar 1h R2 #1 [3]	650
+301600950	[Spear] Barbaric Roar Charged 1h R2 #1 [1]	650
+301600951	[Spear] Barbaric Roar Charged 1h R2 #1 [2]	650
+301600952	[Spear] Barbaric Roar Charged 1h R2 #1 [3]	650
+301600958	[Spear] Barbaric Roar 1h R2 #2	650
+301600956	[Spear] Barbaric Roar Charged 1h R2 #2	650
+301600963	[Spear] Barbaric Roar 2h R2 #1 [1]	650
+301600964	[Spear] Barbaric Roar 2h R2 #1 [2]	650
+301600965	[Spear] Barbaric Roar 2h R2 #1 [3]	650
+301600960	[Spear] Barbaric Roar Charged 2h R2 #1 [1]	650
+301600961	[Spear] Barbaric Roar Charged 2h R2 #1 [2]	650
+301600962	[Spear] Barbaric Roar Charged 2h R2 #1 [3]	650
+301600968	[Spear] Barbaric Roar 2h R2 #2	650
+301600966	[Spear] Barbaric Roar Charged 2h R2 #2	650
+301700953	[Great Spear] Barbaric Roar 1h R2 #1 [1]	650
+301700954	[Great Spear] Barbaric Roar 1h R2 #1 [2]	650
+301700955	[Great Spear] Barbaric Roar 1h R2 #1 [3]	650
+301700950	[Great Spear] Barbaric Roar Charged 1h R2 #1 [1]	650
+301700951	[Great Spear] Barbaric Roar Charged 1h R2 #1 [2]	650
+301700952	[Great Spear] Barbaric Roar Charged 1h R2 #1 [3]	650
+301700958	[Great Spear] Barbaric Roar 1h R2 #2	650
+301700956	[Great Spear] Barbaric Roar Charged 1h R2 #2	650
+301700963	[Great Spear] Barbaric Roar 2h R2 #1 [1]	650
+301700964	[Great Spear] Barbaric Roar 2h R2 #1 [2]	650
+301700965	[Great Spear] Barbaric Roar 2h R2 #1 [3]	650
+301700960	[Great Spear] Barbaric Roar Charged 2h R2 #1 [1]	650
+301700961	[Great Spear] Barbaric Roar Charged 2h R2 #1 [2]	650
+301700962	[Great Spear] Barbaric Roar Charged 2h R2 #1 [3]	650
+301700968	[Great Spear] Barbaric Roar 2h R2 #2	650
+301700966	[Great Spear] Barbaric Roar Charged 2h R2 #2	650
+301800953	[Halberd] Barbaric Roar 1h R2 #1 [1]	650
+301800954	[Halberd] Barbaric Roar 1h R2 #1 [2]	650
+301800955	[Halberd] Barbaric Roar 1h R2 #1 [3]	650
+301800950	[Halberd] Barbaric Roar Charged 1h R2 #1 [1]	650
+301800951	[Halberd] Barbaric Roar Charged 1h R2 #1 [2]	650
+301800952	[Halberd] Barbaric Roar Charged 1h R2 #1 [3]	650
+301800958	[Halberd] Barbaric Roar 1h R2 #2	650
+301800956	[Halberd] Barbaric Roar Charged 1h R2 #2	650
+301800963	[Halberd] Barbaric Roar 2h R2 #1 [1]	650
+301800964	[Halberd] Barbaric Roar 2h R2 #1 [2]	650
+301800965	[Halberd] Barbaric Roar 2h R2 #1 [3]	650
+301800960	[Halberd] Barbaric Roar Charged 2h R2 #1 [1]	650
+301800961	[Halberd] Barbaric Roar Charged 2h R2 #1 [2]	650
+301800962	[Halberd] Barbaric Roar Charged 2h R2 #1 [3]	650
+301800968	[Halberd] Barbaric Roar 2h R2 #2	650
+301800966	[Halberd] Barbaric Roar Charged 2h R2 #2	650
+301900953	[Reaper] Barbaric Roar 1h R2 #1 [1]	650
+301900954	[Reaper] Barbaric Roar 1h R2 #1 [2]	650
+301900955	[Reaper] Barbaric Roar 1h R2 #1 [3]	650
+301900950	[Reaper] Barbaric Roar Charged 1h R2 #1 [1]	650
+301900951	[Reaper] Barbaric Roar Charged 1h R2 #1 [2]	650
+301900952	[Reaper] Barbaric Roar Charged 1h R2 #1 [3]	650
+301900958	[Reaper] Barbaric Roar 1h R2 #2	650
+301900956	[Reaper] Barbaric Roar Charged 1h R2 #2	650
+301900963	[Reaper] Barbaric Roar 2h R2 #1 [1]	650
+301900964	[Reaper] Barbaric Roar 2h R2 #1 [2]	650
+301900965	[Reaper] Barbaric Roar 2h R2 #1 [3]	650
+301900960	[Reaper] Barbaric Roar Charged 2h R2 #1 [1]	650
+301900961	[Reaper] Barbaric Roar Charged 2h R2 #1 [2]	650
+301900962	[Reaper] Barbaric Roar Charged 2h R2 #1 [3]	650
+301900968	[Reaper] Barbaric Roar 2h R2 #2	650
+301900966	[Reaper] Barbaric Roar Charged 2h R2 #2	650
+302100953	[Fist] Barbaric Roar 1h R2 #1 [1]	650
+302100954	[Fist] Barbaric Roar 1h R2 #1 [2]	650
+302100955	[Fist] Barbaric Roar 1h R2 #1 [3]	650
+302100950	[Fist] Barbaric Roar Charged 1h R2 #1 [1]	650
+302100951	[Fist] Barbaric Roar Charged 1h R2 #1 [2]	650
+302100952	[Fist] Barbaric Roar Charged 1h R2 #1 [3]	650
+302100958	[Fist] Barbaric Roar 1h R2 #2 [1]	650
+302100959	[Fist] Barbaric Roar 1h R2 #2 [2]	650
+302100956	[Fist] Barbaric Roar Charged 1h R2 #2 [1]	650
+302100957	[Fist] Barbaric Roar Charged 1h R2 #2 [2]	650
+302100963	[Fist] Barbaric Roar 2h R2 #1 [1]	650
+302100964	[Fist] Barbaric Roar 2h R2 #1 [2]	650
+302100965	[Fist] Barbaric Roar 2h R2 #1 [3]	650
+302100960	[Fist] Barbaric Roar Charged 2h R2 #1 [1]	650
+302100961	[Fist] Barbaric Roar Charged 2h R2 #1 [2]	650
+302100962	[Fist] Barbaric Roar Charged 2h R2 #1 [3]	650
+302100968	[Fist] Barbaric Roar 2h R2 #2 [1]	650
+302100969	[Fist] Barbaric Roar 2h R2 #2 [2]	650
+302100966	[Fist] Barbaric Roar Charged 2h R2 #2 [1]	650
+302100967	[Fist] Barbaric Roar Charged 2h R2 #2 [2]	650
+306300953	[Hand-to-Hand] Barbaric Roar 1h R2 #1 [1]	650
+306300954	[Hand-to-Hand] Barbaric Roar 1h R2 #1 [2]	650
+306300955	[Hand-to-Hand] Barbaric Roar 1h R2 #1 [3]	650
+306300950	[Hand-to-Hand] Barbaric Roar Charged 1h R2 #1 [1]	650
+306300951	[Hand-to-Hand] Barbaric Roar Charged 1h R2 #1 [2]	650
+306300952	[Hand-to-Hand] Barbaric Roar Charged 1h R2 #1 [3]	650
+306300958	[Hand-to-Hand] Barbaric Roar 1h R2 #2 [1]	650
+306300959	[Hand-to-Hand] Barbaric Roar 1h R2 #2 [2]	650
+306300956	[Hand-to-Hand] Barbaric Roar Charged 1h R2 #2 [1]	650
+306300957	[Hand-to-Hand] Barbaric Roar Charged 1h R2 #2 [2]	650
+306300963	[Hand-to-Hand] Barbaric Roar 2h R2 #1 [1]	650
+306300964	[Hand-to-Hand] Barbaric Roar 2h R2 #1 [2]	650
+306300965	[Hand-to-Hand] Barbaric Roar 2h R2 #1 [3]	650
+306300960	[Hand-to-Hand] Barbaric Roar Charged 2h R2 #1 [1]	650
+306300961	[Hand-to-Hand] Barbaric Roar Charged 2h R2 #1 [2]	650
+306300962	[Hand-to-Hand] Barbaric Roar Charged 2h R2 #1 [3]	650
+306300968	[Hand-to-Hand] Barbaric Roar 2h R2 #2 [1]	650
+306300969	[Hand-to-Hand] Barbaric Roar 2h R2 #2 [2]	650
+306300966	[Hand-to-Hand] Barbaric Roar Charged 2h R2 #2 [1]	650
+306300967	[Hand-to-Hand] Barbaric Roar Charged 2h R2 #2 [2]	650
+302200953	[Claw] Barbaric Roar 1h R2 #1 [1]	650
+302200954	[Claw] Barbaric Roar 1h R2 #1 [2]	650
+302200955	[Claw] Barbaric Roar 1h R2 #1 [3]	650
+302200950	[Claw] Barbaric Roar Charged 1h R2 #1 [1]	650
+302200951	[Claw] Barbaric Roar Charged 1h R2 #1 [2]	650
+302200952	[Claw] Barbaric Roar Charged 1h R2 #1 [3]	650
+302200958	[Claw] Barbaric Roar 1h R2 #2 [1]	650
+302200959	[Claw] Barbaric Roar 1h R2 #2 [2]	650
+302200956	[Claw] Barbaric Roar Charged 1h R2 #2 [1]	650
+302200957	[Claw] Barbaric Roar Charged 1h R2 #2 [2]	650
+302200963	[Claw] Barbaric Roar 2h R2 #1 [1]	650
+302200964	[Claw] Barbaric Roar 2h R2 #1 [2]	650
+302200965	[Claw] Barbaric Roar 2h R2 #1 [3]	650
+302200960	[Claw] Barbaric Roar Charged 2h R2 #1 [1]	650
+302200961	[Claw] Barbaric Roar Charged 2h R2 #1 [2]	650
+302200962	[Claw] Barbaric Roar Charged 2h R2 #1 [3]	650
+302200968	[Claw] Barbaric Roar 2h R2 #2 [1]	650
+302200969	[Claw] Barbaric Roar 2h R2 #2 [2]	650
+302200966	[Claw] Barbaric Roar Charged 2h R2 #2 [1]	650
+302200967	[Claw] Barbaric Roar Charged 2h R2 #2 [2]	650
+306800953	[Beast Claw] Barbaric Roar 1h R2 #1 [1]	650
+306800954	[Beast Claw] Barbaric Roar 1h R2 #1 [2]	650
+306800955	[Beast Claw] Barbaric Roar 1h R2 #1 [3]	650
+306800950	[Beast Claw] Barbaric Roar Charged 1h R2 #1 [1]	650
+306800951	[Beast Claw] Barbaric Roar Charged 1h R2 #1 [2]	650
+306800952	[Beast Claw] Barbaric Roar Charged 1h R2 #1 [3]	650
+306800958	[Beast Claw] Barbaric Roar 1h R2 #2 [1]	650
+306800959	[Beast Claw] Barbaric Roar 1h R2 #2 [2]	650
+306800956	[Beast Claw] Barbaric Roar Charged 1h R2 #2 [1]	650
+306800957	[Beast Claw] Barbaric Roar Charged 1h R2 #2 [2]	650
+306800963	[Beast Claw] Barbaric Roar 2h R2 #1 [1]	650
+306800964	[Beast Claw] Barbaric Roar 2h R2 #1 [2]	650
+306800965	[Beast Claw] Barbaric Roar 2h R2 #1 [3]	650
+306800960	[Beast Claw] Barbaric Roar Charged 2h R2 #1 [1]	650
+306800961	[Beast Claw] Barbaric Roar Charged 2h R2 #1 [2]	650
+306800962	[Beast Claw] Barbaric Roar Charged 2h R2 #1 [3]	650
+306800968	[Beast Claw] Barbaric Roar 2h R2 #2 [1]	650
+306800969	[Beast Claw] Barbaric Roar 2h R2 #2 [2]	650
+306800966	[Beast Claw] Barbaric Roar Charged 2h R2 #2 [1]	650
+306800967	[Beast Claw] Barbaric Roar Charged 2h R2 #2 [2]	650
+300000130	Braggart's Roar - Roar	654
+300000131	Braggart's Roar - Roar (Lacking FP)	654
+300000850	Troll's Roar - Inner Roar	653
+300000854	Troll's Roar - Outer Roar	653
+300000852	Troll's Roar R2	653
+300000851	Troll's Roar R2 - Ground Impact?	653
+300000853	Troll's Roar R2 - Shockwave	653
+300000855	Troll's Roar - Roar (Lacking FP)	653
+300000857	Troll's Roar R2 (Lacking FP)	653
+300000856	Troll's Roar R2 - Ground Impact? (Lacking FP)	653
+300000220	[Dagger] Spinning Slash #1	103
+300000221	[Dagger] Spinning Slash #2 [1]	103
+300000222	[Dagger] Spinning Slash #2 [2]	103
+300000225	[Dagger] Spinning Slash #1 (Lacking FP)	103
+300000226	[Dagger] Spinning Slash #2 [1] (Lacking FP)	103
+300000227	[Dagger] Spinning Slash #2 [2] (Lacking FP)	103
+300000220	[Throwing Blade] Spinning Slash #1	103
+300000221	[Throwing Blade] Spinning Slash #2 [1]	103
+300000222	[Throwing Blade] Spinning Slash #2 [2]	103
+300000225	[Throwing Blade] Spinning Slash #1 (Lacking FP)	103
+300000226	[Throwing Blade] Spinning Slash #2 [1] (Lacking FP)	103
+300000227	[Throwing Blade] Spinning Slash #2 [2] (Lacking FP)	103
+300000220	[Straight Sword] Spinning Slash #1	103
+300000221	[Straight Sword] Spinning Slash #2 [1]	103
+300000222	[Straight Sword] Spinning Slash #2 [2]	103
+300000225	[Straight Sword] Spinning Slash #1 (Lacking FP)	103
+300000226	[Straight Sword] Spinning Slash #2 [1] (Lacking FP)	103
+300000227	[Straight Sword] Spinning Slash #2 [2] (Lacking FP)	103
+300000220	[Light Greatsword] Spinning Slash #1	103
+300000221	[Light Greatsword] Spinning Slash #2 [1]	103
+300000222	[Light Greatsword] Spinning Slash #2 [2]	103
+300000225	[Light Greatsword] Spinning Slash #1 (Lacking FP)	103
+300000226	[Light Greatsword] Spinning Slash #2 [1] (Lacking FP)	103
+300000227	[Light Greatsword] Spinning Slash #2 [2] (Lacking FP)	103
+300000220	[Curved Sword] Spinning Slash #1	103
+300000221	[Curved Sword] Spinning Slash #2 [1]	103
+300000222	[Curved Sword] Spinning Slash #2 [2]	103
+300000225	[Curved Sword] Spinning Slash #1 (Lacking FP)	103
+300000226	[Curved Sword] Spinning Slash #2 [1] (Lacking FP)	103
+300000227	[Curved Sword] Spinning Slash #2 [2] (Lacking FP)	103
+300000220	[Backhand Blade] Spinning Slash #1	103
+300000221	[Backhand Blade] Spinning Slash #2 [1]	103
+300000222	[Backhand Blade] Spinning Slash #2 [2]	103
+300000225	[Backhand Blade] Spinning Slash #1 (Lacking FP)	103
+300000226	[Backhand Blade] Spinning Slash #2 [1] (Lacking FP)	103
+300000227	[Backhand Blade] Spinning Slash #2 [2] (Lacking FP)	103
+300000220	[Katana] Spinning Slash #1	103
+300000221	[Katana] Spinning Slash #2 [1]	103
+300000222	[Katana] Spinning Slash #2 [2]	103
+300000225	[Katana] Spinning Slash #1 (Lacking FP)	103
+300000226	[Katana] Spinning Slash #2 [1] (Lacking FP)	103
+300000227	[Katana] Spinning Slash #2 [2] (Lacking FP)	103
+300000220	[Axe] Spinning Slash #1	103
+300000221	[Axe] Spinning Slash #2 [1]	103
+300000222	[Axe] Spinning Slash #2 [2]	103
+300000225	[Axe] Spinning Slash #1 (Lacking FP)	103
+300000226	[Axe] Spinning Slash #2 [1] (Lacking FP)	103
+300000227	[Axe] Spinning Slash #2 [2] (Lacking FP)	103
+300000230	[Var1] Spinning Slash #1	103
+300000231	[Var1] Spinning Slash #2 [1]	103
+300000232	[Var1] Spinning Slash #2 [2]	103
+300000235	[Var1] Spinning Slash #1 (Lacking FP)	103
+300000236	[Var1] Spinning Slash #2 [1] (Lacking FP)	103
+300000237	[Var1] Spinning Slash #2 [2] (Lacking FP)	103
+300000240	[Var2] Spinning Slash #1	103
+300000241	[Var2] Spinning Slash #2 [1]	103
+300000242	[Var2] Spinning Slash #2 [2]	103
+300000245	[Var2] Spinning Slash #1 (Lacking FP)	103
+300000246	[Var2] Spinning Slash #2 [1] (Lacking FP)	103
+300000247	[Var2] Spinning Slash #2 [2] (Lacking FP)	103
+300000250	[Twinblade] Spinning Slash #1	103
+300000251	[Twinblade] Spinning Slash #2 [1]	103
+300000252	[Twinblade] Spinning Slash #2 [2]	103
+300000255	[Twinblade] Spinning Slash #1 (Lacking FP)	103
+300000256	[Twinblade] Spinning Slash #2 [1] (Lacking FP)	103
+300000257	[Twinblade] Spinning Slash #2 [2] (Lacking FP)	103
+300000010	Impaling Thrust	101
+300000011	Impaling Thrust (Lacking FP)	101
+600000180	Blind Spot	4090
+600000181	Blind Spot	4090
+600000182	Blind Spot (Lacking FP)	4090
+600000183	Blind Spot (Lacking FP)	4090
+600000075	Swift Slash	4100
+600000079	Swift Slash - Bullet	4100
+600000070	Swift Slash Charged	4100
+600000074	Swift Slash Charged - Bullet	4100
+600000077	Swift Slash (Lacking FP)	4100
+600000072	Swift Slash Charged (lacking FP)	4100
+300000050	Piercing Fang	102
+300000051	Piercing Fang (Lacking FP)	102
+300000530	Repeating Thrust [1]	109
+300000531	Repeating Thrust [2]	109
+300000532	Repeating Thrust [3]	109
+300000533	Repeating Thrust [4]	109
+300000535	Repeating Thrust [1] (Lacking FP)	109
+300000536	Repeating Thrust [2] (Lacking FP)	109
+300000537	Repeating Thrust [3] (Lacking FP)	109
+300000538	Repeating Thrust [4] (Lacking FP)	109
+300100530	[Dagger] Repeating Thrust [1]	109
+300100531	[Dagger] Repeating Thrust [2]	109
+300100532	[Dagger] Repeating Thrust [3]	109
+300100533	[Dagger] Repeating Thrust [4]	109
+300100535	[Dagger] Repeating Thrust [1] (Lacking FP)	109
+300100536	[Dagger] Repeating Thrust [2] (Lacking FP)	109
+300100537	[Dagger] Repeating Thrust [3] (Lacking FP)	109
+300100538	[Dagger] Repeating Thrust [4] (Lacking FP)	109
+300000170	Double Slash #1 [1]	112
+300000171	Double Slash #1 [2]	112
+300000172	Double Slash #2 [1]	112
+300000173	Double Slash #2 [2]	112
+300000174	Double Slash #2 [3]	112
+300000175	Double Slash #3	112
+300000176	Double Slash #1 [1] (Lacking FP)	112
+300000177	Double Slash #1 [2] (Lacking FP)	112
+300000178	Double Slash #2 [1] (Lacking FP)	112
+300000179	Double Slash #2 [2] (Lacking FP)	112
+300000180	Double Slash #2 [3] (Lacking FP)	112
+300000181	Double Slash #3 (Lacking FP)	112
+300000185	[Slow] Double Slash #1 [1]	112
+300000186	[Slow] Double Slash #1 [2]	112
+300000187	[Slow] Double Slash #2 [1]	112
+300000188	[Slow] Double Slash #2 [2]	112
+300000189	[Slow] Double Slash #2 [3]	112
+300000190	[Slow] Double Slash #3	112
+300000191	[Slow] Double Slash #1 [1] (Lacking FP)	112
+300000192	[Slow] Double Slash #1 [2] (Lacking FP)	112
+300000193	[Slow] Double Slash #2 [1] (Lacking FP)	112
+300000194	[Slow] Double Slash #2 [2] (Lacking FP)	112
+300000195	[Slow] Double Slash #2 [3] (Lacking FP)	112
+300000196	[Slow] Double Slash #3 (Lacking FP)	112
+300000470	[Dagger] Sword Dance #1 [1]	124
+300000471	[Dagger] Sword Dance #1 [2]	124
+300000472	[Dagger] Sword Dance #2	124
+300000475	[Dagger] Sword Dance #1 [1] (Lacking FP)	124
+300000476	[Dagger] Sword Dance #1 [2] (Lacking FP)	124
+300000477	[Dagger] Sword Dance #2 (Lacking FP)	124
+300000470	[Throwing Blade] Sword Dance #1 [1]	124
+300000471	[Throwing Blade] Sword Dance #1 [2]	124
+300000472	[Throwing Blade] Sword Dance #2	124
+300000475	[Throwing Blade] Sword Dance #1 [1] (Lacking FP)	124
+300000476	[Throwing Blade] Sword Dance #1 [2] (Lacking FP)	124
+300000477	[Throwing Blade] Sword Dance #2 (Lacking FP)	124
+300000470	[Straight Sword] Sword Dance #1 [1]	124
+300000471	[Straight Sword] Sword Dance #1 [2]	124
+300000472	[Straight Sword] Sword Dance #2	124
+300000475	[Straight Sword] Sword Dance #1 [1] (Lacking FP)	124
+300000476	[Straight Sword] Sword Dance #1 [2] (Lacking FP)	124
+300000477	[Straight Sword] Sword Dance #2 (Lacking FP)	124
+300000470	[Light Greatsword] Sword Dance #1 [1]	124
+300000471	[Light Greatsword] Sword Dance #1 [2]	124
+300000472	[Light Greatsword] Sword Dance #2	124
+300000475	[Light Greatsword] Sword Dance #1 [1] (Lacking FP)	124
+300000476	[Light Greatsword] Sword Dance #1 [2] (Lacking FP)	124
+300000477	[Light Greatsword] Sword Dance #2 (Lacking FP)	124
+300000470	[Curved Sword] Sword Dance #1 [1]	124
+300000471	[Curved Sword] Sword Dance #1 [2]	124
+300000472	[Curved Sword] Sword Dance #2	124
+300000475	[Curved Sword] Sword Dance #1 [1] (Lacking FP)	124
+300000476	[Curved Sword] Sword Dance #1 [2] (Lacking FP)	124
+300000477	[Curved Sword] Sword Dance #2 (Lacking FP)	124
+300000470	[Backhand Blade] Sword Dance #1 [1]	124
+300000471	[Backhand Blade] Sword Dance #1 [2]	124
+300000472	[Backhand Blade] Sword Dance #2	124
+300000475	[Backhand Blade] Sword Dance #1 [1] (Lacking FP)	124
+300000476	[Backhand Blade] Sword Dance #1 [2] (Lacking FP)	124
+300000477	[Backhand Blade] Sword Dance #2 (Lacking FP)	124
+300000470	[Katana] Sword Dance #1 [1]	124
+300000471	[Katana] Sword Dance #1 [2]	124
+300000472	[Katana] Sword Dance #2	124
+300000475	[Katana] Sword Dance #1 [1] (Lacking FP)	124
+300000476	[Katana] Sword Dance #1 [2] (Lacking FP)	124
+300000477	[Katana] Sword Dance #2 (Lacking FP)	124
+300000470	[Axe] Sword Dance #1 [1]	124
+300000471	[Axe] Sword Dance #1 [2]	124
+300000472	[Axe] Sword Dance #2	124
+300000475	[Axe] Sword Dance #1 [1] (Lacking FP)	124
+300000476	[Axe] Sword Dance #1 [2] (Lacking FP)	124
+300000477	[Axe] Sword Dance #2 (Lacking FP)	124
+300000480	[Greatsword] Sword Dance #1 [1]	124
+300000481	[Greatsword] Sword Dance #1 [2]	124
+300000482	[Greatsword] Sword Dance #2	124
+300000485	[Greatsword] Sword Dance #1 [1] (Lacking FP)	124
+300000486	[Greatsword] Sword Dance #1 [2] (Lacking FP)	124
+300000487	[Greatsword] Sword Dance #2 (Lacking FP)	124
+300000480	[Curved Greatsword] Sword Dance #1 [1]	124
+300000481	[Curved Greatsword] Sword Dance #1 [2]	124
+300000482	[Curved Greatsword] Sword Dance #2	124
+300000485	[Curved Greatsword] Sword Dance #1 [1] (Lacking FP)	124
+300000486	[Curved Greatsword] Sword Dance #1 [2] (Lacking FP)	124
+300000487	[Curved Greatsword] Sword Dance #2 (Lacking FP)	124
+300000480	[Great Katana] Sword Dance #1 [1]	124
+300000481	[Great Katana] Sword Dance #1 [2]	124
+300000482	[Great Katana] Sword Dance #2	124
+300000485	[Great Katana] Sword Dance #1 [1] (Lacking FP)	124
+300000486	[Great Katana] Sword Dance #1 [2] (Lacking FP)	124
+300000487	[Great Katana] Sword Dance #2 (Lacking FP)	124
+300000480	[Greataxe] Sword Dance #1 [1]	124
+300000481	[Greataxe] Sword Dance #1 [2]	124
+300000482	[Greataxe] Sword Dance #2	124
+300000485	[Greataxe] Sword Dance #1 [1] (Lacking FP)	124
+300000486	[Greataxe] Sword Dance #1 [2] (Lacking FP)	124
+300000487	[Greataxe] Sword Dance #2 (Lacking FP)	124
+300000490	[Spear] Sword Dance #1 [1]	124
+300000491	[Spear] Sword Dance #1 [2]	124
+300000492	[Spear] Sword Dance #2	124
+300000495	[Spear] Sword Dance #1 [1] (Lacking FP)	124
+300000496	[Spear] Sword Dance #1 [2] (Lacking FP)	124
+300000497	[Spear] Sword Dance #2 (Lacking FP)	124
+300000490	[Halberd] Sword Dance #1 [1]	124
+300000491	[Halberd] Sword Dance #1 [2]	124
+300000492	[Halberd] Sword Dance #2	124
+300000495	[Halberd] Sword Dance #1 [1] (Lacking FP)	124
+300000496	[Halberd] Sword Dance #1 [2] (Lacking FP)	124
+300000497	[Halberd] Sword Dance #2 (Lacking FP)	124
+300000490	[Reaper] Sword Dance #1 [1]	124
+300000491	[Reaper] Sword Dance #1 [2]	124
+300000492	[Reaper] Sword Dance #2	124
+300000495	[Reaper] Sword Dance #1 [1] (Lacking FP)	124
+300000496	[Reaper] Sword Dance #1 [2] (Lacking FP)	124
+300000497	[Reaper] Sword Dance #2 (Lacking FP)	124
+301000490	[Twinblade] Sword Dance #1 [1]	124
+301000491	[Twinblade] Sword Dance #1 [2]	124
+301000492	[Twinblade] Sword Dance #2	124
+301000495	[Twinblade] Sword Dance #1 [1] (Lacking FP)	124
+301000496	[Twinblade] Sword Dance #1 [2] (Lacking FP)	124
+301000497	[Twinblade] Sword Dance #2 (Lacking FP)	124
+300000560	Unsheathe R1	114
+300000565	Unsheathe R2	114
+300000561	Unsheathe R1 (Lacking FP)	114
+300000566	Unsheathe R2 (Lacking FP)	114
+600000060	Overhead Stance R1	4110
+600000061	Overhead Stance R2 [1]	4110
+600000062	Overhead Stance R2 [2]	4110
+600000063	Overhead Stance R2 [3]	4110
+600000064	Overhead Stance R1 (Lacking FP)	4110
+600000065	Overhead Stance R2 [1] (Lacking FP)	4110
+600000066	Overhead Stance R2 [2] (Lacking FP)	4110
+600000067	Overhead Stance R2 [3] (Lacking FP)	4110
+300000840	Beast's Roar - Roar	652
+30000841	Beast's Roar - Bullet	652
+30000842	Beast's Roar - Bullet AoE	652
+300000845	Beast's Roar - Roar (Lacking FP)	652
+700000290	Savage Claws [1]	4070
+700000291	Savage Claws [2]	4070
+700000292	Savage Claws [3]	4070
+700000293	Savage Claws [4]	4070
+700000294	Savage Claws [5]	4070
+700000295	Savage Claws [6]	4070
+700000296	Savage Claws [1] (Lacking FP)	4070
+700000297	Savage Claws [2] (Lacking FP)	4070
+700000298	Savage Claws [3] (Lacking FP)	4070
+700000299	Savage Claws [4] (Lacking FP)	4070
+700000300	Savage Claws [5] (Lacking FP)	4070
+700000301	Savage Claws [6] (Lacking FP)	4070
+600000080	Raging Beast	4060
+600000082	Raging Beast R2 [1]	4060
+600000083	Raging Beast R2 [2]	4060
+600000090	Raging Beast (Lacking FP)	4060
+600000092	Raging Beast R2 [1] (Lacking FP)	4060
+600000093	Raging Beast R2 [2] (Lacking FP)	4060
+600000050	Piercing Throw	4020
+600000052	Piercing Throw (Lacking FP)	4020
+600000120	Scattershot Throw #1 [1]	4030
+600000121	Scattershot Throw #1 [2]	4030
+600000122	Scattershot Throw #2 [1]	4030
+600000123	Scattershot Throw #2 [2]	4030
+600000128	Scattershot Throw (Far)	4030
+600000129	Scattershot Throw (Lacking FP)	4030
+300000700	Square Off R1	115
+300000701	Square Off R1 (Lacking FP)	115
+300000705	Square Off R2	115
+300000706	Square Off R2 (Lacking FP)	115
+600000830	Wing Stance R1 [1]	4120
+600000831	Wing Stance R1 [2]	4120
+600000832	Wing Stance R1 [3]	4120
+600000836	Wing Stance R2	4120
+600000833	Wing Stance R1 [1] (Lacking FP)	4120
+600000834	Wing Stance R1 [2] (Lacking FP)	4120
+600000835	Wing Stance R1 [3] (Lacking FP)	4120
+600000837	Wing Stance R2 (Lacking FP)	4120
+301701900	Charge Forth [1]	105
+301701901	Charge Forth [2]	105
+301701902	Charge Forth [3]	105
+301701903	Charge Forth [4]	105
+301701904	Charge Forth [5]	105
+301701903	Charge Forth Early Release [1]	105
+301701905	Charge Forth Early Release [2]	105
+301701906	Charge Forth [1] (Lacking FP)	105
+301701907	Charge Forth [2] (Lacking FP)	105
+301701908	Charge Forth [3] (Lacking FP)	105
+301701909	Charge Forth [4] (Lacking FP)	105
+301701910	Charge Forth [5] (Lacking FP)	105
+301701909	Charge Forth Early Release [1] (Lacking FP)	105
+301701911	Charge Forth Early Release [2] (Lacking FP)	105
+300000910	Spinning Strikes - Loop	111
+300000911	Spinning Strikes R1 [1]	111
+300000912	Spinning Strikes R1 [2]	111
+300000913	Spinning Strikes R2 [1]	111
+300000914	Spinning Strikes R2 [2]	111
+300000920	Spinning Strikes - Bullet (Deflect Projectile AoE)	111
+300000915	Spinning Strikes - Loop (Lacking FP)	111
+300000916	Spinning Strikes R1 [1] (Lacking FP)	111
+300000917	Spinning Strikes R1 [2] (Lacking FP)	111
+300000918	Spinning Strikes R2 [1] (Lacking FP)	111
+300000919	Spinning Strikes R2 [2] (Lacking FP)	111
+301700910	Giant Hunt	116
+301700915	Giant Hunt (Lacking FP)	116
+300000407	Storm Blade #1	210
+300000408	Storm Blade #2	210
+300000409	Storm Blade #3	210
+300000410	Storm Blade - Bullet	210
+300000411	Storm Blade #1 (Lacking FP)	210
+300000412	Storm Blade #2 (Lacking FP)	210
+300000413	Storm Blade #3 (Lacking FP)	210
+300000461	Storm Assault - Bullet (Jump)	122
+300000462	Storm Assault - Bullet (Land)	122
+300000460	Storm Assault	122
+300000465	Storm Assault (Lacking FP)	122
+300000640	Stormcaller #1 [1]	123
+300000641	Stormcaller #1 [2]	123
+300000642	Stormcaller #1 [3]	123
+300000643	Stormcaller #1 [1] - Bullet	123
+300000644	Stormcaller #1 [2] - Bullet	123
+300000645	Stormcaller #1 [3] - Bullet	123
+300000649	Stormcaller #2 [1]	123
+300000650	Stormcaller #2 [2]	123
+300000651	Stormcaller #2 [1] - Bullet	123
+300000652	Stormcaller #2 [2] - Bullet	123
+300000655	Stormcaller #3 [1]	123
+300000656	Stormcaller #3 [2]	123
+300000657	Stormcaller #3 [1] - Bullet	123
+300000658	Stormcaller #3 [2] - Bullet	123
+300000646	Stormcaller #1 [1] (Lacking FP)	123
+300000647	Stormcaller #1 [2] (Lacking FP)	123
+300000648	Stormcaller #1 [3] (Lacking FP)	123
+300000653	Stormcaller #2 [1] (Lacking FP)	123
+300000654	Stormcaller #2 [2] (Lacking FP)	123
+300000659	Stormcaller #3 [1] (Lacking FP)	123
+300000660	Stormcaller #3 [2] (Lacking FP)	123
+30300870	Storm Stomp - Bullet	502
+30300871	Storm Stomp (Lacking FP)	502
+300000417	Vacuum Slice	220
+300000415	Vacuum Slice - Bullet	220
+300000416	Vacuum Slice (Lacking FP)	220
+301805002	Phantom Slash #1 - Bullet (Phantom)	225
+301805000	Phantom Slash #1	225
+301805012	Phantom Slash #2 - Bullet (Phantom)	225
+301805010	Phantom Slash #2	225
+301805001	Phantom Slash #1 (Lacking FP)	225
+301805011	Phantom Slash #2 (Lacking FP)	225
+300200890	Glintstone Pebble - Bullet	203
+300200895	Glintstone Pebble R2	203
+300200896	Glintstone Pebble (Lacking FP)	203
+300200897	Glintstone Pebble R2 (Lacking FP)	203
+300200867	Glintblade Phalanx - Bullet	200
+300200865	Glintblade Phalanx R2	200
+300200866	Glintblade Phalanx R2 (Lacking FP)	200
+300200910	Carian Greatsword	219
+300200911	Carian Greatsword Charged	219
+300200912	Carian Greatsword (Lacking FP)	219
+300200913	Carian Greatsword Charged (Lacking FP)	219
+300200870	Carian Grandeur	218
+300200871	Carian Grandeur Charged 1	218
+300200872	Carian Grandeur Charged 2	218
+300200875	Carian Grandeur (Lacking FP)	218
+300200876	Carian Grandeur Charged 1 (Lacking FP)	218
+300200877	Carian Grandeur Charged 2 (Lacking FP)	218
+700000021	Carian Sovereignty #1	4180
+700000023	Carian Sovereignty #2	4180
+700000020	Carian Sovereignty Charged #1	4180
+700000026	Carian Sovereignty Charged #1 - Bullet	4180
+700000022	Carian Sovereignty Charged #2	4180
+700000025	Carian Sovereignty #1 (Lacking FP)	4180
+700000025	Carian Sovereignty #2 (Lacking FP)	4180
+700000024	Carian Sovereignty Charged #1 (Lacking FP)	4180
+300000540	Spinning Weapon [1]	120
+300000541	Spinning Weapon [2]	120
+300000541	Spinning Weapon [3]	120
+300000541	Spinning Weapon [4]	120
+300000541	Spinning Weapon [5]	120
+300000541	Spinning Weapon [6]	120
+300000542	Spinning Weapon [7]	120
+300000545	Spinning Weapon [1] (Lacking FP)	120
+300000546	Spinning Weapon [2] (Lacking FP)	120
+300000546	Spinning Weapon [3] (Lacking FP)	120
+300000546	Spinning Weapon [4] (Lacking FP)	120
+300000546	Spinning Weapon [5] (Lacking FP)	120
+300000546	Spinning Weapon [6] (Lacking FP)	120
+300000547	Spinning Weapon [7] (Lacking FP)	120
+300100540	[Dagger] Spinning Weapon [1]	120
+300100541	[Dagger] Spinning Weapon [2]	120
+300100541	[Dagger] Spinning Weapon [3]	120
+300100541	[Dagger] Spinning Weapon [4]	120
+300100541	[Dagger] Spinning Weapon [5]	120
+300100541	[Dagger] Spinning Weapon [6]	120
+300100542	[Dagger] Spinning Weapon [7]	120
+300100545	[Dagger] Spinning Weapon [1] (Lacking FP)	120
+300100546	[Dagger] Spinning Weapon [2] (Lacking FP)	120
+300100546	[Dagger] Spinning Weapon [3] (Lacking FP)	120
+300100546	[Dagger] Spinning Weapon [4] (Lacking FP)	120
+300100546	[Dagger] Spinning Weapon [5] (Lacking FP)	120
+300100546	[Dagger] Spinning Weapon [6] (Lacking FP)	120
+300100547	[Dagger] Spinning Weapon [7] (Lacking FP)	120
+301000441	[Twinblade] Loretta's Slash [1]	118
+301000442	[Twinblade] Loretta's Slash [2]	118
+301000443	[Twinblade] Loretta's Slash [1] (Lacking FP)	118
+301000444	[Twinblade] Loretta's Slash [2] (Lacking FP)	118
+301600441	[Spear] Loretta's Slash [1]	118
+301600442	[Spear] Loretta's Slash [2]	118
+301600443	[Spear] Loretta's Slash [1] (Lacking FP)	118
+301600444	[Spear] Loretta's Slash [2] (Lacking FP)	118
+301700441	[Great Spear] Loretta's Slash [1]	118
+301700442	[Great Spear] Loretta's Slash [2]	118
+301700443	[Great Spear] Loretta's Slash [1] (Lacking FP)	118
+301700444	[Great Spear] Loretta's Slash [2] (Lacking FP)	118
+301800441	[Halberd] Loretta's Slash [1]	118
+301800442	[Halberd] Loretta's Slash [2]	118
+301800443	[Halberd] Loretta's Slash [1] (Lacking FP)	118
+301800444	[Halberd] Loretta's Slash [2] (Lacking FP)	118
+301900441	[Reaper] Loretta's Slash [1]	118
+301900442	[Reaper] Loretta's Slash [2]	118
+301900443	[Reaper] Loretta's Slash [1] (Lacking FP)	118
+301900444	[Reaper] Loretta's Slash [2] (Lacking FP)	118
+300300852	Gravitas	209
+30300850	Gravitas - Bullet (Stackable Inner)	209
+30300851	Gravitas - Bullet (Stackable Middle)	209
+30300852	Gravitas - Bullet (Stackable Outer)	209
+300300853	Gravitas (Lacking FP)	209
+300000810	Waves of Darkness [1]	508
+300000811	Waves of Darkness [2]	508
+30000812	Waves of Darkness - Bullet	508
+300000813	Waves of Darkness R2	508
+300000815	Waves of Darkness [1] (Lacking FP)	508
+300000816	Waves of Darkness [2] (Lacking FP)	508
+300000818	Waves of Darkness R2 (Lacking FP)	508
+300200821	Flaming Strike - Bullet	214
+300200825	Flaming Strike R2	214
+300200826	Flaming Strike (Lacking FP)	214
+300200827	Flaming Strike R2 (Lacking FP)	214
+30020930	Flame of the Redmanes - Bullet	505
+300000040	Eruption [1]	207
+300000043	Eruption [2]	207
+30000041	Eruption - Bullet (Initial Lava Tick)	207
+30000042	Eruption - Bullet (Lava Ticks)	207
+300000045	Eruption [1] (Lacking FP)	207
+300000046	Eruption [2] (Lacking FP)	207
+300000830	Prelate's Charge - Initial Attack	113
+30000831	Prelate's Charge - Bullet (Explosion)	113
+300000832	Prelate's Charge - Charge Tick [1]	113
+300000833	Prelate's Charge - Charge Tick [2]	113
+30000835	Prelate's Charge - Bullet (Fire Tick 1)	113
+30000836	Prelate's Charge - Bullet (Fire Tick 2)	113
+300000834	Prelate's Charge - Final Attack	113
+300000837	Prelate's Charge - Initial Attack (Lacking FP)	113
+300000838	Prelate's Charge - Charge Tick (Lacking FP)	113
+300000839	Prelate's Charge - Final Attack (Lacking FP)	113
+300000300	Black Flame Tornado - Loop Bullet	221
+300000301	Black Flame Tornado - Final Hit Bullet	221
+300000305	Black Flame Tornado - Loop (Lacking FP)	221
+300000306	Black Flame Tornado - Final Hit (Lacking FP)	221
+600000100	Flame Skewer	4140
+600000102	Flame Skewer R2 - Bullet	4140
+600000101	Flame Skewer (Lacking FP)	4140
+600000103	Flame Skewer R2 (Lacking FP)	4140
+600200100	[Straight Sword] Flame Skewer	4140
+600000102	[Straight Sword] Flame Skewer R2 - Bullet	4140
+600000101	[Straight Sword] Flame Skewer (Lacking FP)	4140
+600000103	[Straight Sword] Flame Skewer R2 (Lacking FP)	4140
+600200100	[Light Greatsword] Flame Skewer	4140
+600000102	[Light Greatsword] Flame Skewer R2 - Bullet	4140
+600000101	[Light Greatsword] Flame Skewer (Lacking FP)	4140
+600000103	[Light Greatsword] Flame Skewer R2 (Lacking FP)	4140
+600200100	[Thrusting Sword] Flame Skewer	4140
+600000102	[Thrusting Sword] Flame Skewer R2 - Bullet	4140
+600000101	[Thrusting Sword] Flame Skewer (Lacking FP)	4140
+600000103	[Thrusting Sword] Flame Skewer R2 (Lacking FP)	4140
+600600100	[Heavy Thrusting Sword] Flame Skewer	4140
+600000102	[Heavy Thrusting Sword] Flame Skewer R2 - Bullet	4140
+600000101	[Heavy Thrusting Sword] Flame Skewer (Lacking FP)	4140
+600000103	[Heavy Thrusting Sword] Flame Skewer R2 (Lacking FP)	4140
+600200100	[Katana] Flame Skewer	4140
+600000102	[Katana] Flame Skewer R2 - Bullet	4140
+600000101	[Katana] Flame Skewer (Lacking FP)	4140
+600000103	[Katana] Flame Skewer R2 (Lacking FP)	4140
+600200100	[Twinblade] Flame Skewer	4140
+600000102	[Twinblade] Flame Skewer R2 - Bullet	4140
+601000101	[Twinblade] Flame Skewer (Lacking FP)	4140
+600000103	[Twinblade] Flame Skewer R2 (Lacking FP)	4140
+600200100	[Spear] Flame Skewer	4140
+600000102	[Spear] Flame Skewer R2 - Bullet	4140
+600000101	[Spear] Flame Skewer (Lacking FP)	4140
+600000103	[Spear] Flame Skewer R2 (Lacking FP)	4140
+606100100	[Thrusting Shield] Flame Skewer	4140
+600000102	[Thrusting Shield] Flame Skewer R2 - Bullet	4140
+606100101	[Thrusting Shield] Flame Skewer (Lacking FP)	4140
+600000103	[Thrusting Shield] Flame Skewer R2 (Lacking FP)	4140
+600000190	Flame Spear	4170
+600000192	Flame Spear - Bullet	4170
+600000195	Flame Spear Charged	4170
+600000197	Flame Spear Charged - Bullet	4170
+600000191	Flame Spear (Lacking FP)	4170
+600000196	Flame Spear Charged (Lacking FP)	4170
+301600840	Thunderbolt - Bullet	216
+301600849	Thunderbolt - Bullet (Water AoE)	216
+301600845	Thunderbolt (Lacking FP)	216
+300000373	Lightning Slash - Stomp Lightning	217
+300000370	Lightning Slash	217
+300000371	Lightning Slash - Bullet	217
+301600849	Lightning Slash - Bullet (Water AoE)	217
+300000372	Lightning Slash (Lacking FP)	217
+600000210	Blinkbolt	4130
+600000211	Blinkbolt (Lacking FP)	4130
+300000710	Lightning Ram [1]	504
+300000711	Lightning Ram [2]	504
+300000715	Lightning Ram [1] (Lacking FP)	504
+300000716	Lightning Ram [2] (Lacking FP)	504
+300000166	Sacred Blade	201
+300000160	Sacred Blade - Bullet	201
+300000169	Sacred Blade (Lacking FP)	201
+301200820	Prayerful Strike	208
+301200821	Prayerful Strike (Lacking FP)	208
+300000570	Sacred Ring of Light #1	222
+300000571	Sacred Ring of Light #1 - Bullet	222
+300000572	Sacred Ring of Light #1 - Bullet (Far)	222
+300000575	Sacred Ring of Light #2	222
+300000576	Sacred Ring of Light #2 - Bullet	222
+300000577	Sacred Ring of Light #2 - Bullet (Far)	222
+300000580	Sacred Ring of Light #3	222
+300000581	Sacred Ring of Light #3 - Bullet	222
+300000582	Sacred Ring of Light #3 - Bullet (Far)	222
+300000573	Sacred Ring of Light #1 (Lacking FP)	222
+300000578	Sacred Ring of Light #2 (Lacking FP)	222
+300000583	Sacred Ring of Light #3 (Lacking FP)	222
+300000550	Golden Land [1]	213
+300000551	Golden Land [2]	213
+30000552	Golden Land - Bullet (Explosion)	213
+30000554	Golden Land - Bullet	213
+300000553	Golden Land R2	213
+300000555	Golden Land [1] (Lacking FP)	213
+300000556	Golden Land [2] (Lacking FP)	213
+300000558	Golden Land R2 (Lacking FP)	213
+300000800	Golden Slam - Tush	507
+300000801	Golden Slam - ?	507
+300000802	Golden Slam - Shockwave	507
+300000805	Golden Slam - Tush (Lacking FP)	507
+300000806	Golden Slam - Shockwave (Lacking FP)	507
+600000150	[Colossal Sword] Aspects of the Crucible: Wings	2001
+600000151	[Dagger] Aspects of the Crucible: Wings	2001
+600000151	[Throwing Blade] Aspects of the Crucible: Wings	2001
+600000152	[Straight Sword] Aspects of the Crucible: Wings	2001
+600000152	[Light Greatsword] Aspects of the Crucible: Wings	2001
+600000152	[Thrusting Sword] Aspects of the Crucible: Wings	2001
+600000152	[Curved Sword] Aspects of the Crucible: Wings	2001
+600000152	[Katana] Aspects of the Crucible: Wings	2001
+600000152	[Spear] Aspects of the Crucible: Wings	2001
+600000153	[Greatsword] Aspects of the Crucible: Wings	2001
+600000153	[Heavy Thrusting Sword] Aspects of the Crucible: Wings	2001
+600000153	[Curved Greatsword] Aspects of the Crucible: Wings	2001
+600000153	[Great Katana] Aspects of the Crucible: Wings	2001
+600000153	[Great Spear] Aspects of the Crucible: Wings	2001
+600000153	[Halberd] Aspects of the Crucible: Wings	2001
+600000160	[Twinblade] Aspects of the Crucible: Wings [1]	2001
+600000161	[Twinblade] Aspects of the Crucible: Wings [2]	2001
+600000162	[Twinblade] Aspects of the Crucible: Wings [3]	2001
+600000163	[Twinblade] Aspects of the Crucible: Wings [4]	2001
+600000164	[Twinblade] Aspects of the Crucible: Wings [5]	2001
+600000165	[Twinblade] Aspects of the Crucible: Wings [6]	2001
+600000166	[Twinblade] Aspects of the Crucible: Wings [7]	2001
+600000167	[Twinblade] Aspects of the Crucible: Wings [8]	2001
+300000165	Poisonous Mist	228
+300000162	Poisonous Mist - Bullet	228
+300000169	Poisonous Mist (Lacking FP)	228
+300000450	Poison Moth Flight	119
+300000455	Poison Moth Flight (Lacking FP)	119
+600000110	The Poison Flower Blooms Twice	5050
+600000111	The Poison Flower Blooms Twice - Bullet	5050
+600000112	The Poison Flower Blooms Twice (Lacking FP)	5050
+300000630	Blood Blade #1	224
+300000631	Blood Blade #1 - Bullet	224
+300000633	Blood Blade #2	224
+300000634	Blood Blade #2 - Bullet	224
+300000636	Blood Blade #3	224
+300000637	Blood Blade #3 - Bullet	224
+300000632	Blood Blade #1 (Lacking FP)	224
+300000635	Blood Blade #2 (Lacking FP)	224
+300000638	Blood Blade #3 (Lacking FP)	224
+300000057	Bloody Slash	204
+300000058	Bloody Slash (Lacking FP)	204
+300000055	[Greatsword] Bloody Slash	204
+300000056	[Greatsword] Bloody Slash (Lacking FP)	204
+300000055	[Curved Greatsword] Bloody Slash	204
+300000056	[Curved Greatsword] Bloody Slash (Lacking FP)	204
+300000055	[Great Katana] Bloody Slash	204
+300000056	[Great Katana] Bloody Slash (Lacking FP)	204
+300000310	Blood Tax [1]	108
+300000311	Blood Tax [2]	108
+300000312	Blood Tax [3]	108
+300000313	Blood Tax [4]	108
+300000315	Blood Tax [1] (Lacking FP)	108
+300000316	Blood Tax [2] (Lacking FP)	108
+300000317	Blood Tax [3] (Lacking FP)	108
+300000318	Blood Tax [4] (Lacking FP)	108
+300100310	[Dagger] Blood Tax [1]	108
+300100311	[Dagger] Blood Tax [2]	108
+300100312	[Dagger] Blood Tax [3]	108
+300100313	[Dagger] Blood Tax [4]	108
+300100315	[Dagger] Blood Tax [1] (Lacking FP)	108
+300100316	[Dagger] Blood Tax [2] (Lacking FP)	108
+300100317	[Dagger] Blood Tax [3] (Lacking FP)	108
+300100318	[Dagger] Blood Tax [4] (Lacking FP)	108
+300200077	Ice Spear - Startup Spin	202
+300200075	Ice Spear - Bullet	202
+300200078	Ice Spear - Startup Spin (Lacking FP)	202
+300200076	Ice Spear (Lacking FP)	202
+300000165	Chilling Mist	228
+300000161	Chilling Mist - Bullet	228
+300000169	Chilling Mist (Lacking FP)	228
+700000000	Ghostflame Call	4220
+700000003	Ghostflame Call - Bullet (Ticks)	4220
+700000004	Ghostflame Call - Bullet (Explosion)	4220
+700000001	Ghostflame Call R1	4220
+700000010	Ghostflame Call R1 - Bullet	4220
+700000005	Ghostflame Call R1 - Bullet (Ground Flame)	4220
+700000002	Ghostflame Call R2	4220
+700000006	Ghostflame Call R2 - Bullet	4220
+700000007	Ghostflame Call (Lacking FP)	4220
+700000008	Ghostflame Call R1 (Lacking FP)	4220
+700000009	Ghostflame Call R2 (Lacking FP)	4220
+30300863	Hoarfrost Stomp - Bullet (Ice Spikes)	501
+30300862	Hoarfrost Stomp - Bullet (Shatter)	501
+30300864	Hoarfrost Stomp (Lacking FP)	501
+600000204	Divine Beast Frost Stomp - Bullet (Ice Spikes)	4160
+600000206	Divine Beast Frost Stomp - Bullet (Shatter)	4160
+600000205	Divine Beast Frost Stomp Charged - Bullet (Ice Spikes)	4160
+600000207	Divine Beast Frost Stomp Charged - Bullet (Shatter)	4160
+600000201	Divine Beast Frost Stomp (Lacking FP)	4160
+600000203	Divine Beast Frost Stomp Charged (Lacking FP)	4160
+300000870	Spectral Lance - Bullet	226
+300000025	Lifesteal Fist - Grab	205
+300000026	Lifesteal Fist - Suck	205
+300000027	Lifesteal Fist - Final	205
+300000028	Lifesteal Fist (Lacking FP)	205
+300000120	Shriek of Sorrow	4190
+300000121	Shriek of Sorrow (Lacking FP)	4190
+600000001	Palm Blast	4010
+600000006	Palm Blast Charged	4010
+600000002	Palm Blast (Lacking FP)	4010
+600000007	Palm Blast Charged (Lacking FP)	4010
+600000130	Dryleaf Whirlwind [1]	2000
+600000131	Dryleaf Whirlwind [2]	2000
+600000132	Dryleaf Whirlwind [3]	2000
+600000133	Dryleaf Whirlwind [4]	2000
+600000134	Dryleaf Whirlwind [1] (Lacking FP)	2000
+600000135	Dryleaf Whirlwind [2] (Lacking FP)	2000
+600000136	Dryleaf Whirlwind [3] (Lacking FP)	2000
+600000137	Dryleaf Whirlwind [4] (Lacking FP)	2000
+600000022	Wall of Sparks - Bullet	4040
+600000023	Wall of Sparks - Bullet	4040
+600000020	Wall of Sparks - Bullet	4040
+600000021	Wall of Sparks - Bullet	4040
+600000031	Rolling Sparks - Bullet	4050
+600000023	Rolling Sparks - Bullet	4050
+600000030	Rolling Sparks - Bullet	4050
+300000670	Shield Bash	300
+300000671	Shield Bash (Lacking FP)	300
+306100670	[Thrusting Shield] Shield Bash	300
+306100671	[Thrusting Shield] Shield Bash (Lacking FP)	300
+300000780	Shield Crash [1]	308
+300000780	Shield Crash [2]	308
+300000780	Shield Crash [3]	308
+300000781	Shield Crash [4]	308
+300000782	Shield Crash [5]	308
+300000783	Shield Crash Early Release	308
+300000785	Shield Crash [1] (Lacking FP)	308
+300000785	Shield Crash [2] (Lacking FP)	308
+300000785	Shield Crash [3] (Lacking FP)	308
+300000786	Shield Crash [4] (Lacking FP)	308
+300000787	Shield Crash [5] (Lacking FP)	308
+300000788	Shield Crash Early Release (Lacking FP)	308
+300000690	Carian Retaliation - Parry	305
+300000680	Carian Retaliation - Bullet (Parry)	305
+300000682	Carian Retaliation - Bullet (Swords)	305
+300000683	Carian Retaliation - Bullet (Swords)	305
+3000400	[Small Shield] Shield Strike #1	8000
+3000410	[Small Shield] Shield Strike #2	8000
+3000420	[Small Shield] Shield Strike #3	8000
+3000430	[Small Shield] Shield Strike #4	8000
+3100400	[Medium Shield] Shield Strike #1	8000
+3100410	[Medium Shield] Shield Strike #2	8000
+3100420	[Medium Shield] Shield Strike #3	8000
+3100430	[Medium Shield] Shield Strike #4	8000
+3200400	[Greatshield] Shield Strike #1	8000
+3200410	[Greatshield] Shield Strike #2	8000
+3200420	[Greatshield] Shield Strike #3	8000
+6100400	[Thrusting Shield] Shield Strike #1	8000
+6100410	[Thrusting Shield] Shield Strike #2	8000
+6100420	[Thrusting Shield] Shield Strike #3	8000
+6100430	[Thrusting Shield] Shield Strike #4	8000
+300107901	Glintstone Dart - Bullet	1017
+300107900	Glintstone Dart Charged - Bullet	1017
+300107910	Glintstone Dart R2	1017
+300107906	Glintstone Dart (Lacking FP)	1017
+300107905	Glintstone Dart Charged (Lacking FP)	1017
+300107911	Glintstone Dart R2 (Lacking FP)	1017
+300104900	Reduvia Blood Blade #1	1016
+300104901	Reduvia Blood Blade #1 - Bullet	1016
+300104905	Reduvia Blood Blade #2	1016
+300104906	Reduvia Blood Blade #2 - Bullet	1016
+300104910	Reduvia Blood Blade #3	1016
+300104911	Reduvia Blood Blade #3 - Bullet	1016
+300104902	Reduvia Blood Blade #1 (Lacking FP)	1016
+300104907	Reduvia Blood Blade #2 (Lacking FP)	1016
+300104912	Reduvia Blood Blade #3 (Lacking FP)	1016
+300116900	Blade of Gold - Bullet	1037
+300116905	Blade of Gold (Lacking FP)	1037
+300101900	Blade of Death - Bullet	1036
+300101905	Blade of Death (Lacking FP)	1036
+303401000	Golden Tempering R2 (Right)	1052
+303401001	Golden Tempering R2 (Left)	1052
+303401005	Golden Tempering (Partial) Charged R2 - 2x (Right)	1052
+303401006	Golden Tempering (Partial) Charged R2 - 1x (Left)	1052
+303401000	Golden Tempering (Partial) Charged R2 (Right)	1052
+303401001	Golden Tempering (Partial) Charged R2 (Left)	1052
+303401005	Golden Tempering Charged R2 - 5x (Right)	1052
+303401006	Golden Tempering Charged R2 - 5x (Left)	1052
+303401007	Golden Tempering Charged R2 - Final (Right)	1052
+303401008	Golden Tempering Charged R2 - Final (Left)	1052
+300208910	Mists of Slumber	1023
+300208912	Mists of Slumber (Lacking FP)	1023
+700000401	Mists of Eternal Sleep	5110
+700000402	Mists of Eternal Sleep (Lacking FP)	5110
+300208921	Eochaid's Dancing Blade [1]	1055
+300208920	Eochaid's Dancing Blade [2]	1055
+300208920	Eochaid's Dancing Blade [3]	1055
+300208920	Eochaid's Dancing Blade [4]	1055
+300208920	Eochaid's Dancing Blade [5]	1055
+300208920	Eochaid's Dancing Blade [6]	1055
+300208920	Eochaid's Dancing Blade [7]	1055
+300208922	Eochaid's Dancing Blade [8]	1055
+300208923	Eochaid's Dancing Blade [9]	1055
+300208925	Eochaid's Dancing Blade Charged [1]	1055
+300208924	Eochaid's Dancing Blade Charged [2]	1055
+300208924	Eochaid's Dancing Blade Charged [3]	1055
+300208924	Eochaid's Dancing Blade Charged [4]	1055
+300208924	Eochaid's Dancing Blade Charged [5]	1055
+300208924	Eochaid's Dancing Blade Charged [6]	1055
+300208924	Eochaid's Dancing Blade Charged [7]	1055
+300208924	Eochaid's Dancing Blade Charged [8]	1055
+300208924	Eochaid's Dancing Blade Charged [9]	1055
+300208924	Eochaid's Dancing Blade Charged [10]	1055
+300208926	Eochaid's Dancing Blade Charged [11]	1055
+300208927	Eochaid's Dancing Blade Charged [12]	1055
+303400200	Unblockable Blade	1054
+303400201	Unblockable Blade (Lacking FP)	1054
+300214910	Night-and-Flame Stance R1	1019
+300214909	Night-and-Flame Stance R1 [1] - Bullet (Beam - Point Blank)	1019
+300214905	Night-and-Flame Stance R1 [2] - Bullet (Beam Loop 5x)	1019
+300214907	Night-and-Flame Stance R1 [2] - Bullet (Beam Loop 2x)	1019
+300214906	Night-and-Flame Stance R1 [3] - Bullet (Beam Loop 4x)	1019
+300214908	Night-and-Flame Stance R1 [4] - Bullet (Beam Final Hit)	1019
+300214910	Night-and-Flame Stance R1 (Lacking FP)	1019
+300214920	Night-and-Flame Stance R2	1019
+300214930	Night-and-Flame Stance R2	1019
+300214925	Night-and-Flame Stance R2 - Bullet (Fire)	1019
+300214926	Night-and-Flame Stance R2 - Bullet (Fire)	1019
+300214930	Night-and-Flame Stance R2 (Lacking FP)	1019
+600000880	Light - Bullet	5020
+600000890	Darkness - Bullet	5030
+600000500	Needle Piercer	5010
+600000501	Needle Piercer - Bullet (10x)	5010
+600000502	Needle Piercer (Lacking FP)	5010
+700000155	Moon-and-Fire Stance R1 #1 [1]	5170
+700000156	Moon-and-Fire Stance R1 #1 [2]	5170
+700000157	Moon-and-Fire Stance R1 #2 [1]	5170
+700000158	Moon-and-Fire Stance R1 #2 [2]	5170
+700000159	Moon-and-Fire Stance R1 #3	5170
+700000150	Moon-and-Fire Stance R1 #1 [1] - Bullet	5170
+700000151	Moon-and-Fire Stance R1 #1 [2] - Bullet	5170
+700000152	Moon-and-Fire Stance R1 #2 [1] - Bullet	5170
+700000153	Moon-and-Fire Stance R1 #2 [2] - Bullet	5170
+700000154	Moon-and-Fire Stance R1 #3 - Bullet	5170
+700000175	Moon-and-Fire Stance R2 [1]	5170
+700000176	Moon-and-Fire Stance R2 [2]	5170
+700000177	Moon-and-Fire Stance R2 [3]	5170
+700000170	Moon-and-Fire Stance R2 [1] - Bullet	5170
+700000171	Moon-and-Fire Stance R2 [2] - Bullet	5170
+700000172	Moon-and-Fire Stance R2 [3] - Bullet	5170
+700000173	Moon-and-Fire Stance R2 - Bullet (Fire Pillars)	5170
+700000160	Moon-and-Fire Stance R1 #1 [1] (Lacking FP)	5170
+700000161	Moon-and-Fire Stance R1 #1 [2] (Lacking FP)	5170
+700000162	Moon-and-Fire Stance R1 #2 [1] (Lacking FP)	5170
+700000163	Moon-and-Fire Stance R1 #2 [2] (Lacking FP)	5170
+700000164	Moon-and-Fire Stance R1 #3 (Lacking FP)	5170
+700000180	Moon-and-Fire Stance R2 [1] (Lacking FP)	5170
+700000181	Moon-and-Fire Stance R2 [2] (Lacking FP)	5170
+700000182	Moon-and-Fire Stance R2 [3] (Lacking FP)	5170
+303401702	Corpse Wax Cutter	1167
+303401700	Corpse Wax Cutter - Bullet	1167
+303401701	Corpse Wax Cutter (Lacking FP)	1167
+303401100	Shriek of Milos - Bullet (Shriek)	1015
+303401101	Shriek of Milos	1015
+303401102	Shriek of Milos	1015
+302400953	Shriek of Milos 1h R2 #1 [1]	1015
+302400954	Shriek of Milos 1h R2 #1 [2]	1015
+302400955	Shriek of Milos 1h R2 #1 [3]	1015
+302400950	Shriek of Milos Charged 1h R2 #1 [1]	1015
+302400951	Shriek of Milos Charged 1h R2 #1 [2]	1015
+302400952	Shriek of Milos Charged 1h R2 #1 [3]	1015
+302400958	Shriek of Milos 1h R2 #2	1015
+302400956	Shriek of Milos Charged 1h R2 #2	1015
+302400963	Shriek of Milos 2h R2 #1 [1]	1015
+302400964	Shriek of Milos 2h R2 #1 [2]	1015
+302400965	Shriek of Milos 2h R2 #1 [3]	1015
+302400960	Shriek of Milos Charged 2h R2 #1 [1]	1015
+302400961	Shriek of Milos Charged 2h R2 #1 [2]	1015
+302400962	Shriek of Milos Charged 2h R2 #1 [3]	1015
+302400968	Shriek of Milos 2h R2 #2	1015
+302400966	Shriek of Milos Charged 2h R2 #2	1015
+300307001	Eochaid's Dancing Blade [1]	1012
+300307000	Eochaid's Dancing Blade [2]	1012
+300307000	Eochaid's Dancing Blade [3]	1012
+300307000	Eochaid's Dancing Blade [4]	1012
+300307000	Eochaid's Dancing Blade [5]	1012
+300307000	Eochaid's Dancing Blade [6]	1012
+300307000	Eochaid's Dancing Blade [7]	1012
+300307002	Eochaid's Dancing Blade [8]	1012
+300307003	Eochaid's Dancing Blade [9]	1012
+300307006	Eochaid's Dancing Blade Charged [1]	1012
+300307005	Eochaid's Dancing Blade Charged [2]	1012
+300307005	Eochaid's Dancing Blade Charged [3]	1012
+300307005	Eochaid's Dancing Blade Charged [4]	1012
+300307005	Eochaid's Dancing Blade Charged [5]	1012
+300307005	Eochaid's Dancing Blade Charged [6]	1012
+300307005	Eochaid's Dancing Blade Charged [7]	1012
+300307005	Eochaid's Dancing Blade Charged [8]	1012
+300307005	Eochaid's Dancing Blade Charged [9]	1012
+300307005	Eochaid's Dancing Blade Charged [10]	1012
+300307007	Eochaid's Dancing Blade Charged [11]	1012
+300307008	Eochaid's Dancing Blade Charged [12]	1012
+600000820	Solitary Moon Slash	5430
+600000821	Solitary Moon Slash - Bullet	5430
+600000822	Solitary Moon Slash R2 (Startup Stagger)	5430
+600000823	Solitary Moon Slash R2	5430
+600000825	Solitary Moon Slash (Lacking FP)	5430
+600000827	Solitary Moon Slash R2 (Startup Stagger) (Lacking FP)	5430
+600000828	Solitary Moon Slash R2 (Lacking FP)	5430
+300306910	Ordovis's Vortex [1]	1198
+300306915	Ordovis's Vortex [2] - Bullet	1198
+300306900	Ordovis's Vortex Charged [1]	1198
+300306905	Ordovis's Vortex Charged [2] - Bullet	1198
+300306906	Ordovis's Vortex Charged [3] - Bullet	1198
+300306907	Ordovis's Vortex Charged [4] - Bullet	1198
+300306925	Ordovis's Vortex (Lacking FP)	1198
+300306920	Ordovis's Vortex Charged (Lacking FP)	1198
+303400700	Alabaster Lords' Pull	1040
+303400705	Alabaster Lords' Pull - Bullet (Stackable Inner)	1040
+303400706	Alabaster Lords' Pull - Bullet (Stackable Middle)	1040
+303400707	Alabaster Lords' Pull - Bullet (Stackable Outer)	1040
+303400702	Alabaster Lords' Pull (Lacking FP)	1040
+303401300	Ghostflame Ignition	1048
+303401303	Ghostflame Ignition - Bullet (Ticks)	1048
+303401304	Ghostflame Ignition - Bullet (Explosion)	1048
+303401301	Ghostflame Ignition R1	1048
+303401310	Ghostflame Ignition R1 - Bullet	1048
+303401305	Ghostflame Ignition R1 - Bullet (Ground Flame)	1048
+303401302	Ghostflame Ignition R2	1048
+303401306	Ghostflame Ignition R2 - Bullet	1048
+303401307	Ghostflame Ignition (Lacking FP)	1048
+303401308	Ghostflame Ignition R1 (Lacking FP)	1048
+303401309	Ghostflame Ignition R2 (Lacking FP)	1048
+303401400	Ruinous Ghostflame	1021
+300314906	Taker's Flames	1014
+300314902	Taker's Flames - Bullet	1014
+300314905	Taker's Flames (Lacking FP)	1014
+300317900	Establish Order #1 - Bullet	1022
+300317905	Establish Order #2 [1]	1022
+300317906	Establish Order #2 [2]	1022
+300317910	Establish Order #2 - Bullet	1022
+300317911	Establish Order #2 - Bullet	1022
+300317912	Establish Order ? - Bullet	1022
+300317915	Establish Order #2 [1] (Lacking FP)	1022
+300317916	Establish Order #2 [2] (Lacking FP)	1022
+301001	Moonlight Greatsword R2 - Bullet	1008
+301002	Moonlight Greatsword Charged R2 - Bullet	1008
+301003	Moonlight Greatsword 1h R2 #1	1008
+301004	Moonlight Greatsword 1h Charged R2 #1	1008
+301005	Moonlight Greatsword 1h R2 #2	1008
+301006	Moonlight Greatsword 1h Charged R2 #2	1008
+301007	Moonlight Greatsword 2h R2 #1	1008
+301008	Moonlight Greatsword 2h Charged R2 #1	1008
+301009	Moonlight Greatsword 2h R2 #2	1008
+301010	Moonlight Greatsword 2h Charged R2 #2	1008
+600000861	Golden Crux - Grab	5220
+600000862	Golden Crux - Grab Confirm	5220
+600000860	Golden Crux #1	5220
+600000863	Golden Crux #2 - Bullet	5220
+600000865	Golden Crux #1 (Lacking FP)	5220
+600000868	Golden Crux #2 (Lacking FP)	5220
+300310900	Wave of Gold	1020
+300310905	Wave of Gold - Bullet	1020
+300310906	Wave of Gold - Bullet	1020
+300310907	Wave of Gold - Bullet	1020
+300310908	Wave of Gold - Bullet	1020
+300310901	Wave of Gold (Lacking FP)	1020
+700000052	Tremendous Phalanx - Bullet (Swords)	5550
+700000050	Tremendous Phalanx R2	5550
+700000051	Tremendous Phalanx R2 (Lacking FP)	5550
+300406905	Wolf's Assault	1025
+300406910	Wolf's Assault - Bullet	1025
+300406900	Wolf's Assault ?	1025
+300406915	Wolf's Assault (Lacking FP)	1025
+303400600	Wave of Destruction	1033
+303400605	Wave of Destruction - Bullet	1033
+303400601	Wave of Destruction (Lacking FP)	1033
+600000530	White Light Charge #1	5240
+600000535	White Light Charge #2 - Bullet	5240
+600000531	White Light Charge #1 (Lacking FP)	5240
+600000536	White Light Charge #2 (Lacking FP)	5240
+300405900	Starcaller Cry	1032
+300405901	Starcaller Cry	1032
+300405902	Starcaller Cry	1032
+300405903	Starcaller Cry	1032
+300405904	Starcaller Cry	1032
+300405910	Starcaller Cry	1032
+300405911	Starcaller Cry	1032
+300405915	Starcaller Cry - Bullet	1032
+300405920	Starcaller Cry	1032
+300405921	Starcaller Cry	1032
+300405925	Starcaller Cry	1032
+300405926	Starcaller Cry	1032
+300405927	Starcaller Cry	1032
+300405928	Starcaller Cry	1032
+700000100	Promised Consort #1 [1]	5150
+700000120	Promised Consort #1 - Bullet	5150
+700000101	Promised Consort #1 [2]	5150
+700000120	Promised Consort #1 - Bullet	5150
+700000102	Promised Consort #2 [1]	5150
+700000120	Promised Consort #2 - Bullet	5150
+700000103	Promised Consort #2 [2]	5150
+700000120	Promised Consort #2 - Bullet	5150
+700000104	Promised Consort #3 [1]	5150
+700000120	Promised Consort #3 - Bullet	5150
+700000105	Promised Consort #3 [2]	5150
+700000106	Promised Consort #3 [3]	5150
+700000140	Promised Consort #3 - Bullet	5150
+700000110	Promised Consort #1 [1] (Lacking FP)	5150
+700000111	Promised Consort #1 [2] (Lacking FP)	5150
+700000112	Promised Consort #2 [1] (Lacking FP)	5150
+700000113	Promised Consort #2 [2] (Lacking FP)	5150
+700000114	Promised Consort #3 [1] (Lacking FP)	5150
+700000115	Promised Consort #3 [2] (Lacking FP)	5150
+700000116	Promised Consort #3 [3] (Lacking FP)	5150
+700000070	Lightspeed Slash	5580
+700000071	Lightspeed Slash - Bullet	5580
+700000072	Lightspeed Slash - Bullet	5580
+700000075	Lightspeed Slash Charged	5580
+700000076	Lightspeed Slash Charged - Bullet	5580
+700000077	Lightspeed Slash Charged - Bullet	5580
+300800301	The Queen's Black Flame #1 [1]	1170
+300800300	The Queen's Black Flame #1 [2]	1170
+300800305	The Queen's Black Flame #2	1170
+300800301	The Queen's Black Flame #1 [1] (Lacking FP)	1170
+300800310	The Queen's Black Flame #1 [2] (Lacking FP)	1170
+300800315	The Queen's Black Flame #2 (Lacking FP)	1170
+300408900	Destined Death [1]	1038
+300408901	Destined Death [2]	1038
+300408905	Destined Death - Bullet	1038
+300408906	Destined Death - Bullet	1038
+300408907	Destined Death - Bullet	1038
+300408910	Destined Death [1] (Lacking FP)	1038
+300408911	Destined Death [2] (Lacking FP)	1038
+300000010	Impaling Thrust	5590
+300000011	Impaling Thrust (Lacking FP)	5590
+300602900	Dynast's Finesse - Backstep	1171
+300602901	Dynast's Finesse R2 #1	1171
+300602902	Dynast's Finesse R2 #2 [1]	1171
+300602903	Dynast's Finesse R2 #2 [2]	1171
+300602905	Dynast's Finesse - Backstep (Lacking FP)	1171
+300602906	Dynast's Finesse R2 #1 (Lacking FP)	1171
+300602907	Dynast's Finesse R2 #2 [1] (Lacking FP)	1171
+300602908	Dynast's Finesse R2 #2 [2] (Lacking FP)	1171
+303401201	Thundercloud Form [1] - Uncharged/Partial Loop 1-3x	1026
+303401202	Thundercloud Form [2]	1026
+303401201	Thundercloud Form Charged [1] - Loop 6x	1026
+303401200	Thundercloud Form Charged [2]	1026
+303400500	Magma Shower #1	1172
+303400501	Magma Shower #2 [1]	1172
+303400502	Magma Shower #2 [2]	1172
+303400506	Magma Shower - Bullet	1172
+303400507	Magma Shower - Bullet	1172
+303400503	Magma Shower #1 (Lacking FP)	1172
+303400504	Magma Shower #2 [1] (Lacking FP)	1172
+303400505	Magma Shower #2 [2] (Lacking FP)	1172
+700000030	Rancor Slash #1 [1]	5250
+700000031	Rancor Slash #1 [2]	5250
+700000032	Rancor Slash #2	5250
+700000033	Rancor Slash - Bullet	5250
+700000036	Rancor Slash #1 [1] (Lacking FP)	5250
+700000037	Rancor Slash #1 [2] (Lacking FP)	5250
+700000038	Rancor Slash #2 (Lacking FP)	5250
+300702900	Flowing Form	1018
+300702901	Flowing Form (Lacking FP)	1018
+300707900	Nebula - Bullet	1173
+300707901	Nebula - Bullet	1173
+300707902	Nebula - Bullet	1173
+300707905	Nebula (Lacking FP)	1173
+600000612	Revenger's Blade [1]	5100
+600000613	Revenger's Blade [2]	5100
+600000610	Revenger's Blade Charged [1]	5100
+600000611	Revenger's Blade Charged [2]	5100
+600000614	Revenger's Blade R1 [1]	5100
+600000615	Revenger's Blade R1 [2]	5100
+600000616	Revenger's Blade R1 [3]	5100
+600000617	Revenger's Blade R1 [4]	5100
+600000618	Revenger's Blade R1 [5]	5100
+600000619	Revenger's Blade R1 [6]	5100
+600000620	Revenger's Blade R1 [7]	5100
+600000623	Revenger's Blade [1] (Lacking FP)	5100
+600000624	Revenger's Blade [2] (Lacking FP)	5100
+600000621	Revenger's Blade Charged [1] (Lacking FP)	5100
+600000622	Revenger's Blade Charged [2] (Lacking FP)	5100
+600000625	Revenger's Blade R1 [1] (Lacking FP)	5100
+600000626	Revenger's Blade R1 [2] (Lacking FP)	5100
+600000627	Revenger's Blade R1 [3] (Lacking FP)	5100
+600000628	Revenger's Blade R1 [4] (Lacking FP)	5100
+600000629	Revenger's Blade R1 [5] (Lacking FP)	5100
+600000630	Revenger's Blade R1 [6] (Lacking FP)	5100
+600000631	Revenger's Blade R1 [7] (Lacking FP)	5100
+600000670	Unending Dance	5090
+600000677	Unending Dance - Loop [1]	5090
+600000671	Unending Dance - Loop [2]	5090
+600000672	Unending Dance - Loop [3]	5090
+600000678	Unending Dance - Loop [4]	5090
+600000673	Unending Dance - Loop [5]	5090
+600000679	Unending Dance - Loop [6]	5090
+600000674	Unending Dance - Loop [7]	5090
+600000680	Unending Dance - Loop [8]	5090
+600000675	Unending Dance - Loop [9]	5090
+600000681	Unending Dance - Loop [10]	5090
+600000682	Unending Dance - Loop [11]	5090
+600000676	Unending Dance - Loop [12]	5090
+600000683	Unending Dance (Lacking FP)	5090
+600000690	Unending Dance - Loop [1] (Lacking FP)	5090
+600000684	Unending Dance - Loop [2] (Lacking FP)	5090
+600000685	Unending Dance - Loop [3] (Lacking FP)	5090
+600000691	Unending Dance - Loop [4] (Lacking FP)	5090
+600000686	Unending Dance - Loop [5] (Lacking FP)	5090
+600000692	Unending Dance - Loop [6] (Lacking FP)	5090
+600000687	Unending Dance - Loop [7] (Lacking FP)	5090
+600000693	Unending Dance - Loop [8] (Lacking FP)	5090
+600000688	Unending Dance - Loop [9] (Lacking FP)	5090
+600000694	Unending Dance - Loop [10] (Lacking FP)	5090
+600000695	Unending Dance - Loop [11] (Lacking FP)	5090
+600000689	Unending Dance - Loop [12] (Lacking FP)	5090
+300300852	Horn Calling	5530
+700000061	Horn Calling - Bullet	5530
+700000060	Horn Calling - Bullet	5530
+300300853	Horn Calling (Lacking FP)	5530
+300710900	Death Flare - Bullet	1174
+300710901	Death Flare - Bullet	1174
+300710905	Death Flare (Lacking FP)	1174
+300804900	Bloodhound's Finesse	1175
+300804901	Bloodhound's Finesse R2	1175
+300804905	Bloodhound's Finesse (Lacking FP)	1175
+300804906	Bloodhound's Finesse R2 (Lacking FP)	1175
+303400800	Onyx Lord's Repulsion	1041
+303400805	Onyx Lord's Repulsion - Bullet (Stackable Inner)	1041
+303400806	Onyx Lord's Repulsion - Bullet (Stackable Middle)	1041
+303400807	Onyx Lord's Repulsion - Bullet (Stackable Outer)	1041
+303400801	Onyx Lord's Repulsion (Lacking FP)	1041
+303401604	Zamor Ice Storm	1168
+303401600	Zamor Ice Storm - Bullet	1168
+303401601	Zamor Ice Storm - Bullet (4x)	1168
+303401605	Zamor Ice Storm (Lacking FP)	1168
+300729000	Magma Guillotine #1	1176
+300729001	Magma Guillotine - Bullet (Explosion)	1176
+300729002	Magma Guillotine - Bullet (Lava)	1176
+300729003	Magma Guillotine #2 [1]	1176
+300729004	Magma Guillotine #2 [2]	1176
+300729005	Magma Guillotine #1 (Lacking FP)	1176
+300729006	Magma Guillotine #2 [1] (Lacking FP)	1176
+300729007	Magma Guillotine #2 [2] (Lacking FP)	1176
+700000370	Horn Calling: Storm #1 [1]	5540
+700000373	Horn Calling: Storm #1 [1] - Bullet	5540
+700000371	Horn Calling: Storm #1 [2]	5540
+700000374	Horn Calling: Storm #1 [2] - Bullet	5540
+700000379	Horn Calling: Storm #2 [1]	5540
+700000381	Horn Calling: Storm #2 [1] - Bullet	5540
+700000380	Horn Calling: Storm #2 [2]	5540
+700000382	Horn Calling: Storm #2 [2] - Bullet	5540
+700000385	Horn Calling: Storm #3 [1]	5540
+700000387	Horn Calling: Storm #3 [1] - Bullet	5540
+700000386	Horn Calling: Storm #3 [2]	5540
+700000388	Horn Calling: Storm #3 [2] - Bullet	5540
+700000376	Horn Calling: Storm #1 [1] (Lacking FP)	5540
+700000377	Horn Calling: Storm #1 [2] (Lacking FP)	5540
+700000383	Horn Calling: Storm #2 [1] (Lacking FP)	5540
+700000384	Horn Calling: Storm #2 [2] (Lacking FP)	5540
+700000389	Horn Calling: Storm #3 [1] (Lacking FP)	5540
+700000390	Horn Calling: Storm #3 [2] (Lacking FP)	5540
+300810905	Cursed-Blood Slice #1	1027
+300810906	Cursed-Blood Slice #2	1027
+300810908	Cursed-Blood Slice - Bullet	1027
+300810900	Cursed-Blood Slice ?	1027
+300810907	Cursed-Blood Slice - Bullet ?	1027
+300810910	Cursed-Blood Slice #1 (Lacking FP)	1027
+300810911	Cursed-Blood Slice #2 (Lacking FP)	1027
+600000570	Deadly Dance #1 [1]	5350
+600000571	Deadly Dance #1 [2]	5350
+600000570	Deadly Dance #1 [3]	5350
+600000571	Deadly Dance #1 [4]	5350
+600000572	Deadly Dance #2	5350
+600000573	Deadly Dance #1 [1] (Lacking FP)	5350
+600000574	Deadly Dance #1 [2] (Lacking FP)	5350
+600000573	Deadly Dance #1 [3] (Lacking FP)	5350
+600000574	Deadly Dance #1 [4] (Lacking FP)	5350
+600000575	Deadly Dance #2 (Lacking FP)	5350
+303400101	Transient Moonlight R1	1178
+303400100	Transient Moonlight R1 - Bullet	1178
+303400106	Transient Moonlight R2	1178
+303400105	Transient Moonlight R2 - Bullet	1178
+300000561	Transient Moonlight R1 (Lacking FP)	1178
+300000566	Transient Moonlight R2 (Lacking FP)	1178
+700000270	Witching Hour Slash [1]	5260
+700000271	Witching Hour Slash [2]	5260
+700000272	Witching Hour Slash [3]	5260
+700000273	Witching Hour Slash Charged [1]	5260
+700000274	Witching Hour Slash Charged [2]	5260
+700000275	Witching Hour Slash Charged [3]	5260
+700000276	Witching Hour Slash [1] (Lacking FP)	5260
+700000277	Witching Hour Slash [2] (Lacking FP)	5260
+700000278	Witching Hour Slash [3] (Lacking FP)	5260
+700000279	Witching Hour Slash Charged [1] (Lacking FP)	5260
+700000280	Witching Hour Slash Charged [2] (Lacking FP)	5260
+700000281	Witching Hour Slash Charged [3] (Lacking FP)	5260
+303400300	Corpse Piler #1 [1]	1177
+303400320	Corpse Piler #1 [1] - Blood Extension	1177
+303400301	Corpse Piler #1 [2]	1177
+303400321	Corpse Piler #1 [2] - Blood Extension	1177
+303400302	Corpse Piler #2 [1]	1177
+303400322	Corpse Piler #2 [1] - Blood Extension	1177
+303400303	Corpse Piler #2 [2]	1177
+303400323	Corpse Piler #2 [2] - Blood Extension	1177
+303400304	Corpse Piler #2 [3]	1177
+303400324	Corpse Piler #2 [3] - Blood Extension	1177
+303400305	Corpse Piler #3	1177
+303400325	Corpse Piler #3 - Blood Extension	1177
+303400310	Corpse Piler #1 [1] (Lacking FP)	1177
+303400311	Corpse Piler #1 [2] (Lacking FP)	1177
+303400312	Corpse Piler #2 [1] (Lacking FP)	1177
+303400313	Corpse Piler #2 [2] (Lacking FP)	1177
+303400314	Corpse Piler #2 [3] (Lacking FP)	1177
+303400315	Corpse Piler #3 (Lacking FP)	1177
+300900114	Ice Lightning Sword - Stomp Lightning	1043
+300900100	Ice Lightning Sword	1043
+30090011	Ice Lightning Sword - Bullet	1043
+30090012	Ice Lightning Sword - Bullet (Water AoE)	1043
+300900113	Ice Lightning Sword (Lacking FP)	1043
+700000330	Onze's Line of Stars #1 [1]	5040
+700000331	Onze's Line of Stars #1 [2]	5040
+700000332	Onze's Line of Stars #2 [1]	5040
+700000333	Onze's Line of Stars #2 [2]	5040
+700000334	Onze's Line of Stars #3 [1]	5040
+700000335	Onze's Line of Stars #3 [2]	5040
+700000336	Onze's Line of Stars #1 [1] (Lacking FP)	5040
+700000337	Onze's Line of Stars #1 [2] (Lacking FP)	5040
+700000338	Onze's Line of Stars #2 [1] (Lacking FP)	5040
+700000339	Onze's Line of Stars #2 [2] (Lacking FP)	5040
+700000340	Onze's Line of Stars #3 [1] (Lacking FP)	5040
+700000341	Onze's Line of Stars #3 [2] (Lacking FP)	5040
+300900205	Waterfowl Dance #1 [1]	1028
+300900206	Waterfowl Dance #1 [2]	1028
+300900207	Waterfowl Dance #1 [3]	1028
+300900208	Waterfowl Dance #1 [4]	1028
+300900209	Waterfowl Dance #2 [1]	1028
+300900210	Waterfowl Dance #2 [2]	1028
+300900211	Waterfowl Dance #3 [1]	1028
+300900212	Waterfowl Dance #3 [2]	1028
+300900213	Waterfowl Dance #3 [3]	1028
+300900201	Waterfowl Dance #3 [4]	1028
+300900214	Waterfowl Dance #1 [1] (Lacking FP)	1028
+300900215	Waterfowl Dance #1 [2] (Lacking FP)	1028
+300900216	Waterfowl Dance #1 [3] (Lacking FP)	1028
+300900217	Waterfowl Dance #1 [4] (Lacking FP)	1028
+300900218	Waterfowl Dance #2 [1] (Lacking FP)	1028
+300900219	Waterfowl Dance #2 [2] (Lacking FP)	1028
+300900220	Waterfowl Dance #3 [1] (Lacking FP)	1028
+300900221	Waterfowl Dance #3 [2] (Lacking FP)	1028
+300900222	Waterfowl Dance #3 [3] (Lacking FP)	1028
+600000520	Dragonwound Slash	5000
+600000522	Dragonwound Slash Charged	5000
+600000523	Dragonwound Slash Charged - Bullet	5000
+600000524	Dragonwound Slash (Lacking FP)	5000
+600000525	Dragonwound Slash Charged (Lacking FP)	5000
+600000900	Weed Cutter #1 [1]	5450
+600000901	Weed Cutter #1 [2]	5450
+600000902	Weed Cutter #2 [1]	5450
+600000903	Weed Cutter #2 [2]	5450
+600000904	Weed Cutter #3 [1]	5450
+600000905	Weed Cutter #3 [2]	5450
+600000910	Weed Cutter #1 [1] (Lacking FP)	5450
+600000911	Weed Cutter #1 [2] (Lacking FP)	5450
+600000912	Weed Cutter #2 [1] (Lacking FP)	5450
+600000913	Weed Cutter #2 [2] (Lacking FP)	5450
+600000914	Weed Cutter #3 [1] (Lacking FP)	5450
+600000915	Weed Cutter #3 [2] (Lacking FP)	5450
+301005906	Bloodblade Dance #1 [1]	1179
+301005905	Bloodblade Dance #1 [2]	1179
+301005910	Bloodblade Dance #1 [3]	1179
+301005900	Bloodblade Dance #1 [4]	1179
+301005901	Bloodblade Dance #1 [5]	1179
+301005910	Bloodblade Dance #1 [6]	1179
+301005902	Bloodblade Dance #1 [7]	1179
+301005903	Bloodblade Dance #1 [8]	1179
+301005904	Bloodblade Dance #1 [9]	1179
+301005910	Bloodblade Dance #2 [1]	1179
+301005920	Bloodblade Dance #2 [2]	1179
+301005921	Bloodblade Dance #2 [3]	1179
+301005920	Bloodblade Dance #1 [1] (Lacking FP)	1179
+301005921	Bloodblade Dance #1 [2] (Lacking FP)	1179
+301005910	Bloodblade Dance #1 [3] (Lacking FP)	1179
+301005915	Bloodblade Dance #1 [4] (Lacking FP)	1179
+301005916	Bloodblade Dance #1 [5] (Lacking FP)	1179
+301005910	Bloodblade Dance #1 [6] (Lacking FP)	1179
+301005917	Bloodblade Dance #1 [7] (Lacking FP)	1179
+301005918	Bloodblade Dance #1 [8] (Lacking FP)	1179
+301005919	Bloodblade Dance #1 [9] (Lacking FP)	1179
+301005910	Bloodblade Dance #2 [1] (Lacking FP)	1179
+301005925	Bloodblade Dance #2 [2] (Lacking FP)	1179
+301005926	Bloodblade Dance #2 [3] (Lacking FP)	1179
+600000790	Euporia Vortex [1]	5270
+600000790	Euporia Vortex [2]	5270
+600000790	Euporia Vortex [3]	5270
+600000790	Euporia Vortex [4]	5270
+600000790	Euporia Vortex [5]	5270
+600000801	[Luster Tier 1] Euporia Vortex - Bullet	5270
+600000792	[Luster Tier 1] Euporia Vortex [1]	5270
+600000802	[Luster Tier 1] Euporia Vortex - Bullet	5270
+600000801	[Luster Tier 1] Euporia Vortex - Bullet	5270
+600000792	[Luster Tier 1] Euporia Vortex [2]	5270
+600000802	[Luster Tier 1] Euporia Vortex - Bullet	5270
+600000801	[Luster Tier 1] Euporia Vortex - Bullet	5270
+600000802	[Luster Tier 1] Euporia Vortex - Bullet	5270
+600000792	[Luster Tier 1] Euporia Vortex [3]	5270
+600000801	[Luster Tier 1] Euporia Vortex - Bullet	5270
+600000802	[Luster Tier 1] Euporia Vortex - Bullet	5270
+600000792	[Luster Tier 1] Euporia Vortex [4]	5270
+600000803	[Luster Tier 1] Euporia Vortex - Bullet	5270
+600000792	[Luster Tier 1] Euporia Vortex [5]	5270
+600000793	[Luster Tier 2] Euporia Vortex [1]	5270
+600000811	[Luster Tier 2] Euporia Vortex - Bullet	5270
+600000812	[Luster Tier 2] Euporia Vortex - Bullet	5270
+600000811	[Luster Tier 2] Euporia Vortex - Bullet	5270
+600000793	[Luster Tier 2] Euporia Vortex [2]	5270
+600000812	[Luster Tier 2] Euporia Vortex - Bullet	5270
+600000811	[Luster Tier 2] Euporia Vortex - Bullet	5270
+600000793	[Luster Tier 2] Euporia Vortex [3]	5270
+600000812	[Luster Tier 2] Euporia Vortex - Bullet	5270
+600000811	[Luster Tier 2] Euporia Vortex - Bullet	5270
+600000793	[Luster Tier 2] Euporia Vortex [4]	5270
+600000812	[Luster Tier 2] Euporia Vortex - Bullet	5270
+600000811	[Luster Tier 2] Euporia Vortex - Bullet	5270
+600000812	[Luster Tier 2] Euporia Vortex - Bullet	5270
+600000793	[Luster Tier 2] Euporia Vortex [5]	5270
+600000811	[Luster Tier 2] Euporia Vortex - Bullet	5270
+600000812	[Luster Tier 2] Euporia Vortex - Bullet	5270
+600000793	[Luster Tier 2] Euporia Vortex [6]	5270
+600000811	[Luster Tier 2] Euporia Vortex - Bullet	5270
+600000812	[Luster Tier 2] Euporia Vortex - Bullet	5270
+600000793	[Luster Tier 2] Euporia Vortex [7]	5270
+600000811	[Luster Tier 2] Euporia Vortex - Bullet	5270
+600000812	[Luster Tier 2] Euporia Vortex - Bullet	5270
+600000811	[Luster Tier 2] Euporia Vortex - Bullet	5270
+600000793	[Luster Tier 2] Euporia Vortex [8]	5270
+600000812	[Luster Tier 2] Euporia Vortex - Bullet	5270
+600000811	[Luster Tier 2] Euporia Vortex - Bullet	5270
+600000793	[Luster Tier 2] Euporia Vortex [9]	5270
+600000812	[Luster Tier 2] Euporia Vortex - Bullet	5270
+600000811	[Luster Tier 2] Euporia Vortex - Bullet	5270
+600000793	[Luster Tier 2] Euporia Vortex [10]	5270
+600000812	[Luster Tier 2] Euporia Vortex - Bullet	5270
+600000811	[Luster Tier 2] Euporia Vortex - Bullet	5270
+600000812	[Luster Tier 2] Euporia Vortex - Bullet	5270
+600000793	[Luster Tier 2] Euporia Vortex [11]	5270
+600000811	[Luster Tier 2] Euporia Vortex - Bullet	5270
+600000812	[Luster Tier 2] Euporia Vortex - Bullet	5270
+600000813	[Luster Tier 2] Euporia Vortex - Bullet	5270
+600000793	Euporia Vortex [1] (Lacking FP)	5270
+600000793	Euporia Vortex [2] (Lacking FP)	5270
+600000793	Euporia Vortex [3] (Lacking FP)	5270
+600000793	Euporia Vortex [4] (Lacking FP)	5270
+600000793	Euporia Vortex [5] (Lacking FP)	5270
+300000595	Dragonform Flame	5570
+700000420	Dragonform Flame - Bullet	5570
+700000421	Dragonform Flame - Bullet (Ground Fire)	5570
+300000595	Dragonform Flame (Lacking FP)	5570
+301414900	Thunderstorm #1 [1]	1186
+301414901	Thunderstorm #1 [2]	1186
+301414902	Thunderstorm #1 [3]	1186
+301414905	Thunderstorm #1 [1] - Bullet	1186
+301414906	Thunderstorm #1 [2] - Bullet	1186
+301414907	Thunderstorm #1 [3] - Bullet	1186
+301414915	Thunderstorm #2 [1]	1186
+301414916	Thunderstorm #2 [2]	1186
+301414920	Thunderstorm #2 [1] - Bullet	1186
+301414921	Thunderstorm #2 [2] - Bullet	1186
+301414930	Thunderstorm #3 [1]	1186
+301414931	Thunderstorm #3 [2]	1186
+301414935	Thunderstorm #3 [1] - Bullet	1186
+301414936	Thunderstorm #3 [2] - Bullet	1186
+301414910	Thunderstorm #1 [1] (Lacking FP)	1186
+301414911	Thunderstorm #1 [2] (Lacking FP)	1186
+301414912	Thunderstorm #1 [3] (Lacking FP)	1186
+301414925	Thunderstorm #2 [1] (Lacking FP)	1186
+301414926	Thunderstorm #2 [2] (Lacking FP)	1186
+301414940	Thunderstorm #3 [1] (Lacking FP)	1186
+301414941	Thunderstorm #3 [2] (Lacking FP)	1186
+301412902	Rosus's Summons - Bullet (Skeleton - Front)	1185
+301412903	Rosus's Summons - Bullet (Skeleton - Right)	1185
+301412904	Rosus's Summons - Bullet (Skeleton - Left)	1185
+301412940	Rosus's Summons	1185
+301412945	Rosus's Summons (Lacking FP)	1185
+600000750	Blinkbolt: Twinaxe	5130
+700000311	Blinkbolt: Twinaxe R2 [1]	5130
+700000312	Blinkbolt: Twinaxe R2 [2]	5130
+700000313	Blinkbolt: Twinaxe R2 [3]	5130
+700000314	Blinkbolt: Twinaxe R2 [4]	5130
+700000315	Blinkbolt: Twinaxe R2 [5]	5130
+700000316	Blinkbolt: Twinaxe R2 [6]	5130
+700000317	Blinkbolt: Twinaxe (Lacking FP)	5130
+700000318	Blinkbolt: Twinaxe R2 [1] (Lacking FP)	5130
+700000319	Blinkbolt: Twinaxe R2 [2] (Lacking FP)	5130
+700000320	Blinkbolt: Twinaxe R2 [3] (Lacking FP)	5130
+700000321	Blinkbolt: Twinaxe R2 [4] (Lacking FP)	5130
+700000322	Blinkbolt: Twinaxe R2 [5] (Lacking FP)	5130
+700000323	Blinkbolt: Twinaxe R2 [6] (Lacking FP)	5130
+600000750	Blinkbolt: Long-hafted Axe	5140
+600000751	Blinkbolt: Long-hafted Axe R2	5140
+600000752	Blinkbolt: Long-hafted Axe R2 - Bullet	5140
+600000753	Blinkbolt: Long-hafted Axe (Lacking FP)	5140
+600000754	Blinkbolt: Long-hafted Axe R2 (Lacking FP)	5140
+301504900	"I Command Thee	 Kneel #1 [1]"	1030
+301504905	"I Command Thee	 Kneel #1 [1] - Bullet"	1030
+301504906	"I Command Thee	 Kneel #1 [1] - Bullet"	1030
+301504907	"I Command Thee	 Kneel #1 [1] - Bullet"	1030
+301504908	"I Command Thee	 Kneel #1 [1] - Bullet"	1030
+301504910	"I Command Thee	 Kneel #1 [2]"	1030
+301504915	"I Command Thee	 Kneel #1 [2] - Bullet"	1030
+301504916	"I Command Thee	 Kneel #1 [2] - Bullet"	1030
+301504917	"I Command Thee	 Kneel #1 [2] - Bullet"	1030
+301504918	"I Command Thee	 Kneel #1 [2] - Bullet"	1030
+301504920	"I Command Thee	 Kneel #2"	1030
+301504925	"I Command Thee	 Kneel #2 - Bullet"	1030
+301504926	"I Command Thee	 Kneel #2 - Bullet"	1030
+301504927	"I Command Thee	 Kneel #2 - Bullet"	1030
+301504928	"I Command Thee	 Kneel #2 - Bullet"	1030
+301504930	"I Command Thee	 Kneel #1 [1] (Lacking FP)"	1030
+301504935	"I Command Thee	 Kneel #1 [2] (Lacking FP)"	1030
+301504940	"I Command Thee	 Kneel #2 (Lacking FP)"	1030
+700000250	Spinning Guillotine #1	5080
+700000251	Spinning Guillotine #2 [1]	5080
+700000252	Spinning Guillotine #2 [2]	5080
+700000253	Spinning Guillotine #2 [3]	5080
+700000254	Spinning Guillotine R2 [1]	5080
+700000255	Spinning Guillotine R2 [2]	5080
+700000256	Spinning Guillotine R2 [3]	5080
+700000257	Spinning Guillotine #1 (Lacking FP)	5080
+700000258	Spinning Guillotine #2 [1] (Lacking FP)	5080
+700000259	Spinning Guillotine #2 [2] (Lacking FP)	5080
+700000260	Spinning Guillotine #2 [3] (Lacking FP)	5080
+700000261	Spinning Guillotine R2 [1] (Lacking FP)	5080
+700000262	Spinning Guillotine R2 [2] (Lacking FP)	5080
+700000263	Spinning Guillotine R2 [3] (Lacking FP)	5080
+301110900	Oracular Bubble - Bullet	1003
+301110901	Oracular Bubble - Bullet AoE	1003
+301112900	Flowing Form [1]	1035
+301112901	Flowing Form [2]	1035
+301112905	Flowing Form [1] (Lacking FP)	1035
+301112906	Flowing Form [2] (Lacking FP)	1035
+301113900	Claw Flick [1]	1046
+301113901	Claw Flick [2]	1046
+303401400	Knowledge Above All	1182
+600000660	Flower Dragonbolt - Bullet	5380
+600000661	Flower Dragonbolt Charged - Bullet	5380
+600000663	Flower Dragonbolt - Bullet (Water AoE)	5380
+600000662	Flower Dragonbolt (Lacking FP)	5380
+600000662	Flower Dragonbolt Charged (Lacking FP)	5380
+301115901	Gold Breaker	1029
+301115910	Gold Breaker - Bullet	1029
+301115911	Gold Breaker - Bullet	1029
+301115912	Gold Breaker - Bullet	1029
+301115913	Gold Breaker - Bullet	1029
+301115915	Gold Breaker (Lacking FP)	1029
+300000904	Spinning Chain - Loop	125
+300000900	Spinning Chain - R1 [1]	125
+300000901	Spinning Chain - R1 [2]	125
+300000902	Spinning Chain - R2 [1]	125
+300000903	Spinning Chain - R2 [2]	125
+300000909	Spinning Chain - Loop (Lacking FP)	125
+300000905	Spinning Chain - R1 [1] (Lacking FP)	125
+300000906	Spinning Chain - R1 [2] (Lacking FP)	125
+300000907	Spinning Chain - R2 [1] (Lacking FP)	125
+300000908	Spinning Chain - R2 [2] (Lacking FP)	125
+301302900	Familial Rancor - Bullet	1184
+301302901	Familial Rancor - Bullet	1184
+301302902	Familial Rancor - Bullet	1184
+301302903	Familial Rancor - Bullet	1184
+301302904	Familial Rancor - Bullet	1184
+301302905	Familial Rancor - Bullet	1184
+701320360	"Flare	 O Serpent R2 - Bullet"	5500
+701320361	"Flare	 O Serpent Charged R2 - Bullet"	5500
+701320360	"Flare	 O Serpent Running R2 - Bullet"	5500
+701320360	"Flare	 O Serpent Jumping R2 - Bullet"	5500
+303400900	Nebula	1047
+303400901	Nebula - Bullet	1047
+303400905	Nebula (Lacking FP)	1047
+301216900	Bubble Shower - Bullet	1004
+301216901	Bubble Shower - Bullet	1004
+301216902	Bubble Shower - Bullet	1004
+301217900	Surge of Faith	1000
+301217901	Surge of Faith	1000
+301217902	Surge of Faith	1000
+301217905	Surge of Faith - Bullet	1000
+301217910	Surge of Faith - Bullet	1000
+301217911	Surge of Faith - Bullet	1000
+301217912	Surge of Faith - Bullet	1000
+301217913	Surge of Faith - Bullet	1000
+301217914	Surge of Faith - Bullet	1000
+301217920	Surge of Faith	1000
+301217921	Surge of Faith	1000
+301217922	Surge of Faith	1000
+301217925	Surge of Faith	1000
+301217930	Surge of Faith	1000
+303400400	Regal Beastclaw	1044
+303400405	Regal Beastclaw - Bullet	1044
+303400401	Regal Beastclaw (Lacking FP)	1044
+301202900	Devourer of Worlds - Bullet	1183
+301202901	Devourer of Worlds (Lacking FP)	1183
+302301909	Sorcery of the Crozier - Bullet	1192
+302301901	Sorcery of the Crozier - Bullet	1192
+302301905	Sorcery of the Crozier (Lacking FP)	1192
+302307900	Erdtree Slam - Tush	1193
+302307901	Erdtree Slam - ?	1193
+302307902	Erdtree Slam - Shockwave	1193
+302307905	Erdtree Slam - Tush (Lacking FP)	1193
+302307906	Erdtree Slam - Shockwave (Lacking FP)	1193
+302306900	Great Oracular Bubble - Bullet	1005
+302306901	Great Oracular Bubble - Bullet AoE	1005
+302309900	Spinning Wheel	1039
+302309901	Spinning Wheel	1039
+302309902	Spinning Wheel	1039
+302309903	Spinning Wheel	1039
+302309905	Spinning Wheel (Lacking FP)	1039
+302309906	Spinning Wheel (Lacking FP)	1039
+302309907	Spinning Wheel (Lacking FP)	1039
+302309908	Spinning Wheel (Lacking FP)	1039
+302308900	Gravity Bolt	1194
+302308905	Gravity Bolt - Bullet	1194
+302308906	Gravity Bolt - Bullet	1194
+302308907	Gravity Bolt - Bullet	1194
+302308908	Gravity Bolt - Bullet	1194
+302308909	Gravity Bolt - Bullet	1194
+302308915	Gravity Bolt (Lacking FP)	1194
+302308920	Gravity Bolt (Lacking FP)	1194
+302308925	Gravity Bolt (Lacking FP)	1194
+600000760	Smithing Art Spears	5280
+600000761	Smithing Art Spears - Bullet [1]	5280
+600000762	Smithing Art Spears - Bullet [2]	5280
+600000763	Smithing Art Spears (Lacking FP)	5280
+600000840	Devonia's Vortex	5180
+600000841	Devonia's Vortex - Bullet	5180
+600000842	Devonia's Vortex - Bullet (2x)	5180
+600000843	Devonia's Vortex Charged	5180
+600000844	Devonia's Vortex Charged - Bullet (2x)	5180
+600000845	Devonia's Vortex Charged - Bullet (2x)	5180
+600000846	Devonia's Vortex (Lacking FP)	5180
+600000847	Devonia's Vortex Charged  (Lacking FP)	5180
+302305905	Regal Roar [1] - Bullet (Roar AoE)	1031
+302305906	Regal Roar [2] - Bullet (Slam AoE)	1031
+302305907	Regal Roar [2] - Bullet [Hit] (Slam AoE)	1031
+302305908	Regal Roar [2] - Bullet [Hit] (Slam AoE)	1031
+302305909	Regal Roar [2] - Bullet (Slam AoE)	1031
+302305925	Regal Roar R2 #1 - Bullet (Stomp AoE)	1031
+302305926	Regal Roar R2 #1 - Bullet [Hit] (Stomp AoE)	1031
+302305927	Regal Roar R2 #1 - Bullet [Hit] (Stomp AoE)	1031
+302305928	Regal Roar R2 #1 - Bullet (Stomp AoE)	1031
+302305930	Regal Roar R2 #1	1031
+302305915	Regal Roar Charged R2 #1 - Bullet (Stomp AoE)	1031
+302305916	Regal Roar Charged R2 #1 - Bullet [Hit] (Stomp AoE)	1031
+302305917	Regal Roar Charged R2 #1 - Bullet [Hit] (Stomp AoE)	1031
+302305918	Regal Roar Charged R2 #1 - Bullet (Stomp AoE)	1031
+302305920	Regal Roar Charged R2 #1	1031
+302305940	Regal Roar R2 #2	1031
+302305935	Regal Roar Charged R2 #2 - Scraping	1031
+302305936	Regal Roar Charged R2 #2 - Scraping (Tick 4x)	1031
+302305937	Regal Roar Charged R2 #2 - Scraping (Final Tick)	1031
+302305938	Regal Roar Charged R2 #2	1031
+302305900	Regal Roar ?	1031
+302305910	Regal Roar (Lacking FP)	1031
+600000980	Shadow Sunflower Headbutt #1	5160
+600000981	Shadow Sunflower Headbutt #1 (AoE)	5160
+600000982	Shadow Sunflower Headbutt #2 [1]	5160
+600000983	Shadow Sunflower Headbutt #2 [1] (AoE)	5160
+600000984	Shadow Sunflower Headbutt #2 [2]	5160
+600000985	Shadow Sunflower Headbutt #2 [2] (AoE)	5160
+600000986	Shadow Sunflower Headbutt #3	5160
+600000987	Shadow Sunflower Headbutt #3 (AoE)	5160
+600000990	Shadow Sunflower Headbutt #1 (Lacking FP)	5160
+600000991	Shadow Sunflower Headbutt #2 [1] (Lacking FP)	5160
+600000992	Shadow Sunflower Headbutt #2 [2] (Lacking FP)	5160
+600000993	Shadow Sunflower Headbutt #3 (Lacking FP)	5160
+600000960	Kowtower's Resentment [1]	5390
+600000961	Kowtower's Resentment [2]	5390
+600000962	Kowtower's Resentment - Bullet	5390
+600000963	Kowtower's Resentment Early Release	5390
+600000964	Kowtower's Resentment Early Release - Bullet	5390
+600000965	Kowtower's Resentment [1] (Lacking FP)	5390
+600000966	Kowtower's Resentment [2] (Lacking FP)	5390
+600000967	Kowtower's Resentment Early Release (Lacking FP)	5390
+301604900	Sacred Phalanx	1187
+301604902	Sacred Phalanx - Bullet	1187
+301604905	Sacred Phalanx (Lacking FP)	1187
+301612900	Spearcall Ritual	1024
+301612905	Spearcall Ritual - Bullet	1024
+301612910	Spearcall Ritual - Bullet	1024
+301612911	Spearcall Ritual - Bullet	1024
+301612915	Spearcall Ritual	1024
+303400000	Ancient Lightning Spear - Bullet	1049
+303400001	Ancient Lightning Spear Charged - Bullet	1049
+303400002	Ancient Lightning Spear - Bullet (Water AoE)	1049
+301703950	Great-Serpent Hunt #1	1188
+301703951	Great-Serpent Hunt #2	1188
+301703970	Great-Serpent Hunt #1 (Lacking FP)	1188
+301703971	Great-Serpent Hunt #2 (Lacking FP)	1188
+301703900	Great-Serpent Hunt ?	1188
+301703901	Great-Serpent Hunt ?	1188
+301703905	Great-Serpent Hunt ?	1188
+301703955	Great-Serpent Hunt ?	1188
+301703975	Great-Serpent Hunt ?	1188
+301702915	Siluria's Woe	1009
+301702920	Siluria's Woe - Bullet	1009
+301702900	Siluria's Woe Charged	1009
+301702905	Siluria's Woe Charged - Bullet	1009
+301702910	Siluria's Woe Charged - Bullet (Ranged)	1009
+301702925	Siluria's Woe Charged (Lacking FP)	1009
+301702930	Siluria's Woe (Lacking FP)	1009
+301705920	Frenzyflame Thrust - Leap Stagger	1050
+301705900	Frenzyflame Thrust	1050
+301705902	Frenzyflame Thrust - Bullet (Explosion)	1050
+301705907	Frenzyflame Thrust - Bullet (Ticks)	1050
+301705925	Frenzyflame Thrust (Lacking FP)	1050
+600000850	Jori's Inquisition - Bullet	5470
+600000851	Jori's Inquisition	5470
+700000206	Bloodfiends' Bloodboon #1 - Bullet	5560
+700000206	Bloodfiends' Bloodboon #2 - Bullet	5560
+700000226	Bloodfiends' Bloodboon #3 - Bullet	5560
+700000200	Bloodfiends' Bloodboon #1 (Lacking FP)	5560
+700000210	Bloodfiends' Bloodboon #2 (Lacking FP)	5560
+700000220	Bloodfiends' Bloodboon #3 (Lacking FP)	5560
+301711900	Bloodboon Ritual #1	1034
+301711907	Bloodboon Ritual #1 - Bullet 1	1034
+301711905	Bloodboon Ritual #1 - Bullet 2	1034
+301711906	Bloodboon Ritual #1 - Bullet 1&2 [Hit]	1034
+301711910	Bloodboon Ritual #2	1034
+301711917	Bloodboon Ritual #2 - Bullet 1	1034
+301711915	Bloodboon Ritual #2 - Bullet 2	1034
+301711916	Bloodboon Ritual #2 - Bullet 1&2 [Hit]	1034
+301711920	Bloodboon Ritual #3	1034
+301711927	Bloodboon Ritual #3 - Bullet 1	1034
+301711925	Bloodboon Ritual #3 - Bullet 2	1034
+301711926	Bloodboon Ritual #3 - Bullet 1&2 [Hit]	1034
+301711935	Bloodboon Ritual #1 (Lacking FP)	1034
+301711940	Bloodboon Ritual #2 (Lacking FP)	1034
+301711945	Bloodboon Ritual #3 (Lacking FP)	1034
+600000940	Messmer's Assault #1 [1]	5190
+600000941	Messmer's Assault #1 [2]	5190
+600000942	Messmer's Assault #1 - Bullet	5190
+600000943	Messmer's Assault #2 [1]	5190
+600000944	Messmer's Assault #2 [2]	5190
+600000945	Messmer's Assault #2 [3]	5190
+600000946	Messmer's Assault #3	5190
+600000947	Messmer's Assault #3 - Bullet	5190
+600000948	Messmer's Assault #3 - Bullet	5190
+600000950	Messmer's Assault #1 [1] (Lacking FP)	5190
+600000951	Messmer's Assault #1 [2] (Lacking FP)	5190
+600000953	Messmer's Assault #2 [1] (Lacking FP)	5190
+600000954	Messmer's Assault #2 [2] (Lacking FP)	5190
+600000955	Messmer's Assault #2 [3] (Lacking FP)	5190
+600000956	Messmer's Assault #3 (Lacking FP)	5190
+300000230	Spinning Slash #1	1166
+300000231	Spinning Slash #2 [1]	1166
+300000232	Spinning Slash #2 [2]	1166
+30090011	Spinning Slash #2 - Bullet	1166
+30090012	Spinning Slash #2 - Bullet (Water AoE)	1166
+300000235	Spinning Slash #1 (Lacking FP)	1166
+300000236	Spinning Slash #2 [1] (Lacking FP)	1166
+300000237	Spinning Slash #2 [2] (Lacking FP)	1166
+301810900	Loretta's Slash ?	1165
+301810905	Loretta's Slash [1]	1165
+301810906	Loretta's Slash [2]	1165
+301810910	Loretta's Slash [1] (Lacking FP)	1165
+301810911	Loretta's Slash [2] (Lacking FP)	1165
+301804900	Rallying Standard - Bullet	1010
+700000040	Rancor Slash #1 [1]	5290
+700000041	Rancor Slash #1 [2]	5290
+700000042	Rancor Slash #2	5290
+700000043	Rancor Slash - Bullet	5290
+700000046	Rancor Slash #1 [1] (Lacking FP)	5290
+700000047	Rancor Slash #1 [2] (Lacking FP)	5290
+700000048	Rancor Slash #2 (Lacking FP)	5290
+600000580	Romina's Purification [1]	5300
+600000581	Romina's Purification [2]	5300
+600000582	Romina's Purification - Bullet	5300
+600000583	Romina's Purification [1] (Lacking FP)	5300
+600000584	Romina's Purification [2] (Lacking FP)	5300
+301902900	Miquella's Ring of Light #1	1051
+301902901	Miquella's Ring of Light #1 - Bullet	1051
+301902902	Miquella's Ring of Light #1 - Bullet (Far)	1051
+301902910	Miquella's Ring of Light #2	1051
+301902911	Miquella's Ring of Light #2 - Bullet	1051
+301902912	Miquella's Ring of Light #2 - Bullet (Far)	1051
+301902920	Miquella's Ring of Light #3	1051
+301902921	Miquella's Ring of Light #3 - Bullet	1051
+301902922	Miquella's Ring of Light #3 - Bullet (Far)	1051
+301902905	Miquella's Ring of Light #1 (Lacking FP)	1051
+301902915	Miquella's Ring of Light #2 (Lacking FP)	1051
+301902925	Miquella's Ring of Light #3 (Lacking FP)	1051
+301906900	Angel's Wings [1]	1189
+301906901	Angel's Wings [2]	1189
+301906902	Angel's Wings ?	1189
+301906905	Angel's Wings [1] (Lacking FP)	1189
+301906906	Angel's Wings [2] (Lacking FP)	1189
+600000711	Dynastic Sickleplay R2 #1	5120
+600000712	Dynastic Sickleplay R2 #2 [1]	5120
+600000713	Dynastic Sickleplay R2 #2 [2]	5120
+600000714	Dynastic Sickleplay R2 #2 [3]	5120
+600000716	Dynastic Sickleplay R2 #1 (Lacking FP)	5120
+600000717	Dynastic Sickleplay R2 #2 [1] (Lacking FP)	5120
+600000718	Dynastic Sickleplay R2 #2 [2] (Lacking FP)	5120
+600000719	Dynastic Sickleplay R2 #2 [3] (Lacking FP)	5120
+600000600	Painful Strike [1]	5420
+600000600	Painful Strike [2]	5420
+600000601	Painful Strike [3]	5420
+600000602	Painful Strike [1] (Lacking FP)	5420
+600000602	Painful Strike [2] (Lacking FP)	5420
+600000603	Painful Strike [3] (Lacking FP)	5420
+302003900	Sea of Magma [1]	1006
+302003901	Sea of Magma [2]	1006
+302003902	Sea of Magma - Loop [1]	1006
+302003903	Sea of Magma - Loop [2]	1006
+302003904	Sea of Magma - Final	1006
+302003905	Sea of Magma - Bullet	1006
+302003906	Sea of Magma - Bullet	1006
+302003910	Sea of Magma [1] (Lacking FP)	1006
+302003911	Sea of Magma [2] (Lacking FP)	1006
+302003912	Sea of Magma - Loop [1] (Lacking FP)	1006
+302003913	Sea of Magma - Loop [2] (Lacking FP)	1006
+302003914	Sea of Magma - Final (Lacking FP)	1006
+302006900	Flame Dance [1]	1045
+302006901	Flame Dance [2]	1045
+302006902	Flame Dance [3]	1045
+302006903	Flame Dance [4]	1045
+302006904	Flame Dance [5]	1045
+302006910	Flame Dance [1] (Lacking FP)	1045
+302006911	Flame Dance [2] (Lacking FP)	1045
+302006912	Flame Dance [3] (Lacking FP)	1045
+302006913	Flame Dance [4] (Lacking FP)	1045
+302006914	Flame Dance [5] (Lacking FP)	1045
+302112900	Storm Kick [1]	1190
+302112901	Storm Kick [2]	1190
+302112902	Storm Kick R2 [1]	1190
+302112903	Storm Kick R2 [2]	1190
+302112904	Storm Kick R2 [3]	1190
+302112905	Storm Kick [1] (Lacking FP)	1190
+302112906	Storm Kick [2] (Lacking FP)	1190
+302112907	Storm Kick R2 [1] (Lacking FP)	1190
+302112908	Storm Kick R2 [2] (Lacking FP)	1190
+302112909	Storm Kick R2 [3] (Lacking FP)	1190
+302112910	Storm Kick (Left) [1]	1190
+302112911	Storm Kick (Left) [2]	1190
+302112912	Storm Kick R2 (Left) [1]	1190
+302112913	Storm Kick R2 (Left) [2]	1190
+302112914	Storm Kick R2 (Left) [3]	1190
+302112915	Storm Kick (Left) [1] (Lacking FP)	1190
+302112916	Storm Kick (Left) [2] (Lacking FP)	1190
+302112917	Storm Kick R2 (Left) [1]  (Lacking FP)	1190
+302112918	Storm Kick R2 (Left) [2] (Lacking FP)	1190
+302112919	Storm Kick R2 (Left) [3] (Lacking FP)	1190
+302113900	Unblockable Blade	1191
+302113905	Unblockable Blade (Lacking FP)	1191
+600000700	Poison Spear-Hand Strike	5310
+600000701	Poison Spear-Hand Strike (Lacking FP)	5310
+600000702	Madding Spear-Hand Strike	5320
+600000703	Madding Spear-Hand Strike (Lacking FP)	5320
+700000410	Sleep Evermore	5210
+700000415	Sleep Evermore (Lacking FP)	5210
+302106900	Bear Witness! [1] - Bullet	1011
+302106901	Bear Witness! [2] - Bullet	1011
+302106902	Bear Witness! [3] - Bullet (Explosion)	1011
+302106903	Bear Witness! [4] - Bullet (Projectile)	1011
+302106904	Bear Witness! [4] - Bullet (Projectile)	1011
+302106905	Bear Witness! [4] - Bullet (Projectile)	1011
+302106906	Bear Witness! [4] - Bullet (Lingering Fire)	1011
+302106910	Bear Witness! (Lacking FP)	1011
+600001000	Scattershot Throw #1 [1]	5510
+600001001	Scattershot Throw #1 [2]	5510
+600001002	Scattershot Throw #2 [1]	5510
+600001003	Scattershot Throw #2 [2]	5510
+600001008	Scattershot Throw (Far)	5510
+600001009	Scattershot Throw (Lacking FP)	5510
+600000640	Red Bear Hunt #1	4080
+600000641	Red Bear Hunt #1 - Bullet	4080
+600000642	Red Bear Hunt #2	4080
+600000643	Red Bear Hunt #2 - Bullet	4080
+600000644	Red Bear Hunt #3 [1]	4080
+600000645	Red Bear Hunt #3 [2]	4080
+600000646	Red Bear Hunt #3 - Bullet	4080
+600000647	Red Bear Hunt #1 (Lacking FP)	4080
+600000648	Red Bear Hunt #2 (Lacking FP)	4080
+600000649	Red Bear Hunt #3 [1] (Lacking FP)	4080
+600000650	Red Bear Hunt #3 [2] (Lacking FP)	4080
+303309900	Spinning Weapon [1]	1199
+303309900	Spinning Weapon [2]	1199
+303309900	Spinning Weapon [3]	1199
+303309902	Spinning Weapon [4]	1199
+303309905	Spinning Weapon [1] (Lacking FP)	1199
+303309905	Spinning Weapon [2] (Lacking FP)	1199
+303309905	Spinning Weapon [3] (Lacking FP)	1199
+303309907	Spinning Weapon [4] (Lacking FP)	1199
+300000595	Firebreather	223
+300000590	Firebreather - Bullet	223
+300000591	Firebreather - Bullet	223
+302404900	Fires of Slumber - Bullet	1195
+302404901	Fires of Slumber - Bullet	1195
+602420000	Feeble Lord's Frenzied Flame	5330
+73112	Feeble Lord's Frenzied Flame - Self-Madness	5330
+303020900	Viper Bite	1007
+303020901	Viper Bite (Lacking FP)	1007
+600000770	Discus Hurl [1] - Bullet	5370
+600000772	Discus Hurl [2] - Bullet	5370
+600000771	Discus Hurl - Bullet (Lacking FP)	5370
+600000970	Revenge of the Night - Bullet	5440
+600000972	Revenge of the Night Guard Counter - Bullet	5440
+600000974	Revenge of the Night (Lacking FP)	5440
+600000975	Revenge of the Night Guard Counter (Lacking FP)	5440
+700000350	Roaring Bash [1]	5480
+700000352	Roaring Bash [2]	5480
+700000351	Roaring Bash (Lacking FP)	5480
+700000355	Roaring Bash (Left) [1]	5480
+700000357	Roaring Bash (Left) [2]	5480
+700000356	Roaring Bash (Left) (Lacking FP)	5480
+303208900	"Golden Retaliation - Bullet (""Parry"" ?)"	1196
+303208901	"Golden Retaliation - Bullet (""Parry"" ?)"	1196
+303208905	Golden Retaliation - Bullet	1196
+303208906	Golden Retaliation - Bullet	1196
+303216900	Tongues of Fire - Bullet	1002
+303215900	Flame Spit - Bullet	1001
+303215901	Flame Spit - Bullet AoE	1001
+700000190	Moore's Charge [1]	5230
+700000190	Moore's Charge [2]	5230
+700000190	Moore's Charge [3]	5230
+700000191	Moore's Charge [4]	5230
+700000192	Moore's Charge [5]	5230
+700000198	Moore's Charge [5] - Bullet	5230
+700000193	Moore's Charge Early Release	5230
+700000198	Moore's Charge Early Release - Bullet	5230
+700000194	Moore's Charge [1] (Lacking FP)	5230
+700000194	Moore's Charge [2] (Lacking FP)	5230
+700000194	Moore's Charge [3] (Lacking FP)	5230
+700000195	Moore's Charge [4] (Lacking FP)	5230
+700000196	Moore's Charge [5] (Lacking FP)	5230
+700000197	Moore's Charge Early Release (Lacking FP)	5230

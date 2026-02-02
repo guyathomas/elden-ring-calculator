@@ -29,11 +29,11 @@ describe('StatInputPanel', () => {
       vig: { min: 40, max: 40 },
       mnd: { min: 20, max: 20 },
       end: { min: 25, max: 25 },
-      str: { min: 30, max: 30 },
-      dex: { min: 25, max: 25 },
-      int: { min: 10, max: 10 },
-      fai: { min: 10, max: 10 },
-      arc: { min: 10, max: 10 },
+      str: { min: 20, max: 30 },
+      dex: { min: 15, max: 25 },
+      int: { min: 10, max: 20 },
+      fai: { min: 10, max: 20 },
+      arc: { min: 10, max: 20 },
     } as Record<string, StatConfig>,
     onStatConfigChange: vi.fn(),
   });
@@ -104,9 +104,9 @@ describe('StatInputPanel', () => {
 
   describe('RangeStatInput - onBlur Validation', () => {
     it('clamps min value to 1 on blur when value is 0', () => {
-      // Start with a low value that should be clamped
+      // Start with a low value that should be clamped (unlocked so range input is shown)
       const props = createDefaultProps();
-      props.statConfigs.str = { min: 0, max: 0 };
+      props.statConfigs.str = { min: 0, max: 30 };
 
       render(<StatInputPanel {...props} />);
 
@@ -117,12 +117,12 @@ describe('StatInputPanel', () => {
       // The max field is preserved from the config
       fireEvent.blur(strMinInput);
 
-      expect(props.onStatConfigChange).toHaveBeenCalledWith('str', { min: 1, max: 0 });
+      expect(props.onStatConfigChange).toHaveBeenCalledWith('str', { min: 1, max: 30 });
     });
 
     it('clamps min value to 99 on blur when value exceeds 99', () => {
       const props = createDefaultProps();
-      props.statConfigs.str = { min: 150, max: 150 };
+      props.statConfigs.str = { min: 150, max: 160 };
 
       render(<StatInputPanel {...props} />);
 
@@ -132,7 +132,7 @@ describe('StatInputPanel', () => {
       // Blur should clamp min to 99, preserving the existing max
       fireEvent.blur(strMinInput);
 
-      expect(props.onStatConfigChange).toHaveBeenCalledWith('str', { min: 99, max: 150 });
+      expect(props.onStatConfigChange).toHaveBeenCalledWith('str', { min: 99, max: 160 });
     });
 
     it('preserves valid values within range on blur', () => {

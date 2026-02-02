@@ -6,6 +6,8 @@ import {
   Columns,
   Skull,
   Sword,
+  Lock,
+  Unlock,
 } from 'lucide-react';
 import { Checkbox } from './ui/checkbox.js';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select.js';
@@ -20,7 +22,7 @@ import { NumericInput } from './ui/numeric-input.js';
 import type { StatConfig, StartingClass, WeaponListItem, CharacterStats, PrecomputedDataV2 } from '../types.js';
 import type { Build } from '../types/buildTypes.js';
 import type { FilterValue } from './ui/column-filter.js';
-import { INITIAL_CLASS_VALUES, STARTING_CLASS_LIST, WEAPON_SKILL_FILTER, getStatValue } from '../types.js';
+import { INITIAL_CLASS_VALUES, STARTING_CLASS_LIST, WEAPON_SKILL_FILTER, getStatValue, isStatLocked } from '../types.js';
 import type { SolverOptimizationMode } from '../types/solverTypes.js';
 import { getBossNames, getEnemyByKey, getAvailableAowNames, getUniqueSkillNames } from '../data/index.js';
 import type { PrecomputedAowData } from '../data/index.js';
@@ -204,31 +206,65 @@ const FixedStatInput = ({ label, stat, config, onStatConfigChange, classMin }: {
 };
 
 const RangeStatInput = ({ label, stat, config, onStatConfigChange, classMin }: { label: string; stat: string; config: StatConfig; onStatConfigChange: (stat: string, config: StatConfig) => void; classMin: number }) => {
+  const locked = isStatLocked(config);
+  const value = getStatValue(config);
   const isMinError = config.min < classMin;
-  const isMaxError = config.max < classMin;
+  const isMaxError = !locked && config.max < classMin;
+
+  const toggleLock = () => {
+    if (locked) {
+      onStatConfigChange(stat, { min: value, max: Math.min(99, value + 10) });
+    } else {
+      onStatConfigChange(stat, { min: config.min, max: config.min });
+    }
+  };
 
   return (
     <div className="flex flex-col gap-1">
-      <label className="text-[#d4af37] text-[10px] uppercase tracking-wider font-medium">{label}</label>
-      <div className="flex items-center gap-1">
+      <div className="flex items-center justify-between">
+        <label className={`text-[10px] uppercase tracking-wider font-medium ${locked ? 'text-[#8b8b8b]' : 'text-[#d4af37]'}`}>{label}</label>
+        <button
+          onClick={toggleLock}
+          className="p-0.5 hover:bg-[#2a2a2a] rounded transition-colors"
+          title={locked ? 'Unlock (optimize this stat)' : 'Lock (fix this stat)'}
+        >
+          {locked ? (
+            <Lock className="w-3 h-3 text-[#8b8b8b]" />
+          ) : (
+            <Unlock className="w-3 h-3 text-[#d4af37]" />
+          )}
+        </button>
+      </div>
+      {locked ? (
         <NumericInput
-          value={config.min}
-          onValueChange={(v) => onStatConfigChange(stat, { min: v, max: config.max })}
+          value={value}
+          onValueChange={(v) => onStatConfigChange(stat, { min: v, max: v })}
           min={1}
           max={99}
           fallback={10}
-          className={`flex-1 min-w-0 bg-[#1a1a1a] border rounded px-1 py-2 text-center text-base md:text-xs text-[#e8e6e3] focus:outline-none ${isMinError ? 'input-error' : 'border-[#333] focus:border-[#d4af37]'}`}
+          className={`w-full bg-[#1a1a1a] border rounded px-1 py-2 text-center text-base md:text-xs text-[#e8e6e3] focus:outline-none ${isMinError ? 'input-error' : 'border-[#333] focus:border-[#d4af37]'}`}
         />
-        <span className="text-[#4a4a4a] text-[10px]">-</span>
-        <NumericInput
-          value={config.max}
-          onValueChange={(v) => onStatConfigChange(stat, { min: config.min, max: v })}
-          min={1}
-          max={99}
-          fallback={99}
-          className={`flex-1 min-w-0 bg-[#1a1a1a] border rounded px-1 py-2 text-center text-base md:text-xs text-[#e8e6e3] focus:outline-none ${isMaxError ? 'input-error' : 'border-[#333] focus:border-[#d4af37]'}`}
-        />
-      </div>
+      ) : (
+        <div className="flex items-center gap-1">
+          <NumericInput
+            value={config.min}
+            onValueChange={(v) => onStatConfigChange(stat, { min: v, max: config.max })}
+            min={1}
+            max={99}
+            fallback={10}
+            className={`flex-1 min-w-0 bg-[#1a1a1a] border rounded px-1 py-2 text-center text-base md:text-xs text-[#e8e6e3] focus:outline-none ${isMinError ? 'input-error' : 'border-[#333] focus:border-[#d4af37]'}`}
+          />
+          <span className="text-[#4a4a4a] text-[10px]">-</span>
+          <NumericInput
+            value={config.max}
+            onValueChange={(v) => onStatConfigChange(stat, { min: config.min, max: v })}
+            min={1}
+            max={99}
+            fallback={99}
+            className={`flex-1 min-w-0 bg-[#1a1a1a] border rounded px-1 py-2 text-center text-base md:text-xs text-[#e8e6e3] focus:outline-none ${isMaxError ? 'input-error' : 'border-[#333] focus:border-[#d4af37]'}`}
+          />
+        </div>
+      )}
       {(isMinError || isMaxError) && (
         <div className="text-xs text-error mt-0.5">
           Min: {classMin}

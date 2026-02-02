@@ -1,6 +1,6 @@
 import type { StatConfig, StartingClass } from '../types';
-import { INITIAL_CLASS_VALUES, STARTING_CLASS_LIST, getStatValue } from '../types';
-import { Calculator, ChevronDown, ChevronUp } from 'lucide-react';
+import { INITIAL_CLASS_VALUES, STARTING_CLASS_LIST, getStatValue, isStatLocked } from '../types';
+import { Calculator, ChevronDown, ChevronUp, Lock, Unlock } from 'lucide-react';
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select.js';
@@ -76,23 +76,45 @@ export function StatInputPanel({ level, setLevel, startingClass, setStartingClas
     config: StatConfig;
     classMin: number;
   }) => {
+    const locked = isStatLocked(config);
+    const value = getStatValue(config);
     const isError = config.min < classMin;
+
+    const toggleLock = () => {
+      if (locked) {
+        onStatConfigChange(stat, { min: value, max: Math.min(99, value + 10) });
+      } else {
+        onStatConfigChange(stat, { min: config.min, max: config.min });
+      }
+    };
 
     return (
       <div className="flex flex-col gap-1.5">
-        <label className="text-[#d4af37] text-xs uppercase tracking-wider">
-          {label}
-        </label>
-        <div className="flex items-center gap-1">
-          <div className="relative flex-1">
+        <div className="flex items-center justify-between">
+          <label className={`text-xs uppercase tracking-wider ${locked ? 'text-[#8b8b8b]' : 'text-[#d4af37]'}`}>
+            {label}
+          </label>
+          <button
+            onClick={toggleLock}
+            className="p-0.5 hover:bg-[#2a2a2a] rounded transition-colors"
+            title={locked ? 'Unlock (optimize this stat)' : 'Lock (fix this stat)'}
+          >
+            {locked ? (
+              <Lock className="w-3 h-3 text-[#8b8b8b]" />
+            ) : (
+              <Unlock className="w-3 h-3 text-[#d4af37]" />
+            )}
+          </button>
+        </div>
+        {locked ? (
+          <div className="relative">
             <NumericInput
-              value={config.min}
-              onValueChange={(v) => onStatConfigChange(stat, { min: v, max: config.max })}
+              value={value}
+              onValueChange={(v) => onStatConfigChange(stat, { min: v, max: v })}
               min={1}
               max={99}
               fallback={10}
-              className={`w-full bg-[#1a1a1a] border rounded px-2 py-1.5 text-center text-base md:text-sm focus:outline-none ${isError ? 'input-error' : 'border-[#3a3a3a] focus:border-[#d4af37]'
-                }`}
+              className={`w-full bg-[#1a1a1a] border rounded px-2 py-1.5 text-center text-base md:text-sm focus:outline-none ${isError ? 'input-error' : 'border-[#3a3a3a] focus:border-[#d4af37]'}`}
             />
             {isError && (
               <div className="absolute -bottom-4 left-0 right-0 text-center text-[9px] text-error whitespace-nowrap">
@@ -100,16 +122,34 @@ export function StatInputPanel({ level, setLevel, startingClass, setStartingClas
               </div>
             )}
           </div>
-          <span className="text-[#4a4a4a] text-[10px]">—</span>
-          <NumericInput
-            value={config.max}
-            onValueChange={(v) => onStatConfigChange(stat, { min: config.min, max: v })}
-            min={1}
-            max={99}
-            fallback={99}
-            className="w-[54px] lg:w-[54px] flex-1 bg-[#1a1a1a] border border-[#3a3a3a] rounded px-2 py-1.5 text-center text-base md:text-sm focus:outline-none focus:border-[#d4af37]"
-          />
-        </div>
+        ) : (
+          <div className="flex items-center gap-1">
+            <div className="relative flex-1">
+              <NumericInput
+                value={config.min}
+                onValueChange={(v) => onStatConfigChange(stat, { min: v, max: config.max })}
+                min={1}
+                max={99}
+                fallback={10}
+                className={`w-full bg-[#1a1a1a] border rounded px-2 py-1.5 text-center text-base md:text-sm focus:outline-none ${isError ? 'input-error' : 'border-[#3a3a3a] focus:border-[#d4af37]'}`}
+              />
+              {isError && (
+                <div className="absolute -bottom-4 left-0 right-0 text-center text-[9px] text-error whitespace-nowrap">
+                  Min: {classMin}
+                </div>
+              )}
+            </div>
+            <span className="text-[#4a4a4a] text-[10px]">—</span>
+            <NumericInput
+              value={config.max}
+              onValueChange={(v) => onStatConfigChange(stat, { min: config.min, max: v })}
+              min={1}
+              max={99}
+              fallback={99}
+              className="w-[54px] lg:w-[54px] flex-1 bg-[#1a1a1a] border border-[#3a3a3a] rounded px-2 py-1.5 text-center text-base md:text-sm focus:outline-none focus:border-[#d4af37]"
+            />
+          </div>
+        )}
       </div>
     );
   };

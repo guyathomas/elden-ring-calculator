@@ -17,14 +17,14 @@ import type { StatConfig, StartingClass } from '../../src/types.js';
  */
 export function createMockStatConfigs(overrides?: Partial<Record<string, StatConfig>>): Record<string, StatConfig> {
   const defaults: Record<string, StatConfig> = {
-    vig: { locked: true, value: 40 },
-    mnd: { locked: true, value: 20 },
-    end: { locked: true, value: 25 },
-    str: { locked: true, value: 20 },
-    dex: { locked: true, value: 20 },
-    int: { locked: true, value: 10 },
-    fai: { locked: true, value: 10 },
-    arc: { locked: true, value: 10 },
+    vig: { min: 40, max: 40 },
+    mnd: { min: 20, max: 20 },
+    end: { min: 25, max: 25 },
+    str: { min: 20, max: 20 },
+    dex: { min: 20, max: 20 },
+    int: { min: 10, max: 10 },
+    fai: { min: 10, max: 10 },
+    arc: { min: 10, max: 10 },
   };
   
   if (overrides) {

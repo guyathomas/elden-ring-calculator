@@ -11,8 +11,8 @@ import { StatInput } from '../../../src/components/StatInput.js';
 import type { StatConfig } from '../../../src/types.js';
 
 describe('StatInput', () => {
-  const defaultLockedConfig: StatConfig = { locked: true, value: 30 };
-  const defaultUnlockedConfig: StatConfig = { locked: false, min: 20, max: 80 };
+  const defaultLockedConfig: StatConfig = { min: 30, max: 30 };
+  const defaultUnlockedConfig: StatConfig = { min: 20, max: 80 };
 
   describe('Locked Mode', () => {
     it('renders label correctly', () => {
@@ -62,7 +62,7 @@ describe('StatInput', () => {
       const input = screen.getByRole('spinbutton');
       fireEvent.change(input, { target: { value: '50' } });
       
-      expect(onChange).toHaveBeenCalledWith({ locked: true, value: 50 });
+      expect(onChange).toHaveBeenCalledWith({ min: 50, max: 50 });
     });
 
     it('shows lock icon when locked', () => {
@@ -176,7 +176,7 @@ describe('StatInput', () => {
   describe('Lock Toggle', () => {
     it('converts to range when unlocking', async () => {
       const onChange = vi.fn();
-      const config: StatConfig = { locked: true, value: 40 };
+      const config: StatConfig = { min: 40, max: 40 };
       
       render(
         <StatInput
@@ -193,7 +193,6 @@ describe('StatInput', () => {
       
       // Should convert to range: min = value - 10, max = value + 10
       expect(onChange).toHaveBeenCalledWith({
-        locked: false,
         min: 30, // 40 - 10
         max: 50, // 40 + 10
       });
@@ -201,7 +200,7 @@ describe('StatInput', () => {
 
     it('clamps min to 10 when unlocking low value', async () => {
       const onChange = vi.fn();
-      const config: StatConfig = { locked: true, value: 15 };
+      const config: StatConfig = { min: 15, max: 15 };
       
       render(
         <StatInput
@@ -216,7 +215,6 @@ describe('StatInput', () => {
       fireEvent.click(screen.getByTitle('Unlock (optimize)'));
       
       expect(onChange).toHaveBeenCalledWith({
-        locked: false,
         min: 10, // clamped to 10 (not 5)
         max: 25,
       });
@@ -224,7 +222,7 @@ describe('StatInput', () => {
 
     it('clamps max to 99 when unlocking high value', async () => {
       const onChange = vi.fn();
-      const config: StatConfig = { locked: true, value: 95 };
+      const config: StatConfig = { min: 95, max: 95 };
       
       render(
         <StatInput
@@ -239,7 +237,6 @@ describe('StatInput', () => {
       fireEvent.click(screen.getByTitle('Unlock (optimize)'));
       
       expect(onChange).toHaveBeenCalledWith({
-        locked: false,
         min: 85,
         max: 99, // clamped to 99 (not 105)
       });
@@ -247,7 +244,7 @@ describe('StatInput', () => {
 
     it('converts to locked value when locking', async () => {
       const onChange = vi.fn();
-      const config: StatConfig = { locked: false, min: 25, max: 75 };
+      const config: StatConfig = { min: 25, max: 75 };
       
       render(
         <StatInput
@@ -263,8 +260,8 @@ describe('StatInput', () => {
       
       // Should use min as the locked value
       expect(onChange).toHaveBeenCalledWith({
-        locked: true,
-        value: 25,
+        min: 25,
+        max: 25,
       });
     });
   });

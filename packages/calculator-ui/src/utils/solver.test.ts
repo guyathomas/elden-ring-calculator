@@ -278,24 +278,24 @@ function createStatConfig(
     : new Set(Object.keys(hasScaling).filter(k => hasScaling[k as keyof typeof hasScaling]));
 
   return {
-    vig: { value: 10, locked: true },
-    mnd: { value: 10, locked: true },
-    end: { value: 10, locked: true },
+    vig: { min: 10, max: 10 },
+    mnd: { min: 10, max: 10 },
+    end: { min: 10, max: 10 },
     str: activeStats.has('str')
-      ? { min: Math.max(10, reqs.strength), max: 99, locked: false }
-      : { value: Math.max(10, reqs.strength), locked: true },
+      ? { min: Math.max(10, reqs.strength), max: 99 }
+      : { min: Math.max(10, reqs.strength), max: Math.max(10, reqs.strength) },
     dex: activeStats.has('dex')
-      ? { min: Math.max(10, reqs.dexterity), max: 99, locked: false }
-      : { value: Math.max(10, reqs.dexterity), locked: true },
+      ? { min: Math.max(10, reqs.dexterity), max: 99 }
+      : { min: Math.max(10, reqs.dexterity), max: Math.max(10, reqs.dexterity) },
     int: activeStats.has('int')
-      ? { min: Math.max(10, reqs.intelligence), max: 99, locked: false }
-      : { value: Math.max(10, reqs.intelligence), locked: true },
+      ? { min: Math.max(10, reqs.intelligence), max: 99 }
+      : { min: Math.max(10, reqs.intelligence), max: Math.max(10, reqs.intelligence) },
     fai: activeStats.has('fai')
-      ? { min: Math.max(10, reqs.faith), max: 99, locked: false }
-      : { value: Math.max(10, reqs.faith), locked: true },
+      ? { min: Math.max(10, reqs.faith), max: 99 }
+      : { min: Math.max(10, reqs.faith), max: Math.max(10, reqs.faith) },
     arc: activeStats.has('arc')
-      ? { min: Math.max(10, reqs.arcane), max: 99, locked: false }
-      : { value: Math.max(10, reqs.arcane), locked: true },
+      ? { min: Math.max(10, reqs.arcane), max: 99 }
+      : { min: Math.max(10, reqs.arcane), max: Math.max(10, reqs.arcane) },
   };
 }
 
@@ -437,14 +437,14 @@ describe('Solver - 3-Stat Accuracy Test', () => {
 
     // Create stat config with 3 unlocked stats
     const statConfig: Record<string, StatConfig> = {
-      vig: { value: 10, locked: true },
-      mnd: { value: 10, locked: true },
-      end: { value: 10, locked: true },
-      str: { min: Math.max(10, reqs.strength), max: 99, locked: false },
-      dex: { value: 10, locked: true },
-      int: { min: Math.max(10, reqs.intelligence), max: 99, locked: false },
-      fai: { min: Math.max(10, reqs.faith), max: 99, locked: false },
-      arc: { value: 10, locked: true },
+      vig: { min: 10, max: 10 },
+      mnd: { min: 10, max: 10 },
+      end: { min: 10, max: 10 },
+      str: { min: Math.max(10, reqs.strength), max: 99 },
+      dex: { min: 10, max: 10 },
+      int: { min: Math.max(10, reqs.intelligence), max: 99 },
+      fai: { min: Math.max(10, reqs.faith), max: 99 },
+      arc: { min: 10, max: 10 },
     };
 
     // Run our solver
@@ -493,14 +493,14 @@ describe('Solver - 3-Stat Accuracy Test', () => {
     const reqs = weaponData.requirements;
 
     const statConfig: Record<string, StatConfig> = {
-      vig: { value: 10, locked: true },
-      mnd: { value: 10, locked: true },
-      end: { value: 10, locked: true },
-      str: { min: Math.max(10, reqs.strength), max: 99, locked: false },
-      dex: { value: 10, locked: true },
-      int: { min: Math.max(10, reqs.intelligence), max: 99, locked: false },
-      fai: { value: 10, locked: true },
-      arc: { min: Math.max(10, reqs.arcane), max: 99, locked: false },
+      vig: { min: 10, max: 10 },
+      mnd: { min: 10, max: 10 },
+      end: { min: 10, max: 10 },
+      str: { min: Math.max(10, reqs.strength), max: 99 },
+      dex: { min: 10, max: 10 },
+      int: { min: Math.max(10, reqs.intelligence), max: 99 },
+      fai: { min: 10, max: 10 },
+      arc: { min: Math.max(10, reqs.arcane), max: 99 },
     };
 
     const result = findOptimalStats(data, weaponName, affinity, upgradeLevel, statConfig, {
@@ -546,14 +546,14 @@ describe('Solver - 3-Stat Accuracy Test', () => {
 
     // Unlock 3 stats even though only 2 really matter
     const statConfig: Record<string, StatConfig> = {
-      vig: { value: 10, locked: true },
-      mnd: { value: 10, locked: true },
-      end: { value: 10, locked: true },
-      str: { min: Math.max(10, reqs.strength), max: 99, locked: false },
-      dex: { value: 10, locked: true },
-      int: { min: 10, max: 99, locked: false }, // Unlocked but doesn't scale
-      fai: { min: Math.max(10, reqs.faith), max: 99, locked: false },
-      arc: { value: 10, locked: true },
+      vig: { min: 10, max: 10 },
+      mnd: { min: 10, max: 10 },
+      end: { min: 10, max: 10 },
+      str: { min: Math.max(10, reqs.strength), max: 99 },
+      dex: { min: 10, max: 10 },
+      int: { min: 10, max: 99 }, // Unlocked but doesn't scale
+      fai: { min: Math.max(10, reqs.faith), max: 99 },
+      arc: { min: 10, max: 10 },
     };
 
     const result = findOptimalStats(data, weaponName, affinity, upgradeLevel, statConfig, {
@@ -597,14 +597,14 @@ describe('Solver - 3-Stat Accuracy Test', () => {
     const reqs = weaponData.requirements;
 
     const statConfig: Record<string, StatConfig> = {
-      vig: { value: 10, locked: true },
-      mnd: { value: 10, locked: true },
-      end: { value: 10, locked: true },
-      str: { min: Math.max(10, reqs.strength), max: 99, locked: false },
-      dex: { value: 10, locked: true },
-      int: { min: Math.max(10, reqs.intelligence), max: 99, locked: false },
-      fai: { min: Math.max(10, reqs.faith), max: 99, locked: false },
-      arc: { value: 10, locked: true },
+      vig: { min: 10, max: 10 },
+      mnd: { min: 10, max: 10 },
+      end: { min: 10, max: 10 },
+      str: { min: Math.max(10, reqs.strength), max: 99 },
+      dex: { min: 10, max: 10 },
+      int: { min: Math.max(10, reqs.intelligence), max: 99 },
+      fai: { min: Math.max(10, reqs.faith), max: 99 },
+      arc: { min: 10, max: 10 },
     };
 
     // Test various budgets
@@ -772,8 +772,8 @@ describe('Solver - Composable API', () => {
       const getAR: ARCalculator = (stats) => 3 * stats.str + 1 * stats.dex;
 
       const statConfigs: Record<string, StatConfig> = {
-        str: { min: 10, max: 99, locked: false },
-        dex: { min: 10, max: 99, locked: false },
+        str: { min: 10, max: 99 },
+        dex: { min: 10, max: 99 },
       };
 
       const startStats = createMockStats();
@@ -798,8 +798,8 @@ describe('Solver - Composable API', () => {
       };
 
       const statConfigs: Record<string, StatConfig> = {
-        str: { min: 10, max: 99, locked: false },
-        dex: { min: 10, max: 99, locked: false },
+        str: { min: 10, max: 99 },
+        dex: { min: 10, max: 99 },
       };
 
       const startStats = createMockStats({ str: 10, dex: 10 });
@@ -815,8 +815,8 @@ describe('Solver - Composable API', () => {
       const getAR: ARCalculator = (stats) => stats.str + stats.dex;
 
       const statConfigs: Record<string, StatConfig> = {
-        str: { min: 10, max: 99, locked: false },
-        dex: { min: 10, max: 99, locked: false },
+        str: { min: 10, max: 99 },
+        dex: { min: 10, max: 99 },
       };
 
       // Scenario: startStats already has STR bumped to 25 (15 points used from base)
@@ -839,8 +839,8 @@ describe('Solver - Composable API', () => {
       const getAR: ARCalculator = (stats) => stats.str + stats.dex;
 
       const statConfigs: Record<string, StatConfig> = {
-        str: { min: 10, max: 99, locked: false },
-        dex: { min: 10, max: 99, locked: false },
+        str: { min: 10, max: 99 },
+        dex: { min: 10, max: 99 },
       };
 
       const baseStats = createMockStats({ str: 10, dex: 10 });
@@ -859,8 +859,8 @@ describe('Solver - Composable API', () => {
       const getAR: ARCalculator = (stats) => stats.str + stats.dex;
 
       const statConfigs: Record<string, StatConfig> = {
-        str: { min: 10, max: 99, locked: false },
-        dex: { min: 10, max: 99, locked: false },
+        str: { min: 10, max: 99 },
+        dex: { min: 10, max: 99 },
       };
 
       // startStats already uses 25 points from base, budget is only 20
@@ -881,8 +881,8 @@ describe('Solver - Composable API', () => {
     it('should generate starting points at breakpoints', () => {
       const startStats = createMockStats();
       const statConfigs: Record<string, StatConfig> = {
-        str: { min: 10, max: 99, locked: false },
-        dex: { min: 10, max: 99, locked: false },
+        str: { min: 10, max: 99 },
+        dex: { min: 10, max: 99 },
       };
 
       const starts = generateBreakpointStarts(startStats, ['str', 'dex'], 30, statConfigs);
@@ -902,8 +902,8 @@ describe('Solver - Composable API', () => {
     it('should use custom breakpoints when provided', () => {
       const startStats = createMockStats();
       const statConfigs: Record<string, StatConfig> = {
-        str: { min: 10, max: 99, locked: false },
-        int: { min: 10, max: 99, locked: false },
+        str: { min: 10, max: 99 },
+        int: { min: 10, max: 99 },
       };
 
       const customBreakpoints = [20, 40, 60];
@@ -930,8 +930,8 @@ describe('Solver - Composable API', () => {
       };
 
       const statConfigs: Record<string, StatConfig> = {
-        str: { min: 10, max: 99, locked: false },
-        dex: { min: 10, max: 99, locked: false },
+        str: { min: 10, max: 99 },
+        dex: { min: 10, max: 99 },
       };
 
       const startStats = createMockStats();
@@ -950,8 +950,8 @@ describe('Solver - Composable API', () => {
       const getAR: ARCalculator = (stats) => stats.str + stats.dex;
 
       const statConfigs: Record<string, StatConfig> = {
-        str: { min: 10, max: 99, locked: false },
-        dex: { min: 10, max: 99, locked: false },
+        str: { min: 10, max: 99 },
+        dex: { min: 10, max: 99 },
       };
 
       const startStats = createMockStats();
@@ -965,9 +965,9 @@ describe('Solver - Composable API', () => {
       const getAR: ARCalculator = (stats) => stats.str + stats.dex + stats.int;
 
       const statConfigs: Record<string, StatConfig> = {
-        str: { min: 10, max: 99, locked: false },
-        dex: { min: 10, max: 99, locked: false },
-        int: { min: 10, max: 99, locked: false },
+        str: { min: 10, max: 99 },
+        dex: { min: 10, max: 99 },
+        int: { min: 10, max: 99 },
       };
 
       const startStats = createMockStats();
@@ -980,8 +980,8 @@ describe('Solver - Composable API', () => {
       const getAR: ARCalculator = (stats) => stats.str + stats.dex;
 
       const statConfigs: Record<string, StatConfig> = {
-        str: { min: 10, max: 99, locked: false },
-        dex: { min: 10, max: 99, locked: false },
+        str: { min: 10, max: 99 },
+        dex: { min: 10, max: 99 },
       };
 
       const startStats = createMockStats();

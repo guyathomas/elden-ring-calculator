@@ -27,7 +27,7 @@ import type {
 } from '../types.js';
 import type { SolverOptimizationMode } from '../types/solverTypes.js';
 import type { PrecomputedAowData } from '../data/index.js';
-import { toCalculatorStats, getCategoryName, BUFFABLE_AFFINITIES } from '../types.js';
+import { toCalculatorStats, getCategoryName, BUFFABLE_AFFINITIES, isStatLocked, getStatValue } from '../types.js';
 import { getWeaponDamageTypes, getWeaponTrueCombos, hasUniqueAttacks } from '../data/index.js';
 import { solve } from './solver.js';
 import { createObjective } from './solverObjectives.js';
@@ -268,18 +268,18 @@ export function findOptimalStats(
   } = {}
 ): OptimalStats {
   const damageStats = ['str', 'dex', 'int', 'fai', 'arc'] as const;
-  const unlockedStats = damageStats.filter(stat => !statConfigs[stat].locked);
+  const unlockedStats = damageStats.filter(stat => !isStatLocked(statConfigs[stat]));
 
-  // Build base stats from locked values or minimums
+  // Build base stats from min values (for locked stats, min === max)
   const baseStats: CharacterStats = {
-    vig: statConfigs.vig.locked ? statConfigs.vig.value! : 40,
-    mnd: statConfigs.mnd.locked ? statConfigs.mnd.value! : 20,
-    end: statConfigs.end.locked ? statConfigs.end.value! : 25,
-    str: statConfigs.str.locked ? statConfigs.str.value! : (statConfigs.str.min ?? 10),
-    dex: statConfigs.dex.locked ? statConfigs.dex.value! : (statConfigs.dex.min ?? 10),
-    int: statConfigs.int.locked ? statConfigs.int.value! : (statConfigs.int.min ?? 10),
-    fai: statConfigs.fai.locked ? statConfigs.fai.value! : (statConfigs.fai.min ?? 10),
-    arc: statConfigs.arc.locked ? statConfigs.arc.value! : (statConfigs.arc.min ?? 10),
+    vig: getStatValue(statConfigs.vig),
+    mnd: getStatValue(statConfigs.mnd),
+    end: getStatValue(statConfigs.end),
+    str: getStatValue(statConfigs.str),
+    dex: getStatValue(statConfigs.dex),
+    int: getStatValue(statConfigs.int),
+    fai: getStatValue(statConfigs.fai),
+    arc: getStatValue(statConfigs.arc),
   };
 
   // If all stats locked, just calculate with current values
@@ -338,7 +338,7 @@ export function findOptimalStats(
     // Subtract locked damage stats' cost from budget (they consume part of the total budget)
     let lockedStatsCost = 0;
     for (const stat of damageStats) {
-      if (statConfigs[stat].locked) {
+      if (isStatLocked(statConfigs[stat])) {
         lockedStatsCost += baseStats[stat as keyof CharacterStats];
       }
     }

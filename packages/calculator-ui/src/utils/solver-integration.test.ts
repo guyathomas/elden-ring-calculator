@@ -34,16 +34,16 @@ describe('Solver Integration - Optimization Modes', () => {
     upgradeLevel: 25,
   };
 
-  // Stat configs with STR/DEX/FAI unlocked
+  // Stat configs with STR/DEX/FAI unlocked (min !== max means unlocked)
   const statConfigs: Record<string, StatConfig> = {
-    vig: { locked: true, value: 40 },
-    mnd: { locked: true, value: 20 },
-    end: { locked: true, value: 20 },
-    str: { locked: false, value: 30 },  // unlocked
-    dex: { locked: false, value: 20 },  // unlocked
-    int: { locked: true, value: 10 },
-    fai: { locked: false, value: 10 },  // unlocked
-    arc: { locked: true, value: 10 },
+    vig: { min: 40, max: 40 },
+    mnd: { min: 20, max: 20 },
+    end: { min: 20, max: 20 },
+    str: { min: 10, max: 99 },  // unlocked
+    dex: { min: 10, max: 99 },  // unlocked
+    int: { min: 10, max: 10 },
+    fai: { min: 10, max: 99 },  // unlocked
+    arc: { min: 10, max: 10 },
   };
 
   it('should return different optimal stats for AR vs AoW mode with compatible weapon', () => {

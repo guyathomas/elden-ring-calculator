@@ -1,5 +1,6 @@
 import { Lock, Unlock } from 'lucide-react';
 import type { StatConfig } from '../types';
+import { isStatLocked, getStatValue } from '../types';
 import { NumericInput } from './ui/numeric-input.js';
 
 interface StatInputProps {
@@ -11,20 +12,21 @@ interface StatInputProps {
 }
 
 export function StatInput({ label, config, onChange, isDamageStat }: StatInputProps) {
+  const locked = isStatLocked(config);
+
   const toggleLock = () => {
-    if (config.locked) {
+    if (locked) {
       // Unlock: convert to range
-      const value = config.value || 30;
+      const value = getStatValue(config);
       onChange({
-        locked: false,
         min: Math.max(10, value - 10),
         max: Math.min(99, value + 10),
       });
     } else {
-      // Lock: convert to single value (use min as the locked value)
+      // Lock: pin to single value (use min as the locked value)
       onChange({
-        locked: true,
-        value: config.min || 30,
+        min: config.min,
+        max: config.min,
       });
     }
   };
@@ -37,9 +39,9 @@ export function StatInput({ label, config, onChange, isDamageStat }: StatInputPr
           <button
             onClick={toggleLock}
             className="p-2 hover:bg-[#2a2a2a] rounded transition-colors"
-            title={config.locked ? 'Unlock (optimize)' : 'Lock (fixed)'}
+            title={locked ? 'Unlock (optimize)' : 'Lock (fixed)'}
           >
-            {config.locked ? (
+            {locked ? (
               <Lock className="w-3 h-3 text-[#8b8b8b]" />
             ) : (
               <Unlock className="w-3 h-3 text-[#d4af37]" />
@@ -48,10 +50,10 @@ export function StatInput({ label, config, onChange, isDamageStat }: StatInputPr
         )}
       </div>
 
-      {config.locked ? (
+      {locked ? (
         <NumericInput
-          value={config.value || 30}
-          onValueChange={(v) => onChange({ locked: true, value: v })}
+          value={getStatValue(config)}
+          onValueChange={(v) => onChange({ min: v, max: v })}
           min={1}
           max={99}
           fallback={10}
@@ -62,8 +64,8 @@ export function StatInput({ label, config, onChange, isDamageStat }: StatInputPr
           <div>
             <div className="text-[10px] text-[#6a6a6a] mb-0.5">Min</div>
             <NumericInput
-              value={config.min || 10}
-              onValueChange={(v) => onChange({ ...config, min: v })}
+              value={config.min}
+              onValueChange={(v) => onChange({ min: v, max: config.max })}
               min={1}
               max={99}
               fallback={10}
@@ -73,8 +75,8 @@ export function StatInput({ label, config, onChange, isDamageStat }: StatInputPr
           <div>
             <div className="text-[10px] text-[#6a6a6a] mb-0.5">Max</div>
             <NumericInput
-              value={config.max || 99}
-              onValueChange={(v) => onChange({ ...config, max: v })}
+              value={config.max}
+              onValueChange={(v) => onChange({ min: config.min, max: v })}
               min={1}
               max={99}
               fallback={99}

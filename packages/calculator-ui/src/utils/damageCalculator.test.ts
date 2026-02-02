@@ -133,25 +133,25 @@ const mockData: PrecomputedDataV2 = {
 };
 
 const allLocked: Record<string, StatConfig> = {
-  str: { value: 20, min: 10, max: 99, locked: true },
-  dex: { value: 15, min: 10, max: 99, locked: true },
-  int: { value: 10, min: 10, max: 99, locked: true },
-  fai: { value: 10, min: 10, max: 99, locked: true },
-  arc: { value: 10, min: 10, max: 99, locked: true },
-  vig: { value: 10, min: 10, max: 99, locked: true },
-  mnd: { value: 10, min: 10, max: 99, locked: true },
-  end: { value: 10, min: 10, max: 99, locked: true },
+  str: { min: 20, max: 20 },
+  dex: { min: 15, max: 15 },
+  int: { min: 10, max: 10 },
+  fai: { min: 10, max: 10 },
+  arc: { min: 10, max: 10 },
+  vig: { min: 10, max: 10 },
+  mnd: { min: 10, max: 10 },
+  end: { min: 10, max: 10 },
 };
 
 const defaultStatConfig: Record<string, StatConfig> = {
-  vig: { value: 40, locked: true },
-  mnd: { value: 20, locked: true },
-  end: { value: 25, locked: true },
-  str: { min: 10, max: 99, locked: false },
-  dex: { min: 10, max: 99, locked: false },
-  int: { min: 10, max: 99, locked: false },
-  fai: { min: 10, max: 99, locked: false },
-  arc: { min: 10, max: 99, locked: false },
+  vig: { min: 40, max: 40 },
+  mnd: { min: 20, max: 20 },
+  end: { min: 25, max: 25 },
+  str: { min: 10, max: 99 },
+  dex: { min: 10, max: 99 },
+  int: { min: 10, max: 99 },
+  fai: { min: 10, max: 99 },
+  arc: { min: 10, max: 99 },
 };
 
 describe('findOptimalStats', () => {
@@ -173,7 +173,7 @@ describe('findOptimalStats', () => {
   it('should respect locked stats', () => {
     const config = {
       ...defaultStatConfig,
-      str: { value: 50, locked: true }, // Locked at 50
+      str: { min: 50, max: 50 }, // Locked at 50
     };
 
     const result = findOptimalStats(
@@ -190,7 +190,7 @@ describe('findOptimalStats', () => {
   it('should respect max config', () => {
     const config = {
       ...defaultStatConfig,
-      str: { min: 10, max: 60, locked: false }, // Max 60
+      str: { min: 10, max: 60 }, // Max 60
     };
 
     const result = findOptimalStats(
@@ -209,7 +209,7 @@ describe('findOptimalStats', () => {
     // If we pass min 5, it should bump to 10
     const config = {
       ...defaultStatConfig,
-      str: { min: 5, max: 99, locked: false },
+      str: { min: 5, max: 99 },
     };
 
     // But wait, findOptimalStats uses baseStats from config.
@@ -316,14 +316,14 @@ describe('findOptimalStats', () => {
 describe('findOptimalStats - multi-stat scaling', () => {
   it('should allocate points to both STR and DEX for quality weapons', () => {
     const config: Record<string, StatConfig> = {
-      vig: { value: 40, locked: true },
-      mnd: { value: 20, locked: true },
-      end: { value: 25, locked: true },
-      str: { min: 12, max: 99, locked: false },
-      dex: { min: 12, max: 99, locked: false },
-      int: { min: 10, max: 99, locked: false },
-      fai: { min: 10, max: 99, locked: false },
-      arc: { min: 10, max: 99, locked: false },
+      vig: { min: 40, max: 40 },
+      mnd: { min: 20, max: 20 },
+      end: { min: 25, max: 25 },
+      str: { min: 12, max: 99 },
+      dex: { min: 12, max: 99 },
+      int: { min: 10, max: 99 },
+      fai: { min: 10, max: 99 },
+      arc: { min: 10, max: 99 },
     };
 
     const result = findOptimalStats(
@@ -345,14 +345,14 @@ describe('findOptimalStats - multi-stat scaling', () => {
 
   it('should distribute budget between STR and DEX for quality weapons', () => {
     const config: Record<string, StatConfig> = {
-      vig: { value: 40, locked: true },
-      mnd: { value: 20, locked: true },
-      end: { value: 25, locked: true },
-      str: { min: 12, max: 99, locked: false },
-      dex: { min: 12, max: 99, locked: false },
-      int: { min: 10, max: 99, locked: false },
-      fai: { min: 10, max: 99, locked: false },
-      arc: { min: 10, max: 99, locked: false },
+      vig: { min: 40, max: 40 },
+      mnd: { min: 20, max: 20 },
+      end: { min: 25, max: 25 },
+      str: { min: 12, max: 99 },
+      dex: { min: 12, max: 99 },
+      int: { min: 10, max: 99 },
+      fai: { min: 10, max: 99 },
+      arc: { min: 10, max: 99 },
     };
 
     // baseStatsSum = 12 + 12 + 10 + 10 + 10 = 54
@@ -379,14 +379,14 @@ describe('findOptimalStats - multi-stat scaling', () => {
 
   it('should prioritize INT for magic weapons with split damage', () => {
     const config: Record<string, StatConfig> = {
-      vig: { value: 40, locked: true },
-      mnd: { value: 20, locked: true },
-      end: { value: 25, locked: true },
-      str: { min: 8, max: 99, locked: false },
-      dex: { min: 8, max: 99, locked: false },
-      int: { min: 20, max: 99, locked: false },
-      fai: { min: 10, max: 99, locked: false },
-      arc: { min: 10, max: 99, locked: false },
+      vig: { min: 40, max: 40 },
+      mnd: { min: 20, max: 20 },
+      end: { min: 25, max: 25 },
+      str: { min: 8, max: 99 },
+      dex: { min: 8, max: 99 },
+      int: { min: 20, max: 99 },
+      fai: { min: 10, max: 99 },
+      arc: { min: 10, max: 99 },
     };
 
     const result = findOptimalStats(
@@ -406,14 +406,14 @@ describe('findOptimalStats - multi-stat scaling', () => {
 
   it('should favor INT over STR when budget is limited for magic weapons', () => {
     const config: Record<string, StatConfig> = {
-      vig: { value: 40, locked: true },
-      mnd: { value: 20, locked: true },
-      end: { value: 25, locked: true },
-      str: { min: 8, max: 99, locked: false },
-      dex: { min: 8, max: 99, locked: false },
-      int: { min: 20, max: 99, locked: false },
-      fai: { min: 10, max: 99, locked: false },
-      arc: { min: 10, max: 99, locked: false },
+      vig: { min: 40, max: 40 },
+      mnd: { min: 20, max: 20 },
+      end: { min: 25, max: 25 },
+      str: { min: 8, max: 99 },
+      dex: { min: 8, max: 99 },
+      int: { min: 20, max: 99 },
+      fai: { min: 10, max: 99 },
+      arc: { min: 10, max: 99 },
     };
 
     // baseStatsSum = 8 + 8 + 20 + 10 + 10 = 56
@@ -507,14 +507,14 @@ describe('findOptimalStats - catalyst spell scaling', () => {
     // BUG: Solver sees pointsUsed = (28 - 16) = 12 > budget (11), so doesn't allocate!
 
     const config: Record<string, StatConfig> = {
-      vig: { value: 9, locked: true },
-      mnd: { value: 15, locked: true },
-      end: { value: 9, locked: true },
-      str: { min: 8, max: 99, locked: false },
-      dex: { min: 12, max: 99, locked: false },
-      int: { min: 16, max: 99, locked: false }, // Astrologer base INT
-      fai: { min: 7, max: 99, locked: false },
-      arc: { min: 9, max: 99, locked: false },
+      vig: { min: 9, max: 9 },
+      mnd: { min: 15, max: 15 },
+      end: { min: 9, max: 9 },
+      str: { min: 8, max: 99 },
+      dex: { min: 12, max: 99 },
+      int: { min: 16, max: 99 }, // Astrologer base INT
+      fai: { min: 7, max: 99 },
+      arc: { min: 9, max: 99 },
     };
 
     // Total budget = baseStatsSum + additional points we want to allocate
@@ -539,14 +539,14 @@ describe('findOptimalStats - catalyst spell scaling', () => {
 
   it('should continue allocating points as level increases beyond requirements', () => {
     const config: Record<string, StatConfig> = {
-      vig: { value: 9, locked: true },
-      mnd: { value: 15, locked: true },
-      end: { value: 9, locked: true },
-      str: { min: 8, max: 99, locked: false },
-      dex: { min: 12, max: 99, locked: false },
-      int: { min: 16, max: 99, locked: false },
-      fai: { min: 7, max: 99, locked: false },
-      arc: { min: 9, max: 99, locked: false },
+      vig: { min: 9, max: 9 },
+      mnd: { min: 15, max: 15 },
+      end: { min: 9, max: 9 },
+      str: { min: 8, max: 99 },
+      dex: { min: 12, max: 99 },
+      int: { min: 16, max: 99 },
+      fai: { min: 7, max: 99 },
+      arc: { min: 9, max: 99 },
     };
 
     // At level 35: budget = 85 - 6 + 35 - 9 - 15 - 9 = 81
@@ -567,14 +567,14 @@ describe('findOptimalStats - catalyst spell scaling', () => {
 
   it('should handle budget exactly at requirements boundary', () => {
     const config: Record<string, StatConfig> = {
-      vig: { value: 9, locked: true },
-      mnd: { value: 15, locked: true },
-      end: { value: 9, locked: true },
-      str: { min: 8, max: 99, locked: false },
-      dex: { min: 12, max: 99, locked: false },
-      int: { min: 16, max: 99, locked: false },
-      fai: { min: 7, max: 99, locked: false },
-      arc: { min: 9, max: 99, locked: false },
+      vig: { min: 9, max: 9 },
+      mnd: { min: 15, max: 15 },
+      end: { min: 9, max: 9 },
+      str: { min: 8, max: 99 },
+      dex: { min: 12, max: 99 },
+      int: { min: 16, max: 99 },
+      fai: { min: 7, max: 99 },
+      arc: { min: 9, max: 99 },
     };
 
     // Budget exactly equals startStatsSum (64) - no additional points to allocate
@@ -598,14 +598,14 @@ describe('findOptimalStats - catalyst spell scaling', () => {
 
   it('should use ignoreRequirements when budget is below requirements', () => {
     const config: Record<string, StatConfig> = {
-      vig: { value: 9, locked: true },
-      mnd: { value: 15, locked: true },
-      end: { value: 9, locked: true },
-      str: { min: 8, max: 99, locked: false },
-      dex: { min: 12, max: 99, locked: false },
-      int: { min: 16, max: 99, locked: false },
-      fai: { min: 7, max: 99, locked: false },
-      arc: { min: 9, max: 99, locked: false },
+      vig: { min: 9, max: 9 },
+      mnd: { min: 15, max: 15 },
+      end: { min: 9, max: 9 },
+      str: { min: 8, max: 99 },
+      dex: { min: 12, max: 99 },
+      int: { min: 16, max: 99 },
+      fai: { min: 7, max: 99 },
+      arc: { min: 9, max: 99 },
     };
 
     // Budget below requirements (need 64, only have 58)
@@ -629,14 +629,14 @@ describe('findOptimalStats - catalyst spell scaling', () => {
 
   it('should increase damage as points are allocated', () => {
     const config: Record<string, StatConfig> = {
-      vig: { value: 9, locked: true },
-      mnd: { value: 15, locked: true },
-      end: { value: 9, locked: true },
-      str: { min: 8, max: 99, locked: false },
-      dex: { min: 12, max: 99, locked: false },
-      int: { min: 16, max: 99, locked: false },
-      fai: { min: 7, max: 99, locked: false },
-      arc: { min: 9, max: 99, locked: false },
+      vig: { min: 9, max: 9 },
+      mnd: { min: 15, max: 15 },
+      end: { min: 9, max: 9 },
+      str: { min: 8, max: 99 },
+      dex: { min: 12, max: 99 },
+      int: { min: 16, max: 99 },
+      fai: { min: 7, max: 99 },
+      arc: { min: 9, max: 99 },
     };
 
     // Test at different budget levels to verify damage increases
@@ -662,14 +662,14 @@ describe('findOptimalStats - 2H vs 1H scenarios', () => {
     // Quality weapon has equal STR/DEX scaling
     // 2H gives STR a 1.5x bonus, so it may prefer different allocation
     const config: Record<string, StatConfig> = {
-      vig: { value: 40, locked: true },
-      mnd: { value: 20, locked: true },
-      end: { value: 25, locked: true },
-      str: { min: 12, max: 99, locked: false },
-      dex: { min: 12, max: 99, locked: false },
-      int: { min: 10, max: 99, locked: false },
-      fai: { min: 10, max: 99, locked: false },
-      arc: { min: 10, max: 99, locked: false },
+      vig: { min: 40, max: 40 },
+      mnd: { min: 20, max: 20 },
+      end: { min: 25, max: 25 },
+      str: { min: 12, max: 99 },
+      dex: { min: 12, max: 99 },
+      int: { min: 10, max: 99 },
+      fai: { min: 10, max: 99 },
+      arc: { min: 10, max: 99 },
     };
 
     // Budget that allows some allocation beyond requirements
@@ -708,14 +708,14 @@ describe('findOptimalStats - 2H vs 1H scenarios', () => {
 
   it('should handle 1H and 2H consistently at various budget levels', () => {
     const config: Record<string, StatConfig> = {
-      vig: { value: 40, locked: true },
-      mnd: { value: 20, locked: true },
-      end: { value: 25, locked: true },
-      str: { min: 12, max: 99, locked: false },
-      dex: { min: 12, max: 99, locked: false },
-      int: { min: 10, max: 99, locked: false },
-      fai: { min: 10, max: 99, locked: false },
-      arc: { min: 10, max: 99, locked: false },
+      vig: { min: 40, max: 40 },
+      mnd: { min: 20, max: 20 },
+      end: { min: 25, max: 25 },
+      str: { min: 12, max: 99 },
+      dex: { min: 12, max: 99 },
+      int: { min: 10, max: 99 },
+      fai: { min: 10, max: 99 },
+      arc: { min: 10, max: 99 },
     };
 
     // Test at multiple budget levels
@@ -796,14 +796,14 @@ describe('findOptimalStats - high requirement weapons', () => {
 
   it('should allocate toward requirements when budget is below requirements', () => {
     const config: Record<string, StatConfig> = {
-      vig: { value: 10, locked: true },
-      mnd: { value: 10, locked: true },
-      end: { value: 10, locked: true },
-      str: { min: 10, max: 99, locked: false },
-      dex: { min: 10, max: 99, locked: false },
-      int: { min: 10, max: 99, locked: false },
-      fai: { min: 10, max: 99, locked: false },
-      arc: { min: 10, max: 99, locked: false },
+      vig: { min: 10, max: 10 },
+      mnd: { min: 10, max: 10 },
+      end: { min: 10, max: 10 },
+      str: { min: 10, max: 99 },
+      dex: { min: 10, max: 99 },
+      int: { min: 10, max: 99 },
+      fai: { min: 10, max: 99 },
+      arc: { min: 10, max: 99 },
     };
 
     // baseStatsSum = 50, requirement needs STR 40 (startStatsSum would be 80)
@@ -826,14 +826,14 @@ describe('findOptimalStats - high requirement weapons', () => {
 
   it('should allocate beyond requirements when budget allows', () => {
     const config: Record<string, StatConfig> = {
-      vig: { value: 10, locked: true },
-      mnd: { value: 10, locked: true },
-      end: { value: 10, locked: true },
-      str: { min: 10, max: 99, locked: false },
-      dex: { min: 10, max: 99, locked: false },
-      int: { min: 10, max: 99, locked: false },
-      fai: { min: 10, max: 99, locked: false },
-      arc: { min: 10, max: 99, locked: false },
+      vig: { min: 10, max: 10 },
+      mnd: { min: 10, max: 10 },
+      end: { min: 10, max: 10 },
+      str: { min: 10, max: 99 },
+      dex: { min: 10, max: 99 },
+      int: { min: 10, max: 99 },
+      fai: { min: 10, max: 99 },
+      arc: { min: 10, max: 99 },
     };
 
     // Budget of 100 exceeds requirements (80), so 20 additional points available
@@ -855,14 +855,14 @@ describe('findOptimalStats - high requirement weapons', () => {
 
   it('should handle 2H reducing effective STR requirement', () => {
     const config: Record<string, StatConfig> = {
-      vig: { value: 10, locked: true },
-      mnd: { value: 10, locked: true },
-      end: { value: 10, locked: true },
-      str: { min: 10, max: 99, locked: false },
-      dex: { min: 10, max: 99, locked: false },
-      int: { min: 10, max: 99, locked: false },
-      fai: { min: 10, max: 99, locked: false },
-      arc: { min: 10, max: 99, locked: false },
+      vig: { min: 10, max: 10 },
+      mnd: { min: 10, max: 10 },
+      end: { min: 10, max: 10 },
+      str: { min: 10, max: 99 },
+      dex: { min: 10, max: 99 },
+      int: { min: 10, max: 99 },
+      fai: { min: 10, max: 99 },
+      arc: { min: 10, max: 99 },
     };
 
     // STR 40 requirement, but 2H gives 1.5x bonus
@@ -899,14 +899,14 @@ describe('findOptimalStats - high requirement weapons', () => {
 describe('findOptimalStats - multi-stat allocation', () => {
   it('should properly distribute points across multiple scaling stats', () => {
     const config: Record<string, StatConfig> = {
-      vig: { value: 40, locked: true },
-      mnd: { value: 20, locked: true },
-      end: { value: 25, locked: true },
-      str: { min: 8, max: 99, locked: false },
-      dex: { min: 8, max: 99, locked: false },
-      int: { min: 20, max: 99, locked: false }, // Magic requirement
-      fai: { min: 10, max: 99, locked: false },
-      arc: { min: 10, max: 99, locked: false },
+      vig: { min: 40, max: 40 },
+      mnd: { min: 20, max: 20 },
+      end: { min: 25, max: 25 },
+      str: { min: 8, max: 99 },
+      dex: { min: 8, max: 99 },
+      int: { min: 20, max: 99 }, // Magic requirement
+      fai: { min: 10, max: 99 },
+      arc: { min: 10, max: 99 },
     };
 
     // MagicWeapon has STR scaling (30) and INT scaling (100)
@@ -934,14 +934,14 @@ describe('findOptimalStats - multi-stat allocation', () => {
 
   it('should not allocate to non-scaling stats', () => {
     const config: Record<string, StatConfig> = {
-      vig: { value: 40, locked: true },
-      mnd: { value: 20, locked: true },
-      end: { value: 25, locked: true },
-      str: { min: 10, max: 99, locked: false },
-      dex: { min: 10, max: 99, locked: false },
-      int: { min: 10, max: 99, locked: false },
-      fai: { min: 10, max: 99, locked: false },
-      arc: { min: 10, max: 99, locked: false },
+      vig: { min: 40, max: 40 },
+      mnd: { min: 20, max: 20 },
+      end: { min: 25, max: 25 },
+      str: { min: 10, max: 99 },
+      dex: { min: 10, max: 99 },
+      int: { min: 10, max: 99 },
+      fai: { min: 10, max: 99 },
+      arc: { min: 10, max: 99 },
     };
 
     // TestWeapon only has STR scaling

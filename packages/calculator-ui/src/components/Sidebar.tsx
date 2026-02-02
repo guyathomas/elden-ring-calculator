@@ -6,6 +6,8 @@ import {
   Columns,
   Skull,
   Sword,
+  Lock,
+  Unlock,
 } from 'lucide-react';
 import { Checkbox } from './ui/checkbox.js';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select.js';
@@ -20,7 +22,7 @@ import { NumericInput } from './ui/numeric-input.js';
 import type { StatConfig, StartingClass, WeaponListItem, CharacterStats, PrecomputedDataV2 } from '../types.js';
 import type { Build } from '../types/buildTypes.js';
 import type { FilterValue } from './ui/column-filter.js';
-import { INITIAL_CLASS_VALUES, STARTING_CLASS_LIST, WEAPON_SKILL_FILTER } from '../types.js';
+import { INITIAL_CLASS_VALUES, STARTING_CLASS_LIST, WEAPON_SKILL_FILTER, getStatValue, isStatLocked, lockAllDamageStats, unlockAllDamageStats } from '../types.js';
 import type { SolverOptimizationMode } from '../types/solverTypes.js';
 import { getBossNames, getEnemyByKey, getAvailableAowNames, getUniqueSkillNames } from '../data/index.js';
 import type { PrecomputedAowData } from '../data/index.js';
@@ -64,8 +66,6 @@ interface SidebarProps {
   setStartingClass: (startingClass: StartingClass) => void;
   statConfigs: Record<string, StatConfig>;
   onStatConfigChange: (stat: string, config: StatConfig) => void;
-  solverEnabled: boolean;
-  onSolverToggle: (enabled: boolean) => void;
   twoHanding: boolean;
   onTwoHandingToggle: (enabled: boolean) => void;
   upgradeLevel: number;
@@ -183,14 +183,14 @@ const NumberInput = ({
 };
 
 const FixedStatInput = ({ label, stat, config, onStatConfigChange, classMin }: { label: string; stat: string; config: StatConfig; onStatConfigChange: (stat: string, config: StatConfig) => void; classMin: number }) => {
-  const isError = (config.value || 10) < classMin;
+  const isError = getStatValue(config) < classMin;
 
   return (
     <div className="flex flex-col gap-1.5">
       <label className="text-[#8b8b8b] text-[10px] uppercase tracking-wider font-medium">{label}</label>
       <NumericInput
-        value={config.value || 10}
-        onValueChange={(v) => onStatConfigChange(stat, { locked: true, value: v })}
+        value={getStatValue(config)}
+        onValueChange={(v) => onStatConfigChange(stat, { min: v, max: v })}
         min={1}
         max={99}
         fallback={10}
@@ -206,31 +206,65 @@ const FixedStatInput = ({ label, stat, config, onStatConfigChange, classMin }: {
 };
 
 const RangeStatInput = ({ label, stat, config, onStatConfigChange, classMin }: { label: string; stat: string; config: StatConfig; onStatConfigChange: (stat: string, config: StatConfig) => void; classMin: number }) => {
-  const isMinError = (config.min || 10) < classMin;
-  const isMaxError = (config.max || 99) < classMin;
+  const locked = isStatLocked(config);
+  const value = getStatValue(config);
+  const isMinError = config.min < classMin;
+  const isMaxError = !locked && config.max < classMin;
+
+  const toggleLock = () => {
+    if (locked) {
+      onStatConfigChange(stat, { min: classMin, max: 99 });
+    } else {
+      onStatConfigChange(stat, { min: config.min, max: config.min });
+    }
+  };
 
   return (
     <div className="flex flex-col gap-1">
-      <label className="text-[#d4af37] text-[10px] uppercase tracking-wider font-medium">{label}</label>
-      <div className="flex items-center gap-1">
+      <div className="flex items-center justify-between">
+        <label className={`text-[10px] uppercase tracking-wider font-medium ${locked ? 'text-[#8b8b8b]' : 'text-[#d4af37]'}`}>{label}</label>
+        <button
+          onClick={toggleLock}
+          className="p-0.5 hover:bg-[#2a2a2a] rounded transition-colors"
+          title={locked ? 'Unlock (optimize this stat)' : 'Lock (fix this stat)'}
+        >
+          {locked ? (
+            <Lock className="w-3 h-3 text-[#8b8b8b]" />
+          ) : (
+            <Unlock className="w-3 h-3 text-[#d4af37]" />
+          )}
+        </button>
+      </div>
+      {locked ? (
         <NumericInput
-          value={config.min || 10}
-          onValueChange={(v) => onStatConfigChange(stat, { ...config, min: v })}
+          value={value}
+          onValueChange={(v) => onStatConfigChange(stat, { min: v, max: v })}
           min={1}
           max={99}
           fallback={10}
-          className={`flex-1 min-w-0 bg-[#1a1a1a] border rounded px-1 py-2 text-center text-base md:text-xs text-[#e8e6e3] focus:outline-none ${isMinError ? 'input-error' : 'border-[#333] focus:border-[#d4af37]'}`}
+          className={`w-full bg-[#1a1a1a] border rounded px-1 py-2 text-center text-base md:text-xs text-[#e8e6e3] focus:outline-none ${isMinError ? 'input-error' : 'border-[#333] focus:border-[#d4af37]'}`}
         />
-        <span className="text-[#4a4a4a] text-[10px]">-</span>
-        <NumericInput
-          value={config.max || 99}
-          onValueChange={(v) => onStatConfigChange(stat, { ...config, max: v })}
-          min={1}
-          max={99}
-          fallback={99}
-          className={`flex-1 min-w-0 bg-[#1a1a1a] border rounded px-1 py-2 text-center text-base md:text-xs text-[#e8e6e3] focus:outline-none ${isMaxError ? 'input-error' : 'border-[#333] focus:border-[#d4af37]'}`}
-        />
-      </div>
+      ) : (
+        <div className="flex items-center gap-1">
+          <NumericInput
+            value={config.min}
+            onValueChange={(v) => onStatConfigChange(stat, { min: v, max: config.max })}
+            min={1}
+            max={99}
+            fallback={10}
+            className={`flex-1 min-w-0 bg-[#1a1a1a] border rounded px-1 py-2 text-center text-base md:text-xs text-[#e8e6e3] focus:outline-none ${isMinError ? 'input-error' : 'border-[#333] focus:border-[#d4af37]'}`}
+          />
+          <span className="text-[#4a4a4a] text-[10px]">-</span>
+          <NumericInput
+            value={config.max}
+            onValueChange={(v) => onStatConfigChange(stat, { min: config.min, max: v })}
+            min={1}
+            max={99}
+            fallback={99}
+            className={`flex-1 min-w-0 bg-[#1a1a1a] border rounded px-1 py-2 text-center text-base md:text-xs text-[#e8e6e3] focus:outline-none ${isMaxError ? 'input-error' : 'border-[#333] focus:border-[#d4af37]'}`}
+          />
+        </div>
+      )}
       {(isMinError || isMaxError) && (
         <div className="text-xs text-error mt-0.5">
           Min: {classMin}
@@ -267,8 +301,6 @@ interface SidebarBodyProps {
   setGroupBy: (groupBy: 'none' | 'weapon-type' | 'affinity' | 'weapon') => void;
   statConfigs: Record<string, StatConfig>;
   onStatConfigChange: (stat: string, config: StatConfig) => void;
-  solverEnabled: boolean;
-  onSolverToggle: (enabled: boolean) => void;
   startingClass: StartingClass;
   setStartingClass: (startingClass: StartingClass) => void;
   level: number;
@@ -369,8 +401,6 @@ const SidebarBody = ({
   setGroupBy,
   statConfigs,
   onStatConfigChange,
-  solverEnabled,
-  onSolverToggle,
   startingClass,
   setStartingClass,
   level,
@@ -416,62 +446,19 @@ const SidebarBody = ({
     ];
   }, [aowData]);
 
-  const handleModeSwitch = (toSolver: boolean) => {
-    if (toSolver === solverEnabled) return;
-
-    onSolverToggle(toSolver);
-
-    if (toSolver) {
-      // Switch to Solver mode
-      const damageStatMap: Record<string, keyof typeof classData> = {
-        str: 'str', dex: 'dex', int: 'int', fai: 'fai', arc: 'arc'
-      };
-      Object.entries(damageStatMap).forEach(([stat, classKey]) => {
-        const classMin = classData[classKey];
-        onStatConfigChange(stat, {
-          locked: false,
-          min: classMin,
-          max: 99
-        });
-      });
-    } else {
-      // Switch to Fixed mode
-      const damageStats = ['str', 'dex', 'int', 'fai', 'arc'] as const;
-      damageStats.forEach(stat => {
-        const classMin = classData[stat];
-        const value = statConfigs[stat].locked ? statConfigs[stat].value! : statConfigs[stat].min || classMin;
-        onStatConfigChange(stat, {
-          locked: true,
-          value: value
-        });
-      });
-    }
-  };
-
   const handleResetStats = () => {
     // Reset Level
     setLevel(classData.lvl);
 
-    // Reset VIG, MND, END (treated as fixed/budget stats)
-    onStatConfigChange('vig', { locked: true, value: classData.vig });
-    onStatConfigChange('mnd', { locked: true, value: classData.min });
-    onStatConfigChange('end', { locked: true, value: classData.end });
+    // Reset VIG, MND, END (always fixed, min === max)
+    onStatConfigChange('vig', { min: classData.vig, max: classData.vig });
+    onStatConfigChange('mnd', { min: classData.min, max: classData.min });
+    onStatConfigChange('end', { min: classData.end, max: classData.end });
 
-    // Reset Damage Stats
+    // Reset Damage Stats - preserve range nature (min to 99)
     const damageStats = ['str', 'dex', 'int', 'fai', 'arc'] as const;
     damageStats.forEach(stat => {
-      if (solverEnabled) {
-        onStatConfigChange(stat, {
-          locked: false,
-          min: classData[stat],
-          max: 99
-        });
-      } else {
-        onStatConfigChange(stat, {
-          locked: true,
-          value: classData[stat]
-        });
-      }
+      onStatConfigChange(stat, { min: classData[stat], max: 99 });
     });
   };
 
@@ -483,37 +470,15 @@ const SidebarBody = ({
       <div className="space-y-4">
         <label className="text-xs font-medium text-[#8b8b8b] uppercase tracking-wider">Calculator</label>
 
-        {/* Mode Toggle */}
-        <div className="space-y-2">
-          <label className="text-[#8b8b8b] text-[10px] uppercase tracking-wider font-medium">Mode</label>
-          <ToggleGroup
-            type="single"
-            value={solverEnabled ? 'solver' : 'fixed'}
-            onValueChange={(v) => { if (v) handleModeSwitch(v === 'solver'); }}
-            variant="subtle"
-            size="default"
-            className="rounded border border-[#333] bg-[#141414] p-1"
-          >
-            <ToggleGroupItem value="fixed" className="flex-1 text-xs uppercase tracking-wider">
-              Fixed
-            </ToggleGroupItem>
-            <ToggleGroupItem value="solver" className="flex-1 text-xs uppercase tracking-wider">
-              Solver
-            </ToggleGroupItem>
-          </ToggleGroup>
-        </div>
-
-        {/* Optimization Mode Toggle - shown when solver is enabled */}
-        {solverEnabled && (
-          <SolverOptimizationModeToggle
-            mode={optimizationMode}
-            onChange={onOptimizationModeChange}
-            spDisabled={!hasCatalystsSelected}
-            spDisabledReason="Select Glintstone Staff or Sacred Seal in weapon filter"
-            aowDisabled={!hasAowSelected}
-            aowDisabledReason="AoW can only be optimized when one is selected below"
-          />
-        )}
+        {/* Optimization Mode Toggle */}
+        <SolverOptimizationModeToggle
+          mode={optimizationMode}
+          onChange={onOptimizationModeChange}
+          spDisabled={!hasCatalystsSelected}
+          spDisabledReason="Select Glintstone Staff or Sacred Seal in weapon filter"
+          aowDisabled={!hasAowSelected}
+          aowDisabledReason="AoW can only be optimized when one is selected below"
+        />
       </div>
 
       {/* ============================================ */}
@@ -535,143 +500,133 @@ const SidebarBody = ({
           />
         </div>
 
-        {/* Stats Section - Different based on mode */}
-        {!solverEnabled ? (
-          /* Fixed Mode Stats */
-          <div className="space-y-3 pb-4">
-            <div className="flex items-center justify-between">
-              <label className="text-[#8b8b8b] text-[10px] uppercase tracking-wider font-medium">Stats</label>
-              <span className="text-[#6a6a6a] text-[10px]">
-                Lvl {classData.lvl
-                  + (statConfigs.vig.value || classData.vig) - classData.vig
-                  + (statConfigs.mnd.value || classData.min) - classData.min
-                  + (statConfigs.end.value || classData.end) - classData.end
-                  + (statConfigs.str.value || classData.str) - classData.str
-                  + (statConfigs.dex.value || classData.dex) - classData.dex
-                  + (statConfigs.int.value || classData.int) - classData.int
-                  + (statConfigs.fai.value || classData.fai) - classData.fai
-                  + (statConfigs.arc.value || classData.arc) - classData.arc}
-              </span>
+        {/* Stats Section - Level/Budget + VIG/MND/END + Damage Stats */}
+        <div className="space-y-3">
+          {/* Level and Budget */}
+          <div className="grid grid-cols-2 gap-3 mb-3">
+            <div className="flex flex-col gap-1.5">
+              <label className="text-[#8b8b8b] text-[10px] uppercase tracking-wider font-medium">Level</label>
+              <NumericInput
+                value={level}
+                onValueChange={setLevel}
+                min={1}
+                max={713}
+                fallback={1}
+                className="w-full bg-[#1a1a1a] border border-[#333] rounded px-2 py-2 text-center text-base md:text-sm text-[#e8e6e3] focus:outline-none focus:border-[#d4af37] transition-colors"
+              />
             </div>
-            <div className="grid grid-cols-3 gap-3">
-              <FixedStatInput label="VIG" stat="vig" config={statConfigs.vig} onStatConfigChange={onStatConfigChange} classMin={classData.vig} />
-              <FixedStatInput label="MND" stat="mnd" config={statConfigs.mnd} onStatConfigChange={onStatConfigChange} classMin={classData.min} />
-              <FixedStatInput label="END" stat="end" config={statConfigs.end} onStatConfigChange={onStatConfigChange} classMin={classData.end} />
-              <FixedStatInput label="STR" stat="str" config={statConfigs.str} onStatConfigChange={onStatConfigChange} classMin={classData.str} />
-              <FixedStatInput label="DEX" stat="dex" config={statConfigs.dex} onStatConfigChange={onStatConfigChange} classMin={classData.dex} />
-              <FixedStatInput label="INT" stat="int" config={statConfigs.int} onStatConfigChange={onStatConfigChange} classMin={classData.int} />
-              <FixedStatInput label="FAI" stat="fai" config={statConfigs.fai} onStatConfigChange={onStatConfigChange} classMin={classData.fai} />
-              <FixedStatInput label="ARC" stat="arc" config={statConfigs.arc} onStatConfigChange={onStatConfigChange} classMin={classData.arc} />
-            </div>
-          </div>
-        ) : (
-          /* Solver Mode Stats */
-          <div className="space-y-3">
-            {/* Level and VIG, MND, END - Budget-reducing stats */}
-            <div className="grid grid-cols-2 gap-3 mb-3">
-              <div className="flex flex-col gap-1.5">
-                <label className="text-[#8b8b8b] text-[10px] uppercase tracking-wider font-medium">Level</label>
-                <NumericInput
-                  value={level}
-                  onValueChange={setLevel}
-                  min={1}
-                  max={713}
-                  fallback={1}
-                  className="w-full bg-[#1a1a1a] border border-[#333] rounded px-2 py-2 text-center text-base md:text-sm text-[#e8e6e3] focus:outline-none focus:border-[#d4af37] transition-colors"
-                />
-              </div>
-              <div className="flex flex-col gap-1.5">
-                <label className="text-[#8b8b8b] text-[10px] uppercase tracking-wider font-medium">Budget</label>
-                {(() => {
-                  const end = statConfigs.end.value || classData.end;
-                  const budget = (level - classData.lvl) -
-                    ((statConfigs.vig.value || classData.vig) - classData.vig) -
-                    ((statConfigs.mnd.value || classData.min) - classData.min) -
-                    (end - classData.end);
-                  return (
-                    <div
-                      className={`w-full bg-[#0a0a0a] border border-[#222] rounded px-2 py-2 text-center text-sm ${budget < 0 ? 'text-[#ef4444]' : 'text-[#d4af37]'
-                        }`}
-                    >
-                      {budget}
-                    </div>
-                  );
-                })()}
-              </div>
-            </div>
-
-            <div className="grid grid-cols-3 gap-3">
-              <FixedStatInput label="VIG" stat="vig" config={statConfigs.vig} onStatConfigChange={onStatConfigChange} classMin={classData.vig} />
-              <FixedStatInput label="MND" stat="mnd" config={statConfigs.mnd} onStatConfigChange={onStatConfigChange} classMin={classData.min} />
-              <FixedStatInput label="END" stat="end" config={statConfigs.end} onStatConfigChange={onStatConfigChange} classMin={classData.end} />
-            </div>
-
-            {/* Damage Stats - Range inputs */}
-            <label className="text-[#d4af37] text-[10px] uppercase tracking-wider font-medium pt-2">Damage Stats (min-max)</label>
-            <div className="grid grid-cols-2 gap-3">
-              <RangeStatInput label="STR" stat="str" config={statConfigs.str} onStatConfigChange={onStatConfigChange} classMin={classData.str} />
-              <RangeStatInput label="DEX" stat="dex" config={statConfigs.dex} onStatConfigChange={onStatConfigChange} classMin={classData.dex} />
-              <RangeStatInput label="INT" stat="int" config={statConfigs.int} onStatConfigChange={onStatConfigChange} classMin={classData.int} />
-              <RangeStatInput label="FAI" stat="fai" config={statConfigs.fai} onStatConfigChange={onStatConfigChange} classMin={classData.fai} />
-              <RangeStatInput label="ARC" stat="arc" config={statConfigs.arc} onStatConfigChange={onStatConfigChange} classMin={classData.arc} />
-            </div>
-
-            {/* Subtract Weapon Weight Toggle */}
-            <div className="pt-3">
-              <label className="flex items-center gap-2 text-sm text-[#e8e6e3] cursor-pointer hover:text-white">
-                <Checkbox
-                  checked={subtractWeaponWeight}
-                  onCheckedChange={(checked) => onSubtractWeaponWeightChange(checked === true)}
-                  className="border-[#3a3a3a] data-[state=checked]:bg-[#d4af37] data-[state=checked]:border-[#d4af37]"
-                />
-                Subtract Weapon Weight
-              </label>
-              <p className="text-[10px] text-[#6a6a6a] mt-1 ml-6">
-                Adjusts budget to consider weapon weight
-              </p>
-            </div>
-
-            {subtractWeaponWeight && (
-              <>
-                {/* Roll Type Picker */}
-                <div className="pt-2">
-                  <label className="text-[#8b8b8b] text-[10px] uppercase tracking-wider font-medium block mb-1.5">Roll Type</label>
-                  <ToggleGroup
-                    type="single"
-                    value={rollType}
-                    onValueChange={(v) => { if (v) onRollTypeChange(v as RollType); }}
-                    variant="subtle"
-                    size="default"
-                    className="rounded border border-[#333] bg-[#141414] p-1"
+            <div className="flex flex-col gap-1.5">
+              <label className="text-[#8b8b8b] text-[10px] uppercase tracking-wider font-medium">Budget</label>
+              {(() => {
+                const end = getStatValue(statConfigs.end);
+                const budget = (level - classData.lvl) -
+                  (getStatValue(statConfigs.vig) - classData.vig) -
+                  (getStatValue(statConfigs.mnd) - classData.min) -
+                  (end - classData.end);
+                return (
+                  <div
+                    className={`w-full bg-[#0a0a0a] border border-[#222] rounded px-2 py-2 text-center text-sm ${budget < 0 ? 'text-[#ef4444]' : 'text-[#d4af37]'
+                      }`}
                   >
-                    <ToggleGroupItem value="light" className="flex-1 text-xs uppercase tracking-wider">
-                      Light
-                    </ToggleGroupItem>
-                    <ToggleGroupItem value="medium" className="flex-1 text-xs uppercase tracking-wider">
-                      Med
-                    </ToggleGroupItem>
-                    <ToggleGroupItem value="heavy" className="flex-1 text-xs uppercase tracking-wider">
-                      Heavy
-                    </ToggleGroupItem>
-                  </ToggleGroup>
-                </div>
-
-                {/* Equip Load Input */}
-                <div className="flex flex-col gap-1.5 pt-2">
-                  <label className="text-[#8b8b8b] text-[10px] uppercase tracking-wider font-medium">Equip Load</label>
-                  <NumberInput
-                    value={armorWeight}
-                    onChange={onArmorWeightChange}
-                    className="w-full bg-[#1a1a1a] border border-[#333] rounded px-2 py-2 text-center text-sm text-[#e8e6e3] focus:outline-none focus:border-[#d4af37] transition-colors"
-                    min="0"
-                    step="1"
-                    required
-                  />
-                </div>
-              </>
-            )}
+                    {budget}
+                  </div>
+                );
+              })()}
+            </div>
           </div>
-        )}
+
+          <div className="grid grid-cols-3 gap-3">
+            <FixedStatInput label="VIG" stat="vig" config={statConfigs.vig} onStatConfigChange={onStatConfigChange} classMin={classData.vig} />
+            <FixedStatInput label="MND" stat="mnd" config={statConfigs.mnd} onStatConfigChange={onStatConfigChange} classMin={classData.min} />
+            <FixedStatInput label="END" stat="end" config={statConfigs.end} onStatConfigChange={onStatConfigChange} classMin={classData.end} />
+          </div>
+
+          {/* Damage Stats */}
+          <div className="pt-2">
+            <div className="flex items-center justify-between">
+              <label className="text-[#d4af37] text-[10px] uppercase tracking-wider font-medium">Damage Stats</label>
+              <div className="flex items-center gap-1">
+                <button
+                  onClick={() => lockAllDamageStats(statConfigs, onStatConfigChange)}
+                  className="p-0.5 hover:bg-[#2a2a2a] rounded transition-colors"
+                  title="Lock all damage stats"
+                >
+                  <Lock className="w-3 h-3 text-[#8b8b8b]" />
+                </button>
+                <button
+                  onClick={() => unlockAllDamageStats(statConfigs, classData, onStatConfigChange)}
+                  className="p-0.5 hover:bg-[#2a2a2a] rounded transition-colors"
+                  title="Unlock all damage stats"
+                >
+                  <Unlock className="w-3 h-3 text-[#d4af37]" />
+                </button>
+              </div>
+            </div>
+            <p className="text-[10px] text-[#6a6a6a] mt-0.5 mb-2">Unlock stats for the solver to optimize</p>
+          </div>
+          <div className="grid grid-cols-2 gap-3">
+            <RangeStatInput label="STR" stat="str" config={statConfigs.str} onStatConfigChange={onStatConfigChange} classMin={classData.str} />
+            <RangeStatInput label="DEX" stat="dex" config={statConfigs.dex} onStatConfigChange={onStatConfigChange} classMin={classData.dex} />
+            <RangeStatInput label="INT" stat="int" config={statConfigs.int} onStatConfigChange={onStatConfigChange} classMin={classData.int} />
+            <RangeStatInput label="FAI" stat="fai" config={statConfigs.fai} onStatConfigChange={onStatConfigChange} classMin={classData.fai} />
+            <RangeStatInput label="ARC" stat="arc" config={statConfigs.arc} onStatConfigChange={onStatConfigChange} classMin={classData.arc} />
+          </div>
+
+          {/* Subtract Weapon Weight Toggle */}
+          <div className="pt-3">
+            <label className="flex items-center gap-2 text-sm text-[#e8e6e3] cursor-pointer hover:text-white">
+              <Checkbox
+                checked={subtractWeaponWeight}
+                onCheckedChange={(checked) => onSubtractWeaponWeightChange(checked === true)}
+                className="border-[#3a3a3a] data-[state=checked]:bg-[#d4af37] data-[state=checked]:border-[#d4af37]"
+              />
+              Subtract Weapon Weight
+            </label>
+            <p className="text-[10px] text-[#6a6a6a] mt-1 ml-6">
+              Adjusts budget to consider weapon weight
+            </p>
+          </div>
+
+          {subtractWeaponWeight && (
+            <>
+              {/* Roll Type Picker */}
+              <div className="pt-2">
+                <label className="text-[#8b8b8b] text-[10px] uppercase tracking-wider font-medium block mb-1.5">Roll Type</label>
+                <ToggleGroup
+                  type="single"
+                  value={rollType}
+                  onValueChange={(v) => { if (v) onRollTypeChange(v as RollType); }}
+                  variant="subtle"
+                  size="default"
+                  className="rounded border border-[#333] bg-[#141414] p-1"
+                >
+                  <ToggleGroupItem value="light" className="flex-1 text-xs uppercase tracking-wider">
+                    Light
+                  </ToggleGroupItem>
+                  <ToggleGroupItem value="medium" className="flex-1 text-xs uppercase tracking-wider">
+                    Med
+                  </ToggleGroupItem>
+                  <ToggleGroupItem value="heavy" className="flex-1 text-xs uppercase tracking-wider">
+                    Heavy
+                  </ToggleGroupItem>
+                </ToggleGroup>
+              </div>
+
+              {/* Equip Load Input */}
+              <div className="flex flex-col gap-1.5 pt-2">
+                <label className="text-[#8b8b8b] text-[10px] uppercase tracking-wider font-medium">Equip Load</label>
+                <NumberInput
+                  value={armorWeight}
+                  onChange={onArmorWeightChange}
+                  className="w-full bg-[#1a1a1a] border border-[#333] rounded px-2 py-2 text-center text-sm text-[#e8e6e3] focus:outline-none focus:border-[#d4af37] transition-colors"
+                  min="0"
+                  step="1"
+                  required
+                />
+              </div>
+            </>
+          )}
+        </div>
       </div>
 
       {/* ============================================ */}
@@ -949,8 +904,6 @@ export function Sidebar({
   setGroupBy,
   statConfigs,
   onStatConfigChange,
-  solverEnabled,
-  onSolverToggle,
   startingClass,
   setStartingClass,
   level,
@@ -1027,8 +980,6 @@ export function Sidebar({
     setGroupBy,
     statConfigs,
     onStatConfigChange,
-    solverEnabled,
-    onSolverToggle,
     startingClass,
     setStartingClass,
     level,
@@ -1127,8 +1078,7 @@ export function Sidebar({
             animate={{ x: 0 }}
             exit={{ x: "-100%" }}
             transition={{ type: "spring", damping: 25, stiffness: 200 }}
-            style={{ width: SIDEBAR_WIDTH, maxWidth: SIDEBAR_WIDTH }}
-            className="fixed inset-y-0 left-0 z-[101] h-[100dvh] bg-[#111111] shadow-xl border-r border-[#2a2a2a] focus:outline-none overflow-hidden"
+            className="fixed inset-0 z-[101] h-[100dvh] bg-[#111111] shadow-xl focus:outline-none overflow-hidden"
           >
               <div className="flex flex-col h-full w-full bg-[#111111] text-[#e8e6e3] overflow-hidden">
                 {/* Header with close button */}

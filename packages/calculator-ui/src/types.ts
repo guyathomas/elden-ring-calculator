@@ -51,13 +51,54 @@ export function toCalculatorStats(stats: CharacterStats): CalculatorPlayerStats 
 }
 
 /**
- * Stat configuration for solver/optimization
+ * Stat configuration for solver/optimization.
+ * A stat is effectively "fixed" when min === max.
  */
 export interface StatConfig {
-  locked: boolean;
-  value?: number;
-  min?: number;
-  max?: number;
+  min: number;
+  max: number;
+}
+
+/**
+ * Check if a stat is effectively locked (fixed value, not a range).
+ * A stat is locked when its min equals its max.
+ */
+export function isStatLocked(config: StatConfig): boolean {
+  return config.min === config.max;
+}
+
+/**
+ * Get the effective value of a stat config.
+ * For locked stats (min === max), returns that value.
+ * For range stats, returns the min (the committed floor).
+ */
+export function getStatValue(config: StatConfig): number {
+  return config.min;
+}
+
+export const DAMAGE_STATS = ['str', 'dex', 'int', 'fai', 'arc'] as const;
+
+export function lockAllDamageStats(
+  statConfigs: Record<string, StatConfig>,
+  onChange: (stat: string, config: StatConfig) => void,
+): void {
+  for (const stat of DAMAGE_STATS) {
+    if (!isStatLocked(statConfigs[stat])) {
+      onChange(stat, { min: statConfigs[stat].min, max: statConfigs[stat].min });
+    }
+  }
+}
+
+export function unlockAllDamageStats(
+  statConfigs: Record<string, StatConfig>,
+  classMinMap: Record<string, number>,
+  onChange: (stat: string, config: StatConfig) => void,
+): void {
+  for (const stat of DAMAGE_STATS) {
+    if (isStatLocked(statConfigs[stat])) {
+      onChange(stat, { min: classMinMap[stat], max: 99 });
+    }
+  }
 }
 
 // ============================================================================

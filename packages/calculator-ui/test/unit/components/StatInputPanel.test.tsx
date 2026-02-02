@@ -2,11 +2,14 @@
  * StatInputPanel Component Tests
  *
  * Tests for the stat input validation behavior in the StatInputPanel component.
+ * Damage stats (STR, DEX, INT, FAI, ARC) always use RangeStatInput (min/max).
+ * Resource stats (VIG, MND, END) always use FixedStatInput (min === max).
+ *
  * Specifically tests:
  * - Multi-digit number entry (users can type "20" without "2" being replaced)
  * - onBlur validation and clamping
  * - Error display for values below class minimum
- * - Empty input handling while typing
+ * - Range input behavior (changing min preserves max and vice versa)
  */
 
 import React from 'react';
@@ -23,64 +26,65 @@ describe('StatInputPanel', () => {
     startingClass: 'Vagabond' as StartingClass,
     setStartingClass: vi.fn(),
     statConfigs: {
-      vig: { locked: true, value: 40 },
-      mnd: { locked: true, value: 20 },
-      end: { locked: true, value: 25 },
-      str: { locked: true, value: 30 },
-      dex: { locked: true, value: 25 },
-      int: { locked: true, value: 10 },
-      fai: { locked: true, value: 10 },
-      arc: { locked: true, value: 10 },
+      vig: { min: 40, max: 40 },
+      mnd: { min: 20, max: 20 },
+      end: { min: 25, max: 25 },
+      str: { min: 20, max: 30 },
+      dex: { min: 15, max: 25 },
+      int: { min: 10, max: 20 },
+      fai: { min: 10, max: 20 },
+      arc: { min: 10, max: 20 },
     } as Record<string, StatConfig>,
     onStatConfigChange: vi.fn(),
-    solverEnabled: false,
-    onSolverToggle: vi.fn(),
   });
 
   beforeEach(() => {
     vi.clearAllMocks();
   });
 
-  describe('FixedStatInput - Multi-digit Number Entry', () => {
-    it('allows typing multi-digit numbers without immediate replacement', () => {
+  describe('RangeStatInput - Multi-digit Number Entry', () => {
+    it('allows typing multi-digit numbers in min field without immediate replacement', () => {
       const props = createDefaultProps();
       render(<StatInputPanel {...props} />);
 
-      // Find the STR input (first stat input in fixed mode on desktop)
+      // STR is a range input; inputs[0] is the STR min field
       const inputs = screen.getAllByRole('spinbutton');
-      const strInput = inputs[0];
+      const strMinInput = inputs[0];
 
       // Simulate typing "2" - should allow it without replacing with minimum
-      fireEvent.change(strInput, { target: { value: '2' } });
+      fireEvent.change(strMinInput, { target: { value: '2' } });
 
-      // Should call with value 2, not be replaced by a minimum
-      expect(props.onStatConfigChange).toHaveBeenCalledWith('str', { locked: true, value: 2 });
+      // Should call with min: 2, preserving the existing max of 30
+      expect(props.onStatConfigChange).toHaveBeenCalledWith('str', { min: 2, max: 30 });
     });
 
-    it('allows clearing the input to type a new value', () => {
+    it('allows clearing the min field and typing a new value', () => {
       const props = createDefaultProps();
       render(<StatInputPanel {...props} />);
 
       const inputs = screen.getAllByRole('spinbutton');
-      const strInput = inputs[0];
+      const strMinInput = inputs[0];
 
-      // Clear the input
-      fireEvent.change(strInput, { target: { value: '' } });
+      // Clear the input - empty value is NaN, so onValueChange is not called
+      fireEvent.change(strMinInput, { target: { value: '' } });
+      expect(props.onStatConfigChange).not.toHaveBeenCalled();
 
-      // Should allow empty value (set to 0 internally)
-      expect(props.onStatConfigChange).toHaveBeenCalledWith('str', { locked: true, value: 0 });
+      // Type a new value - should preserve the existing max of 30
+      fireEvent.change(strMinInput, { target: { value: '25' } });
+      expect(props.onStatConfigChange).toHaveBeenCalledWith('str', { min: 25, max: 30 });
     });
 
-    it('parses valid integer values correctly', () => {
+    it('parses valid integer values correctly for min field', () => {
       const props = createDefaultProps();
       render(<StatInputPanel {...props} />);
 
       const inputs = screen.getAllByRole('spinbutton');
-      const strInput = inputs[0];
+      const strMinInput = inputs[0];
 
-      fireEvent.change(strInput, { target: { value: '45' } });
+      fireEvent.change(strMinInput, { target: { value: '45' } });
 
-      expect(props.onStatConfigChange).toHaveBeenCalledWith('str', { locked: true, value: 45 });
+      // Should preserve the existing max of 30
+      expect(props.onStatConfigChange).toHaveBeenCalledWith('str', { min: 45, max: 30 });
     });
 
     it('handles number input browser behavior for non-numeric values', () => {
@@ -88,70 +92,70 @@ describe('StatInputPanel', () => {
       render(<StatInputPanel {...props} />);
 
       const inputs = screen.getAllByRole('spinbutton');
-      const strInput = inputs[0];
+      const strMinInput = inputs[0];
 
       // For type="number" inputs, browsers convert non-numeric text to empty string
-      // So 'abc' becomes '' which triggers value: 0
-      fireEvent.change(strInput, { target: { value: '' } });
+      // Empty string parses to NaN, so onValueChange is not called
+      fireEvent.change(strMinInput, { target: { value: '' } });
 
-      expect(props.onStatConfigChange).toHaveBeenCalledWith('str', { locked: true, value: 0 });
+      expect(props.onStatConfigChange).not.toHaveBeenCalled();
     });
   });
 
-  describe('FixedStatInput - onBlur Validation', () => {
-    it('clamps value to minimum of 1 on blur when value is 0', () => {
-      // Start with a low value that should be clamped
+  describe('RangeStatInput - onBlur Validation', () => {
+    it('clamps min value to 1 on blur when value is 0', () => {
+      // Start with a low value that should be clamped (unlocked so range input is shown)
       const props = createDefaultProps();
-      props.statConfigs.str = { locked: true, value: 0 };
+      props.statConfigs.str = { min: 0, max: 30 };
 
       render(<StatInputPanel {...props} />);
 
       const inputs = screen.getAllByRole('spinbutton');
-      const strInput = inputs[0];
+      const strMinInput = inputs[0];
 
-      // Blur should clamp to 1 (reads current input value which is 0)
-      fireEvent.blur(strInput);
+      // Blur should clamp min to 1 (NumericInput clamps 0 -> max(1, min(99, 0)) = 1)
+      // The max field is preserved from the config
+      fireEvent.blur(strMinInput);
 
-      // The onBlur handler parses the current value and clamps it
-      expect(props.onStatConfigChange).toHaveBeenCalledWith('str', { locked: true, value: 10 });
+      expect(props.onStatConfigChange).toHaveBeenCalledWith('str', { min: 1, max: 30 });
     });
 
-    it('clamps value to maximum of 99 on blur when value exceeds 99', () => {
+    it('clamps min value to 99 on blur when value exceeds 99', () => {
       const props = createDefaultProps();
-      props.statConfigs.str = { locked: true, value: 150 };
+      props.statConfigs.str = { min: 150, max: 160 };
 
       render(<StatInputPanel {...props} />);
 
       const inputs = screen.getAllByRole('spinbutton');
-      const strInput = inputs[0];
+      const strMinInput = inputs[0];
 
-      // Blur should clamp to 99
-      fireEvent.blur(strInput);
+      // Blur should clamp min to 99, preserving the existing max
+      fireEvent.blur(strMinInput);
 
-      expect(props.onStatConfigChange).toHaveBeenCalledWith('str', { locked: true, value: 99 });
+      expect(props.onStatConfigChange).toHaveBeenCalledWith('str', { min: 99, max: 160 });
     });
 
     it('preserves valid values within range on blur', () => {
       const props = createDefaultProps();
-      props.statConfigs.str = { locked: true, value: 50 };
+      props.statConfigs.str = { min: 50, max: 50 };
 
       render(<StatInputPanel {...props} />);
 
       const inputs = screen.getAllByRole('spinbutton');
-      const strInput = inputs[0];
+      const strMinInput = inputs[0];
 
-      // Blur should preserve 50
-      fireEvent.blur(strInput);
+      // Blur should preserve 50 for min, max stays the same
+      fireEvent.blur(strMinInput);
 
-      expect(props.onStatConfigChange).toHaveBeenCalledWith('str', { locked: true, value: 50 });
+      expect(props.onStatConfigChange).toHaveBeenCalledWith('str', { min: 50, max: 50 });
     });
   });
 
-  describe('FixedStatInput - Error Display', () => {
+  describe('Error Display', () => {
     it('shows error when value is below class minimum', () => {
       // Vagabond has STR minimum of 14
       const props = createDefaultProps();
-      props.statConfigs.str = { locked: true, value: 5 }; // Below Vagabond's STR min of 14
+      props.statConfigs.str = { min: 5, max: 5 }; // Below Vagabond's STR min of 14
 
       render(<StatInputPanel {...props} />);
 
@@ -164,7 +168,7 @@ describe('StatInputPanel', () => {
     it('does not show error when value meets class minimum', () => {
       // Vagabond has STR minimum of 14
       const props = createDefaultProps();
-      props.statConfigs.str = { locked: true, value: 20 }; // Above Vagabond's STR min of 14
+      props.statConfigs.str = { min: 20, max: 20 }; // Above Vagabond's STR min of 14
 
       render(<StatInputPanel {...props} />);
 
@@ -175,8 +179,8 @@ describe('StatInputPanel', () => {
     it('shows error for multiple stats below their class minimums', () => {
       const props = createDefaultProps();
       // Set multiple stats below their Vagabond minimums
-      props.statConfigs.str = { locked: true, value: 5 };  // Min 14
-      props.statConfigs.dex = { locked: true, value: 5 };  // Min 13
+      props.statConfigs.str = { min: 5, max: 5 };  // Min 14
+      props.statConfigs.dex = { min: 5, max: 5 };  // Min 13
 
       render(<StatInputPanel {...props} />);
 
@@ -189,16 +193,15 @@ describe('StatInputPanel', () => {
   describe('RangeStatInput - Solver Mode', () => {
     const createSolverProps = () => ({
       ...createDefaultProps(),
-      solverEnabled: true,
       statConfigs: {
-        vig: { locked: true, value: 40 },
-        mnd: { locked: true, value: 20 },
-        end: { locked: true, value: 25 },
-        str: { locked: false, min: 14, max: 40 },
-        dex: { locked: false, min: 13, max: 35 },
-        int: { locked: false, min: 9, max: 30 },
-        fai: { locked: false, min: 9, max: 25 },
-        arc: { locked: false, min: 7, max: 20 },
+        vig: { min: 40, max: 40 },
+        mnd: { min: 20, max: 20 },
+        end: { min: 25, max: 25 },
+        str: { min: 14, max: 40 },
+        dex: { min: 13, max: 35 },
+        int: { min: 9, max: 30 },
+        fai: { min: 9, max: 25 },
+        arc: { min: 7, max: 20 },
       } as Record<string, StatConfig>,
     });
 
@@ -233,22 +236,23 @@ describe('StatInputPanel', () => {
 
     it('clamps min value on blur when below 1', () => {
       const props = createSolverProps();
-      props.statConfigs.str = { locked: false, min: 0, max: 40 };
+      props.statConfigs.str = { min: 0, max: 40 };
 
       render(<StatInputPanel {...props} />);
 
       const inputs = screen.getAllByRole('spinbutton');
       const strMinInput = inputs[0];
 
-      // Blur should clamp to 1
+      // Blur should clamp min to 1 (NumericInput clamps 0 -> max(1, min(99, 0)) = 1)
+      // Max is preserved from config
       fireEvent.blur(strMinInput);
 
-      expect(props.onStatConfigChange).toHaveBeenCalledWith('str', expect.objectContaining({ min: 10 }));
+      expect(props.onStatConfigChange).toHaveBeenCalledWith('str', { min: 1, max: 40 });
     });
 
     it('clamps max value on blur when exceeds 99', () => {
       const props = createSolverProps();
-      props.statConfigs.str = { locked: false, min: 14, max: 150 };
+      props.statConfigs.str = { min: 14, max: 150 };
 
       render(<StatInputPanel {...props} />);
 
@@ -263,7 +267,7 @@ describe('StatInputPanel', () => {
 
     it('shows error when min is below class minimum', () => {
       const props = createSolverProps();
-      props.statConfigs.str = { locked: false, min: 5, max: 40 }; // Below Vagabond's STR min of 14
+      props.statConfigs.str = { min: 5, max: 40 }; // Below Vagabond's STR min of 14
 
       render(<StatInputPanel {...props} />);
 
@@ -274,24 +278,20 @@ describe('StatInputPanel', () => {
   });
 
   describe('Integration - Typing Behavior', () => {
-    it('allows sequential digit entry without interference', () => {
+    it('allows sequential digit entry in range min field without interference', () => {
       const props = createDefaultProps();
       render(<StatInputPanel {...props} />);
 
       const inputs = screen.getAllByRole('spinbutton');
-      const strInput = inputs[0];
+      const strMinInput = inputs[0];
 
-      // Step 1: Clear input
-      fireEvent.change(strInput, { target: { value: '' } });
-      expect(props.onStatConfigChange).toHaveBeenLastCalledWith('str', { locked: true, value: 0 });
+      // Step 1: Type first digit "2" - preserves existing max of 30
+      fireEvent.change(strMinInput, { target: { value: '2' } });
+      expect(props.onStatConfigChange).toHaveBeenLastCalledWith('str', { min: 2, max: 30 });
 
-      // Step 2: Type first digit "2"
-      fireEvent.change(strInput, { target: { value: '2' } });
-      expect(props.onStatConfigChange).toHaveBeenLastCalledWith('str', { locked: true, value: 2 });
-
-      // Step 3: Type second digit to make "25"
-      fireEvent.change(strInput, { target: { value: '25' } });
-      expect(props.onStatConfigChange).toHaveBeenLastCalledWith('str', { locked: true, value: 25 });
+      // Step 2: Type second digit to make "25" - still preserves max of 30
+      fireEvent.change(strMinInput, { target: { value: '25' } });
+      expect(props.onStatConfigChange).toHaveBeenLastCalledWith('str', { min: 25, max: 30 });
     });
 
     it('does not clamp values during typing, only on blur', () => {
@@ -299,17 +299,17 @@ describe('StatInputPanel', () => {
       render(<StatInputPanel {...props} />);
 
       const inputs = screen.getAllByRole('spinbutton');
-      const strInput = inputs[0];
+      const strMinInput = inputs[0];
 
       // Type "1" - a low value that might be below class min
-      fireEvent.change(strInput, { target: { value: '1' } });
+      fireEvent.change(strMinInput, { target: { value: '1' } });
 
-      // During typing, value should be 1 (not clamped)
-      expect(props.onStatConfigChange).toHaveBeenLastCalledWith('str', { locked: true, value: 1 });
+      // During typing, min should be 1 (not clamped), max preserved at 30
+      expect(props.onStatConfigChange).toHaveBeenLastCalledWith('str', { min: 1, max: 30 });
 
       // User continues typing to "15"
-      fireEvent.change(strInput, { target: { value: '15' } });
-      expect(props.onStatConfigChange).toHaveBeenLastCalledWith('str', { locked: true, value: 15 });
+      fireEvent.change(strMinInput, { target: { value: '15' } });
+      expect(props.onStatConfigChange).toHaveBeenLastCalledWith('str', { min: 15, max: 30 });
     });
 
     it('allows typing values above 99 during input', () => {
@@ -317,51 +317,13 @@ describe('StatInputPanel', () => {
       render(<StatInputPanel {...props} />);
 
       const inputs = screen.getAllByRole('spinbutton');
-      const strInput = inputs[0];
+      const strMinInput = inputs[0];
 
       // Type "100" - above the max of 99
-      fireEvent.change(strInput, { target: { value: '100' } });
+      fireEvent.change(strMinInput, { target: { value: '100' } });
 
-      // During typing, value should be 100 (clamping happens on blur)
-      expect(props.onStatConfigChange).toHaveBeenLastCalledWith('str', { locked: true, value: 100 });
-    });
-  });
-
-  describe('Mode Switching', () => {
-    it('renders fixed mode inputs when solverEnabled is false', () => {
-      const props = createDefaultProps();
-      props.solverEnabled = false;
-
-      render(<StatInputPanel {...props} />);
-
-      // In fixed mode, each stat has one input
-      // Should find inputs for STR, DEX, INT, FAI, ARC on desktop (5 stats)
-      const inputs = screen.getAllByRole('spinbutton');
-      // Mobile + Desktop = 10 inputs for 5 stats
-      expect(inputs.length).toBe(10);
-    });
-
-    it('renders solver mode inputs when solverEnabled is true', () => {
-      const props = createDefaultProps();
-      props.solverEnabled = true;
-      // Make damage stats unlocked for solver mode
-      props.statConfigs = {
-        vig: { locked: true, value: 40 },
-        mnd: { locked: true, value: 20 },
-        end: { locked: true, value: 25 },
-        str: { locked: false, min: 14, max: 40 },
-        dex: { locked: false, min: 13, max: 35 },
-        int: { locked: false, min: 9, max: 30 },
-        fai: { locked: false, min: 9, max: 25 },
-        arc: { locked: false, min: 7, max: 20 },
-      };
-
-      render(<StatInputPanel {...props} />);
-
-      // In solver mode, each range stat has min+max inputs (2 each)
-      // 5 damage stats * 2 = 10, plus Level and VIG/MND/END inputs
-      const inputs = screen.getAllByRole('spinbutton');
-      expect(inputs.length).toBeGreaterThan(10);
+      // During typing, min should be 100 (clamping happens on blur), max preserved at 30
+      expect(props.onStatConfigChange).toHaveBeenLastCalledWith('str', { min: 100, max: 30 });
     });
   });
 });

@@ -138,14 +138,14 @@ describe('WeaponList', () => {
   ];
 
   const mockStatConfigs: Record<string, StatConfig> = {
-    vig: { locked: true, value: 40 },
-    mnd: { locked: true, value: 20 },
-    end: { locked: true, value: 25 },
-    str: { locked: true, value: 30 },
-    dex: { locked: true, value: 40 },
-    int: { locked: true, value: 10 },
-    fai: { locked: true, value: 10 },
-    arc: { locked: true, value: 10 },
+    vig: { min: 40, max: 40 },
+    mnd: { min: 20, max: 20 },
+    end: { min: 25, max: 25 },
+    str: { min: 30, max: 30 },
+    dex: { min: 40, max: 40 },
+    int: { min: 10, max: 10 },
+    fai: { min: 10, max: 10 },
+    arc: { min: 10, max: 10 },
   };
 
   const mockCurrentStats: CharacterStats = {
@@ -394,8 +394,8 @@ describe('WeaponList', () => {
 
       const unlockedStatConfigs: Record<string, StatConfig> = {
         ...mockStatConfigs,
-        str: { locked: false, value: 30, min: 10 },
-        dex: { locked: false, value: 40, min: 10 },
+        str: { min: 10, max: 99 },
+        dex: { min: 10, max: 99 },
       };
 
       render(
@@ -439,8 +439,8 @@ describe('WeaponList', () => {
 
       const unlockedStatConfigs: Record<string, StatConfig> = {
         ...mockStatConfigs,
-        str: { locked: false, value: 30, min: 10 },
-        fai: { locked: false, value: 10, min: 10 },
+        str: { min: 10, max: 99 },
+        fai: { min: 10, max: 99 },
       };
 
       render(

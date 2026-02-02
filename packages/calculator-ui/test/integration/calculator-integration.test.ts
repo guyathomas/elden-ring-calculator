@@ -186,14 +186,14 @@ describe('AR Calculation Accuracy', () => {
 
 describe('Stat Optimization', () => {
   const baseStatConfig: Record<string, StatConfig> = {
-    vig: { value: 40, locked: true },
-    mnd: { value: 20, locked: true },
-    end: { value: 25, locked: true },
-    str: { min: 10, max: 99, locked: false },
-    dex: { min: 10, max: 99, locked: false },
-    int: { min: 10, max: 99, locked: false },
-    fai: { min: 10, max: 99, locked: false },
-    arc: { min: 10, max: 99, locked: false },
+    vig: { min: 40, max: 40 },
+    mnd: { min: 20, max: 20 },
+    end: { min: 25, max: 25 },
+    str: { min: 10, max: 99 },
+    dex: { min: 10, max: 99 },
+    int: { min: 10, max: 99 },
+    fai: { min: 10, max: 99 },
+    arc: { min: 10, max: 99 },
   };
 
   it('should optimize Heavy Greatsword to favor STR', () => {
@@ -221,14 +221,14 @@ describe('Stat Optimization', () => {
   it('should optimize Keen Uchigatana to favor DEX', () => {
     // Use a limited budget so we can see which stat is prioritized
     const limitedConfig: Record<string, StatConfig> = {
-      vig: { value: 40, locked: true },
-      mnd: { value: 20, locked: true },
-      end: { value: 25, locked: true },
-      str: { min: 11, max: 99, locked: false }, // Meet requirement
-      dex: { min: 15, max: 99, locked: false }, // Meet requirement
-      int: { min: 10, max: 99, locked: false },
-      fai: { min: 10, max: 99, locked: false },
-      arc: { min: 10, max: 99, locked: false },
+      vig: { min: 40, max: 40 },
+      mnd: { min: 20, max: 20 },
+      end: { min: 25, max: 25 },
+      str: { min: 11, max: 99 }, // Meet requirement
+      dex: { min: 15, max: 99 }, // Meet requirement
+      int: { min: 10, max: 99 },
+      fai: { min: 10, max: 99 },
+      arc: { min: 10, max: 99 },
     };
 
     // With limited budget of 40 points, optimizer should heavily favor DEX
@@ -262,14 +262,14 @@ describe('Stat Optimization', () => {
 describe('Budget Constraints', () => {
   it('should respect point budget and not allocate more than allowed', () => {
     const baseStatConfig: Record<string, StatConfig> = {
-      vig: { value: 40, locked: true },
-      mnd: { value: 20, locked: true },
-      end: { value: 25, locked: true },
-      str: { min: 11, max: 99, locked: false }, // Meet Uchigatana requirement
-      dex: { min: 15, max: 99, locked: false }, // Meet Uchigatana requirement
-      int: { min: 10, max: 99, locked: false },
-      fai: { min: 10, max: 99, locked: false },
-      arc: { min: 10, max: 99, locked: false },
+      vig: { min: 40, max: 40 },
+      mnd: { min: 20, max: 20 },
+      end: { min: 25, max: 25 },
+      str: { min: 11, max: 99 }, // Meet Uchigatana requirement
+      dex: { min: 15, max: 99 }, // Meet Uchigatana requirement
+      int: { min: 10, max: 99 },
+      fai: { min: 10, max: 99 },
+      arc: { min: 10, max: 99 },
     };
 
     const pointsBudget = 50;
@@ -299,14 +299,14 @@ describe('Budget Constraints', () => {
 
   it('should handle zero budget by returning base stats', () => {
     const baseStatConfig: Record<string, StatConfig> = {
-      vig: { value: 40, locked: true },
-      mnd: { value: 20, locked: true },
-      end: { value: 25, locked: true },
-      str: { min: 15, max: 99, locked: false },
-      dex: { min: 15, max: 99, locked: false },
-      int: { min: 10, max: 99, locked: false },
-      fai: { min: 10, max: 99, locked: false },
-      arc: { min: 10, max: 99, locked: false },
+      vig: { min: 40, max: 40 },
+      mnd: { min: 20, max: 20 },
+      end: { min: 25, max: 25 },
+      str: { min: 15, max: 99 },
+      dex: { min: 15, max: 99 },
+      int: { min: 10, max: 99 },
+      fai: { min: 10, max: 99 },
+      arc: { min: 10, max: 99 },
     };
 
     const result = findOptimalStats(

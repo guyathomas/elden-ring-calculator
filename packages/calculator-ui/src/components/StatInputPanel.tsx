@@ -82,7 +82,7 @@ export function StatInputPanel({ level, setLevel, startingClass, setStartingClas
 
     const toggleLock = () => {
       if (locked) {
-        onStatConfigChange(stat, { min: value, max: Math.min(99, value + 10) });
+        onStatConfigChange(stat, { min: classMin, max: 99 });
       } else {
         onStatConfigChange(stat, { min: config.min, max: config.min });
       }
@@ -190,7 +190,39 @@ export function StatInputPanel({ level, setLevel, startingClass, setStartingClas
               <div className="flex flex-col gap-4 lg:hidden">
                 <div className="space-y-4">
                   <div>
-                    <div className="text-[#d4af37] text-xs uppercase tracking-wider mb-3">Optimize For</div>
+                    <div className="flex items-center justify-between mb-1">
+                      <div className="text-[#d4af37] text-xs uppercase tracking-wider">Damage Stats</div>
+                      <div className="flex items-center gap-1">
+                        <button
+                          onClick={() => {
+                            for (const stat of ['str', 'dex', 'int', 'fai', 'arc']) {
+                              if (!isStatLocked(statConfigs[stat])) {
+                                onStatConfigChange(stat, { min: statConfigs[stat].min, max: statConfigs[stat].min });
+                              }
+                            }
+                          }}
+                          className="p-0.5 hover:bg-[#2a2a2a] rounded transition-colors"
+                          title="Lock all damage stats"
+                        >
+                          <Lock className="w-3 h-3 text-[#8b8b8b]" />
+                        </button>
+                        <button
+                          onClick={() => {
+                            const classMinMap: Record<string, number> = { str: classData.str, dex: classData.dex, int: classData.int, fai: classData.fai, arc: classData.arc };
+                            for (const stat of ['str', 'dex', 'int', 'fai', 'arc']) {
+                              if (isStatLocked(statConfigs[stat])) {
+                                onStatConfigChange(stat, { min: classMinMap[stat], max: 99 });
+                              }
+                            }
+                          }}
+                          className="p-0.5 hover:bg-[#2a2a2a] rounded transition-colors"
+                          title="Unlock all damage stats"
+                        >
+                          <Unlock className="w-3 h-3 text-[#d4af37]" />
+                        </button>
+                      </div>
+                    </div>
+                    <p className="text-[10px] text-[#6a6a6a] mb-2">Unlock stats for the solver to optimize</p>
                     <div className="grid grid-cols-2 gap-3">
                       <RangeStatInput label="STR" stat="str" config={statConfigs.str} classMin={classData.str} />
                       <RangeStatInput label="DEX" stat="dex" config={statConfigs.dex} classMin={classData.dex} />

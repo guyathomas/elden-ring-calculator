@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>BaseChrSelectMenuParam.param</filename>
+<compression>None</compression>
+<type>BASECHR_SELECT_MENU_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>BASECHR_SELECT_MENU_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="disableParam_NT" type="u8" arraylength="1" bitsize="1" sortid="0" defaultValue="1" />
+<field name="disableParamReserve1" type="dummy8" arraylength="1" bitsize="7" sortid="301" defaultValue="[0]" />
+<field name="disableParamReserve2" type="dummy8" arraylength="3" bitsize="-1" sortid="302" defaultValue="[0|0|0]" />
+<field name="chrInitParam" type="u32" arraylength="1" bitsize="-1" sortid="100" defaultValue="3118" />
+<field name="originChrInitParam" type="u32" arraylength="1" bitsize="-1" sortid="101" defaultValue="3009" />
+<field name="imageId" type="s32" arraylength="1" bitsize="-1" sortid="200" defaultValue="15" />
+<field name="textId" type="s32" arraylength="1" bitsize="-1" sortid="300" defaultValue="288109" />
+<field name="reserve" type="dummy8" arraylength="12" bitsize="-1" sortid="303" defaultValue="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+</fields>
+<rows>
+<row id="1000" paramdexName="[CNT] Knight" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" chrInitParam="1000" originChrInitParam="1000" imageId="1" textId="288050" reserve="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="1001" paramdexName="[CNT] Enchanted Knight" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" chrInitParam="1010" originChrInitParam="1010" imageId="2" textId="288051" reserve="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="1002" paramdexName="[CNT] Prophet" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" chrInitParam="1020" originChrInitParam="1020" imageId="3" textId="288052" reserve="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="1003" paramdexName="[CNT] Champion" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" chrInitParam="1030" originChrInitParam="1030" imageId="4" textId="288053" reserve="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="1004" paramdexName="[CNT] Bloody Wolf" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" chrInitParam="1040" originChrInitParam="1040" imageId="5" textId="288054" reserve="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="2000" paramdexName="Vagabond" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" chrInitParam="3100" originChrInitParam="3000" imageId="6" textId="288100" reserve="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="2001" paramdexName="Warrior" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" chrInitParam="3102" originChrInitParam="3001" imageId="7" textId="288101" reserve="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="2002" paramdexName="Hero" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" chrInitParam="3104" originChrInitParam="3002" imageId="8" textId="288102" reserve="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="2003" paramdexName="Bandit" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" chrInitParam="3106" originChrInitParam="3003" imageId="9" textId="288103" reserve="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="2004" paramdexName="Astrologer" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" chrInitParam="3108" originChrInitParam="3004" imageId="10" textId="288104" reserve="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="2005" paramdexName="Prophet" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" chrInitParam="3110" originChrInitParam="3005" imageId="11" textId="288105" reserve="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="2006" paramdexName="Samurai" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" chrInitParam="3114" originChrInitParam="3007" imageId="13" textId="288107" reserve="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="2007" paramdexName="Prisoner" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" chrInitParam="3116" originChrInitParam="3008" imageId="14" textId="288108" reserve="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="2008" paramdexName="Confessor" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" chrInitParam="3112" originChrInitParam="3006" imageId="12" textId="288106" reserve="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="2009" paramdexName="Wretch" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" chrInitParam="3118" originChrInitParam="3009" imageId="15" textId="288109" reserve="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+</rows>
+</param>

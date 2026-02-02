@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>SoundAutoReverbEvaluationDistParam.param</filename>
+<compression>None</compression>
+<type>SOUND_AUTO_REVERB_EVALUATION_DIST_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>SOUND_AUTO_REVERB_EVALUATION_DIST_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="NoHitDist" type="f32" arraylength="1" bitsize="-1" sortid="0" defaultValue="-1" />
+<field name="isCollectNoHitPoint" type="u8" arraylength="1" bitsize="-1" sortid="1" defaultValue="0" />
+<field name="isCollectOutdoorPoint" type="u8" arraylength="1" bitsize="-1" sortid="2" defaultValue="1" />
+<field name="isCollectFloorPoint" type="u8" arraylength="1" bitsize="-1" sortid="3" defaultValue="1" />
+<field name="distValCalcType" type="u8" arraylength="1" bitsize="-1" sortid="100" defaultValue="0" />
+<field name="enableLifeTime" type="f32" arraylength="1" bitsize="-1" sortid="4" defaultValue="1" />
+<field name="maxDistRecordNum" type="u32" arraylength="1" bitsize="-1" sortid="101" defaultValue="20" />
+<field name="ignoreDistNumForMax" type="u32" arraylength="1" bitsize="-1" sortid="102" defaultValue="0" />
+</fields>
+<rows>
+<row id="0" NoHitDist="-1" isCollectNoHitPoint="1" isCollectOutdoorPoint="1" isCollectFloorPoint="0" distValCalcType="0" enableLifeTime="1.8" maxDistRecordNum="20" ignoreDistNumForMax="0" />
+<row id="1" NoHitDist="-1" isCollectNoHitPoint="0" isCollectOutdoorPoint="1" isCollectFloorPoint="0" distValCalcType="0" enableLifeTime="1" maxDistRecordNum="20" ignoreDistNumForMax="0" />
+<row id="2" NoHitDist="-1" isCollectNoHitPoint="1" isCollectOutdoorPoint="1" isCollectFloorPoint="1" distValCalcType="1" enableLifeTime="1" maxDistRecordNum="15" ignoreDistNumForMax="5" />
+<row id="3" NoHitDist="80" isCollectNoHitPoint="0" isCollectOutdoorPoint="0" isCollectFloorPoint="1" distValCalcType="1" enableLifeTime="1.8" maxDistRecordNum="10" ignoreDistNumForMax="1" />
+<row id="4" NoHitDist="-1" isCollectNoHitPoint="0" isCollectOutdoorPoint="1" isCollectFloorPoint="1" distValCalcType="1" enableLifeTime="1" maxDistRecordNum="10" ignoreDistNumForMax="2" />
+<row id="5" NoHitDist="-1" isCollectNoHitPoint="0" isCollectOutdoorPoint="1" isCollectFloorPoint="1" distValCalcType="0" enableLifeTime="1" maxDistRecordNum="20" ignoreDistNumForMax="0" />
+</rows>
+</param>

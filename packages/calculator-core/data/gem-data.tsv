@@ -1,0 +1,45 @@
+Name	canMountWep		defaultWepAttr	Infusion	EquipParamGem		varCategorySwordArt	varCategorySwordArt_addBase		ignoreBaseAtkRate	ignoreScale		changeAttributePoint	changeStrengthPoint	changeAgilityPoint	changeMagicPoint	changeFaithPoint	changeLuckPoint
+Dagger	canMountWep_Dagger		0	Standard	configurableWepAttr00		Wild Strikes	War Cry		300000682	300000682		War Cry	5	0	0	0	0
+Straight Sword	canMountWep_SwordNormal		1	Heavy	configurableWepAttr01		Spinning Slash	Barbaric Roar		300000683	300000683		Barbaric Roar	5	0	0	0	0
+Greatsword	canMountWep_SwordLarge		2	Keen	configurableWepAttr02		Repeating Thrust	Braggart's Roar		300200826	300200826		Shriek of Milos	5	0	0	0	0
+Colossal Sword	canMountWep_SwordGigantic		3	Quality	configurableWepAttr03		Sword Dance											
+Curved Sword	canMountWep_SaberNormal		4	Fire	configurableWepAttr04		Spinning Weapon											
+Curved Greatsword	canMountWep_SaberLarge		5	Flame Art	configurableWepAttr05		Loretta's Slash											
+Katana	canMountWep_katana		6	Lightning	configurableWepAttr06		Flame Skewer											
+Twinblade	canMountWep_SwordDoubleEdge		7	Sacred	configurableWepAttr07		Aspects of the Crucible: Wings											
+Thrusting Sword	canMountWep_SwordPierce		8	Magic	configurableWepAttr08		Bloody Slash											
+Heavy Thrusting Sword	canMountWep_RapierHeavy		9	Cold	configurableWepAttr09		Blood Tax											
+Axe	canMountWep_AxeNormal		10	Poison	configurableWepAttr10		Shield Bash											
+Greataxe	canMountWep_AxeLarge		11	Blood	configurableWepAttr11		Shield Strike											
+Hammer	canMountWep_HammerNormal		12	Occult	configurableWepAttr12													
+Great Hammer	canMountWep_HammerLarge																	
+Flail	canMountWep_Flail																	
+Spear	canMountWep_SpearNormal																	
+	canMountWep_SpearLarge																	
+Great Spear	canMountWep_SpearHeavy																	
+Halberd	canMountWep_SpearAxe																	
+Reaper	canMountWep_Sickle																	
+Fist	canMountWep_Knuckle																	
+Claw	canMountWep_Claw																	
+Whip	canMountWep_Whip																	
+Colossal Weapon	canMountWep_AxhammerLarge																	
+Light Bow	canMountWep_BowSmall																	
+Bow	canMountWep_BowNormal																	
+Greatbow	canMountWep_BowLarge																	
+Crossbow	canMountWep_ClossBow																	
+Ballista	canMountWep_Ballista																	
+Glintstone Staff	canMountWep_Staff																	
+	canMountWep_Sorcery																	
+Sacred Seal	canMountWep_Talisman																	
+Small Shield	canMountWep_ShieldSmall																	
+Medium Shield	canMountWep_ShieldNormal																	
+Greatshield	canMountWep_ShieldLarge																	
+Torch	canMountWep_Torch																	
+Hand-to-Hand	canMountWep_HandToHand																	
+Perfume Bottle	canMountWep_PerfumeBottle																	
+Thrusting Shield	canMountWep_ThrustingShield																	
+Throwing Blade	canMountWep_ThrowingWeapon																	
+Backhand Blade	canMountWep_ReverseHandSword																	
+Light Greatsword	canMountWep_LightGreatsword																	
+Great Katana	canMountWep_GreatKatana																	
+Beast Claw	canMountWep_BeastClaw

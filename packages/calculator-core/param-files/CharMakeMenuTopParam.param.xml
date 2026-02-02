@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>CharMakeMenuTopParam.param</filename>
+<compression>None</compression>
+<type>CHARMAKEMENUTOP_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>3</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>CHARMAKEMENUTOP_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>3</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="commandType" type="s32" arraylength="1" bitsize="-1" sortid="10" defaultValue="1" />
+<field name="captionId" type="s32" arraylength="1" bitsize="-1" sortid="20" defaultValue="0" />
+<field name="faceParamId" type="s32" arraylength="1" bitsize="-1" sortid="30" defaultValue="0" />
+<field name="tableId" type="s32" arraylength="1" bitsize="-1" sortid="40" defaultValue="0" />
+<field name="viewCondition" type="s32" arraylength="1" bitsize="-1" sortid="60" defaultValue="0" defaultThreshold="True" />
+<field name="previewMode" type="s8" arraylength="1" bitsize="-1" sortid="70" defaultValue="2" />
+<field name="reserved2" type="dummy8" arraylength="3" bitsize="-1" sortid="201" defaultValue="[0|0|0]" defaultThreshold="True" />
+<field name="tableId2" type="s32" arraylength="1" bitsize="-1" sortid="50" defaultValue="-1" defaultThreshold="True" />
+<field name="refFaceParamId" type="s32" arraylength="1" bitsize="-1" sortid="100" defaultValue="-1" defaultThreshold="True" />
+<field name="refTextId" type="s32" arraylength="1" bitsize="-1" sortid="110" defaultValue="-1" defaultThreshold="True" />
+<field name="helpTextId" type="s32" arraylength="1" bitsize="-1" sortid="25" defaultValue="-1" />
+<field name="unlockEventFlagId" type="u32" arraylength="1" bitsize="-1" sortid="200" defaultValue="0" defaultThreshold="True" />
+<field name="reserved" type="dummy8" arraylength="4" bitsize="-1" sortid="202" defaultValue="[0|0|0|0]" defaultThreshold="True" />
+</fields>
+<rows>
+<row id="1" commandType="10" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="2" paramdexName="Name" commandType="26" captionId="291000" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="3" paramdexName="Body Type" commandType="20" captionId="291001" faceParamId="10000" tableId="100000" previewMode="0" helpTextId="-1" />
+<row id="4" paramdexName="Age" commandType="21" captionId="291002" faceParamId="1100" tableId="100100" previewMode="0" helpTextId="-1" />
+<row id="5" commandType="0" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="6" paramdexName="Origin" commandType="23" captionId="291010" faceParamId="10003" tableId="100200" viewCondition="3" previewMode="0" helpTextId="-1" />
+<row id="7" paramdexName="Keepsake" commandType="24" captionId="291011" faceParamId="10004" tableId="100300" viewCondition="3" previewMode="0" helpTextId="-1" />
+<row id="8" commandType="0" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="9" paramdexName="Choose Base Template" commandType="25" captionId="291020" faceParamId="10002" tableId="240" previewMode="1" tableId2="260" helpTextId="-1" />
+<row id="10" paramdexName="Detailed Appearance" commandType="10" captionId="291025" faceParamId="0" tableId="0" previewMode="1" helpTextId="-1" />
+<row id="11" paramdexName="Age" commandType="21" captionId="291002" faceParamId="1100" tableId="100100" previewMode="1" helpTextId="-1" />
+<row id="12" paramdexName="Voice" commandType="22" captionId="291003" faceParamId="10001" tableId="100400" previewMode="1" helpTextId="-1" />
+<row id="13" commandType="0" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="14" paramdexName="Alter Skin Color" commandType="2" captionId="291023" faceParamId="3000" tableId="1101" previewMode="1" helpTextId="-1" />
+<row id="15" paramdexName="Alter Face &amp; Hair" commandType="10" captionId="291021" faceParamId="0" tableId="0" previewMode="1" helpTextId="-1" />
+<row id="16" paramdexName="Adjust Face Template" commandType="10" captionId="292000" faceParamId="0" tableId="0" previewMode="2" helpTextId="-1" />
+<row id="17" paramdexName="Bone Structure" commandType="3" captionId="293000" faceParamId="1101" tableId="130" previewMode="2" helpTextId="-1" />
+<row id="18" paramdexName="Form Ephasis" commandType="1" captionId="293001" faceParamId="99" tableId="296112" previewMode="2" helpTextId="-1" />
+<row id="19" paramdexName="Apparent Age" commandType="1" captionId="293002" faceParamId="96" tableId="296114" previewMode="2" helpTextId="-1" />
+<row id="20" paramdexName="Facial Aesthetic" commandType="1" captionId="293003" faceParamId="97" tableId="296116" previewMode="2" helpTextId="-1" />
+<row id="21" commandType="11" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="22" paramdexName="Face Structure" commandType="10" captionId="292001" faceParamId="0" tableId="0" previewMode="2" helpTextId="-1" />
+<row id="23" paramdexName="Facial Balance" commandType="10" captionId="293010" faceParamId="0" tableId="0" previewMode="2" helpTextId="-1" />
+<row id="24" paramdexName="Nose Size" commandType="1" captionId="294050" faceParamId="0" tableId="296166" previewMode="2" helpTextId="293010" />
+<row id="25" paramdexName="Nose/Forehead Ratio" commandType="1" captionId="294051" faceParamId="1" tableId="296168" previewMode="2" helpTextId="293010" />
+<row id="26" paramdexName="Face Protrusion" commandType="1" captionId="294052" faceParamId="3" tableId="296170" previewMode="2" helpTextId="293010" />
+<row id="27" paramdexName="Vert. Face Ratio" commandType="1" captionId="294053" faceParamId="4" tableId="296172" previewMode="2" helpTextId="293010" />
+<row id="28" paramdexName="Facial Feature Slant" commandType="1" captionId="294054" faceParamId="5" tableId="296174" previewMode="2" helpTextId="293010" />
+<row id="29" paramdexName="Horiz. Face Ratio" commandType="1" captionId="294055" faceParamId="6" tableId="296176" previewMode="2" helpTextId="293010" />
+<row id="30" commandType="11" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="31" paramdexName="Forehead/Glabella" commandType="10" captionId="293011" faceParamId="0" tableId="0" previewMode="2" helpTextId="-1" />
+<row id="32" paramdexName="Forehead Depth" commandType="1" captionId="294060" faceParamId="15" tableId="296178" previewMode="2" helpTextId="293011" />
+<row id="33" paramdexName="Forehead Protrusion" commandType="1" captionId="294061" faceParamId="16" tableId="296180" previewMode="2" helpTextId="293011" />
+<row id="34" paramdexName="Nose Bridge Height" commandType="1" captionId="294062" faceParamId="17" tableId="296182" previewMode="2" helpTextId="293011" />
+<row id="35" paramdexName="Bridge Protrusion 1" commandType="1" captionId="294063" faceParamId="18" tableId="296184" previewMode="2" helpTextId="293011" />
+<row id="36" paramdexName="Bridge Protrusion 2" commandType="1" captionId="294064" faceParamId="19" tableId="296186" previewMode="2" helpTextId="293011" />
+<row id="37" paramdexName="Nose Bridge Width" commandType="1" captionId="294065" faceParamId="20" tableId="296188" previewMode="2" helpTextId="293011" />
+<row id="38" commandType="11" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="39" paramdexName="Brow Ridge" commandType="10" captionId="293012" faceParamId="0" tableId="0" previewMode="2" helpTextId="-1" />
+<row id="40" paramdexName="Brow Ridge Height" commandType="1" captionId="294070" faceParamId="21" tableId="296190" previewMode="2" helpTextId="293012" />
+<row id="41" paramdexName="Inner Brow Ridge" commandType="1" captionId="294071" faceParamId="22" tableId="296192" previewMode="2" helpTextId="293012" />
+<row id="42" paramdexName="Outer Brow Ridge" commandType="1" captionId="294072" faceParamId="23" tableId="296194" previewMode="2" helpTextId="293012" />
+<row id="43" commandType="11" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="44" paramdexName="Eyes" commandType="10" captionId="293013" faceParamId="0" tableId="0" previewMode="2" helpTextId="-1" />
+<row id="45" paramdexName="Eye Position" commandType="1" captionId="294080" faceParamId="31" tableId="296196" previewMode="2" helpTextId="293013" />
+<row id="46" paramdexName="Eye Size" commandType="1" captionId="294081" faceParamId="32" tableId="296198" previewMode="2" helpTextId="293013" />
+<row id="47" paramdexName="Eye Slant" commandType="1" captionId="294082" faceParamId="33" tableId="296200" previewMode="2" helpTextId="293013" />
+<row id="48" paramdexName="Eye Spacing" commandType="1" captionId="294083" faceParamId="34" tableId="296202" previewMode="2" helpTextId="293013" />
+<row id="49" commandType="11" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="50" paramdexName="Nose Ridge" commandType="10" captionId="293014" faceParamId="0" tableId="0" previewMode="2" helpTextId="-1" />
+<row id="51" paramdexName="Nose Ridge Depth" commandType="1" captionId="294090" faceParamId="44" tableId="296204" previewMode="2" helpTextId="293014" />
+<row id="52" paramdexName="Nose Ridge Length" commandType="1" captionId="294091" faceParamId="45" tableId="296206" previewMode="2" helpTextId="293014" />
+<row id="53" paramdexName="Nose Position" commandType="1" captionId="294092" faceParamId="46" tableId="296208" previewMode="2" helpTextId="293014" />
+<row id="54" paramdexName="Nose Tip Height" commandType="1" captionId="294093" faceParamId="47" tableId="296210" previewMode="2" helpTextId="293014" />
+<row id="55" paramdexName="Nose Protrusion" commandType="1" captionId="294094" faceParamId="48" tableId="296212" previewMode="2" helpTextId="293014" />
+<row id="56" paramdexName="Nose Height" commandType="1" captionId="294095" faceParamId="49" tableId="296214" previewMode="2" helpTextId="293014" />
+<row id="57" paramdexName="Nose Slant" commandType="1" captionId="294096" faceParamId="50" tableId="296216" previewMode="2" helpTextId="293014" />
+<row id="58" commandType="11" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="59" paramdexName="Nostrils" commandType="10" captionId="293015" faceParamId="0" tableId="0" previewMode="2" helpTextId="-1" />
+<row id="60" paramdexName="Nostril Slant" commandType="1" captionId="294100" faceParamId="51" tableId="296218" previewMode="2" helpTextId="293015" />
+<row id="61" paramdexName="Nostril Size" commandType="1" captionId="294101" faceParamId="52" tableId="296220" previewMode="2" helpTextId="293015" />
+<row id="62" paramdexName="Nostril Width" commandType="1" captionId="294102" faceParamId="53" tableId="296222" previewMode="2" helpTextId="293015" />
+<row id="63" commandType="11" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="64" paramdexName="Cheeks" commandType="10" captionId="293016" faceParamId="0" tableId="0" previewMode="2" helpTextId="-1" />
+<row id="65" paramdexName="Cheekbone Height" commandType="1" captionId="294110" faceParamId="55" tableId="296226" previewMode="2" helpTextId="293016" />
+<row id="66" paramdexName="Cheekbone Depth" commandType="1" captionId="294111" faceParamId="56" tableId="296228" previewMode="2" helpTextId="293016" />
+<row id="67" paramdexName="Cheekbone Width" commandType="1" captionId="294112" faceParamId="57" tableId="296230" previewMode="2" helpTextId="293016" />
+<row id="68" paramdexName="Cheekbone Protrusion" commandType="1" captionId="294113" faceParamId="58" tableId="296232" previewMode="2" helpTextId="293016" />
+<row id="69" paramdexName="Cheeks" commandType="1" captionId="294114" faceParamId="59" tableId="296234" previewMode="2" helpTextId="293016" />
+<row id="70" commandType="11" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="71" paramdexName="Lips" commandType="10" captionId="293017" faceParamId="0" tableId="0" previewMode="2" helpTextId="-1" />
+<row id="72" paramdexName="Lip Shape" commandType="1" captionId="294120" faceParamId="61" tableId="296236" previewMode="2" helpTextId="293017" />
+<row id="73" paramdexName="Mouth Expression" commandType="1" captionId="294121" faceParamId="64" tableId="296238" previewMode="2" helpTextId="293017" />
+<row id="74" paramdexName="Lip Fullness" commandType="1" captionId="294122" faceParamId="63" tableId="296240" previewMode="2" helpTextId="293017" />
+<row id="75" paramdexName="Lip Size" commandType="1" captionId="294123" faceParamId="62" tableId="296242" previewMode="2" helpTextId="293017" />
+<row id="76" paramdexName="Lip Protrusion" commandType="1" captionId="294124" faceParamId="65" tableId="296244" previewMode="2" helpTextId="293017" />
+<row id="77" paramdexName="Lip Thickness" commandType="1" captionId="294125" faceParamId="66" tableId="296246" previewMode="2" helpTextId="293017" />
+<row id="78" commandType="11" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="79" paramdexName="Mouth" commandType="10" captionId="293018" faceParamId="0" tableId="0" previewMode="2" helpTextId="-1" />
+<row id="80" paramdexName="Mouth Protrusion" commandType="1" captionId="294130" faceParamId="67" tableId="296248" previewMode="2" helpTextId="293018" />
+<row id="81" paramdexName="Mouth Slant" commandType="1" captionId="294131" faceParamId="68" tableId="296250" previewMode="2" helpTextId="293018" />
+<row id="82" paramdexName="Occlusion" commandType="1" captionId="294132" faceParamId="69" tableId="296252" previewMode="2" helpTextId="293018" />
+<row id="83" paramdexName="Mouth Position" commandType="1" captionId="294133" faceParamId="70" tableId="296254" previewMode="2" helpTextId="293018" />
+<row id="84" paramdexName="Mouth Width" commandType="1" captionId="294134" faceParamId="71" tableId="296256" previewMode="2" helpTextId="293018" />
+<row id="85" paramdexName="Mouth-Chin Distance" commandType="1" captionId="294135" faceParamId="72" tableId="296258" previewMode="2" helpTextId="293018" />
+<row id="86" commandType="11" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="87" paramdexName="Chin" commandType="10" captionId="293019" faceParamId="0" tableId="0" previewMode="2" helpTextId="-1" />
+<row id="88" paramdexName="Chin Tip Position" commandType="1" captionId="294140" faceParamId="76" tableId="296260" previewMode="2" helpTextId="293019" />
+<row id="89" paramdexName="Chin Length" commandType="1" captionId="294141" faceParamId="77" tableId="296262" previewMode="2" helpTextId="293019" />
+<row id="90" paramdexName="Chin Protrusion" commandType="1" captionId="294142" faceParamId="78" tableId="296264" previewMode="2" helpTextId="293019" />
+<row id="91" paramdexName="Chin Depth" commandType="1" captionId="294143" faceParamId="79" tableId="296266" previewMode="2" helpTextId="293019" />
+<row id="92" paramdexName="Chin Size" commandType="1" captionId="294144" faceParamId="80" tableId="296268" previewMode="2" helpTextId="293019" />
+<row id="93" paramdexName="Chin Height" commandType="1" captionId="294145" faceParamId="81" tableId="296270" previewMode="2" helpTextId="293019" />
+<row id="94" paramdexName="Chin Width" commandType="1" captionId="294146" faceParamId="82" tableId="296272" previewMode="2" helpTextId="293019" />
+<row id="95" commandType="11" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="96" paramdexName="Jaw" commandType="10" captionId="293020" faceParamId="0" tableId="0" previewMode="2" helpTextId="-1" />
+<row id="97" paramdexName="Jaw Protrusion" commandType="1" captionId="294150" faceParamId="83" tableId="296274" previewMode="2" helpTextId="293020" />
+<row id="98" paramdexName="Jaw Width" commandType="1" captionId="294151" faceParamId="84" tableId="296276" previewMode="2" helpTextId="293020" />
+<row id="99" paramdexName="Lower Jaw" commandType="1" captionId="294152" faceParamId="85" tableId="296278" previewMode="2" helpTextId="293020" />
+<row id="100" paramdexName="Jaw Contour" commandType="1" captionId="294153" faceParamId="86" tableId="296280" previewMode="2" helpTextId="293020" />
+<row id="101" commandType="11" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="102" commandType="11" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="103" commandType="0" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="104" paramdexName="Hair" commandType="10" captionId="292010" faceParamId="0" tableId="0" previewMode="2" helpTextId="-1" />
+<row id="105" paramdexName="Hair" commandType="3" captionId="293100" faceParamId="1001" tableId="700" previewMode="2" helpTextId="-1" />
+<row id="106" paramdexName="Hair Color" commandType="2" captionId="293101" faceParamId="3068" tableId="1201" previewMode="2" helpTextId="-1" />
+<row id="107" paramdexName="Luster (Hair)" commandType="1" captionId="293102" faceParamId="3071" tableId="296118" previewMode="2" helpTextId="-1" />
+<row id="108" paramdexName="Root Darkness (Hair)" commandType="1" captionId="293103" faceParamId="3072" tableId="296120" previewMode="2" helpTextId="-1" />
+<row id="109" paramdexName="White Hairs (Hair)" commandType="1" captionId="293104" faceParamId="3073" tableId="296122" previewMode="2" helpTextId="-1" />
+<row id="110" commandType="11" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="111" paramdexName="Eyebrows" commandType="10" captionId="292011" faceParamId="0" tableId="0" previewMode="2" helpTextId="-1" />
+<row id="112" paramdexName="Brows" commandType="3" captionId="293110" faceParamId="1003" tableId="500" previewMode="2" helpTextId="-1" />
+<row id="113" paramdexName="Brow Color" commandType="2" captionId="293111" faceParamId="3080" tableId="1201" previewMode="2" refFaceParamId="3068" refTextId="299020" helpTextId="-1" />
+<row id="114" paramdexName="Luster (Eyebrows)" commandType="1" captionId="293112" faceParamId="3083" tableId="296124" previewMode="2" refFaceParamId="3071" refTextId="299020" helpTextId="-1" />
+<row id="115" paramdexName="Root Darkness (Eyebrows)" commandType="1" captionId="293113" faceParamId="3084" tableId="296126" previewMode="2" refFaceParamId="3072" refTextId="299020" helpTextId="-1" />
+<row id="116" paramdexName="White Hairs (Eyebrows)" commandType="1" captionId="293114" faceParamId="3085" tableId="296128" previewMode="2" refFaceParamId="3073" refTextId="299020" helpTextId="-1" />
+<row id="117" commandType="11" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="118" paramdexName="Facial Hair" commandType="10" captionId="292012" faceParamId="0" tableId="0" previewMode="2" helpTextId="-1" />
+<row id="119" paramdexName="Beard" commandType="3" captionId="293120" faceParamId="1004" tableId="600" previewMode="2" tableId2="620" helpTextId="-1" />
+<row id="120" paramdexName="Beard Color" commandType="2" captionId="293121" faceParamId="3074" tableId="1201" previewMode="2" refFaceParamId="3068" refTextId="299020" helpTextId="-1" />
+<row id="121" paramdexName="Luster (Facial Hair)" commandType="1" captionId="293122" faceParamId="3077" tableId="296130" previewMode="2" refFaceParamId="3071" refTextId="299020" helpTextId="-1" />
+<row id="122" paramdexName="Root Darkness (Facial Hair)" commandType="1" captionId="293123" faceParamId="3078" tableId="296132" previewMode="2" refFaceParamId="3072" refTextId="299020" helpTextId="-1" />
+<row id="123" paramdexName="White Hair (Facial Hair)" commandType="1" captionId="293124" faceParamId="3079" tableId="296134" previewMode="2" refFaceParamId="3073" refTextId="299020" helpTextId="-1" />
+<row id="124" paramdexName="Stubble" commandType="1" captionId="293125" faceParamId="3005" tableId="296136" previewMode="2" helpTextId="-1" />
+<row id="125" commandType="11" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="126" paramdexName="Eyelaches" commandType="10" captionId="292013" faceParamId="0" tableId="0" previewMode="2" helpTextId="-1" />
+<row id="127" paramdexName="Eyelaches" commandType="3" captionId="293130" faceParamId="1007" tableId="1100" previewMode="2" helpTextId="-1" />
+<row id="128" paramdexName="Eyelach Color" commandType="2" captionId="293131" faceParamId="3086" tableId="1201" previewMode="2" refFaceParamId="3068" refTextId="299020" helpTextId="-1" />
+<row id="129" commandType="11" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="130" paramdexName="Eyes" commandType="10" captionId="292020" faceParamId="0" tableId="0" previewMode="2" helpTextId="-1" />
+<row id="131" paramdexName="Right Iris Size" commandType="1" captionId="293140" faceParamId="3047" tableId="296138" previewMode="2" helpTextId="-1" />
+<row id="132" paramdexName="Right Iris Color" commandType="2" captionId="293141" faceParamId="3044" tableId="1301" previewMode="2" helpTextId="-1" />
+<row id="133" paramdexName="Right Eye Clouding" commandType="1" captionId="293142" faceParamId="3048" tableId="296140" previewMode="2" helpTextId="-1" />
+<row id="134" paramdexName="Right Eye Clouding Color" commandType="2" captionId="293143" faceParamId="3049" tableId="1301" previewMode="2" helpTextId="-1" />
+<row id="135" paramdexName="Right Eye White Color" commandType="2" captionId="293144" faceParamId="3052" tableId="1301" previewMode="2" helpTextId="-1" />
+<row id="136" paramdexName="Right Eye Position" commandType="1" captionId="293145" faceParamId="3055" tableId="296142" previewMode="2" helpTextId="-1" />
+<row id="137" paramdexName="Left Iris Size" commandType="1" captionId="293150" faceParamId="3059" tableId="296144" previewMode="2" refFaceParamId="3047" refTextId="299010" helpTextId="-1" />
+<row id="138" paramdexName="Left Iris Color" commandType="2" captionId="293151" faceParamId="3056" tableId="1301" previewMode="2" refFaceParamId="3044" refTextId="299010" helpTextId="-1" />
+<row id="139" paramdexName="Left Eye Clouding" commandType="1" captionId="293152" faceParamId="3060" tableId="296146" previewMode="2" refFaceParamId="3048" refTextId="299010" helpTextId="-1" />
+<row id="140" paramdexName="Left Eye Clouding Color" commandType="2" captionId="293153" faceParamId="3061" tableId="1301" previewMode="2" refFaceParamId="3049" refTextId="299010" helpTextId="-1" />
+<row id="141" paramdexName="Left Eye White Color" commandType="2" captionId="293154" faceParamId="3064" tableId="1301" previewMode="2" refFaceParamId="3052" refTextId="299010" helpTextId="-1" />
+<row id="142" paramdexName="Left Eye Position" commandType="1" captionId="293155" faceParamId="3067" tableId="296148" previewMode="2" refFaceParamId="3055" refTextId="299010" helpTextId="-1" />
+<row id="143" paramdexName="Eye Alteration" commandType="4" captionId="293156" faceParamId="20000" tableId="1300" viewCondition="4" previewMode="2" helpTextId="-1" unlockEventFlagId="9420" />
+<row id="144" commandType="11" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="145" paramdexName="Skin Features" commandType="10" captionId="292025" faceParamId="0" tableId="0" previewMode="2" helpTextId="-1" />
+<row id="146" paramdexName="Pores" commandType="1" captionId="293160" faceParamId="3004" tableId="296150" previewMode="2" helpTextId="-1" />
+<row id="147" paramdexName="Skin Luster" commandType="1" captionId="293161" faceParamId="3003" tableId="296152" previewMode="2" helpTextId="-1" />
+<row id="148" paramdexName="Dark Circles" commandType="1" captionId="293162" faceParamId="3006" tableId="296154" previewMode="2" helpTextId="-1" />
+<row id="149" paramdexName="Dark Circle Color" commandType="2" captionId="293163" faceParamId="3007" tableId="1401" previewMode="2" helpTextId="-1" />
+<row id="150" commandType="11" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="151" paramdexName="Cosmetics" commandType="10" captionId="292030" faceParamId="0" tableId="0" previewMode="2" helpTextId="-1" />
+<row id="152" paramdexName="Eyeliner" commandType="1" captionId="293166" faceParamId="3014" tableId="296158" previewMode="2" helpTextId="-1" />
+<row id="153" paramdexName="Eyeline Color" commandType="2" captionId="293167" faceParamId="3015" tableId="1441" previewMode="2" helpTextId="-1" />
+<row id="154" paramdexName="Eyeshadow (Upper)" commandType="1" captionId="293168" faceParamId="3022" tableId="296160" previewMode="2" helpTextId="-1" />
+<row id="155" paramdexName="Eyeshadow Color (Upper)" commandType="2" captionId="293169" faceParamId="3023" tableId="1461" previewMode="2" helpTextId="-1" />
+<row id="156" paramdexName="Eyeshadow (Lower)" commandType="1" captionId="293170" faceParamId="3018" tableId="296162" previewMode="2" helpTextId="-1" />
+<row id="157" paramdexName="Eyeshadow Color (Lower)" commandType="2" captionId="293171" faceParamId="3019" tableId="1461" previewMode="2" helpTextId="-1" />
+<row id="158" paramdexName="Cheeks" commandType="1" captionId="293164" faceParamId="3010" tableId="296156" previewMode="2" helpTextId="-1" />
+<row id="159" paramdexName="Cheek Color" commandType="2" captionId="293165" faceParamId="3011" tableId="1421" previewMode="2" helpTextId="-1" />
+<row id="160" paramdexName="Lipstick" commandType="1" captionId="293172" faceParamId="3026" tableId="296164" previewMode="2" helpTextId="-1" />
+<row id="161" paramdexName="Lipstick Color" commandType="2" captionId="293173" faceParamId="3027" tableId="1481" previewMode="2" helpTextId="-1" />
+<row id="162" commandType="11" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="163" paramdexName="Tattoo/Mark/Eyepatch" commandType="10" captionId="292040" faceParamId="0" tableId="0" previewMode="2" helpTextId="-1" />
+<row id="164" paramdexName="Tattoo/Mark" commandType="3" captionId="293180" faceParamId="1006" tableId="800" previewMode="2" helpTextId="-1" />
+<row id="165" paramdexName="Tattoo/Mark Color" commandType="2" captionId="293181" faceParamId="3034" tableId="1001" previewMode="2" helpTextId="-1" />
+<row id="166" paramdexName="Tweak Tattoo/Mark" commandType="10" captionId="293182" faceParamId="0" tableId="0" previewMode="2" helpTextId="-1" />
+<row id="167" paramdexName="Position (Vert.)" commandType="1" captionId="294160" faceParamId="3031" tableId="296282" previewMode="2" helpTextId="293182" />
+<row id="168" paramdexName="Position (Horiz.)" commandType="1" captionId="294161" faceParamId="3030" tableId="296284" previewMode="2" helpTextId="293182" />
+<row id="169" paramdexName="Angle" commandType="1" captionId="294162" faceParamId="3032" tableId="296286" previewMode="2" helpTextId="293182" />
+<row id="170" paramdexName="Expansion" commandType="1" captionId="294163" faceParamId="3033" tableId="296288" previewMode="2" helpTextId="293182" />
+<row id="171" paramdexName="Flip" commandType="4" captionId="294164" faceParamId="3039" tableId="1200" previewMode="2" helpTextId="293182" />
+<row id="172" commandType="11" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="173" paramdexName="Eyepatch" commandType="3" captionId="293190" faceParamId="1005" tableId="900" previewMode="2" helpTextId="-1" />
+<row id="174" paramdexName="Eyepatch Color" commandType="2" captionId="293191" faceParamId="3089" tableId="1001" previewMode="2" helpTextId="-1" />
+<row id="175" commandType="11" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="176" commandType="0" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="177" paramdexName="Similair Face" commandType="12" captionId="292050" faceParamId="0" tableId="0" previewMode="2" helpTextId="-1" />
+<row id="178" commandType="11" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="179" paramdexName="Alter Body" commandType="10" captionId="291022" faceParamId="0" tableId="0" previewMode="1" helpTextId="-1" />
+<row id="180" paramdexName="Head" commandType="1" captionId="292060" faceParamId="2000" tableId="296100" previewMode="1" helpTextId="-1" />
+<row id="181" paramdexName="Chest" commandType="1" captionId="292061" faceParamId="2001" tableId="296102" previewMode="1" helpTextId="-1" />
+<row id="182" paramdexName="Abdomen" commandType="1" captionId="292062" faceParamId="2002" tableId="296104" previewMode="1" helpTextId="-1" />
+<row id="183" paramdexName="Arms" commandType="1" captionId="292063" faceParamId="2003" tableId="296106" previewMode="1" helpTextId="-1" />
+<row id="184" paramdexName="Legs" commandType="1" captionId="292064" faceParamId="2004" tableId="296108" previewMode="1" helpTextId="-1" />
+<row id="185" paramdexName="Body Hair" commandType="1" captionId="292070" faceParamId="3040" tableId="296110" previewMode="1" helpTextId="-1" />
+<row id="186" paramdexName="Body Hair Color" commandType="2" captionId="292071" faceParamId="3041" tableId="1201" previewMode="1" refFaceParamId="3068" refTextId="299020" helpTextId="-1" />
+<row id="187" paramdexName="Masculature" commandType="4" captionId="292072" faceParamId="1102" tableId="120" previewMode="1" helpTextId="-1" />
+<row id="188" paramdexName="Burn Marks" commandType="4" captionId="292080" faceParamId="20001" tableId="1310" viewCondition="4" previewMode="1" helpTextId="-1" unlockEventFlagId="9421" />
+<row id="189" commandType="11" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="190" commandType="0" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="191" commandType="0" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="192" paramdexName="Save to Favorites" commandType="15" captionId="291030" faceParamId="0" tableId="0" previewMode="1" helpTextId="-1" />
+<row id="193" paramdexName="Load Favorite" commandType="14" captionId="291031" faceParamId="0" tableId="0" previewMode="1" helpTextId="-1" />
+<row id="194" commandType="11" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="195" commandType="0" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="196" commandType="0" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="197" commandType="0" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="198" commandType="0" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="199" commandType="0" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+<row id="200" paramdexName="Finish" commandType="99" captionId="291050" faceParamId="0" tableId="0" viewCondition="3" previewMode="0" helpTextId="-1" />
+<row id="201" paramdexName="Finish Cosmetics" commandType="99" captionId="291051" faceParamId="0" tableId="0" viewCondition="5" previewMode="0" helpTextId="-1" />
+<row id="202" paramdexName="Finish Cosmetics" commandType="99" captionId="291052" faceParamId="0" tableId="0" viewCondition="6" previewMode="0" helpTextId="-1" />
+<row id="203" commandType="11" captionId="0" faceParamId="0" tableId="0" previewMode="0" helpTextId="-1" />
+</rows>
+</param>

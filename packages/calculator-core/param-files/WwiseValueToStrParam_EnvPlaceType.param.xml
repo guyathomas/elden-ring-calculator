@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>WwiseValueToStrParam_EnvPlaceType.param</filename>
+<compression>None</compression>
+<type>WWISE_VALUE_TO_STR_CONVERT_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>2</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>WWISE_VALUE_TO_STR_CONVERT_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>2</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="disableParam_NT" type="u8" arraylength="1" bitsize="1" sortid="0" defaultValue="1" />
+<field name="disableParamReserve1" type="dummy8" arraylength="1" bitsize="7" sortid="5" defaultValue="[0]" />
+<field name="disableParamReserve2" type="dummy8" arraylength="3" bitsize="-1" sortid="6" defaultValue="[0|0|0]" />
+<field name="ParamStr" type="fixstr" arraylength="32" bitsize="-1" sortid="1" defaultValue="Env_563_MediumVil" />
+</fields>
+<rows>
+<row id="0" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_000_Green" />
+<row id="10" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_010_Lake" />
+<row id="20" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_020_Mountain" />
+<row id="30" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_030_Plain" />
+<row id="40" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_040_Snow" />
+<row id="50" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_050_Cemetery" />
+<row id="51" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_051_CemeteryLatter" />
+<row id="52" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_052_Hill" />
+<row id="53" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_053_DarkTree" />
+<row id="54" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_054_AbyssForest" />
+<row id="100" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_100_Castle" />
+<row id="110" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_110_KingCity" />
+<row id="120" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_120_UgLabyrinth" />
+<row id="130" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_130_Remains" />
+<row id="140" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_140_Academy" />
+<row id="150" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_150_RottenBigTree" />
+<row id="160" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_160_VolcanoPrison" />
+<row id="180" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_180_Tutorial" />
+<row id="190" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_190_Ritual" />
+<row id="200" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_200_TowerLow" />
+<row id="201" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_201_TowerHigh" />
+<row id="202" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_202_TowerRevival" />
+<row id="210" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_210_CenterFortress" />
+<row id="220" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_220_Ark" />
+<row id="221" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_221_Npc405" />
+<row id="250" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_250_Nursery" />
+<row id="280" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_280_Hall" />
+<row id="300" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_300_Catacombs" />
+<row id="310" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_310_Cave" />
+<row id="320" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_320_Tunnel" />
+<row id="340" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_340_Tower" />
+<row id="350" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_350_UgKingCity" />
+<row id="390" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_390_CliffTunnel" />
+<row id="400" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_400_Catacombs_B" />
+<row id="410" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_410_Prison" />
+<row id="420" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_420_Blacksmith" />
+<row id="430" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_430_Cave_B" />
+<row id="500" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_500_Fortress" />
+<row id="550" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_550_RoadFortress" />
+<row id="560" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_560_MtDragon" />
+<row id="561" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_561_Frontier" />
+<row id="562" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_562_FingerRuin" />
+<row id="563" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Env_563_MediumVil" />
+</rows>
+</param>

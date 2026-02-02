@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>CutsceneWeatherOverrideGparamConvertParam.param</filename>
+<compression>None</compression>
+<type>CUTSCENE_WEATHER_OVERRIDE_GPARAM_ID_CONVERT_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>CUTSCENE_WEATHER_OVERRIDE_GPARAM_ID_CONVERT_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="weatherOverrideGparamId" type="u32" arraylength="1" bitsize="-1" sortid="1" defaultValue="50" />
+</fields>
+<rows>
+<row id="0" weatherOverrideGparamId="0" />
+<row id="1" weatherOverrideGparamId="1" />
+<row id="10" weatherOverrideGparamId="10" />
+<row id="11" weatherOverrideGparamId="10" />
+<row id="20" weatherOverrideGparamId="20" />
+<row id="21" weatherOverrideGparamId="20" />
+<row id="30" weatherOverrideGparamId="30" />
+<row id="31" weatherOverrideGparamId="30" />
+<row id="40" weatherOverrideGparamId="40" />
+<row id="41" weatherOverrideGparamId="41" />
+<row id="50" weatherOverrideGparamId="50" />
+<row id="51" weatherOverrideGparamId="50" />
+<row id="52" weatherOverrideGparamId="50" />
+<row id="60" weatherOverrideGparamId="60" />
+<row id="81" weatherOverrideGparamId="81" />
+<row id="82" weatherOverrideGparamId="82" />
+<row id="83" weatherOverrideGparamId="83" />
+<row id="84" weatherOverrideGparamId="84" />
+<row id="85" weatherOverrideGparamId="85" />
+<row id="86" weatherOverrideGparamId="86" />
+<row id="87" weatherOverrideGparamId="87" />
+<row id="88" weatherOverrideGparamId="88" />
+</rows>
+</param>

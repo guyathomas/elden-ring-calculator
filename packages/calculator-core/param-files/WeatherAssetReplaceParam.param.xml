@@ -1,0 +1,1052 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>WeatherAssetReplaceParam.param</filename>
+<compression>None</compression>
+<type>WEATHER_ASSET_REPLACE_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>2</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>WEATHER_ASSET_REPLACE_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="mapId" type="u32" arraylength="1" bitsize="-1" sortid="0" defaultValue="60000099" />
+<field name="TransitionSrcWeather" type="s16" arraylength="1" bitsize="-1" sortid="2" defaultValue="99" />
+<field name="padding0" type="dummy8" arraylength="2" bitsize="-1" sortid="9999" defaultValue="[0|0]" defaultThreshold="True" />
+<field name="isFireAsh" type="u8" arraylength="1" bitsize="-1" sortid="1" defaultValue="0" />
+<field name="padding1" type="dummy8" arraylength="3" bitsize="-1" sortid="9999" defaultValue="[0|0|0]" defaultThreshold="True" />
+<field name="reserved2" type="u32" arraylength="1" bitsize="-1" sortid="9999" defaultValue="0" defaultThreshold="True" />
+<field name="AssetId0" type="s32" arraylength="1" bitsize="-1" sortid="10" defaultValue="-1" />
+<field name="AssetId1" type="s32" arraylength="1" bitsize="-1" sortid="11" defaultValue="-1" />
+<field name="AssetId2" type="s32" arraylength="1" bitsize="-1" sortid="12" defaultValue="-1" defaultThreshold="True" />
+<field name="AssetId3" type="s32" arraylength="1" bitsize="-1" sortid="13" defaultValue="-1" />
+<field name="AssetId4" type="s32" arraylength="1" bitsize="-1" sortid="14" defaultValue="-1" defaultThreshold="True" />
+<field name="AssetId5" type="s32" arraylength="1" bitsize="-1" sortid="15" defaultValue="-1" defaultThreshold="True" />
+<field name="AssetId6" type="s32" arraylength="1" bitsize="-1" sortid="16" defaultValue="-1" defaultThreshold="True" />
+<field name="AssetId7" type="s32" arraylength="1" bitsize="-1" sortid="17" defaultValue="-1" defaultThreshold="True" />
+<field name="reserved0" type="dummy8" arraylength="8" bitsize="-1" sortid="9999" defaultValue="[0|0|0|0|0|0|0|0]" defaultThreshold="True" />
+<field name="CreateAssetLimitId0" type="s8" arraylength="1" bitsize="-1" sortid="100" defaultValue="-1" />
+<field name="CreateAssetLimitId1" type="s8" arraylength="1" bitsize="-1" sortid="100" defaultValue="-1" defaultThreshold="True" />
+<field name="CreateAssetLimitId2" type="s8" arraylength="1" bitsize="-1" sortid="100" defaultValue="-1" defaultThreshold="True" />
+<field name="CreateAssetLimitId3" type="s8" arraylength="1" bitsize="-1" sortid="100" defaultValue="-1" defaultThreshold="True" />
+<field name="reserved1" type="dummy8" arraylength="4" bitsize="-1" sortid="9999" defaultValue="[0|0|0|0]" defaultThreshold="True" />
+</fields>
+<rows>
+<row id="1000100" mapId="10000099" TransitionSrcWeather="0" isFireAsh="0" AssetId0="-1" AssetId1="96603" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1000101" mapId="10000099" TransitionSrcWeather="1" isFireAsh="0" AssetId0="-1" AssetId1="96603" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1000110" mapId="10000099" TransitionSrcWeather="10" isFireAsh="0" AssetId0="-1" AssetId1="96603" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1000111" mapId="10000099" TransitionSrcWeather="11" isFireAsh="0" AssetId0="-1" AssetId1="96603" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1000120" mapId="10000099" TransitionSrcWeather="20" isFireAsh="0" AssetId0="-1" AssetId1="96603" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1000121" mapId="10000099" TransitionSrcWeather="21" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1000130" mapId="10000099" TransitionSrcWeather="30" isFireAsh="0" AssetId0="-1" AssetId1="96603" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1000131" mapId="10000099" TransitionSrcWeather="31" isFireAsh="0" AssetId0="-1" AssetId1="96603" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1000140" mapId="10000099" TransitionSrcWeather="40" isFireAsh="0" AssetId0="-1" AssetId1="96603" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1000141" mapId="10000099" TransitionSrcWeather="41" isFireAsh="0" AssetId0="-1" AssetId1="96603" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1000150" mapId="10000099" TransitionSrcWeather="50" isFireAsh="0" AssetId0="-1" AssetId1="96603" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1000151" mapId="10000099" TransitionSrcWeather="51" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1000152" mapId="10000099" TransitionSrcWeather="52" isFireAsh="0" AssetId0="-1" AssetId1="96603" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1000160" mapId="10000099" TransitionSrcWeather="60" isFireAsh="0" AssetId0="-1" AssetId1="96603" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1000199" mapId="10000099" TransitionSrcWeather="99" isFireAsh="0" AssetId0="96101" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1000200" mapId="10000099" TransitionSrcWeather="0" isFireAsh="1" AssetId0="-1" AssetId1="96603" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1000201" mapId="10000099" TransitionSrcWeather="1" isFireAsh="1" AssetId0="-1" AssetId1="96603" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1000210" mapId="10000099" TransitionSrcWeather="10" isFireAsh="1" AssetId0="-1" AssetId1="96603" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1000211" mapId="10000099" TransitionSrcWeather="11" isFireAsh="1" AssetId0="-1" AssetId1="96603" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1000220" mapId="10000099" TransitionSrcWeather="20" isFireAsh="1" AssetId0="-1" AssetId1="96603" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1000221" mapId="10000099" TransitionSrcWeather="21" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1000230" mapId="10000099" TransitionSrcWeather="30" isFireAsh="1" AssetId0="-1" AssetId1="96603" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1000231" mapId="10000099" TransitionSrcWeather="31" isFireAsh="1" AssetId0="-1" AssetId1="96603" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1000240" mapId="10000099" TransitionSrcWeather="40" isFireAsh="1" AssetId0="-1" AssetId1="96603" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1000241" mapId="10000099" TransitionSrcWeather="41" isFireAsh="1" AssetId0="-1" AssetId1="96603" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1000250" mapId="10000099" TransitionSrcWeather="50" isFireAsh="1" AssetId0="-1" AssetId1="96603" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1000251" mapId="10000099" TransitionSrcWeather="51" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1000252" mapId="10000099" TransitionSrcWeather="52" isFireAsh="1" AssetId0="-1" AssetId1="96603" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1000260" mapId="10000099" TransitionSrcWeather="60" isFireAsh="1" AssetId0="-1" AssetId1="96603" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1000299" mapId="10000099" TransitionSrcWeather="99" isFireAsh="1" AssetId0="96101" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1098100" mapId="10000098" TransitionSrcWeather="0" isFireAsh="0" AssetId0="-1" AssetId1="96603" AssetId2="96390" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1098101" mapId="10000098" TransitionSrcWeather="1" isFireAsh="0" AssetId0="-1" AssetId1="96603" AssetId2="96390" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1098110" mapId="10000098" TransitionSrcWeather="10" isFireAsh="0" AssetId0="-1" AssetId1="96603" AssetId2="96390" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1098111" mapId="10000098" TransitionSrcWeather="11" isFireAsh="0" AssetId0="-1" AssetId1="96603" AssetId2="96390" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1098120" mapId="10000098" TransitionSrcWeather="20" isFireAsh="0" AssetId0="-1" AssetId1="96603" AssetId2="96390" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1098121" mapId="10000098" TransitionSrcWeather="21" isFireAsh="0" AssetId0="-1" AssetId1="96603" AssetId2="96390" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1098130" mapId="10000098" TransitionSrcWeather="30" isFireAsh="0" AssetId0="-1" AssetId1="96603" AssetId2="96390" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1098131" mapId="10000098" TransitionSrcWeather="31" isFireAsh="0" AssetId0="-1" AssetId1="96603" AssetId2="96390" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1098140" mapId="10000098" TransitionSrcWeather="40" isFireAsh="0" AssetId0="-1" AssetId1="96603" AssetId2="96390" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1098141" mapId="10000098" TransitionSrcWeather="41" isFireAsh="0" AssetId0="-1" AssetId1="96603" AssetId2="96390" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1098150" mapId="10000098" TransitionSrcWeather="50" isFireAsh="0" AssetId0="-1" AssetId1="96603" AssetId2="96390" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1098151" mapId="10000098" TransitionSrcWeather="51" isFireAsh="0" AssetId0="-1" AssetId1="96603" AssetId2="96390" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1098152" mapId="10000098" TransitionSrcWeather="52" isFireAsh="0" AssetId0="-1" AssetId1="96603" AssetId2="96390" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1098160" mapId="10000098" TransitionSrcWeather="60" isFireAsh="0" AssetId0="-1" AssetId1="96603" AssetId2="96390" AssetId3="96611" CreateAssetLimitId0="-1" />
+<row id="1098199" mapId="10000098" TransitionSrcWeather="99" isFireAsh="0" AssetId0="96101" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1100100" mapId="11000099" TransitionSrcWeather="0" isFireAsh="0" AssetId0="-1" AssetId1="96620" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1100101" mapId="11000099" TransitionSrcWeather="1" isFireAsh="0" AssetId0="-1" AssetId1="96620" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1100110" mapId="11000099" TransitionSrcWeather="10" isFireAsh="0" AssetId0="-1" AssetId1="96620" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1100111" mapId="11000099" TransitionSrcWeather="11" isFireAsh="0" AssetId0="-1" AssetId1="96620" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1100120" mapId="11000099" TransitionSrcWeather="20" isFireAsh="0" AssetId0="-1" AssetId1="96624" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1100121" mapId="11000099" TransitionSrcWeather="21" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1100130" mapId="11000099" TransitionSrcWeather="30" isFireAsh="0" AssetId0="-1" AssetId1="96620" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1100131" mapId="11000099" TransitionSrcWeather="31" isFireAsh="0" AssetId0="-1" AssetId1="96620" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1100140" mapId="11000099" TransitionSrcWeather="40" isFireAsh="0" AssetId0="-1" AssetId1="96620" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1100141" mapId="11000099" TransitionSrcWeather="41" isFireAsh="0" AssetId0="-1" AssetId1="96620" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1100150" mapId="11000099" TransitionSrcWeather="50" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1100151" mapId="11000099" TransitionSrcWeather="51" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1100152" mapId="11000099" TransitionSrcWeather="52" isFireAsh="0" AssetId0="-1" AssetId1="96620" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1100160" mapId="11000099" TransitionSrcWeather="60" isFireAsh="0" AssetId0="-1" AssetId1="96620" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1100199" mapId="11000099" TransitionSrcWeather="99" isFireAsh="0" AssetId0="96101" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1105200" mapId="11050099" TransitionSrcWeather="0" isFireAsh="1" AssetId0="-1" AssetId1="96625" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1105201" mapId="11050099" TransitionSrcWeather="1" isFireAsh="1" AssetId0="-1" AssetId1="96625" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1105210" mapId="11050099" TransitionSrcWeather="10" isFireAsh="1" AssetId0="-1" AssetId1="96625" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1105211" mapId="11050099" TransitionSrcWeather="11" isFireAsh="1" AssetId0="-1" AssetId1="96625" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1105220" mapId="11050099" TransitionSrcWeather="20" isFireAsh="1" AssetId0="-1" AssetId1="96625" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1105221" mapId="11050099" TransitionSrcWeather="21" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1105230" mapId="11050099" TransitionSrcWeather="30" isFireAsh="1" AssetId0="-1" AssetId1="96625" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1105231" mapId="11050099" TransitionSrcWeather="31" isFireAsh="1" AssetId0="-1" AssetId1="96625" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1105240" mapId="11050099" TransitionSrcWeather="40" isFireAsh="1" AssetId0="-1" AssetId1="96625" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1105241" mapId="11050099" TransitionSrcWeather="41" isFireAsh="1" AssetId0="-1" AssetId1="96625" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1105250" mapId="11050099" TransitionSrcWeather="50" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1105251" mapId="11050099" TransitionSrcWeather="51" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1105252" mapId="11050099" TransitionSrcWeather="52" isFireAsh="1" AssetId0="-1" AssetId1="96625" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1105260" mapId="11050099" TransitionSrcWeather="60" isFireAsh="1" AssetId0="-1" AssetId1="96625" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1105299" mapId="11050099" TransitionSrcWeather="99" isFireAsh="1" AssetId0="96101" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1110100" mapId="11100099" TransitionSrcWeather="0" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1110101" mapId="11100099" TransitionSrcWeather="1" isFireAsh="0" AssetId0="96622" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1110110" mapId="11100099" TransitionSrcWeather="10" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1110111" mapId="11100099" TransitionSrcWeather="11" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1110120" mapId="11100099" TransitionSrcWeather="20" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1110121" mapId="11100099" TransitionSrcWeather="21" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1110130" mapId="11100099" TransitionSrcWeather="30" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1110131" mapId="11100099" TransitionSrcWeather="31" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1110140" mapId="11100099" TransitionSrcWeather="40" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1110141" mapId="11100099" TransitionSrcWeather="41" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1110150" mapId="11100099" TransitionSrcWeather="50" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1110151" mapId="11100099" TransitionSrcWeather="51" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1110152" mapId="11100099" TransitionSrcWeather="52" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1110160" mapId="11100099" TransitionSrcWeather="60" isFireAsh="0" AssetId0="96621" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1110199" mapId="11100099" TransitionSrcWeather="99" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1110200" mapId="11100099" TransitionSrcWeather="0" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1110201" mapId="11100099" TransitionSrcWeather="1" isFireAsh="1" AssetId0="96622" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1110210" mapId="11100099" TransitionSrcWeather="10" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1110211" mapId="11100099" TransitionSrcWeather="11" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1110220" mapId="11100099" TransitionSrcWeather="20" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1110221" mapId="11100099" TransitionSrcWeather="21" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1110230" mapId="11100099" TransitionSrcWeather="30" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1110231" mapId="11100099" TransitionSrcWeather="31" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1110240" mapId="11100099" TransitionSrcWeather="40" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1110241" mapId="11100099" TransitionSrcWeather="41" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1110250" mapId="11100099" TransitionSrcWeather="50" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1110251" mapId="11100099" TransitionSrcWeather="51" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1110252" mapId="11100099" TransitionSrcWeather="52" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1110260" mapId="11100099" TransitionSrcWeather="60" isFireAsh="1" AssetId0="96621" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1110299" mapId="11100099" TransitionSrcWeather="99" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1171100" mapId="11710099" TransitionSrcWeather="0" isFireAsh="0" AssetId0="-1" AssetId1="96954" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1171101" mapId="11710099" TransitionSrcWeather="1" isFireAsh="0" AssetId0="-1" AssetId1="96954" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1171110" mapId="11710099" TransitionSrcWeather="10" isFireAsh="0" AssetId0="-1" AssetId1="96954" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1171111" mapId="11710099" TransitionSrcWeather="11" isFireAsh="0" AssetId0="-1" AssetId1="96955" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1171120" mapId="11710099" TransitionSrcWeather="20" isFireAsh="0" AssetId0="-1" AssetId1="96954" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1171121" mapId="11710099" TransitionSrcWeather="21" isFireAsh="0" AssetId0="-1" AssetId1="96954" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1171130" mapId="11710099" TransitionSrcWeather="30" isFireAsh="0" AssetId0="-1" AssetId1="96954" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1171131" mapId="11710099" TransitionSrcWeather="31" isFireAsh="0" AssetId0="-1" AssetId1="96954" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1171140" mapId="11710099" TransitionSrcWeather="40" isFireAsh="0" AssetId0="-1" AssetId1="96954" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1171141" mapId="11710099" TransitionSrcWeather="41" isFireAsh="0" AssetId0="-1" AssetId1="96954" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1171150" mapId="11710099" TransitionSrcWeather="50" isFireAsh="0" AssetId0="-1" AssetId1="96954" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1171151" mapId="11710099" TransitionSrcWeather="51" isFireAsh="0" AssetId0="-1" AssetId1="96954" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1171152" mapId="11710099" TransitionSrcWeather="52" isFireAsh="0" AssetId0="-1" AssetId1="96954" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1171160" mapId="11710099" TransitionSrcWeather="60" isFireAsh="0" AssetId0="96101" AssetId1="96954" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1171199" mapId="11710099" TransitionSrcWeather="99" isFireAsh="0" AssetId0="-1" AssetId1="96954" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1171200" mapId="11710099" TransitionSrcWeather="0" isFireAsh="1" AssetId0="-1" AssetId1="96954" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1171201" mapId="11710099" TransitionSrcWeather="1" isFireAsh="1" AssetId0="-1" AssetId1="96954" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1171210" mapId="11710099" TransitionSrcWeather="10" isFireAsh="1" AssetId0="-1" AssetId1="96954" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1171211" mapId="11710099" TransitionSrcWeather="11" isFireAsh="1" AssetId0="-1" AssetId1="96955" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1171220" mapId="11710099" TransitionSrcWeather="20" isFireAsh="1" AssetId0="-1" AssetId1="96954" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1171221" mapId="11710099" TransitionSrcWeather="21" isFireAsh="1" AssetId0="-1" AssetId1="96954" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1171230" mapId="11710099" TransitionSrcWeather="30" isFireAsh="1" AssetId0="-1" AssetId1="96954" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1171231" mapId="11710099" TransitionSrcWeather="31" isFireAsh="1" AssetId0="-1" AssetId1="96954" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1171240" mapId="11710099" TransitionSrcWeather="40" isFireAsh="1" AssetId0="-1" AssetId1="96954" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1171241" mapId="11710099" TransitionSrcWeather="41" isFireAsh="1" AssetId0="-1" AssetId1="96954" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1171250" mapId="11710099" TransitionSrcWeather="50" isFireAsh="1" AssetId0="-1" AssetId1="96954" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1171251" mapId="11710099" TransitionSrcWeather="51" isFireAsh="1" AssetId0="-1" AssetId1="96954" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1171252" mapId="11710099" TransitionSrcWeather="52" isFireAsh="1" AssetId0="-1" AssetId1="96954" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1171260" mapId="11710099" TransitionSrcWeather="60" isFireAsh="1" AssetId0="96101" AssetId1="96954" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1171299" mapId="11710099" TransitionSrcWeather="99" isFireAsh="1" AssetId0="-1" AssetId1="96954" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1203100" mapId="12030099" TransitionSrcWeather="0" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1203101" mapId="12030099" TransitionSrcWeather="1" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1203110" mapId="12030099" TransitionSrcWeather="10" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1203111" mapId="12030099" TransitionSrcWeather="11" isFireAsh="0" AssetId0="96645" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1203120" mapId="12030099" TransitionSrcWeather="20" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1203121" mapId="12030099" TransitionSrcWeather="21" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1203130" mapId="12030099" TransitionSrcWeather="30" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1203131" mapId="12030099" TransitionSrcWeather="31" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1203140" mapId="12030099" TransitionSrcWeather="40" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1203141" mapId="12030099" TransitionSrcWeather="41" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1203150" mapId="12030099" TransitionSrcWeather="50" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1203151" mapId="12030099" TransitionSrcWeather="51" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1203152" mapId="12030099" TransitionSrcWeather="52" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1203160" mapId="12030099" TransitionSrcWeather="60" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1203199" mapId="12030099" TransitionSrcWeather="99" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1203200" mapId="12030099" TransitionSrcWeather="0" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1203201" mapId="12030099" TransitionSrcWeather="1" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1203210" mapId="12030099" TransitionSrcWeather="10" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1203211" mapId="12030099" TransitionSrcWeather="11" isFireAsh="1" AssetId0="96645" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1203220" mapId="12030099" TransitionSrcWeather="20" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1203221" mapId="12030099" TransitionSrcWeather="21" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1203230" mapId="12030099" TransitionSrcWeather="30" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1203231" mapId="12030099" TransitionSrcWeather="31" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1203240" mapId="12030099" TransitionSrcWeather="40" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1203241" mapId="12030099" TransitionSrcWeather="41" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1203250" mapId="12030099" TransitionSrcWeather="50" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1203251" mapId="12030099" TransitionSrcWeather="51" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1203252" mapId="12030099" TransitionSrcWeather="52" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1203260" mapId="12030099" TransitionSrcWeather="60" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1203299" mapId="12030099" TransitionSrcWeather="99" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1300100" mapId="13000099" TransitionSrcWeather="0" isFireAsh="0" AssetId0="-1" AssetId1="96660" AssetId2="96661" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1300101" mapId="13000099" TransitionSrcWeather="1" isFireAsh="0" AssetId0="-1" AssetId1="96660" AssetId2="96661" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1300110" mapId="13000099" TransitionSrcWeather="10" isFireAsh="0" AssetId0="-1" AssetId1="96662" AssetId2="96663" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1300111" mapId="13000099" TransitionSrcWeather="11" isFireAsh="0" AssetId0="-1" AssetId1="96660" AssetId2="96661" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1300120" mapId="13000099" TransitionSrcWeather="20" isFireAsh="0" AssetId0="-1" AssetId1="96660" AssetId2="96661" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1300121" mapId="13000099" TransitionSrcWeather="21" isFireAsh="0" AssetId0="-1" AssetId1="96660" AssetId2="96661" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1300130" mapId="13000099" TransitionSrcWeather="30" isFireAsh="0" AssetId0="-1" AssetId1="96662" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1300131" mapId="13000099" TransitionSrcWeather="31" isFireAsh="0" AssetId0="-1" AssetId1="96660" AssetId2="96661" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1300140" mapId="13000099" TransitionSrcWeather="40" isFireAsh="0" AssetId0="-1" AssetId1="96660" AssetId2="96661" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1300141" mapId="13000099" TransitionSrcWeather="41" isFireAsh="0" AssetId0="-1" AssetId1="96660" AssetId2="96661" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1300150" mapId="13000099" TransitionSrcWeather="50" isFireAsh="0" AssetId0="-1" AssetId1="96660" AssetId2="96661" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1300151" mapId="13000099" TransitionSrcWeather="51" isFireAsh="0" AssetId0="-1" AssetId1="96660" AssetId2="96661" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1300152" mapId="13000099" TransitionSrcWeather="52" isFireAsh="0" AssetId0="-1" AssetId1="96660" AssetId2="96661" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1300160" mapId="13000099" TransitionSrcWeather="60" isFireAsh="0" AssetId0="-1" AssetId1="96662" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1300199" mapId="13000099" TransitionSrcWeather="99" isFireAsh="0" AssetId0="96101" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1300200" mapId="13000099" TransitionSrcWeather="0" isFireAsh="1" AssetId0="-1" AssetId1="96660" AssetId2="96661" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1300201" mapId="13000099" TransitionSrcWeather="1" isFireAsh="1" AssetId0="-1" AssetId1="96660" AssetId2="96661" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1300210" mapId="13000099" TransitionSrcWeather="10" isFireAsh="1" AssetId0="-1" AssetId1="96662" AssetId2="96663" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1300211" mapId="13000099" TransitionSrcWeather="11" isFireAsh="1" AssetId0="-1" AssetId1="96660" AssetId2="96661" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1300220" mapId="13000099" TransitionSrcWeather="20" isFireAsh="1" AssetId0="-1" AssetId1="96660" AssetId2="96661" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1300221" mapId="13000099" TransitionSrcWeather="21" isFireAsh="1" AssetId0="-1" AssetId1="96660" AssetId2="96661" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1300230" mapId="13000099" TransitionSrcWeather="30" isFireAsh="1" AssetId0="-1" AssetId1="96662" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1300231" mapId="13000099" TransitionSrcWeather="31" isFireAsh="1" AssetId0="-1" AssetId1="96660" AssetId2="96661" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1300240" mapId="13000099" TransitionSrcWeather="40" isFireAsh="1" AssetId0="-1" AssetId1="96660" AssetId2="96661" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1300241" mapId="13000099" TransitionSrcWeather="41" isFireAsh="1" AssetId0="-1" AssetId1="96660" AssetId2="96661" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1300250" mapId="13000099" TransitionSrcWeather="50" isFireAsh="1" AssetId0="-1" AssetId1="96660" AssetId2="96661" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1300251" mapId="13000099" TransitionSrcWeather="51" isFireAsh="1" AssetId0="-1" AssetId1="96660" AssetId2="96661" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1300252" mapId="13000099" TransitionSrcWeather="52" isFireAsh="1" AssetId0="-1" AssetId1="96660" AssetId2="96661" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1300260" mapId="13000099" TransitionSrcWeather="60" isFireAsh="1" AssetId0="-1" AssetId1="96662" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1300299" mapId="13000099" TransitionSrcWeather="99" isFireAsh="1" AssetId0="96101" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1400100" mapId="14000099" TransitionSrcWeather="0" isFireAsh="0" AssetId0="-1" AssetId1="96680" AssetId2="96685" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1400101" mapId="14000099" TransitionSrcWeather="1" isFireAsh="0" AssetId0="96013" AssetId1="-1" AssetId2="96685" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1400110" mapId="14000099" TransitionSrcWeather="10" isFireAsh="0" AssetId0="-1" AssetId1="96680" AssetId2="96685" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1400111" mapId="14000099" TransitionSrcWeather="11" isFireAsh="0" AssetId0="-1" AssetId1="96680" AssetId2="96685" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1400120" mapId="14000099" TransitionSrcWeather="20" isFireAsh="0" AssetId0="-1" AssetId1="96680" AssetId2="96685" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1400121" mapId="14000099" TransitionSrcWeather="21" isFireAsh="0" AssetId0="-1" AssetId1="96680" AssetId2="96685" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1400130" mapId="14000099" TransitionSrcWeather="30" isFireAsh="0" AssetId0="-1" AssetId1="96680" AssetId2="96685" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1400131" mapId="14000099" TransitionSrcWeather="31" isFireAsh="0" AssetId0="-1" AssetId1="96680" AssetId2="96685" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1400140" mapId="14000099" TransitionSrcWeather="40" isFireAsh="0" AssetId0="-1" AssetId1="96680" AssetId2="96685" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1400141" mapId="14000099" TransitionSrcWeather="41" isFireAsh="0" AssetId0="-1" AssetId1="96680" AssetId2="96685" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1400150" mapId="14000099" TransitionSrcWeather="50" isFireAsh="0" AssetId0="-1" AssetId1="96680" AssetId2="96685" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1400151" mapId="14000099" TransitionSrcWeather="51" isFireAsh="0" AssetId0="-1" AssetId1="96680" AssetId2="96685" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1400152" mapId="14000099" TransitionSrcWeather="52" isFireAsh="0" AssetId0="-1" AssetId1="96680" AssetId2="96685" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1400160" mapId="14000099" TransitionSrcWeather="60" isFireAsh="0" AssetId0="-1" AssetId1="96680" AssetId2="96685" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1400199" mapId="14000099" TransitionSrcWeather="99" isFireAsh="0" AssetId0="96101" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1400200" mapId="14000099" TransitionSrcWeather="0" isFireAsh="1" AssetId0="-1" AssetId1="96680" AssetId2="96685" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1400201" mapId="14000099" TransitionSrcWeather="1" isFireAsh="1" AssetId0="96013" AssetId1="-1" AssetId2="96685" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1400210" mapId="14000099" TransitionSrcWeather="10" isFireAsh="1" AssetId0="-1" AssetId1="96680" AssetId2="96685" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1400211" mapId="14000099" TransitionSrcWeather="11" isFireAsh="1" AssetId0="-1" AssetId1="96680" AssetId2="96685" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1400220" mapId="14000099" TransitionSrcWeather="20" isFireAsh="1" AssetId0="-1" AssetId1="96680" AssetId2="96685" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1400221" mapId="14000099" TransitionSrcWeather="21" isFireAsh="1" AssetId0="-1" AssetId1="96680" AssetId2="96685" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1400230" mapId="14000099" TransitionSrcWeather="30" isFireAsh="1" AssetId0="-1" AssetId1="96680" AssetId2="96685" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1400231" mapId="14000099" TransitionSrcWeather="31" isFireAsh="1" AssetId0="-1" AssetId1="96680" AssetId2="96685" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1400240" mapId="14000099" TransitionSrcWeather="40" isFireAsh="1" AssetId0="-1" AssetId1="96680" AssetId2="96685" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1400241" mapId="14000099" TransitionSrcWeather="41" isFireAsh="1" AssetId0="-1" AssetId1="96680" AssetId2="96685" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1400250" mapId="14000099" TransitionSrcWeather="50" isFireAsh="1" AssetId0="-1" AssetId1="96680" AssetId2="96685" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1400251" mapId="14000099" TransitionSrcWeather="51" isFireAsh="1" AssetId0="-1" AssetId1="96680" AssetId2="96685" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1400252" mapId="14000099" TransitionSrcWeather="52" isFireAsh="1" AssetId0="-1" AssetId1="96680" AssetId2="96685" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1400260" mapId="14000099" TransitionSrcWeather="60" isFireAsh="1" AssetId0="-1" AssetId1="96680" AssetId2="96685" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1400299" mapId="14000099" TransitionSrcWeather="99" isFireAsh="1" AssetId0="96101" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1500100" mapId="15000099" TransitionSrcWeather="0" isFireAsh="0" AssetId0="-1" AssetId1="96700" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1500101" mapId="15000099" TransitionSrcWeather="1" isFireAsh="0" AssetId0="-1" AssetId1="96700" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1500110" mapId="15000099" TransitionSrcWeather="10" isFireAsh="0" AssetId0="-1" AssetId1="96700" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1500111" mapId="15000099" TransitionSrcWeather="11" isFireAsh="0" AssetId0="-1" AssetId1="96700" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1500120" mapId="15000099" TransitionSrcWeather="20" isFireAsh="0" AssetId0="-1" AssetId1="96702" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1500121" mapId="15000099" TransitionSrcWeather="21" isFireAsh="0" AssetId0="-1" AssetId1="96702" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1500130" mapId="15000099" TransitionSrcWeather="30" isFireAsh="0" AssetId0="-1" AssetId1="96702" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1500131" mapId="15000099" TransitionSrcWeather="31" isFireAsh="0" AssetId0="-1" AssetId1="96702" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1500140" mapId="15000099" TransitionSrcWeather="40" isFireAsh="0" AssetId0="-1" AssetId1="96702" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1500141" mapId="15000099" TransitionSrcWeather="41" isFireAsh="0" AssetId0="-1" AssetId1="96702" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1500150" mapId="15000099" TransitionSrcWeather="50" isFireAsh="0" AssetId0="-1" AssetId1="96702" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1500151" mapId="15000099" TransitionSrcWeather="51" isFireAsh="0" AssetId0="-1" AssetId1="96702" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1500152" mapId="15000099" TransitionSrcWeather="52" isFireAsh="0" AssetId0="-1" AssetId1="96702" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1500160" mapId="15000099" TransitionSrcWeather="60" isFireAsh="0" AssetId0="-1" AssetId1="96702" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1500199" mapId="15000099" TransitionSrcWeather="99" isFireAsh="0" AssetId0="96101" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1500200" mapId="15000099" TransitionSrcWeather="0" isFireAsh="1" AssetId0="-1" AssetId1="96700" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1500201" mapId="15000099" TransitionSrcWeather="1" isFireAsh="1" AssetId0="-1" AssetId1="96700" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1500210" mapId="15000099" TransitionSrcWeather="10" isFireAsh="1" AssetId0="-1" AssetId1="96700" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1500211" mapId="15000099" TransitionSrcWeather="11" isFireAsh="1" AssetId0="-1" AssetId1="96700" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1500220" mapId="15000099" TransitionSrcWeather="20" isFireAsh="1" AssetId0="-1" AssetId1="96702" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1500221" mapId="15000099" TransitionSrcWeather="21" isFireAsh="1" AssetId0="-1" AssetId1="96702" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1500230" mapId="15000099" TransitionSrcWeather="30" isFireAsh="1" AssetId0="-1" AssetId1="96702" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1500231" mapId="15000099" TransitionSrcWeather="31" isFireAsh="1" AssetId0="-1" AssetId1="96702" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1500240" mapId="15000099" TransitionSrcWeather="40" isFireAsh="1" AssetId0="-1" AssetId1="96702" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1500241" mapId="15000099" TransitionSrcWeather="41" isFireAsh="1" AssetId0="-1" AssetId1="96702" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1500250" mapId="15000099" TransitionSrcWeather="50" isFireAsh="1" AssetId0="-1" AssetId1="96702" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1500251" mapId="15000099" TransitionSrcWeather="51" isFireAsh="1" AssetId0="-1" AssetId1="96702" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1500252" mapId="15000099" TransitionSrcWeather="52" isFireAsh="1" AssetId0="-1" AssetId1="96702" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1500260" mapId="15000099" TransitionSrcWeather="60" isFireAsh="1" AssetId0="-1" AssetId1="96702" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1500299" mapId="15000099" TransitionSrcWeather="99" isFireAsh="1" AssetId0="96101" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1600100" mapId="16000099" TransitionSrcWeather="0" isFireAsh="0" AssetId0="-1" AssetId1="96720" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1600101" mapId="16000099" TransitionSrcWeather="1" isFireAsh="0" AssetId0="-1" AssetId1="96720" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1600110" mapId="16000099" TransitionSrcWeather="10" isFireAsh="0" AssetId0="-1" AssetId1="96720" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1600111" mapId="16000099" TransitionSrcWeather="11" isFireAsh="0" AssetId0="-1" AssetId1="96720" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1600120" mapId="16000099" TransitionSrcWeather="20" isFireAsh="0" AssetId0="-1" AssetId1="96720" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1600121" mapId="16000099" TransitionSrcWeather="21" isFireAsh="0" AssetId0="-1" AssetId1="96720" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1600130" mapId="16000099" TransitionSrcWeather="30" isFireAsh="0" AssetId0="-1" AssetId1="96720" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1600131" mapId="16000099" TransitionSrcWeather="31" isFireAsh="0" AssetId0="-1" AssetId1="96720" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1600140" mapId="16000099" TransitionSrcWeather="40" isFireAsh="0" AssetId0="-1" AssetId1="96720" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1600141" mapId="16000099" TransitionSrcWeather="41" isFireAsh="0" AssetId0="-1" AssetId1="96720" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1600150" mapId="16000099" TransitionSrcWeather="50" isFireAsh="0" AssetId0="-1" AssetId1="96720" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1600151" mapId="16000099" TransitionSrcWeather="51" isFireAsh="0" AssetId0="-1" AssetId1="96720" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1600152" mapId="16000099" TransitionSrcWeather="52" isFireAsh="0" AssetId0="-1" AssetId1="96720" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1600160" mapId="16000099" TransitionSrcWeather="60" isFireAsh="0" AssetId0="-1" AssetId1="96720" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1600199" mapId="16000099" TransitionSrcWeather="99" isFireAsh="0" AssetId0="96101" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1600200" mapId="16000099" TransitionSrcWeather="0" isFireAsh="1" AssetId0="-1" AssetId1="96720" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1600201" mapId="16000099" TransitionSrcWeather="1" isFireAsh="1" AssetId0="-1" AssetId1="96720" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1600210" mapId="16000099" TransitionSrcWeather="10" isFireAsh="1" AssetId0="-1" AssetId1="96720" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1600211" mapId="16000099" TransitionSrcWeather="11" isFireAsh="1" AssetId0="-1" AssetId1="96720" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1600220" mapId="16000099" TransitionSrcWeather="20" isFireAsh="1" AssetId0="-1" AssetId1="96720" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1600221" mapId="16000099" TransitionSrcWeather="21" isFireAsh="1" AssetId0="-1" AssetId1="96720" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1600230" mapId="16000099" TransitionSrcWeather="30" isFireAsh="1" AssetId0="-1" AssetId1="96720" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1600231" mapId="16000099" TransitionSrcWeather="31" isFireAsh="1" AssetId0="-1" AssetId1="96720" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1600240" mapId="16000099" TransitionSrcWeather="40" isFireAsh="1" AssetId0="-1" AssetId1="96720" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1600241" mapId="16000099" TransitionSrcWeather="41" isFireAsh="1" AssetId0="-1" AssetId1="96720" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1600250" mapId="16000099" TransitionSrcWeather="50" isFireAsh="1" AssetId0="-1" AssetId1="96720" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1600251" mapId="16000099" TransitionSrcWeather="51" isFireAsh="1" AssetId0="-1" AssetId1="96720" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1600252" mapId="16000099" TransitionSrcWeather="52" isFireAsh="1" AssetId0="-1" AssetId1="96720" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1600260" mapId="16000099" TransitionSrcWeather="60" isFireAsh="1" AssetId0="-1" AssetId1="96720" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="1600299" mapId="16000099" TransitionSrcWeather="99" isFireAsh="1" AssetId0="96101" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2000100" mapId="20000099" TransitionSrcWeather="0" isFireAsh="2" AssetId0="462004" AssetId1="-1" AssetId2="462033" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2000101" mapId="20000099" TransitionSrcWeather="1" isFireAsh="2" AssetId0="462004" AssetId1="-1" AssetId2="462033" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2000110" mapId="20000099" TransitionSrcWeather="10" isFireAsh="2" AssetId0="462004" AssetId1="-1" AssetId2="462033" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2000111" mapId="20000099" TransitionSrcWeather="11" isFireAsh="2" AssetId0="462024" AssetId1="-1" AssetId2="462033" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2000120" mapId="20000099" TransitionSrcWeather="20" isFireAsh="2" AssetId0="462004" AssetId1="-1" AssetId2="462033" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2000121" mapId="20000099" TransitionSrcWeather="21" isFireAsh="2" AssetId0="462004" AssetId1="-1" AssetId2="462033" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2000130" mapId="20000099" TransitionSrcWeather="30" isFireAsh="2" AssetId0="462004" AssetId1="-1" AssetId2="462033" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2000131" mapId="20000099" TransitionSrcWeather="31" isFireAsh="2" AssetId0="462004" AssetId1="-1" AssetId2="462033" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2000140" mapId="20000099" TransitionSrcWeather="40" isFireAsh="2" AssetId0="462004" AssetId1="-1" AssetId2="462033" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2000141" mapId="20000099" TransitionSrcWeather="41" isFireAsh="2" AssetId0="462004" AssetId1="-1" AssetId2="462033" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2000150" mapId="20000099" TransitionSrcWeather="50" isFireAsh="2" AssetId0="462004" AssetId1="-1" AssetId2="462033" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2000151" mapId="20000099" TransitionSrcWeather="51" isFireAsh="2" AssetId0="462004" AssetId1="-1" AssetId2="462033" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2000152" mapId="20000099" TransitionSrcWeather="52" isFireAsh="2" AssetId0="462004" AssetId1="-1" AssetId2="462033" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2000160" mapId="20000099" TransitionSrcWeather="60" isFireAsh="2" AssetId0="462004" AssetId1="-1" AssetId2="462033" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2000182" mapId="20000099" TransitionSrcWeather="82" isFireAsh="2" AssetId0="462004" AssetId1="-1" AssetId2="462033" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2000199" mapId="20000099" TransitionSrcWeather="99" isFireAsh="2" AssetId0="462000" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2001100" mapId="20010099" TransitionSrcWeather="0" isFireAsh="2" AssetId0="462041" AssetId1="462039" AssetId2="462040" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2001101" mapId="20010099" TransitionSrcWeather="1" isFireAsh="2" AssetId0="462041" AssetId1="462039" AssetId2="462040" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2001110" mapId="20010099" TransitionSrcWeather="10" isFireAsh="2" AssetId0="462041" AssetId1="462050" AssetId2="462040" AssetId3="462047" CreateAssetLimitId0="-1" />
+<row id="2001111" mapId="20010099" TransitionSrcWeather="11" isFireAsh="2" AssetId0="462041" AssetId1="462039" AssetId2="462040" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2001120" mapId="20010099" TransitionSrcWeather="20" isFireAsh="2" AssetId0="462041" AssetId1="462039" AssetId2="462040" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2001121" mapId="20010099" TransitionSrcWeather="21" isFireAsh="2" AssetId0="462041" AssetId1="462039" AssetId2="462040" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2001130" mapId="20010099" TransitionSrcWeather="30" isFireAsh="2" AssetId0="462041" AssetId1="462039" AssetId2="462040" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2001131" mapId="20010099" TransitionSrcWeather="31" isFireAsh="2" AssetId0="462041" AssetId1="462039" AssetId2="462040" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2001140" mapId="20010099" TransitionSrcWeather="40" isFireAsh="2" AssetId0="462041" AssetId1="462039" AssetId2="462040" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2001141" mapId="20010099" TransitionSrcWeather="41" isFireAsh="2" AssetId0="462041" AssetId1="462039" AssetId2="462040" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2001150" mapId="20010099" TransitionSrcWeather="50" isFireAsh="2" AssetId0="462041" AssetId1="462039" AssetId2="462040" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2001151" mapId="20010099" TransitionSrcWeather="51" isFireAsh="2" AssetId0="462041" AssetId1="462039" AssetId2="462040" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2001152" mapId="20010099" TransitionSrcWeather="52" isFireAsh="2" AssetId0="462041" AssetId1="462039" AssetId2="462040" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2001160" mapId="20010099" TransitionSrcWeather="60" isFireAsh="2" AssetId0="462041" AssetId1="462039" AssetId2="462040" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2001199" mapId="20010099" TransitionSrcWeather="99" isFireAsh="2" AssetId0="462051" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2100100" mapId="21000099" TransitionSrcWeather="0" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2100101" mapId="21000099" TransitionSrcWeather="1" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2100110" mapId="21000099" TransitionSrcWeather="10" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2100111" mapId="21000099" TransitionSrcWeather="11" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2100120" mapId="21000099" TransitionSrcWeather="20" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2100121" mapId="21000099" TransitionSrcWeather="21" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2100130" mapId="21000099" TransitionSrcWeather="30" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2100131" mapId="21000099" TransitionSrcWeather="31" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2100140" mapId="21000099" TransitionSrcWeather="40" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2100141" mapId="21000099" TransitionSrcWeather="41" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2100150" mapId="21000099" TransitionSrcWeather="50" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2100151" mapId="21000099" TransitionSrcWeather="51" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2100152" mapId="21000099" TransitionSrcWeather="52" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2100160" mapId="21000099" TransitionSrcWeather="60" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2100185" mapId="21000099" TransitionSrcWeather="85" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2100199" mapId="21000099" TransitionSrcWeather="99" isFireAsh="2" AssetId0="462000" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2101100" mapId="21010099" TransitionSrcWeather="0" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2101101" mapId="21010099" TransitionSrcWeather="1" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2101110" mapId="21010099" TransitionSrcWeather="10" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2101111" mapId="21010099" TransitionSrcWeather="11" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2101120" mapId="21010099" TransitionSrcWeather="20" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2101121" mapId="21010099" TransitionSrcWeather="21" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2101130" mapId="21010099" TransitionSrcWeather="30" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2101131" mapId="21010099" TransitionSrcWeather="31" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2101140" mapId="21010099" TransitionSrcWeather="40" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2101141" mapId="21010099" TransitionSrcWeather="41" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2101150" mapId="21010099" TransitionSrcWeather="50" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2101151" mapId="21010099" TransitionSrcWeather="51" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2101152" mapId="21010099" TransitionSrcWeather="52" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2101160" mapId="21010099" TransitionSrcWeather="60" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2101185" mapId="21010099" TransitionSrcWeather="85" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2101199" mapId="21010099" TransitionSrcWeather="99" isFireAsh="2" AssetId0="462000" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2102100" mapId="21020099" TransitionSrcWeather="0" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2102101" mapId="21020099" TransitionSrcWeather="1" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2102110" mapId="21020099" TransitionSrcWeather="10" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2102111" mapId="21020099" TransitionSrcWeather="11" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2102120" mapId="21020099" TransitionSrcWeather="20" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2102121" mapId="21020099" TransitionSrcWeather="21" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2102130" mapId="21020099" TransitionSrcWeather="30" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2102131" mapId="21020099" TransitionSrcWeather="31" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2102140" mapId="21020099" TransitionSrcWeather="40" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2102141" mapId="21020099" TransitionSrcWeather="41" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2102150" mapId="21020099" TransitionSrcWeather="50" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2102151" mapId="21020099" TransitionSrcWeather="51" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2102152" mapId="21020099" TransitionSrcWeather="52" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2102160" mapId="21020099" TransitionSrcWeather="60" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2102185" mapId="21020099" TransitionSrcWeather="85" isFireAsh="2" AssetId0="462006" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2102199" mapId="21020099" TransitionSrcWeather="99" isFireAsh="2" AssetId0="462000" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2800100" mapId="28000099" TransitionSrcWeather="0" isFireAsh="2" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2800101" mapId="28000099" TransitionSrcWeather="1" isFireAsh="2" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2800110" mapId="28000099" TransitionSrcWeather="10" isFireAsh="2" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2800111" mapId="28000099" TransitionSrcWeather="11" isFireAsh="2" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2800120" mapId="28000099" TransitionSrcWeather="20" isFireAsh="2" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2800121" mapId="28000099" TransitionSrcWeather="21" isFireAsh="2" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2800130" mapId="28000099" TransitionSrcWeather="30" isFireAsh="2" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2800131" mapId="28000099" TransitionSrcWeather="31" isFireAsh="2" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2800140" mapId="28000099" TransitionSrcWeather="40" isFireAsh="2" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2800141" mapId="28000099" TransitionSrcWeather="41" isFireAsh="2" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2800150" mapId="28000099" TransitionSrcWeather="50" isFireAsh="2" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2800151" mapId="28000099" TransitionSrcWeather="51" isFireAsh="2" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2800152" mapId="28000099" TransitionSrcWeather="52" isFireAsh="2" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2800160" mapId="28000099" TransitionSrcWeather="60" isFireAsh="2" AssetId0="462025" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="2800199" mapId="28000099" TransitionSrcWeather="99" isFireAsh="2" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3410100" mapId="34100099" TransitionSrcWeather="0" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3410101" mapId="34100099" TransitionSrcWeather="1" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3410110" mapId="34100099" TransitionSrcWeather="10" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3410111" mapId="34100099" TransitionSrcWeather="11" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3410120" mapId="34100099" TransitionSrcWeather="20" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3410121" mapId="34100099" TransitionSrcWeather="21" isFireAsh="0" AssetId0="-1" AssetId1="96941" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3410130" mapId="34100099" TransitionSrcWeather="30" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3410131" mapId="34100099" TransitionSrcWeather="31" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3410140" mapId="34100099" TransitionSrcWeather="40" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3410141" mapId="34100099" TransitionSrcWeather="41" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3410150" mapId="34100099" TransitionSrcWeather="50" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3410151" mapId="34100099" TransitionSrcWeather="51" isFireAsh="0" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3410152" mapId="34100099" TransitionSrcWeather="52" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3410160" mapId="34100099" TransitionSrcWeather="60" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3410199" mapId="34100099" TransitionSrcWeather="99" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3410200" mapId="34100099" TransitionSrcWeather="0" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3410201" mapId="34100099" TransitionSrcWeather="1" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3410210" mapId="34100099" TransitionSrcWeather="10" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3410211" mapId="34100099" TransitionSrcWeather="11" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3410220" mapId="34100099" TransitionSrcWeather="20" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3410221" mapId="34100099" TransitionSrcWeather="21" isFireAsh="1" AssetId0="-1" AssetId1="96941" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3410230" mapId="34100099" TransitionSrcWeather="30" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3410231" mapId="34100099" TransitionSrcWeather="31" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3410240" mapId="34100099" TransitionSrcWeather="40" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3410241" mapId="34100099" TransitionSrcWeather="41" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3410250" mapId="34100099" TransitionSrcWeather="50" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3410251" mapId="34100099" TransitionSrcWeather="51" isFireAsh="1" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3410252" mapId="34100099" TransitionSrcWeather="52" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3410260" mapId="34100099" TransitionSrcWeather="60" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3410299" mapId="34100099" TransitionSrcWeather="99" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3411100" mapId="34110099" TransitionSrcWeather="0" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3411101" mapId="34110099" TransitionSrcWeather="1" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3411110" mapId="34110099" TransitionSrcWeather="10" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3411111" mapId="34110099" TransitionSrcWeather="11" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3411120" mapId="34110099" TransitionSrcWeather="20" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3411121" mapId="34110099" TransitionSrcWeather="21" isFireAsh="0" AssetId0="-1" AssetId1="96941" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3411130" mapId="34110099" TransitionSrcWeather="30" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3411131" mapId="34110099" TransitionSrcWeather="31" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3411140" mapId="34110099" TransitionSrcWeather="40" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3411141" mapId="34110099" TransitionSrcWeather="41" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3411150" mapId="34110099" TransitionSrcWeather="50" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3411151" mapId="34110099" TransitionSrcWeather="51" isFireAsh="0" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3411152" mapId="34110099" TransitionSrcWeather="52" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3411160" mapId="34110099" TransitionSrcWeather="60" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3411199" mapId="34110099" TransitionSrcWeather="99" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3411200" mapId="34110099" TransitionSrcWeather="0" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3411201" mapId="34110099" TransitionSrcWeather="1" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3411210" mapId="34110099" TransitionSrcWeather="10" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3411211" mapId="34110099" TransitionSrcWeather="11" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3411220" mapId="34110099" TransitionSrcWeather="20" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3411221" mapId="34110099" TransitionSrcWeather="21" isFireAsh="1" AssetId0="-1" AssetId1="96941" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3411230" mapId="34110099" TransitionSrcWeather="30" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3411231" mapId="34110099" TransitionSrcWeather="31" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3411240" mapId="34110099" TransitionSrcWeather="40" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3411241" mapId="34110099" TransitionSrcWeather="41" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3411250" mapId="34110099" TransitionSrcWeather="50" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3411251" mapId="34110099" TransitionSrcWeather="51" isFireAsh="1" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3411252" mapId="34110099" TransitionSrcWeather="52" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3411260" mapId="34110099" TransitionSrcWeather="60" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3411299" mapId="34110099" TransitionSrcWeather="99" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3412100" mapId="34120099" TransitionSrcWeather="0" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3412101" mapId="34120099" TransitionSrcWeather="1" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3412110" mapId="34120099" TransitionSrcWeather="10" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3412111" mapId="34120099" TransitionSrcWeather="11" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3412120" mapId="34120099" TransitionSrcWeather="20" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3412121" mapId="34120099" TransitionSrcWeather="21" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3412130" mapId="34120099" TransitionSrcWeather="30" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3412131" mapId="34120099" TransitionSrcWeather="31" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3412140" mapId="34120099" TransitionSrcWeather="40" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3412141" mapId="34120099" TransitionSrcWeather="41" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3412150" mapId="34120099" TransitionSrcWeather="50" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3412151" mapId="34120099" TransitionSrcWeather="51" isFireAsh="0" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3412152" mapId="34120099" TransitionSrcWeather="52" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3412160" mapId="34120099" TransitionSrcWeather="60" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3412199" mapId="34120099" TransitionSrcWeather="99" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3412200" mapId="34120099" TransitionSrcWeather="0" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3412201" mapId="34120099" TransitionSrcWeather="1" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3412210" mapId="34120099" TransitionSrcWeather="10" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3412211" mapId="34120099" TransitionSrcWeather="11" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3412220" mapId="34120099" TransitionSrcWeather="20" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3412221" mapId="34120099" TransitionSrcWeather="21" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3412230" mapId="34120099" TransitionSrcWeather="30" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3412231" mapId="34120099" TransitionSrcWeather="31" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3412240" mapId="34120099" TransitionSrcWeather="40" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3412241" mapId="34120099" TransitionSrcWeather="41" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3412250" mapId="34120099" TransitionSrcWeather="50" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3412251" mapId="34120099" TransitionSrcWeather="51" isFireAsh="1" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3412252" mapId="34120099" TransitionSrcWeather="52" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3412260" mapId="34120099" TransitionSrcWeather="60" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3412299" mapId="34120099" TransitionSrcWeather="99" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3413100" mapId="34130099" TransitionSrcWeather="0" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3413101" mapId="34130099" TransitionSrcWeather="1" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3413110" mapId="34130099" TransitionSrcWeather="10" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3413111" mapId="34130099" TransitionSrcWeather="11" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3413120" mapId="34130099" TransitionSrcWeather="20" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3413121" mapId="34130099" TransitionSrcWeather="21" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3413130" mapId="34130099" TransitionSrcWeather="30" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3413131" mapId="34130099" TransitionSrcWeather="31" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3413140" mapId="34130099" TransitionSrcWeather="40" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3413141" mapId="34130099" TransitionSrcWeather="41" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3413150" mapId="34130099" TransitionSrcWeather="50" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3413151" mapId="34130099" TransitionSrcWeather="51" isFireAsh="0" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3413152" mapId="34130099" TransitionSrcWeather="52" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3413160" mapId="34130099" TransitionSrcWeather="60" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3413199" mapId="34130099" TransitionSrcWeather="99" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3413200" mapId="34130099" TransitionSrcWeather="0" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3413201" mapId="34130099" TransitionSrcWeather="1" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3413210" mapId="34130099" TransitionSrcWeather="10" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3413211" mapId="34130099" TransitionSrcWeather="11" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3413220" mapId="34130099" TransitionSrcWeather="20" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3413221" mapId="34130099" TransitionSrcWeather="21" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3413230" mapId="34130099" TransitionSrcWeather="30" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3413231" mapId="34130099" TransitionSrcWeather="31" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3413240" mapId="34130099" TransitionSrcWeather="40" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3413241" mapId="34130099" TransitionSrcWeather="41" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3413250" mapId="34130099" TransitionSrcWeather="50" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3413251" mapId="34130099" TransitionSrcWeather="51" isFireAsh="1" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3413252" mapId="34130099" TransitionSrcWeather="52" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3413260" mapId="34130099" TransitionSrcWeather="60" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3413299" mapId="34130099" TransitionSrcWeather="99" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3414100" mapId="34140099" TransitionSrcWeather="0" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3414101" mapId="34140099" TransitionSrcWeather="1" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3414110" mapId="34140099" TransitionSrcWeather="10" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3414111" mapId="34140099" TransitionSrcWeather="11" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3414120" mapId="34140099" TransitionSrcWeather="20" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3414121" mapId="34140099" TransitionSrcWeather="21" isFireAsh="0" AssetId0="-1" AssetId1="96941" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3414130" mapId="34140099" TransitionSrcWeather="30" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3414131" mapId="34140099" TransitionSrcWeather="31" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3414140" mapId="34140099" TransitionSrcWeather="40" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3414141" mapId="34140099" TransitionSrcWeather="41" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3414150" mapId="34140099" TransitionSrcWeather="50" isFireAsh="0" AssetId0="-1" AssetId1="96941" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3414151" mapId="34140099" TransitionSrcWeather="51" isFireAsh="0" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3414152" mapId="34140099" TransitionSrcWeather="52" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3414160" mapId="34140099" TransitionSrcWeather="60" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3414199" mapId="34140099" TransitionSrcWeather="99" isFireAsh="0" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3414200" mapId="34140099" TransitionSrcWeather="0" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3414201" mapId="34140099" TransitionSrcWeather="1" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3414210" mapId="34140099" TransitionSrcWeather="10" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3414211" mapId="34140099" TransitionSrcWeather="11" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3414220" mapId="34140099" TransitionSrcWeather="20" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3414221" mapId="34140099" TransitionSrcWeather="21" isFireAsh="1" AssetId0="-1" AssetId1="96941" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3414230" mapId="34140099" TransitionSrcWeather="30" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3414231" mapId="34140099" TransitionSrcWeather="31" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3414240" mapId="34140099" TransitionSrcWeather="40" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3414241" mapId="34140099" TransitionSrcWeather="41" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3414250" mapId="34140099" TransitionSrcWeather="50" isFireAsh="1" AssetId0="-1" AssetId1="96941" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3414251" mapId="34140099" TransitionSrcWeather="51" isFireAsh="1" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3414252" mapId="34140099" TransitionSrcWeather="52" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3414260" mapId="34140099" TransitionSrcWeather="60" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3414299" mapId="34140099" TransitionSrcWeather="99" isFireAsh="1" AssetId0="-1" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3415100" mapId="34150099" TransitionSrcWeather="0" isFireAsh="0" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3415101" mapId="34150099" TransitionSrcWeather="1" isFireAsh="0" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3415110" mapId="34150099" TransitionSrcWeather="10" isFireAsh="0" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3415111" mapId="34150099" TransitionSrcWeather="11" isFireAsh="0" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3415120" mapId="34150099" TransitionSrcWeather="20" isFireAsh="0" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3415121" mapId="34150099" TransitionSrcWeather="21" isFireAsh="0" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3415130" mapId="34150099" TransitionSrcWeather="30" isFireAsh="0" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3415131" mapId="34150099" TransitionSrcWeather="31" isFireAsh="0" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3415140" mapId="34150099" TransitionSrcWeather="40" isFireAsh="0" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3415141" mapId="34150099" TransitionSrcWeather="41" isFireAsh="0" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3415150" mapId="34150099" TransitionSrcWeather="50" isFireAsh="0" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3415151" mapId="34150099" TransitionSrcWeather="51" isFireAsh="0" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3415152" mapId="34150099" TransitionSrcWeather="52" isFireAsh="0" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3415160" mapId="34150099" TransitionSrcWeather="60" isFireAsh="0" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3415199" mapId="34150099" TransitionSrcWeather="99" isFireAsh="0" AssetId0="-1" AssetId1="96101" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3415200" mapId="34150099" TransitionSrcWeather="0" isFireAsh="1" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3415201" mapId="34150099" TransitionSrcWeather="1" isFireAsh="1" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3415210" mapId="34150099" TransitionSrcWeather="10" isFireAsh="1" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3415211" mapId="34150099" TransitionSrcWeather="11" isFireAsh="1" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3415220" mapId="34150099" TransitionSrcWeather="20" isFireAsh="1" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3415221" mapId="34150099" TransitionSrcWeather="21" isFireAsh="1" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3415230" mapId="34150099" TransitionSrcWeather="30" isFireAsh="1" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3415231" mapId="34150099" TransitionSrcWeather="31" isFireAsh="1" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3415240" mapId="34150099" TransitionSrcWeather="40" isFireAsh="1" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3415241" mapId="34150099" TransitionSrcWeather="41" isFireAsh="1" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3415250" mapId="34150099" TransitionSrcWeather="50" isFireAsh="1" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3415251" mapId="34150099" TransitionSrcWeather="51" isFireAsh="1" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3415252" mapId="34150099" TransitionSrcWeather="52" isFireAsh="1" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3415260" mapId="34150099" TransitionSrcWeather="60" isFireAsh="1" AssetId0="-1" AssetId1="96940" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3415299" mapId="34150099" TransitionSrcWeather="99" isFireAsh="1" AssetId0="-1" AssetId1="96101" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3920100" mapId="39200099" TransitionSrcWeather="0" isFireAsh="0" AssetId0="-1" AssetId1="96865" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3920101" mapId="39200099" TransitionSrcWeather="1" isFireAsh="0" AssetId0="96011" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3920110" mapId="39200099" TransitionSrcWeather="10" isFireAsh="0" AssetId0="-1" AssetId1="96865" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3920111" mapId="39200099" TransitionSrcWeather="11" isFireAsh="0" AssetId0="-1" AssetId1="96865" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3920120" mapId="39200099" TransitionSrcWeather="20" isFireAsh="0" AssetId0="-1" AssetId1="96865" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3920121" mapId="39200099" TransitionSrcWeather="21" isFireAsh="0" AssetId0="-1" AssetId1="96865" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3920130" mapId="39200099" TransitionSrcWeather="30" isFireAsh="0" AssetId0="-1" AssetId1="96865" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3920131" mapId="39200099" TransitionSrcWeather="31" isFireAsh="0" AssetId0="-1" AssetId1="96865" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3920140" mapId="39200099" TransitionSrcWeather="40" isFireAsh="0" AssetId0="-1" AssetId1="96865" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3920141" mapId="39200099" TransitionSrcWeather="41" isFireAsh="0" AssetId0="-1" AssetId1="96865" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3920150" mapId="39200099" TransitionSrcWeather="50" isFireAsh="0" AssetId0="-1" AssetId1="96865" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3920151" mapId="39200099" TransitionSrcWeather="51" isFireAsh="0" AssetId0="-1" AssetId1="96865" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3920152" mapId="39200099" TransitionSrcWeather="52" isFireAsh="0" AssetId0="-1" AssetId1="96865" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3920160" mapId="39200099" TransitionSrcWeather="60" isFireAsh="0" AssetId0="-1" AssetId1="96865" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3920199" mapId="39200099" TransitionSrcWeather="99" isFireAsh="0" AssetId0="96101" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3920200" mapId="39200099" TransitionSrcWeather="0" isFireAsh="1" AssetId0="-1" AssetId1="96865" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3920201" mapId="39200099" TransitionSrcWeather="1" isFireAsh="1" AssetId0="96011" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3920210" mapId="39200099" TransitionSrcWeather="10" isFireAsh="1" AssetId0="-1" AssetId1="96865" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3920211" mapId="39200099" TransitionSrcWeather="11" isFireAsh="1" AssetId0="-1" AssetId1="96865" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3920220" mapId="39200099" TransitionSrcWeather="20" isFireAsh="1" AssetId0="-1" AssetId1="96865" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3920221" mapId="39200099" TransitionSrcWeather="21" isFireAsh="1" AssetId0="-1" AssetId1="96865" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3920230" mapId="39200099" TransitionSrcWeather="30" isFireAsh="1" AssetId0="-1" AssetId1="96865" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3920231" mapId="39200099" TransitionSrcWeather="31" isFireAsh="1" AssetId0="-1" AssetId1="96865" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3920240" mapId="39200099" TransitionSrcWeather="40" isFireAsh="1" AssetId0="-1" AssetId1="96865" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3920241" mapId="39200099" TransitionSrcWeather="41" isFireAsh="1" AssetId0="-1" AssetId1="96865" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3920250" mapId="39200099" TransitionSrcWeather="50" isFireAsh="1" AssetId0="-1" AssetId1="96865" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3920251" mapId="39200099" TransitionSrcWeather="51" isFireAsh="1" AssetId0="-1" AssetId1="96865" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3920252" mapId="39200099" TransitionSrcWeather="52" isFireAsh="1" AssetId0="-1" AssetId1="96865" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3920260" mapId="39200099" TransitionSrcWeather="60" isFireAsh="1" AssetId0="-1" AssetId1="96865" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="3920299" mapId="39200099" TransitionSrcWeather="99" isFireAsh="1" AssetId0="96101" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="6098100" mapId="60000098" TransitionSrcWeather="0" isFireAsh="0" AssetId0="96010" AssetId1="96400" AssetId3="96410" AssetId4="96411" AssetId5="96414" CreateAssetLimitId0="-1" />
+<row id="6098101" mapId="60000098" TransitionSrcWeather="1" isFireAsh="0" AssetId0="96010" AssetId1="-1" AssetId3="96410" AssetId4="96411" AssetId5="96414" CreateAssetLimitId0="-1" />
+<row id="6098110" mapId="60000098" TransitionSrcWeather="10" isFireAsh="0" AssetId0="96010" AssetId1="96402" AssetId3="96410" AssetId4="96411" AssetId5="96414" CreateAssetLimitId0="-1" />
+<row id="6098111" mapId="60000098" TransitionSrcWeather="11" isFireAsh="0" AssetId0="-1" AssetId1="96403" AssetId3="96410" AssetId4="96411" AssetId5="96414" CreateAssetLimitId0="-1" />
+<row id="6098120" mapId="60000098" TransitionSrcWeather="20" isFireAsh="0" AssetId0="-1" AssetId1="96404" AssetId3="96410" AssetId4="96411" AssetId5="96414" CreateAssetLimitId0="-1" />
+<row id="6098121" mapId="60000098" TransitionSrcWeather="21" isFireAsh="0" AssetId0="-1" AssetId1="96404" AssetId3="96410" AssetId4="96411" AssetId5="96414" CreateAssetLimitId0="-1" />
+<row id="6098130" mapId="60000098" TransitionSrcWeather="30" isFireAsh="0" AssetId0="-1" AssetId1="96404" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="6098131" mapId="60000098" TransitionSrcWeather="31" isFireAsh="0" AssetId0="-1" AssetId1="96404" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="6098140" mapId="60000098" TransitionSrcWeather="40" isFireAsh="0" AssetId0="-1" AssetId1="96404" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="6098141" mapId="60000098" TransitionSrcWeather="41" isFireAsh="0" AssetId0="-1" AssetId1="96404" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="6098150" mapId="60000098" TransitionSrcWeather="50" isFireAsh="0" AssetId0="-1" AssetId1="96404" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="6098151" mapId="60000098" TransitionSrcWeather="51" isFireAsh="0" AssetId0="-1" AssetId1="96404" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="6098152" mapId="60000098" TransitionSrcWeather="52" isFireAsh="0" AssetId0="-1" AssetId1="96404" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="6098160" mapId="60000098" TransitionSrcWeather="60" isFireAsh="0" AssetId0="-1" AssetId1="96403" AssetId3="96410" AssetId4="96411" AssetId5="96414" CreateAssetLimitId0="-1" />
+<row id="6098199" mapId="60000098" TransitionSrcWeather="99" isFireAsh="0" AssetId0="96102" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="-1" />
+<row id="60001000" mapId="60000099" TransitionSrcWeather="0" isFireAsh="0" AssetId0="96010" AssetId1="96400" AssetId3="96410" AssetId4="96411" AssetId5="96414" CreateAssetLimitId0="0" />
+<row id="60001001" mapId="60000099" TransitionSrcWeather="0" isFireAsh="0" AssetId0="-1" AssetId1="96864" AssetId2="96871" AssetId3="96870" AssetId4="96416" AssetId5="96417" AssetId6="96873" CreateAssetLimitId0="1" />
+<row id="60001002" mapId="60000099" TransitionSrcWeather="0" isFireAsh="0" AssetId0="-1" AssetId1="96882" AssetId2="96883" AssetId3="96886" CreateAssetLimitId0="2" />
+<row id="60001003" mapId="60000099" TransitionSrcWeather="0" isFireAsh="0" AssetId0="-1" AssetId1="96902" AssetId3="96910" AssetId4="96415" CreateAssetLimitId0="3" />
+<row id="60001004" mapId="60000099" TransitionSrcWeather="0" isFireAsh="0" AssetId0="96820" AssetId1="-1" AssetId2="96924" AssetId3="-1" CreateAssetLimitId0="4" />
+<row id="60001010" mapId="60000099" TransitionSrcWeather="1" isFireAsh="0" AssetId0="96010" AssetId1="-1" AssetId3="96410" AssetId4="96411" AssetId5="96414" CreateAssetLimitId0="0" />
+<row id="60001011" mapId="60000099" TransitionSrcWeather="1" isFireAsh="0" AssetId0="96012" AssetId1="-1" AssetId2="96871" AssetId3="96870" AssetId4="96416" AssetId5="96417" AssetId6="96873" CreateAssetLimitId0="1" />
+<row id="60001012" mapId="60000099" TransitionSrcWeather="1" isFireAsh="0" AssetId0="96010" AssetId1="-1" AssetId2="96883" AssetId3="96886" CreateAssetLimitId0="2" />
+<row id="60001013" mapId="60000099" TransitionSrcWeather="1" isFireAsh="0" AssetId0="96010" AssetId1="-1" AssetId3="-1" AssetId4="96415" CreateAssetLimitId0="3" />
+<row id="60001014" mapId="60000099" TransitionSrcWeather="1" isFireAsh="0" AssetId0="96820" AssetId1="-1" AssetId2="96924" AssetId3="-1" CreateAssetLimitId0="4" />
+<row id="60001100" mapId="60000099" TransitionSrcWeather="10" isFireAsh="0" AssetId0="96010" AssetId1="96402" AssetId3="96410" AssetId4="96411" AssetId5="96414" CreateAssetLimitId0="0" />
+<row id="60001101" mapId="60000099" TransitionSrcWeather="10" isFireAsh="0" AssetId0="-1" AssetId1="96864" AssetId2="96871" AssetId3="96870" AssetId4="96416" AssetId5="96417" AssetId6="96873" CreateAssetLimitId0="1" />
+<row id="60001102" mapId="60000099" TransitionSrcWeather="10" isFireAsh="0" AssetId0="-1" AssetId1="96882" AssetId2="96883" AssetId3="96886" CreateAssetLimitId0="2" />
+<row id="60001103" mapId="60000099" TransitionSrcWeather="10" isFireAsh="0" AssetId0="-1" AssetId1="96902" AssetId3="96910" AssetId4="96415" CreateAssetLimitId0="3" />
+<row id="60001104" mapId="60000099" TransitionSrcWeather="10" isFireAsh="0" AssetId0="96820" AssetId1="-1" AssetId2="96924" AssetId3="-1" CreateAssetLimitId0="4" />
+<row id="60001110" mapId="60000099" TransitionSrcWeather="11" isFireAsh="0" AssetId0="-1" AssetId1="96403" AssetId3="96410" AssetId4="96411" AssetId5="96414" CreateAssetLimitId0="0" />
+<row id="60001111" mapId="60000099" TransitionSrcWeather="11" isFireAsh="0" AssetId0="96016" AssetId1="96868" AssetId3="96870" AssetId4="96416" AssetId5="96417" AssetId6="96873" CreateAssetLimitId0="1" />
+<row id="60001112" mapId="60000099" TransitionSrcWeather="11" isFireAsh="0" AssetId0="-1" AssetId1="96882" AssetId2="96883" AssetId3="96886" CreateAssetLimitId0="2" />
+<row id="60001113" mapId="60000099" TransitionSrcWeather="11" isFireAsh="0" AssetId0="-1" AssetId1="96902" AssetId3="96910" AssetId4="96415" CreateAssetLimitId0="3" />
+<row id="60001114" mapId="60000099" TransitionSrcWeather="11" isFireAsh="0" AssetId0="-1" AssetId1="96923" AssetId2="96921" AssetId3="-1" CreateAssetLimitId0="4" />
+<row id="60001200" mapId="60000099" TransitionSrcWeather="20" isFireAsh="0" AssetId0="-1" AssetId1="96404" AssetId3="96410" AssetId4="96411" AssetId5="96414" CreateAssetLimitId0="0" />
+<row id="60001201" mapId="60000099" TransitionSrcWeather="20" isFireAsh="0" AssetId0="-1" AssetId1="96867" AssetId2="96871" AssetId3="96870" AssetId4="96416" AssetId5="96417" AssetId6="96873" CreateAssetLimitId0="1" />
+<row id="60001202" mapId="60000099" TransitionSrcWeather="20" isFireAsh="0" AssetId0="-1" AssetId1="96884" AssetId2="96883" AssetId3="96886" CreateAssetLimitId0="2" />
+<row id="60001203" mapId="60000099" TransitionSrcWeather="20" isFireAsh="0" AssetId0="-1" AssetId1="96902" AssetId3="96910" AssetId4="96415" CreateAssetLimitId0="3" />
+<row id="60001204" mapId="60000099" TransitionSrcWeather="20" isFireAsh="0" AssetId0="96820" AssetId1="-1" AssetId2="96924" AssetId3="-1" CreateAssetLimitId0="4" />
+<row id="60001210" mapId="60000099" TransitionSrcWeather="21" isFireAsh="0" AssetId0="-1" AssetId1="96404" AssetId3="96410" AssetId4="96411" AssetId5="96414" CreateAssetLimitId0="0" />
+<row id="60001211" mapId="60000099" TransitionSrcWeather="21" isFireAsh="0" AssetId0="-1" AssetId1="96867" AssetId2="96871" AssetId3="96870" AssetId4="96416" AssetId5="96417" AssetId6="96873" CreateAssetLimitId0="1" />
+<row id="60001212" mapId="60000099" TransitionSrcWeather="21" isFireAsh="0" AssetId0="-1" AssetId1="96884" AssetId2="96883" AssetId3="96886" CreateAssetLimitId0="2" />
+<row id="60001213" mapId="60000099" TransitionSrcWeather="21" isFireAsh="0" AssetId0="-1" AssetId1="96902" AssetId3="96910" AssetId4="96415" CreateAssetLimitId0="3" />
+<row id="60001214" mapId="60000099" TransitionSrcWeather="21" isFireAsh="0" AssetId0="96820" AssetId1="-1" AssetId2="96924" AssetId3="-1" CreateAssetLimitId0="4" />
+<row id="60001300" mapId="60000099" TransitionSrcWeather="30" isFireAsh="0" AssetId0="-1" AssetId1="96404" AssetId3="-1" CreateAssetLimitId0="0" />
+<row id="60001301" mapId="60000099" TransitionSrcWeather="30" isFireAsh="0" AssetId0="-1" AssetId1="96864" AssetId3="-1" CreateAssetLimitId0="1" />
+<row id="60001302" mapId="60000099" TransitionSrcWeather="30" isFireAsh="0" AssetId0="-1" AssetId1="96882" AssetId3="-1" CreateAssetLimitId0="2" />
+<row id="60001303" mapId="60000099" TransitionSrcWeather="30" isFireAsh="0" AssetId0="-1" AssetId1="96902" AssetId3="-1" CreateAssetLimitId0="3" />
+<row id="60001304" mapId="60000099" TransitionSrcWeather="30" isFireAsh="0" AssetId0="96820" AssetId1="-1" AssetId2="96924" AssetId3="-1" CreateAssetLimitId0="4" />
+<row id="60001310" mapId="60000099" TransitionSrcWeather="31" isFireAsh="0" AssetId0="-1" AssetId1="96404" AssetId3="-1" CreateAssetLimitId0="0" />
+<row id="60001311" mapId="60000099" TransitionSrcWeather="31" isFireAsh="0" AssetId0="-1" AssetId1="96864" AssetId3="-1" CreateAssetLimitId0="1" />
+<row id="60001312" mapId="60000099" TransitionSrcWeather="31" isFireAsh="0" AssetId0="-1" AssetId1="96882" AssetId3="-1" CreateAssetLimitId0="2" />
+<row id="60001313" mapId="60000099" TransitionSrcWeather="31" isFireAsh="0" AssetId0="-1" AssetId1="96902" AssetId3="-1" CreateAssetLimitId0="3" />
+<row id="60001314" mapId="60000099" TransitionSrcWeather="31" isFireAsh="0" AssetId0="96820" AssetId1="-1" AssetId2="96924" AssetId3="-1" CreateAssetLimitId0="4" />
+<row id="60001400" mapId="60000099" TransitionSrcWeather="40" isFireAsh="0" AssetId0="-1" AssetId1="96404" AssetId3="-1" CreateAssetLimitId0="0" />
+<row id="60001401" mapId="60000099" TransitionSrcWeather="40" isFireAsh="0" AssetId0="-1" AssetId1="96864" AssetId3="-1" AssetId5="96419" CreateAssetLimitId0="1" />
+<row id="60001402" mapId="60000099" TransitionSrcWeather="40" isFireAsh="0" AssetId0="-1" AssetId1="96882" AssetId3="-1" CreateAssetLimitId0="2" />
+<row id="60001403" mapId="60000099" TransitionSrcWeather="40" isFireAsh="0" AssetId0="-1" AssetId1="96902" AssetId3="-1" CreateAssetLimitId0="3" />
+<row id="60001404" mapId="60000099" TransitionSrcWeather="40" isFireAsh="0" AssetId0="96820" AssetId1="-1" AssetId2="96924" AssetId3="-1" CreateAssetLimitId0="4" />
+<row id="60001410" mapId="60000099" TransitionSrcWeather="41" isFireAsh="0" AssetId0="-1" AssetId1="96404" AssetId3="-1" CreateAssetLimitId0="0" />
+<row id="60001411" mapId="60000099" TransitionSrcWeather="41" isFireAsh="0" AssetId0="-1" AssetId1="96864" AssetId3="-1" CreateAssetLimitId0="1" />
+<row id="60001412" mapId="60000099" TransitionSrcWeather="41" isFireAsh="0" AssetId0="-1" AssetId1="96882" AssetId3="-1" CreateAssetLimitId0="2" />
+<row id="60001413" mapId="60000099" TransitionSrcWeather="41" isFireAsh="0" AssetId0="-1" AssetId1="96902" AssetId3="-1" CreateAssetLimitId0="3" />
+<row id="60001414" mapId="60000099" TransitionSrcWeather="41" isFireAsh="0" AssetId0="96820" AssetId1="-1" AssetId2="96924" AssetId3="-1" CreateAssetLimitId0="4" />
+<row id="60001500" mapId="60000099" TransitionSrcWeather="50" isFireAsh="0" AssetId0="-1" AssetId1="96404" AssetId3="-1" CreateAssetLimitId0="0" />
+<row id="60001501" mapId="60000099" TransitionSrcWeather="50" isFireAsh="0" AssetId0="-1" AssetId1="96864" AssetId3="-1" CreateAssetLimitId0="1" />
+<row id="60001502" mapId="60000099" TransitionSrcWeather="50" isFireAsh="0" AssetId0="-1" AssetId1="96882" AssetId3="-1" CreateAssetLimitId0="2" />
+<row id="60001503" mapId="60000099" TransitionSrcWeather="50" isFireAsh="0" AssetId0="-1" AssetId1="96902" AssetId3="-1" CreateAssetLimitId0="3" />
+<row id="60001504" mapId="60000099" TransitionSrcWeather="50" isFireAsh="0" AssetId0="96820" AssetId1="-1" AssetId2="96924" AssetId3="-1" CreateAssetLimitId0="4" />
+<row id="60001510" mapId="60000099" TransitionSrcWeather="51" isFireAsh="0" AssetId0="-1" AssetId1="96404" AssetId3="-1" CreateAssetLimitId0="0" />
+<row id="60001511" mapId="60000099" TransitionSrcWeather="51" isFireAsh="0" AssetId0="-1" AssetId1="96864" AssetId3="-1" CreateAssetLimitId0="1" />
+<row id="60001512" mapId="60000099" TransitionSrcWeather="51" isFireAsh="0" AssetId0="-1" AssetId1="96882" AssetId3="-1" CreateAssetLimitId0="2" />
+<row id="60001513" mapId="60000099" TransitionSrcWeather="51" isFireAsh="0" AssetId0="-1" AssetId1="96902" AssetId3="-1" CreateAssetLimitId0="3" />
+<row id="60001514" mapId="60000099" TransitionSrcWeather="51" isFireAsh="0" AssetId0="96820" AssetId1="-1" AssetId2="96924" AssetId3="-1" CreateAssetLimitId0="4" />
+<row id="60001520" mapId="60000099" TransitionSrcWeather="52" isFireAsh="0" AssetId0="-1" AssetId1="96404" AssetId3="-1" CreateAssetLimitId0="0" />
+<row id="60001521" mapId="60000099" TransitionSrcWeather="52" isFireAsh="0" AssetId0="-1" AssetId1="96864" AssetId3="-1" CreateAssetLimitId0="1" />
+<row id="60001522" mapId="60000099" TransitionSrcWeather="52" isFireAsh="0" AssetId0="-1" AssetId1="96882" AssetId3="-1" CreateAssetLimitId0="2" />
+<row id="60001523" mapId="60000099" TransitionSrcWeather="52" isFireAsh="0" AssetId0="-1" AssetId1="96902" AssetId3="-1" CreateAssetLimitId0="3" />
+<row id="60001524" mapId="60000099" TransitionSrcWeather="52" isFireAsh="0" AssetId0="96820" AssetId1="-1" AssetId2="96924" AssetId3="-1" CreateAssetLimitId0="4" />
+<row id="60001600" mapId="60000099" TransitionSrcWeather="60" isFireAsh="0" AssetId0="-1" AssetId1="96403" AssetId3="96410" AssetId4="96411" AssetId5="96414" CreateAssetLimitId0="0" />
+<row id="60001601" mapId="60000099" TransitionSrcWeather="60" isFireAsh="0" AssetId0="-1" AssetId1="96864" AssetId2="96871" AssetId3="96870" AssetId4="96416" AssetId5="96417" AssetId6="96873" CreateAssetLimitId0="1" />
+<row id="60001602" mapId="60000099" TransitionSrcWeather="60" isFireAsh="0" AssetId0="-1" AssetId1="96882" AssetId2="96883" AssetId3="96886" CreateAssetLimitId0="2" />
+<row id="60001603" mapId="60000099" TransitionSrcWeather="60" isFireAsh="0" AssetId0="-1" AssetId1="96902" AssetId3="96910" AssetId4="96415" CreateAssetLimitId0="3" />
+<row id="60001604" mapId="60000099" TransitionSrcWeather="60" isFireAsh="0" AssetId0="96820" AssetId1="-1" AssetId2="96924" AssetId3="-1" CreateAssetLimitId0="4" />
+<row id="60001814" mapId="60000099" TransitionSrcWeather="81" isFireAsh="0" AssetId0="96820" AssetId1="-1" AssetId2="96924" AssetId3="-1" CreateAssetLimitId0="4" />
+<row id="60001820" mapId="60000099" TransitionSrcWeather="82" isFireAsh="0" AssetId0="-1" AssetId1="96404" AssetId3="-1" CreateAssetLimitId0="0" />
+<row id="60001821" mapId="60000099" TransitionSrcWeather="82" isFireAsh="0" AssetId0="-1" AssetId1="96864" AssetId3="-1" CreateAssetLimitId0="1" />
+<row id="60001822" mapId="60000099" TransitionSrcWeather="82" isFireAsh="0" AssetId0="-1" AssetId1="96882" AssetId3="-1" CreateAssetLimitId0="2" />
+<row id="60001823" mapId="60000099" TransitionSrcWeather="82" isFireAsh="0" AssetId0="-1" AssetId1="96902" AssetId3="-1" CreateAssetLimitId0="3" />
+<row id="60001831" mapId="60000099" TransitionSrcWeather="83" isFireAsh="0" AssetId0="96015" AssetId1="96866" AssetId3="96870" AssetId5="96418" CreateAssetLimitId0="1" />
+<row id="60001990" mapId="60000099" TransitionSrcWeather="99" isFireAsh="0" AssetId0="96102" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="0" />
+<row id="60001991" mapId="60000099" TransitionSrcWeather="99" isFireAsh="0" AssetId0="96102" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="1" />
+<row id="60001992" mapId="60000099" TransitionSrcWeather="99" isFireAsh="0" AssetId0="96102" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="2" />
+<row id="60001993" mapId="60000099" TransitionSrcWeather="99" isFireAsh="0" AssetId0="96102" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="3" />
+<row id="60001994" mapId="60000099" TransitionSrcWeather="99" isFireAsh="0" AssetId0="96102" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="4" />
+<row id="60002000" mapId="60000099" TransitionSrcWeather="0" isFireAsh="1" AssetId0="96010" AssetId1="96400" AssetId3="96420" AssetId4="96411" AssetId5="96414" AssetId7="94104" CreateAssetLimitId0="0" />
+<row id="60002001" mapId="60000099" TransitionSrcWeather="0" isFireAsh="1" AssetId0="-1" AssetId1="96864" AssetId2="96871" AssetId3="96870" AssetId4="96416" AssetId5="96417" AssetId6="96873" AssetId7="94114" CreateAssetLimitId0="1" />
+<row id="60002002" mapId="60000099" TransitionSrcWeather="0" isFireAsh="1" AssetId0="-1" AssetId1="96882" AssetId2="96883" AssetId3="96886" AssetId7="94115" CreateAssetLimitId0="2" />
+<row id="60002003" mapId="60000099" TransitionSrcWeather="0" isFireAsh="1" AssetId0="-1" AssetId1="96902" AssetId3="96910" AssetId4="96415" AssetId7="94116" CreateAssetLimitId0="3" />
+<row id="60002004" mapId="60000099" TransitionSrcWeather="0" isFireAsh="1" AssetId0="96820" AssetId1="-1" AssetId2="96924" AssetId3="-1" AssetId7="94117" CreateAssetLimitId0="4" />
+<row id="60002010" mapId="60000099" TransitionSrcWeather="1" isFireAsh="1" AssetId0="96010" AssetId1="-1" AssetId3="96420" AssetId4="96411" AssetId5="96414" AssetId7="94104" CreateAssetLimitId0="0" />
+<row id="60002011" mapId="60000099" TransitionSrcWeather="1" isFireAsh="1" AssetId0="96012" AssetId1="-1" AssetId2="96871" AssetId3="96870" AssetId4="96416" AssetId5="96417" AssetId6="96873" AssetId7="94114" CreateAssetLimitId0="1" />
+<row id="60002012" mapId="60000099" TransitionSrcWeather="1" isFireAsh="1" AssetId0="96010" AssetId1="-1" AssetId2="96883" AssetId3="96886" AssetId7="94115" CreateAssetLimitId0="2" />
+<row id="60002013" mapId="60000099" TransitionSrcWeather="1" isFireAsh="1" AssetId0="96010" AssetId1="-1" AssetId3="-1" AssetId4="96415" AssetId7="94116" CreateAssetLimitId0="3" />
+<row id="60002014" mapId="60000099" TransitionSrcWeather="1" isFireAsh="1" AssetId0="96820" AssetId1="-1" AssetId2="96924" AssetId3="-1" AssetId7="94117" CreateAssetLimitId0="4" />
+<row id="60002100" mapId="60000099" TransitionSrcWeather="10" isFireAsh="1" AssetId0="96010" AssetId1="96402" AssetId3="96420" AssetId4="96411" AssetId5="96414" AssetId7="94104" CreateAssetLimitId0="0" />
+<row id="60002101" mapId="60000099" TransitionSrcWeather="10" isFireAsh="1" AssetId0="-1" AssetId1="96864" AssetId2="96871" AssetId3="96870" AssetId4="96416" AssetId5="96417" AssetId6="96873" AssetId7="94114" CreateAssetLimitId0="1" />
+<row id="60002102" mapId="60000099" TransitionSrcWeather="10" isFireAsh="1" AssetId0="-1" AssetId1="96882" AssetId2="96883" AssetId3="96886" AssetId7="94115" CreateAssetLimitId0="2" />
+<row id="60002103" mapId="60000099" TransitionSrcWeather="10" isFireAsh="1" AssetId0="-1" AssetId1="96902" AssetId3="96910" AssetId4="96415" AssetId7="94116" CreateAssetLimitId0="3" />
+<row id="60002104" mapId="60000099" TransitionSrcWeather="10" isFireAsh="1" AssetId0="96820" AssetId1="-1" AssetId2="96924" AssetId3="-1" AssetId7="94117" CreateAssetLimitId0="4" />
+<row id="60002110" mapId="60000099" TransitionSrcWeather="11" isFireAsh="1" AssetId0="-1" AssetId1="96403" AssetId3="96420" AssetId4="96411" AssetId5="96414" AssetId7="94104" CreateAssetLimitId0="0" />
+<row id="60002111" mapId="60000099" TransitionSrcWeather="11" isFireAsh="1" AssetId0="96016" AssetId1="96868" AssetId3="96870" AssetId4="96416" AssetId5="96417" AssetId6="96873" AssetId7="94114" CreateAssetLimitId0="1" />
+<row id="60002112" mapId="60000099" TransitionSrcWeather="11" isFireAsh="1" AssetId0="-1" AssetId1="96882" AssetId2="96883" AssetId3="96886" AssetId7="94115" CreateAssetLimitId0="2" />
+<row id="60002113" mapId="60000099" TransitionSrcWeather="11" isFireAsh="1" AssetId0="-1" AssetId1="96902" AssetId3="96910" AssetId4="96415" AssetId7="94116" CreateAssetLimitId0="3" />
+<row id="60002114" mapId="60000099" TransitionSrcWeather="11" isFireAsh="1" AssetId0="-1" AssetId1="96923" AssetId2="96921" AssetId3="-1" AssetId7="94117" CreateAssetLimitId0="4" />
+<row id="60002200" mapId="60000099" TransitionSrcWeather="20" isFireAsh="1" AssetId0="-1" AssetId1="96404" AssetId3="96420" AssetId4="96411" AssetId5="96414" AssetId7="94104" CreateAssetLimitId0="0" />
+<row id="60002201" mapId="60000099" TransitionSrcWeather="20" isFireAsh="1" AssetId0="-1" AssetId1="96867" AssetId2="96871" AssetId3="96870" AssetId4="96416" AssetId5="96417" AssetId6="96873" AssetId7="94114" CreateAssetLimitId0="1" />
+<row id="60002202" mapId="60000099" TransitionSrcWeather="20" isFireAsh="1" AssetId0="-1" AssetId1="96884" AssetId2="96883" AssetId3="96886" AssetId7="94115" CreateAssetLimitId0="2" />
+<row id="60002203" mapId="60000099" TransitionSrcWeather="20" isFireAsh="1" AssetId0="-1" AssetId1="96902" AssetId3="96910" AssetId4="96415" AssetId7="94116" CreateAssetLimitId0="3" />
+<row id="60002204" mapId="60000099" TransitionSrcWeather="20" isFireAsh="1" AssetId0="96820" AssetId1="-1" AssetId2="96924" AssetId3="-1" AssetId7="94117" CreateAssetLimitId0="4" />
+<row id="60002210" mapId="60000099" TransitionSrcWeather="21" isFireAsh="1" AssetId0="-1" AssetId1="96404" AssetId3="96420" AssetId4="96411" AssetId5="96414" AssetId7="94104" CreateAssetLimitId0="0" />
+<row id="60002211" mapId="60000099" TransitionSrcWeather="21" isFireAsh="1" AssetId0="-1" AssetId1="96867" AssetId2="96871" AssetId3="96870" AssetId4="96416" AssetId5="96417" AssetId6="96873" AssetId7="94114" CreateAssetLimitId0="1" />
+<row id="60002212" mapId="60000099" TransitionSrcWeather="21" isFireAsh="1" AssetId0="-1" AssetId1="96884" AssetId2="96883" AssetId3="96886" AssetId7="94115" CreateAssetLimitId0="2" />
+<row id="60002213" mapId="60000099" TransitionSrcWeather="21" isFireAsh="1" AssetId0="-1" AssetId1="96902" AssetId3="96910" AssetId4="96415" AssetId7="94116" CreateAssetLimitId0="3" />
+<row id="60002214" mapId="60000099" TransitionSrcWeather="21" isFireAsh="1" AssetId0="96820" AssetId1="-1" AssetId2="96924" AssetId3="-1" AssetId7="94117" CreateAssetLimitId0="4" />
+<row id="60002300" mapId="60000099" TransitionSrcWeather="30" isFireAsh="1" AssetId0="-1" AssetId1="96404" AssetId3="-1" AssetId7="94104" CreateAssetLimitId0="0" />
+<row id="60002301" mapId="60000099" TransitionSrcWeather="30" isFireAsh="1" AssetId0="-1" AssetId1="96864" AssetId3="-1" AssetId7="94114" CreateAssetLimitId0="1" />
+<row id="60002302" mapId="60000099" TransitionSrcWeather="30" isFireAsh="1" AssetId0="-1" AssetId1="96882" AssetId3="-1" AssetId7="94115" CreateAssetLimitId0="2" />
+<row id="60002303" mapId="60000099" TransitionSrcWeather="30" isFireAsh="1" AssetId0="-1" AssetId1="96902" AssetId3="-1" AssetId7="94116" CreateAssetLimitId0="3" />
+<row id="60002304" mapId="60000099" TransitionSrcWeather="30" isFireAsh="1" AssetId0="96820" AssetId1="-1" AssetId2="96924" AssetId3="-1" AssetId7="94117" CreateAssetLimitId0="4" />
+<row id="60002310" mapId="60000099" TransitionSrcWeather="31" isFireAsh="1" AssetId0="-1" AssetId1="96404" AssetId3="-1" AssetId7="94104" CreateAssetLimitId0="0" />
+<row id="60002311" mapId="60000099" TransitionSrcWeather="31" isFireAsh="1" AssetId0="-1" AssetId1="96864" AssetId3="-1" AssetId7="94114" CreateAssetLimitId0="1" />
+<row id="60002312" mapId="60000099" TransitionSrcWeather="31" isFireAsh="1" AssetId0="-1" AssetId1="96882" AssetId3="-1" AssetId7="94115" CreateAssetLimitId0="2" />
+<row id="60002313" mapId="60000099" TransitionSrcWeather="31" isFireAsh="1" AssetId0="-1" AssetId1="96902" AssetId3="-1" AssetId7="94116" CreateAssetLimitId0="3" />
+<row id="60002314" mapId="60000099" TransitionSrcWeather="31" isFireAsh="1" AssetId0="96820" AssetId1="-1" AssetId2="96924" AssetId3="-1" AssetId7="94117" CreateAssetLimitId0="4" />
+<row id="60002400" mapId="60000099" TransitionSrcWeather="40" isFireAsh="1" AssetId0="-1" AssetId1="96404" AssetId3="-1" AssetId7="94104" CreateAssetLimitId0="0" />
+<row id="60002401" mapId="60000099" TransitionSrcWeather="40" isFireAsh="1" AssetId0="-1" AssetId1="96864" AssetId3="-1" AssetId4="96419" AssetId7="94114" CreateAssetLimitId0="1" />
+<row id="60002402" mapId="60000099" TransitionSrcWeather="40" isFireAsh="1" AssetId0="-1" AssetId1="96882" AssetId3="-1" AssetId7="94115" CreateAssetLimitId0="2" />
+<row id="60002403" mapId="60000099" TransitionSrcWeather="40" isFireAsh="1" AssetId0="-1" AssetId1="96902" AssetId3="-1" AssetId7="94116" CreateAssetLimitId0="3" />
+<row id="60002404" mapId="60000099" TransitionSrcWeather="40" isFireAsh="1" AssetId0="96820" AssetId1="-1" AssetId2="96924" AssetId3="-1" AssetId7="94117" CreateAssetLimitId0="4" />
+<row id="60002410" mapId="60000099" TransitionSrcWeather="41" isFireAsh="1" AssetId0="-1" AssetId1="96404" AssetId3="-1" AssetId7="94104" CreateAssetLimitId0="0" />
+<row id="60002411" mapId="60000099" TransitionSrcWeather="41" isFireAsh="1" AssetId0="-1" AssetId1="96864" AssetId3="-1" AssetId7="94114" CreateAssetLimitId0="1" />
+<row id="60002412" mapId="60000099" TransitionSrcWeather="41" isFireAsh="1" AssetId0="-1" AssetId1="96882" AssetId3="-1" AssetId7="94115" CreateAssetLimitId0="2" />
+<row id="60002413" mapId="60000099" TransitionSrcWeather="41" isFireAsh="1" AssetId0="-1" AssetId1="96902" AssetId3="-1" AssetId7="94116" CreateAssetLimitId0="3" />
+<row id="60002414" mapId="60000099" TransitionSrcWeather="41" isFireAsh="1" AssetId0="96820" AssetId1="-1" AssetId2="96924" AssetId3="-1" AssetId7="94117" CreateAssetLimitId0="4" />
+<row id="60002500" mapId="60000099" TransitionSrcWeather="50" isFireAsh="1" AssetId0="-1" AssetId1="96404" AssetId3="-1" AssetId7="94104" CreateAssetLimitId0="0" />
+<row id="60002501" mapId="60000099" TransitionSrcWeather="50" isFireAsh="1" AssetId0="-1" AssetId1="96864" AssetId3="-1" AssetId7="94114" CreateAssetLimitId0="1" />
+<row id="60002502" mapId="60000099" TransitionSrcWeather="50" isFireAsh="1" AssetId0="-1" AssetId1="96882" AssetId3="-1" AssetId7="94115" CreateAssetLimitId0="2" />
+<row id="60002503" mapId="60000099" TransitionSrcWeather="50" isFireAsh="1" AssetId0="-1" AssetId1="96902" AssetId3="-1" AssetId7="94116" CreateAssetLimitId0="3" />
+<row id="60002504" mapId="60000099" TransitionSrcWeather="50" isFireAsh="1" AssetId0="96820" AssetId1="-1" AssetId2="96924" AssetId3="-1" AssetId7="94117" CreateAssetLimitId0="4" />
+<row id="60002510" mapId="60000099" TransitionSrcWeather="51" isFireAsh="1" AssetId0="-1" AssetId1="96404" AssetId3="-1" AssetId7="94104" CreateAssetLimitId0="0" />
+<row id="60002511" mapId="60000099" TransitionSrcWeather="51" isFireAsh="1" AssetId0="-1" AssetId1="96864" AssetId3="-1" AssetId7="94114" CreateAssetLimitId0="1" />
+<row id="60002512" mapId="60000099" TransitionSrcWeather="51" isFireAsh="1" AssetId0="-1" AssetId1="96882" AssetId3="-1" AssetId7="94115" CreateAssetLimitId0="2" />
+<row id="60002513" mapId="60000099" TransitionSrcWeather="51" isFireAsh="1" AssetId0="-1" AssetId1="96902" AssetId3="-1" AssetId7="94116" CreateAssetLimitId0="3" />
+<row id="60002514" mapId="60000099" TransitionSrcWeather="51" isFireAsh="1" AssetId0="96820" AssetId1="-1" AssetId2="96924" AssetId3="-1" AssetId7="94117" CreateAssetLimitId0="4" />
+<row id="60002520" mapId="60000099" TransitionSrcWeather="52" isFireAsh="1" AssetId0="-1" AssetId1="96404" AssetId3="-1" AssetId7="94104" CreateAssetLimitId0="0" />
+<row id="60002521" mapId="60000099" TransitionSrcWeather="52" isFireAsh="1" AssetId0="-1" AssetId1="96864" AssetId3="-1" AssetId7="94114" CreateAssetLimitId0="1" />
+<row id="60002522" mapId="60000099" TransitionSrcWeather="52" isFireAsh="1" AssetId0="-1" AssetId1="96882" AssetId3="-1" AssetId7="94115" CreateAssetLimitId0="2" />
+<row id="60002523" mapId="60000099" TransitionSrcWeather="52" isFireAsh="1" AssetId0="-1" AssetId1="96902" AssetId3="-1" AssetId7="94116" CreateAssetLimitId0="3" />
+<row id="60002524" mapId="60000099" TransitionSrcWeather="52" isFireAsh="1" AssetId0="96820" AssetId1="-1" AssetId2="96924" AssetId3="-1" AssetId7="94117" CreateAssetLimitId0="4" />
+<row id="60002600" mapId="60000099" TransitionSrcWeather="60" isFireAsh="1" AssetId0="-1" AssetId1="96403" AssetId3="96420" AssetId4="96411" AssetId5="96414" AssetId7="94104" CreateAssetLimitId0="0" />
+<row id="60002601" mapId="60000099" TransitionSrcWeather="60" isFireAsh="1" AssetId0="-1" AssetId1="96864" AssetId2="96871" AssetId3="96870" AssetId4="96416" AssetId5="96417" AssetId6="96873" AssetId7="94114" CreateAssetLimitId0="1" />
+<row id="60002602" mapId="60000099" TransitionSrcWeather="60" isFireAsh="1" AssetId0="-1" AssetId1="96882" AssetId2="96883" AssetId3="96886" AssetId7="94115" CreateAssetLimitId0="2" />
+<row id="60002603" mapId="60000099" TransitionSrcWeather="60" isFireAsh="1" AssetId0="-1" AssetId1="96902" AssetId3="96910" AssetId4="96415" AssetId7="94116" CreateAssetLimitId0="3" />
+<row id="60002604" mapId="60000099" TransitionSrcWeather="60" isFireAsh="1" AssetId0="96820" AssetId1="-1" AssetId2="96924" AssetId3="-1" AssetId7="94117" CreateAssetLimitId0="4" />
+<row id="60002814" mapId="60000099" TransitionSrcWeather="81" isFireAsh="1" AssetId0="96820" AssetId1="-1" AssetId2="96924" AssetId3="-1" AssetId7="94117" CreateAssetLimitId0="4" />
+<row id="60002820" mapId="60000099" TransitionSrcWeather="82" isFireAsh="1" AssetId0="-1" AssetId1="96404" AssetId3="-1" AssetId7="94104" CreateAssetLimitId0="0" />
+<row id="60002821" mapId="60000099" TransitionSrcWeather="82" isFireAsh="1" AssetId0="-1" AssetId1="96864" AssetId3="-1" AssetId7="94114" CreateAssetLimitId0="1" />
+<row id="60002822" mapId="60000099" TransitionSrcWeather="82" isFireAsh="1" AssetId0="-1" AssetId1="96882" AssetId3="-1" AssetId7="94115" CreateAssetLimitId0="2" />
+<row id="60002823" mapId="60000099" TransitionSrcWeather="82" isFireAsh="1" AssetId0="-1" AssetId1="96902" AssetId3="-1" AssetId7="94116" CreateAssetLimitId0="3" />
+<row id="60002831" mapId="60000099" TransitionSrcWeather="83" isFireAsh="1" AssetId0="96015" AssetId1="96866" AssetId3="96870" AssetId5="96418" AssetId7="94114" CreateAssetLimitId0="1" />
+<row id="60002990" mapId="60000099" TransitionSrcWeather="99" isFireAsh="1" AssetId0="96102" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="0" />
+<row id="60002991" mapId="60000099" TransitionSrcWeather="99" isFireAsh="1" AssetId0="96102" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="1" />
+<row id="60002993" mapId="60000099" TransitionSrcWeather="99" isFireAsh="1" AssetId0="96102" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="3" />
+<row id="60002994" mapId="60000099" TransitionSrcWeather="99" isFireAsh="1" AssetId0="96102" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="4" />
+<row id="61002992" mapId="60000099" TransitionSrcWeather="99" isFireAsh="1" AssetId0="96102" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="2" />
+<row id="600010021" mapId="60000099" TransitionSrcWeather="0" isFireAsh="0" AssetId0="-1" AssetId1="96885" AssetId3="-1" CreateAssetLimitId0="21" />
+<row id="600010031" mapId="60000099" TransitionSrcWeather="0" isFireAsh="0" AssetId0="-1" AssetId1="96906" AssetId3="-1" CreateAssetLimitId0="31" />
+<row id="600010041" mapId="60000099" TransitionSrcWeather="0" isFireAsh="0" AssetId0="96820" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="41" />
+<row id="600010042" mapId="60000099" TransitionSrcWeather="0" isFireAsh="0" AssetId0="-1" AssetId1="96882" AssetId3="-1" CreateAssetLimitId0="42" />
+<row id="600010121" mapId="60000099" TransitionSrcWeather="1" isFireAsh="0" AssetId0="96010" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="21" />
+<row id="600010131" mapId="60000099" TransitionSrcWeather="1" isFireAsh="0" AssetId0="96014" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="31" />
+<row id="600010141" mapId="60000099" TransitionSrcWeather="1" isFireAsh="0" AssetId0="96820" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="41" />
+<row id="600010142" mapId="60000099" TransitionSrcWeather="1" isFireAsh="0" AssetId0="-1" AssetId1="96882" AssetId3="-1" CreateAssetLimitId0="42" />
+<row id="600011021" mapId="60000099" TransitionSrcWeather="10" isFireAsh="0" AssetId0="-1" AssetId1="96885" AssetId3="-1" CreateAssetLimitId0="21" />
+<row id="600011031" mapId="60000099" TransitionSrcWeather="10" isFireAsh="0" AssetId0="-1" AssetId1="96906" AssetId3="-1" CreateAssetLimitId0="31" />
+<row id="600011041" mapId="60000099" TransitionSrcWeather="10" isFireAsh="0" AssetId0="96820" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="41" />
+<row id="600011042" mapId="60000099" TransitionSrcWeather="10" isFireAsh="0" AssetId0="-1" AssetId1="96882" AssetId3="-1" CreateAssetLimitId0="42" />
+<row id="600011121" mapId="60000099" TransitionSrcWeather="11" isFireAsh="0" AssetId0="-1" AssetId1="96885" AssetId3="-1" CreateAssetLimitId0="21" />
+<row id="600011131" mapId="60000099" TransitionSrcWeather="11" isFireAsh="0" AssetId0="-1" AssetId1="96906" AssetId3="-1" CreateAssetLimitId0="31" />
+<row id="600011141" mapId="60000099" TransitionSrcWeather="11" isFireAsh="0" AssetId0="96820" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="41" />
+<row id="600011142" mapId="60000099" TransitionSrcWeather="11" isFireAsh="0" AssetId0="-1" AssetId1="96882" AssetId3="-1" CreateAssetLimitId0="42" />
+<row id="600012021" mapId="60000099" TransitionSrcWeather="20" isFireAsh="0" AssetId0="-1" AssetId1="96885" AssetId3="-1" CreateAssetLimitId0="21" />
+<row id="600012031" mapId="60000099" TransitionSrcWeather="20" isFireAsh="0" AssetId0="-1" AssetId1="96906" AssetId3="-1" CreateAssetLimitId0="31" />
+<row id="600012041" mapId="60000099" TransitionSrcWeather="20" isFireAsh="0" AssetId0="96820" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="41" />
+<row id="600012042" mapId="60000099" TransitionSrcWeather="20" isFireAsh="0" AssetId0="-1" AssetId1="96882" AssetId3="-1" CreateAssetLimitId0="42" />
+<row id="600012121" mapId="60000099" TransitionSrcWeather="21" isFireAsh="0" AssetId0="-1" AssetId1="96885" AssetId3="-1" CreateAssetLimitId0="21" />
+<row id="600012131" mapId="60000099" TransitionSrcWeather="21" isFireAsh="0" AssetId0="-1" AssetId1="96906" AssetId3="-1" CreateAssetLimitId0="31" />
+<row id="600012141" mapId="60000099" TransitionSrcWeather="21" isFireAsh="0" AssetId0="96820" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="41" />
+<row id="600012142" mapId="60000099" TransitionSrcWeather="21" isFireAsh="0" AssetId0="-1" AssetId1="96882" AssetId3="-1" CreateAssetLimitId0="42" />
+<row id="600013021" mapId="60000099" TransitionSrcWeather="30" isFireAsh="0" AssetId0="-1" AssetId1="96885" AssetId3="-1" CreateAssetLimitId0="21" />
+<row id="600013031" mapId="60000099" TransitionSrcWeather="30" isFireAsh="0" AssetId0="-1" AssetId1="96906" AssetId3="-1" CreateAssetLimitId0="31" />
+<row id="600013041" mapId="60000099" TransitionSrcWeather="30" isFireAsh="0" AssetId0="96820" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="41" />
+<row id="600013042" mapId="60000099" TransitionSrcWeather="30" isFireAsh="0" AssetId0="-1" AssetId1="96882" AssetId3="-1" CreateAssetLimitId0="42" />
+<row id="600013121" mapId="60000099" TransitionSrcWeather="31" isFireAsh="0" AssetId0="-1" AssetId1="96885" AssetId3="-1" CreateAssetLimitId0="21" />
+<row id="600013131" mapId="60000099" TransitionSrcWeather="31" isFireAsh="0" AssetId0="-1" AssetId1="96906" AssetId3="-1" CreateAssetLimitId0="31" />
+<row id="600013141" mapId="60000099" TransitionSrcWeather="31" isFireAsh="0" AssetId0="96820" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="41" />
+<row id="600013142" mapId="60000099" TransitionSrcWeather="31" isFireAsh="0" AssetId0="-1" AssetId1="96882" AssetId3="-1" CreateAssetLimitId0="42" />
+<row id="600014021" mapId="60000099" TransitionSrcWeather="40" isFireAsh="0" AssetId0="-1" AssetId1="96885" AssetId3="-1" CreateAssetLimitId0="21" />
+<row id="600014031" mapId="60000099" TransitionSrcWeather="40" isFireAsh="0" AssetId0="-1" AssetId1="96906" AssetId3="-1" CreateAssetLimitId0="31" />
+<row id="600014041" mapId="60000099" TransitionSrcWeather="40" isFireAsh="0" AssetId0="96820" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="41" />
+<row id="600014042" mapId="60000099" TransitionSrcWeather="40" isFireAsh="0" AssetId0="-1" AssetId1="96882" AssetId3="-1" CreateAssetLimitId0="42" />
+<row id="600014121" mapId="60000099" TransitionSrcWeather="41" isFireAsh="0" AssetId0="-1" AssetId1="96885" AssetId3="-1" CreateAssetLimitId0="21" />
+<row id="600014131" mapId="60000099" TransitionSrcWeather="41" isFireAsh="0" AssetId0="-1" AssetId1="96906" AssetId3="-1" CreateAssetLimitId0="31" />
+<row id="600014141" mapId="60000099" TransitionSrcWeather="41" isFireAsh="0" AssetId0="96820" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="41" />
+<row id="600014142" mapId="60000099" TransitionSrcWeather="41" isFireAsh="0" AssetId0="-1" AssetId1="96882" AssetId3="-1" CreateAssetLimitId0="42" />
+<row id="600015021" mapId="60000099" TransitionSrcWeather="50" isFireAsh="0" AssetId0="-1" AssetId1="96885" AssetId3="-1" CreateAssetLimitId0="21" />
+<row id="600015031" mapId="60000099" TransitionSrcWeather="50" isFireAsh="0" AssetId0="-1" AssetId1="96906" AssetId3="-1" CreateAssetLimitId0="31" />
+<row id="600015041" mapId="60000099" TransitionSrcWeather="50" isFireAsh="0" AssetId0="96820" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="41" />
+<row id="600015042" mapId="60000099" TransitionSrcWeather="50" isFireAsh="0" AssetId0="-1" AssetId1="96882" AssetId3="-1" CreateAssetLimitId0="42" />
+<row id="600015121" mapId="60000099" TransitionSrcWeather="51" isFireAsh="0" AssetId0="-1" AssetId1="96885" AssetId3="-1" CreateAssetLimitId0="21" />
+<row id="600015131" mapId="60000099" TransitionSrcWeather="51" isFireAsh="0" AssetId0="-1" AssetId1="96906" AssetId3="-1" CreateAssetLimitId0="31" />
+<row id="600015141" mapId="60000099" TransitionSrcWeather="51" isFireAsh="0" AssetId0="96820" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="41" />
+<row id="600015142" mapId="60000099" TransitionSrcWeather="51" isFireAsh="0" AssetId0="-1" AssetId1="96882" AssetId3="-1" CreateAssetLimitId0="42" />
+<row id="600015221" mapId="60000099" TransitionSrcWeather="52" isFireAsh="0" AssetId0="-1" AssetId1="96885" AssetId3="-1" CreateAssetLimitId0="21" />
+<row id="600015231" mapId="60000099" TransitionSrcWeather="52" isFireAsh="0" AssetId0="-1" AssetId1="96906" AssetId3="-1" CreateAssetLimitId0="31" />
+<row id="600015241" mapId="60000099" TransitionSrcWeather="52" isFireAsh="0" AssetId0="96820" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="41" />
+<row id="600015242" mapId="60000099" TransitionSrcWeather="52" isFireAsh="0" AssetId0="-1" AssetId1="96882" AssetId3="-1" CreateAssetLimitId0="42" />
+<row id="600016021" mapId="60000099" TransitionSrcWeather="60" isFireAsh="0" AssetId0="-1" AssetId1="96885" AssetId3="-1" CreateAssetLimitId0="21" />
+<row id="600016031" mapId="60000099" TransitionSrcWeather="60" isFireAsh="0" AssetId0="-1" AssetId1="96906" AssetId3="-1" CreateAssetLimitId0="31" />
+<row id="600016041" mapId="60000099" TransitionSrcWeather="60" isFireAsh="0" AssetId0="96820" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="41" />
+<row id="600016042" mapId="60000099" TransitionSrcWeather="60" isFireAsh="0" AssetId0="-1" AssetId1="96882" AssetId3="-1" CreateAssetLimitId0="42" />
+<row id="600018141" mapId="60000099" TransitionSrcWeather="81" isFireAsh="0" AssetId0="96820" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="41" />
+<row id="600019921" mapId="60000099" TransitionSrcWeather="99" isFireAsh="0" AssetId0="96102" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="21" />
+<row id="600019931" mapId="60000099" TransitionSrcWeather="99" isFireAsh="0" AssetId0="96102" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="31" />
+<row id="600019941" mapId="60000099" TransitionSrcWeather="99" isFireAsh="0" AssetId0="96102" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="41" />
+<row id="600019942" mapId="60000099" TransitionSrcWeather="99" isFireAsh="0" AssetId0="96102" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="42" />
+<row id="600020021" mapId="60000099" TransitionSrcWeather="0" isFireAsh="1" AssetId0="-1" AssetId1="96885" AssetId3="-1" AssetId7="94115" CreateAssetLimitId0="21" />
+<row id="600020031" mapId="60000099" TransitionSrcWeather="0" isFireAsh="1" AssetId0="-1" AssetId1="96906" AssetId3="-1" AssetId7="94116" CreateAssetLimitId0="31" />
+<row id="600020041" mapId="60000099" TransitionSrcWeather="0" isFireAsh="1" AssetId0="96820" AssetId1="-1" AssetId3="-1" AssetId7="94117" CreateAssetLimitId0="41" />
+<row id="600020042" mapId="60000099" TransitionSrcWeather="0" isFireAsh="1" AssetId0="-1" AssetId1="96882" AssetId3="-1" AssetId7="94115" CreateAssetLimitId0="42" />
+<row id="600020121" mapId="60000099" TransitionSrcWeather="1" isFireAsh="1" AssetId0="96010" AssetId1="-1" AssetId3="-1" AssetId7="94115" CreateAssetLimitId0="21" />
+<row id="600020131" mapId="60000099" TransitionSrcWeather="1" isFireAsh="1" AssetId0="96014" AssetId1="-1" AssetId3="-1" AssetId7="94116" CreateAssetLimitId0="31" />
+<row id="600020141" mapId="60000099" TransitionSrcWeather="1" isFireAsh="1" AssetId0="96820" AssetId1="-1" AssetId3="-1" AssetId7="94117" CreateAssetLimitId0="41" />
+<row id="600020142" mapId="60000099" TransitionSrcWeather="1" isFireAsh="1" AssetId0="-1" AssetId1="96882" AssetId3="-1" AssetId7="94115" CreateAssetLimitId0="42" />
+<row id="600021021" mapId="60000099" TransitionSrcWeather="10" isFireAsh="1" AssetId0="-1" AssetId1="96885" AssetId3="-1" AssetId7="94115" CreateAssetLimitId0="21" />
+<row id="600021031" mapId="60000099" TransitionSrcWeather="10" isFireAsh="1" AssetId0="-1" AssetId1="96906" AssetId3="-1" AssetId7="94116" CreateAssetLimitId0="31" />
+<row id="600021041" mapId="60000099" TransitionSrcWeather="10" isFireAsh="1" AssetId0="96820" AssetId1="-1" AssetId3="-1" AssetId7="94117" CreateAssetLimitId0="41" />
+<row id="600021042" mapId="60000099" TransitionSrcWeather="10" isFireAsh="1" AssetId0="-1" AssetId1="96882" AssetId3="-1" AssetId7="94115" CreateAssetLimitId0="42" />
+<row id="600021121" mapId="60000099" TransitionSrcWeather="11" isFireAsh="1" AssetId0="-1" AssetId1="96885" AssetId3="-1" AssetId7="94115" CreateAssetLimitId0="21" />
+<row id="600021131" mapId="60000099" TransitionSrcWeather="11" isFireAsh="1" AssetId0="-1" AssetId1="96906" AssetId3="-1" AssetId7="94116" CreateAssetLimitId0="31" />
+<row id="600021141" mapId="60000099" TransitionSrcWeather="11" isFireAsh="1" AssetId0="96820" AssetId1="-1" AssetId3="-1" AssetId7="94117" CreateAssetLimitId0="41" />
+<row id="600021142" mapId="60000099" TransitionSrcWeather="11" isFireAsh="1" AssetId0="-1" AssetId1="96882" AssetId3="-1" AssetId7="94115" CreateAssetLimitId0="42" />
+<row id="600022021" mapId="60000099" TransitionSrcWeather="20" isFireAsh="1" AssetId0="-1" AssetId1="96885" AssetId3="-1" AssetId7="94115" CreateAssetLimitId0="21" />
+<row id="600022031" mapId="60000099" TransitionSrcWeather="20" isFireAsh="1" AssetId0="-1" AssetId1="96906" AssetId3="-1" AssetId7="94116" CreateAssetLimitId0="31" />
+<row id="600022041" mapId="60000099" TransitionSrcWeather="20" isFireAsh="1" AssetId0="96820" AssetId1="-1" AssetId3="-1" AssetId7="94117" CreateAssetLimitId0="41" />
+<row id="600022042" mapId="60000099" TransitionSrcWeather="20" isFireAsh="1" AssetId0="-1" AssetId1="96882" AssetId3="-1" AssetId7="94115" CreateAssetLimitId0="42" />
+<row id="600022121" mapId="60000099" TransitionSrcWeather="21" isFireAsh="1" AssetId0="-1" AssetId1="96885" AssetId3="-1" AssetId7="94115" CreateAssetLimitId0="21" />
+<row id="600022131" mapId="60000099" TransitionSrcWeather="21" isFireAsh="1" AssetId0="-1" AssetId1="96906" AssetId3="-1" AssetId7="94116" CreateAssetLimitId0="31" />
+<row id="600022141" mapId="60000099" TransitionSrcWeather="21" isFireAsh="1" AssetId0="96820" AssetId1="-1" AssetId3="-1" AssetId7="94117" CreateAssetLimitId0="41" />
+<row id="600022142" mapId="60000099" TransitionSrcWeather="21" isFireAsh="1" AssetId0="-1" AssetId1="96882" AssetId3="-1" AssetId7="94115" CreateAssetLimitId0="42" />
+<row id="600023021" mapId="60000099" TransitionSrcWeather="30" isFireAsh="1" AssetId0="-1" AssetId1="96885" AssetId3="-1" AssetId7="94115" CreateAssetLimitId0="21" />
+<row id="600023031" mapId="60000099" TransitionSrcWeather="30" isFireAsh="1" AssetId0="-1" AssetId1="96906" AssetId3="-1" AssetId7="94116" CreateAssetLimitId0="31" />
+<row id="600023041" mapId="60000099" TransitionSrcWeather="30" isFireAsh="1" AssetId0="96820" AssetId1="-1" AssetId3="-1" AssetId7="94117" CreateAssetLimitId0="41" />
+<row id="600023042" mapId="60000099" TransitionSrcWeather="30" isFireAsh="1" AssetId0="-1" AssetId1="96882" AssetId3="-1" AssetId7="94115" CreateAssetLimitId0="42" />
+<row id="600023121" mapId="60000099" TransitionSrcWeather="31" isFireAsh="1" AssetId0="-1" AssetId1="96885" AssetId3="-1" AssetId7="94115" CreateAssetLimitId0="21" />
+<row id="600023131" mapId="60000099" TransitionSrcWeather="31" isFireAsh="1" AssetId0="-1" AssetId1="96906" AssetId3="-1" AssetId7="94116" CreateAssetLimitId0="31" />
+<row id="600023141" mapId="60000099" TransitionSrcWeather="31" isFireAsh="1" AssetId0="96820" AssetId1="-1" AssetId3="-1" AssetId7="94117" CreateAssetLimitId0="41" />
+<row id="600023142" mapId="60000099" TransitionSrcWeather="31" isFireAsh="1" AssetId0="-1" AssetId1="96882" AssetId3="-1" AssetId7="94115" CreateAssetLimitId0="42" />
+<row id="600024021" mapId="60000099" TransitionSrcWeather="40" isFireAsh="1" AssetId0="-1" AssetId1="96885" AssetId3="-1" AssetId7="94115" CreateAssetLimitId0="21" />
+<row id="600024031" mapId="60000099" TransitionSrcWeather="40" isFireAsh="1" AssetId0="-1" AssetId1="96906" AssetId3="-1" AssetId7="94116" CreateAssetLimitId0="31" />
+<row id="600024041" mapId="60000099" TransitionSrcWeather="40" isFireAsh="1" AssetId0="96820" AssetId1="-1" AssetId3="-1" AssetId7="94117" CreateAssetLimitId0="41" />
+<row id="600024042" mapId="60000099" TransitionSrcWeather="40" isFireAsh="1" AssetId0="-1" AssetId1="96882" AssetId3="-1" AssetId7="94115" CreateAssetLimitId0="42" />
+<row id="600024121" mapId="60000099" TransitionSrcWeather="41" isFireAsh="1" AssetId0="-1" AssetId1="96885" AssetId3="-1" AssetId7="94115" CreateAssetLimitId0="21" />
+<row id="600024131" mapId="60000099" TransitionSrcWeather="41" isFireAsh="1" AssetId0="-1" AssetId1="96906" AssetId3="-1" AssetId7="94116" CreateAssetLimitId0="31" />
+<row id="600024141" mapId="60000099" TransitionSrcWeather="41" isFireAsh="1" AssetId0="96820" AssetId1="-1" AssetId3="-1" AssetId7="94117" CreateAssetLimitId0="41" />
+<row id="600024142" mapId="60000099" TransitionSrcWeather="41" isFireAsh="1" AssetId0="-1" AssetId1="96882" AssetId3="-1" AssetId7="94115" CreateAssetLimitId0="42" />
+<row id="600025021" mapId="60000099" TransitionSrcWeather="50" isFireAsh="1" AssetId0="-1" AssetId1="96885" AssetId3="-1" AssetId7="94115" CreateAssetLimitId0="21" />
+<row id="600025031" mapId="60000099" TransitionSrcWeather="50" isFireAsh="1" AssetId0="-1" AssetId1="96906" AssetId3="-1" AssetId7="94116" CreateAssetLimitId0="31" />
+<row id="600025041" mapId="60000099" TransitionSrcWeather="50" isFireAsh="1" AssetId0="96820" AssetId1="-1" AssetId3="-1" AssetId7="94117" CreateAssetLimitId0="41" />
+<row id="600025042" mapId="60000099" TransitionSrcWeather="50" isFireAsh="1" AssetId0="-1" AssetId1="96882" AssetId3="-1" AssetId7="94115" CreateAssetLimitId0="42" />
+<row id="600025121" mapId="60000099" TransitionSrcWeather="51" isFireAsh="1" AssetId0="-1" AssetId1="96885" AssetId3="-1" AssetId7="94115" CreateAssetLimitId0="21" />
+<row id="600025131" mapId="60000099" TransitionSrcWeather="51" isFireAsh="1" AssetId0="-1" AssetId1="96906" AssetId3="-1" AssetId7="94116" CreateAssetLimitId0="31" />
+<row id="600025141" mapId="60000099" TransitionSrcWeather="51" isFireAsh="1" AssetId0="96820" AssetId1="-1" AssetId3="-1" AssetId7="94117" CreateAssetLimitId0="41" />
+<row id="600025142" mapId="60000099" TransitionSrcWeather="51" isFireAsh="1" AssetId0="-1" AssetId1="96882" AssetId3="-1" AssetId7="94115" CreateAssetLimitId0="42" />
+<row id="600025221" mapId="60000099" TransitionSrcWeather="52" isFireAsh="1" AssetId0="-1" AssetId1="96885" AssetId3="-1" AssetId7="94115" CreateAssetLimitId0="21" />
+<row id="600025231" mapId="60000099" TransitionSrcWeather="52" isFireAsh="1" AssetId0="-1" AssetId1="96906" AssetId3="-1" AssetId7="94116" CreateAssetLimitId0="31" />
+<row id="600025241" mapId="60000099" TransitionSrcWeather="52" isFireAsh="1" AssetId0="96820" AssetId1="-1" AssetId3="-1" AssetId7="94117" CreateAssetLimitId0="41" />
+<row id="600025242" mapId="60000099" TransitionSrcWeather="52" isFireAsh="1" AssetId0="-1" AssetId1="96882" AssetId3="-1" AssetId7="94115" CreateAssetLimitId0="42" />
+<row id="600026021" mapId="60000099" TransitionSrcWeather="60" isFireAsh="1" AssetId0="-1" AssetId1="96885" AssetId3="-1" AssetId7="94115" CreateAssetLimitId0="21" />
+<row id="600026031" mapId="60000099" TransitionSrcWeather="60" isFireAsh="1" AssetId0="-1" AssetId1="96906" AssetId3="-1" AssetId7="94116" CreateAssetLimitId0="31" />
+<row id="600026041" mapId="60000099" TransitionSrcWeather="60" isFireAsh="1" AssetId0="96820" AssetId1="-1" AssetId3="-1" AssetId7="94117" CreateAssetLimitId0="41" />
+<row id="600026042" mapId="60000099" TransitionSrcWeather="60" isFireAsh="1" AssetId0="-1" AssetId1="96882" AssetId3="-1" AssetId7="94115" CreateAssetLimitId0="42" />
+<row id="600028141" mapId="60000099" TransitionSrcWeather="81" isFireAsh="1" AssetId0="96820" AssetId1="-1" AssetId3="-1" AssetId7="94117" CreateAssetLimitId0="41" />
+<row id="600029921" mapId="60000099" TransitionSrcWeather="99" isFireAsh="1" AssetId0="96102" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="21" />
+<row id="600029931" mapId="60000099" TransitionSrcWeather="99" isFireAsh="1" AssetId0="96102" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="31" />
+<row id="600029941" mapId="60000099" TransitionSrcWeather="99" isFireAsh="1" AssetId0="96102" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="41" />
+<row id="600029942" mapId="60000099" TransitionSrcWeather="99" isFireAsh="1" AssetId0="96102" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="42" />
+<row id="610010050" mapId="61000099" TransitionSrcWeather="0" isFireAsh="2" AssetId0="462001" AssetId1="462002" AssetId3="462016" AssetId4="462030" AssetId5="462031" CreateAssetLimitId0="50" />
+<row id="610010055" mapId="61000099" TransitionSrcWeather="0" isFireAsh="2" AssetId0="462018" AssetId1="462010" AssetId2="462011" AssetId3="462043" CreateAssetLimitId0="55" />
+<row id="610010060" mapId="61000099" TransitionSrcWeather="0" isFireAsh="2" AssetId0="462012" AssetId1="-1" AssetId2="462032" AssetId3="462016" CreateAssetLimitId0="60" />
+<row id="610010065" mapId="61000099" TransitionSrcWeather="0" isFireAsh="2" AssetId0="462001" AssetId1="462002" AssetId3="-1" CreateAssetLimitId0="65" />
+<row id="610010070" mapId="61000099" TransitionSrcWeather="0" isFireAsh="2" AssetId0="462034" AssetId1="-1" AssetId3="462016" CreateAssetLimitId0="70" />
+<row id="610010075" mapId="61000099" TransitionSrcWeather="0" isFireAsh="2" AssetId0="462001" AssetId1="462046" AssetId2="462022" AssetId3="462023" CreateAssetLimitId0="75" />
+<row id="610010078" mapId="61000099" TransitionSrcWeather="0" isFireAsh="2" AssetId0="462001" AssetId1="462045" AssetId3="462016" AssetId4="462044" AssetId5="462031" CreateAssetLimitId0="78" />
+<row id="610010150" mapId="61000099" TransitionSrcWeather="1" isFireAsh="2" AssetId0="462009" AssetId1="-1" AssetId3="462016" AssetId4="462030" AssetId5="462031" CreateAssetLimitId0="50" />
+<row id="610010155" mapId="61000099" TransitionSrcWeather="1" isFireAsh="2" AssetId0="462019" AssetId1="-1" AssetId2="462011" AssetId3="462043" CreateAssetLimitId0="55" />
+<row id="610010160" mapId="61000099" TransitionSrcWeather="1" isFireAsh="2" AssetId0="462009" AssetId1="-1" AssetId2="462032" AssetId3="462016" CreateAssetLimitId0="60" />
+<row id="610010165" mapId="61000099" TransitionSrcWeather="1" isFireAsh="2" AssetId0="462009" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="65" />
+<row id="610010170" mapId="61000099" TransitionSrcWeather="1" isFireAsh="2" AssetId0="462017" AssetId1="-1" AssetId3="462016" CreateAssetLimitId0="70" />
+<row id="610010175" mapId="61000099" TransitionSrcWeather="1" isFireAsh="2" AssetId0="462009" AssetId1="-1" AssetId2="462022" AssetId3="462023" CreateAssetLimitId0="75" />
+<row id="610010178" mapId="61000099" TransitionSrcWeather="1" isFireAsh="2" AssetId0="462009" AssetId1="-1" AssetId3="462016" AssetId4="462044" AssetId5="462031" CreateAssetLimitId0="78" />
+<row id="610011050" mapId="61000099" TransitionSrcWeather="10" isFireAsh="2" AssetId0="462001" AssetId1="462020" AssetId3="462016" AssetId4="462030" AssetId5="462031" CreateAssetLimitId0="50" />
+<row id="610011055" mapId="61000099" TransitionSrcWeather="10" isFireAsh="2" AssetId0="462018" AssetId1="462010" AssetId2="462011" AssetId3="462043" CreateAssetLimitId0="55" />
+<row id="610011060" mapId="61000099" TransitionSrcWeather="10" isFireAsh="2" AssetId0="462012" AssetId1="-1" AssetId2="462032" AssetId3="462016" CreateAssetLimitId0="60" />
+<row id="610011065" mapId="61000099" TransitionSrcWeather="10" isFireAsh="2" AssetId0="462001" AssetId1="462002" AssetId3="-1" CreateAssetLimitId0="65" />
+<row id="610011070" mapId="61000099" TransitionSrcWeather="10" isFireAsh="2" AssetId0="462034" AssetId1="-1" AssetId3="462016" CreateAssetLimitId0="70" />
+<row id="610011075" mapId="61000099" TransitionSrcWeather="10" isFireAsh="2" AssetId0="462001" AssetId1="462046" AssetId2="462022" AssetId3="462023" CreateAssetLimitId0="75" />
+<row id="610011078" mapId="61000099" TransitionSrcWeather="10" isFireAsh="2" AssetId0="462001" AssetId1="462045" AssetId3="462016" AssetId4="462044" AssetId5="462031" CreateAssetLimitId0="78" />
+<row id="610011150" mapId="61000099" TransitionSrcWeather="11" isFireAsh="2" AssetId0="462001" AssetId1="462028" AssetId3="462016" AssetId4="462030" AssetId5="462031" CreateAssetLimitId0="50" />
+<row id="610011155" mapId="61000099" TransitionSrcWeather="11" isFireAsh="2" AssetId0="462018" AssetId1="462048" AssetId2="462011" AssetId3="462043" CreateAssetLimitId0="55" />
+<row id="610011160" mapId="61000099" TransitionSrcWeather="11" isFireAsh="2" AssetId0="462012" AssetId1="-1" AssetId2="462032" AssetId3="462016" CreateAssetLimitId0="60" />
+<row id="610011165" mapId="61000099" TransitionSrcWeather="11" isFireAsh="2" AssetId0="462001" AssetId1="462002" AssetId3="-1" CreateAssetLimitId0="65" />
+<row id="610011170" mapId="61000099" TransitionSrcWeather="11" isFireAsh="2" AssetId0="462034" AssetId1="-1" AssetId3="462016" CreateAssetLimitId0="70" />
+<row id="610011175" mapId="61000099" TransitionSrcWeather="11" isFireAsh="2" AssetId0="462001" AssetId1="462046" AssetId2="462022" AssetId3="462023" CreateAssetLimitId0="75" />
+<row id="610011178" mapId="61000099" TransitionSrcWeather="11" isFireAsh="2" AssetId0="462001" AssetId1="462045" AssetId3="462016" AssetId4="462044" AssetId5="462031" CreateAssetLimitId0="78" />
+<row id="610012050" mapId="61000099" TransitionSrcWeather="20" isFireAsh="2" AssetId0="462001" AssetId1="462036" AssetId3="462016" AssetId4="462030" AssetId5="462031" CreateAssetLimitId0="50" />
+<row id="610012055" mapId="61000099" TransitionSrcWeather="20" isFireAsh="2" AssetId0="462018" AssetId1="462010" AssetId2="462011" AssetId3="462043" CreateAssetLimitId0="55" />
+<row id="610012060" mapId="61000099" TransitionSrcWeather="20" isFireAsh="2" AssetId0="462012" AssetId1="-1" AssetId2="462032" AssetId3="462016" CreateAssetLimitId0="60" />
+<row id="610012065" mapId="61000099" TransitionSrcWeather="20" isFireAsh="2" AssetId0="462001" AssetId1="462002" AssetId3="-1" CreateAssetLimitId0="65" />
+<row id="610012070" mapId="61000099" TransitionSrcWeather="20" isFireAsh="2" AssetId0="462034" AssetId1="-1" AssetId3="462016" CreateAssetLimitId0="70" />
+<row id="610012075" mapId="61000099" TransitionSrcWeather="20" isFireAsh="2" AssetId0="462001" AssetId1="462046" AssetId2="462022" AssetId3="462023" CreateAssetLimitId0="75" />
+<row id="610012078" mapId="61000099" TransitionSrcWeather="20" isFireAsh="2" AssetId0="462001" AssetId1="462036" AssetId3="462016" AssetId4="462044" AssetId5="462031" CreateAssetLimitId0="78" />
+<row id="610012150" mapId="61000099" TransitionSrcWeather="21" isFireAsh="2" AssetId0="462001" AssetId1="462036" AssetId3="462016" AssetId4="462030" AssetId5="462031" CreateAssetLimitId0="50" />
+<row id="610012155" mapId="61000099" TransitionSrcWeather="21" isFireAsh="2" AssetId0="462018" AssetId1="462010" AssetId2="462011" AssetId3="462043" CreateAssetLimitId0="55" />
+<row id="610012160" mapId="61000099" TransitionSrcWeather="21" isFireAsh="2" AssetId0="462012" AssetId1="-1" AssetId2="462032" AssetId3="462016" CreateAssetLimitId0="60" />
+<row id="610012165" mapId="61000099" TransitionSrcWeather="21" isFireAsh="2" AssetId0="462001" AssetId1="462002" AssetId3="-1" CreateAssetLimitId0="65" />
+<row id="610012170" mapId="61000099" TransitionSrcWeather="21" isFireAsh="2" AssetId0="462034" AssetId1="-1" AssetId3="462016" CreateAssetLimitId0="70" />
+<row id="610012175" mapId="61000099" TransitionSrcWeather="21" isFireAsh="2" AssetId0="462001" AssetId1="462046" AssetId2="462022" AssetId3="462023" CreateAssetLimitId0="75" />
+<row id="610012178" mapId="61000099" TransitionSrcWeather="21" isFireAsh="2" AssetId0="462001" AssetId1="462036" AssetId3="462016" AssetId4="462044" AssetId5="462031" CreateAssetLimitId0="78" />
+<row id="610013050" mapId="61000099" TransitionSrcWeather="30" isFireAsh="2" AssetId0="462001" AssetId1="462036" AssetId3="462016" AssetId4="462030" AssetId5="462031" CreateAssetLimitId0="50" />
+<row id="610013055" mapId="61000099" TransitionSrcWeather="30" isFireAsh="2" AssetId0="462018" AssetId1="462010" AssetId2="462011" AssetId3="462043" CreateAssetLimitId0="55" />
+<row id="610013060" mapId="61000099" TransitionSrcWeather="30" isFireAsh="2" AssetId0="462012" AssetId1="-1" AssetId2="462032" AssetId3="462016" CreateAssetLimitId0="60" />
+<row id="610013065" mapId="61000099" TransitionSrcWeather="30" isFireAsh="2" AssetId0="462001" AssetId1="462002" AssetId3="-1" CreateAssetLimitId0="65" />
+<row id="610013070" mapId="61000099" TransitionSrcWeather="30" isFireAsh="2" AssetId0="462034" AssetId1="-1" AssetId3="462016" CreateAssetLimitId0="70" />
+<row id="610013075" mapId="61000099" TransitionSrcWeather="30" isFireAsh="2" AssetId0="462001" AssetId1="462046" AssetId2="462022" AssetId3="462023" CreateAssetLimitId0="75" />
+<row id="610013078" mapId="61000099" TransitionSrcWeather="30" isFireAsh="2" AssetId0="462001" AssetId1="462036" AssetId3="462016" AssetId4="462044" AssetId5="462031" CreateAssetLimitId0="78" />
+<row id="610013150" mapId="61000099" TransitionSrcWeather="31" isFireAsh="2" AssetId0="462001" AssetId1="462036" AssetId3="462016" AssetId4="462030" AssetId5="462031" CreateAssetLimitId0="50" />
+<row id="610013155" mapId="61000099" TransitionSrcWeather="31" isFireAsh="2" AssetId0="462018" AssetId1="462010" AssetId2="462011" AssetId3="462043" CreateAssetLimitId0="55" />
+<row id="610013160" mapId="61000099" TransitionSrcWeather="31" isFireAsh="2" AssetId0="462012" AssetId1="-1" AssetId2="462032" AssetId3="462016" CreateAssetLimitId0="60" />
+<row id="610013165" mapId="61000099" TransitionSrcWeather="31" isFireAsh="2" AssetId0="462001" AssetId1="462002" AssetId3="-1" CreateAssetLimitId0="65" />
+<row id="610013170" mapId="61000099" TransitionSrcWeather="31" isFireAsh="2" AssetId0="462017" AssetId1="-1" AssetId3="462016" CreateAssetLimitId0="70" />
+<row id="610013175" mapId="61000099" TransitionSrcWeather="31" isFireAsh="2" AssetId0="462001" AssetId1="462027" AssetId2="462022" AssetId3="462023" CreateAssetLimitId0="75" />
+<row id="610013178" mapId="61000099" TransitionSrcWeather="31" isFireAsh="2" AssetId0="462001" AssetId1="462036" AssetId3="462016" AssetId4="462044" AssetId5="462031" CreateAssetLimitId0="78" />
+<row id="610014050" mapId="61000099" TransitionSrcWeather="40" isFireAsh="2" AssetId0="462001" AssetId1="462036" AssetId3="462016" AssetId4="462030" AssetId5="462031" CreateAssetLimitId0="50" />
+<row id="610014055" mapId="61000099" TransitionSrcWeather="40" isFireAsh="2" AssetId0="462018" AssetId1="462010" AssetId2="462011" AssetId3="462043" CreateAssetLimitId0="55" />
+<row id="610014060" mapId="61000099" TransitionSrcWeather="40" isFireAsh="2" AssetId0="462012" AssetId1="-1" AssetId2="462032" AssetId3="462016" CreateAssetLimitId0="60" />
+<row id="610014065" mapId="61000099" TransitionSrcWeather="40" isFireAsh="2" AssetId0="462001" AssetId1="462002" AssetId3="-1" CreateAssetLimitId0="65" />
+<row id="610014070" mapId="61000099" TransitionSrcWeather="40" isFireAsh="2" AssetId0="462034" AssetId1="-1" AssetId3="462016" CreateAssetLimitId0="70" />
+<row id="610014075" mapId="61000099" TransitionSrcWeather="40" isFireAsh="2" AssetId0="462001" AssetId1="462027" AssetId2="462022" AssetId3="462023" CreateAssetLimitId0="75" />
+<row id="610014078" mapId="61000099" TransitionSrcWeather="40" isFireAsh="2" AssetId0="462001" AssetId1="462036" AssetId3="462016" AssetId4="462044" AssetId5="462031" CreateAssetLimitId0="78" />
+<row id="610014150" mapId="61000099" TransitionSrcWeather="41" isFireAsh="2" AssetId0="462001" AssetId1="462036" AssetId3="462016" AssetId4="462030" AssetId5="462031" CreateAssetLimitId0="50" />
+<row id="610014155" mapId="61000099" TransitionSrcWeather="41" isFireAsh="2" AssetId0="462018" AssetId1="462010" AssetId2="462011" AssetId3="462043" CreateAssetLimitId0="55" />
+<row id="610014160" mapId="61000099" TransitionSrcWeather="41" isFireAsh="2" AssetId0="462012" AssetId1="-1" AssetId2="462032" AssetId3="462016" CreateAssetLimitId0="60" />
+<row id="610014165" mapId="61000099" TransitionSrcWeather="41" isFireAsh="2" AssetId0="462001" AssetId1="462002" AssetId3="-1" CreateAssetLimitId0="65" />
+<row id="610014170" mapId="61000099" TransitionSrcWeather="41" isFireAsh="2" AssetId0="462034" AssetId1="-1" AssetId3="462016" CreateAssetLimitId0="70" />
+<row id="610014175" mapId="61000099" TransitionSrcWeather="41" isFireAsh="2" AssetId0="462001" AssetId1="462027" AssetId2="462022" AssetId3="462023" CreateAssetLimitId0="75" />
+<row id="610014178" mapId="61000099" TransitionSrcWeather="41" isFireAsh="2" AssetId0="462001" AssetId1="462036" AssetId3="462016" AssetId4="462044" AssetId5="462031" CreateAssetLimitId0="78" />
+<row id="610015050" mapId="61000099" TransitionSrcWeather="50" isFireAsh="2" AssetId0="462001" AssetId1="462002" AssetId3="462016" AssetId4="462030" AssetId5="462031" CreateAssetLimitId0="50" />
+<row id="610015055" mapId="61000099" TransitionSrcWeather="50" isFireAsh="2" AssetId0="462018" AssetId1="462010" AssetId2="462011" AssetId3="462043" CreateAssetLimitId0="55" />
+<row id="610015060" mapId="61000099" TransitionSrcWeather="50" isFireAsh="2" AssetId0="462012" AssetId1="-1" AssetId2="462032" AssetId3="462016" CreateAssetLimitId0="60" />
+<row id="610015065" mapId="61000099" TransitionSrcWeather="50" isFireAsh="2" AssetId0="462001" AssetId1="462002" AssetId3="-1" CreateAssetLimitId0="65" />
+<row id="610015070" mapId="61000099" TransitionSrcWeather="50" isFireAsh="2" AssetId0="462034" AssetId1="-1" AssetId3="462016" CreateAssetLimitId0="70" />
+<row id="610015075" mapId="61000099" TransitionSrcWeather="50" isFireAsh="2" AssetId0="462001" AssetId1="462046" AssetId2="462022" AssetId3="462023" CreateAssetLimitId0="75" />
+<row id="610015078" mapId="61000099" TransitionSrcWeather="50" isFireAsh="2" AssetId0="462001" AssetId1="462036" AssetId3="462016" AssetId5="462031" CreateAssetLimitId0="78" />
+<row id="610015150" mapId="61000099" TransitionSrcWeather="51" isFireAsh="2" AssetId0="462001" AssetId1="462002" AssetId3="462016" AssetId4="462030" AssetId5="462031" CreateAssetLimitId0="50" />
+<row id="610015155" mapId="61000099" TransitionSrcWeather="51" isFireAsh="2" AssetId0="462018" AssetId1="462010" AssetId2="462011" AssetId3="462043" CreateAssetLimitId0="55" />
+<row id="610015160" mapId="61000099" TransitionSrcWeather="51" isFireAsh="2" AssetId0="462012" AssetId1="-1" AssetId2="462032" AssetId3="462016" CreateAssetLimitId0="60" />
+<row id="610015165" mapId="61000099" TransitionSrcWeather="51" isFireAsh="2" AssetId0="462001" AssetId1="462002" AssetId3="-1" CreateAssetLimitId0="65" />
+<row id="610015170" mapId="61000099" TransitionSrcWeather="51" isFireAsh="2" AssetId0="462034" AssetId1="-1" AssetId3="462016" CreateAssetLimitId0="70" />
+<row id="610015175" mapId="61000099" TransitionSrcWeather="51" isFireAsh="2" AssetId0="462001" AssetId1="462046" AssetId2="462022" AssetId3="462023" CreateAssetLimitId0="75" />
+<row id="610015178" mapId="61000099" TransitionSrcWeather="51" isFireAsh="2" AssetId0="462001" AssetId1="462036" AssetId3="462016" AssetId5="462031" CreateAssetLimitId0="78" />
+<row id="610015250" mapId="61000099" TransitionSrcWeather="52" isFireAsh="2" AssetId0="462001" AssetId1="462002" AssetId3="462016" AssetId4="462030" AssetId5="462031" CreateAssetLimitId0="50" />
+<row id="610015255" mapId="61000099" TransitionSrcWeather="52" isFireAsh="2" AssetId0="462018" AssetId1="462010" AssetId2="462011" AssetId3="462043" CreateAssetLimitId0="55" />
+<row id="610015260" mapId="61000099" TransitionSrcWeather="52" isFireAsh="2" AssetId0="462012" AssetId1="-1" AssetId2="462032" AssetId3="462016" CreateAssetLimitId0="60" />
+<row id="610015265" mapId="61000099" TransitionSrcWeather="52" isFireAsh="2" AssetId0="462001" AssetId1="462002" AssetId3="-1" CreateAssetLimitId0="65" />
+<row id="610015270" mapId="61000099" TransitionSrcWeather="52" isFireAsh="2" AssetId0="462034" AssetId1="-1" AssetId3="462016" CreateAssetLimitId0="70" />
+<row id="610015275" mapId="61000099" TransitionSrcWeather="52" isFireAsh="2" AssetId0="462001" AssetId1="462027" AssetId2="462022" AssetId3="462023" CreateAssetLimitId0="75" />
+<row id="610015278" mapId="61000099" TransitionSrcWeather="52" isFireAsh="2" AssetId0="462001" AssetId1="462036" AssetId3="462016" AssetId5="462031" CreateAssetLimitId0="78" />
+<row id="610016050" mapId="61000099" TransitionSrcWeather="60" isFireAsh="2" AssetId0="462001" AssetId1="462002" AssetId3="462016" AssetId4="462030" AssetId5="462031" CreateAssetLimitId0="50" />
+<row id="610016055" mapId="61000099" TransitionSrcWeather="60" isFireAsh="2" AssetId0="462018" AssetId1="462010" AssetId2="462011" AssetId3="462043" CreateAssetLimitId0="55" />
+<row id="610016060" mapId="61000099" TransitionSrcWeather="60" isFireAsh="2" AssetId0="462012" AssetId1="-1" AssetId2="462032" AssetId3="462016" CreateAssetLimitId0="60" />
+<row id="610016065" mapId="61000099" TransitionSrcWeather="60" isFireAsh="2" AssetId0="462001" AssetId1="462002" AssetId3="-1" CreateAssetLimitId0="65" />
+<row id="610016070" mapId="61000099" TransitionSrcWeather="60" isFireAsh="2" AssetId0="462034" AssetId1="-1" AssetId3="462016" CreateAssetLimitId0="70" />
+<row id="610016075" mapId="61000099" TransitionSrcWeather="60" isFireAsh="2" AssetId0="462001" AssetId1="462027" AssetId2="462022" AssetId3="462023" CreateAssetLimitId0="75" />
+<row id="610016078" mapId="61000099" TransitionSrcWeather="60" isFireAsh="2" AssetId0="462001" AssetId1="462036" AssetId3="462016" AssetId4="462044" AssetId5="462031" CreateAssetLimitId0="78" />
+<row id="610018250" mapId="61000099" TransitionSrcWeather="82" isFireAsh="2" AssetId0="462001" AssetId1="462002" AssetId3="462016" AssetId4="462030" AssetId5="462031" CreateAssetLimitId0="50" />
+<row id="610018255" mapId="61000099" TransitionSrcWeather="82" isFireAsh="2" AssetId0="462018" AssetId1="462010" AssetId2="462011" AssetId3="462043" CreateAssetLimitId0="55" />
+<row id="610018260" mapId="61000099" TransitionSrcWeather="82" isFireAsh="2" AssetId0="462012" AssetId1="-1" AssetId2="462032" AssetId3="462016" CreateAssetLimitId0="60" />
+<row id="610018265" mapId="61000099" TransitionSrcWeather="82" isFireAsh="2" AssetId0="462001" AssetId1="462002" AssetId3="-1" CreateAssetLimitId0="65" />
+<row id="610018270" mapId="61000099" TransitionSrcWeather="82" isFireAsh="2" AssetId0="462017" AssetId1="-1" AssetId3="462016" CreateAssetLimitId0="70" />
+<row id="610018275" mapId="61000099" TransitionSrcWeather="82" isFireAsh="2" AssetId0="462001" AssetId1="462027" AssetId2="462022" AssetId3="462023" CreateAssetLimitId0="75" />
+<row id="610018278" mapId="61000099" TransitionSrcWeather="82" isFireAsh="2" AssetId0="462001" AssetId1="462036" AssetId3="462016" AssetId4="462044" AssetId5="462031" CreateAssetLimitId0="78" />
+<row id="610018450" mapId="61000099" TransitionSrcWeather="84" isFireAsh="2" AssetId0="462001" AssetId1="462002" AssetId3="462016" AssetId4="462030" AssetId5="462031" CreateAssetLimitId0="50" />
+<row id="610018460" mapId="61000099" TransitionSrcWeather="84" isFireAsh="2" AssetId0="462012" AssetId1="-1" AssetId2="462032" AssetId3="462016" CreateAssetLimitId0="60" />
+<row id="610018470" mapId="61000099" TransitionSrcWeather="84" isFireAsh="2" AssetId0="462034" AssetId1="-1" AssetId3="462016" CreateAssetLimitId0="70" />
+<row id="610018478" mapId="61000099" TransitionSrcWeather="84" isFireAsh="2" AssetId0="462001" AssetId1="462045" AssetId3="462016" AssetId4="462044" AssetId5="462031" CreateAssetLimitId0="78" />
+<row id="610018550" mapId="61000099" TransitionSrcWeather="85" isFireAsh="2" AssetId0="462001" AssetId1="462002" AssetId3="462016" AssetId4="462030" AssetId5="462031" CreateAssetLimitId0="50" />
+<row id="610018575" mapId="61000099" TransitionSrcWeather="85" isFireAsh="2" AssetId0="462001" AssetId1="462046" AssetId2="462022" AssetId3="462023" CreateAssetLimitId0="75" />
+<row id="610018578" mapId="61000099" TransitionSrcWeather="85" isFireAsh="2" AssetId0="462001" AssetId1="462045" AssetId3="462016" AssetId4="462044" AssetId5="462031" CreateAssetLimitId0="78" />
+<row id="610019950" mapId="61000099" TransitionSrcWeather="99" isFireAsh="2" AssetId0="462000" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="50" />
+<row id="610019955" mapId="61000099" TransitionSrcWeather="99" isFireAsh="2" AssetId0="462000" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="55" />
+<row id="610019960" mapId="61000099" TransitionSrcWeather="99" isFireAsh="2" AssetId0="462000" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="60" />
+<row id="610019965" mapId="61000099" TransitionSrcWeather="99" isFireAsh="2" AssetId0="462000" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="65" />
+<row id="610019970" mapId="61000099" TransitionSrcWeather="99" isFireAsh="2" AssetId0="462000" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="70" />
+<row id="610019975" mapId="61000099" TransitionSrcWeather="99" isFireAsh="2" AssetId0="462000" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="75" />
+<row id="610019978" mapId="61000099" TransitionSrcWeather="99" isFireAsh="2" AssetId0="462000" AssetId1="-1" AssetId3="-1" CreateAssetLimitId0="78" />
+</rows>
+</param>

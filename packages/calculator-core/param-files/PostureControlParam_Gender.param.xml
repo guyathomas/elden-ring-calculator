@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>PostureControlParam_Gender.param</filename>
+<compression>None</compression>
+<type>POSTURE_CONTROL_PARAM_GENDER_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>POSTURE_CONTROL_PARAM_GENDER_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="a000_rightElbowIO" type="s16" arraylength="1" bitsize="-1" sortid="1" defaultValue="0" />
+<field name="a000_leftElbowIO" type="s16" arraylength="1" bitsize="-1" sortid="2" defaultValue="0" />
+<field name="a000_bothLegsIO" type="s16" arraylength="1" bitsize="-1" sortid="3" defaultValue="0" />
+<field name="a002_rightElbowIO" type="s16" arraylength="1" bitsize="-1" sortid="4" defaultValue="0" />
+<field name="a002_leftElbowIO" type="s16" arraylength="1" bitsize="-1" sortid="5" defaultValue="0" />
+<field name="a002_bothLegsIO" type="s16" arraylength="1" bitsize="-1" sortid="6" defaultValue="0" />
+<field name="a003_rightElbowIO" type="s16" arraylength="1" bitsize="-1" sortid="7" defaultValue="0" />
+<field name="a003_leftElbowIO" type="s16" arraylength="1" bitsize="-1" sortid="8" defaultValue="0" />
+<field name="a003_bothLegsIO" type="s16" arraylength="1" bitsize="-1" sortid="9" defaultValue="0" />
+<field name="a010_rightElbowIO" type="s16" arraylength="1" bitsize="-1" sortid="10" defaultValue="0" />
+<field name="a010_leftElbowIO" type="s16" arraylength="1" bitsize="-1" sortid="11" defaultValue="0" />
+<field name="a010_bothLegsIO" type="s16" arraylength="1" bitsize="-1" sortid="12" defaultValue="0" />
+<field name="a012_rightElbowIO" type="s16" arraylength="1" bitsize="-1" sortid="13" defaultValue="0" />
+<field name="a012_leftElbowIO" type="s16" arraylength="1" bitsize="-1" sortid="14" defaultValue="0" />
+<field name="a012_bothLegsIO" type="s16" arraylength="1" bitsize="-1" sortid="15" defaultValue="0" />
+<field name="a013_rightElbowIO" type="s16" arraylength="1" bitsize="-1" sortid="16" defaultValue="0" />
+<field name="a013_leftElbowIO" type="s16" arraylength="1" bitsize="-1" sortid="17" defaultValue="0" />
+<field name="a013_bothLegsIO" type="s16" arraylength="1" bitsize="-1" sortid="18" defaultValue="0" />
+<field name="a014_rightElbowIO" type="s16" arraylength="1" bitsize="-1" sortid="19" defaultValue="0" />
+<field name="a014_leftElbowIO" type="s16" arraylength="1" bitsize="-1" sortid="20" defaultValue="0" />
+<field name="a014_bothLegsIO" type="s16" arraylength="1" bitsize="-1" sortid="21" defaultValue="0" />
+<field name="a015_rightElbowIO" type="s16" arraylength="1" bitsize="-1" sortid="22" defaultValue="0" />
+<field name="a015_leftElbowIO" type="s16" arraylength="1" bitsize="-1" sortid="23" defaultValue="0" />
+<field name="a015_bothLegsIO" type="s16" arraylength="1" bitsize="-1" sortid="24" defaultValue="0" />
+<field name="a016_rightElbowIO" type="s16" arraylength="1" bitsize="-1" sortid="25" defaultValue="0" />
+<field name="a016_leftElbowIO" type="s16" arraylength="1" bitsize="-1" sortid="26" defaultValue="0" />
+<field name="a016_bothLegsIO" type="s16" arraylength="1" bitsize="-1" sortid="27" defaultValue="0" />
+<field name="pad" type="dummy8" arraylength="10" bitsize="-1" sortid="29" defaultValue="[0|0|0|0|0|0|0|0|0|0]" />
+</fields>
+<rows>
+<row id="0" a000_rightElbowIO="0" a000_leftElbowIO="0" a000_bothLegsIO="0" a002_rightElbowIO="0" a002_leftElbowIO="0" a002_bothLegsIO="0" a003_rightElbowIO="0" a003_leftElbowIO="0" a003_bothLegsIO="0" a010_rightElbowIO="0" a010_leftElbowIO="0" a010_bothLegsIO="0" a012_rightElbowIO="0" a012_leftElbowIO="0" a012_bothLegsIO="0" a013_rightElbowIO="0" a013_leftElbowIO="0" a013_bothLegsIO="0" a014_rightElbowIO="0" a014_leftElbowIO="0" a014_bothLegsIO="0" a015_rightElbowIO="0" a015_leftElbowIO="0" a015_bothLegsIO="0" a016_rightElbowIO="0" a016_leftElbowIO="0" a016_bothLegsIO="0" pad="[0|0|0|0|0|0|0|0|0|0]" />
+<row id="1" a000_rightElbowIO="25" a000_leftElbowIO="25" a000_bothLegsIO="-4" a002_rightElbowIO="0" a002_leftElbowIO="25" a002_bothLegsIO="-4" a003_rightElbowIO="15" a003_leftElbowIO="25" a003_bothLegsIO="-4" a010_rightElbowIO="0" a010_leftElbowIO="0" a010_bothLegsIO="-4" a012_rightElbowIO="0" a012_leftElbowIO="0" a012_bothLegsIO="-4" a013_rightElbowIO="0" a013_leftElbowIO="0" a013_bothLegsIO="-4" a014_rightElbowIO="0" a014_leftElbowIO="0" a014_bothLegsIO="-4" a015_rightElbowIO="0" a015_leftElbowIO="0" a015_bothLegsIO="-4" a016_rightElbowIO="0" a016_leftElbowIO="0" a016_bothLegsIO="-4" pad="[0|0|0|0|0|0|0|0|0|0]" />
+<row id="100" a000_rightElbowIO="0" a000_leftElbowIO="0" a000_bothLegsIO="0" a002_rightElbowIO="0" a002_leftElbowIO="0" a002_bothLegsIO="0" a003_rightElbowIO="0" a003_leftElbowIO="0" a003_bothLegsIO="0" a010_rightElbowIO="0" a010_leftElbowIO="0" a010_bothLegsIO="0" a012_rightElbowIO="0" a012_leftElbowIO="0" a012_bothLegsIO="0" a013_rightElbowIO="0" a013_leftElbowIO="0" a013_bothLegsIO="0" a014_rightElbowIO="0" a014_leftElbowIO="0" a014_bothLegsIO="0" a015_rightElbowIO="0" a015_leftElbowIO="0" a015_bothLegsIO="0" a016_rightElbowIO="0" a016_leftElbowIO="0" a016_bothLegsIO="0" pad="[0|0|0|0|0|0|0|0|0|0]" />
+<row id="101" a000_rightElbowIO="21" a000_leftElbowIO="5" a000_bothLegsIO="-3" a002_rightElbowIO="0" a002_leftElbowIO="5" a002_bothLegsIO="-3" a003_rightElbowIO="10" a003_leftElbowIO="5" a003_bothLegsIO="-3" a010_rightElbowIO="21" a010_leftElbowIO="5" a010_bothLegsIO="-3" a012_rightElbowIO="0" a012_leftElbowIO="5" a012_bothLegsIO="-3" a013_rightElbowIO="10" a013_leftElbowIO="5" a013_bothLegsIO="-3" a014_rightElbowIO="21" a014_leftElbowIO="5" a014_bothLegsIO="-3" a015_rightElbowIO="21" a015_leftElbowIO="5" a015_bothLegsIO="-3" a016_rightElbowIO="21" a016_leftElbowIO="5" a016_bothLegsIO="-3" pad="[0|0|0|0|0|0|0|0|0|0]" />
+<row id="200" a000_rightElbowIO="0" a000_leftElbowIO="0" a000_bothLegsIO="0" a002_rightElbowIO="0" a002_leftElbowIO="0" a002_bothLegsIO="0" a003_rightElbowIO="0" a003_leftElbowIO="0" a003_bothLegsIO="0" a010_rightElbowIO="0" a010_leftElbowIO="0" a010_bothLegsIO="0" a012_rightElbowIO="0" a012_leftElbowIO="0" a012_bothLegsIO="0" a013_rightElbowIO="0" a013_leftElbowIO="0" a013_bothLegsIO="0" a014_rightElbowIO="0" a014_leftElbowIO="0" a014_bothLegsIO="0" a015_rightElbowIO="0" a015_leftElbowIO="0" a015_bothLegsIO="0" a016_rightElbowIO="0" a016_leftElbowIO="0" a016_bothLegsIO="0" pad="[0|0|0|0|0|0|0|0|0|0]" />
+<row id="201" a000_rightElbowIO="10" a000_leftElbowIO="15" a000_bothLegsIO="-4" a002_rightElbowIO="5" a002_leftElbowIO="15" a002_bothLegsIO="-4" a003_rightElbowIO="20" a003_leftElbowIO="15" a003_bothLegsIO="-4" a010_rightElbowIO="0" a010_leftElbowIO="0" a010_bothLegsIO="-4" a012_rightElbowIO="0" a012_leftElbowIO="0" a012_bothLegsIO="-4" a013_rightElbowIO="0" a013_leftElbowIO="0" a013_bothLegsIO="-4" a014_rightElbowIO="0" a014_leftElbowIO="0" a014_bothLegsIO="-4" a015_rightElbowIO="0" a015_leftElbowIO="0" a015_bothLegsIO="-4" a016_rightElbowIO="0" a016_leftElbowIO="0" a016_bothLegsIO="-4" pad="[0|0|0|0|0|0|0|0|0|0]" />
+</rows>
+</param>

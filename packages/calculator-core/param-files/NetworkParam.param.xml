@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>NetworkParam.param</filename>
+<compression>None</compression>
+<type>NETWORK_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>10</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>1</unk06>
+<paramdef>
+<type>NETWORK_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>10</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="signVerticalOffset" type="f32" arraylength="1" bitsize="-1" sortid="0" unkb8="common" unkc0="NET_COMMON_PARAM" defaultValue="0.05" />
+<field name="maxSignPosCorrectionRange" type="f32" arraylength="1" bitsize="-1" sortid="1" unkb8="common" unkc0="NET_COMMON_PARAM" defaultValue="1" />
+<field name="summonTimeoutTime" type="f32" arraylength="1" bitsize="-1" sortid="2" unkb8="common" unkc0="NET_COMMON_PARAM" defaultValue="45" />
+<field name="pad_0" type="dummy8" arraylength="4" bitsize="-1" sortid="3" unkb8="common" unkc0="NET_COMMON_PARAM" defaultValue="[0|0|0|0]" />
+<field name="signPuddleActiveMessageIntervalSec" type="f32" arraylength="1" bitsize="-1" sortid="100" unkb8="summonSign" unkc0="NET_SUMMON_SIGN_PARAM" defaultValue="30" />
+<field name="keyGuideHeight_0" type="f32" arraylength="1" bitsize="-1" sortid="101" unkb8="summonSign" unkc0="NET_SUMMON_SIGN_PARAM" defaultValue="180" />
+<field name="reloadSignIntervalTime1" type="f32" arraylength="1" bitsize="-1" sortid="102" unkb8="summonSign" unkc0="NET_SUMMON_SIGN_PARAM" defaultValue="7E-45" />
+<field name="reloadSignIntervalTime2" type="f32" arraylength="1" bitsize="-1" sortid="103" unkb8="summonSign" unkc0="NET_SUMMON_SIGN_PARAM" defaultValue="60" />
+<field name="reloadSignTotalCount_0" type="u32" arraylength="1" bitsize="-1" sortid="105" unkb8="summonSign" unkc0="NET_SUMMON_SIGN_PARAM" defaultValue="20" />
+<field name="reloadSignCellCount_0" type="u32" arraylength="1" bitsize="-1" sortid="106" unkb8="summonSign" unkc0="NET_SUMMON_SIGN_PARAM" defaultValue="10" />
+<field name="updateSignIntervalTime" type="f32" arraylength="1" bitsize="-1" sortid="107" unkb8="summonSign" unkc0="NET_SUMMON_SIGN_PARAM" defaultValue="30" />
+<field name="basicExclusiveRange_0" type="f32" arraylength="1" bitsize="-1" sortid="108" unkb8="summonSign" unkc0="NET_SUMMON_SIGN_PARAM" defaultValue="2" />
+<field name="basicExclusiveHeight_0" type="f32" arraylength="1" bitsize="-1" sortid="109" unkb8="summonSign" unkc0="NET_SUMMON_SIGN_PARAM" defaultValue="2.2" />
+<field name="previewChrWaitingTime" type="f32" arraylength="1" bitsize="-1" sortid="110" unkb8="summonSign" unkc0="NET_SUMMON_SIGN_PARAM" defaultValue="0.5" />
+<field name="signVisibleRange_0" type="f32" arraylength="1" bitsize="-1" sortid="112" unkb8="summonSign" unkc0="NET_SUMMON_SIGN_PARAM" defaultValue="20" />
+<field name="cellGroupHorizontalRange_0" type="u32" arraylength="1" bitsize="-1" sortid="113" unkb8="summonSign" unkc0="NET_SUMMON_SIGN_PARAM" defaultValue="1" />
+<field name="cellGroupTopRange_0" type="u32" arraylength="1" bitsize="-1" sortid="114" unkb8="summonSign" unkc0="NET_SUMMON_SIGN_PARAM" defaultValue="1" />
+<field name="cellGroupBottomRange_0" type="u32" arraylength="1" bitsize="-1" sortid="115" unkb8="summonSign" unkc0="NET_SUMMON_SIGN_PARAM" defaultValue="1" />
+<field name="minWhitePhantomLimitTimeScale" type="f32" arraylength="1" bitsize="-1" sortid="116" unkb8="summonSign" unkc0="NET_SUMMON_SIGN_PARAM" defaultValue="1.2" />
+<field name="minSmallPhantomLimitTimeScale" type="f32" arraylength="1" bitsize="-1" sortid="117" unkb8="summonSign" unkc0="NET_SUMMON_SIGN_PARAM" defaultValue="1.2" />
+<field name="whiteKeywordLimitTimeScale" type="f32" arraylength="1" bitsize="-1" sortid="118" unkb8="summonSign" unkc0="NET_SUMMON_SIGN_PARAM" defaultValue="1.5" />
+<field name="smallKeywordLimitTimeScale" type="f32" arraylength="1" bitsize="-1" sortid="119" unkb8="summonSign" unkc0="NET_SUMMON_SIGN_PARAM" defaultValue="1.5" />
+<field name="blackKeywordLimitTimeScale" type="f32" arraylength="1" bitsize="-1" sortid="120" unkb8="summonSign" unkc0="NET_SUMMON_SIGN_PARAM" defaultValue="1.5" />
+<field name="dragonKeywordLimitTimeScale" type="f32" arraylength="1" bitsize="-1" sortid="121" unkb8="summonSign" unkc0="NET_SUMMON_SIGN_PARAM" defaultValue="1.5" />
+<field name="singGetMax" type="u32" arraylength="1" bitsize="-1" sortid="122" unkb8="summonSign" unkc0="NET_SUMMON_SIGN_PARAM" defaultValue="32" />
+<field name="signDownloadSpan" type="f32" arraylength="1" bitsize="-1" sortid="123" unkb8="summonSign" unkc0="NET_SUMMON_SIGN_PARAM" defaultValue="30" />
+<field name="signUpdateSpan" type="f32" arraylength="1" bitsize="-1" sortid="124" unkb8="summonSign" unkc0="NET_SUMMON_SIGN_PARAM" defaultValue="60" />
+<field name="signPad" type="dummy8" arraylength="4" bitsize="-1" sortid="125" unkb8="summonSign" unkc0="NET_SUMMON_SIGN_PARAM" defaultValue="[0|0|0|0]" />
+<field name="maxBreakInTargetListCount" type="u32" arraylength="1" bitsize="-1" sortid="200" unkb8="breakIn" unkc0="NET_BREAKIN_PARAM" defaultValue="5" />
+<field name="breakInRequestIntervalTimeSec" type="f32" arraylength="1" bitsize="-1" sortid="201" unkb8="breakIn" unkc0="NET_BREAKIN_PARAM" defaultValue="30" />
+<field name="breakInRequestTimeOutSec" type="f32" arraylength="1" bitsize="-1" sortid="202" unkb8="breakIn" unkc0="NET_BREAKIN_PARAM" defaultValue="20" />
+<field name="breakInRequestAreaCount" type="u8" arraylength="1" bitsize="-1" sortid="0" defaultValue="5" />
+<field name="pad_1" type="dummy8" arraylength="3" bitsize="-1" sortid="203" unkb8="breakIn" unkc0="NET_BREAKIN_PARAM" defaultValue="[0|0|0]" />
+<field name="keyGuideRange" type="f32" arraylength="1" bitsize="-1" sortid="300" unkb8="bloodMessage" unkc0="NET_BLOOD_MESSAGE_PARAM" defaultValue="1" />
+<field name="keyGuideHeight_1" type="f32" arraylength="1" bitsize="-1" sortid="301" unkb8="bloodMessage" unkc0="NET_BLOOD_MESSAGE_PARAM" defaultValue="1.1" />
+<field name="reloadSignTotalCount_1" type="u32" arraylength="1" bitsize="-1" sortid="302" unkb8="bloodMessage" unkc0="NET_BLOOD_MESSAGE_PARAM" defaultValue="40" />
+<field name="reloadNewSignCellCount" type="u32" arraylength="1" bitsize="-1" sortid="303" unkb8="bloodMessage" unkc0="NET_BLOOD_MESSAGE_PARAM" defaultValue="3" />
+<field name="reloadRandomSignCellCount" type="u32" arraylength="1" bitsize="-1" sortid="304" unkb8="bloodMessage" unkc0="NET_BLOOD_MESSAGE_PARAM" defaultValue="2" />
+<field name="maxSignTotalCount_0" type="u32" arraylength="1" bitsize="-1" sortid="305" unkb8="bloodMessage" unkc0="NET_BLOOD_MESSAGE_PARAM" defaultValue="100" />
+<field name="maxSignCellCount_0" type="u32" arraylength="1" bitsize="-1" sortid="307" unkb8="bloodMessage" unkc0="NET_BLOOD_MESSAGE_PARAM" defaultValue="10" />
+<field name="basicExclusiveRange_1" type="f32" arraylength="1" bitsize="-1" sortid="308" unkb8="bloodMessage" unkc0="NET_BLOOD_MESSAGE_PARAM" defaultValue="2" />
+<field name="basicExclusiveHeight_1" type="f32" arraylength="1" bitsize="-1" sortid="309" unkb8="bloodMessage" unkc0="NET_BLOOD_MESSAGE_PARAM" defaultValue="2.2" />
+<field name="signVisibleRange_1" type="f32" arraylength="1" bitsize="-1" sortid="310" unkb8="bloodMessage" unkc0="NET_BLOOD_MESSAGE_PARAM" defaultValue="30" />
+<field name="maxWriteSignCount" type="u32" arraylength="1" bitsize="-1" sortid="311" unkb8="bloodMessage" unkc0="NET_BLOOD_MESSAGE_PARAM" defaultValue="10" />
+<field name="maxReadSignCount" type="u32" arraylength="1" bitsize="-1" sortid="312" unkb8="bloodMessage" unkc0="NET_BLOOD_MESSAGE_PARAM" defaultValue="10" />
+<field name="reloadSignIntervalTime_0" type="f32" arraylength="1" bitsize="-1" sortid="313" unkb8="bloodMessage" unkc0="NET_BLOOD_MESSAGE_PARAM" defaultValue="120" />
+<field name="cellGroupHorizontalRange_1" type="u32" arraylength="1" bitsize="-1" sortid="314" unkb8="bloodMessage" unkc0="NET_BLOOD_MESSAGE_PARAM" defaultValue="1" />
+<field name="cellGroupTopRange_1" type="u32" arraylength="1" bitsize="-1" sortid="315" unkb8="bloodMessage" unkc0="NET_BLOOD_MESSAGE_PARAM" defaultValue="1" />
+<field name="cellGroupBottomRange_1" type="u32" arraylength="1" bitsize="-1" sortid="316" unkb8="bloodMessage" unkc0="NET_BLOOD_MESSAGE_PARAM" defaultValue="1" />
+<field name="lifeTime_0" type="u32" arraylength="1" bitsize="-1" sortid="317" unkb8="bloodMessage" unkc0="NET_BLOOD_MESSAGE_PARAM" defaultValue="1800" />
+<field name="downloadSpan_0" type="f32" arraylength="1" bitsize="-1" sortid="318" unkb8="bloodMessage" unkc0="NET_BLOOD_MESSAGE_PARAM" defaultValue="120" />
+<field name="downloadEvaluationSpan" type="f32" arraylength="1" bitsize="-1" sortid="318" unkb8="bloodMessage" unkc0="NET_BLOOD_MESSAGE_PARAM" defaultValue="300" />
+<field name="pad_2" type="dummy8" arraylength="4" bitsize="-1" sortid="319" unkb8="bloodMessage" unkc0="NET_BLOOD_MESSAGE_PARAM" defaultValue="[0|0|0|0]" />
+<field name="deadingGhostStartPosThreshold" type="f32" arraylength="1" bitsize="-1" sortid="401" unkb8="bloodstain" unkc0="NET_BLOODSTAIN_PARAM" defaultValue="1" />
+<field name="keyGuideHeight_2" type="f32" arraylength="1" bitsize="-1" sortid="402" unkb8="bloodstain" unkc0="NET_BLOODSTAIN_PARAM" defaultValue="1.1" />
+<field name="keyGuideRangePlayer" type="f32" arraylength="1" bitsize="-1" sortid="403" unkb8="bloodstain" unkc0="NET_BLOODSTAIN_PARAM" defaultValue="1.2" />
+<field name="keyGuideHeightPlayer" type="f32" arraylength="1" bitsize="-1" sortid="404" unkb8="bloodstain" unkc0="NET_BLOODSTAIN_PARAM" defaultValue="1.3" />
+<field name="reloadSignTotalCount_2" type="u32" arraylength="1" bitsize="-1" sortid="405" unkb8="bloodstain" unkc0="NET_BLOODSTAIN_PARAM" defaultValue="32" />
+<field name="reloadSignCellCount_1" type="u32" arraylength="1" bitsize="-1" sortid="406" unkb8="bloodstain" unkc0="NET_BLOODSTAIN_PARAM" defaultValue="8" />
+<field name="maxSignTotalCount_1" type="u32" arraylength="1" bitsize="-1" sortid="407" unkb8="bloodstain" unkc0="NET_BLOODSTAIN_PARAM" defaultValue="100" />
+<field name="maxSignCellCount_1" type="u32" arraylength="1" bitsize="-1" sortid="408" unkb8="bloodstain" unkc0="NET_BLOODSTAIN_PARAM" defaultValue="10" />
+<field name="reloadSignIntervalTime_1" type="f32" arraylength="1" bitsize="-1" sortid="409" unkb8="bloodstain" unkc0="NET_BLOODSTAIN_PARAM" defaultValue="120" />
+<field name="signVisibleRange_2" type="f32" arraylength="1" bitsize="-1" sortid="410" unkb8="bloodstain" unkc0="NET_BLOODSTAIN_PARAM" defaultValue="30" />
+<field name="basicExclusiveRange_2" type="f32" arraylength="1" bitsize="-1" sortid="411" unkb8="bloodstain" unkc0="NET_BLOODSTAIN_PARAM" defaultValue="2" />
+<field name="basicExclusiveHeight_2" type="f32" arraylength="1" bitsize="-1" sortid="412" unkb8="bloodstain" unkc0="NET_BLOODSTAIN_PARAM" defaultValue="2.2" />
+<field name="cellGroupHorizontalRange_2" type="u32" arraylength="1" bitsize="-1" sortid="413" unkb8="bloodstain" unkc0="NET_BLOODSTAIN_PARAM" defaultValue="1" />
+<field name="cellGroupTopRange_2" type="u32" arraylength="1" bitsize="-1" sortid="414" unkb8="bloodstain" unkc0="NET_BLOODSTAIN_PARAM" defaultValue="1" />
+<field name="cellGroupBottomRange_2" type="u32" arraylength="1" bitsize="-1" sortid="415" unkb8="bloodstain" unkc0="NET_BLOODSTAIN_PARAM" defaultValue="1" />
+<field name="lifeTime_1" type="u32" arraylength="1" bitsize="-1" sortid="416" unkb8="bloodstain" unkc0="NET_BLOODSTAIN_PARAM" defaultValue="1800" />
+<field name="recordDeadingGhostTotalTime" type="f32" arraylength="1" bitsize="-1" sortid="417" unkb8="bloodstain" unkc0="NET_BLOODSTAIN_PARAM" defaultValue="10" />
+<field name="recordDeadingGhostMinTime" type="f32" arraylength="1" bitsize="-1" sortid="418" unkb8="bloodstain" unkc0="NET_BLOODSTAIN_PARAM" defaultValue="5" />
+<field name="downloadSpan_1" type="f32" arraylength="1" bitsize="-1" sortid="419" unkb8="bloodstain" unkc0="NET_BLOODSTAIN_PARAM" defaultValue="120" />
+<field name="statueCreatableDistance" type="f32" arraylength="1" bitsize="-1" sortid="420" unkb8="bloodstain" unkc0="NET_BLOODSTAIN_PARAM" defaultValue="80" />
+<field name="reloadGhostTotalCount" type="u32" arraylength="1" bitsize="-1" sortid="500" unkb8="ghost" unkc0="NET_GHOST_PARAM" defaultValue="8" />
+<field name="reloadGhostCellCount" type="u32" arraylength="1" bitsize="-1" sortid="501" unkb8="ghost" unkc0="NET_GHOST_PARAM" defaultValue="4" />
+<field name="maxGhostTotalCount" type="u32" arraylength="1" bitsize="-1" sortid="502" unkb8="ghost" unkc0="NET_GHOST_PARAM" defaultValue="10" />
+<field name="distanceOfBeginRecordVersus" type="f32" arraylength="1" bitsize="-1" sortid="503" unkb8="ghost" unkc0="NET_GHOST_PARAM" defaultValue="2" />
+<field name="distanceOfEndRecordVersus" type="f32" arraylength="1" bitsize="-1" sortid="504" unkb8="ghost" unkc0="NET_GHOST_PARAM" defaultValue="10" />
+<field name="updateWanderGhostIntervalTime" type="f32" arraylength="1" bitsize="-1" sortid="505" unkb8="ghost" unkc0="NET_GHOST_PARAM" defaultValue="120" />
+<field name="updateVersusGhostIntervalTime" type="f32" arraylength="1" bitsize="-1" sortid="506" unkb8="ghost" unkc0="NET_GHOST_PARAM" defaultValue="100" />
+<field name="recordWanderingGhostTime" type="f32" arraylength="1" bitsize="-1" sortid="507" unkb8="ghost" unkc0="NET_GHOST_PARAM" defaultValue="10" />
+<field name="recordWanderingGhostMinTime" type="f32" arraylength="1" bitsize="-1" sortid="508" unkb8="ghost" unkc0="NET_GHOST_PARAM" defaultValue="5" />
+<field name="updateBonfireGhostIntervalTime" type="f32" arraylength="1" bitsize="-1" sortid="509" unkb8="ghost" unkc0="NET_GHOST_PARAM" defaultValue="600" />
+<field name="replayGhostRangeOnView" type="f32" arraylength="1" bitsize="-1" sortid="510" unkb8="ghost" unkc0="NET_GHOST_PARAM" defaultValue="30" />
+<field name="replayGhostRangeOutView" type="f32" arraylength="1" bitsize="-1" sortid="511" unkb8="ghost" unkc0="NET_GHOST_PARAM" defaultValue="10" />
+<field name="replayBonfireGhostTime" type="f32" arraylength="1" bitsize="-1" sortid="512" unkb8="ghost" unkc0="NET_GHOST_PARAM" defaultValue="15" />
+<field name="minBonfireGhostValidRange" type="f32" arraylength="1" bitsize="-1" sortid="513" unkb8="ghost" unkc0="NET_GHOST_PARAM" defaultValue="1" />
+<field name="maxBonfireGhostValidRange" type="f32" arraylength="1" bitsize="-1" sortid="514" unkb8="ghost" unkc0="NET_GHOST_PARAM" defaultValue="5" />
+<field name="minReplayIntervalTime" type="f32" arraylength="1" bitsize="-1" sortid="515" unkb8="ghost" unkc0="NET_GHOST_PARAM" defaultValue="6" />
+<field name="maxReplayIntervalTime" type="f32" arraylength="1" bitsize="-1" sortid="516" unkb8="ghost" unkc0="NET_GHOST_PARAM" defaultValue="18" />
+<field name="reloadGhostIntervalTime" type="f32" arraylength="1" bitsize="-1" sortid="517" unkb8="ghost" unkc0="NET_GHOST_PARAM" defaultValue="120" />
+<field name="cellGroupHorizontalRange_3" type="u32" arraylength="1" bitsize="-1" sortid="518" unkb8="ghost" unkc0="NET_GHOST_PARAM" defaultValue="1" />
+<field name="cellGroupTopRange_3" type="u32" arraylength="1" bitsize="-1" sortid="519" unkb8="ghost" unkc0="NET_GHOST_PARAM" defaultValue="1" />
+<field name="replayBonfirePhantomParamIdForCodename" type="s32" arraylength="1" bitsize="-1" sortid="520" unkb8="ghost" unkc0="NET_GHOST_PARAM" defaultValue="930" />
+<field name="replayBonfireModeRange" type="f32" arraylength="1" bitsize="-1" sortid="521" unkb8="ghost" unkc0="NET_GHOST_PARAM" defaultValue="3" />
+<field name="replayBonfirePhantomParamId" type="s32" arraylength="1" bitsize="-1" sortid="522" unkb8="ghost" unkc0="NET_GHOST_PARAM" defaultValue="910" />
+<field name="ghostpad" type="dummy8" arraylength="4" bitsize="-1" sortid="523" unkb8="ghost" unkc0="NET_GHOST_PARAM" defaultValue="[0|0|0|0]" />
+<field name="reloadVisitListCoolTime" type="f32" arraylength="1" bitsize="-1" sortid="600" unkb8="visit" unkc0="NET_VISIT_PARAM" defaultValue="20" />
+<field name="maxCoopBlueSummonCount" type="u32" arraylength="1" bitsize="-1" sortid="601" unkb8="visit" unkc0="NET_VISIT_PARAM" defaultValue="2" />
+<field name="maxBellGuardSummonCount" type="u32" arraylength="1" bitsize="-1" sortid="602" unkb8="visit" unkc0="NET_VISIT_PARAM" defaultValue="4" />
+<field name="maxVisitListCount" type="u32" arraylength="1" bitsize="-1" sortid="603" unkb8="visit" unkc0="NET_VISIT_PARAM" defaultValue="5" />
+<field name="reloadSearch_CoopBlue_Min" type="f32" arraylength="1" bitsize="-1" sortid="604" unkb8="visit" unkc0="NET_VISIT_PARAM" defaultValue="30" />
+<field name="reloadSearch_CoopBlue_Max" type="f32" arraylength="1" bitsize="-1" sortid="605" unkb8="visit" unkc0="NET_VISIT_PARAM" defaultValue="180" />
+<field name="reloadSearch_BellGuard_Min" type="f32" arraylength="1" bitsize="-1" sortid="606" unkb8="visit" unkc0="NET_VISIT_PARAM" defaultValue="120" />
+<field name="reloadSearch_BellGuard_Max" type="f32" arraylength="1" bitsize="-1" sortid="607" unkb8="visit" unkc0="NET_VISIT_PARAM" defaultValue="240" />
+<field name="reloadSearch_RatKing_Min" type="f32" arraylength="1" bitsize="-1" sortid="608" unkb8="visit" unkc0="NET_VISIT_PARAM" defaultValue="180" />
+<field name="reloadSearch_RatKing_Max" type="f32" arraylength="1" bitsize="-1" sortid="609" unkb8="visit" unkc0="NET_VISIT_PARAM" defaultValue="300" />
+<field name="visitpad00" type="dummy8" arraylength="8" bitsize="-1" sortid="610" unkb8="visit" unkc0="NET_VISIT_PARAM" defaultValue="[0|0|0|0|0|0|0|0]" />
+<field name="srttMaxLimit" type="f32" arraylength="1" bitsize="-1" sortid="700" unkb8="extra" unkc0="NET_EXTRA_PARAM" defaultValue="10000" />
+<field name="srttMeanLimit" type="f32" arraylength="1" bitsize="-1" sortid="701" unkb8="extra" unkc0="NET_EXTRA_PARAM" defaultValue="10000" />
+<field name="srttMeanDeviationLimit" type="f32" arraylength="1" bitsize="-1" sortid="702" unkb8="extra" unkc0="NET_EXTRA_PARAM" defaultValue="10000" />
+<field name="darkPhantomLimitBoostTime" type="f32" arraylength="1" bitsize="-1" sortid="703" unkb8="extra" unkc0="NET_EXTRA_PARAM" defaultValue="60" />
+<field name="darkPhantomLimitBoostScale" type="f32" arraylength="1" bitsize="-1" sortid="704" unkb8="extra" unkc0="NET_EXTRA_PARAM" defaultValue="1.2" />
+<field name="multiplayDisableLifeTime" type="f32" arraylength="1" bitsize="-1" sortid="705" unkb8="extra" unkc0="NET_EXTRA_PARAM" defaultValue="1800" />
+<field name="abyssMultiplayLimit" type="u8" arraylength="1" bitsize="-1" sortid="706" unkb8="extra" unkc0="NET_EXTRA_PARAM" defaultValue="8" />
+<field name="phantomWarpMinimumTime" type="u8" arraylength="1" bitsize="-1" sortid="707" unkb8="extra" unkc0="NET_EXTRA_PARAM" defaultValue="6" />
+<field name="phantomReturnDelayTime" type="u8" arraylength="1" bitsize="-1" sortid="708" unkb8="extra" unkc0="NET_EXTRA_PARAM" defaultValue="2" />
+<field name="terminateTimeoutTime" type="u8" arraylength="1" bitsize="-1" sortid="709" unkb8="extra" unkc0="NET_EXTRA_PARAM" defaultValue="30" />
+<field name="penaltyPointLanDisconnect" type="u16" arraylength="1" bitsize="-1" sortid="717" unkb8="extra" unkc0="NET_EXTRA_PARAM" defaultValue="10" />
+<field name="penaltyPointSignout" type="u16" arraylength="1" bitsize="-1" sortid="718" unkb8="extra" unkc0="NET_EXTRA_PARAM" defaultValue="0" />
+<field name="penaltyPointReboot" type="u16" arraylength="1" bitsize="-1" sortid="719" unkb8="extra" unkc0="NET_EXTRA_PARAM" defaultValue="10" />
+<field name="penaltyPointBeginPenalize" type="u16" arraylength="1" bitsize="-1" sortid="720" unkb8="extra" unkc0="NET_EXTRA_PARAM" defaultValue="100" />
+<field name="penaltyForgiveItemLimitTime" type="f32" arraylength="1" bitsize="-1" sortid="725" unkb8="extra" unkc0="NET_EXTRA_PARAM" defaultValue="36000" />
+<field name="allAreaSearchRate_CoopBlue" type="u8" arraylength="1" bitsize="-1" sortid="730" unkb8="extra" unkc0="NET_EXTRA_PARAM" defaultValue="30" />
+<field name="allAreaSearchRate_VsBlue" type="u8" arraylength="1" bitsize="-1" sortid="730" unkb8="extra" unkc0="NET_EXTRA_PARAM" defaultValue="30" />
+<field name="allAreaSearchRate_BellGuard" type="u8" arraylength="1" bitsize="-1" sortid="730" unkb8="extra" unkc0="NET_EXTRA_PARAM" defaultValue="30" />
+<field name="bloodMessageEvalHealRate" type="u8" arraylength="1" bitsize="-1" sortid="735" unkb8="extra" unkc0="NET_EXTRA_PARAM" defaultValue="20" />
+<field name="smallGoldSuccessHostRewardId" type="u32" arraylength="1" bitsize="-1" sortid="740" unkb8="extra" unkc0="NET_EXTRA_PARAM" defaultValue="0" />
+<field name="doorInvalidPlayAreaExtents" type="f32" arraylength="1" bitsize="-1" sortid="750" unkb8="extra" unkc0="NET_EXTRA_PARAM" defaultValue="2" />
+<field name="signDisplayMax" type="u8" arraylength="1" bitsize="-1" sortid="760" unkb8="extra" unkc0="NET_EXTRA_PARAM" defaultValue="10" />
+<field name="bloodStainDisplayMax" type="u8" arraylength="1" bitsize="-1" sortid="761" unkb8="extra" unkc0="NET_EXTRA_PARAM" defaultValue="7" />
+<field name="bloodMessageDisplayMax" type="u8" arraylength="1" bitsize="-1" sortid="762" unkb8="extra" unkc0="NET_EXTRA_PARAM" defaultValue="3" />
+<field name="pad00" type="dummy8" arraylength="9" bitsize="-1" sortid="763" unkb8="extra" unkc0="NET_EXTRA_PARAM" defaultValue="[0|0|0|0|0|0|0|0|0]" />
+<field name="pad10" type="dummy8" arraylength="32" bitsize="-1" sortid="1560" unkb8="VisitorAddition" unkc0="VISITOR_ADDITION" defaultValue="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<field name="summonMessageInterval" type="f32" arraylength="1" bitsize="-1" sortid="1000" unkb8="QuickMatch" unkc0="QUICK_MATCH" defaultValue="10" />
+<field name="hostRegisterUpdateTime" type="f32" arraylength="1" bitsize="-1" sortid="1010" unkb8="QuickMatch" unkc0="QUICK_MATCH" defaultValue="60" />
+<field name="hostTimeOutTime" type="f32" arraylength="1" bitsize="-1" sortid="1020" unkb8="QuickMatch" unkc0="QUICK_MATCH" defaultValue="30" />
+<field name="guestUpdateTime" type="f32" arraylength="1" bitsize="-1" sortid="1030" unkb8="QuickMatch" unkc0="QUICK_MATCH" defaultValue="30" />
+<field name="guestPlayerNoTimeOutTime" type="f32" arraylength="1" bitsize="-1" sortid="1040" unkb8="QuickMatch" unkc0="QUICK_MATCH" defaultValue="55" />
+<field name="hostPlayerNoTimeOutTime" type="f32" arraylength="1" bitsize="-1" sortid="1050" unkb8="QuickMatch" unkc0="QUICK_MATCH" defaultValue="45" />
+<field name="requestSearchQuickMatchLimit" type="u32" arraylength="1" bitsize="-1" sortid="1060" unkb8="QuickMatch" unkc0="QUICK_MATCH" defaultValue="5" />
+<field name="AvatarMatchSearchMax" type="u32" arraylength="1" bitsize="-1" sortid="1070" unkb8="QuickMatch" unkc0="QUICK_MATCH" defaultValue="1133903872" />
+<field name="BattleRoyalMatchSearchMin" type="u32" arraylength="1" bitsize="-1" sortid="1080" unkb8="QuickMatch" unkc0="QUICK_MATCH" defaultValue="3" />
+<field name="BattleRoyalMatchSearchMax" type="u32" arraylength="1" bitsize="-1" sortid="1090" unkb8="QuickMatch" unkc0="QUICK_MATCH" defaultValue="3" />
+<field name="pad11" type="dummy8" arraylength="8" bitsize="-1" sortid="1100" unkb8="QuickMatch" unkc0="QUICK_MATCH" defaultValue="[0|0|0|0|0|0|0|0]" />
+<field name="VisitorListMax" type="u32" arraylength="1" bitsize="-1" sortid="1500" unkb8="Visitor" unkc0="VISITOR" defaultValue="10" />
+<field name="VisitorTimeOutTime" type="f32" arraylength="1" bitsize="-1" sortid="1520" unkb8="Visitor" unkc0="VISITOR" defaultValue="60" />
+<field name="DownloadSpan_2" type="f32" arraylength="1" bitsize="-1" sortid="1530" unkb8="Visitor" unkc0="VISITOR" defaultValue="60" />
+<field name="VisitorGuestRequestMessageIntervalSec" type="f32" arraylength="1" bitsize="-1" sortid="1540" unkb8="Visitor" unkc0="VISITOR" defaultValue="30" />
+<field name="wanderGhostIntervalLifeTime" type="f32" arraylength="1" bitsize="-1" sortid="550" unkb8="ghostAddition" unkc0="NET_GHOST_ADDITION_PARAM" defaultValue="240" />
+<field name="pad13" type="dummy8" arraylength="12" bitsize="-1" sortid="551" unkb8="ghostAddition" unkc0="NET_GHOST_ADDITION_PARAM" defaultValue="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<field name="YellowMonkTimeOutTime" type="f32" arraylength="1" bitsize="-1" sortid="2000" unkb8="YellowMonk" unkc0="YELLOW_MONK_PARAM" defaultValue="60" />
+<field name="YellowMonkDownloadSpan" type="f32" arraylength="1" bitsize="-1" sortid="2010" unkb8="YellowMonk" unkc0="YELLOW_MONK_PARAM" defaultValue="10" />
+<field name="YellowMonkOverallFlowTimeOutTime" type="f32" arraylength="1" bitsize="-1" sortid="2020" unkb8="YellowMonk" unkc0="YELLOW_MONK_PARAM" defaultValue="60" />
+<field name="pad14_0" type="dummy8" arraylength="4" bitsize="-1" sortid="2030" unkb8="YellowMonk" unkc0="YELLOW_MONK_PARAM" defaultValue="[0|0|0|0]" />
+<field name="pad14_1" type="dummy8" arraylength="8" bitsize="-1" sortid="2031" defaultValue="[0|0|0|0|0|0|0|0]" />
+</fields>
+<rows>
+<row id="0" paramdexName="Configuration" signVerticalOffset="0.05" maxSignPosCorrectionRange="1" summonTimeoutTime="45" pad_0="[0|0|0|0]" signPuddleActiveMessageIntervalSec="30" keyGuideHeight_0="180" reloadSignIntervalTime1="7E-45" reloadSignIntervalTime2="60" reloadSignTotalCount_0="20" reloadSignCellCount_0="10" updateSignIntervalTime="30" basicExclusiveRange_0="2" basicExclusiveHeight_0="2.2" previewChrWaitingTime="0.5" signVisibleRange_0="20" cellGroupHorizontalRange_0="1" cellGroupTopRange_0="1" cellGroupBottomRange_0="1" minWhitePhantomLimitTimeScale="1.2" minSmallPhantomLimitTimeScale="1.2" whiteKeywordLimitTimeScale="1.5" smallKeywordLimitTimeScale="1.5" blackKeywordLimitTimeScale="1.5" dragonKeywordLimitTimeScale="1.5" singGetMax="32" signDownloadSpan="30" signUpdateSpan="60" signPad="[0|0|0|0]" maxBreakInTargetListCount="5" breakInRequestIntervalTimeSec="30" breakInRequestTimeOutSec="20" breakInRequestAreaCount="5" pad_1="[0|0|0]" keyGuideRange="1" keyGuideHeight_1="1.1" reloadSignTotalCount_1="40" reloadNewSignCellCount="3" reloadRandomSignCellCount="2" maxSignTotalCount_0="100" maxSignCellCount_0="10" basicExclusiveRange_1="2" basicExclusiveHeight_1="2.2" signVisibleRange_1="30" maxWriteSignCount="10" maxReadSignCount="10" reloadSignIntervalTime_0="120" cellGroupHorizontalRange_1="1" cellGroupTopRange_1="1" cellGroupBottomRange_1="1" lifeTime_0="1800" downloadSpan_0="120" downloadEvaluationSpan="300" pad_2="[0|0|0|0]" deadingGhostStartPosThreshold="1" keyGuideHeight_2="1.1" keyGuideRangePlayer="1.2" keyGuideHeightPlayer="1.3" reloadSignTotalCount_2="32" reloadSignCellCount_1="8" maxSignTotalCount_1="100" maxSignCellCount_1="10" reloadSignIntervalTime_1="120" signVisibleRange_2="30" basicExclusiveRange_2="2" basicExclusiveHeight_2="2.2" cellGroupHorizontalRange_2="1" cellGroupTopRange_2="1" cellGroupBottomRange_2="1" lifeTime_1="1800" recordDeadingGhostTotalTime="10" recordDeadingGhostMinTime="5" downloadSpan_1="120" statueCreatableDistance="80" reloadGhostTotalCount="8" reloadGhostCellCount="4" maxGhostTotalCount="10" distanceOfBeginRecordVersus="2" distanceOfEndRecordVersus="10" updateWanderGhostIntervalTime="120" updateVersusGhostIntervalTime="100" recordWanderingGhostTime="10" recordWanderingGhostMinTime="5" updateBonfireGhostIntervalTime="600" replayGhostRangeOnView="30" replayGhostRangeOutView="10" replayBonfireGhostTime="15" minBonfireGhostValidRange="1" maxBonfireGhostValidRange="5" minReplayIntervalTime="6" maxReplayIntervalTime="18" reloadGhostIntervalTime="120" cellGroupHorizontalRange_3="1" cellGroupTopRange_3="1" replayBonfirePhantomParamIdForCodename="930" replayBonfireModeRange="3" replayBonfirePhantomParamId="910" ghostpad="[0|0|0|0]" reloadVisitListCoolTime="20" maxCoopBlueSummonCount="2" maxBellGuardSummonCount="4" maxVisitListCount="5" reloadSearch_CoopBlue_Min="30" reloadSearch_CoopBlue_Max="180" reloadSearch_BellGuard_Min="120" reloadSearch_BellGuard_Max="240" reloadSearch_RatKing_Min="180" reloadSearch_RatKing_Max="300" visitpad00="[0|0|0|0|0|0|0|0]" srttMaxLimit="10000" srttMeanLimit="10000" srttMeanDeviationLimit="10000" darkPhantomLimitBoostTime="60" darkPhantomLimitBoostScale="1.2" multiplayDisableLifeTime="1800" abyssMultiplayLimit="8" phantomWarpMinimumTime="6" phantomReturnDelayTime="2" terminateTimeoutTime="30" penaltyPointLanDisconnect="10" penaltyPointSignout="0" penaltyPointReboot="10" penaltyPointBeginPenalize="100" penaltyForgiveItemLimitTime="36000" allAreaSearchRate_CoopBlue="30" allAreaSearchRate_VsBlue="30" allAreaSearchRate_BellGuard="30" bloodMessageEvalHealRate="20" smallGoldSuccessHostRewardId="0" doorInvalidPlayAreaExtents="2" signDisplayMax="10" bloodStainDisplayMax="7" bloodMessageDisplayMax="3" pad00="[0|0|0|0|0|0|0|0|0]" pad10="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" summonMessageInterval="10" hostRegisterUpdateTime="60" hostTimeOutTime="30" guestUpdateTime="30" guestPlayerNoTimeOutTime="55" hostPlayerNoTimeOutTime="45" requestSearchQuickMatchLimit="5" AvatarMatchSearchMax="1133903872" BattleRoyalMatchSearchMin="3" BattleRoyalMatchSearchMax="3" pad11="[0|0|0|0|0|0|0|0]" VisitorListMax="10" VisitorTimeOutTime="60" DownloadSpan_2="60" VisitorGuestRequestMessageIntervalSec="30" wanderGhostIntervalLifeTime="240" pad13="[0|0|0|0|0|0|0|0|0|0|0|0]" YellowMonkTimeOutTime="60" YellowMonkDownloadSpan="10" YellowMonkOverallFlowTimeOutTime="60" pad14_0="[0|0|0|0]" pad14_1="[0|0|0|0|0|0|0|0]" />
+</rows>
+</param>

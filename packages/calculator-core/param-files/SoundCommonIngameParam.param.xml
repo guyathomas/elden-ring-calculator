@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>SoundCommonIngameParam.param</filename>
+<compression>None</compression>
+<type>SOUND_COMMON_INGAME_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>0</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>SOUND_COMMON_INGAME_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>0</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="ParamKeyStr" type="fixstr" arraylength="32" bitsize="-1" sortid="1" defaultValue="" />
+<field name="ParamValueStr" type="fixstr" arraylength="32" bitsize="-1" sortid="2" defaultValue="2" />
+</fields>
+<rows>
+<row id="1" ParamKeyStr="" ParamValueStr="a000000000" />
+<row id="11" ParamKeyStr="" ParamValueStr="35.0" />
+<row id="12" ParamKeyStr="" ParamValueStr="2" />
+<row id="110" ParamKeyStr="" ParamValueStr="0.7" />
+<row id="200" ParamKeyStr="" ParamValueStr="2.0" />
+<row id="201" ParamKeyStr="" ParamValueStr="3.0" />
+<row id="400" ParamKeyStr="" ParamValueStr="5" />
+<row id="401" ParamKeyStr="" ParamValueStr="2" />
+<row id="402" ParamKeyStr="" ParamValueStr="1.5" />
+<row id="500" ParamKeyStr="" ParamValueStr="5" />
+<row id="501" ParamKeyStr="" ParamValueStr="2" />
+<row id="502" ParamKeyStr="" ParamValueStr="1.5" />
+<row id="10000" ParamKeyStr="" ParamValueStr="6" />
+<row id="10207" ParamKeyStr="" ParamValueStr="11" />
+</rows>
+</param>

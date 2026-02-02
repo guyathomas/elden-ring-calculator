@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>BudgetParam.param</filename>
+<compression>None</compression>
+<type>BUDGET_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>BUDGET_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="vram_all" type="f32" arraylength="1" bitsize="-1" sortid="100" defaultValue="3000" />
+<field name="vram_mapobj_tex" type="f32" arraylength="1" bitsize="-1" sortid="2010" defaultValue="400" />
+<field name="vram_mapobj_mdl" type="f32" arraylength="1" bitsize="-1" sortid="2020" defaultValue="400" />
+<field name="vram_map" type="f32" arraylength="1" bitsize="-1" sortid="1010" defaultValue="1600" />
+<field name="vram_chr" type="f32" arraylength="1" bitsize="-1" sortid="1020" defaultValue="300" />
+<field name="vram_parts" type="f32" arraylength="1" bitsize="-1" sortid="1030" defaultValue="150" />
+<field name="vram_sfx" type="f32" arraylength="1" bitsize="-1" sortid="1040" defaultValue="200" />
+<field name="vram_chr_tex" type="f32" arraylength="1" bitsize="-1" sortid="2030" defaultValue="200" />
+<field name="vram_chr_mdl" type="f32" arraylength="1" bitsize="-1" sortid="2040" defaultValue="100" />
+<field name="vram_parts_tex" type="f32" arraylength="1" bitsize="-1" sortid="2050" defaultValue="100" />
+<field name="vram_parts_mdl" type="f32" arraylength="1" bitsize="-1" sortid="2060" defaultValue="50" />
+<field name="vram_sfx_tex" type="f32" arraylength="1" bitsize="-1" sortid="2070" defaultValue="180" />
+<field name="vram_sfx_mdl" type="f32" arraylength="1" bitsize="-1" sortid="2080" defaultValue="20" />
+<field name="vram_gi" type="f32" arraylength="1" bitsize="-1" sortid="2090" defaultValue="800" />
+<field name="vram_menu_tex" type="f32" arraylength="1" bitsize="-1" sortid="2085" defaultValue="200" />
+<field name="vram_decal_rt" type="f32" arraylength="1" bitsize="-1" sortid="2105" defaultValue="50" />
+<field name="vram_decal" type="f32" arraylength="1" bitsize="-1" sortid="2100" defaultValue="20" />
+<field name="reserve_0" type="dummy8" arraylength="4" bitsize="-1" sortid="3041" defaultValue="[0|0|0|0]" />
+<field name="vram_other_tex" type="f32" arraylength="1" bitsize="-1" sortid="2110" defaultValue="25" />
+<field name="vram_other_mdl" type="f32" arraylength="1" bitsize="-1" sortid="2120" defaultValue="5" />
+<field name="havok_anim" type="f32" arraylength="1" bitsize="-1" sortid="3010" defaultValue="300" />
+<field name="havok_ins" type="f32" arraylength="1" bitsize="-1" sortid="3020" defaultValue="50" />
+<field name="havok_hit" type="f32" arraylength="1" bitsize="-1" sortid="3030" defaultValue="55" />
+<field name="vram_other" type="f32" arraylength="1" bitsize="-1" sortid="1050" defaultValue="30" />
+<field name="vram_detail_all" type="f32" arraylength="1" bitsize="-1" sortid="200" defaultValue="3000" />
+<field name="vram_chr_and_parts" type="f32" arraylength="1" bitsize="-1" sortid="1035" defaultValue="450" />
+<field name="havok_navimesh" type="f32" arraylength="1" bitsize="-1" sortid="3040" defaultValue="90" />
+<field name="reserve_1" type="dummy8" arraylength="24" bitsize="-1" sortid="3042" defaultValue="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+</fields>
+<rows>
+<row id="0" paramdexName="Default (delete not allowed) -- デフォルト(削除禁止)" vram_all="3000" vram_mapobj_tex="400" vram_mapobj_mdl="400" vram_map="1600" vram_chr="300" vram_parts="150" vram_sfx="200" vram_chr_tex="200" vram_chr_mdl="100" vram_parts_tex="100" vram_parts_mdl="50" vram_sfx_tex="180" vram_sfx_mdl="20" vram_gi="800" vram_menu_tex="200" vram_decal_rt="50" vram_decal="20" reserve_0="[0|0|0|0]" vram_other_tex="25" vram_other_mdl="5" havok_anim="300" havok_ins="50" havok_hit="55" vram_other="30" vram_detail_all="3000" vram_chr_and_parts="450" havok_navimesh="90" reserve_1="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="1" vram_all="3000" vram_mapobj_tex="400" vram_mapobj_mdl="400" vram_map="900" vram_chr="300" vram_parts="150" vram_sfx="200" vram_chr_tex="200" vram_chr_mdl="100" vram_parts_tex="100" vram_parts_mdl="50" vram_sfx_tex="180" vram_sfx_mdl="20" vram_gi="100" vram_menu_tex="200" vram_decal_rt="50" vram_decal="20" reserve_0="[0|0|0|0]" vram_other_tex="25" vram_other_mdl="5" havok_anim="300" havok_ins="50" havok_hit="55" vram_other="30" vram_detail_all="3000" vram_chr_and_parts="450" havok_navimesh="90" reserve_1="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="2" vram_all="3000" vram_mapobj_tex="400" vram_mapobj_mdl="400" vram_map="850" vram_chr="300" vram_parts="150" vram_sfx="200" vram_chr_tex="200" vram_chr_mdl="100" vram_parts_tex="100" vram_parts_mdl="50" vram_sfx_tex="180" vram_sfx_mdl="20" vram_gi="50" vram_menu_tex="200" vram_decal_rt="50" vram_decal="20" reserve_0="[0|0|0|0]" vram_other_tex="25" vram_other_mdl="5" havok_anim="300" havok_ins="50" havok_hit="55" vram_other="30" vram_detail_all="3000" vram_chr_and_parts="450" havok_navimesh="90" reserve_1="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="3" vram_all="3000" vram_mapobj_tex="400" vram_mapobj_mdl="400" vram_map="1600" vram_chr="300" vram_parts="150" vram_sfx="200" vram_chr_tex="200" vram_chr_mdl="100" vram_parts_tex="100" vram_parts_mdl="50" vram_sfx_tex="180" vram_sfx_mdl="20" vram_gi="800" vram_menu_tex="200" vram_decal_rt="50" vram_decal="20" reserve_0="[0|0|0|0]" vram_other_tex="25" vram_other_mdl="5" havok_anim="300" havok_ins="50" havok_hit="55" vram_other="30" vram_detail_all="3000" vram_chr_and_parts="450" havok_navimesh="90" reserve_1="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="4" vram_all="3000" vram_mapobj_tex="400" vram_mapobj_mdl="400" vram_map="1600" vram_chr="300" vram_parts="150" vram_sfx="200" vram_chr_tex="200" vram_chr_mdl="100" vram_parts_tex="100" vram_parts_mdl="50" vram_sfx_tex="180" vram_sfx_mdl="20" vram_gi="800" vram_menu_tex="200" vram_decal_rt="50" vram_decal="20" reserve_0="[0|0|0|0]" vram_other_tex="25" vram_other_mdl="5" havok_anim="300" havok_ins="50" havok_hit="55" vram_other="30" vram_detail_all="3000" vram_chr_and_parts="450" havok_navimesh="90" reserve_1="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+</rows>
+</param>

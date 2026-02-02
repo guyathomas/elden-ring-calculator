@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>CutsceneGparamTimeParam.param</filename>
+<compression>None</compression>
+<type>CUTSCENE_GPARAM_TIME_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>3</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>CUTSCENE_GPARAM_TIME_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>3</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="disableParam_NT" type="u8" arraylength="1" bitsize="1" sortid="0" defaultValue="1" />
+<field name="disableParam_Debug" type="u8" arraylength="1" bitsize="1" sortid="1" defaultValue="0" defaultThreshold="True" />
+<field name="disableParamReserve1" type="dummy8" arraylength="1" bitsize="6" sortid="9999" defaultValue="[0]" defaultThreshold="True" />
+<field name="disableParamReserve2" type="dummy8" arraylength="3" bitsize="-1" sortid="10000" defaultValue="[0|0|0]" defaultThreshold="True" />
+<field name="DstTimezone_Morning" type="u8" arraylength="1" bitsize="-1" sortid="100" defaultValue="0" />
+<field name="DstTimezone_Noon" type="u8" arraylength="1" bitsize="-1" sortid="101" defaultValue="1" />
+<field name="DstTimezone_AfterNoon" type="u8" arraylength="1" bitsize="-1" sortid="102" defaultValue="1" />
+<field name="DstTimezone_Evening" type="u8" arraylength="1" bitsize="-1" sortid="103" defaultValue="3" />
+<field name="DstTimezone_Night" type="u8" arraylength="1" bitsize="-1" sortid="104" defaultValue="4" />
+<field name="DstTimezone_DeepNightA" type="u8" arraylength="1" bitsize="-1" sortid="105" defaultValue="4" />
+<field name="DstTimezone_DeepNightB" type="u8" arraylength="1" bitsize="-1" sortid="106" defaultValue="4" />
+<field name="reserved" type="dummy8" arraylength="1" bitsize="-1" sortid="9999" defaultValue="[0]" defaultThreshold="True" />
+<field name="PostPlayIngameTime" type="f32" arraylength="1" bitsize="-1" sortid="9" defaultValue="-1" />
+</fields>
+<rows>
+<row id="0" disableParam_NT="0" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="2" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="5" DstTimezone_DeepNightB="6" PostPlayIngameTime="-1" />
+<row id="10000010" disableParam_NT="0" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="10000020" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="10000030" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="10000040" disableParam_NT="1" DstTimezone_Morning="4" DstTimezone_Noon="4" DstTimezone_AfterNoon="4" DstTimezone_Evening="4" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="10000050" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="2" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="5" DstTimezone_DeepNightB="6" PostPlayIngameTime="-1" />
+<row id="10010000" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="2" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="5" DstTimezone_DeepNightB="6" PostPlayIngameTime="-1" />
+<row id="10010001" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="2" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="5" DstTimezone_DeepNightB="6" PostPlayIngameTime="-1" />
+<row id="11000040" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="11050010" disableParam_NT="1" DstTimezone_Morning="1" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="11050020" disableParam_NT="1" DstTimezone_Morning="1" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="12010000" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="0" DstTimezone_AfterNoon="0" DstTimezone_Evening="0" DstTimezone_Night="0" DstTimezone_DeepNightA="0" DstTimezone_DeepNightB="0" PostPlayIngameTime="-1" />
+<row id="12010001" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="0" DstTimezone_AfterNoon="0" DstTimezone_Evening="0" DstTimezone_Night="0" DstTimezone_DeepNightA="0" DstTimezone_DeepNightB="0" PostPlayIngameTime="-1" />
+<row id="12020000" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="0" DstTimezone_AfterNoon="0" DstTimezone_Evening="0" DstTimezone_Night="0" DstTimezone_DeepNightA="0" DstTimezone_DeepNightB="0" PostPlayIngameTime="-1" />
+<row id="12020001" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="0" DstTimezone_AfterNoon="0" DstTimezone_Evening="0" DstTimezone_Night="0" DstTimezone_DeepNightA="0" DstTimezone_DeepNightB="0" PostPlayIngameTime="-1" />
+<row id="12030010" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="0" DstTimezone_AfterNoon="0" DstTimezone_Evening="0" DstTimezone_Night="0" DstTimezone_DeepNightA="0" DstTimezone_DeepNightB="0" PostPlayIngameTime="-1" />
+<row id="12030011" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="0" DstTimezone_AfterNoon="0" DstTimezone_Evening="0" DstTimezone_Night="0" DstTimezone_DeepNightA="0" DstTimezone_DeepNightB="0" PostPlayIngameTime="-1" />
+<row id="12030020" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="2" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="5" DstTimezone_DeepNightB="6" PostPlayIngameTime="-1" />
+<row id="12030021" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="2" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="5" DstTimezone_DeepNightB="6" PostPlayIngameTime="-1" />
+<row id="12050020" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="12060000" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="0" DstTimezone_AfterNoon="0" DstTimezone_Evening="0" DstTimezone_Night="0" DstTimezone_DeepNightA="0" DstTimezone_DeepNightB="0" PostPlayIngameTime="-1" />
+<row id="13000010" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="13000040" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="13000050" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="13000060" disableParam_NT="1" DstTimezone_Morning="1" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="1" DstTimezone_Night="1" DstTimezone_DeepNightA="1" DstTimezone_DeepNightB="1" PostPlayIngameTime="10.5" />
+<row id="14000000" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="0" DstTimezone_AfterNoon="0" DstTimezone_Evening="0" DstTimezone_Night="0" DstTimezone_DeepNightA="0" DstTimezone_DeepNightB="0" PostPlayIngameTime="-1" />
+<row id="14000010" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="0" DstTimezone_AfterNoon="0" DstTimezone_Evening="0" DstTimezone_Night="0" DstTimezone_DeepNightA="0" DstTimezone_DeepNightB="0" PostPlayIngameTime="-1" />
+<row id="15000000" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="0" DstTimezone_AfterNoon="0" DstTimezone_Evening="0" DstTimezone_Night="0" DstTimezone_DeepNightA="0" DstTimezone_DeepNightB="0" PostPlayIngameTime="-1" />
+<row id="15000010" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="0" DstTimezone_AfterNoon="0" DstTimezone_Evening="0" DstTimezone_Night="0" DstTimezone_DeepNightA="0" DstTimezone_DeepNightB="0" PostPlayIngameTime="-1" />
+<row id="16000000" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="16000010" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="2" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="5" DstTimezone_DeepNightB="6" PostPlayIngameTime="-1" />
+<row id="16000020" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="0" DstTimezone_AfterNoon="0" DstTimezone_Evening="0" DstTimezone_Night="0" DstTimezone_DeepNightA="0" DstTimezone_DeepNightB="0" PostPlayIngameTime="-1" />
+<row id="19000000" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="0" DstTimezone_AfterNoon="0" DstTimezone_Evening="0" DstTimezone_Night="0" DstTimezone_DeepNightA="0" DstTimezone_DeepNightB="0" PostPlayIngameTime="-1" />
+<row id="19000010" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="0" DstTimezone_AfterNoon="0" DstTimezone_Evening="0" DstTimezone_Night="0" DstTimezone_DeepNightA="0" DstTimezone_DeepNightB="0" PostPlayIngameTime="-1" />
+<row id="19000011" disableParam_NT="1" DstTimezone_Morning="3" DstTimezone_Noon="3" DstTimezone_AfterNoon="3" DstTimezone_Evening="3" DstTimezone_Night="3" DstTimezone_DeepNightA="3" DstTimezone_DeepNightB="3" PostPlayIngameTime="-1" />
+<row id="19000020" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="0" DstTimezone_AfterNoon="0" DstTimezone_Evening="0" DstTimezone_Night="0" DstTimezone_DeepNightA="0" DstTimezone_DeepNightB="0" PostPlayIngameTime="-1" />
+<row id="19000021" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="0" DstTimezone_AfterNoon="0" DstTimezone_Evening="0" DstTimezone_Night="0" DstTimezone_DeepNightA="0" DstTimezone_DeepNightB="0" PostPlayIngameTime="-1" />
+<row id="19000030" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="0" DstTimezone_AfterNoon="0" DstTimezone_Evening="0" DstTimezone_Night="0" DstTimezone_DeepNightA="0" DstTimezone_DeepNightB="0" PostPlayIngameTime="-1" />
+<row id="19000031" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="0" DstTimezone_AfterNoon="0" DstTimezone_Evening="0" DstTimezone_Night="0" DstTimezone_DeepNightA="0" DstTimezone_DeepNightB="0" PostPlayIngameTime="-1" />
+<row id="19000040" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="0" DstTimezone_AfterNoon="0" DstTimezone_Evening="0" DstTimezone_Night="0" DstTimezone_DeepNightA="0" DstTimezone_DeepNightB="0" PostPlayIngameTime="-1" />
+<row id="19000050" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="0" DstTimezone_AfterNoon="0" DstTimezone_Evening="0" DstTimezone_Night="0" DstTimezone_DeepNightA="0" DstTimezone_DeepNightB="0" PostPlayIngameTime="-1" />
+<row id="19000060" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="0" DstTimezone_AfterNoon="0" DstTimezone_Evening="0" DstTimezone_Night="0" DstTimezone_DeepNightA="0" DstTimezone_DeepNightB="0" PostPlayIngameTime="-1" />
+<row id="19000061" disableParam_NT="1" DstTimezone_Morning="1" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="1" DstTimezone_Night="1" DstTimezone_DeepNightA="1" DstTimezone_DeepNightB="1" PostPlayIngameTime="-1" />
+<row id="19000070" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="0" DstTimezone_AfterNoon="0" DstTimezone_Evening="0" DstTimezone_Night="0" DstTimezone_DeepNightA="0" DstTimezone_DeepNightB="0" PostPlayIngameTime="-1" />
+<row id="19000071" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="0" DstTimezone_AfterNoon="0" DstTimezone_Evening="0" DstTimezone_Night="0" DstTimezone_DeepNightA="0" DstTimezone_DeepNightB="0" PostPlayIngameTime="-1" />
+<row id="19000080" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="0" DstTimezone_AfterNoon="0" DstTimezone_Evening="0" DstTimezone_Night="0" DstTimezone_DeepNightA="0" DstTimezone_DeepNightB="0" PostPlayIngameTime="-1" />
+<row id="19000081" disableParam_NT="1" DstTimezone_Morning="4" DstTimezone_Noon="4" DstTimezone_AfterNoon="4" DstTimezone_Evening="4" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="20000000" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="20000001" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="20010000" disableParam_NT="1" DstTimezone_Morning="1" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="1" DstTimezone_Night="1" DstTimezone_DeepNightA="1" DstTimezone_DeepNightB="1" PostPlayIngameTime="-1" />
+<row id="20010010" disableParam_NT="1" DstTimezone_Morning="1" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="1" DstTimezone_Night="1" DstTimezone_DeepNightA="1" DstTimezone_DeepNightB="1" PostPlayIngameTime="-1" />
+<row id="20010020" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="21000000" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="21000010" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="21000020" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="21010000" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="21010010" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="22000000" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="22000010" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="22000020" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="28000000" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="31000000" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="2" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="5" DstTimezone_DeepNightB="6" PostPlayIngameTime="-1" />
+<row id="31000001" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="2" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="5" DstTimezone_DeepNightB="6" PostPlayIngameTime="-1" />
+<row id="34110000" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="0" DstTimezone_AfterNoon="0" DstTimezone_Evening="0" DstTimezone_Night="0" DstTimezone_DeepNightA="0" DstTimezone_DeepNightB="0" PostPlayIngameTime="-1" />
+<row id="34110001" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="0" DstTimezone_AfterNoon="0" DstTimezone_Evening="0" DstTimezone_Night="0" DstTimezone_DeepNightA="0" DstTimezone_DeepNightB="0" PostPlayIngameTime="-1" />
+<row id="34110010" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="35000000" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="0" DstTimezone_AfterNoon="0" DstTimezone_Evening="0" DstTimezone_Night="0" DstTimezone_DeepNightA="0" DstTimezone_DeepNightB="0" PostPlayIngameTime="-1" />
+<row id="35000010" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="2" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="5" DstTimezone_DeepNightB="6" PostPlayIngameTime="-1" />
+<row id="35000020" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="2" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="5" DstTimezone_DeepNightB="6" PostPlayIngameTime="-1" />
+<row id="60370000" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="60380000" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="60380001" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="60380010" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="60380011" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="60420000" disableParam_NT="0" DstTimezone_Morning="4" DstTimezone_Noon="4" DstTimezone_AfterNoon="4" DstTimezone_Evening="4" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="22.5" />
+<row id="60420001" disableParam_NT="0" DstTimezone_Morning="4" DstTimezone_Noon="4" DstTimezone_AfterNoon="4" DstTimezone_Evening="4" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="22.5" />
+<row id="60420002" disableParam_NT="1" DstTimezone_Morning="4" DstTimezone_Noon="4" DstTimezone_AfterNoon="4" DstTimezone_Evening="4" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="22.5" />
+<row id="60420003" disableParam_NT="0" DstTimezone_Morning="4" DstTimezone_Noon="4" DstTimezone_AfterNoon="4" DstTimezone_Evening="4" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="22.5" />
+<row id="60420004" disableParam_NT="0" DstTimezone_Morning="4" DstTimezone_Noon="4" DstTimezone_AfterNoon="4" DstTimezone_Evening="4" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="22.5" />
+<row id="60420005" disableParam_NT="0" DstTimezone_Morning="4" DstTimezone_Noon="4" DstTimezone_AfterNoon="4" DstTimezone_Evening="4" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="22.5" />
+<row id="60420006" disableParam_NT="1" DstTimezone_Morning="4" DstTimezone_Noon="4" DstTimezone_AfterNoon="4" DstTimezone_Evening="4" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="22.5" />
+<row id="60420007" disableParam_NT="0" DstTimezone_Morning="4" DstTimezone_Noon="4" DstTimezone_AfterNoon="4" DstTimezone_Evening="4" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="22.5" />
+<row id="60430000" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="0" DstTimezone_AfterNoon="0" DstTimezone_Evening="0" DstTimezone_Night="0" DstTimezone_DeepNightA="0" DstTimezone_DeepNightB="0" PostPlayIngameTime="-1" />
+<row id="60490000" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="60490001" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="60490010" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="60490011" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="60490020" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="60490021" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="60490030" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="60490031" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="60500000" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="2" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="5" DstTimezone_DeepNightB="6" PostPlayIngameTime="-1" />
+<row id="60510000" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="0" DstTimezone_AfterNoon="0" DstTimezone_Evening="0" DstTimezone_Night="0" DstTimezone_DeepNightA="0" DstTimezone_DeepNightB="0" PostPlayIngameTime="-1" />
+<row id="60510010" disableParam_NT="1" DstTimezone_Morning="4" DstTimezone_Noon="4" DstTimezone_AfterNoon="4" DstTimezone_Evening="4" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="22.5" />
+<row id="60510011" disableParam_NT="1" DstTimezone_Morning="4" DstTimezone_Noon="4" DstTimezone_AfterNoon="4" DstTimezone_Evening="4" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="22.5" />
+<row id="60520010" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="60540000" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="60540001" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="60540010" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="60540011" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="61440000" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="99990010" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="99990020" disableParam_NT="1" DstTimezone_Morning="4" DstTimezone_Noon="4" DstTimezone_AfterNoon="4" DstTimezone_Evening="4" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="22.5" />
+<row id="99990030" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="99990040" disableParam_NT="1" DstTimezone_Morning="0" DstTimezone_Noon="1" DstTimezone_AfterNoon="1" DstTimezone_Evening="3" DstTimezone_Night="4" DstTimezone_DeepNightA="4" DstTimezone_DeepNightB="4" PostPlayIngameTime="-1" />
+<row id="99999901" disableParam_NT="0" DstTimezone_Morning="0" DstTimezone_Noon="0" DstTimezone_AfterNoon="0" DstTimezone_Evening="0" DstTimezone_Night="0" DstTimezone_DeepNightA="0" DstTimezone_DeepNightB="0" PostPlayIngameTime="-1" />
+<row id="99999902" disableParam_NT="0" DstTimezone_Morning="0" DstTimezone_Noon="0" DstTimezone_AfterNoon="0" DstTimezone_Evening="0" DstTimezone_Night="0" DstTimezone_DeepNightA="0" DstTimezone_DeepNightB="0" PostPlayIngameTime="-1" />
+</rows>
+</param>

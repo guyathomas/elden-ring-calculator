@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>MapGridCreateHeightDetailLimitInfo.param</filename>
+<compression>None</compression>
+<type>MAP_GRID_CREATE_HEIGHT_LIMIT_DETAIL_INFO_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>MAP_GRID_CREATE_HEIGHT_LIMIT_DETAIL_INFO_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="mapId" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="unknown_0x4" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="79299769" />
+<field name="unknown_0x8" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="72811806" />
+<field name="unknown_0xc" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="72877244" />
+<field name="unknown_0x10" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="unknown_0x14" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="unknown_0x18" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="unknown_0x1c" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="unknown_0x20" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="unknown_0x24" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="unknown_0x28" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="unknown_0x2c" type="u8" arraylength="1" bitsize="-1" sortid="0" defaultValue="1" />
+<field name="unknown_0x2d" type="u8" arraylength="1" bitsize="-1" sortid="0" defaultValue="1" />
+<field name="unknown_0x2e" type="u8" arraylength="1" bitsize="-1" sortid="0" defaultValue="1" />
+<field name="unknown_0x2f" type="u8" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="unknown_0x30" type="u8" arraylength="1" bitsize="-1" sortid="0" defaultValue="1" />
+<field name="unknown_0x31" type="u8" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="unknown_0x32" type="u16" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="unknown_0x34" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="unknown_0x38" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="unknown_0x3c" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+</fields>
+<rows>
+<row id="0" mapId="0" unknown_0x4="79299769" unknown_0x8="72811806" unknown_0xc="72877244" unknown_0x10="0" unknown_0x14="0" unknown_0x18="0" unknown_0x1c="0" unknown_0x20="0" unknown_0x24="0" unknown_0x28="0" unknown_0x2c="1" unknown_0x2d="1" unknown_0x2e="1" unknown_0x2f="0" unknown_0x30="1" unknown_0x31="0" unknown_0x32="0" unknown_0x34="0" unknown_0x38="0" unknown_0x3c="0" />
+<row id="1" mapId="0" unknown_0x4="79299769" unknown_0x8="72811806" unknown_0xc="72877244" unknown_0x10="0" unknown_0x14="0" unknown_0x18="0" unknown_0x1c="0" unknown_0x20="0" unknown_0x24="0" unknown_0x28="0" unknown_0x2c="0" unknown_0x2d="0" unknown_0x2e="0" unknown_0x2f="0" unknown_0x30="0" unknown_0x31="0" unknown_0x32="0" unknown_0x34="0" unknown_0x38="0" unknown_0x3c="0" />
+<row id="2" mapId="0" unknown_0x4="79299769" unknown_0x8="72811806" unknown_0xc="72877244" unknown_0x10="0" unknown_0x14="0" unknown_0x18="0" unknown_0x1c="0" unknown_0x20="0" unknown_0x24="0" unknown_0x28="0" unknown_0x2c="1" unknown_0x2d="1" unknown_0x2e="1" unknown_0x2f="1" unknown_0x30="1" unknown_0x31="1" unknown_0x32="0" unknown_0x34="0" unknown_0x38="0" unknown_0x3c="0" />
+<row id="101000" mapId="61101002" unknown_0x4="79299769" unknown_0x8="72811806" unknown_0xc="72877244" unknown_0x10="0" unknown_0x14="0" unknown_0x18="0" unknown_0x1c="0" unknown_0x20="0" unknown_0x24="0" unknown_0x28="0" unknown_0x2c="1" unknown_0x2d="1" unknown_0x2e="1" unknown_0x2f="0" unknown_0x30="1" unknown_0x31="0" unknown_0x32="0" unknown_0x34="0" unknown_0x38="0" unknown_0x3c="0" />
+<row id="101100" mapId="61101102" unknown_0x4="79299769" unknown_0x8="72811806" unknown_0xc="72877244" unknown_0x10="0" unknown_0x14="0" unknown_0x18="0" unknown_0x1c="0" unknown_0x20="0" unknown_0x24="0" unknown_0x28="0" unknown_0x2c="1" unknown_0x2d="1" unknown_0x2e="1" unknown_0x2f="0" unknown_0x30="1" unknown_0x31="0" unknown_0x32="0" unknown_0x34="0" unknown_0x38="0" unknown_0x3c="0" />
+<row id="110800" mapId="61110802" unknown_0x4="79299769" unknown_0x8="72811806" unknown_0xc="72877244" unknown_0x10="0" unknown_0x14="0" unknown_0x18="0" unknown_0x1c="0" unknown_0x20="0" unknown_0x24="0" unknown_0x28="0" unknown_0x2c="1" unknown_0x2d="1" unknown_0x2e="1" unknown_0x2f="0" unknown_0x30="1" unknown_0x31="0" unknown_0x32="0" unknown_0x34="0" unknown_0x38="0" unknown_0x3c="0" />
+<row id="110900" mapId="61110902" unknown_0x4="79299769" unknown_0x8="72811806" unknown_0xc="72877244" unknown_0x10="0" unknown_0x14="0" unknown_0x18="0" unknown_0x1c="0" unknown_0x20="0" unknown_0x24="0" unknown_0x28="0" unknown_0x2c="1" unknown_0x2d="1" unknown_0x2e="1" unknown_0x2f="0" unknown_0x30="1" unknown_0x31="0" unknown_0x32="0" unknown_0x34="0" unknown_0x38="0" unknown_0x3c="0" />
+<row id="111000" mapId="61111002" unknown_0x4="79299769" unknown_0x8="72811806" unknown_0xc="72877244" unknown_0x10="0" unknown_0x14="0" unknown_0x18="0" unknown_0x1c="0" unknown_0x20="0" unknown_0x24="0" unknown_0x28="0" unknown_0x2c="1" unknown_0x2d="1" unknown_0x2e="1" unknown_0x2f="0" unknown_0x30="1" unknown_0x31="0" unknown_0x32="0" unknown_0x34="0" unknown_0x38="0" unknown_0x3c="0" />
+<row id="111100" mapId="61111102" unknown_0x4="79299769" unknown_0x8="72811806" unknown_0xc="72877244" unknown_0x10="0" unknown_0x14="0" unknown_0x18="0" unknown_0x1c="0" unknown_0x20="0" unknown_0x24="0" unknown_0x28="0" unknown_0x2c="1" unknown_0x2d="1" unknown_0x2e="1" unknown_0x2f="0" unknown_0x30="1" unknown_0x31="0" unknown_0x32="0" unknown_0x34="0" unknown_0x38="0" unknown_0x3c="0" />
+<row id="111101" mapId="61111102" unknown_0x4="79299769" unknown_0x8="72811806" unknown_0xc="72877244" unknown_0x10="0" unknown_0x14="0" unknown_0x18="0" unknown_0x1c="0" unknown_0x20="0" unknown_0x24="0" unknown_0x28="0" unknown_0x2c="1" unknown_0x2d="1" unknown_0x2e="1" unknown_0x2f="1" unknown_0x30="1" unknown_0x31="1" unknown_0x32="0" unknown_0x34="0" unknown_0x38="0" unknown_0x3c="0" />
+<row id="111200" mapId="61111202" unknown_0x4="79299769" unknown_0x8="72811806" unknown_0xc="72877244" unknown_0x10="0" unknown_0x14="0" unknown_0x18="0" unknown_0x1c="0" unknown_0x20="0" unknown_0x24="0" unknown_0x28="0" unknown_0x2c="1" unknown_0x2d="1" unknown_0x2e="1" unknown_0x2f="0" unknown_0x30="1" unknown_0x31="0" unknown_0x32="0" unknown_0x34="0" unknown_0x38="0" unknown_0x3c="0" />
+<row id="111201" mapId="61111202" unknown_0x4="79299769" unknown_0x8="72811806" unknown_0xc="72877244" unknown_0x10="0" unknown_0x14="0" unknown_0x18="0" unknown_0x1c="0" unknown_0x20="0" unknown_0x24="0" unknown_0x28="0" unknown_0x2c="1" unknown_0x2d="1" unknown_0x2e="1" unknown_0x2f="1" unknown_0x30="1" unknown_0x31="1" unknown_0x32="0" unknown_0x34="0" unknown_0x38="0" unknown_0x3c="0" />
+<row id="120900" mapId="61120902" unknown_0x4="79299769" unknown_0x8="72811806" unknown_0xc="72877244" unknown_0x10="0" unknown_0x14="0" unknown_0x18="0" unknown_0x1c="0" unknown_0x20="0" unknown_0x24="0" unknown_0x28="0" unknown_0x2c="1" unknown_0x2d="1" unknown_0x2e="1" unknown_0x2f="0" unknown_0x30="1" unknown_0x31="0" unknown_0x32="0" unknown_0x34="0" unknown_0x38="0" unknown_0x3c="0" />
+<row id="120901" mapId="61120902" unknown_0x4="79299769" unknown_0x8="72811806" unknown_0xc="72877244" unknown_0x10="0" unknown_0x14="0" unknown_0x18="0" unknown_0x1c="0" unknown_0x20="0" unknown_0x24="0" unknown_0x28="0" unknown_0x2c="0" unknown_0x2d="0" unknown_0x2e="0" unknown_0x2f="0" unknown_0x30="1" unknown_0x31="0" unknown_0x32="0" unknown_0x34="0" unknown_0x38="0" unknown_0x3c="0" />
+<row id="121000" mapId="61121002" unknown_0x4="79299769" unknown_0x8="72811806" unknown_0xc="72877244" unknown_0x10="0" unknown_0x14="0" unknown_0x18="0" unknown_0x1c="0" unknown_0x20="0" unknown_0x24="0" unknown_0x28="0" unknown_0x2c="1" unknown_0x2d="1" unknown_0x2e="1" unknown_0x2f="0" unknown_0x30="1" unknown_0x31="0" unknown_0x32="0" unknown_0x34="0" unknown_0x38="0" unknown_0x3c="0" />
+<row id="121001" mapId="61121002" unknown_0x4="79299769" unknown_0x8="72811806" unknown_0xc="72877244" unknown_0x10="0" unknown_0x14="0" unknown_0x18="0" unknown_0x1c="0" unknown_0x20="0" unknown_0x24="0" unknown_0x28="0" unknown_0x2c="0" unknown_0x2d="0" unknown_0x2e="0" unknown_0x2f="0" unknown_0x30="1" unknown_0x31="0" unknown_0x32="0" unknown_0x34="0" unknown_0x38="0" unknown_0x3c="0" />
+<row id="121100" mapId="61121102" unknown_0x4="79299769" unknown_0x8="72811806" unknown_0xc="72877244" unknown_0x10="0" unknown_0x14="0" unknown_0x18="0" unknown_0x1c="0" unknown_0x20="0" unknown_0x24="0" unknown_0x28="0" unknown_0x2c="1" unknown_0x2d="1" unknown_0x2e="1" unknown_0x2f="0" unknown_0x30="1" unknown_0x31="0" unknown_0x32="0" unknown_0x34="0" unknown_0x38="0" unknown_0x3c="0" />
+<row id="121200" mapId="61121202" unknown_0x4="79299769" unknown_0x8="72811806" unknown_0xc="72877244" unknown_0x10="0" unknown_0x14="0" unknown_0x18="0" unknown_0x1c="0" unknown_0x20="0" unknown_0x24="0" unknown_0x28="0" unknown_0x2c="1" unknown_0x2d="1" unknown_0x2e="1" unknown_0x2f="0" unknown_0x30="1" unknown_0x31="0" unknown_0x32="0" unknown_0x34="0" unknown_0x38="0" unknown_0x3c="0" />
+<row id="121201" mapId="61121202" unknown_0x4="79299769" unknown_0x8="72811806" unknown_0xc="72877244" unknown_0x10="0" unknown_0x14="0" unknown_0x18="0" unknown_0x1c="0" unknown_0x20="0" unknown_0x24="0" unknown_0x28="0" unknown_0x2c="1" unknown_0x2d="1" unknown_0x2e="1" unknown_0x2f="0" unknown_0x30="0" unknown_0x31="0" unknown_0x32="0" unknown_0x34="0" unknown_0x38="0" unknown_0x3c="0" />
+<row id="130900" mapId="61130902" unknown_0x4="79299769" unknown_0x8="72811806" unknown_0xc="72877244" unknown_0x10="0" unknown_0x14="0" unknown_0x18="0" unknown_0x1c="0" unknown_0x20="0" unknown_0x24="0" unknown_0x28="0" unknown_0x2c="1" unknown_0x2d="1" unknown_0x2e="1" unknown_0x2f="0" unknown_0x30="1" unknown_0x31="0" unknown_0x32="0" unknown_0x34="0" unknown_0x38="0" unknown_0x3c="0" />
+<row id="131000" mapId="61131002" unknown_0x4="79299769" unknown_0x8="72811806" unknown_0xc="72877244" unknown_0x10="0" unknown_0x14="0" unknown_0x18="0" unknown_0x1c="0" unknown_0x20="0" unknown_0x24="0" unknown_0x28="0" unknown_0x2c="1" unknown_0x2d="1" unknown_0x2e="1" unknown_0x2f="0" unknown_0x30="1" unknown_0x31="0" unknown_0x32="0" unknown_0x34="0" unknown_0x38="0" unknown_0x3c="0" />
+<row id="131001" mapId="61131002" unknown_0x4="79299769" unknown_0x8="72811806" unknown_0xc="72877244" unknown_0x10="0" unknown_0x14="0" unknown_0x18="0" unknown_0x1c="0" unknown_0x20="0" unknown_0x24="0" unknown_0x28="0" unknown_0x2c="0" unknown_0x2d="0" unknown_0x2e="0" unknown_0x2f="0" unknown_0x30="1" unknown_0x31="0" unknown_0x32="0" unknown_0x34="0" unknown_0x38="0" unknown_0x3c="0" />
+<row id="131100" mapId="61131102" unknown_0x4="79299769" unknown_0x8="72811806" unknown_0xc="72877244" unknown_0x10="0" unknown_0x14="0" unknown_0x18="0" unknown_0x1c="0" unknown_0x20="0" unknown_0x24="0" unknown_0x28="0" unknown_0x2c="1" unknown_0x2d="1" unknown_0x2e="1" unknown_0x2f="0" unknown_0x30="1" unknown_0x31="0" unknown_0x32="0" unknown_0x34="0" unknown_0x38="0" unknown_0x3c="0" />
+<row id="131200" mapId="61131202" unknown_0x4="79299769" unknown_0x8="72811806" unknown_0xc="72877244" unknown_0x10="0" unknown_0x14="0" unknown_0x18="0" unknown_0x1c="0" unknown_0x20="0" unknown_0x24="0" unknown_0x28="0" unknown_0x2c="1" unknown_0x2d="1" unknown_0x2e="1" unknown_0x2f="0" unknown_0x30="1" unknown_0x31="0" unknown_0x32="0" unknown_0x34="0" unknown_0x38="0" unknown_0x3c="0" />
+<row id="140900" mapId="61140902" unknown_0x4="79299769" unknown_0x8="72811806" unknown_0xc="72877244" unknown_0x10="0" unknown_0x14="0" unknown_0x18="0" unknown_0x1c="0" unknown_0x20="0" unknown_0x24="0" unknown_0x28="0" unknown_0x2c="1" unknown_0x2d="1" unknown_0x2e="1" unknown_0x2f="0" unknown_0x30="1" unknown_0x31="0" unknown_0x32="0" unknown_0x34="0" unknown_0x38="0" unknown_0x3c="0" />
+</rows>
+</param>

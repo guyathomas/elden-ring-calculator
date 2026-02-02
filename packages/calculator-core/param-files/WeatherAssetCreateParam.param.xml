@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>WeatherAssetCreateParam.param</filename>
+<compression>None</compression>
+<type>WEATHER_ASSET_CREATE_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>WEATHER_ASSET_CREATE_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="AssetId" type="u32" arraylength="1" bitsize="-1" sortid="0" defaultValue="50449" />
+<field name="SlotNo" type="u32" arraylength="1" bitsize="-1" sortid="1" defaultValue="0" />
+<field name="CreateConditionType" type="u8" arraylength="1" bitsize="-1" sortid="2" defaultValue="0" />
+<field name="padding0" type="dummy8" arraylength="3" bitsize="-1" sortid="9999" defaultValue="[0|0|0]" />
+<field name="TransitionSrcWeather" type="s16" arraylength="1" bitsize="-1" sortid="100" defaultValue="-2" />
+<field name="TransitionDstWeather" type="s16" arraylength="1" bitsize="-1" sortid="100" defaultValue="82" />
+<field name="ElapsedTimeCheckweather" type="s16" arraylength="1" bitsize="-1" sortid="200" defaultValue="0" />
+<field name="padding1" type="dummy8" arraylength="2" bitsize="-1" sortid="9999" defaultValue="[0|0]" />
+<field name="ElapsedTime" type="f32" arraylength="1" bitsize="-1" sortid="200" defaultValue="0" />
+<field name="CreateDelayTime" type="f32" arraylength="1" bitsize="-1" sortid="200" defaultValue="-1" />
+<field name="CreateProbability" type="u32" arraylength="1" bitsize="-1" sortid="200" defaultValue="100" />
+<field name="LifeTime" type="f32" arraylength="1" bitsize="-1" sortid="200" defaultValue="99999" />
+<field name="FadeTime" type="f32" arraylength="1" bitsize="-1" sortid="200" defaultValue="3.5" />
+<field name="EnableCreateTimeMin" type="f32" arraylength="1" bitsize="-1" sortid="300" defaultValue="-1" />
+<field name="EnableCreateTimeMax" type="f32" arraylength="1" bitsize="-1" sortid="300" defaultValue="-1" />
+<field name="CreatePoint0" type="s16" arraylength="1" bitsize="-1" sortid="300" defaultValue="1" />
+<field name="CreatePoint1" type="s16" arraylength="1" bitsize="-1" sortid="300" defaultValue="-1" />
+<field name="CreatePoint2" type="s16" arraylength="1" bitsize="-1" sortid="300" defaultValue="-1" />
+<field name="CreatePoint3" type="s16" arraylength="1" bitsize="-1" sortid="300" defaultValue="-1" />
+<field name="CreateAssetLimitId0" type="s8" arraylength="1" bitsize="-1" sortid="350" defaultValue="70" />
+<field name="CreateAssetLimitId1" type="s8" arraylength="1" bitsize="-1" sortid="350" defaultValue="-1" />
+<field name="CreateAssetLimitId2" type="s8" arraylength="1" bitsize="-1" sortid="350" defaultValue="-1" />
+<field name="CreateAssetLimitId3" type="s8" arraylength="1" bitsize="-1" sortid="350" defaultValue="-1" />
+<field name="Reserved2" type="dummy8" arraylength="4" bitsize="-1" sortid="9999" defaultValue="[0|0|0|0]" />
+</fields>
+<rows>
+<row id="0" paramdexName="Rainbow" AssetId="96200" SlotNo="0" CreateConditionType="0" padding0="[0|0|0]" TransitionSrcWeather="21" TransitionDstWeather="0" ElapsedTimeCheckweather="0" padding1="[0|0]" ElapsedTime="0" CreateDelayTime="-1" CreateProbability="100" LifeTime="600" FadeTime="3.5" EnableCreateTimeMin="7" EnableCreateTimeMax="16" CreatePoint0="0" CreatePoint1="-1" CreatePoint2="-1" CreatePoint3="-1" CreateAssetLimitId0="2" CreateAssetLimitId1="-1" CreateAssetLimitId2="-1" CreateAssetLimitId3="-1" Reserved2="[0|0|0|0]" />
+<row id="1" paramdexName="Rainbow" AssetId="96200" SlotNo="0" CreateConditionType="0" padding0="[0|0|0]" TransitionSrcWeather="21" TransitionDstWeather="1" ElapsedTimeCheckweather="0" padding1="[0|0]" ElapsedTime="0" CreateDelayTime="-1" CreateProbability="100" LifeTime="600" FadeTime="3.5" EnableCreateTimeMin="7" EnableCreateTimeMax="16" CreatePoint0="0" CreatePoint1="-1" CreatePoint2="-1" CreatePoint3="-1" CreateAssetLimitId0="2" CreateAssetLimitId1="-1" CreateAssetLimitId2="-1" CreateAssetLimitId3="-1" Reserved2="[0|0|0|0]" />
+<row id="1000" paramdexName="Aurora Borealis (Blue-Green)" AssetId="96201" SlotNo="0" CreateConditionType="1" padding0="[0|0|0]" TransitionSrcWeather="0" TransitionDstWeather="0" ElapsedTimeCheckweather="0" padding1="[0|0]" ElapsedTime="10" CreateDelayTime="-1" CreateProbability="0" LifeTime="600" FadeTime="3.5" EnableCreateTimeMin="21" EnableCreateTimeMax="3" CreatePoint0="1" CreatePoint1="-1" CreatePoint2="-1" CreatePoint3="-1" CreateAssetLimitId0="4" CreateAssetLimitId1="-1" CreateAssetLimitId2="-1" CreateAssetLimitId3="-1" Reserved2="[0|0|0|0]" />
+<row id="1001" paramdexName="Aurora Borealis (Blue-Green)" AssetId="96201" SlotNo="0" CreateConditionType="1" padding0="[0|0|0]" TransitionSrcWeather="0" TransitionDstWeather="0" ElapsedTimeCheckweather="1" padding1="[0|0]" ElapsedTime="10" CreateDelayTime="-1" CreateProbability="0" LifeTime="600" FadeTime="3.5" EnableCreateTimeMin="21" EnableCreateTimeMax="3" CreatePoint0="1" CreatePoint1="-1" CreatePoint2="-1" CreatePoint3="-1" CreateAssetLimitId0="4" CreateAssetLimitId1="-1" CreateAssetLimitId2="-1" CreateAssetLimitId3="-1" Reserved2="[0|0|0|0]" />
+<row id="7000" AssetId="50448" SlotNo="0" CreateConditionType="0" padding0="[0|0|0]" TransitionSrcWeather="-2" TransitionDstWeather="82" ElapsedTimeCheckweather="0" padding1="[0|0]" ElapsedTime="0" CreateDelayTime="-1" CreateProbability="100" LifeTime="99999" FadeTime="3.5" EnableCreateTimeMin="-1" EnableCreateTimeMax="-1" CreatePoint0="10" CreatePoint1="-1" CreatePoint2="-1" CreatePoint3="-1" CreateAssetLimitId0="70" CreateAssetLimitId1="-1" CreateAssetLimitId2="-1" CreateAssetLimitId3="-1" Reserved2="[0|0|0|0]" />
+<row id="7001" AssetId="50448" SlotNo="1" CreateConditionType="0" padding0="[0|0|0]" TransitionSrcWeather="-2" TransitionDstWeather="82" ElapsedTimeCheckweather="0" padding1="[0|0]" ElapsedTime="0" CreateDelayTime="-1" CreateProbability="100" LifeTime="99999" FadeTime="3.5" EnableCreateTimeMin="-1" EnableCreateTimeMax="-1" CreatePoint0="11" CreatePoint1="-1" CreatePoint2="-1" CreatePoint3="-1" CreateAssetLimitId0="70" CreateAssetLimitId1="-1" CreateAssetLimitId2="-1" CreateAssetLimitId3="-1" Reserved2="[0|0|0|0]" />
+<row id="7002" AssetId="50449" SlotNo="2" CreateConditionType="0" padding0="[0|0|0]" TransitionSrcWeather="-2" TransitionDstWeather="82" ElapsedTimeCheckweather="0" padding1="[0|0]" ElapsedTime="0" CreateDelayTime="-1" CreateProbability="100" LifeTime="99999" FadeTime="3.5" EnableCreateTimeMin="-1" EnableCreateTimeMax="-1" CreatePoint0="12" CreatePoint1="-1" CreatePoint2="-1" CreatePoint3="-1" CreateAssetLimitId0="70" CreateAssetLimitId1="-1" CreateAssetLimitId2="-1" CreateAssetLimitId3="-1" Reserved2="[0|0|0|0]" />
+<row id="7003" AssetId="50449" SlotNo="3" CreateConditionType="0" padding0="[0|0|0]" TransitionSrcWeather="-2" TransitionDstWeather="82" ElapsedTimeCheckweather="0" padding1="[0|0]" ElapsedTime="0" CreateDelayTime="-1" CreateProbability="100" LifeTime="99999" FadeTime="3.5" EnableCreateTimeMin="-1" EnableCreateTimeMax="-1" CreatePoint0="13" CreatePoint1="-1" CreatePoint2="-1" CreatePoint3="-1" CreateAssetLimitId0="70" CreateAssetLimitId1="-1" CreateAssetLimitId2="-1" CreateAssetLimitId3="-1" Reserved2="[0|0|0|0]" />
+</rows>
+</param>

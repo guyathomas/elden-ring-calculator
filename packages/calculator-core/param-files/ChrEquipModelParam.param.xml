@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>ChrEquipModelParam.param</filename>
+<compression>None</compression>
+<type>CHR_EQUIP_MODEL_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>CHR_EQUIP_MODEL_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>2</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="unknown_0x0" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="unknown_0x4" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="4" />
+<field name="unknown_0x8" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="1206" />
+</fields>
+<rows>
+<row id="200" unknown_0x0="0" unknown_0x4="4" unknown_0x8="217" />
+<row id="800" unknown_0x0="0" unknown_0x4="4" unknown_0x8="818" />
+<row id="882" unknown_0x0="0" unknown_0x4="4" unknown_0x8="882" />
+<row id="1200" unknown_0x0="0" unknown_0x4="4" unknown_0x8="1200" />
+<row id="1201" unknown_0x0="0" unknown_0x4="4" unknown_0x8="1203" />
+<row id="1202" unknown_0x0="0" unknown_0x4="4" unknown_0x8="1204" />
+<row id="1203" unknown_0x0="0" unknown_0x4="4" unknown_0x8="1206" />
+<row id="1204" unknown_0x0="0" unknown_0x4="4" unknown_0x8="1207" />
+<row id="1205" unknown_0x0="0" unknown_0x4="4" unknown_0x8="1208" />
+<row id="1206" unknown_0x0="0" unknown_0x4="4" unknown_0x8="1206" />
+<row id="1209" unknown_0x0="0" unknown_0x4="4" unknown_0x8="1209" />
+<row id="2100" unknown_0x0="0" unknown_0x4="4" unknown_0x8="2112" />
+</rows>
+</param>

@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>WorldMapLegacyConvParam.param</filename>
+<compression>None</compression>
+<type>WORLD_MAP_LEGACY_CONV_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>2</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>WORLD_MAP_LEGACY_CONV_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>2</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="disableParam_NT" type="u8" arraylength="1" bitsize="1" sortid="0" defaultValue="1" defaultThreshold="True" />
+<field name="disableParamReserve1" type="dummy8" arraylength="1" bitsize="7" sortid="8001" defaultValue="[0]" defaultThreshold="True" />
+<field name="disableParamReserve2" type="dummy8" arraylength="3" bitsize="-1" sortid="8002" defaultValue="[0|0|0]" defaultThreshold="True" />
+<field name="srcAreaNo" type="u8" arraylength="1" bitsize="-1" sortid="100" defaultValue="30" />
+<field name="srcGridXNo" type="u8" arraylength="1" bitsize="-1" sortid="200" defaultValue="0" />
+<field name="srcGridZNo" type="u8" arraylength="1" bitsize="-1" sortid="300" defaultValue="0" defaultThreshold="True" />
+<field name="pad1" type="dummy8" arraylength="1" bitsize="-1" sortid="8003" defaultValue="[0]" defaultThreshold="True" />
+<field name="srcPosX" type="f32" arraylength="1" bitsize="-1" sortid="1100" defaultValue="0" />
+<field name="srcPosY" type="f32" arraylength="1" bitsize="-1" sortid="1200" defaultValue="0" />
+<field name="srcPosZ" type="f32" arraylength="1" bitsize="-1" sortid="1300" defaultValue="0" />
+<field name="dstAreaNo" type="u8" arraylength="1" bitsize="-1" sortid="4100" defaultValue="60" />
+<field name="dstGridXNo" type="u8" arraylength="1" bitsize="-1" sortid="4200" defaultValue="48" />
+<field name="dstGridZNo" type="u8" arraylength="1" bitsize="-1" sortid="4300" defaultValue="0" />
+<field name="pad2" type="dummy8" arraylength="1" bitsize="-1" sortid="8004" defaultValue="[0]" defaultThreshold="True" />
+<field name="dstPosX" type="f32" arraylength="1" bitsize="-1" sortid="5100" defaultValue="0" />
+<field name="dstPosY" type="f32" arraylength="1" bitsize="-1" sortid="5200" defaultValue="0" />
+<field name="dstPosZ" type="f32" arraylength="1" bitsize="-1" sortid="5300" defaultValue="0" />
+<field name="isBasePoint" type="u8" arraylength="1" bitsize="1" sortid="8000" defaultValue="1" defaultThreshold="True" />
+<field name="pad3" type="dummy8" arraylength="1" bitsize="7" sortid="8005" defaultValue="[0]" defaultThreshold="True" />
+<field name="pad4" type="dummy8" arraylength="11" bitsize="-1" sortid="8006" defaultValue="[0|0|0|0|0|0|0|0|0|0|0]" defaultThreshold="True" />
+</fields>
+<rows>
+<row id="5" paramdexName="Roundtable Hold -&gt; Unnamed Tile" srcAreaNo="11" srcGridXNo="10" srcPosX="-305.653" srcPosY="-20.002" srcPosZ="-297.949" dstAreaNo="60" dstGridXNo="40" dstGridZNo="35" dstPosX="-341.67" dstPosY="66.16" dstPosZ="-47.78" />
+<row id="10" paramdexName="Crumbling Farum Azula -&gt; Greyoll's Dragonbarrow - Bestial Sanctum" srcAreaNo="13" srcGridXNo="0" srcPosX="668.01" srcPosY="-873.67" srcPosZ="-2509.77" dstAreaNo="60" dstGridXNo="51" dstGridZNo="43" dstPosX="-36.71" dstPosY="344.39" dstPosZ="0.32" isBasePoint="0" />
+<row id="11" paramdexName="Crumbling Farum Azula -&gt; Greyoll's Dragonbarrow - Bestial Sanctum" srcAreaNo="13" srcGridXNo="0" srcPosX="-2509.61" srcPosY="-874.01" srcPosZ="-668.01" dstAreaNo="60" dstGridXNo="51" dstGridZNo="43" dstPosX="-36.71" dstPosY="344.39" dstPosZ="0.32" />
+<row id="12" paramdexName="Subterranean Shunning-Grounds -&gt; Leyndell, Royal Capital" srcAreaNo="35" srcGridXNo="0" srcPosX="-184" srcPosY="-88.5" srcPosZ="-163" dstAreaNo="11" dstGridXNo="0" dstGridZNo="0" dstPosX="-184" dstPosY="-88.5" dstPosZ="-163" />
+<row id="14" paramdexName="Leyndell, Ashen Capital -&gt; Stone Platform" srcAreaNo="11" srcGridXNo="5" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="19" dstGridXNo="0" dstGridZNo="0" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="15" paramdexName="Stormveil Castle -&gt; Divine Tower of Limgrave" srcAreaNo="10" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="34" dstGridXNo="10" dstGridZNo="0" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="16" paramdexName="Isolated Divine Tower -&gt; Unnamed Tile" srcAreaNo="34" srcGridXNo="15" srcPosX="4.95" srcPosY="0.02" srcPosZ="27.91" dstAreaNo="60" dstGridXNo="51" dstGridZNo="46" dstPosX="-16.47" dstPosY="272" dstPosZ="-55.32" />
+<row id="17" paramdexName="Crumbling Farum Azula -&gt; Isolated Divine Tower: Overworld" srcAreaNo="13" srcGridXNo="0" srcPosX="259.68" srcPosY="83.54" srcPosZ="95" dstAreaNo="34" dstGridXNo="15" dstGridZNo="0" dstPosX="2467.37" dstPosY="1028.15" dstPosZ="-271.47" isBasePoint="0" />
+<row id="18" paramdexName="Miquella's Haligtree -&gt; Consecrated Snowfield - Ordina, Liturgical Town" srcAreaNo="15" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="48" dstGridZNo="57" dstPosX="365.824" dstPosY="626.76" dstPosZ="550.648" />
+<row id="100" paramdexName="Stormveil Castle -&gt; Liurnia of the Lakes - Church of Irith" srcAreaNo="10" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="39" dstGridZNo="39" dstPosX="387.383" dstPosY="273.608" dstPosZ="-282.331" />
+<row id="101" paramdexName="Stormveil Castle -&gt; Liurnia of the Lakes - Lake-Facing Cliffs, Stormveil Castle Exit, Stillwater Cave Entrance" srcAreaNo="10" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="39" dstGridZNo="40" dstPosX="387.383" dstPosY="273.608" dstPosZ="-538.331" />
+<row id="102" paramdexName="Stormveil Castle -&gt; Caelid - West Sellia, Sellia Crystal Tunnel Entrance, Sellia Evergaol" disableParam_NT="0" srcAreaNo="10" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="40" dstGridZNo="39" dstPosX="131.383" dstPosY="273.608" dstPosZ="-282.331" />
+<row id="103" paramdexName="Stormveil Castle -&gt; Greyoll's Dragonbarrow - South of Divine Tower of Caelid, Deep Siofra Well" srcAreaNo="10" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="40" dstGridZNo="40" dstPosX="131.383" dstPosY="273.608" dstPosZ="-538.331" />
+<row id="104" paramdexName="Stormveil Castle -&gt; Stormhill - Stormhill Shack, Stormveil Castle Entrance" disableParam_NT="0" srcAreaNo="10" srcGridXNo="0" srcPosX="0" srcPosY="-8" srcPosZ="0" dstAreaNo="60" dstGridXNo="41" dstGridZNo="38" dstPosX="-124.617" dstPosY="265.608" dstPosZ="-26.331" />
+<row id="105" paramdexName="Stormveil Castle -&gt; Stormhill - North of Stormhill Shack" disableParam_NT="0" srcAreaNo="10" srcGridXNo="0" srcPosX="0" srcPosY="-8" srcPosZ="0" dstAreaNo="60" dstGridXNo="41" dstGridZNo="39" dstPosX="-124.617" dstPosY="265.608" dstPosZ="-282.331" />
+<row id="106" paramdexName="Stormveil Castle -&gt; Chapel of Anticipation" srcAreaNo="10" srcGridXNo="0" srcPosX="-514" srcPosY="28" srcPosZ="200" dstAreaNo="10" dstGridXNo="1" dstGridZNo="0" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="107" paramdexName="Stormveil Castle -&gt; Divine Tower of Limgrave" srcAreaNo="10" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="34" dstGridXNo="10" dstGridZNo="0" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="108" paramdexName="Leyndell, Royal Capital -&gt; Capital Outskirts - Capital Rampart, Auriza Side Tomb Entrance" srcAreaNo="11" srcGridXNo="0" srcPosX="-90.017" srcPosY="-118.9" srcPosZ="66.456" dstAreaNo="60" dstGridXNo="45" dstGridZNo="52" dstPosX="-73.338" dstPosY="968.621" dstPosZ="-54.108" />
+<row id="109" paramdexName="Leyndell, Royal Capital -&gt; Divine Tower of East Altus" srcAreaNo="11" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="34" dstGridXNo="14" dstGridZNo="0" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="110" paramdexName="Leyndell, Royal Capital -&gt; Subterranean Shunning-Grounds" srcAreaNo="11" srcGridXNo="0" srcPosX="-184" srcPosY="-88.5" srcPosZ="-163" dstAreaNo="35" dstGridXNo="0" dstGridZNo="0" dstPosX="-184" dstPosY="-88.5" dstPosZ="-163" />
+<row id="111" paramdexName="Leyndell, Ashen Capital -&gt; Capital Outskirts - Capital Rampart, Auriza Side Tomb Entrance" srcAreaNo="11" srcGridXNo="5" srcPosX="-90" srcPosY="-118.9" srcPosZ="66.456" dstAreaNo="60" dstGridXNo="45" dstGridZNo="52" dstPosX="-73.338" dstPosY="968.621" dstPosZ="-54.108" />
+<row id="112" paramdexName="Leyndell, Ashen Capital -&gt; Stone Platform" srcAreaNo="11" srcGridXNo="5" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="19" dstGridXNo="0" dstGridZNo="0" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="113" paramdexName="Leyndell, Ashen Capital -&gt; Divine Tower of East Altus" srcAreaNo="11" srcGridXNo="5" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="34" dstGridXNo="14" dstGridZNo="0" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="114" paramdexName="Leyndell, Ashen Capital -&gt; Subterranean Shunning-Grounds" srcAreaNo="11" srcGridXNo="5" srcPosX="-184" srcPosY="-88.5" srcPosZ="-163" dstAreaNo="35" dstGridXNo="0" dstGridZNo="0" dstPosX="-184" dstPosY="-88.5" dstPosZ="-163" />
+<row id="115" paramdexName="Ainsel River / Lake of Rot -&gt; Liurnia of the Lakes - Eastern Tableland, Ainsel River Well" srcAreaNo="12" srcGridXNo="1" srcPosX="400.899" srcPosY="-15.538" srcPosZ="-122.692" dstAreaNo="60" dstGridXNo="38" dstGridZNo="46" dstPosX="89.012" dstPosY="252.618" dstPosZ="76.68" />
+<row id="116" paramdexName="Ainsel River / Lake of Rot -&gt; Liurnia of the Lakes - Ruined Labyrinth, Uld Palace Ruins" srcAreaNo="12" srcGridXNo="1" srcPosX="400.899" srcPosY="-15.538" srcPosZ="-122.692" dstAreaNo="60" dstGridXNo="38" dstGridZNo="47" dstPosX="89.012" dstPosY="252.618" dstPosZ="-179.32" />
+<row id="117" paramdexName="Ainsel River / Lake of Rot -&gt; Liurnia of the Lakes - Eastern Tableland Northeast Cliffside" srcAreaNo="12" srcGridXNo="1" srcPosX="400.899" srcPosY="-15.538" srcPosZ="-122.692" dstAreaNo="60" dstGridXNo="39" dstGridZNo="46" dstPosX="-166.988" dstPosY="252.618" dstPosZ="76.68" />
+<row id="118" paramdexName="Ainsel River / Lake of Rot -&gt; Deeproot Depths" srcAreaNo="12" srcGridXNo="1" srcPosX="1693.196" srcPosY="0" srcPosZ="1245.763" dstAreaNo="12" dstGridXNo="3" dstGridZNo="0" dstPosX="-797.484" dstPosY="91.243" dstPosZ="-369.525" />
+<row id="119" paramdexName="Ainsel River / Lake of Rot -&gt; Lake of Rot - Astel's Chamber" srcAreaNo="12" srcGridXNo="1" srcPosX="-800.113" srcPosY="-448.156" srcPosZ="-1585.592" dstAreaNo="12" dstGridXNo="4" dstGridZNo="0" dstPosX="-88" dstPosY="-180" dstPosZ="-106.22" />
+<row id="120" paramdexName="Siofra River / Nokron -&gt;" srcAreaNo="12" srcGridXNo="2" srcPosX="1549.947" srcPosY="-301.49" srcPosZ="1910.793" dstAreaNo="60" dstGridXNo="48" dstGridZNo="39" dstPosX="143.636" dstPosY="116.941" dstPosZ="243.683" />
+<row id="121" paramdexName="Siofra River / Nokron -&gt;" srcAreaNo="12" srcGridXNo="2" srcPosX="1549.947" srcPosY="-301.49" srcPosZ="1910.793" dstAreaNo="60" dstGridXNo="48" dstGridZNo="40" dstPosX="143.636" dstPosY="116.941" dstPosZ="-12.317" />
+<row id="122" paramdexName="Siofra River / Nokron -&gt; Caelid - West Sellia, Sellia Crystal Tunnel Entrance, Sellia Evergaol" srcAreaNo="12" srcGridXNo="2" srcPosX="1549.947" srcPosY="-301.49" srcPosZ="1910.793" dstAreaNo="60" dstGridXNo="49" dstGridZNo="39" dstPosX="-112.364" dstPosY="116.941" dstPosZ="243.683" />
+<row id="123" paramdexName="Siofra River / Nokron -&gt; Greyoll's Dragonbarrow - South of Divine Tower of Caelid, Deep Siofra Well" srcAreaNo="12" srcGridXNo="2" srcPosX="1549.947" srcPosY="-301.49" srcPosZ="1910.793" dstAreaNo="60" dstGridXNo="49" dstGridZNo="40" dstPosX="-112.364" dstPosY="116.941" dstPosZ="-12.317" />
+<row id="124" paramdexName="Siofra River / Nokron -&gt; Nokron - Start" srcAreaNo="12" srcGridXNo="2" srcPosX="928.988" srcPosY="-617.3" srcPosZ="1188.437" dstAreaNo="12" dstGridXNo="7" dstGridZNo="0" dstPosX="928.988" dstPosY="-617.3" dstPosZ="1188.437" />
+<row id="125" paramdexName="Siofra River / Nokron -&gt; Siofra River - Ancestor Spirit Chamber" srcAreaNo="12" srcGridXNo="2" srcPosX="1271.37" srcPosY="-809.288" srcPosZ="1135.411" dstAreaNo="12" dstGridXNo="8" dstGridZNo="0" dstPosX="1271.37" dstPosY="-809.288" dstPosZ="1135.411" />
+<row id="126" paramdexName="Siofra River / Nokron -&gt; Nokron - Regal Ancestor Spirit Chamber" srcAreaNo="12" srcGridXNo="2" srcPosX="1192.549" srcPosY="-611.833" srcPosZ="1637.627" dstAreaNo="12" dstGridXNo="9" dstGridZNo="0" dstPosX="1192.549" dstPosY="-611.833" dstPosZ="1637.627" />
+<row id="127" paramdexName="Deeproot Depths -&gt; Subterranean Shunning-Grounds" srcAreaNo="12" srcGridXNo="3" srcPosX="672.648" srcPosY="-397.374" srcPosZ="228.076" dstAreaNo="35" dstGridXNo="0" dstGridZNo="0" dstPosX="1007.321" dstPosY="-1087.521" dstPosZ="632.564" />
+<row id="128" paramdexName="Lake of Rot - Astel's Chamber -&gt; Moonlight Altar - Deep Ainsel Well" srcAreaNo="12" srcGridXNo="4" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="34" dstGridZNo="41" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="129" paramdexName="Mohgwyn Palace -&gt; Caelid - West Radahn Arena" srcAreaNo="12" srcGridXNo="5" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="51" dstGridZNo="38" dstPosX="-2000" dstPosY="370" dstPosZ="-1250" />
+<row id="130" paramdexName="Nokron - Start -&gt; Limgrave - Fort Haight West" srcAreaNo="12" srcGridXNo="7" srcPosX="599.083" srcPosY="-494.007" srcPosZ="975.002" dstAreaNo="60" dstGridXNo="45" dstGridZNo="36" dstPosX="-40.917" dstPosY="-64.378" dstPosZ="79.001" />
+<row id="131" paramdexName="Nokron - Start -&gt; Limgrave - Siofra River Well, Mistwood Ruins, Minor Erdtree, Nokron Entrance" srcAreaNo="12" srcGridXNo="7" srcPosX="736.052" srcPosY="-402.611" srcPosZ="1164.386" dstAreaNo="60" dstGridXNo="45" dstGridZNo="37" dstPosX="96.052" dstPosY="27.018" dstPosZ="12.385" />
+<row id="132" paramdexName="Crumbling Farum Azula -&gt; Flame Peak - Forge of the Giants" srcAreaNo="13" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="54" dstGridZNo="53" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="133" paramdexName="Academy of Raya Lucaria -&gt; Liurnia of the Lakes - South Raya Lucaria Gate" srcAreaNo="14" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="35" dstGridZNo="45" dstPosX="-112.058" dstPosY="310.577" dstPosZ="194.278" />
+<row id="134" paramdexName="Academy of Raya Lucaria -&gt; Liurnia of the Lakes - Main Academy Gate, Academy of Raya Lucaria Entrance" srcAreaNo="14" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="35" dstGridZNo="46" dstPosX="-112.058" dstPosY="310.577" dstPosZ="-61.722" />
+<row id="135" paramdexName="Academy of Raya Lucaria -&gt; Academy Crystal Cave" srcAreaNo="14" srcGridXNo="0" srcPosX="-256" srcPosY="0" srcPosZ="-256" dstAreaNo="31" dstGridXNo="6" dstGridZNo="0" dstPosX="-112.058" dstPosY="310.577" dstPosZ="-61.722" />
+<row id="136" paramdexName="Miquella's Haligtree -&gt;" srcAreaNo="15" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="48" dstGridZNo="57" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="137" paramdexName="Volcano Manor -&gt;" srcAreaNo="16" srcGridXNo="0" srcPosX="-10.16" srcPosY="-1.171" srcPosZ="15.894" dstAreaNo="60" dstGridXNo="36" dstGridZNo="53" dstPosX="1.742" dstPosY="977.781" dstPosZ="125.753" />
+<row id="138" paramdexName="Volcano Manor -&gt;" srcAreaNo="16" srcGridXNo="0" srcPosX="-10.16" srcPosY="-1.171" srcPosZ="15.894" dstAreaNo="60" dstGridXNo="36" dstGridZNo="54" dstPosX="1.742" dstPosY="977.781" dstPosZ="-130.247" />
+<row id="139" paramdexName="Volcano Manor -&gt;" srcAreaNo="16" srcGridXNo="0" srcPosX="244.193" srcPosY="-978.823" srcPosZ="-365.855" dstAreaNo="60" dstGridXNo="37" dstGridZNo="52" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="140" paramdexName="Stranded Graveyard -&gt;" disableParam_NT="0" srcAreaNo="18" srcGridXNo="0" srcPosX="-1" srcPosY="-1" srcPosZ="2" dstAreaNo="60" dstGridXNo="42" dstGridZNo="35" dstPosX="146" dstPosY="15" dstPosZ="156" />
+<row id="141" paramdexName="Stranded Graveyard -&gt;" disableParam_NT="0" srcAreaNo="18" srcGridXNo="0" srcPosX="-1" srcPosY="-1" srcPosZ="2" dstAreaNo="60" dstGridXNo="42" dstGridZNo="36" dstPosX="146" dstPosY="15" dstPosZ="-100" />
+<row id="142" paramdexName="Tombsward Catacombs -&gt;" srcAreaNo="30" srcGridXNo="0" srcPosX="-95" srcPosY="56" srcPosZ="74" dstAreaNo="60" dstGridXNo="43" dstGridZNo="33" dstPosX="-95" dstPosY="56" dstPosZ="74" />
+<row id="143" paramdexName="Tombsward Catacombs -&gt;" srcAreaNo="30" srcGridXNo="0" srcPosX="-95" srcPosY="56" srcPosZ="74" dstAreaNo="60" dstGridXNo="43" dstGridZNo="34" dstPosX="-95" dstPosY="56" dstPosZ="-182" />
+<row id="144" paramdexName="Impaler's Catacombs -&gt;" srcAreaNo="30" srcGridXNo="1" srcPosX="-59" srcPosY="38.5" srcPosZ="-69" dstAreaNo="60" dstGridXNo="45" dstGridZNo="34" dstPosX="-59" dstPosY="38.5" dstPosZ="-69" />
+<row id="145" paramdexName="Stormfoot Catacombs -&gt;" disableParam_NT="0" srcAreaNo="30" srcGridXNo="2" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="41" dstGridZNo="37" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="146" paramdexName="Road's End Catacombs -&gt;" srcAreaNo="30" srcGridXNo="3" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="33" dstGridZNo="43" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="147" paramdexName="Murkwater Catacombs -&gt;" disableParam_NT="0" srcAreaNo="30" srcGridXNo="4" srcPosX="86" srcPosY="67" srcPosZ="62" dstAreaNo="60" dstGridXNo="43" dstGridZNo="38" dstPosX="86" dstPosY="67" dstPosZ="62" />
+<row id="148" paramdexName="Murkwater Catacombs -&gt;" disableParam_NT="0" srcAreaNo="30" srcGridXNo="4" srcPosX="86" srcPosY="67" srcPosZ="62" dstAreaNo="60" dstGridXNo="44" dstGridZNo="38" dstPosX="-170" dstPosY="67" dstPosZ="62" />
+<row id="149" paramdexName="Black Knife Catacombs -&gt;" srcAreaNo="30" srcGridXNo="5" srcPosX="-73" srcPosY="427" srcPosZ="112" dstAreaNo="60" dstGridXNo="39" dstGridZNo="48" dstPosX="-73" dstPosY="427" dstPosZ="112" />
+<row id="150" paramdexName="Cliffbottom Catacombs -&gt;" srcAreaNo="30" srcGridXNo="6" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="39" dstGridZNo="41" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="151" paramdexName="Wyndham Catacombs -&gt;" srcAreaNo="30" srcGridXNo="7" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="37" dstGridZNo="52" dstPosX="256" dstPosY="0" dstPosZ="0" />
+<row id="152" paramdexName="Wyndham Catacombs -&gt;" srcAreaNo="30" srcGridXNo="7" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="38" dstGridZNo="52" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="153" paramdexName="Sainted Hero's Grave -&gt;" srcAreaNo="30" srcGridXNo="8" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="40" dstGridZNo="52" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="154" paramdexName="Gelmir Hero's Grave -&gt;" srcAreaNo="30" srcGridXNo="9" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="37" dstGridZNo="53" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="155" paramdexName="Auriza Hero's Grave" srcAreaNo="30" srcGridXNo="10" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="45" dstGridZNo="51" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="156" paramdexName="Auriza Hero's Grave" srcAreaNo="30" srcGridXNo="10" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="45" dstGridZNo="52" dstPosX="0" dstPosY="0" dstPosZ="-256" />
+<row id="157" paramdexName="Deathtouched Catacombs" srcAreaNo="30" srcGridXNo="11" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="43" dstGridZNo="39" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="158" paramdexName="Unsightly Catacombs" srcAreaNo="30" srcGridXNo="12" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="36" dstGridZNo="51" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="159" paramdexName="Auriza Side Tomb" srcAreaNo="30" srcGridXNo="13" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="45" dstGridZNo="52" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="160" paramdexName="Minor Erdtree Catacombs" srcAreaNo="30" srcGridXNo="14" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="47" dstGridZNo="40" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="161" paramdexName="Minor Erdtree Catacombs" srcAreaNo="30" srcGridXNo="14" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="47" dstGridZNo="41" dstPosX="0" dstPosY="0" dstPosZ="-256" />
+<row id="162" paramdexName="Caelid Catacombs" srcAreaNo="30" srcGridXNo="15" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="48" dstGridZNo="36" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="163" paramdexName="Caelid Catacombs" srcAreaNo="30" srcGridXNo="15" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="49" dstGridZNo="36" dstPosX="-256" dstPosY="0" dstPosZ="0" />
+<row id="164" paramdexName="War-Dead Catacombs" srcAreaNo="30" srcGridXNo="16" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="52" dstGridZNo="40" dstPosX="0" dstPosY="0" dstPosZ="256" />
+<row id="165" paramdexName="Giant-Conquering Hero's Grave" srcAreaNo="30" srcGridXNo="17" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="50" dstGridZNo="53" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="166" paramdexName="Giant-Conquering Hero's Grave" srcAreaNo="30" srcGridXNo="17" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="50" dstGridZNo="54" dstPosX="0" dstPosY="0" dstPosZ="-256" />
+<row id="167" paramdexName="Giants' Mountaintop Catacombs" srcAreaNo="30" srcGridXNo="18" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="50" dstGridZNo="53" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="168" paramdexName="Giants' Mountaintop Catacombs" srcAreaNo="30" srcGridXNo="18" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="50" dstGridZNo="54" dstPosX="0" dstPosY="0" dstPosZ="-256" />
+<row id="169" paramdexName="Consecrated Snowfield Catacombs" srcAreaNo="30" srcGridXNo="19" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="49" dstGridZNo="55" dstPosX="256" dstPosY="0" dstPosZ="0" />
+<row id="170" paramdexName="Consecrated Snowfield Catacombs" srcAreaNo="30" srcGridXNo="19" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="50" dstGridZNo="55" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="171" paramdexName="Hidden Path to the Haligtree" srcAreaNo="30" srcGridXNo="20" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="48" dstGridZNo="53" dstPosX="256" dstPosY="0" dstPosZ="256" />
+<row id="172" paramdexName="Hidden Path to the Haligtree" srcAreaNo="30" srcGridXNo="20" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="48" dstGridZNo="54" dstPosX="256" dstPosY="0" dstPosZ="0" />
+<row id="173" paramdexName="Hidden Path to the Haligtree" srcAreaNo="30" srcGridXNo="20" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="49" dstGridZNo="53" dstPosX="0" dstPosY="0" dstPosZ="256" />
+<row id="174" paramdexName="Hidden Path to the Haligtree" srcAreaNo="30" srcGridXNo="20" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="49" dstGridZNo="54" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="175" paramdexName="Murkwater Cave" srcAreaNo="31" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="43" dstGridZNo="37" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="176" paramdexName="Earthbore Cave" srcAreaNo="31" srcGridXNo="1" srcPosX="-106" srcPosY="-3" srcPosZ="-43" dstAreaNo="60" dstGridXNo="44" dstGridZNo="34" dstPosX="-106" dstPosY="-3" dstPosZ="-43" />
+<row id="177" paramdexName="Tombsward Cave" srcAreaNo="31" srcGridXNo="2" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="42" dstGridZNo="33" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="178" paramdexName="Groveside Cave" disableParam_NT="0" srcAreaNo="31" srcGridXNo="3" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="42" dstGridZNo="37" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="179" paramdexName="Stillwater Cave" srcAreaNo="31" srcGridXNo="4" srcPosX="10" srcPosY="240" srcPosZ="-35" dstAreaNo="60" dstGridXNo="39" dstGridZNo="40" dstPosX="10" dstPosY="240" dstPosZ="-35" />
+<row id="180" paramdexName="Lakeside Crystal Cave" srcAreaNo="31" srcGridXNo="5" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="36" dstGridZNo="41" dstPosX="256" dstPosY="0" dstPosZ="0" />
+<row id="181" paramdexName="Lakeside Crystal Cave" srcAreaNo="31" srcGridXNo="5" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="37" dstGridZNo="41" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="182" paramdexName="Academy Crystal Cave" srcAreaNo="31" srcGridXNo="6" srcPosX="74" srcPosY="240" srcPosZ="118" dstAreaNo="60" dstGridXNo="34" dstGridZNo="45" dstPosX="74" dstPosY="240" dstPosZ="118" />
+<row id="183" paramdexName="Academy Crystal Cave" srcAreaNo="31" srcGridXNo="6" srcPosX="74" srcPosY="240" srcPosZ="118" dstAreaNo="60" dstGridXNo="34" dstGridZNo="46" dstPosX="74" dstPosY="240" dstPosZ="-138" />
+<row id="184" paramdexName="Seethewater Cave" srcAreaNo="31" srcGridXNo="7" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="37" dstGridZNo="53" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="185" paramdexName="Seethewater Cave" srcAreaNo="31" srcGridXNo="7" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="37" dstGridZNo="54" dstPosX="0" dstPosY="0" dstPosZ="-256" />
+<row id="186" paramdexName="Volcano Cave" srcAreaNo="31" srcGridXNo="9" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="37" dstGridZNo="55" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="187" paramdexName="Dragonbarrow Cave" srcAreaNo="31" srcGridXNo="10" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="51" dstGridZNo="40" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="188" paramdexName="Sellia Hideaway" srcAreaNo="31" srcGridXNo="11" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="50" dstGridZNo="39" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="189" paramdexName="Cave of the Forlorn" srcAreaNo="31" srcGridXNo="12" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="50" dstGridZNo="56" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="190" paramdexName="Coastal Cave" disableParam_NT="0" srcAreaNo="31" srcGridXNo="15" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="41" dstGridZNo="35" dstPosX="0" dstPosY="0" dstPosZ="256" />
+<row id="191" paramdexName="Coastal Cave" disableParam_NT="0" srcAreaNo="31" srcGridXNo="15" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="41" dstGridZNo="36" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="192" paramdexName="Highroad Cave" srcAreaNo="31" srcGridXNo="17" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="43" dstGridZNo="39" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="193" paramdexName="Perfumer's Grotto" srcAreaNo="31" srcGridXNo="18" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="41" dstGridZNo="51" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="194" paramdexName="Perfumer's Grotto" srcAreaNo="31" srcGridXNo="18" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="32" dstGridXNo="5" dstGridZNo="0" dstPosX="0" dstPosY="0" dstPosZ="-256" />
+<row id="195" paramdexName="Sage's Cave" srcAreaNo="31" srcGridXNo="19" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="37" dstGridZNo="52" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="196" paramdexName="Abandoned Cave" srcAreaNo="31" srcGridXNo="20" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="48" dstGridZNo="39" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="197" paramdexName="Abandoned Cave" srcAreaNo="31" srcGridXNo="20" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="49" dstGridZNo="39" dstPosX="-256" dstPosY="0" dstPosZ="0" />
+<row id="198" paramdexName="Gaol Cave" srcAreaNo="31" srcGridXNo="21" srcPosX="-256" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="46" dstGridZNo="38" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="199" paramdexName="Gaol Cave" srcAreaNo="31" srcGridXNo="21" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="47" dstGridZNo="38" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="200" paramdexName="Spiritcaller Cave" srcAreaNo="31" srcGridXNo="22" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="53" dstGridZNo="56" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="201" paramdexName="Spiritcaller Cave" srcAreaNo="31" srcGridXNo="22" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="53" dstGridZNo="57" dstPosX="0" dstPosY="0" dstPosZ="-256" />
+<row id="202" paramdexName="Morne Tunnel" srcAreaNo="32" srcGridXNo="0" srcPosX="36" srcPosY="28" srcPosZ="-68" dstAreaNo="60" dstGridXNo="43" dstGridZNo="33" dstPosX="36" dstPosY="28" dstPosZ="-68" />
+<row id="203" paramdexName="Limgrave Tunnels" disableParam_NT="0" srcAreaNo="32" srcGridXNo="1" srcPosX="127" srcPosY="69" srcPosZ="-8" dstAreaNo="60" dstGridXNo="42" dstGridZNo="37" dstPosX="127" dstPosY="69" dstPosZ="-8" />
+<row id="204" paramdexName="Limgrave Tunnels" disableParam_NT="0" srcAreaNo="32" srcGridXNo="1" srcPosX="127" srcPosY="69" srcPosZ="-8" dstAreaNo="60" dstGridXNo="43" dstGridZNo="37" dstPosX="-129" dstPosY="69" dstPosZ="-8" />
+<row id="205" paramdexName="Raya Lucaria Crystal Tunnel" srcAreaNo="32" srcGridXNo="2" srcPosX="-112" srcPosY="244" srcPosZ="26" dstAreaNo="60" dstGridXNo="36" dstGridZNo="47" dstPosX="144" dstPosY="244" dstPosZ="26" />
+<row id="206" paramdexName="Raya Lucaria Crystal Tunnel" srcAreaNo="32" srcGridXNo="2" srcPosX="-112" srcPosY="244" srcPosZ="26" dstAreaNo="60" dstGridXNo="37" dstGridZNo="47" dstPosX="-112" dstPosY="244" dstPosZ="26" />
+<row id="207" paramdexName="Old Altus Tunnel" srcAreaNo="32" srcGridXNo="4" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="38" dstGridZNo="52" dstPosX="256" dstPosY="0" dstPosZ="256" />
+<row id="208" paramdexName="Old Altus Tunnel" srcAreaNo="32" srcGridXNo="4" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="38" dstGridZNo="53" dstPosX="256" dstPosY="0" dstPosZ="0" />
+<row id="209" paramdexName="Old Altus Tunnel" srcAreaNo="32" srcGridXNo="4" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="39" dstGridZNo="52" dstPosX="0" dstPosY="0" dstPosZ="256" />
+<row id="210" paramdexName="Old Altus Tunnel" srcAreaNo="32" srcGridXNo="4" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="39" dstGridZNo="53" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="211" paramdexName="Altus Tunnel" srcAreaNo="32" srcGridXNo="5" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="41" dstGridZNo="52" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="212" paramdexName="Gael Tunnel" srcAreaNo="32" srcGridXNo="7" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="46" dstGridZNo="39" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="213" paramdexName="Gael Tunnel" srcAreaNo="32" srcGridXNo="7" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="46" dstGridZNo="40" dstPosX="0" dstPosY="0" dstPosZ="-256" />
+<row id="214" paramdexName="Gael Tunnel" srcAreaNo="32" srcGridXNo="7" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="47" dstGridZNo="39" dstPosX="-256" dstPosY="0" dstPosZ="0" />
+<row id="215" paramdexName="Sellia Crystal Tunnel" srcAreaNo="32" srcGridXNo="8" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="49" dstGridZNo="39" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="216" paramdexName="Yelough Anix Tunnel" srcAreaNo="32" srcGridXNo="11" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="47" dstGridZNo="55" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="217" paramdexName="Divine Tower of Limgrave" srcAreaNo="34" srcGridXNo="10" srcPosX="124.617" srcPosY="-265.608" srcPosZ="26.331" dstAreaNo="60" dstGridXNo="45" dstGridZNo="36" dstPosX="-1024" dstPosY="8" dstPosZ="512" />
+<row id="218" paramdexName="Divine Tower of Liurnia" srcAreaNo="34" srcGridXNo="11" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="39" dstGridZNo="44" dstPosX="-26.6" dstPosY="400.5" dstPosZ="38.3" />
+<row id="219" paramdexName="Divine Tower of West Altus" srcAreaNo="34" srcGridXNo="12" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="43" dstGridZNo="50" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="220" paramdexName="Divine Tower of Caelid" srcAreaNo="34" srcGridXNo="13" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="49" dstGridZNo="41" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="221" paramdexName="Divine Tower of Caelid" srcAreaNo="34" srcGridXNo="13" srcPosX="512" srcPosY="0" srcPosZ="-512" dstAreaNo="60" dstGridXNo="51" dstGridZNo="39" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="222" paramdexName="Divine Tower of East Altus" srcAreaNo="34" srcGridXNo="14" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="47" dstGridZNo="51" dstPosX="-495.321" dstPosY="1085.5" dstPosZ="135.436" />
+<row id="223" paramdexName="Isolated Divine Tower" srcAreaNo="34" srcGridXNo="15" srcPosX="22" srcPosY="-272" srcPosZ="82" dstAreaNo="60" dstGridXNo="51" dstGridZNo="46" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="224" srcAreaNo="34" srcGridXNo="16" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="60" dstGridXNo="39" dstGridZNo="44" dstPosX="-26.6" dstPosY="400.5" dstPosZ="38.3" />
+<row id="225" srcAreaNo="37" srcGridXNo="0" srcPosX="130.4" srcPosY="-13.36" srcPosZ="76.8" dstAreaNo="37" dstGridXNo="2" dstGridZNo="0" dstPosX="130.4" dstPosY="-13.36" dstPosZ="76.8" />
+<row id="226" srcAreaNo="37" srcGridXNo="0" srcPosX="49.69" srcPosY="-43.037" srcPosZ="149.906" dstAreaNo="70" dstGridXNo="40" dstGridZNo="49" dstPosX="-0.455" dstPosY="266.321" dstPosZ="185.292" />
+<row id="227" srcAreaNo="37" srcGridXNo="0" srcPosX="49.69" srcPosY="-43.037" srcPosZ="149.906" dstAreaNo="70" dstGridXNo="40" dstGridZNo="50" dstPosX="-0.455" dstPosY="266.321" dstPosZ="-70.708" />
+<row id="228" srcAreaNo="37" srcGridXNo="0" srcPosX="49.69" srcPosY="-43.037" srcPosZ="149.906" dstAreaNo="70" dstGridXNo="40" dstGridZNo="51" dstPosX="-0.455" dstPosY="266.321" dstPosZ="-326.708" />
+<row id="229" srcAreaNo="37" srcGridXNo="0" srcPosX="49.69" srcPosY="-43.037" srcPosZ="149.906" dstAreaNo="70" dstGridXNo="41" dstGridZNo="50" dstPosX="-256.455" dstPosY="266.321" dstPosZ="-70.708" />
+<row id="230" srcAreaNo="37" srcGridXNo="1" srcPosX="-104.23" srcPosY="4.51" srcPosZ="63.12" dstAreaNo="37" dstGridXNo="2" dstGridZNo="0" dstPosX="-104.23" dstPosY="4.51" dstPosZ="63.12" />
+<row id="231" srcAreaNo="37" srcGridXNo="1" srcPosX="-126.63" srcPosY="-0.45" srcPosZ="93.45" dstAreaNo="70" dstGridXNo="39" dstGridZNo="50" dstPosX="99.12" dstPosY="297.96" dstPosZ="-96.94" />
+<row id="232" srcAreaNo="37" srcGridXNo="2" srcPosX="-107.27" srcPosY="1.83" srcPosZ="-26.2" dstAreaNo="37" dstGridXNo="3" dstGridZNo="0" dstPosX="-107.27" dstPosY="1.83" dstPosZ="-27.013227" />
+<row id="233" srcAreaNo="37" srcGridXNo="3" srcPosX="-110.95" srcPosY="1.79" srcPosZ="-82.54799" dstAreaNo="70" dstGridXNo="39" dstGridZNo="49" dstPosX="74.82" dstPosY="392.35" dstPosZ="-28.19" />
+<row id="234" srcAreaNo="38" srcGridXNo="10" srcPosX="0" srcPosY="0" srcPosZ="-416" dstAreaNo="38" dstGridXNo="11" dstGridZNo="0" dstPosX="0" dstPosY="0" dstPosZ="256" />
+<row id="235" srcAreaNo="38" srcGridXNo="11" srcPosX="0" srcPosY="0" srcPosZ="-160" dstAreaNo="38" dstGridXNo="12" dstGridZNo="0" dstPosX="0" dstPosY="0" dstPosZ="256" />
+<row id="236" srcAreaNo="39" srcGridXNo="0" srcPosX="384" srcPosY="0" srcPosZ="0" dstAreaNo="70" dstGridXNo="50" dstGridZNo="51" dstPosX="-53.76" dstPosY="27.572" dstPosZ="-10.122" />
+<row id="237" srcAreaNo="39" srcGridXNo="20" srcPosX="121" srcPosY="482" srcPosZ="-1520" dstAreaNo="60" dstGridXNo="37" dstGridZNo="50" dstPosX="169.8" dstPosY="647.6" dstPosZ="-103.4" />
+<row id="238" srcAreaNo="39" srcGridXNo="20" srcPosX="121" srcPosY="482" srcPosZ="-1520" dstAreaNo="60" dstGridXNo="37" dstGridZNo="51" dstPosX="169.8" dstPosY="647.6" dstPosZ="-359.4" />
+<row id="239" srcAreaNo="39" srcGridXNo="20" srcPosX="121" srcPosY="482" srcPosZ="-1520" dstAreaNo="60" dstGridXNo="38" dstGridZNo="50" dstPosX="-86.2" dstPosY="647.6" dstPosZ="-103.4" />
+<row id="1000" paramdexName="Finger Birthing Grounds" srcAreaNo="25" srcGridXNo="0" srcPosX="10.29" srcPosY="0.02" srcPosZ="-1.44" dstAreaNo="61" dstGridXNo="51" dstGridZNo="46" dstPosX="-106" dstPosY="467.84" dstPosZ="-55.09" />
+<row id="1100" paramdexName="Belurat, Tower Settlement" srcAreaNo="20" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="44" dstGridZNo="43" dstPosX="108.45" dstPosY="432.72" dstPosZ="-90.97" />
+<row id="1101" paramdexName="Enir-Ilim" srcAreaNo="20" srcGridXNo="1" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="44" dstGridZNo="45" dstPosX="128.45" dstPosY="644.72" dstPosZ="-77.97" />
+<row id="1102" paramdexName="Shadow Keep" srcAreaNo="21" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="48" dstGridZNo="47" dstPosX="50.25" dstPosY="431" dstPosZ="-153" />
+<row id="1103" paramdexName="Shadow Keep" srcAreaNo="21" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="49" dstGridZNo="47" dstPosX="-205.75" dstPosY="431" dstPosZ="-153" />
+<row id="1104" paramdexName="Shadow Keep" srcAreaNo="21" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="50" dstGridZNo="47" dstPosX="-461.73" dstPosY="431" dstPosZ="-153" />
+<row id="1105" paramdexName="Shadow Keep" srcAreaNo="21" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="50" dstGridZNo="48" dstPosX="-461.75" dstPosY="431" dstPosZ="-409" />
+<row id="1106" paramdexName="Shadow Keep" srcAreaNo="21" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="51" dstGridZNo="47" dstPosX="-717.73" dstPosY="431" dstPosZ="-153" />
+<row id="1107" paramdexName="Shadow Keep" srcAreaNo="21" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="21" dstGridXNo="1" dstGridZNo="0" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="1108" paramdexName="Specimen Storehouse" srcAreaNo="21" srcGridXNo="1" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="49" dstGridZNo="48" dstPosX="-205.75" dstPosY="431" dstPosZ="-409" />
+<row id="1109" paramdexName="Specimen Storehouse" srcAreaNo="21" srcGridXNo="1" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="21" dstGridXNo="2" dstGridZNo="0" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="1110" paramdexName="Specimen Storehouse (West Rampart)" srcAreaNo="21" srcGridXNo="2" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="47" dstGridZNo="47" dstPosX="306.25" dstPosY="431" dstPosZ="-153" />
+<row id="1111" paramdexName="Stone Coffin Fissure" srcAreaNo="22" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="47" dstGridZNo="35" dstPosX="512" dstPosY="-435" dstPosZ="112" />
+<row id="1112" paramdexName="Stone Coffin Fissure" srcAreaNo="22" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="47" dstGridZNo="36" dstPosX="512" dstPosY="-435" dstPosZ="-144" />
+<row id="1113" paramdexName="Finger Birthing Grounds" srcAreaNo="25" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="50" dstGridZNo="40" dstPosX="-256" dstPosY="0" dstPosZ="2304" />
+<row id="1114" paramdexName="Finger Birthing Grounds" srcAreaNo="25" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="50" dstGridZNo="41" dstPosX="-256" dstPosY="0" dstPosZ="2048" />
+<row id="1115" paramdexName="Finger Birthing Grounds" srcAreaNo="25" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="51" dstGridZNo="45" dstPosX="-512" dstPosY="0" dstPosZ="1024" />
+<row id="1116" paramdexName="Finger Birthing Grounds" srcAreaNo="25" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="53" dstGridZNo="46" dstPosX="-1024" dstPosY="0" dstPosZ="768" />
+<row id="1117" paramdexName="Midra's Manse" srcAreaNo="28" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="48" dstGridZNo="40" dstPosX="224" dstPosY="-571" dstPosZ="144" />
+<row id="1118" paramdexName="Midra's Manse" srcAreaNo="28" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="48" dstGridZNo="41" dstPosX="224" dstPosY="-571" dstPosZ="-112" />
+<row id="1119" paramdexName="Midra's Manse" srcAreaNo="28" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="49" dstGridZNo="40" dstPosX="-32" dstPosY="-571" dstPosZ="144" />
+<row id="1120" paramdexName="Midra's Manse" srcAreaNo="28" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="49" dstGridZNo="41" dstPosX="-32" dstPosY="-571" dstPosZ="-112" />
+<row id="1121" paramdexName="Fog Rift Catacombs" srcAreaNo="40" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="46" dstGridZNo="45" dstPosX="256" dstPosY="0" dstPosZ="256" />
+<row id="1122" paramdexName="Fog Rift Catacombs" srcAreaNo="40" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="46" dstGridZNo="46" dstPosX="256" dstPosY="0" dstPosZ="0" />
+<row id="1123" paramdexName="Fog Rift Catacombs" srcAreaNo="40" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="47" dstGridZNo="45" dstPosX="0" dstPosY="0" dstPosZ="256" />
+<row id="1124" paramdexName="Fog Rift Catacombs" srcAreaNo="40" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="47" dstGridZNo="46" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="1125" paramdexName="Scorpion River Catacombs" srcAreaNo="40" srcGridXNo="1" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="44" dstGridZNo="46" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="1126" paramdexName="Scorpion River Catacombs" srcAreaNo="40" srcGridXNo="1" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="44" dstGridZNo="47" dstPosX="0" dstPosY="0" dstPosZ="-256" />
+<row id="1127" paramdexName="Darklight Catacombs" srcAreaNo="40" srcGridXNo="2" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="51" dstGridZNo="43" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="1128" paramdexName="Darklight Catacombs" srcAreaNo="40" srcGridXNo="2" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="52" dstGridZNo="43" dstPosX="-256" dstPosY="0" dstPosZ="0" />
+<row id="1129" paramdexName="Belurat Gaol" srcAreaNo="41" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="45" dstGridZNo="43" dstPosX="0" dstPosY="0" dstPosZ="256" />
+<row id="1130" paramdexName="Belurat Gaol" srcAreaNo="41" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="45" dstGridZNo="44" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="1131" paramdexName="Bonny Gaol" srcAreaNo="41" srcGridXNo="1" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="50" dstGridZNo="43" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="1132" paramdexName="Lamenter's Gaol" srcAreaNo="41" srcGridXNo="2" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="46" dstGridZNo="40" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="1133" paramdexName="Lamenter's Gaol" srcAreaNo="41" srcGridXNo="2" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="47" dstGridZNo="40" dstPosX="-256" dstPosY="0" dstPosZ="-0.1" />
+<row id="1134" paramdexName="Ruined Forge Lava Intake" srcAreaNo="42" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="47" dstGridZNo="42" dstPosX="256" dstPosY="0" dstPosZ="0" />
+<row id="1135" paramdexName="Ruined Forge Lava Intake" srcAreaNo="42" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="47" dstGridZNo="43" dstPosX="256" dstPosY="0" dstPosZ="-256" />
+<row id="1136" paramdexName="Ruined Forge Lava Intake" srcAreaNo="42" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="48" dstGridZNo="42" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="1137" paramdexName="Ruined Forge Lava Intake" srcAreaNo="42" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="48" dstGridZNo="43" dstPosX="0" dstPosY="0" dstPosZ="-256" />
+<row id="1138" paramdexName="Ruined Forge of Starfall Past" srcAreaNo="42" srcGridXNo="2" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="48" dstGridZNo="43" dstPosX="0" dstPosY="0" dstPosZ="256" />
+<row id="1139" paramdexName="Ruined Forge of Starfall Past" srcAreaNo="42" srcGridXNo="2" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="48" dstGridZNo="44" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="1140" paramdexName="Ruined Forge of Starfall Past" srcAreaNo="42" srcGridXNo="2" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="49" dstGridZNo="43" dstPosX="-256" dstPosY="0" dstPosZ="256" />
+<row id="1141" paramdexName="Ruined Forge of Starfall Past" srcAreaNo="42" srcGridXNo="2" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="49" dstGridZNo="44" dstPosX="-256" dstPosY="0" dstPosZ="0" />
+<row id="1142" paramdexName="Taylew's Ruined Forge" srcAreaNo="42" srcGridXNo="3" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="48" dstGridZNo="47" dstPosX="0" dstPosY="0" dstPosZ="256" />
+<row id="1143" paramdexName="Taylew's Ruined Forge" srcAreaNo="42" srcGridXNo="3" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="48" dstGridZNo="48" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="1144" paramdexName="Rivermouth Cave" srcAreaNo="43" srcGridXNo="0" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="46" dstGridZNo="44" dstPosX="0" dstPosY="0" dstPosZ="0" />
+<row id="1145" paramdexName="Dragon's Pit -&gt; Unnamed Tile" srcAreaNo="43" srcGridXNo="1" srcPosX="0" srcPosY="0" srcPosZ="0" dstAreaNo="61" dstGridXNo="48" dstGridZNo="41" dstPosX="0" dstPosY="0" dstPosZ="0" />
+</rows>
+</param>

@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>BuddyStoneParam.param</filename>
+<compression>None</compression>
+<type>BUDDY_STONE_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>2</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>BUDDY_STONE_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>2</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="disableParam_NT" type="u8" arraylength="1" bitsize="1" sortid="0" defaultValue="1" defaultThreshold="True" />
+<field name="disableParamReserve1" type="dummy8" arraylength="1" bitsize="7" sortid="601" defaultValue="[0]" defaultThreshold="True" />
+<field name="disableParamReserve2" type="dummy8" arraylength="3" bitsize="-1" sortid="602" defaultValue="[0|0|0]" defaultThreshold="True" />
+<field name="talkChrEntityId" type="u32" arraylength="1" bitsize="-1" sortid="100" defaultValue="2054390102" />
+<field name="eliminateTargetEntityId" type="u32" arraylength="1" bitsize="-1" sortid="200" defaultValue="0" />
+<field name="summonedEventFlagId" type="u32" arraylength="1" bitsize="-1" sortid="300" defaultValue="0" />
+<field name="isSpecial" type="u8" arraylength="1" bitsize="1" sortid="400" defaultValue="0" defaultThreshold="True" />
+<field name="pad1" type="dummy8" arraylength="1" bitsize="7" sortid="603" defaultValue="[0]" defaultThreshold="True" />
+<field name="pad2" type="dummy8" arraylength="3" bitsize="-1" sortid="604" defaultValue="[0|0|0]" defaultThreshold="True" />
+<field name="buddyId" type="s32" arraylength="1" bitsize="-1" sortid="500" defaultValue="0" defaultThreshold="True" />
+<field name="dopingSpEffectId" type="s32" arraylength="1" bitsize="-1" sortid="600" defaultValue="-1" defaultThreshold="True" />
+<field name="activateRange" type="u16" arraylength="1" bitsize="-1" sortid="550" defaultValue="999" defaultThreshold="True" />
+<field name="overwriteReturnRange" type="s16" arraylength="1" bitsize="-1" sortid="570" defaultValue="-1" defaultThreshold="True" />
+<field name="overwriteActivateRegionEntityId" type="u32" arraylength="1" bitsize="-1" sortid="560" defaultValue="0" />
+<field name="warnRegionEntityId" type="u32" arraylength="1" bitsize="-1" sortid="561" defaultValue="0" defaultThreshold="True" />
+<field name="pad3" type="dummy8" arraylength="24" bitsize="-1" sortid="605" defaultValue="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" defaultThreshold="True" />
+</fields>
+<rows>
+<row id="0" disableParam_NT="0" talkChrEntityId="0" eliminateTargetEntityId="0" summonedEventFlagId="0" activateRange="100" overwriteActivateRegionEntityId="0" />
+<row id="10000100" paramdexName="Stormveil Castle" talkChrEntityId="10000100" eliminateTargetEntityId="10005100" summonedEventFlagId="10002100" overwriteActivateRegionEntityId="10002150" />
+<row id="10000102" paramdexName="Stormveil Castle" disableParam_NT="0" talkChrEntityId="10000102" eliminateTargetEntityId="10005102" summonedEventFlagId="10002102" overwriteActivateRegionEntityId="10002152" />
+<row id="10000104" paramdexName="Stormveil Castle" talkChrEntityId="10000104" eliminateTargetEntityId="10005104" summonedEventFlagId="10002104" overwriteActivateRegionEntityId="10002154" />
+<row id="10000106" paramdexName="Stormveil Castle" talkChrEntityId="10000106" eliminateTargetEntityId="10005106" summonedEventFlagId="10002106" overwriteActivateRegionEntityId="10002156" />
+<row id="10000108" paramdexName="Stormveil Castle" disableParam_NT="0" talkChrEntityId="10000108" eliminateTargetEntityId="10005108" summonedEventFlagId="10002108" overwriteActivateRegionEntityId="10002158" />
+<row id="11000100" paramdexName="Leyndell, Royal Capital" talkChrEntityId="11000100" eliminateTargetEntityId="11005100" summonedEventFlagId="11002100" overwriteActivateRegionEntityId="11002150" />
+<row id="11000102" paramdexName="Leyndell, Royal Capital" talkChrEntityId="11000102" eliminateTargetEntityId="11005102" summonedEventFlagId="11002102" overwriteActivateRegionEntityId="11002152" />
+<row id="11000104" paramdexName="Leyndell, Royal Capital" talkChrEntityId="11000104" eliminateTargetEntityId="11005104" summonedEventFlagId="11002104" overwriteActivateRegionEntityId="11002154" />
+<row id="11000106" paramdexName="Leyndell, Royal Capital" talkChrEntityId="11000106" eliminateTargetEntityId="11005106" summonedEventFlagId="11002106" overwriteActivateRegionEntityId="11002156" />
+<row id="11050100" paramdexName="Leyndell, Ashen Capital" talkChrEntityId="11050100" eliminateTargetEntityId="11055100" summonedEventFlagId="11052100" overwriteActivateRegionEntityId="11052100" />
+<row id="11050102" paramdexName="Leyndell, Ashen Capital" talkChrEntityId="11050102" eliminateTargetEntityId="11055102" summonedEventFlagId="11052102" overwriteActivateRegionEntityId="11052102" />
+<row id="12010100" paramdexName="Ainsel River" talkChrEntityId="12010100" eliminateTargetEntityId="12015100" summonedEventFlagId="12012100" overwriteActivateRegionEntityId="12012300" />
+<row id="12010102" paramdexName="Ainsel River" talkChrEntityId="12010102" eliminateTargetEntityId="12015102" summonedEventFlagId="12012102" overwriteActivateRegionEntityId="12012810" />
+<row id="12010104" paramdexName="Ainsel River" talkChrEntityId="12010104" eliminateTargetEntityId="12015104" summonedEventFlagId="12012104" activateRange="100" overwriteActivateRegionEntityId="0" />
+<row id="12010106" paramdexName="Ainsel River" talkChrEntityId="12010106" eliminateTargetEntityId="12015106" summonedEventFlagId="12012106" overwriteActivateRegionEntityId="12012486" />
+<row id="12010108" paramdexName="Ainsel River" talkChrEntityId="12010108" eliminateTargetEntityId="12015108" summonedEventFlagId="12012108" overwriteActivateRegionEntityId="12012488" />
+<row id="12010110" paramdexName="Ainsel River" talkChrEntityId="12010110" eliminateTargetEntityId="12015110" summonedEventFlagId="12012110" overwriteActivateRegionEntityId="12012490" />
+<row id="12020102" paramdexName="Siofra River" talkChrEntityId="12020102" eliminateTargetEntityId="12025102" summonedEventFlagId="12022102" overwriteActivateRegionEntityId="12022102" />
+<row id="12020110" paramdexName="Siofra River" talkChrEntityId="12020110" eliminateTargetEntityId="12025110" summonedEventFlagId="12022110" activateRange="100" overwriteActivateRegionEntityId="0" />
+<row id="12020112" paramdexName="Siofra River" talkChrEntityId="12020112" eliminateTargetEntityId="12025112" summonedEventFlagId="12022112" overwriteActivateRegionEntityId="12022112" />
+<row id="12020114" paramdexName="Siofra River" talkChrEntityId="12020114" eliminateTargetEntityId="12025114" summonedEventFlagId="12022114" overwriteActivateRegionEntityId="12022114" />
+<row id="12020116" paramdexName="Siofra River" talkChrEntityId="12020116" eliminateTargetEntityId="12025116" summonedEventFlagId="12022116" overwriteActivateRegionEntityId="12022880" />
+<row id="12020118" paramdexName="Siofra River" talkChrEntityId="12020118" eliminateTargetEntityId="12025118" summonedEventFlagId="12022118" overwriteActivateRegionEntityId="12022118" />
+<row id="12030100" paramdexName="Deeproot Depths" talkChrEntityId="12030100" eliminateTargetEntityId="12035100" summonedEventFlagId="12032100" overwriteActivateRegionEntityId="12032100" />
+<row id="12030102" paramdexName="Deeproot Depths" talkChrEntityId="12030102" eliminateTargetEntityId="12035102" summonedEventFlagId="12032102" activateRange="100" overwriteActivateRegionEntityId="0" />
+<row id="12030104" paramdexName="Deeproot Depths" talkChrEntityId="12030104" eliminateTargetEntityId="12035104" summonedEventFlagId="12032104" overwriteActivateRegionEntityId="12032830" />
+<row id="12030106" paramdexName="Deeproot Depths" talkChrEntityId="12030106" eliminateTargetEntityId="12035106" summonedEventFlagId="12032106" overwriteActivateRegionEntityId="12032880" />
+<row id="12030108" paramdexName="Deeproot Depths" talkChrEntityId="12030108" eliminateTargetEntityId="12035108" summonedEventFlagId="12032108" overwriteActivateRegionEntityId="12032108" />
+<row id="12040100" paramdexName="Ainsel River - Boss" talkChrEntityId="12040100" eliminateTargetEntityId="12045100" summonedEventFlagId="12042100" overwriteActivateRegionEntityId="12042830" />
+<row id="12050100" paramdexName="Mohgwyn Palace" talkChrEntityId="12050100" eliminateTargetEntityId="12055100" summonedEventFlagId="12052100" overwriteActivateRegionEntityId="12052100" />
+<row id="12050102" paramdexName="Mohgwyn Palace" talkChrEntityId="12050102" eliminateTargetEntityId="12055102" summonedEventFlagId="12052102" overwriteActivateRegionEntityId="12052102" />
+<row id="12050104" paramdexName="Mohgwyn Palace" talkChrEntityId="12050104" eliminateTargetEntityId="12055104" summonedEventFlagId="12052104" overwriteActivateRegionEntityId="12052830" />
+<row id="12070100" paramdexName="Siofra River Bank" talkChrEntityId="12070100" eliminateTargetEntityId="12075100" summonedEventFlagId="12072100" overwriteActivateRegionEntityId="12072100" />
+<row id="12070102" paramdexName="Siofra River Bank" talkChrEntityId="12070102" eliminateTargetEntityId="12075102" summonedEventFlagId="12072102" overwriteActivateRegionEntityId="12072400" />
+<row id="12080100" paramdexName="Siofra River - Boss" talkChrEntityId="12080100" eliminateTargetEntityId="12085100" summonedEventFlagId="12082100" overwriteActivateRegionEntityId="12082830" />
+<row id="12090100" paramdexName="Nokron, Eternal City - Boss" talkChrEntityId="12090100" eliminateTargetEntityId="12095100" summonedEventFlagId="12092100" overwriteActivateRegionEntityId="12092830" />
+<row id="13000100" paramdexName="Crumbling Farum Azula" talkChrEntityId="13000100" eliminateTargetEntityId="13005100" summonedEventFlagId="13002100" overwriteActivateRegionEntityId="13002855" />
+<row id="13000102" paramdexName="Crumbling Farum Azula" talkChrEntityId="13000102" eliminateTargetEntityId="13005102" summonedEventFlagId="13002102" activateRange="70" overwriteActivateRegionEntityId="0" />
+<row id="13000106" paramdexName="Crumbling Farum Azula" talkChrEntityId="13000106" eliminateTargetEntityId="13005106" summonedEventFlagId="13002106" overwriteActivateRegionEntityId="13002156" />
+<row id="13000108" paramdexName="Crumbling Farum Azula" talkChrEntityId="13000108" eliminateTargetEntityId="13005108" summonedEventFlagId="13002108" overwriteActivateRegionEntityId="13002158" />
+<row id="13000120" paramdexName="Crumbling Farum Azula" talkChrEntityId="13000120" eliminateTargetEntityId="13005120" summonedEventFlagId="13002120" overwriteActivateRegionEntityId="13002805" />
+<row id="13000122" paramdexName="Crumbling Farum Azula" talkChrEntityId="13000122" eliminateTargetEntityId="13005122" summonedEventFlagId="13002122" overwriteActivateRegionEntityId="13002835" />
+<row id="14000100" paramdexName="Academy of Raya Lucaria" talkChrEntityId="14000100" eliminateTargetEntityId="14005100" summonedEventFlagId="14002100" activateRange="35" overwriteActivateRegionEntityId="0" />
+<row id="14000102" paramdexName="Academy of Raya Lucaria" talkChrEntityId="14000102" eliminateTargetEntityId="14005102" summonedEventFlagId="14002102" overwriteActivateRegionEntityId="14002152" />
+<row id="14000104" paramdexName="Academy of Raya Lucaria" talkChrEntityId="14000104" eliminateTargetEntityId="14005104" summonedEventFlagId="14002104" overwriteActivateRegionEntityId="14002154" warnRegionEntityId="14002155" />
+<row id="14000106" paramdexName="Academy of Raya Lucaria" talkChrEntityId="14000106" eliminateTargetEntityId="14005106" summonedEventFlagId="14002106" overwriteActivateRegionEntityId="14002156" />
+<row id="15000100" paramdexName="Miquella's Haligtree" talkChrEntityId="15000100" eliminateTargetEntityId="15005100" summonedEventFlagId="15002100" overwriteActivateRegionEntityId="15002100" />
+<row id="15000102" paramdexName="Miquella's Haligtree" talkChrEntityId="15000102" eliminateTargetEntityId="0" summonedEventFlagId="15002102" overwriteActivateRegionEntityId="15002102" />
+<row id="15000104" paramdexName="Miquella's Haligtree" talkChrEntityId="15000104" eliminateTargetEntityId="0" summonedEventFlagId="15002104" overwriteActivateRegionEntityId="15002104" />
+<row id="15000110" paramdexName="Miquella's Haligtree" talkChrEntityId="15000110" eliminateTargetEntityId="15005110" summonedEventFlagId="15002110" overwriteActivateRegionEntityId="15002110" />
+<row id="16000100" paramdexName="Volcano Manor" talkChrEntityId="16000100" eliminateTargetEntityId="0" summonedEventFlagId="16002100" overwriteActivateRegionEntityId="16002150" />
+<row id="16000108" paramdexName="Volcano Manor" talkChrEntityId="16000108" eliminateTargetEntityId="0" summonedEventFlagId="16002108" overwriteActivateRegionEntityId="16002158" />
+<row id="16000110" paramdexName="Volcano Manor" talkChrEntityId="16000110" eliminateTargetEntityId="16005850" summonedEventFlagId="16002110" overwriteActivateRegionEntityId="16002160" />
+<row id="16000112" paramdexName="Volcano Manor" talkChrEntityId="16000112" eliminateTargetEntityId="16005860" summonedEventFlagId="16002112" overwriteActivateRegionEntityId="16002162" />
+<row id="16000114" paramdexName="Volcano Manor" talkChrEntityId="16000114" eliminateTargetEntityId="16005800" summonedEventFlagId="16002114" dopingSpEffectId="1908" overwriteActivateRegionEntityId="16002164" />
+<row id="16000116" paramdexName="Volcano Manor" talkChrEntityId="16000116" eliminateTargetEntityId="16005510" summonedEventFlagId="16002116" overwriteActivateRegionEntityId="16002166" />
+<row id="18000100" paramdexName="Stranded Graveyard" talkChrEntityId="18000100" eliminateTargetEntityId="18005100" summonedEventFlagId="18002100" overwriteActivateRegionEntityId="18002102" />
+<row id="19000130" paramdexName="Stone Platform" talkChrEntityId="19000130" eliminateTargetEntityId="19005130" summonedEventFlagId="19002130" overwriteActivateRegionEntityId="19002130" />
+<row id="20000100" talkChrEntityId="20000100" eliminateTargetEntityId="20005100" summonedEventFlagId="20002100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="20002100" />
+<row id="20000102" talkChrEntityId="20000102" eliminateTargetEntityId="20005102" summonedEventFlagId="20002102" dopingSpEffectId="298000" overwriteActivateRegionEntityId="20002102" />
+<row id="20010100" talkChrEntityId="20010100" eliminateTargetEntityId="20015100" summonedEventFlagId="20012100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="20012100" />
+<row id="20010102" talkChrEntityId="20010102" eliminateTargetEntityId="20015102" summonedEventFlagId="20012102" dopingSpEffectId="298000" overwriteActivateRegionEntityId="20012102" />
+<row id="20010104" talkChrEntityId="20010104" eliminateTargetEntityId="20015104" summonedEventFlagId="20012104" dopingSpEffectId="298000" overwriteActivateRegionEntityId="20012104" />
+<row id="21000100" talkChrEntityId="21000100" eliminateTargetEntityId="21005100" summonedEventFlagId="21002100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="21002100" />
+<row id="21000102" talkChrEntityId="21000102" eliminateTargetEntityId="21005102" summonedEventFlagId="21002102" dopingSpEffectId="298000" overwriteActivateRegionEntityId="21002102" />
+<row id="21010100" talkChrEntityId="21010100" eliminateTargetEntityId="21015100" summonedEventFlagId="21012100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="21012100" />
+<row id="22000100" talkChrEntityId="22000100" eliminateTargetEntityId="22005100" summonedEventFlagId="22002100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="22002805" />
+<row id="25000100" talkChrEntityId="25000100" eliminateTargetEntityId="25005100" summonedEventFlagId="25002100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="25002805" />
+<row id="28000100" talkChrEntityId="28000100" eliminateTargetEntityId="28005100" summonedEventFlagId="28002100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="28002805" />
+<row id="30000100" paramdexName="Tombsward Catacombs" talkChrEntityId="30000100" eliminateTargetEntityId="30005100" summonedEventFlagId="30002100" overwriteActivateRegionEntityId="30002805" />
+<row id="30010100" paramdexName="Impaler's Catacombs" talkChrEntityId="30010100" eliminateTargetEntityId="30015100" summonedEventFlagId="30012100" overwriteActivateRegionEntityId="30012805" />
+<row id="30020100" paramdexName="Stormfoot Catacombs" disableParam_NT="0" talkChrEntityId="30020100" eliminateTargetEntityId="30025100" summonedEventFlagId="30022100" overwriteActivateRegionEntityId="30022805" />
+<row id="30030100" paramdexName="Road's End Catacombs" talkChrEntityId="30030100" eliminateTargetEntityId="30035100" summonedEventFlagId="30032100" overwriteActivateRegionEntityId="30032805" />
+<row id="30040100" paramdexName="Murkwater Catacombs" disableParam_NT="0" talkChrEntityId="30040100" eliminateTargetEntityId="30045100" summonedEventFlagId="30042100" overwriteActivateRegionEntityId="30042805" />
+<row id="30050100" paramdexName="Black Knife Catacombs" talkChrEntityId="30050100" eliminateTargetEntityId="30055100" summonedEventFlagId="30052100" overwriteActivateRegionEntityId="30052805" />
+<row id="30060100" paramdexName="Cliffbottom Catacombs" talkChrEntityId="30060100" eliminateTargetEntityId="30065100" summonedEventFlagId="30062100" overwriteActivateRegionEntityId="30062805" />
+<row id="30070100" paramdexName="Wyndham Catacombs" talkChrEntityId="30070100" eliminateTargetEntityId="30075100" summonedEventFlagId="30072100" overwriteActivateRegionEntityId="30072805" />
+<row id="30080100" paramdexName="Sainted Hero's Grave" talkChrEntityId="30080100" eliminateTargetEntityId="30085100" summonedEventFlagId="30082100" overwriteActivateRegionEntityId="30082805" />
+<row id="30090100" paramdexName="Gelmir Hero's Grave" talkChrEntityId="30090100" eliminateTargetEntityId="30095100" summonedEventFlagId="30092100" overwriteActivateRegionEntityId="30092805" />
+<row id="30100100" paramdexName="Auriza Hero's Grave" talkChrEntityId="30100100" eliminateTargetEntityId="30105100" summonedEventFlagId="30102100" overwriteActivateRegionEntityId="30102805" />
+<row id="30110100" paramdexName="Deathtouched Catacombs" talkChrEntityId="30110100" eliminateTargetEntityId="30115100" summonedEventFlagId="30112100" overwriteActivateRegionEntityId="30112805" />
+<row id="30120100" paramdexName="Unsightly Catacombs" talkChrEntityId="30120100" eliminateTargetEntityId="30125100" summonedEventFlagId="30122100" overwriteActivateRegionEntityId="30122805" />
+<row id="30130100" paramdexName="Auriza Side Tomb" talkChrEntityId="30130100" eliminateTargetEntityId="30135100" summonedEventFlagId="30132100" overwriteActivateRegionEntityId="30132805" />
+<row id="30140100" paramdexName="Minor Erdtree Catacombs" talkChrEntityId="30140100" eliminateTargetEntityId="30145100" summonedEventFlagId="30142100" overwriteActivateRegionEntityId="30142805" />
+<row id="30150100" paramdexName="Caelid Catacombs" talkChrEntityId="30150100" eliminateTargetEntityId="30155100" summonedEventFlagId="30152100" overwriteActivateRegionEntityId="30152805" />
+<row id="30160100" paramdexName="War-Dead Catacombs" talkChrEntityId="30160100" eliminateTargetEntityId="30165100" summonedEventFlagId="30162100" overwriteActivateRegionEntityId="30162805" />
+<row id="30170100" paramdexName="Giant-Conquering Hero's Grave" talkChrEntityId="30170100" eliminateTargetEntityId="30175100" summonedEventFlagId="30172100" overwriteActivateRegionEntityId="30172805" />
+<row id="30180100" paramdexName="Giants' Mountaintop Catacombs" talkChrEntityId="30180100" eliminateTargetEntityId="30185100" summonedEventFlagId="30182100" overwriteActivateRegionEntityId="30182805" />
+<row id="30190100" paramdexName="Consecrated Snowfield Catacombs" talkChrEntityId="30190100" eliminateTargetEntityId="30195100" summonedEventFlagId="30192100" overwriteActivateRegionEntityId="30192805" />
+<row id="30200100" paramdexName="Hidden Path to the Haligtree" talkChrEntityId="30200100" eliminateTargetEntityId="30205100" summonedEventFlagId="30202100" overwriteActivateRegionEntityId="30202100" />
+<row id="31000100" paramdexName="Murkwater Cave" talkChrEntityId="31000100" eliminateTargetEntityId="31005100" summonedEventFlagId="31002100" overwriteActivateRegionEntityId="31002805" />
+<row id="31010100" paramdexName="Earthbore Cave" talkChrEntityId="31010100" eliminateTargetEntityId="31015100" summonedEventFlagId="31012100" overwriteActivateRegionEntityId="31012805" />
+<row id="31020100" paramdexName="Tombsward Cave" talkChrEntityId="31020100" eliminateTargetEntityId="31025100" summonedEventFlagId="31022100" overwriteActivateRegionEntityId="31022805" />
+<row id="31030100" paramdexName="Groveside Cave" disableParam_NT="0" talkChrEntityId="31030100" eliminateTargetEntityId="31035100" summonedEventFlagId="31032100" overwriteActivateRegionEntityId="31032805" />
+<row id="31040100" paramdexName="Stillwater Cave" talkChrEntityId="31040100" eliminateTargetEntityId="31045100" summonedEventFlagId="31042100" overwriteActivateRegionEntityId="31042805" />
+<row id="31050100" paramdexName="Lakeside Crystal Cave" talkChrEntityId="31050100" eliminateTargetEntityId="31055100" summonedEventFlagId="31052100" overwriteActivateRegionEntityId="31052805" />
+<row id="31060100" paramdexName="Academy Crystal Cave" talkChrEntityId="31060100" eliminateTargetEntityId="31065100" summonedEventFlagId="31062100" overwriteActivateRegionEntityId="31062805" />
+<row id="31070100" paramdexName="Seethewater Cave" talkChrEntityId="31070100" eliminateTargetEntityId="31075100" summonedEventFlagId="31075200" overwriteActivateRegionEntityId="31072805" />
+<row id="31090100" paramdexName="Volcano Cave" talkChrEntityId="31090100" eliminateTargetEntityId="31095100" summonedEventFlagId="31095200" overwriteActivateRegionEntityId="31092805" />
+<row id="31100100" paramdexName="Dragonbarrow Cave" talkChrEntityId="31100100" eliminateTargetEntityId="31105100" summonedEventFlagId="31105200" overwriteActivateRegionEntityId="31102805" />
+<row id="31110100" paramdexName="Sellia Hideaway" talkChrEntityId="31110100" eliminateTargetEntityId="31115100" summonedEventFlagId="31115200" overwriteActivateRegionEntityId="31112805" />
+<row id="31120100" paramdexName="Cave of the Forlorn" talkChrEntityId="31120100" eliminateTargetEntityId="31125100" summonedEventFlagId="31125200" overwriteActivateRegionEntityId="31122805" />
+<row id="31150100" paramdexName="Coastal Cave" disableParam_NT="0" talkChrEntityId="31150100" eliminateTargetEntityId="31155100" summonedEventFlagId="31152100" overwriteActivateRegionEntityId="31152805" />
+<row id="31170100" paramdexName="Highroad Cave" talkChrEntityId="31170100" eliminateTargetEntityId="31175100" summonedEventFlagId="31172100" overwriteActivateRegionEntityId="31172805" />
+<row id="31180100" paramdexName="Perfumer's Grotto" talkChrEntityId="31180100" eliminateTargetEntityId="31185100" summonedEventFlagId="31185200" overwriteActivateRegionEntityId="31182805" />
+<row id="31190100" paramdexName="Sage's Cave" talkChrEntityId="31190100" eliminateTargetEntityId="31195100" summonedEventFlagId="31195200" overwriteActivateRegionEntityId="31192805" />
+<row id="31190102" paramdexName="Sage's Cave" talkChrEntityId="31190102" eliminateTargetEntityId="31195102" summonedEventFlagId="31195202" overwriteActivateRegionEntityId="31192855" />
+<row id="31200100" paramdexName="Abandoned Cave" talkChrEntityId="31200100" eliminateTargetEntityId="31205100" summonedEventFlagId="31205200" overwriteActivateRegionEntityId="31202805" />
+<row id="31210100" paramdexName="Gaol Cave" talkChrEntityId="31210100" eliminateTargetEntityId="31215100" summonedEventFlagId="31215200" overwriteActivateRegionEntityId="31212805" />
+<row id="31220100" paramdexName="Spiritcaller's Cave" talkChrEntityId="31220100" eliminateTargetEntityId="31225100" summonedEventFlagId="31225200" overwriteActivateRegionEntityId="31222805" />
+<row id="32000100" paramdexName="Morne Tunnel" talkChrEntityId="32000100" eliminateTargetEntityId="32005100" summonedEventFlagId="32002100" overwriteActivateRegionEntityId="32002805" />
+<row id="32010100" paramdexName="Limgrave Tunnels" disableParam_NT="0" talkChrEntityId="32010100" eliminateTargetEntityId="32015100" summonedEventFlagId="32012100" overwriteActivateRegionEntityId="32012805" />
+<row id="32020100" paramdexName="Raya Lucaria Crystal Tunnel" talkChrEntityId="32020100" eliminateTargetEntityId="32025100" summonedEventFlagId="32022100" overwriteActivateRegionEntityId="32022805" />
+<row id="32040100" paramdexName="Old Altus Tunnel" talkChrEntityId="32040100" eliminateTargetEntityId="32045100" summonedEventFlagId="32042100" overwriteActivateRegionEntityId="32042805" />
+<row id="32050100" paramdexName="Altus Tunnel" talkChrEntityId="32050100" eliminateTargetEntityId="32055100" summonedEventFlagId="32052100" overwriteActivateRegionEntityId="32052805" />
+<row id="32070100" paramdexName="Gael Tunnel" talkChrEntityId="32070100" eliminateTargetEntityId="32075100" summonedEventFlagId="32072100" overwriteActivateRegionEntityId="32072805" />
+<row id="32080100" paramdexName="Sellia Crystal Tunnel" talkChrEntityId="32080100" eliminateTargetEntityId="32085100" summonedEventFlagId="32082100" overwriteActivateRegionEntityId="32082805" />
+<row id="32110100" paramdexName="Yelough Anix Tunnel" talkChrEntityId="32110100" eliminateTargetEntityId="32115100" summonedEventFlagId="32112100" overwriteActivateRegionEntityId="32112805" />
+<row id="34120100" paramdexName="Divine Tower of West Altus" talkChrEntityId="34120100" eliminateTargetEntityId="34125100" summonedEventFlagId="34122100" overwriteActivateRegionEntityId="34122855" />
+<row id="34120102" paramdexName="Divine Tower of West Altus" talkChrEntityId="34120102" eliminateTargetEntityId="34125102" summonedEventFlagId="34122102" overwriteActivateRegionEntityId="34122350" />
+<row id="34130100" paramdexName="Divine Tower of Caelid" talkChrEntityId="34130100" eliminateTargetEntityId="34135100" summonedEventFlagId="34132100" overwriteActivateRegionEntityId="34132100" />
+<row id="34140100" paramdexName="Divine Tower of East Altus" talkChrEntityId="34140100" eliminateTargetEntityId="34145100" summonedEventFlagId="34142100" overwriteActivateRegionEntityId="34142100" />
+<row id="35000100" paramdexName="Subterranean Shunning-Grounds" talkChrEntityId="35000100" eliminateTargetEntityId="35005100" summonedEventFlagId="35002100" overwriteActivateRegionEntityId="35002100" />
+<row id="35000102" paramdexName="Subterranean Shunning-Grounds" talkChrEntityId="35000102" eliminateTargetEntityId="35005102" summonedEventFlagId="35002102" overwriteActivateRegionEntityId="35002102" />
+<row id="39200100" paramdexName="Ruin-Strewn Precipice" talkChrEntityId="39200100" eliminateTargetEntityId="39205100" summonedEventFlagId="39202100" overwriteActivateRegionEntityId="39202110" />
+<row id="39200102" paramdexName="Ruin-Strewn Precipice" talkChrEntityId="39200102" eliminateTargetEntityId="39205102" summonedEventFlagId="39202102" overwriteActivateRegionEntityId="39202112" />
+<row id="39200104" paramdexName="Ruin-Strewn Precipice" talkChrEntityId="39200104" eliminateTargetEntityId="39205104" summonedEventFlagId="39202104" overwriteActivateRegionEntityId="39202114" />
+<row id="40000100" talkChrEntityId="40000100" eliminateTargetEntityId="40005100" summonedEventFlagId="40002100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="40002805" />
+<row id="40010100" talkChrEntityId="40010100" eliminateTargetEntityId="40015100" summonedEventFlagId="40012100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="40012805" />
+<row id="41000100" talkChrEntityId="41000100" eliminateTargetEntityId="41005100" summonedEventFlagId="41002100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="41002805" />
+<row id="41010100" talkChrEntityId="41010100" eliminateTargetEntityId="41015100" summonedEventFlagId="41012100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="41012100" />
+<row id="41020100" talkChrEntityId="41020100" eliminateTargetEntityId="41025100" summonedEventFlagId="41022100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="41022100" />
+<row id="43000100" talkChrEntityId="43000100" eliminateTargetEntityId="43005100" summonedEventFlagId="43002100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="43002805" />
+<row id="43010100" talkChrEntityId="43010100" eliminateTargetEntityId="43015100" summonedEventFlagId="43012100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="43012805" />
+<row id="45000100" talkChrEntityId="45000100" eliminateTargetEntityId="0" summonedEventFlagId="45000110" overwriteActivateRegionEntityId="45002101" warnRegionEntityId="45002102" />
+<row id="45010100" talkChrEntityId="45010100" eliminateTargetEntityId="0" summonedEventFlagId="45010110" overwriteActivateRegionEntityId="45012101" warnRegionEntityId="45012102" />
+<row id="45020100" talkChrEntityId="45020100" eliminateTargetEntityId="0" summonedEventFlagId="45020110" overwriteActivateRegionEntityId="45022101" warnRegionEntityId="45022102" />
+<row id="99020100" talkChrEntityId="99020100" eliminateTargetEntityId="0" summonedEventFlagId="99020110" overwriteActivateRegionEntityId="99022101" warnRegionEntityId="99022102" />
+<row id="99020101" talkChrEntityId="99020115" eliminateTargetEntityId="99025100" summonedEventFlagId="99020115" activateRange="100" overwriteActivateRegionEntityId="0" />
+<row id="99020102" talkChrEntityId="99020120" eliminateTargetEntityId="99020000" summonedEventFlagId="0" overwriteActivateRegionEntityId="99022121" warnRegionEntityId="99022122" />
+<row id="99150100" talkChrEntityId="99150100" eliminateTargetEntityId="0" summonedEventFlagId="99152100" overwriteActivateRegionEntityId="99152100" />
+<row id="1033430100" paramdexName="Liurnia of the Lakes - Minor Erdtree, Road's End Catacombs Entrance" talkChrEntityId="1033430100" eliminateTargetEntityId="1033435100" summonedEventFlagId="1033432100" activateRange="50" overwriteActivateRegionEntityId="0" />
+<row id="1033470100" paramdexName="Liurnia of the Lakes - The Four Belfries, Giant's Caravan Below" talkChrEntityId="1033470100" eliminateTargetEntityId="1033475100" summonedEventFlagId="1033472100" overwriteActivateRegionEntityId="1034442105" />
+<row id="1034420100" paramdexName="Liurnia of the Lakes - Village of the Albinaurics, Moonlight Altar - Moonfolk Ruins" talkChrEntityId="1034420100" eliminateTargetEntityId="0" summonedEventFlagId="1034422100" overwriteActivateRegionEntityId="1034422100" />
+<row id="1034420102" paramdexName="Liurnia of the Lakes - Village of the Albinaurics, Moonlight Altar - Moonfolk Ruins" talkChrEntityId="1034420102" eliminateTargetEntityId="1034425102" summonedEventFlagId="1034422102" overwriteActivateRegionEntityId="1034422102" />
+<row id="1034440100" paramdexName="Liurnia of the Lakes - Temple Quarter" talkChrEntityId="1034440100" eliminateTargetEntityId="1034445100" summonedEventFlagId="1034442100" overwriteActivateRegionEntityId="1034442105" />
+<row id="1034450100" paramdexName="Liurnia of the Lakes - Meeting Place, Academy Crystal Cave Entrance" talkChrEntityId="1034450100" eliminateTargetEntityId="1034455100" summonedEventFlagId="1034452100" activateRange="100" overwriteActivateRegionEntityId="0" />
+<row id="1034480100" paramdexName="Liurnia of the Lakes - Northern Liurnia Lake Shore, Kingsrealm Ruins" talkChrEntityId="1034480100" eliminateTargetEntityId="1034485100" summonedEventFlagId="1034482100" overwriteActivateRegionEntityId="1034482100" warnRegionEntityId="1034482101" />
+<row id="1034480102" paramdexName="Liurnia of the Lakes - Northern Liurnia Lake Shore, Kingsrealm Ruins" talkChrEntityId="1034480102" eliminateTargetEntityId="1034480800" summonedEventFlagId="1034482102" overwriteActivateRegionEntityId="1034482102" />
+<row id="1034500100" paramdexName="Liurnia of the Lakes - Ranni's Rise, Seluvis's Rise" talkChrEntityId="1034500100" eliminateTargetEntityId="1034505100" summonedEventFlagId="1034502100" overwriteActivateRegionEntityId="1034502100" />
+<row id="1035410100" paramdexName="Moonlight Altar - Lunar Estate Ruins" talkChrEntityId="1035410100" eliminateTargetEntityId="1035415100" summonedEventFlagId="1035412100" overwriteActivateRegionEntityId="1035412100" />
+<row id="1035420100" paramdexName="Moonlight Altar - Cathedral of Manus Celes" talkChrEntityId="1035420100" eliminateTargetEntityId="1035425100" summonedEventFlagId="1035422100" overwriteActivateRegionEntityId="1035422100" />
+<row id="1035500100" paramdexName="Liurnia of the Lakes - Caria Manor" talkChrEntityId="1035500100" eliminateTargetEntityId="0" summonedEventFlagId="1035502100" overwriteActivateRegionEntityId="1035502100" />
+<row id="1035500102" paramdexName="Liurnia of the Lakes - Caria Manor" talkChrEntityId="1035500102" eliminateTargetEntityId="0" summonedEventFlagId="1035502102" overwriteActivateRegionEntityId="1035502102" />
+<row id="1035500104" paramdexName="Liurnia of the Lakes - Caria Manor" talkChrEntityId="1035500104" eliminateTargetEntityId="0" summonedEventFlagId="1035502104" overwriteActivateRegionEntityId="1035502104" />
+<row id="1035500106" paramdexName="Liurnia of the Lakes - Caria Manor" talkChrEntityId="1035500106" eliminateTargetEntityId="1035505106" summonedEventFlagId="1035502106" overwriteActivateRegionEntityId="1035502106" />
+<row id="1035530100" paramdexName="Mt. Gelmir - Seethewater Terminus" talkChrEntityId="1035530100" eliminateTargetEntityId="1035535100" summonedEventFlagId="1035532100" activateRange="70" overwriteActivateRegionEntityId="0" />
+<row id="1036410100" paramdexName="Liurnia of the Lakes - Slumbering Wolf's Shack, Lakeside Crystal Cave Entrance" talkChrEntityId="1036410100" eliminateTargetEntityId="1036415100" summonedEventFlagId="1036412100" overwriteActivateRegionEntityId="1036412105" />
+<row id="1036440100" paramdexName="Liurnia of the Lakes - Gate Town Southwest" talkChrEntityId="1036440100" eliminateTargetEntityId="1036445100" summonedEventFlagId="1036442100" overwriteActivateRegionEntityId="1036442105" />
+<row id="1036480100" paramdexName="Bellum Highway - East Raya Lucaria Gate" talkChrEntityId="1036480100" eliminateTargetEntityId="1036485100" summonedEventFlagId="1036482100" activateRange="50" overwriteActivateRegionEntityId="0" />
+<row id="1036500100" paramdexName="Liurnia of the Lakes - Behind Caria Manor, Royal Grave Evergaol, Part of Ravine" talkChrEntityId="1036500100" eliminateTargetEntityId="1036505100" summonedEventFlagId="1036502100" overwriteActivateRegionEntityId="1036502100" />
+<row id="1036510100" paramdexName="Altus Plateau - Perfumer's Ruins, Unsightly Catacombs Entrance" talkChrEntityId="1036510100" eliminateTargetEntityId="1036515100" summonedEventFlagId="1036512100" overwriteActivateRegionEntityId="1036512600" />
+<row id="1036540100" paramdexName="Mt. Gelmir - Ninth Mt. Gelmir Campsite, Road of Iniquity, Volcano Manor Entrance" talkChrEntityId="1036540100" eliminateTargetEntityId="1036545100" summonedEventFlagId="1036542100" overwriteActivateRegionEntityId="1036542105" />
+<row id="1037420100" paramdexName="Liurnia of the Lakes - Scenic Isle, Laskyar Ruins" talkChrEntityId="1037420100" eliminateTargetEntityId="1037425100" summonedEventFlagId="1037422100" activateRange="50" overwriteActivateRegionEntityId="0" />
+<row id="1037440100" paramdexName="Liurnia of the Lakes - Gate Town Southeast" talkChrEntityId="1037440100" eliminateTargetEntityId="1037445100" summonedEventFlagId="1037442100" activateRange="50" overwriteActivateRegionEntityId="0" />
+<row id="1037490100" paramdexName="Bellum Highway - Church of Inhibition, Southwest of Grand Lift of Dectus" talkChrEntityId="1037490100" eliminateTargetEntityId="1037495100" summonedEventFlagId="1037492100" activateRange="100" overwriteActivateRegionEntityId="0" />
+<row id="1037510100" paramdexName="Altus Plateau - Abandoned Coffin, Ruin-Strewn Precipice Exit" talkChrEntityId="1037510100" eliminateTargetEntityId="1037515100" summonedEventFlagId="1037512100" overwriteActivateRegionEntityId="1037512600" />
+<row id="1037530100" paramdexName="Mt. Gelmir - Azur, Gelmir Hero's Grave Entrance" talkChrEntityId="1037530100" eliminateTargetEntityId="1037535100" summonedEventFlagId="1037532100" activateRange="70" overwriteActivateRegionEntityId="0" />
+<row id="1037540100" paramdexName="Mt. Gelmir - Minor Erdtree, Seethewater Cave Entrance" talkChrEntityId="1037540100" eliminateTargetEntityId="1037545100" summonedEventFlagId="1037542100" overwriteActivateRegionEntityId="1037542100" />
+<row id="1038400100" paramdexName="Liurnia of the Lakes - Liurnia Lake Shore" talkChrEntityId="1038400100" eliminateTargetEntityId="1038405100" summonedEventFlagId="1038402100" activateRange="50" overwriteActivateRegionEntityId="0" />
+<row id="1038420100" paramdexName="Liurnia of the Lakes - Highway Lookout Tower" talkChrEntityId="1038420100" eliminateTargetEntityId="1038425100" summonedEventFlagId="1038422100" overwriteActivateRegionEntityId="1038422105" />
+<row id="1038450100" paramdexName="Liurnia of the Lakes - Artist's Shack, Eastern Liurnia Lake Shore" talkChrEntityId="1038450100" eliminateTargetEntityId="1038455100" summonedEventFlagId="1038452100" activateRange="50" overwriteActivateRegionEntityId="0" />
+<row id="1038480100" paramdexName="Altus Plateau - Erdtree-Gazing Hill, Lux Ruins" talkChrEntityId="1038480100" eliminateTargetEntityId="1038485100" summonedEventFlagId="1038482100" overwriteActivateRegionEntityId="1038482100" />
+<row id="1038510100" paramdexName="Altus Plateau - Erdtree-Gazing Hill, Lux Ruins" talkChrEntityId="1038510100" eliminateTargetEntityId="1038515100" summonedEventFlagId="1038512100" overwriteActivateRegionEntityId="1038512601" />
+<row id="1038520100" paramdexName="Altus Plateau - Wyndham Ruins, Wyndham Catacombs Entrance" talkChrEntityId="1038520100" eliminateTargetEntityId="1038525350" summonedEventFlagId="1038522100" overwriteActivateRegionEntityId="1038522100" />
+<row id="1039410100" paramdexName="Liurnia of the Lakes - Liurnia Highway South, Purified Ruins, Cliffbottom Catacombs Entrance" talkChrEntityId="1039410100" eliminateTargetEntityId="1039415100" summonedEventFlagId="1039412100" activateRange="50" overwriteActivateRegionEntityId="0" />
+<row id="1039420100" paramdexName="Liurnia of the Lakes - Liurnia Highway North" talkChrEntityId="1039420100" eliminateTargetEntityId="1039425100" summonedEventFlagId="1039422100" activateRange="50" overwriteActivateRegionEntityId="0" />
+<row id="1039440100" paramdexName="Liurnia of the Lakes - Jarburg, Divine Tower of Liurnia Entrance" talkChrEntityId="1039440100" eliminateTargetEntityId="1039445100" summonedEventFlagId="1039442100" overwriteActivateRegionEntityId="1039442105" />
+<row id="1039500100" paramdexName="Altus Plateau - Golden Lineage Evergaol" talkChrEntityId="1039500100" eliminateTargetEntityId="1039505100" summonedEventFlagId="1039502100" overwriteActivateRegionEntityId="1039502600" />
+<row id="1039540100" paramdexName="Altus Plateau - Shaded Castle" talkChrEntityId="1039540100" eliminateTargetEntityId="1039545100" summonedEventFlagId="1039542100" overwriteActivateRegionEntityId="1039542600" />
+<row id="1040520100" paramdexName="Altus Plateau - Forest-Spanning Greatbridge, St. Trina's Hideaway, Sainted Hero's Grave Entrance" talkChrEntityId="1040520100" eliminateTargetEntityId="1040525100" summonedEventFlagId="1040522100" overwriteActivateRegionEntityId="1040522600" />
+<row id="1040530102" paramdexName="Altus Plateau - Bower of Bounty, Writheblood Ruins" talkChrEntityId="1040530102" eliminateTargetEntityId="1040535102" summonedEventFlagId="1040532102" overwriteActivateRegionEntityId="1040532602" />
+<row id="1041330100" paramdexName="Weeping Peninsula - Fourth Church of Marika, Witchbane Ruins" talkChrEntityId="1041330100" eliminateTargetEntityId="0" summonedEventFlagId="1041332100" overwriteActivateRegionEntityId="1041332600" />
+<row id="1041360100" paramdexName="Limgrave - Coastal Cave Entrance" disableParam_NT="0" talkChrEntityId="1041360100" eliminateTargetEntityId="0" summonedEventFlagId="1041362100" activateRange="70" overwriteReturnRange="75" overwriteActivateRegionEntityId="0" />
+<row id="1041380100" paramdexName="Stormhill - Stormhill Shack, Stormveil Castle Entrance" disableParam_NT="0" talkChrEntityId="1041380100" eliminateTargetEntityId="0" summonedEventFlagId="1041382100" activateRange="70" overwriteReturnRange="75" overwriteActivateRegionEntityId="0" />
+<row id="1041500100" paramdexName="Altus Plateau - South of Tree Sentinel Duo" talkChrEntityId="1041500100" eliminateTargetEntityId="1041505100" summonedEventFlagId="1041502100" overwriteActivateRegionEntityId="1041502600" />
+<row id="1041510100" paramdexName="Altus Plateau - Tree Sentinel Duo, Perfumer's Grotto Entrance" talkChrEntityId="1041510100" eliminateTargetEntityId="1041515100" summonedEventFlagId="1041512100" overwriteActivateRegionEntityId="1041512600" />
+<row id="1041510102" paramdexName="Altus Plateau - Tree Sentinel Duo, Perfumer's Grotto Entrance" talkChrEntityId="1041510102" eliminateTargetEntityId="1041515102" summonedEventFlagId="1041512102" overwriteActivateRegionEntityId="1041512602" />
+<row id="1041510104" paramdexName="Altus Plateau - Tree Sentinel Duo, Perfumer's Grotto Entrance" talkChrEntityId="1041510104" eliminateTargetEntityId="1041515104" summonedEventFlagId="1041512104" overwriteActivateRegionEntityId="1041512604" />
+<row id="1041520100" paramdexName="Altus Plateau - Rampartside Path, Altus Tunnel Entrance" talkChrEntityId="1041520100" eliminateTargetEntityId="1041525100" summonedEventFlagId="1041522100" overwriteActivateRegionEntityId="1041522600" />
+<row id="1041530100" paramdexName="Altus Plateau - Woodfolk Ruins, Minor Erdtree" talkChrEntityId="1041530100" eliminateTargetEntityId="1041535100" summonedEventFlagId="1041532100" activateRange="50" overwriteActivateRegionEntityId="0" />
+<row id="1041530102" paramdexName="Altus Plateau - Woodfolk Ruins, Minor Erdtree" talkChrEntityId="1041530102" eliminateTargetEntityId="1041535102" summonedEventFlagId="1041532102" overwriteActivateRegionEntityId="1041532602" />
+<row id="1042320102" paramdexName="Weeping Peninsula - Tower of Return" talkChrEntityId="1042320102" eliminateTargetEntityId="0" summonedEventFlagId="1042322102" overwriteActivateRegionEntityId="1042322600" />
+<row id="1042340100" paramdexName="Weeping Peninsula - Tombsward Ruins" talkChrEntityId="1042340100" eliminateTargetEntityId="0" summonedEventFlagId="1042342100" activateRange="40" overwriteActivateRegionEntityId="0" />
+<row id="1042360100" paramdexName="Limgrave - Church of Elleh, Stranded Graveyard Exit" disableParam_NT="0" talkChrEntityId="1042360100" eliminateTargetEntityId="1042365100" summonedEventFlagId="1042362100" overwriteReturnRange="160" overwriteActivateRegionEntityId="1042362340" />
+<row id="1042370100" paramdexName="Limgrave - Gatefront, Stormhill Evergaol, Groveside Cave Entrance, Limgrave Tunnels Entrance" disableParam_NT="0" talkChrEntityId="1042370100" eliminateTargetEntityId="0" summonedEventFlagId="1042372100" overwriteReturnRange="80" overwriteActivateRegionEntityId="1042372350" warnRegionEntityId="1042372352" />
+<row id="1042380100" paramdexName="Stormhill - Warmaster's Shack, Stormgate" disableParam_NT="0" talkChrEntityId="1042380100" eliminateTargetEntityId="0" summonedEventFlagId="1042382100" overwriteReturnRange="75" overwriteActivateRegionEntityId="1042382100" />
+<row id="1042390100" paramdexName="Stormhill - North of Warmaster's Shack" talkChrEntityId="1042390100" eliminateTargetEntityId="0" summonedEventFlagId="1042392100" activateRange="70" overwriteReturnRange="75" overwriteActivateRegionEntityId="0" />
+<row id="1042500100" paramdexName="Leyndell - South of Outer Wall Phantom Tree" talkChrEntityId="1042500100" eliminateTargetEntityId="1042505100" summonedEventFlagId="1042502100" overwriteActivateRegionEntityId="1042502600" />
+<row id="1042510100" paramdexName="Leyndell - Outer Wall Phantom Tree" talkChrEntityId="1042510100" eliminateTargetEntityId="1042515100" summonedEventFlagId="1042512100" overwriteActivateRegionEntityId="1042512600" />
+<row id="1042520100" paramdexName="Leyndell - Southwest Outer Wall Battleground" talkChrEntityId="1042520100" eliminateTargetEntityId="1042525100" summonedEventFlagId="1042522100" overwriteActivateRegionEntityId="1042522600" />
+<row id="1042540100" paramdexName="Altus Plateau - East Windmill Village, Highway Lookout Tower" talkChrEntityId="1042540100" eliminateTargetEntityId="1042545100" summonedEventFlagId="1042542100" overwriteActivateRegionEntityId="1042542601" />
+<row id="1042550100" paramdexName="Altus Plateau - Windmill Heights" talkChrEntityId="1042550100" eliminateTargetEntityId="1042555100" summonedEventFlagId="1042552100" overwriteActivateRegionEntityId="1042552600" />
+<row id="1043300100" paramdexName="Weeping Peninsula - Morne Moangrave" talkChrEntityId="1043300100" eliminateTargetEntityId="1043305100" summonedEventFlagId="1043302100" overwriteReturnRange="55" overwriteActivateRegionEntityId="1043302805" />
+<row id="1043310100" paramdexName="Weeping Peninsula - Castle Morne" talkChrEntityId="1043310100" eliminateTargetEntityId="0" summonedEventFlagId="1043312100" overwriteReturnRange="55" overwriteActivateRegionEntityId="1043312400" />
+<row id="1043330102" paramdexName="Weeping Peninsula - Minor Erdtree, Tombsward Catacombs Entrance, Morne Tunnel Entrance" talkChrEntityId="1043330102" eliminateTargetEntityId="1043335102" summonedEventFlagId="1043332102" overwriteActivateRegionEntityId="1043332602" />
+<row id="1043340100" paramdexName="Weeping Peninsula - Church of Pilgrimage, Demi-Human Forest Ruins" talkChrEntityId="1043340100" eliminateTargetEntityId="0" summonedEventFlagId="1043342100" activateRange="65" overwriteActivateRegionEntityId="0" />
+<row id="1043360100" paramdexName="Limgrave - Dragon-Burnt Ruins" disableParam_NT="0" talkChrEntityId="1043360100" eliminateTargetEntityId="0" summonedEventFlagId="1043362100" overwriteReturnRange="200" overwriteActivateRegionEntityId="1043362100" warnRegionEntityId="1043362101" />
+<row id="1043380100" paramdexName="Limgrave - Murkwater Coast, Murkwater Catacombs Entrance" disableParam_NT="0" talkChrEntityId="1043380100" eliminateTargetEntityId="0" summonedEventFlagId="1043382100" activateRange="70" overwriteReturnRange="75" overwriteActivateRegionEntityId="0" />
+<row id="1044330100" paramdexName="Weeping Peninsula - Minor Erdtree, Tombsward Catacombs Entrance, Morne Tunnel Entrance" talkChrEntityId="1044330100" eliminateTargetEntityId="0" summonedEventFlagId="1044332100" overwriteReturnRange="55" overwriteActivateRegionEntityId="1044332340" />
+<row id="1044330102" paramdexName="Weeping Peninsula - Castle Morne Rampart, Ailing Village Outskirts" talkChrEntityId="1044330102" eliminateTargetEntityId="0" summonedEventFlagId="1044332102" overwriteActivateRegionEntityId="1044332602" warnRegionEntityId="1044332603" />
+<row id="1044340106" paramdexName="Weeping Peninsula - Bridge of Sacrifice, Forest Lookout Tower, Earthbore Cave Entrance" talkChrEntityId="1044340106" eliminateTargetEntityId="0" summonedEventFlagId="1044342106" activateRange="90" overwriteReturnRange="75" overwriteActivateRegionEntityId="0" />
+<row id="1044340108" paramdexName="Weeping Peninsula - Bridge of Sacrifice, Forest Lookout Tower, Earthbore Cave Entrance" talkChrEntityId="1044340108" eliminateTargetEntityId="0" summonedEventFlagId="1044342108" overwriteActivateRegionEntityId="1044342608" warnRegionEntityId="1044342609" />
+<row id="1044350100" paramdexName="Limgrave - Agheel Lake South, Forlorn Hound Evergaol" talkChrEntityId="1044350100" eliminateTargetEntityId="0" summonedEventFlagId="1044352100" activateRange="70" overwriteReturnRange="75" overwriteActivateRegionEntityId="0" />
+<row id="1044360100" paramdexName="Limgrave - Waypoint Ruins" disableParam_NT="0" talkChrEntityId="1044360100" eliminateTargetEntityId="0" summonedEventFlagId="1044362100" overwriteReturnRange="75" overwriteActivateRegionEntityId="1044362100" warnRegionEntityId="1044362101" />
+<row id="1044360102" paramdexName="Limgrave - Waypoint Ruins" disableParam_NT="0" talkChrEntityId="1044360102" eliminateTargetEntityId="1044365102" summonedEventFlagId="1044362102" overwriteReturnRange="75" overwriteActivateRegionEntityId="1044362102" warnRegionEntityId="1044362103" />
+<row id="1044530100" paramdexName="Leyndell - Minor Erdtree" talkChrEntityId="1044530100" eliminateTargetEntityId="1044535100" summonedEventFlagId="1044532100" overwriteActivateRegionEntityId="1044532600" />
+<row id="1045330100" paramdexName="Weeping Peninsula - Beside the Crater-Pocked Glade, Oridys's Rise" talkChrEntityId="1045330100" eliminateTargetEntityId="0" summonedEventFlagId="1045332100" overwriteActivateRegionEntityId="1045332600" warnRegionEntityId="1045332601" />
+<row id="1045370100" paramdexName="Limgrave - Siofra River Well, Mistwood Ruins, Minor Erdtree, Nokron Entrance" talkChrEntityId="1045370100" eliminateTargetEntityId="0" summonedEventFlagId="1045372100" activateRange="60" overwriteReturnRange="65" overwriteActivateRegionEntityId="0" />
+<row id="1045370106" paramdexName="Limgrave - Siofra River Well, Mistwood Ruins, Minor Erdtree, Nokron Entrance" talkChrEntityId="1045370106" eliminateTargetEntityId="0" summonedEventFlagId="1045372106" activateRange="70" overwriteReturnRange="75" overwriteActivateRegionEntityId="0" />
+<row id="1045380100" paramdexName="Limgrave - South of Summonwater Village" talkChrEntityId="1045380100" eliminateTargetEntityId="0" summonedEventFlagId="1045382100" activateRange="140" overwriteReturnRange="145" overwriteActivateRegionEntityId="0" />
+<row id="1045390100" paramdexName="Limgrave - Summonwater Village" talkChrEntityId="1045390100" eliminateTargetEntityId="1045395100" summonedEventFlagId="1045392100" overwriteReturnRange="65" overwriteActivateRegionEntityId="1045392100" />
+<row id="1045520100" paramdexName="Leyndell - Capital Rampart, Auriza Side Tomb Entrance" talkChrEntityId="1045520100" eliminateTargetEntityId="1045525100" summonedEventFlagId="1045522100" overwriteActivateRegionEntityId="1045522600" />
+<row id="1046360100" paramdexName="Limgrave - Fort Haight" talkChrEntityId="1046360100" eliminateTargetEntityId="0" summonedEventFlagId="1046362100" activateRange="100" overwriteReturnRange="105" overwriteActivateRegionEntityId="0" />
+<row id="1046380100" paramdexName="Limgrave - Third Church of Marika, Gaol Cave Exit" talkChrEntityId="1046380100" eliminateTargetEntityId="0" summonedEventFlagId="1046382100" overwriteActivateRegionEntityId="1046382100" />
+<row id="1046400100" paramdexName="Caelid - Smoldering Church, Rotview Balcony" talkChrEntityId="1046400100" eliminateTargetEntityId="1047405100" summonedEventFlagId="1046402100" overwriteActivateRegionEntityId="1046402100" />
+<row id="1047380100" paramdexName="Caelid - Fort Gael, Caelid Waypoint Ruins, Gaol Cave Entrance" talkChrEntityId="1047380100" eliminateTargetEntityId="0" summonedEventFlagId="1047382100" overwriteActivateRegionEntityId="1047382100" />
+<row id="1047390100" paramdexName="Caelid - Fort Gael North" talkChrEntityId="1047390100" eliminateTargetEntityId="0" summonedEventFlagId="1047392100" overwriteActivateRegionEntityId="1047392100" />
+<row id="1047400100" paramdexName="Caelid - Caelem Ruins, Forsaken Ruins, Minor Erdtree, Minor Erdtree Catacombs Entrance" talkChrEntityId="1047400100" eliminateTargetEntityId="0" summonedEventFlagId="1047402100" activateRange="70" overwriteActivateRegionEntityId="0" />
+<row id="1047400102" paramdexName="Caelid - Caelem Ruins, Forsaken Ruins, Minor Erdtree, Minor Erdtree Catacombs Entrance" talkChrEntityId="1047400102" eliminateTargetEntityId="0" summonedEventFlagId="1047402102" overwriteActivateRegionEntityId="1047402103" warnRegionEntityId="1047402104" />
+<row id="1047550100" paramdexName="Consecrated Snowfield - Yelough Anix Ruins, Yelough Anix Tunnel Entrance" talkChrEntityId="1047550100" eliminateTargetEntityId="0" summonedEventFlagId="1047552100" overwriteActivateRegionEntityId="1047552100" />
+<row id="1048370100" paramdexName="Caelid - Caelid Highway South" talkChrEntityId="1048370100" eliminateTargetEntityId="1048375100" summonedEventFlagId="1048372100" activateRange="85" overwriteActivateRegionEntityId="0" />
+<row id="1048380100" paramdexName="Caelid - West Aeonia Swamp" talkChrEntityId="1048380100" eliminateTargetEntityId="0" summonedEventFlagId="1048382100" overwriteActivateRegionEntityId="1048382100" />
+<row id="1048390100" paramdexName="Caelid - Smoldering Wall, Abandoned Cave Entrance" talkChrEntityId="1048390100" eliminateTargetEntityId="0" summonedEventFlagId="1048392100" overwriteActivateRegionEntityId="1048392100" />
+<row id="1048400100" paramdexName="Caelid - Deep Siofra Well, Greyoll's Dragonbarrow - Dragonbarrow West" talkChrEntityId="1048400100" eliminateTargetEntityId="1048405100" summonedEventFlagId="1048402100" overwriteActivateRegionEntityId="1048402100" warnRegionEntityId="1048402101" />
+<row id="1049360100" paramdexName="Caelid - Southwest of Caelid Highway South" talkChrEntityId="1049360100" eliminateTargetEntityId="0" summonedEventFlagId="1049362100" overwriteActivateRegionEntityId="1049362100" />
+<row id="1049380100" paramdexName="Caelid - East Aeonia Swamp" talkChrEntityId="1049380100" eliminateTargetEntityId="1049385100" summonedEventFlagId="1049382100" activateRange="65" overwriteActivateRegionEntityId="0" />
+<row id="1049390100" paramdexName="Caelid - West Sellia, Sellia Crystal Tunnel Entrance" talkChrEntityId="1049390100" eliminateTargetEntityId="0" summonedEventFlagId="1049392100" overwriteActivateRegionEntityId="1049392100" />
+<row id="1049390102" paramdexName="Caelid - West Sellia, Sellia Crystal Tunnel Entrance" talkChrEntityId="1049390102" eliminateTargetEntityId="1049395102" summonedEventFlagId="1049392102" overwriteActivateRegionEntityId="1049392102" />
+<row id="1049520100" paramdexName="Mountaintops of the Giants - Before Grand Lift of Rold" talkChrEntityId="1049520100" eliminateTargetEntityId="1049525100" summonedEventFlagId="1049522100" overwriteActivateRegionEntityId="1049522100" />
+<row id="1049530100" paramdexName="Mountaintops of the Giants - West Zamor Ruins, Grand Lift of Rold" talkChrEntityId="1049530100" eliminateTargetEntityId="0" summonedEventFlagId="1049532100" overwriteActivateRegionEntityId="1049532100" />
+<row id="1049560100" paramdexName="Consecrated Snowfield - Southeast of Ordina" talkChrEntityId="1049560100" eliminateTargetEntityId="0" summonedEventFlagId="1049562100" overwriteActivateRegionEntityId="1049562100" />
+<row id="1049560102" paramdexName="Consecrated Snowfield - Southeast of Ordina" talkChrEntityId="1049560102" eliminateTargetEntityId="0" summonedEventFlagId="1049562102" overwriteActivateRegionEntityId="1049562102" />
+<row id="1049570100" paramdexName="Consecrated Snowfield - East of Ordina" talkChrEntityId="1049570100" eliminateTargetEntityId="0" summonedEventFlagId="1049572100" overwriteActivateRegionEntityId="1049572100" />
+<row id="1050400100" paramdexName="Greyoll's Dragonbarrow - Dragonbarrow Fork" talkChrEntityId="1050400100" eliminateTargetEntityId="1050405100" summonedEventFlagId="1050402100" overwriteActivateRegionEntityId="1050402800" />
+<row id="1050540100" paramdexName="Mountaintops of the Giants - North of Zamor Ruins" talkChrEntityId="1050540100" eliminateTargetEntityId="0" summonedEventFlagId="1050542100" overwriteActivateRegionEntityId="1050542100" />
+<row id="1050560100" paramdexName="Mountaintops of the Giants - Shack of the Lofty, Consecrated Snowfield - Minor Erdtree, Albinauric Rise, Cave of the Forlorn Entrance" talkChrEntityId="1050560100" eliminateTargetEntityId="0" summonedEventFlagId="1050562100" overwriteActivateRegionEntityId="1050562100" />
+<row id="1050570100" paramdexName="Mountaintops of the Giants - West of Castle Sol, Consecrated Snowfield - North of Minor Erdtree" talkChrEntityId="1050570100" eliminateTargetEntityId="1050575100" summonedEventFlagId="1050572100" overwriteActivateRegionEntityId="1050572100" />
+<row id="1051360100" paramdexName="Caelid - Redmane Castle" talkChrEntityId="1051360100" eliminateTargetEntityId="1051365100" summonedEventFlagId="1051362100" overwriteActivateRegionEntityId="1051362100" />
+<row id="1051390100" paramdexName="Greyoll's Dragonbarrow - Fort Faroth" talkChrEntityId="1051390100" eliminateTargetEntityId="0" summonedEventFlagId="1051392100" overwriteActivateRegionEntityId="1051392102" />
+<row id="1051400100" paramdexName="Greyoll's Dragonbarrow - Minor Erdtree, Dragonbarrow Cave Entrance" talkChrEntityId="1051400100" eliminateTargetEntityId="1051405100" summonedEventFlagId="1051402100" overwriteActivateRegionEntityId="1051402299" />
+<row id="1051430100" paramdexName="Greyoll's Dragonbarrow - Bestial Sanctum" talkChrEntityId="1051430100" eliminateTargetEntityId="1051435100" summonedEventFlagId="1051432100" activateRange="150" overwriteActivateRegionEntityId="0" />
+<row id="1051560100" paramdexName="Mountaintops of the Giants - Ancient Snow Valley Ruins, Stargazers' Ruins" talkChrEntityId="1051560100" eliminateTargetEntityId="0" summonedEventFlagId="1051562100" overwriteActivateRegionEntityId="1051562100" />
+<row id="1051570100" paramdexName="Mountaintops of the Giants - South Castle Sol, Snow Valley Ruins Overlook" talkChrEntityId="1051570100" eliminateTargetEntityId="0" summonedEventFlagId="1051572100" activateRange="60" overwriteActivateRegionEntityId="0" />
+<row id="1051570102" paramdexName="Mountaintops of the Giants - South Castle Sol, Snow Valley Ruins Overlook" talkChrEntityId="1051570102" eliminateTargetEntityId="1051575102" summonedEventFlagId="1051572102" overwriteActivateRegionEntityId="1051572102" />
+<row id="1051570104" paramdexName="Mountaintops of the Giants - South Castle Sol, Snow Valley Ruins Overlook" talkChrEntityId="1051570104" eliminateTargetEntityId="1051575104" summonedEventFlagId="1051572104" overwriteActivateRegionEntityId="1051572104" />
+<row id="1052410100" paramdexName="Greyoll's Dragonbarrow - Southeast Farum Greatbridge, Lenne's Rise" talkChrEntityId="1052410100" eliminateTargetEntityId="1052415100" summonedEventFlagId="1052412100" overwriteActivateRegionEntityId="1052412100" />
+<row id="1052530100" paramdexName="Mountaintops of the Giants - Northwest Fire Giant Arena, Foot of the Forge" talkChrEntityId="1052530100" eliminateTargetEntityId="1052525100" summonedEventFlagId="1052532100" overwriteActivateRegionEntityId="1052532100" />
+<row id="1052530102" paramdexName="Mountaintops of the Giants - Northwest Fire Giant Arena, Foot of the Forge" talkChrEntityId="1052530102" eliminateTargetEntityId="0" summonedEventFlagId="1052532102" overwriteActivateRegionEntityId="1052532102" />
+<row id="1052550100" paramdexName="Mountaintops of the Giants - Guardians' Garrison" talkChrEntityId="1052550100" eliminateTargetEntityId="0" summonedEventFlagId="1052552100" overwriteActivateRegionEntityId="1052552100" />
+<row id="1052560100" paramdexName="Mountaintops of the Giants - Whiteridge Road, Minor Erdtree" talkChrEntityId="1052560100" eliminateTargetEntityId="1052565100" summonedEventFlagId="1052562100" overwriteActivateRegionEntityId="1052562100" />
+<row id="1053560100" paramdexName="Mountaintops of the Giants - Southwest Freezing Lake, Lord Contender's Evergaol, Spiritcaller's Cave Entrance" talkChrEntityId="1053560100" eliminateTargetEntityId="0" summonedEventFlagId="1053562100" activateRange="50" overwriteActivateRegionEntityId="0" />
+<row id="1054560100" paramdexName="Mountaintops of the Giants - Southeast Freezing Lake" talkChrEntityId="1054560100" eliminateTargetEntityId="1054565100" summonedEventFlagId="1054562100" overwriteActivateRegionEntityId="1054562100" />
+<row id="2044450100" talkChrEntityId="2044450100" eliminateTargetEntityId="2044455100" summonedEventFlagId="2044452100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2044452100" />
+<row id="2044470100" talkChrEntityId="2044470100" eliminateTargetEntityId="2044475100" summonedEventFlagId="2044472100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2044472100" />
+<row id="2045410100" talkChrEntityId="2045410100" eliminateTargetEntityId="0" summonedEventFlagId="2045412100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2045412800" />
+<row id="2045440100" talkChrEntityId="2045440100" eliminateTargetEntityId="2045445100" summonedEventFlagId="2045442100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2045442800" />
+<row id="2045460100" talkChrEntityId="2045460100" eliminateTargetEntityId="2045465100" summonedEventFlagId="2045462100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2045462100" />
+<row id="2046400100" talkChrEntityId="2046400100" eliminateTargetEntityId="2046405100" summonedEventFlagId="2046402100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2046402800" />
+<row id="2046420100" talkChrEntityId="2046420100" eliminateTargetEntityId="2046425100" summonedEventFlagId="2046422100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2046422800" />
+<row id="2046430100" talkChrEntityId="2046430100" eliminateTargetEntityId="0" summonedEventFlagId="2046432100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2046432800" />
+<row id="2046440100" talkChrEntityId="2046440100" eliminateTargetEntityId="0" summonedEventFlagId="2046442100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2046442800" />
+<row id="2046450100" talkChrEntityId="2046450100" eliminateTargetEntityId="0" summonedEventFlagId="2046452100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2046452100" />
+<row id="2046460100" talkChrEntityId="2046460100" eliminateTargetEntityId="2046465100" summonedEventFlagId="2046462100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2046462100" />
+<row id="2046460102" talkChrEntityId="2046460102" eliminateTargetEntityId="2046465102" summonedEventFlagId="2046462102" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2046462102" />
+<row id="2046460104" talkChrEntityId="2046460104" eliminateTargetEntityId="2046465104" summonedEventFlagId="2046462104" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2046462104" />
+<row id="2047390100" talkChrEntityId="2047390100" eliminateTargetEntityId="2047395100" summonedEventFlagId="2047392100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2047392805" />
+<row id="2047390102" talkChrEntityId="2047390102" eliminateTargetEntityId="2047395102" summonedEventFlagId="2047392102" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2047392102" />
+<row id="2047410100" talkChrEntityId="2047410100" eliminateTargetEntityId="0" summonedEventFlagId="2047412100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2047412800" />
+<row id="2047440100" talkChrEntityId="2047440100" eliminateTargetEntityId="0" summonedEventFlagId="2047442100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2047442100" />
+<row id="2047450100" talkChrEntityId="2047450100" eliminateTargetEntityId="0" summonedEventFlagId="2047452100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2047452100" />
+<row id="2048380100" talkChrEntityId="2048380100" eliminateTargetEntityId="2048385100" summonedEventFlagId="2048402100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2048382805" />
+<row id="2048380102" talkChrEntityId="2048380102" eliminateTargetEntityId="2048385102" summonedEventFlagId="2048382102" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2048382102" />
+<row id="2048410100" talkChrEntityId="2048410100" eliminateTargetEntityId="0" summonedEventFlagId="2048412100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2048412800" />
+<row id="2048440100" talkChrEntityId="2048440100" eliminateTargetEntityId="2048445100" summonedEventFlagId="2048442100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2048442100" />
+<row id="2048460100" talkChrEntityId="2048460100" eliminateTargetEntityId="0" summonedEventFlagId="2048462100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2048462100" />
+<row id="2049410100" talkChrEntityId="2049410100" eliminateTargetEntityId="2049415100" summonedEventFlagId="2049412100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2049412800" />
+<row id="2049430100" talkChrEntityId="2049430100" eliminateTargetEntityId="2049435100" summonedEventFlagId="2049432100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2049432100" />
+<row id="2049450100" talkChrEntityId="2049450100" eliminateTargetEntityId="0" summonedEventFlagId="2049452100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2049452100" />
+<row id="2049450102" talkChrEntityId="2049450102" eliminateTargetEntityId="2049455102" summonedEventFlagId="2049452102" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2049452102" />
+<row id="2049480102" talkChrEntityId="2049480100" eliminateTargetEntityId="2049485100" summonedEventFlagId="2049482100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2049482100" />
+<row id="2050390100" talkChrEntityId="2050390100" eliminateTargetEntityId="0" summonedEventFlagId="2050392100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2050392100" />
+<row id="2050440100" talkChrEntityId="2050440100" eliminateTargetEntityId="0" summonedEventFlagId="2050442100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2050442100" />
+<row id="2050460100" talkChrEntityId="2050460100" eliminateTargetEntityId="2050465100" summonedEventFlagId="2050462100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2050462100" />
+<row id="2050470100" talkChrEntityId="2050470100" eliminateTargetEntityId="2050475100" summonedEventFlagId="2050472100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2050472100" />
+<row id="2050480104" talkChrEntityId="2050480104" eliminateTargetEntityId="2050485800" summonedEventFlagId="2050482104" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2050482104" />
+<row id="2051440100" talkChrEntityId="2051440100" eliminateTargetEntityId="2051445100" summonedEventFlagId="2051442100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2051442100" />
+<row id="2052400100" talkChrEntityId="2052400100" eliminateTargetEntityId="2052405100" summonedEventFlagId="2052402100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2052402800" />
+<row id="2052430100" talkChrEntityId="2052430100" eliminateTargetEntityId="2052435800" summonedEventFlagId="2052432100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2052432100" />
+<row id="2052480100" talkChrEntityId="2052480100" eliminateTargetEntityId="2052485100" summonedEventFlagId="2052482100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2052482100" />
+<row id="2053460100" talkChrEntityId="2053460100" eliminateTargetEntityId="0" summonedEventFlagId="2053462100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2053462100" />
+<row id="2054390100" talkChrEntityId="2054390100" eliminateTargetEntityId="2054395100" summonedEventFlagId="2054392100" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2054392851" />
+<row id="2054390102" talkChrEntityId="2054390102" eliminateTargetEntityId="2054395102" summonedEventFlagId="2054392102" dopingSpEffectId="298000" overwriteActivateRegionEntityId="2054392801" />
+</rows>
+</param>

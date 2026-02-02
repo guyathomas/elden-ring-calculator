@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>Ceremony.param</filename>
+<compression>None</compression>
+<type>CEREMONY_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>CEREMONY_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="eventLayerId" type="s32" arraylength="1" bitsize="-1" sortid="1000" defaultValue="0" />
+<field name="mapStudioLayerId" type="s32" arraylength="1" bitsize="-1" sortid="1100" defaultValue="0" />
+<field name="multiPlayAreaOffset" type="s32" arraylength="1" bitsize="-1" sortid="1200" defaultValue="0" />
+<field name="overrideMapPlaceNameId" type="s32" arraylength="1" bitsize="-1" sortid="1300" defaultValue="-1" />
+<field name="overrideSaveMapNameId" type="s32" arraylength="1" bitsize="-1" sortid="1400" defaultValue="-1" />
+<field name="pad2" type="dummy8" arraylength="16" bitsize="-1" sortid="1401" defaultValue="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+</fields>
+<rows>
+<row id="0" eventLayerId="0" mapStudioLayerId="0" multiPlayAreaOffset="0" overrideMapPlaceNameId="-1" overrideSaveMapNameId="-1" pad2="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="11000000" eventLayerId="0" mapStudioLayerId="0" multiPlayAreaOffset="0" overrideMapPlaceNameId="-1" overrideSaveMapNameId="-1" pad2="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="11000020" eventLayerId="2" mapStudioLayerId="2" multiPlayAreaOffset="0" overrideMapPlaceNameId="-1" overrideSaveMapNameId="-1" pad2="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="11100000" eventLayerId="0" mapStudioLayerId="0" multiPlayAreaOffset="0" overrideMapPlaceNameId="-1" overrideSaveMapNameId="-1" pad2="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="11100020" eventLayerId="2" mapStudioLayerId="2" multiPlayAreaOffset="0" overrideMapPlaceNameId="-1" overrideSaveMapNameId="-1" pad2="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="12050000" eventLayerId="0" mapStudioLayerId="0" multiPlayAreaOffset="0" overrideMapPlaceNameId="-1" overrideSaveMapNameId="-1" pad2="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="12050020" eventLayerId="2" mapStudioLayerId="2" multiPlayAreaOffset="0" overrideMapPlaceNameId="-1" overrideSaveMapNameId="-1" pad2="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="14000000" eventLayerId="0" mapStudioLayerId="0" multiPlayAreaOffset="0" overrideMapPlaceNameId="-1" overrideSaveMapNameId="-1" pad2="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="14000020" eventLayerId="2" mapStudioLayerId="2" multiPlayAreaOffset="0" overrideMapPlaceNameId="-1" overrideSaveMapNameId="-1" pad2="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="14000030" eventLayerId="3" mapStudioLayerId="3" multiPlayAreaOffset="0" overrideMapPlaceNameId="-1" overrideSaveMapNameId="-1" pad2="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="15000000" eventLayerId="0" mapStudioLayerId="0" multiPlayAreaOffset="0" overrideMapPlaceNameId="-1" overrideSaveMapNameId="-1" pad2="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="15000020" eventLayerId="2" mapStudioLayerId="2" multiPlayAreaOffset="0" overrideMapPlaceNameId="-1" overrideSaveMapNameId="-1" pad2="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="15000030" eventLayerId="3" mapStudioLayerId="3" multiPlayAreaOffset="0" overrideMapPlaceNameId="-1" overrideSaveMapNameId="-1" pad2="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="20010000" eventLayerId="0" mapStudioLayerId="0" multiPlayAreaOffset="0" overrideMapPlaceNameId="-1" overrideSaveMapNameId="-1" pad2="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="20010020" eventLayerId="2" mapStudioLayerId="2" multiPlayAreaOffset="0" overrideMapPlaceNameId="-1" overrideSaveMapNameId="-1" pad2="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="21000000" eventLayerId="0" mapStudioLayerId="0" multiPlayAreaOffset="0" overrideMapPlaceNameId="-1" overrideSaveMapNameId="-1" pad2="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="21000020" eventLayerId="2" mapStudioLayerId="2" multiPlayAreaOffset="0" overrideMapPlaceNameId="-1" overrideSaveMapNameId="-1" pad2="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="21000030" eventLayerId="3" mapStudioLayerId="3" multiPlayAreaOffset="0" overrideMapPlaceNameId="-1" overrideSaveMapNameId="-1" pad2="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="21010000" eventLayerId="0" mapStudioLayerId="0" multiPlayAreaOffset="0" overrideMapPlaceNameId="-1" overrideSaveMapNameId="-1" pad2="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="21010040" eventLayerId="4" mapStudioLayerId="4" multiPlayAreaOffset="0" overrideMapPlaceNameId="-1" overrideSaveMapNameId="-1" pad2="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="21010050" eventLayerId="5" mapStudioLayerId="5" multiPlayAreaOffset="0" overrideMapPlaceNameId="-1" overrideSaveMapNameId="-1" pad2="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="39200000" eventLayerId="0" mapStudioLayerId="0" multiPlayAreaOffset="0" overrideMapPlaceNameId="-1" overrideSaveMapNameId="-1" pad2="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="39200050" eventLayerId="5" mapStudioLayerId="5" multiPlayAreaOffset="0" overrideMapPlaceNameId="-1" overrideSaveMapNameId="-1" pad2="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="99021010" eventLayerId="1" mapStudioLayerId="1" multiPlayAreaOffset="18999" overrideMapPlaceNameId="10000" overrideSaveMapNameId="10000" pad2="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="99022020" eventLayerId="2" mapStudioLayerId="2" multiPlayAreaOffset="18999" overrideMapPlaceNameId="0" overrideSaveMapNameId="0" pad2="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="99023030" eventLayerId="3" mapStudioLayerId="3" multiPlayAreaOffset="4" overrideMapPlaceNameId="11010" overrideSaveMapNameId="11010" pad2="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="1035460000" eventLayerId="0" mapStudioLayerId="0" multiPlayAreaOffset="0" overrideMapPlaceNameId="-1" overrideSaveMapNameId="-1" pad2="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="1035460040" eventLayerId="4" mapStudioLayerId="4" multiPlayAreaOffset="0" overrideMapPlaceNameId="-1" overrideSaveMapNameId="-1" pad2="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="1039530000" eventLayerId="0" mapStudioLayerId="0" multiPlayAreaOffset="0" overrideMapPlaceNameId="-1" overrideSaveMapNameId="-1" pad2="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="1039530020" eventLayerId="2" mapStudioLayerId="2" multiPlayAreaOffset="0" overrideMapPlaceNameId="-1" overrideSaveMapNameId="-1" pad2="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="1040530020" eventLayerId="2" mapStudioLayerId="2" multiPlayAreaOffset="0" overrideMapPlaceNameId="-1" overrideSaveMapNameId="-1" pad2="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="1042390000" eventLayerId="0" mapStudioLayerId="0" multiPlayAreaOffset="0" overrideMapPlaceNameId="-1" overrideSaveMapNameId="-1" pad2="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="1042390020" eventLayerId="2" mapStudioLayerId="2" multiPlayAreaOffset="0" overrideMapPlaceNameId="-1" overrideSaveMapNameId="-1" pad2="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="1050560020" eventLayerId="2" mapStudioLayerId="2" multiPlayAreaOffset="0" overrideMapPlaceNameId="-1" overrideSaveMapNameId="-1" pad2="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+</rows>
+</param>

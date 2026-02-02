@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>NpcAiActionParam.param</filename>
+<compression>None</compression>
+<type>NPC_AI_ACTION_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>1</unk06>
+<paramdef>
+<type>NPC_AI_ACTION_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="moveDir" type="u8" arraylength="1" bitsize="-1" sortid="100" defaultValue="0" />
+<field name="key1" type="u8" arraylength="1" bitsize="-1" sortid="200" defaultValue="22" />
+<field name="key2" type="u8" arraylength="1" bitsize="-1" sortid="300" defaultValue="0" defaultThreshold="True" />
+<field name="key3" type="u8" arraylength="1" bitsize="-1" sortid="400" defaultValue="0" defaultThreshold="True" />
+<field name="bMoveDirHold" type="u8" arraylength="1" bitsize="-1" sortid="110" defaultValue="0" />
+<field name="bKeyHold1" type="u8" arraylength="1" bitsize="-1" sortid="210" defaultValue="0" />
+<field name="bKeyHold2" type="u8" arraylength="1" bitsize="-1" sortid="310" defaultValue="0" defaultThreshold="True" />
+<field name="bKeyHold3" type="u8" arraylength="1" bitsize="-1" sortid="410" defaultValue="0" defaultThreshold="True" />
+<field name="gestureId" type="s32" arraylength="1" bitsize="-1" sortid="500" defaultValue="0" />
+<field name="bLifeEndSuccess" type="u8" arraylength="1" bitsize="-1" sortid="600" defaultValue="0" defaultThreshold="True" />
+<field name="pad1" type="dummy8" arraylength="3" bitsize="-1" sortid="601" defaultValue="[0|0|0]" defaultThreshold="True" />
+</fields>
+<rows>
+<row id="0" paramdexName="NPC_ATK_R1" moveDir="0" key1="8" bMoveDirHold="0" bKeyHold1="0" gestureId="0" />
+<row id="1" paramdexName="NPC_ATK_R1_Hold" moveDir="0" key1="8" bMoveDirHold="0" bKeyHold1="1" gestureId="0" bLifeEndSuccess="1" />
+<row id="2" paramdexName="NPC_ATK_R2" moveDir="0" key1="9" bMoveDirHold="0" bKeyHold1="0" gestureId="0" />
+<row id="3" paramdexName="NPC_ATK_R2_Hold" moveDir="0" key1="9" bMoveDirHold="0" bKeyHold1="1" gestureId="0" bLifeEndSuccess="1" />
+<row id="4" paramdexName="NPC_ATK_L1" moveDir="0" key1="5" bMoveDirHold="0" bKeyHold1="0" gestureId="0" />
+<row id="6" paramdexName="NPC_ATK_L1Hold" moveDir="0" key1="5" bMoveDirHold="0" bKeyHold1="1" gestureId="0" bLifeEndSuccess="1" />
+<row id="7" paramdexName="NPC_ATK_L2" moveDir="0" key1="6" bMoveDirHold="0" bKeyHold1="0" gestureId="0" />
+<row id="8" paramdexName="NPC_ATK_L2Hold" moveDir="0" key1="6" bMoveDirHold="0" bKeyHold1="1" gestureId="0" bLifeEndSuccess="1" />
+<row id="10" paramdexName="NPC_ATK_Up_R1" moveDir="1" key1="8" key2="18" bMoveDirHold="0" bKeyHold1="0" gestureId="0" />
+<row id="11" paramdexName="NPC_ATK_Up_R2" moveDir="1" key1="9" key2="19" bMoveDirHold="0" bKeyHold1="0" gestureId="0" />
+<row id="12" paramdexName="NPC_ATK_ButtonTriangle" moveDir="0" key1="11" bMoveDirHold="0" bKeyHold1="0" gestureId="0" />
+<row id="13" paramdexName="NPC_ATK_ButtonSquare" moveDir="0" key1="3" bMoveDirHold="0" bKeyHold1="0" gestureId="0" />
+<row id="14" paramdexName="NPC_ATK_ButtonCircle" moveDir="0" key1="4" bMoveDirHold="0" bKeyHold1="0" gestureId="0" />
+<row id="15" paramdexName="NPC_ATK_ButtonXmark" moveDir="0" key1="16" bMoveDirHold="0" bKeyHold1="0" gestureId="0" />
+<row id="16" paramdexName="NPC_ATK_ArrowKeyLeft" moveDir="0" key1="12" bMoveDirHold="0" bKeyHold1="0" gestureId="0" />
+<row id="17" paramdexName="NPC_ATK_ArrowKeyRight" moveDir="0" key1="13" bMoveDirHold="0" bKeyHold1="0" gestureId="0" />
+<row id="18" paramdexName="NPC_ATK_Up" moveDir="1" key1="0" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="19" paramdexName="NPC_ATK_UpLeft" moveDir="2" key1="0" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="20" paramdexName="NPC_ATK_UpRight" moveDir="3" key1="0" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="21" paramdexName="NPC_ATK_Left" moveDir="4" key1="0" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="22" paramdexName="NPC_ATK_Right" moveDir="5" key1="0" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="23" paramdexName="NPC_ATK_Down" moveDir="6" key1="0" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="24" paramdexName="NPC_ATK_DownLeft" moveDir="7" key1="0" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="25" paramdexName="NPC_ATK_DownRight" moveDir="8" key1="0" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="26" paramdexName="NPC_ATK_Up_L1Hold" moveDir="1" key1="5" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="27" paramdexName="NPC_ATK_UpLeft_L1Hold" moveDir="2" key1="5" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="28" paramdexName="NPC_ATK_UpRight_L1Hold" moveDir="3" key1="5" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="29" paramdexName="NPC_ATK_Left_L1Hold" moveDir="4" key1="5" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="30" paramdexName="NPC_ATK_Right_L1Hold" moveDir="5" key1="5" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="31" paramdexName="NPC_ATK_Down_L1Hold" moveDir="6" key1="5" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="32" paramdexName="NPC_ATK_DownLeft_L1Hold" moveDir="7" key1="5" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="33" paramdexName="NPC_ATK_DownRight_L1Hold" moveDir="8" key1="5" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="34" paramdexName="NPC_ATK_UpHold_ButtonXmarkHold" moveDir="1" key1="15" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="35" paramdexName="NPC_ATK_UpHold_ButtonXmarkHold_L2Hold" moveDir="1" key1="15" key2="5" bMoveDirHold="1" bKeyHold1="1" bKeyHold2="1" gestureId="0" />
+<row id="36" paramdexName="NPC_ATK_Up_ButtonXmark" moveDir="1" key1="17" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="37" paramdexName="NPC_ATK_UpLeft_ButtonXmark" moveDir="2" key1="17" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="38" paramdexName="NPC_ATK_UpRight_ButtonXmark" moveDir="3" key1="17" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="39" paramdexName="NPC_ATK_Left_ButtonXmark" moveDir="4" key1="17" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="40" paramdexName="NPC_ATK_Right_ButtonXmark" moveDir="5" key1="17" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="41" paramdexName="NPC_ATK_Down_ButtonXmark" moveDir="6" key1="17" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="42" paramdexName="NPC_ATK_DownLeft_ButtonXmark" moveDir="7" key1="17" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="43" paramdexName="NPC_ATK_DownRight_ButtonXmark" moveDir="8" key1="17" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="48" paramdexName="NPC_ATK_L2Hold_R1" moveDir="0" key1="6" key2="8" bMoveDirHold="0" bKeyHold1="1" gestureId="0" />
+<row id="49" paramdexName="NPC_ATK_L2Hold_R2" moveDir="0" key1="6" key2="9" bMoveDirHold="0" bKeyHold1="1" gestureId="0" />
+<row id="50" paramdexName="NPC_ATK_Up_L2" moveDir="1" key1="6" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="51" paramdexName="NPC_ATK_UpLeft_L2" moveDir="2" key1="6" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="52" paramdexName="NPC_ATK_UpRight_L2" moveDir="3" key1="6" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="53" paramdexName="NPC_ATK_Left_L2" moveDir="4" key1="6" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="54" paramdexName="NPC_ATK_Right_L2" moveDir="5" key1="6" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="55" paramdexName="NPC_ATK_Down_L2" moveDir="6" key1="6" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="56" paramdexName="NPC_ATK_DownLeft_L2" moveDir="7" key1="6" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="57" paramdexName="NPC_ATK_DownRight_L2" moveDir="8" key1="6" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="58" paramdexName="NPC_ATK_UpHold_L2Hold" moveDir="1" key1="6" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="59" paramdexName="NPC_ATK_UpLeftHold_L2Hold" moveDir="2" key1="6" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="60" paramdexName="NPC_ATK_UpRightHold_L2Hold" moveDir="3" key1="6" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="61" paramdexName="NPC_ATK_LeftHold_L2Hold" moveDir="4" key1="6" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="62" paramdexName="NPC_ATK_RightHold_L2Hold" moveDir="5" key1="6" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="63" paramdexName="NPC_ATK_DownHold_L2Hold" moveDir="6" key1="6" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="64" paramdexName="NPC_ATK_DownLeftHold_L2Hold" moveDir="7" key1="6" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="65" paramdexName="NPC_ATK_DownRightHold_L2Hold" moveDir="8" key1="6" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="66" paramdexName="NPC_ATK_UpHold_L2Hold_R1" moveDir="1" key1="6" key2="8" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="67" paramdexName="NPC_ATK_UpLeftHold_L2Hold_R1" moveDir="2" key1="6" key2="8" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="68" paramdexName="NPC_ATK_UpRightHold_L2Hold_R1" moveDir="3" key1="6" key2="8" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="69" paramdexName="NPC_ATK_LeftHold_L2Hold_R1" moveDir="4" key1="6" key2="8" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="70" paramdexName="NPC_ATK_RightHold_L2Hold_R1" moveDir="5" key1="6" key2="8" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="71" paramdexName="NPC_ATK_DownHold_L2Hold_R1" moveDir="6" key1="6" key2="8" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="72" paramdexName="NPC_ATK_DownLeftHold_L2Hold_R1" moveDir="7" key1="6" key2="8" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="73" paramdexName="NPC_ATK_DownRightHold_L2Hold_R1" moveDir="8" key1="6" key2="8" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="74" paramdexName="NPC_ATK_UpHold_L2Hold_R2" moveDir="1" key1="6" key2="9" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="75" paramdexName="NPC_ATK_UpLeftHold_L2Hold_R2" moveDir="2" key1="6" key2="9" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="76" paramdexName="NPC_ATK_UpRightHold_L2Hold_R2" moveDir="3" key1="6" key2="9" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="77" paramdexName="NPC_ATK_LeftHold_L2Hold_R2" moveDir="4" key1="6" key2="9" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="78" paramdexName="NPC_ATK_RightHold_L2Hold_R2" moveDir="5" key1="6" key2="9" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="79" paramdexName="NPC_ATK_DownHold_L2Hold_R2" moveDir="6" key1="6" key2="9" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="80" paramdexName="NPC_ATK_DownLeftHold_L2Hold_R2" moveDir="7" key1="6" key2="9" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="81" paramdexName="NPC_ATK_DownRightHold_L2Hold_R2" moveDir="8" key1="6" key2="9" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="82" paramdexName="NPC_ATK_L1Hold_R1" moveDir="0" key1="5" key2="8" bMoveDirHold="0" bKeyHold1="1" gestureId="0" />
+<row id="83" paramdexName="NPC_ATK_L1Hold_R2" moveDir="0" key1="5" key2="9" bMoveDirHold="0" bKeyHold1="1" gestureId="0" />
+<row id="84" moveDir="1" key1="15" key2="8" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="85" moveDir="1" key1="15" key2="9" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="86" moveDir="1" key1="15" key2="5" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="90" paramdexName="NPC_ATK_LadderUp" moveDir="0" key1="20" bMoveDirHold="0" bKeyHold1="0" gestureId="0" />
+<row id="91" paramdexName="NPC_ATK_LadderDown" moveDir="0" key1="21" bMoveDirHold="0" bKeyHold1="0" gestureId="0" />
+<row id="92" moveDir="0" key1="11" bMoveDirHold="0" bKeyHold1="1" gestureId="0" />
+<row id="93" paramdexName="NPC_ATK_RideMount" moveDir="0" key1="4" bMoveDirHold="0" bKeyHold1="0" gestureId="0" />
+<row id="94" paramdexName="NPC_ATK_RideDismount" moveDir="0" key1="4" bMoveDirHold="0" bKeyHold1="1" gestureId="0" />
+<row id="96" moveDir="0" key1="7" bMoveDirHold="0" bKeyHold1="0" gestureId="0" />
+<row id="97" moveDir="1" key1="1" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="98" moveDir="0" key1="15" bMoveDirHold="0" bKeyHold1="0" gestureId="0" />
+<row id="99" moveDir="0" key1="23" bMoveDirHold="0" bKeyHold1="0" gestureId="0" />
+<row id="100" paramdexName="NPC_ATK_Gesture00" moveDir="0" key1="1" bMoveDirHold="0" bKeyHold1="0" gestureId="0" />
+<row id="101" paramdexName="NPC_ATK_Gesture01" moveDir="1" key1="1" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="102" paramdexName="NPC_ATK_Gesture02" moveDir="2" key1="1" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="103" paramdexName="NPC_ATK_Gesture03" moveDir="3" key1="1" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="104" paramdexName="NPC_ATK_Gesture04" moveDir="4" key1="1" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="105" paramdexName="NPC_ATK_Gesture05" moveDir="5" key1="1" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="106" paramdexName="NPC_ATK_Gesture06" moveDir="6" key1="1" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="107" paramdexName="NPC_ATK_Gesture07" moveDir="7" key1="1" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="108" paramdexName="NPC_ATK_Gesture08" moveDir="8" key1="1" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="109" paramdexName="NPC_ATK_Gesture09" moveDir="1" key1="1" key2="15" bMoveDirHold="1" bKeyHold1="0" bKeyHold2="1" gestureId="0" />
+<row id="121" paramdexName="NPC_ATK_Gesture21" moveDir="1" key1="8" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="122" paramdexName="NPC_ATK_Gesture22" moveDir="2" key1="8" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="123" paramdexName="NPC_ATK_Gesture23" moveDir="3" key1="8" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="124" paramdexName="NPC_ATK_Gesture24" moveDir="4" key1="8" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="125" paramdexName="NPC_ATK_Gesture25" moveDir="5" key1="8" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="126" paramdexName="NPC_ATK_Gesture26" moveDir="6" key1="8" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="127" paramdexName="NPC_ATK_Gesture27" moveDir="7" key1="8" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="128" paramdexName="NPC_ATK_Gesture28" moveDir="8" key1="8" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="131" paramdexName="NPC_ATK_Gesture31" moveDir="1" key1="5" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="132" paramdexName="NPC_ATK_Gesture32" moveDir="2" key1="5" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="133" paramdexName="NPC_ATK_Gesture33" moveDir="3" key1="5" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="134" paramdexName="NPC_ATK_Gesture34" moveDir="4" key1="5" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="135" paramdexName="NPC_ATK_Gesture35" moveDir="5" key1="5" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="136" paramdexName="NPC_ATK_Gesture36" moveDir="6" key1="5" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="137" paramdexName="NPC_ATK_Gesture37" moveDir="7" key1="5" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="138" paramdexName="NPC_ATK_Gesture38" moveDir="8" key1="5" bMoveDirHold="1" bKeyHold1="0" gestureId="0" />
+<row id="141" moveDir="1" key1="8" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="142" moveDir="2" key1="8" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="143" moveDir="3" key1="8" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="144" moveDir="4" key1="8" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="145" moveDir="5" key1="8" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="146" moveDir="6" key1="8" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="147" moveDir="7" key1="8" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="148" moveDir="8" key1="8" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="151" moveDir="1" key1="5" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="152" moveDir="2" key1="5" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="153" moveDir="3" key1="5" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="154" moveDir="4" key1="5" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="155" moveDir="5" key1="5" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="156" moveDir="6" key1="5" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="157" moveDir="7" key1="5" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="158" moveDir="8" key1="5" bMoveDirHold="1" bKeyHold1="1" gestureId="0" />
+<row id="1000" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="0" />
+<row id="1001" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="1" />
+<row id="1002" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="2" />
+<row id="1003" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="3" />
+<row id="1004" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="4" />
+<row id="1005" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="5" />
+<row id="1006" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="6" />
+<row id="1007" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="7" />
+<row id="1008" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="8" />
+<row id="1009" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="9" />
+<row id="1010" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="10" />
+<row id="1011" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="11" />
+<row id="1012" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="12" />
+<row id="1013" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="13" />
+<row id="1014" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="14" />
+<row id="1015" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="15" />
+<row id="1016" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="16" />
+<row id="1017" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="17" />
+<row id="1018" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="18" />
+<row id="1019" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="19" />
+<row id="1020" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="20" />
+<row id="1021" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="21" />
+<row id="1022" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="22" />
+<row id="1023" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="23" />
+<row id="1024" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="24" />
+<row id="1025" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="25" />
+<row id="1026" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="26" />
+<row id="1027" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="27" />
+<row id="1028" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="28" />
+<row id="1029" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="29" />
+<row id="1030" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="30" />
+<row id="1031" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="31" />
+<row id="1032" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="32" />
+<row id="1033" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="33" />
+<row id="1034" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="34" />
+<row id="1035" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="35" />
+<row id="1036" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="36" />
+<row id="1037" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="37" />
+<row id="1038" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="38" />
+<row id="1039" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="39" />
+<row id="1040" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="40" />
+<row id="1041" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="41" />
+<row id="1042" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="42" />
+<row id="1043" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="43" />
+<row id="1044" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="44" />
+<row id="1045" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="45" />
+<row id="1046" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="46" />
+<row id="1047" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="47" />
+<row id="1048" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="48" />
+<row id="1049" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="49" />
+<row id="1050" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="50" />
+<row id="1051" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="51" />
+<row id="1052" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="52" />
+<row id="1053" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="53" />
+<row id="1054" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="54" />
+<row id="1055" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="55" />
+<row id="1056" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="56" />
+<row id="1057" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="57" />
+<row id="1058" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="58" />
+<row id="1059" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="59" />
+<row id="1060" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="60" />
+<row id="1061" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="61" />
+<row id="1062" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="62" />
+<row id="1063" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="63" />
+<row id="1064" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="64" />
+<row id="1065" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="65" />
+<row id="1066" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="66" />
+<row id="1067" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="67" />
+<row id="1068" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="68" />
+<row id="1069" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="69" />
+<row id="1070" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="70" />
+<row id="1071" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="71" />
+<row id="1072" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="72" />
+<row id="1073" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="73" />
+<row id="1074" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="74" />
+<row id="1075" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="75" />
+<row id="1076" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="76" />
+<row id="1077" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="77" />
+<row id="1078" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="78" />
+<row id="1079" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="79" />
+<row id="1080" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="80" />
+<row id="1081" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="81" />
+<row id="1082" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="82" />
+<row id="1083" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="83" />
+<row id="1084" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="84" />
+<row id="1085" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="85" />
+<row id="1086" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="86" />
+<row id="1087" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="87" />
+<row id="1088" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="88" />
+<row id="1089" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="89" />
+<row id="1090" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="90" />
+<row id="1091" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="91" />
+<row id="1092" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="92" />
+<row id="1093" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="93" />
+<row id="1094" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="94" />
+<row id="1095" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="95" />
+<row id="1096" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="96" />
+<row id="1097" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="97" />
+<row id="1098" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="98" />
+<row id="1099" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="99" />
+<row id="1100" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="100" />
+<row id="1101" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="101" />
+<row id="1102" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="102" />
+<row id="1103" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="103" />
+<row id="1104" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="104" />
+<row id="1105" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="105" />
+<row id="1106" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="106" />
+<row id="1107" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="107" />
+<row id="1108" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="108" />
+<row id="1109" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="109" />
+<row id="1110" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="110" />
+<row id="1111" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="111" />
+<row id="1112" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="112" />
+<row id="1113" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="113" />
+<row id="1114" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="114" />
+<row id="1115" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="115" />
+<row id="1116" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="116" />
+<row id="1117" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="117" />
+<row id="1118" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="118" />
+<row id="1119" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="119" />
+<row id="1120" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="120" />
+<row id="1121" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="121" />
+<row id="1122" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="122" />
+<row id="1123" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="123" />
+<row id="1124" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="124" />
+<row id="1125" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="125" />
+<row id="1126" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="126" />
+<row id="1127" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="127" />
+<row id="1128" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="128" />
+<row id="1129" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="129" />
+<row id="1130" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="130" />
+<row id="1131" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="131" />
+<row id="1132" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="132" />
+<row id="1133" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="133" />
+<row id="1134" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="134" />
+<row id="1135" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="135" />
+<row id="1136" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="136" />
+<row id="1137" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="137" />
+<row id="1138" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="138" />
+<row id="1139" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="139" />
+<row id="1140" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="140" />
+<row id="1141" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="141" />
+<row id="1142" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="142" />
+<row id="1143" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="143" />
+<row id="1144" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="144" />
+<row id="1145" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="145" />
+<row id="1146" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="146" />
+<row id="1147" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="147" />
+<row id="1148" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="148" />
+<row id="1149" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="149" />
+<row id="1150" moveDir="0" key1="22" bMoveDirHold="0" bKeyHold1="0" gestureId="150" />
+<row id="9999" moveDir="0" key1="0" bMoveDirHold="0" bKeyHold1="0" gestureId="0" />
+</rows>
+</param>

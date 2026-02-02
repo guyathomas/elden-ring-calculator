@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>PlayerCommonParam.param</filename>
+<compression>None</compression>
+<type>PLAYER_COMMON_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>PLAYER_COMMON_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="playerFootEffect_bySFX" type="s32" arraylength="1" bitsize="-1" sortid="100" defaultValue="1" />
+<field name="snipeModeDrawAlpha_FadeTime" type="f32" arraylength="1" bitsize="-1" sortid="200" defaultValue="0.2" />
+<field name="toughnessRecoverCorrection" type="f32" arraylength="1" bitsize="-1" sortid="300" defaultValue="1" />
+<field name="baseMagicSlotSize" type="u8" arraylength="1" bitsize="-1" sortid="400" defaultValue="2" />
+<field name="baseAccSlotNum" type="u8" arraylength="1" bitsize="-1" sortid="500" defaultValue="1" />
+<field name="reserved02" type="dummy8" arraylength="2" bitsize="-1" sortid="8031" defaultValue="[0|0]" />
+<field name="animeID_DropItemPick" type="s32" arraylength="1" bitsize="-1" sortid="700" defaultValue="60070" />
+<field name="resistRecoverPoint_Sleep_Player" type="f32" arraylength="1" bitsize="-1" sortid="4050" defaultValue="5" />
+<field name="flareOverrideHomingAngle" type="s32" arraylength="1" bitsize="-1" sortid="6000" defaultValue="520" />
+<field name="flareOverrideHomingStopRange" type="f32" arraylength="1" bitsize="-1" sortid="6100" defaultValue="0" />
+<field name="animeID_SleepCollectorItemPick" type="s32" arraylength="1" bitsize="-1" sortid="900" defaultValue="50250" />
+<field name="unlockEventFlagBaseId_forWepAttr" type="u32" arraylength="1" bitsize="-1" sortid="7000" defaultValue="65600" />
+<field name="systemEnchant_BigRune" type="s32" arraylength="1" bitsize="-1" sortid="1300" defaultValue="3290" />
+<field name="lowStatus_AtkPowDown" type="f32" arraylength="1" bitsize="-1" sortid="1400" defaultValue="0.4" />
+<field name="lowStatus_ConsumeStaminaRate" type="f32" arraylength="1" bitsize="-1" sortid="1500" defaultValue="1.5" />
+<field name="lowStatus_AtkGuardBreak" type="s16" arraylength="1" bitsize="-1" sortid="1600" defaultValue="5" />
+<field name="guardStatusCorrect_MaxStatusVal" type="s16" arraylength="1" bitsize="-1" sortid="1700" defaultValue="70" />
+<field name="unlockEventFlagStepNum_forWepAttr" type="u16" arraylength="1" bitsize="-1" sortid="7010" defaultValue="10" />
+<field name="retributionMagic_damageCountNum" type="u16" arraylength="1" bitsize="-1" sortid="8000" defaultValue="5" />
+<field name="retributionMagic_damageCountRemainTime" type="u16" arraylength="1" bitsize="-1" sortid="8010" defaultValue="7" />
+<field name="retributionMagic_burstDmypolyId" type="u16" arraylength="1" bitsize="-1" sortid="8030" defaultValue="8" />
+<field name="retributionMagic_burstMagicParamId" type="s32" arraylength="1" bitsize="-1" sortid="8020" defaultValue="6760" />
+<field name="chrAimCam_rideOffsetHeight" type="f32" arraylength="1" bitsize="-1" sortid="250" defaultValue="1" />
+<field name="reserved23" type="dummy8" arraylength="4" bitsize="-1" sortid="8032" defaultValue="[0|0|0|0]" />
+<field name="arrowCaseWepBindDmypolyId" type="s32" arraylength="1" bitsize="-1" sortid="3900" defaultValue="2042" />
+<field name="boltPouchWepBindDmypolyId" type="s32" arraylength="1" bitsize="-1" sortid="3950" defaultValue="2054" />
+<field name="estusFlaskAllocateRate" type="f32" arraylength="1" bitsize="-1" sortid="2500" defaultValue="0.5" />
+<field name="reserved38" type="dummy8" arraylength="2" bitsize="-1" sortid="8033" defaultValue="[0|0]" />
+<field name="kickAcceptanceDeg" type="u8" arraylength="1" bitsize="-1" sortid="2800" defaultValue="75" />
+<field name="npcPlayerAnalogWeightRate_Light" type="u8" arraylength="1" bitsize="-1" sortid="2900" defaultValue="0" />
+<field name="npcPlayerAnalogWeightRate_Normal" type="u8" arraylength="1" bitsize="-1" sortid="3000" defaultValue="26" />
+<field name="npcPlayerAnalogWeightRate_Heavy" type="u8" arraylength="1" bitsize="-1" sortid="3100" defaultValue="51" />
+<field name="npcPlayerAnalogWeightRate_WeightOver" type="u8" arraylength="1" bitsize="-1" sortid="3200" defaultValue="101" />
+<field name="npcPlayerAnalogWeightRate_SuperLight" type="u8" arraylength="1" bitsize="-1" sortid="3300" defaultValue="0" />
+<field name="reserved45" type="dummy8" arraylength="4" bitsize="-1" sortid="8034" defaultValue="[0|0|0|0]" />
+<field name="clearCountCorrectBaseSpEffectId" type="s32" arraylength="1" bitsize="-1" sortid="3500" defaultValue="141000" />
+<field name="arrowBoltModelIdOffset" type="s32" arraylength="1" bitsize="-1" sortid="3600" defaultValue="1" />
+<field name="arrowBoltRemainingNumModelMaskThreshold1" type="s8" arraylength="1" bitsize="-1" sortid="3700" defaultValue="50" />
+<field name="arrowBoltRemainingNumModelMaskThreshold2" type="s8" arraylength="1" bitsize="-1" sortid="3800" defaultValue="10" />
+<field name="reserved27" type="dummy8" arraylength="2" bitsize="-1" sortid="8035" defaultValue="[0|0]" />
+<field name="resistRecoverPoint_Poision_Player" type="f32" arraylength="1" bitsize="-1" sortid="4000" defaultValue="4" />
+<field name="resistRecoverPoint_Desease_Player" type="f32" arraylength="1" bitsize="-1" sortid="4010" defaultValue="4" />
+<field name="resistRecoverPoint_Blood_Player" type="f32" arraylength="1" bitsize="-1" sortid="4020" defaultValue="7" />
+<field name="resistRecoverPoint_Curse_Player" type="f32" arraylength="1" bitsize="-1" sortid="4030" defaultValue="3" />
+<field name="resistRecoverPoint_Freeze_Player" type="f32" arraylength="1" bitsize="-1" sortid="4040" defaultValue="5" />
+<field name="resistRecoverPoint_Poision_Enemy" type="f32" arraylength="1" bitsize="-1" sortid="4500" defaultValue="5" />
+<field name="resistRecoverPoint_Desease_Enemy" type="f32" arraylength="1" bitsize="-1" sortid="4510" defaultValue="5" />
+<field name="resistRecoverPoint_Blood_Enemy" type="f32" arraylength="1" bitsize="-1" sortid="4520" defaultValue="5" />
+<field name="resistRecoverPoint_Curse_Enemy" type="f32" arraylength="1" bitsize="-1" sortid="4530" defaultValue="5" />
+<field name="resistRecoverPoint_Freeze_Enemy" type="f32" arraylength="1" bitsize="-1" sortid="4540" defaultValue="5" />
+<field name="requestTimeLeftBothHand" type="f32" arraylength="1" bitsize="-1" sortid="5000" defaultValue="0.275" />
+<field name="resistRecoverPoint_Madness_Player" type="f32" arraylength="1" bitsize="-1" sortid="4050" defaultValue="4" />
+<field name="animeID_MaterialItemPick" type="s32" arraylength="1" bitsize="-1" sortid="800" defaultValue="999999" />
+<field name="hpEstusFlaskAllocateRateForYellowMonk" type="f32" arraylength="1" bitsize="-1" sortid="5300" defaultValue="0" />
+<field name="hpEstusFlaskAllocateOffsetForYellowMonk" type="s32" arraylength="1" bitsize="-1" sortid="5400" defaultValue="3" />
+<field name="mpEstusFlaskAllocateRateForYellowMonk" type="f32" arraylength="1" bitsize="-1" sortid="5500" defaultValue="0" />
+<field name="mpEstusFlaskAllocateOffsetForYellowMonk" type="s32" arraylength="1" bitsize="-1" sortid="5600" defaultValue="3" />
+<field name="resistRecoverPoint_Sleep_Enemy" type="f32" arraylength="1" bitsize="-1" sortid="4550" defaultValue="5" />
+<field name="resistRecoverPoint_Madness_Enemy" type="f32" arraylength="1" bitsize="-1" sortid="4560" defaultValue="5" />
+<field name="resistCurseItemId" type="s32" arraylength="1" bitsize="-1" sortid="7100" defaultValue="-1" />
+<field name="resistCurseItemMaxNum" type="u8" arraylength="1" bitsize="-1" sortid="7200" defaultValue="0" />
+<field name="reserved_123" type="dummy8" arraylength="3" bitsize="-1" sortid="8036" defaultValue="[0|0|0]" />
+<field name="resistCurseItemSpEffectBaseId" type="s32" arraylength="1" bitsize="-1" sortid="7300" defaultValue="-1" />
+<field name="resistCurseItemLotParamId_map" type="s32" arraylength="1" bitsize="-1" sortid="7400" defaultValue="-1" />
+<field name="unknown_0xcc" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="unknown_0xd0" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="3" />
+<field name="unknown_0xd4" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="unknown_0xd8" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="1" />
+<field name="unknown_0xdc" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="unknown_0xe0" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="1" />
+<field name="reserved41" type="dummy8" arraylength="28" bitsize="-1" sortid="8037" defaultValue="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+</fields>
+<rows>
+<row id="0" paramdexName="Configuration" playerFootEffect_bySFX="1" snipeModeDrawAlpha_FadeTime="0.2" toughnessRecoverCorrection="1" baseMagicSlotSize="2" baseAccSlotNum="1" reserved02="[0|0]" animeID_DropItemPick="60070" resistRecoverPoint_Sleep_Player="5" flareOverrideHomingAngle="520" flareOverrideHomingStopRange="0" animeID_SleepCollectorItemPick="50250" unlockEventFlagBaseId_forWepAttr="65600" systemEnchant_BigRune="3290" lowStatus_AtkPowDown="0.4" lowStatus_ConsumeStaminaRate="1.5" lowStatus_AtkGuardBreak="5" guardStatusCorrect_MaxStatusVal="70" unlockEventFlagStepNum_forWepAttr="10" retributionMagic_damageCountNum="5" retributionMagic_damageCountRemainTime="7" retributionMagic_burstDmypolyId="8" retributionMagic_burstMagicParamId="6760" chrAimCam_rideOffsetHeight="1" reserved23="[0|0|0|0]" arrowCaseWepBindDmypolyId="2042" boltPouchWepBindDmypolyId="2054" estusFlaskAllocateRate="0.5" reserved38="[0|0]" kickAcceptanceDeg="75" npcPlayerAnalogWeightRate_Light="0" npcPlayerAnalogWeightRate_Normal="26" npcPlayerAnalogWeightRate_Heavy="51" npcPlayerAnalogWeightRate_WeightOver="101" npcPlayerAnalogWeightRate_SuperLight="0" reserved45="[0|0|0|0]" clearCountCorrectBaseSpEffectId="141000" arrowBoltModelIdOffset="1" arrowBoltRemainingNumModelMaskThreshold1="50" arrowBoltRemainingNumModelMaskThreshold2="10" reserved27="[0|0]" resistRecoverPoint_Poision_Player="4" resistRecoverPoint_Desease_Player="4" resistRecoverPoint_Blood_Player="7" resistRecoverPoint_Curse_Player="3" resistRecoverPoint_Freeze_Player="5" resistRecoverPoint_Poision_Enemy="5" resistRecoverPoint_Desease_Enemy="5" resistRecoverPoint_Blood_Enemy="5" resistRecoverPoint_Curse_Enemy="5" resistRecoverPoint_Freeze_Enemy="5" requestTimeLeftBothHand="0.275" resistRecoverPoint_Madness_Player="4" animeID_MaterialItemPick="999999" hpEstusFlaskAllocateRateForYellowMonk="0" hpEstusFlaskAllocateOffsetForYellowMonk="3" mpEstusFlaskAllocateRateForYellowMonk="0" mpEstusFlaskAllocateOffsetForYellowMonk="3" resistRecoverPoint_Sleep_Enemy="5" resistRecoverPoint_Madness_Enemy="5" resistCurseItemId="-1" resistCurseItemMaxNum="0" reserved_123="[0|0|0]" resistCurseItemSpEffectBaseId="-1" resistCurseItemLotParamId_map="-1" unknown_0xcc="0" unknown_0xd0="3" unknown_0xd4="0" unknown_0xd8="1" unknown_0xdc="0" unknown_0xe0="1" reserved41="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+</rows>
+</param>

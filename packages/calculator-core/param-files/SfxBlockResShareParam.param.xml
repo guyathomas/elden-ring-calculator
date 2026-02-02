@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>SfxBlockResShareParam.param</filename>
+<compression>None</compression>
+<type>SFX_BLOCK_RES_SHARE_PARAM</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>SFX_BLOCK_RES_SHARE_PARAM</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="shareBlockRsMapUidVal" type="u32" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+</fields>
+<rows>
+<row id="0" shareBlockRsMapUidVal="0" />
+</rows>
+</param>

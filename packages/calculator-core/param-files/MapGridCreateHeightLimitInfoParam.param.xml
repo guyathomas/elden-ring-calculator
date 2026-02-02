@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>MapGridCreateHeightLimitInfoParam.param</filename>
+<compression>None</compression>
+<type>MAP_GRID_CREATE_HEIGHT_LIMIT_INFO_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>MAP_GRID_CREATE_HEIGHT_LIMIT_INFO_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="GridEnableCreateHeightMin" type="f32" arraylength="1" bitsize="-1" sortid="0" defaultValue="600" />
+<field name="GridEnableCreateHeightMax" type="f32" arraylength="1" bitsize="-1" sortid="1" defaultValue="10000" />
+<field name="Reserve" type="dummy8" arraylength="24" bitsize="-1" sortid="4" defaultValue="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+</fields>
+<rows>
+<row id="60081202" GridEnableCreateHeightMin="-600" GridEnableCreateHeightMax="600" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="60081302" GridEnableCreateHeightMin="600" GridEnableCreateHeightMax="10000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="60091302" GridEnableCreateHeightMin="600" GridEnableCreateHeightMax="10000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="60101202" GridEnableCreateHeightMin="600" GridEnableCreateHeightMax="10000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="60101302" GridEnableCreateHeightMin="600" GridEnableCreateHeightMax="10000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="99999901" GridEnableCreateHeightMin="-99999" GridEnableCreateHeightMax="99999" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="99999902" GridEnableCreateHeightMin="-99999" GridEnableCreateHeightMax="99999" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+</rows>
+</param>

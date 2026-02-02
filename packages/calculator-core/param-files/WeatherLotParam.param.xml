@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>WeatherLotParam.param</filename>
+<compression>None</compression>
+<type>WEATHER_LOT_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>5</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>1</unk06>
+<paramdef>
+<type>WEATHER_LOT_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>5</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="disableParam_NT" type="u8" arraylength="1" bitsize="1" sortid="0" defaultValue="1" />
+<field name="disableParamReserve1" type="dummy8" arraylength="1" bitsize="7" sortid="10000" defaultValue="[0]" defaultThreshold="True" />
+<field name="disableParamReserve2" type="dummy8" arraylength="3" bitsize="-1" sortid="10001" defaultValue="[0|0|0]" defaultThreshold="True" />
+<field name="weatherType0" type="s16" arraylength="1" bitsize="-1" sortid="50" defaultValue="1" defaultThreshold="True" />
+<field name="weatherType1" type="s16" arraylength="1" bitsize="-1" sortid="100" defaultValue="0" defaultThreshold="True" />
+<field name="weatherType2" type="s16" arraylength="1" bitsize="-1" sortid="200" defaultValue="10" defaultThreshold="True" />
+<field name="weatherType3" type="s16" arraylength="1" bitsize="-1" sortid="300" defaultValue="11" defaultThreshold="True" />
+<field name="weatherType4" type="s16" arraylength="1" bitsize="-1" sortid="400" defaultValue="20" defaultThreshold="True" />
+<field name="weatherType5" type="s16" arraylength="1" bitsize="-1" sortid="500" defaultValue="21" defaultThreshold="True" />
+<field name="weatherType6" type="s16" arraylength="1" bitsize="-1" sortid="600" defaultValue="30" defaultThreshold="True" />
+<field name="weatherType7" type="s16" arraylength="1" bitsize="-1" sortid="700" defaultValue="40" defaultThreshold="True" />
+<field name="weatherType8" type="s16" arraylength="1" bitsize="-1" sortid="800" defaultValue="41" defaultThreshold="True" />
+<field name="weatherType9" type="s16" arraylength="1" bitsize="-1" sortid="900" defaultValue="50" defaultThreshold="True" />
+<field name="weatherType10" type="s16" arraylength="1" bitsize="-1" sortid="1000" defaultValue="51" defaultThreshold="True" />
+<field name="weatherType11" type="s16" arraylength="1" bitsize="-1" sortid="1100" defaultValue="60" defaultThreshold="True" />
+<field name="weatherType12" type="s16" arraylength="1" bitsize="-1" sortid="1200" defaultValue="60" defaultThreshold="True" />
+<field name="weatherType13" type="s16" arraylength="1" bitsize="-1" sortid="1300" defaultValue="-1" defaultThreshold="True" />
+<field name="weatherType14" type="s16" arraylength="1" bitsize="-1" sortid="1400" defaultValue="-1" defaultThreshold="True" />
+<field name="weatherType15" type="s16" arraylength="1" bitsize="-1" sortid="1500" defaultValue="-1" defaultThreshold="True" />
+<field name="lotteryWeight0" type="u16" arraylength="1" bitsize="-1" sortid="51" defaultValue="0" defaultThreshold="True" />
+<field name="lotteryWeight1" type="u16" arraylength="1" bitsize="-1" sortid="101" defaultValue="1000" />
+<field name="lotteryWeight2" type="u16" arraylength="1" bitsize="-1" sortid="201" defaultValue="0" defaultThreshold="True" />
+<field name="lotteryWeight3" type="u16" arraylength="1" bitsize="-1" sortid="301" defaultValue="0" defaultThreshold="True" />
+<field name="lotteryWeight4" type="u16" arraylength="1" bitsize="-1" sortid="401" defaultValue="0" defaultThreshold="True" />
+<field name="lotteryWeight5" type="u16" arraylength="1" bitsize="-1" sortid="501" defaultValue="0" defaultThreshold="True" />
+<field name="lotteryWeight6" type="u16" arraylength="1" bitsize="-1" sortid="601" defaultValue="0" defaultThreshold="True" />
+<field name="lotteryWeight7" type="u16" arraylength="1" bitsize="-1" sortid="701" defaultValue="0" defaultThreshold="True" />
+<field name="lotteryWeight8" type="u16" arraylength="1" bitsize="-1" sortid="801" defaultValue="0" defaultThreshold="True" />
+<field name="lotteryWeight9" type="u16" arraylength="1" bitsize="-1" sortid="901" defaultValue="0" defaultThreshold="True" />
+<field name="lotteryWeight10" type="u16" arraylength="1" bitsize="-1" sortid="1001" defaultValue="0" defaultThreshold="True" />
+<field name="lotteryWeight11" type="u16" arraylength="1" bitsize="-1" sortid="1101" defaultValue="0" defaultThreshold="True" />
+<field name="lotteryWeight12" type="u16" arraylength="1" bitsize="-1" sortid="1201" defaultValue="0" defaultThreshold="True" />
+<field name="lotteryWeight13" type="u16" arraylength="1" bitsize="-1" sortid="1301" defaultValue="0" defaultThreshold="True" />
+<field name="lotteryWeight14" type="u16" arraylength="1" bitsize="-1" sortid="1401" defaultValue="0" defaultThreshold="True" />
+<field name="lotteryWeight15" type="u16" arraylength="1" bitsize="-1" sortid="1501" defaultValue="0" defaultThreshold="True" />
+<field name="timezoneLimit" type="u8" arraylength="1" bitsize="-1" sortid="1" defaultValue="0" defaultThreshold="True" />
+<field name="timezoneStartHour" type="u8" arraylength="1" bitsize="-1" sortid="2" defaultValue="0" defaultThreshold="True" />
+<field name="timezoneStartMinute" type="u8" arraylength="1" bitsize="-1" sortid="3" defaultValue="0" defaultThreshold="True" />
+<field name="timezoneEndHour" type="u8" arraylength="1" bitsize="-1" sortid="4" defaultValue="0" defaultThreshold="True" />
+<field name="timezoneEndMinute" type="u8" arraylength="1" bitsize="-1" sortid="5" defaultValue="0" defaultThreshold="True" />
+<field name="reserve" type="dummy8" arraylength="9" bitsize="-1" sortid="9999" defaultValue="[0|0|0|0|0|0|0|0|0]" defaultThreshold="True" />
+</fields>
+<rows>
+<row id="0" disableParam_NT="0" lotteryWeight1="1000" />
+<row id="1000" disableParam_NT="0" lotteryWeight0="1000" lotteryWeight1="0" />
+<row id="2000" disableParam_NT="0" lotteryWeight1="1000" />
+<row id="2010" disableParam_NT="0" lotteryWeight1="0" lotteryWeight2="1000" />
+<row id="2020" disableParam_NT="0" lotteryWeight1="0" lotteryWeight3="1000" />
+<row id="3000" disableParam_NT="0" lotteryWeight1="0" lotteryWeight4="1000" />
+<row id="3010" disableParam_NT="0" lotteryWeight1="0" lotteryWeight5="1000" />
+<row id="3020" disableParam_NT="0" lotteryWeight1="0" lotteryWeight6="1000" />
+<row id="3021" disableParam_NT="0" weatherType6="31" lotteryWeight1="0" lotteryWeight6="1000" />
+<row id="3022" disableParam_NT="0" weatherType6="82" lotteryWeight1="0" lotteryWeight6="1000" />
+<row id="4000" disableParam_NT="1" lotteryWeight1="0" lotteryWeight7="1000" />
+<row id="4001" disableParam_NT="1" weatherType7="83" lotteryWeight1="0" lotteryWeight7="1000" />
+<row id="4010" disableParam_NT="1" lotteryWeight1="0" lotteryWeight8="1000" />
+<row id="4020" disableParam_NT="1" weatherType8="81" lotteryWeight1="0" lotteryWeight8="1000" />
+<row id="5000" disableParam_NT="0" lotteryWeight1="0" lotteryWeight9="1000" />
+<row id="5010" disableParam_NT="0" lotteryWeight1="0" lotteryWeight10="1000" />
+<row id="5011" disableParam_NT="0" weatherType10="52" lotteryWeight1="0" lotteryWeight10="1000" />
+<row id="5020" disableParam_NT="1" weatherType9="84" lotteryWeight1="0" lotteryWeight9="1000" />
+<row id="6000" disableParam_NT="1" lotteryWeight1="0" lotteryWeight11="1000" />
+<row id="7000" disableParam_NT="1" weatherType12="83" lotteryWeight1="0" lotteryWeight12="1000" />
+<row id="7010" disableParam_NT="1" weatherType12="85" lotteryWeight1="0" lotteryWeight12="1000" />
+<row id="100000000" disableParam_NT="0" lotteryWeight1="1000" />
+<row id="100100000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="110000000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="110500000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="111000000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="120100000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="120200000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="120300000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="120400000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="120500000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="120600000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="120700000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="120800000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="120900000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="130000000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="140000000" disableParam_NT="1" lotteryWeight1="0" lotteryWeight4="1000" />
+<row id="140000001" disableParam_NT="1" lotteryWeight0="1000" lotteryWeight1="0" timezoneLimit="4" />
+<row id="150000000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="150000010" disableParam_NT="1" lotteryWeight1="0" lotteryWeight7="1000" />
+<row id="160000000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="180000000" disableParam_NT="0" lotteryWeight1="1000" />
+<row id="190000000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="200000000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="200100000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="210000000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="210100000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="210200000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="220000000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="250000000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="280000000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="300000000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="300100000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="300200000" disableParam_NT="0" lotteryWeight1="1000" />
+<row id="300300000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="300400000" disableParam_NT="0" lotteryWeight1="1000" />
+<row id="300500000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="300600000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="300700000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="300800000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="300900000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="301000000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="301100000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="301200000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="301300000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="301400000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="301500000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="301600000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="301700000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="301800000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="301900000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="302000000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="310000000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="310100000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="310200000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="310300000" disableParam_NT="0" lotteryWeight1="1000" />
+<row id="310400000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="310500000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="310600000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="310700000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="310900000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="311000000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="311100000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="311200000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="311500000" disableParam_NT="0" lotteryWeight1="1000" />
+<row id="311700000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="311800000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="311900000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="312000000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="312100000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="312200000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="320000000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="320100000" disableParam_NT="0" lotteryWeight1="1000" />
+<row id="320200000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="320300000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="320400000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="320500000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="320600000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="320700000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="320800000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="320900000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="321000000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="321100000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="321200000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="340000000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="341000000" disableParam_NT="1" lotteryWeight1="0" lotteryWeight5="1000" />
+<row id="341100000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="341200000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="341300000" disableParam_NT="1" lotteryWeight1="0" lotteryWeight5="1000" />
+<row id="341400000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="341500000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="341600000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="350000000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="392000000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="400000000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="400100000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="400200000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="410000000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="410100000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="410200000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="420000000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="420100000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="420200000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="420300000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="430000000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="430100000" disableParam_NT="0" weatherType0="-1" weatherType1="-1" weatherType2="-1" weatherType3="-1" weatherType4="-1" weatherType5="-1" weatherType6="-1" weatherType7="-1" weatherType8="-1" weatherType9="-1" weatherType10="-1" weatherType11="-1" weatherType12="-1" lotteryWeight1="0" />
+<row id="600000000" disableParam_NT="0" lotteryWeight1="1000" />
+<row id="610000000" disableParam_NT="0" lotteryWeight0="20" lotteryWeight1="380" lotteryWeight2="200" lotteryWeight3="200" lotteryWeight4="150" lotteryWeight5="40" lotteryWeight6="10" />
+<row id="610000001" disableParam_NT="0" lotteryWeight0="20" lotteryWeight1="280" lotteryWeight2="100" lotteryWeight3="100" lotteryWeight4="50" lotteryWeight5="40" lotteryWeight6="10" lotteryWeight9="400" timezoneLimit="6" timezoneStartHour="5" timezoneStartMinute="30" timezoneEndHour="6" timezoneEndMinute="29" />
+<row id="611000000" disableParam_NT="0" lotteryWeight1="600" lotteryWeight4="300" lotteryWeight5="100" />
+<row id="615000000" disableParam_NT="1" lotteryWeight1="0" lotteryWeight4="800" lotteryWeight5="200" />
+<row id="620000000" disableParam_NT="1" weatherType10="52" lotteryWeight0="20" lotteryWeight1="400" lotteryWeight2="20" lotteryWeight3="180" lotteryWeight4="180" lotteryWeight5="50" lotteryWeight9="100" lotteryWeight10="50" />
+<row id="620000001" disableParam_NT="1" lotteryWeight0="700" lotteryWeight1="100" lotteryWeight2="100" lotteryWeight3="100" timezoneLimit="4" />
+<row id="620000010" disableParam_NT="1" lotteryWeight1="0" lotteryWeight7="1000" />
+<row id="620000020" disableParam_NT="1" lotteryWeight0="20" lotteryWeight1="450" lotteryWeight2="20" lotteryWeight3="360" lotteryWeight9="100" lotteryWeight10="50" />
+<row id="620000021" disableParam_NT="1" lotteryWeight0="700" lotteryWeight1="100" lotteryWeight2="100" lotteryWeight3="100" timezoneLimit="4" />
+<row id="620000100" disableParam_NT="1" weatherType10="52" lotteryWeight0="20" lotteryWeight1="400" lotteryWeight2="20" lotteryWeight3="180" lotteryWeight4="180" lotteryWeight5="50" lotteryWeight9="100" lotteryWeight10="50" />
+<row id="620000101" disableParam_NT="1" lotteryWeight0="700" lotteryWeight1="100" lotteryWeight2="100" lotteryWeight3="100" timezoneLimit="4" />
+<row id="630000000" disableParam_NT="1" lotteryWeight0="20" lotteryWeight1="380" lotteryWeight2="200" lotteryWeight3="200" lotteryWeight4="150" lotteryWeight5="40" lotteryWeight6="10" />
+<row id="630000001" disableParam_NT="1" lotteryWeight0="20" lotteryWeight1="280" lotteryWeight2="100" lotteryWeight3="100" lotteryWeight4="50" lotteryWeight5="40" lotteryWeight6="10" lotteryWeight9="400" timezoneLimit="6" timezoneStartHour="5" timezoneStartMinute="30" timezoneEndHour="6" timezoneEndMinute="29" />
+<row id="635000000" disableParam_NT="1" lotteryWeight0="20" lotteryWeight1="390" lotteryWeight2="200" lotteryWeight3="200" lotteryWeight4="150" lotteryWeight5="40" />
+<row id="638000000" disableParam_NT="1" lotteryWeight1="1000" />
+<row id="640000000" disableParam_NT="1" lotteryWeight1="600" lotteryWeight2="140" lotteryWeight3="140" lotteryWeight4="100" lotteryWeight5="20" />
+<row id="641000000" disableParam_NT="1" lotteryWeight0="1" lotteryWeight1="800" lotteryWeight4="150" lotteryWeight5="49" />
+<row id="645000000" disableParam_NT="1" weatherType6="82" lotteryWeight1="430" lotteryWeight2="50" lotteryWeight3="50" lotteryWeight4="50" lotteryWeight5="20" lotteryWeight6="400" />
+<row id="650000000" disableParam_NT="1" lotteryWeight1="100" lotteryWeight7="700" lotteryWeight8="200" />
+<row id="651000000" disableParam_NT="1" lotteryWeight1="100" lotteryWeight7="700" lotteryWeight8="200" />
+<row id="652000000" disableParam_NT="1" lotteryWeight1="0" lotteryWeight3="1000" />
+<row id="655000000" disableParam_NT="1" lotteryWeight1="0" lotteryWeight7="400" lotteryWeight8="600" />
+<row id="655000010" disableParam_NT="1" lotteryWeight1="0" lotteryWeight8="1000" />
+<row id="655000020" disableParam_NT="1" weatherType8="81" lotteryWeight1="0" lotteryWeight8="1000" />
+<row id="680000000" disableParam_NT="0" lotteryWeight1="410" lotteryWeight2="150" lotteryWeight3="150" lotteryWeight4="150" lotteryWeight5="50" lotteryWeight6="20" lotteryWeight9="50" lotteryWeight10="20" />
+<row id="680000100" disableParam_NT="0" lotteryWeight1="410" lotteryWeight2="150" lotteryWeight3="150" lotteryWeight4="150" lotteryWeight5="50" lotteryWeight6="20" lotteryWeight9="50" lotteryWeight10="20" />
+<row id="682000000" disableParam_NT="0" lotteryWeight1="0" lotteryWeight11="1000" />
+<row id="683000000" disableParam_NT="0" weatherType12="84" lotteryWeight1="50" lotteryWeight4="200" lotteryWeight9="10" lotteryWeight10="10" lotteryWeight12="720" />
+<row id="684000000" disableParam_NT="0" weatherType12="84" lotteryWeight1="0" lotteryWeight2="1000" />
+<row id="684100000" disableParam_NT="0" weatherType12="84" lotteryWeight1="50" lotteryWeight11="950" />
+<row id="684200000" disableParam_NT="0" weatherType12="84" lotteryWeight1="0" lotteryWeight6="1000" />
+<row id="685000000" disableParam_NT="0" lotteryWeight1="0" lotteryWeight6="1000" />
+<row id="685100000" disableParam_NT="0" weatherType6="82" lotteryWeight1="0" lotteryWeight6="1000" />
+<row id="686000000" disableParam_NT="0" lotteryWeight1="650" lotteryWeight9="300" lotteryWeight10="50" />
+<row id="690000000" disableParam_NT="0" lotteryWeight1="410" lotteryWeight2="150" lotteryWeight3="150" lotteryWeight4="150" lotteryWeight5="50" lotteryWeight6="20" lotteryWeight9="50" lotteryWeight10="20" />
+<row id="692000000" disableParam_NT="0" weatherType12="85" lotteryWeight1="0" lotteryWeight12="1000" />
+<row id="694000000" disableParam_NT="0" lotteryWeight0="40" lotteryWeight1="920" lotteryWeight9="40" />
+</rows>
+</param>

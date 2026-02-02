@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>SignPuddleSubCategoryParam.param</filename>
+<compression>None</compression>
+<type>SIGN_PUDDLE_SUB_CATEGORY_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>SIGN_PUDDLE_SUB_CATEGORY_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>2</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="startPad" type="dummy8" arraylength="4" bitsize="-1" sortid="0" defaultValue="[0|0|0|0]" />
+<field name="signPuddleCategoryText" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="241335" />
+<field name="signPuddleTabId" type="u16" arraylength="1" bitsize="-1" sortid="0" defaultValue="6800" />
+<field name="unknown_0xa" type="u16" arraylength="1" bitsize="-1" sortid="0" defaultValue="10" />
+<field name="endPad" type="dummy8" arraylength="4" bitsize="-1" sortid="0" defaultValue="[0|0|0|0]" />
+</fields>
+<rows>
+<row id="0" startPad="[0|0|0|0]" signPuddleCategoryText="0" signPuddleTabId="0" unknown_0xa="0" endPad="[0|0|0|0]" />
+<row id="6800" paramdexName="Gravesite Plain" startPad="[0|0|0|0]" signPuddleCategoryText="241353" signPuddleTabId="6800" unknown_0xa="10" endPad="[0|0|0|0]" />
+<row id="6820" paramdexName="Castle Ensis" startPad="[0|0|0|0]" signPuddleCategoryText="241352" signPuddleTabId="6800" unknown_0xa="20" endPad="[0|0|0|0]" />
+<row id="6830" paramdexName="Cerulean Coast" startPad="[0|0|0|0]" signPuddleCategoryText="241338" signPuddleTabId="6800" unknown_0xa="30" endPad="[0|0|0|0]" />
+<row id="6840" paramdexName="Charo's Hidden Grave" startPad="[0|0|0|0]" signPuddleCategoryText="241341" signPuddleTabId="6800" unknown_0xa="40" endPad="[0|0|0|0]" />
+<row id="6850" paramdexName="Jagged Peak" startPad="[0|0|0|0]" signPuddleCategoryText="241340" signPuddleTabId="6800" unknown_0xa="70" endPad="[0|0|0|0]" />
+<row id="6851" paramdexName="Foot of the Jagged Peak" startPad="[0|0|0|0]" signPuddleCategoryText="241339" signPuddleTabId="6800" unknown_0xa="60" endPad="[0|0|0|0]" />
+<row id="6860" paramdexName="Abyssal Woods" startPad="[0|0|0|0]" signPuddleCategoryText="241344" signPuddleTabId="6900" unknown_0xa="40" endPad="[0|0|0|0]" />
+<row id="6900" paramdexName="Scadu Altus" startPad="[0|0|0|0]" signPuddleCategoryText="241337" signPuddleTabId="6900" unknown_0xa="10" endPad="[0|0|0|0]" />
+<row id="6920" paramdexName="Scaduview" startPad="[0|0|0|0]" signPuddleCategoryText="241343" signPuddleTabId="21000" unknown_0xa="40" endPad="[0|0|0|0]" />
+<row id="6940" paramdexName="Ancient Ruins of Rauh" startPad="[0|0|0|0]" signPuddleCategoryText="241342" signPuddleTabId="20000" unknown_0xa="30" endPad="[0|0|0|0]" />
+<row id="6950" paramdexName="Rauh Base" startPad="[0|0|0|0]" signPuddleCategoryText="241354" signPuddleTabId="20000" unknown_0xa="40" endPad="[0|0|0|0]" />
+<row id="10000" paramdexName="Stormveil Castle" startPad="[0|0|0|0]" signPuddleCategoryText="241300" signPuddleTabId="10000" unknown_0xa="10" endPad="[0|0|0|0]" />
+<row id="10010" paramdexName="Chapel of Anticipation" startPad="[0|0|0|0]" signPuddleCategoryText="241301" signPuddleTabId="10000" unknown_0xa="20" endPad="[0|0|0|0]" />
+<row id="11000" paramdexName="Leyndell, Royal Capital" startPad="[0|0|0|0]" signPuddleCategoryText="241302" signPuddleTabId="11000" unknown_0xa="10" endPad="[0|0|0|0]" />
+<row id="11050" paramdexName="Leyndell, Ashen Capital" startPad="[0|0|0|0]" signPuddleCategoryText="241303" signPuddleTabId="11000" unknown_0xa="30" endPad="[0|0|0|0]" />
+<row id="11100" paramdexName="Roundtable Hold" startPad="[0|0|0|0]" signPuddleCategoryText="241304" signPuddleTabId="11100" unknown_0xa="10" endPad="[0|0|0|0]" />
+<row id="12010" paramdexName="Ainsel River Main" startPad="[0|0|0|0]" signPuddleCategoryText="241305" signPuddleTabId="12000" unknown_0xa="20" endPad="[0|0|0|0]" />
+<row id="12011" paramdexName="Lake of Rot" startPad="[0|0|0|0]" signPuddleCategoryText="241306" signPuddleTabId="12000" unknown_0xa="30" endPad="[0|0|0|0]" />
+<row id="12012" paramdexName="Ainsel River" startPad="[0|0|0|0]" signPuddleCategoryText="241307" signPuddleTabId="12000" unknown_0xa="10" endPad="[0|0|0|0]" />
+<row id="12020" paramdexName="Nokron, Eternal City" startPad="[0|0|0|0]" signPuddleCategoryText="241308" signPuddleTabId="12001" unknown_0xa="10" endPad="[0|0|0|0]" />
+<row id="12030" paramdexName="Deeproot Depths" startPad="[0|0|0|0]" signPuddleCategoryText="241310" signPuddleTabId="12002" unknown_0xa="10" endPad="[0|0|0|0]" />
+<row id="12050" paramdexName="Mohgwyn Palace" startPad="[0|0|0|0]" signPuddleCategoryText="241311" signPuddleTabId="12001" unknown_0xa="30" endPad="[0|0|0|0]" />
+<row id="12070" paramdexName="Siofra River" startPad="[0|0|0|0]" signPuddleCategoryText="241309" signPuddleTabId="12001" unknown_0xa="20" endPad="[0|0|0|0]" />
+<row id="13000" paramdexName="Crumbling Farum Azula" startPad="[0|0|0|0]" signPuddleCategoryText="241312" signPuddleTabId="13000" unknown_0xa="10" endPad="[0|0|0|0]" />
+<row id="14000" paramdexName="Academy of Raya Lucaria" startPad="[0|0|0|0]" signPuddleCategoryText="241313" signPuddleTabId="14000" unknown_0xa="10" endPad="[0|0|0|0]" />
+<row id="15000" paramdexName="Elphael, Brace of the Haligtree" startPad="[0|0|0|0]" signPuddleCategoryText="241315" signPuddleTabId="15000" unknown_0xa="20" endPad="[0|0|0|0]" />
+<row id="15001" paramdexName="Miquella's Haligtree" startPad="[0|0|0|0]" signPuddleCategoryText="241314" signPuddleTabId="15000" unknown_0xa="10" endPad="[0|0|0|0]" />
+<row id="16000" paramdexName="Volcano Manor" startPad="[0|0|0|0]" signPuddleCategoryText="241316" signPuddleTabId="16000" unknown_0xa="10" endPad="[0|0|0|0]" />
+<row id="18000" paramdexName="Stranded Graveyard" startPad="[0|0|0|0]" signPuddleCategoryText="241317" signPuddleTabId="61000" unknown_0xa="11" endPad="[0|0|0|0]" />
+<row id="19000" paramdexName="Stone Platform" startPad="[0|0|0|0]" signPuddleCategoryText="241318" signPuddleTabId="11000" unknown_0xa="40" endPad="[0|0|0|0]" />
+<row id="20000" paramdexName="Belurat, Tower Settlement" startPad="[0|0|0|0]" signPuddleCategoryText="241345" signPuddleTabId="20000" unknown_0xa="10" endPad="[0|0|0|0]" />
+<row id="20010" paramdexName="Enir-Ilim" startPad="[0|0|0|0]" signPuddleCategoryText="241346" signPuddleTabId="20000" unknown_0xa="20" endPad="[0|0|0|0]" />
+<row id="21000" paramdexName="Shadow Keep" startPad="[0|0|0|0]" signPuddleCategoryText="241347" signPuddleTabId="21000" unknown_0xa="10" endPad="[0|0|0|0]" />
+<row id="21001" paramdexName="Shadow Keep, Church District" startPad="[0|0|0|0]" signPuddleCategoryText="241348" signPuddleTabId="21000" unknown_0xa="20" endPad="[0|0|0|0]" />
+<row id="21010" paramdexName="Specimen Storehouse" startPad="[0|0|0|0]" signPuddleCategoryText="241349" signPuddleTabId="21000" unknown_0xa="30" endPad="[0|0|0|0]" />
+<row id="22000" paramdexName="Stone Coffin Fissure" startPad="[0|0|0|0]" signPuddleCategoryText="241350" signPuddleTabId="6800" unknown_0xa="50" endPad="[0|0|0|0]" />
+<row id="28000" paramdexName="Midra's Manse" startPad="[0|0|0|0]" signPuddleCategoryText="241351" signPuddleTabId="6900" unknown_0xa="50" endPad="[0|0|0|0]" />
+<row id="35000" paramdexName="Subterranean Shunning-Grounds" startPad="[0|0|0|0]" signPuddleCategoryText="241319" signPuddleTabId="11000" unknown_0xa="20" endPad="[0|0|0|0]" />
+<row id="39200" paramdexName="Ruin-Strewn Precipice" startPad="[0|0|0|0]" signPuddleCategoryText="241320" signPuddleTabId="62000" unknown_0xa="30" endPad="[0|0|0|0]" />
+<row id="61000" paramdexName="Limgrave" startPad="[0|0|0|0]" signPuddleCategoryText="241321" signPuddleTabId="61000" unknown_0xa="10" endPad="[0|0|0|0]" />
+<row id="61001" paramdexName="Stormhill" startPad="[0|0|0|0]" signPuddleCategoryText="241322" signPuddleTabId="61000" unknown_0xa="20" endPad="[0|0|0|0]" />
+<row id="61002" paramdexName="Weeping Peninsula" startPad="[0|0|0|0]" signPuddleCategoryText="241323" signPuddleTabId="61000" unknown_0xa="30" endPad="[0|0|0|0]" />
+<row id="62000" paramdexName="Liurnia of the Lakes" startPad="[0|0|0|0]" signPuddleCategoryText="241324" signPuddleTabId="62000" unknown_0xa="10" endPad="[0|0|0|0]" />
+<row id="62001" paramdexName="Bellum Highway" startPad="[0|0|0|0]" signPuddleCategoryText="241325" signPuddleTabId="62000" unknown_0xa="20" endPad="[0|0|0|0]" />
+<row id="62002" paramdexName="Moonlight Altar" startPad="[0|0|0|0]" signPuddleCategoryText="241326" signPuddleTabId="62000" unknown_0xa="40" endPad="[0|0|0|0]" />
+<row id="63000" paramdexName="Altus Plateau" startPad="[0|0|0|0]" signPuddleCategoryText="241327" signPuddleTabId="63000" unknown_0xa="10" endPad="[0|0|0|0]" />
+<row id="63001" paramdexName="Mt. Gelmir" startPad="[0|0|0|0]" signPuddleCategoryText="241328" signPuddleTabId="63000" unknown_0xa="20" endPad="[0|0|0|0]" />
+<row id="63002" paramdexName="Capital Outskirts" startPad="[0|0|0|0]" signPuddleCategoryText="241329" signPuddleTabId="63000" unknown_0xa="30" endPad="[0|0|0|0]" />
+<row id="63003" paramdexName="Forbidden Lands" startPad="[0|0|0|0]" signPuddleCategoryText="241330" signPuddleTabId="65000" unknown_0xa="10" endPad="[0|0|0|0]" />
+<row id="64000" paramdexName="Caelid" startPad="[0|0|0|0]" signPuddleCategoryText="241331" signPuddleTabId="64000" unknown_0xa="10" endPad="[0|0|0|0]" />
+<row id="64001" paramdexName="Greyoll's Dragonbarrow" startPad="[0|0|0|0]" signPuddleCategoryText="241332" signPuddleTabId="64000" unknown_0xa="30" endPad="[0|0|0|0]" />
+<row id="64002" paramdexName="Swamp of Aeonia" startPad="[0|0|0|0]" signPuddleCategoryText="241336" signPuddleTabId="64000" unknown_0xa="20" endPad="[0|0|0|0]" />
+<row id="65000" paramdexName="Mountaintops of the Giants" startPad="[0|0|0|0]" signPuddleCategoryText="241333" signPuddleTabId="65000" unknown_0xa="20" endPad="[0|0|0|0]" />
+<row id="65001" paramdexName="Flame Peak" startPad="[0|0|0|0]" signPuddleCategoryText="241334" signPuddleTabId="65000" unknown_0xa="30" endPad="[0|0|0|0]" />
+<row id="65002" paramdexName="Consecrated Snowfield" startPad="[0|0|0|0]" signPuddleCategoryText="241335" signPuddleTabId="65000" unknown_0xa="40" endPad="[0|0|0|0]" />
+</rows>
+</param>

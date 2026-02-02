@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>WwiseValueToStrParam_Switch_PlayerEquipmentTops.param</filename>
+<compression>None</compression>
+<type>WWISE_VALUE_TO_STR_CONVERT_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>2</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>WWISE_VALUE_TO_STR_CONVERT_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>2</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="disableParam_NT" type="u8" arraylength="1" bitsize="1" sortid="0" defaultValue="0" />
+<field name="disableParamReserve1" type="dummy8" arraylength="1" bitsize="7" sortid="5" defaultValue="[0]" />
+<field name="disableParamReserve2" type="dummy8" arraylength="3" bitsize="-1" sortid="6" defaultValue="[0|0|0]" />
+<field name="ParamStr" type="fixstr" arraylength="32" bitsize="-1" sortid="1" defaultValue="Armour" />
+</fields>
+<rows>
+<row id="0" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="100" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="101" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="102" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="103" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="104" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="105" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="106" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="107" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="108" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="LeatherArmour" />
+<row id="109" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Nude" />
+<row id="110" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Nude" />
+<row id="111" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Nude" />
+<row id="112" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="113" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Cloth" />
+<row id="114" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="115" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Cloth" />
+<row id="116" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="117" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Cloth" />
+<row id="118" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="119" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="120" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="121" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="122" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="123" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="124" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="125" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="126" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="127" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="128" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="129" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="130" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="131" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="132" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="133" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="134" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="135" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="136" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="137" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="138" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="139" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="140" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="141" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="142" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="143" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="144" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="ChainMail" />
+<row id="145" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="146" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Nude" />
+<row id="147" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Nude" />
+<row id="148" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="149" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="150" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="151" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="152" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="153" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="154" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="155" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="156" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="157" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="158" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="159" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="160" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="161" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="162" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="163" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="164" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+<row id="165" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="Armour" />
+</rows>
+</param>

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>GparamRefSettings.param</filename>
+<compression>None</compression>
+<type>GPARAM_REF_SETTINGS_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>2</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>GPARAM_REF_SETTINGS_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>2</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="disableParam_NT" type="u8" arraylength="1" bitsize="1" sortid="0" defaultValue="0" />
+<field name="disableParamReserve1" type="dummy8" arraylength="1" bitsize="7" sortid="11" defaultValue="[0]" />
+<field name="disableParamReserve2" type="dummy8" arraylength="3" bitsize="-1" sortid="12" defaultValue="[0|0|0]" />
+<field name="RefTargetMapId" type="s32" arraylength="1" bitsize="-1" sortid="10" defaultValue="30000000" />
+<field name="Reserve" type="dummy8" arraylength="24" bitsize="-1" sortid="13" defaultValue="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+</fields>
+<rows>
+<row id="21010000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="21000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="21020000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="21000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="30000000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="30010000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="30020000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="30030000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="30040000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="30050000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="30060000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="30070000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="30080000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="30090000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="30100000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="30110000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="30120000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="30130000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="30140000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="30150000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="30160000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="30170000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="30180000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="30190000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="30200000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="31000000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="31010000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="31020000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="31030000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="31040000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="31050000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="31060000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="31070000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="31080000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="31090000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="31100000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="31110000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="31120000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="31130000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="31140000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="31150000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="31160000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="31170000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="31180000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="31190000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="31200000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="31210000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="31220000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="32000000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="32010000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="32020000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="32030000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="32040000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="32050000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="32070000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="32080000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="32090000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="32100000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="32110000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="32120000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="30000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="40010000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="40000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="40020000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="40000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="41010000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="41000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="41020000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="41000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="41030000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="41000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="42010000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="42000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="42020000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="42000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="42030000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="42000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="42040000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="42000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="43010000" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="43000000" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="99990001" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="-1" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="99990002" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" RefTargetMapId="-1" Reserve="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+</rows>
+</param>

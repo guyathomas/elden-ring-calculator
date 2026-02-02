@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>KnockBackParam.param</filename>
+<compression>None</compression>
+<type>KNOCKBACK_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>KNOCKBACK_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="damage_Min_ContTime" type="f32" arraylength="1" bitsize="-1" sortid="100" defaultValue="0.02" />
+<field name="damage_S_ContTime" type="f32" arraylength="1" bitsize="-1" sortid="300" defaultValue="0.01" />
+<field name="damage_M_ContTime" type="f32" arraylength="1" bitsize="-1" sortid="500" defaultValue="0.03" />
+<field name="damage_L_ContTime" type="f32" arraylength="1" bitsize="-1" sortid="700" defaultValue="0.05" />
+<field name="damage_BlowS_ContTime" type="f32" arraylength="1" bitsize="-1" sortid="900" defaultValue="0" />
+<field name="damage_BlowM_ContTime" type="f32" arraylength="1" bitsize="-1" sortid="1100" defaultValue="0" />
+<field name="damage_Strike_ContTime" type="f32" arraylength="1" bitsize="-1" sortid="1300" defaultValue="0.1" />
+<field name="damage_Uppercut_ContTime" type="f32" arraylength="1" bitsize="-1" sortid="1500" defaultValue="0.45" />
+<field name="damage_Push_ContTime" type="f32" arraylength="1" bitsize="-1" sortid="1700" defaultValue="0.1" />
+<field name="damage_Breath_ContTime" type="f32" arraylength="1" bitsize="-1" sortid="1810" defaultValue="0" />
+<field name="damage_HeadShot_ContTime" type="f32" arraylength="1" bitsize="-1" sortid="1900" defaultValue="0" />
+<field name="guard_S_ContTime" type="f32" arraylength="1" bitsize="-1" sortid="2100" defaultValue="0.05" />
+<field name="guard_L_ContTime" type="f32" arraylength="1" bitsize="-1" sortid="2300" defaultValue="0.02" />
+<field name="guard_LL_ContTime" type="f32" arraylength="1" bitsize="-1" sortid="2410" defaultValue="0" />
+<field name="guardBrake_ContTime" type="f32" arraylength="1" bitsize="-1" sortid="2500" defaultValue="0.07" />
+<field name="damage_Min_DecTime" type="f32" arraylength="1" bitsize="-1" sortid="200" defaultValue="0.06" />
+<field name="damage_S_DecTime" type="f32" arraylength="1" bitsize="-1" sortid="400" defaultValue="0.15" />
+<field name="damage_M_DecTime" type="f32" arraylength="1" bitsize="-1" sortid="600" defaultValue="0.69" />
+<field name="damage_L_DecTime" type="f32" arraylength="1" bitsize="-1" sortid="800" defaultValue="1" />
+<field name="damage_BlowS_DecTime" type="f32" arraylength="1" bitsize="-1" sortid="1000" defaultValue="0" />
+<field name="damage_BlowM_DecTime" type="f32" arraylength="1" bitsize="-1" sortid="1200" defaultValue="0" />
+<field name="damage_Strike_DecTime" type="f32" arraylength="1" bitsize="-1" sortid="1400" defaultValue="0" />
+<field name="damage_Uppercut_DecTime" type="f32" arraylength="1" bitsize="-1" sortid="1600" defaultValue="1.75" />
+<field name="damage_Push_DecTime" type="f32" arraylength="1" bitsize="-1" sortid="1800" defaultValue="0.9" />
+<field name="damage_Breath_DecTime" type="f32" arraylength="1" bitsize="-1" sortid="1820" defaultValue="0" />
+<field name="damage_HeadShot_DecTime" type="f32" arraylength="1" bitsize="-1" sortid="2000" defaultValue="0" />
+<field name="guard_S_DecTime" type="f32" arraylength="1" bitsize="-1" sortid="2200" defaultValue="0.2" />
+<field name="guard_L_DecTime" type="f32" arraylength="1" bitsize="-1" sortid="2400" defaultValue="0.7" />
+<field name="guard_LL_DecTime" type="f32" arraylength="1" bitsize="-1" sortid="2420" defaultValue="0" />
+<field name="guardBrake_DecTime" type="f32" arraylength="1" bitsize="-1" sortid="2600" defaultValue="0.2" />
+<field name="pad" type="dummy8" arraylength="8" bitsize="-1" sortid="2601" defaultValue="[0|0|0|0|0|0|0|0]" />
+</fields>
+<rows>
+<row id="0" damage_Min_ContTime="0.06" damage_S_ContTime="0.06" damage_M_ContTime="0.06" damage_L_ContTime="0.06" damage_BlowS_ContTime="0" damage_BlowM_ContTime="0" damage_Strike_ContTime="0.1" damage_Uppercut_ContTime="0.45" damage_Push_ContTime="0.1" damage_Breath_ContTime="0" damage_HeadShot_ContTime="0" guard_S_ContTime="0.05" guard_L_ContTime="0.02" guard_LL_ContTime="0" guardBrake_ContTime="0.07" damage_Min_DecTime="0.12" damage_S_DecTime="0.18" damage_M_DecTime="0.42" damage_L_DecTime="0.99" damage_BlowS_DecTime="0" damage_BlowM_DecTime="0" damage_Strike_DecTime="0" damage_Uppercut_DecTime="1.75" damage_Push_DecTime="0.9" damage_Breath_DecTime="0" damage_HeadShot_DecTime="0" guard_S_DecTime="0.2" guard_L_DecTime="0.7" guard_LL_DecTime="0" guardBrake_DecTime="0.2" pad="[0|0|0|0|0|0|0|0]" />
+<row id="1" damage_Min_ContTime="0.09" damage_S_ContTime="0.09" damage_M_ContTime="0.09" damage_L_ContTime="0.09" damage_BlowS_ContTime="0.09" damage_BlowM_ContTime="0.09" damage_Strike_ContTime="0.06" damage_Uppercut_ContTime="0.3" damage_Push_ContTime="0.09" damage_Breath_ContTime="0" damage_HeadShot_ContTime="0" guard_S_ContTime="0.06" guard_L_ContTime="0.06" guard_LL_ContTime="0.09" guardBrake_ContTime="0.06" damage_Min_DecTime="0.18" damage_S_DecTime="0.24" damage_M_DecTime="0.99" damage_L_DecTime="1.2" damage_BlowS_DecTime="1.2" damage_BlowM_DecTime="1.2" damage_Strike_DecTime="0.6" damage_Uppercut_DecTime="1.5" damage_Push_DecTime="0.81" damage_Breath_DecTime="0" damage_HeadShot_DecTime="0" guard_S_DecTime="0.3" guard_L_DecTime="0.93" guard_LL_DecTime="1.2" guardBrake_DecTime="0.54" pad="[0|0|0|0|0|0|0|0]" />
+<row id="10" damage_Min_ContTime="0.02" damage_S_ContTime="0.02" damage_M_ContTime="0.05" damage_L_ContTime="0.02" damage_BlowS_ContTime="0" damage_BlowM_ContTime="0" damage_Strike_ContTime="0.2" damage_Uppercut_ContTime="0.2" damage_Push_ContTime="0.2" damage_Breath_ContTime="0" damage_HeadShot_ContTime="0" guard_S_ContTime="0.02" guard_L_ContTime="0.02" guard_LL_ContTime="0" guardBrake_ContTime="0" damage_Min_DecTime="0.02" damage_S_DecTime="0.02" damage_M_DecTime="0.8" damage_L_DecTime="0.8" damage_BlowS_DecTime="0" damage_BlowM_DecTime="0" damage_Strike_DecTime="0" damage_Uppercut_DecTime="0" damage_Push_DecTime="1" damage_Breath_DecTime="0" damage_HeadShot_DecTime="0" guard_S_DecTime="0.2" guard_L_DecTime="0.7" guard_LL_DecTime="0" guardBrake_DecTime="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="20" damage_Min_ContTime="0.02" damage_S_ContTime="0.15" damage_M_ContTime="0.17" damage_L_ContTime="0.25" damage_BlowS_ContTime="0" damage_BlowM_ContTime="0" damage_Strike_ContTime="0.1" damage_Uppercut_ContTime="0.45" damage_Push_ContTime="0.1" damage_Breath_ContTime="0" damage_HeadShot_ContTime="0" guard_S_ContTime="0.05" guard_L_ContTime="0.02" guard_LL_ContTime="0" guardBrake_ContTime="0.07" damage_Min_DecTime="0.06" damage_S_DecTime="0.2" damage_M_DecTime="0.5" damage_L_DecTime="0.8" damage_BlowS_DecTime="0" damage_BlowM_DecTime="0" damage_Strike_DecTime="0" damage_Uppercut_DecTime="1.75" damage_Push_DecTime="0.9" damage_Breath_DecTime="0" damage_HeadShot_DecTime="0" guard_S_DecTime="0.2" guard_L_DecTime="0.7" guard_LL_DecTime="0" guardBrake_DecTime="0.2" pad="[0|0|0|0|0|0|0|0]" />
+<row id="21" damage_Min_ContTime="0.02" damage_S_ContTime="0.01" damage_M_ContTime="0.03" damage_L_ContTime="0.05" damage_BlowS_ContTime="0" damage_BlowM_ContTime="0" damage_Strike_ContTime="0.1" damage_Uppercut_ContTime="0.45" damage_Push_ContTime="0.1" damage_Breath_ContTime="0" damage_HeadShot_ContTime="0" guard_S_ContTime="0.05" guard_L_ContTime="0.02" guard_LL_ContTime="0" guardBrake_ContTime="0.07" damage_Min_DecTime="0.06" damage_S_DecTime="0.15" damage_M_DecTime="0.69" damage_L_DecTime="1" damage_BlowS_DecTime="0" damage_BlowM_DecTime="0" damage_Strike_DecTime="0" damage_Uppercut_DecTime="1.75" damage_Push_DecTime="0.9" damage_Breath_DecTime="0" damage_HeadShot_DecTime="0" guard_S_DecTime="0.2" guard_L_DecTime="0.7" guard_LL_DecTime="0" guardBrake_DecTime="0.2" pad="[0|0|0|0|0|0|0|0]" />
+<row id="22" damage_Min_ContTime="0.02" damage_S_ContTime="0.01" damage_M_ContTime="0.03" damage_L_ContTime="0.05" damage_BlowS_ContTime="0" damage_BlowM_ContTime="0" damage_Strike_ContTime="0.1" damage_Uppercut_ContTime="0.45" damage_Push_ContTime="0.1" damage_Breath_ContTime="0" damage_HeadShot_ContTime="0" guard_S_ContTime="0.05" guard_L_ContTime="0.02" guard_LL_ContTime="0" guardBrake_ContTime="0.07" damage_Min_DecTime="0.06" damage_S_DecTime="0.15" damage_M_DecTime="0.6" damage_L_DecTime="0.85" damage_BlowS_DecTime="0" damage_BlowM_DecTime="0" damage_Strike_DecTime="0" damage_Uppercut_DecTime="1.75" damage_Push_DecTime="0.9" damage_Breath_DecTime="0" damage_HeadShot_DecTime="0" guard_S_DecTime="0.2" guard_L_DecTime="0.7" guard_LL_DecTime="0" guardBrake_DecTime="0.2" pad="[0|0|0|0|0|0|0|0]" />
+<row id="30" damage_Min_ContTime="0.02" damage_S_ContTime="0.01" damage_M_ContTime="0.03" damage_L_ContTime="0.05" damage_BlowS_ContTime="0" damage_BlowM_ContTime="0" damage_Strike_ContTime="0.1" damage_Uppercut_ContTime="0.45" damage_Push_ContTime="0.1" damage_Breath_ContTime="0" damage_HeadShot_ContTime="0" guard_S_ContTime="0.05" guard_L_ContTime="0.02" guard_LL_ContTime="0" guardBrake_ContTime="0.07" damage_Min_DecTime="0.06" damage_S_DecTime="0.15" damage_M_DecTime="0.69" damage_L_DecTime="1" damage_BlowS_DecTime="0" damage_BlowM_DecTime="0" damage_Strike_DecTime="0" damage_Uppercut_DecTime="1.75" damage_Push_DecTime="0.9" damage_Breath_DecTime="0" damage_HeadShot_DecTime="0" guard_S_DecTime="0.2" guard_L_DecTime="0.7" guard_LL_DecTime="0" guardBrake_DecTime="0.2" pad="[0|0|0|0|0|0|0|0]" />
+</rows>
+</param>

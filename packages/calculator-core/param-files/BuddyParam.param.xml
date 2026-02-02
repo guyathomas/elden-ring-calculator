@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>BuddyParam.param</filename>
+<compression>None</compression>
+<type>BUDDY_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>2</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>BUDDY_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>2</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="disableParam_NT" type="u8" arraylength="1" bitsize="1" sortid="0" defaultValue="0" defaultThreshold="True" />
+<field name="disableParamReserve1" type="dummy8" arraylength="1" bitsize="7" sortid="1111" defaultValue="[0]" defaultThreshold="True" />
+<field name="disableParamReserve2" type="dummy8" arraylength="3" bitsize="-1" sortid="1112" defaultValue="[0|0|0]" defaultThreshold="True" />
+<field name="triggerSpEffectId" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="-1" />
+<field name="npcParamId" type="s32" arraylength="1" bitsize="-1" sortid="100" defaultValue="-1" />
+<field name="npcThinkParamId" type="s32" arraylength="1" bitsize="-1" sortid="200" defaultValue="-1" />
+<field name="npcParamId_ridden" type="s32" arraylength="1" bitsize="-1" sortid="300" defaultValue="-1" defaultThreshold="True" />
+<field name="npcThinkParamId_ridden" type="s32" arraylength="1" bitsize="-1" sortid="400" defaultValue="-1" defaultThreshold="True" />
+<field name="x_offset" type="f32" arraylength="1" bitsize="-1" sortid="500" defaultValue="1.3" />
+<field name="z_offset" type="f32" arraylength="1" bitsize="-1" sortid="600" defaultValue="0" />
+<field name="y_angle" type="f32" arraylength="1" bitsize="-1" sortid="700" defaultValue="0" />
+<field name="appearOnAroundSekihi" type="u8" arraylength="1" bitsize="-1" sortid="800" defaultValue="0" defaultThreshold="True" />
+<field name="disablePCTargetShare" type="u8" arraylength="1" bitsize="-1" sortid="900" defaultValue="0" defaultThreshold="True" />
+<field name="pcFollowType" type="u8" arraylength="1" bitsize="-1" sortid="1000" defaultValue="0" defaultThreshold="True" />
+<field name="Reserve" type="dummy8" arraylength="1" bitsize="-1" sortid="1113" defaultValue="[0]" defaultThreshold="True" />
+<field name="dopingSpEffect_lv0" type="s32" arraylength="1" bitsize="-1" sortid="1100" defaultValue="290000" defaultThreshold="True" />
+<field name="dopingSpEffect_lv1" type="s32" arraylength="1" bitsize="-1" sortid="1101" defaultValue="290001" defaultThreshold="True" />
+<field name="dopingSpEffect_lv2" type="s32" arraylength="1" bitsize="-1" sortid="1102" defaultValue="290002" defaultThreshold="True" />
+<field name="dopingSpEffect_lv3" type="s32" arraylength="1" bitsize="-1" sortid="1103" defaultValue="290003" defaultThreshold="True" />
+<field name="dopingSpEffect_lv4" type="s32" arraylength="1" bitsize="-1" sortid="1104" defaultValue="290004" defaultThreshold="True" />
+<field name="dopingSpEffect_lv5" type="s32" arraylength="1" bitsize="-1" sortid="1105" defaultValue="290005" defaultThreshold="True" />
+<field name="dopingSpEffect_lv6" type="s32" arraylength="1" bitsize="-1" sortid="1106" defaultValue="290006" defaultThreshold="True" />
+<field name="dopingSpEffect_lv7" type="s32" arraylength="1" bitsize="-1" sortid="1107" defaultValue="290007" defaultThreshold="True" />
+<field name="dopingSpEffect_lv8" type="s32" arraylength="1" bitsize="-1" sortid="1108" defaultValue="290008" defaultThreshold="True" />
+<field name="dopingSpEffect_lv9" type="s32" arraylength="1" bitsize="-1" sortid="1109" defaultValue="290009" defaultThreshold="True" />
+<field name="dopingSpEffect_lv10" type="s32" arraylength="1" bitsize="-1" sortid="1110" defaultValue="290010" defaultThreshold="True" />
+<field name="npcPlayerInitParamId" type="s32" arraylength="1" bitsize="-1" sortid="210" defaultValue="-1" defaultThreshold="True" />
+<field name="generateAnimId" type="s32" arraylength="1" bitsize="-1" sortid="750" defaultValue="1830" defaultThreshold="True" />
+<field name="unknown_0x5c" type="u32" arraylength="1" bitsize="-1" sortid="0" defaultValue="1410" defaultThreshold="True" />
+<field name="unknown_0x60" type="u32" arraylength="1" bitsize="-1" sortid="0" defaultValue="1420" defaultThreshold="True" />
+<field name="unknown_0x64" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="-1" defaultThreshold="True" />
+<field name="unknown_0x68" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="-1" defaultThreshold="True" />
+<field name="unknown_0x6c" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="-1" defaultThreshold="True" />
+<field name="unknown_0x70" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="-1" defaultThreshold="True" />
+<field name="unknown_0x74" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="-1" defaultThreshold="True" />
+<field name="unknown_0x78" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="-1" defaultThreshold="True" />
+<field name="unknown_0x7c" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="-1" defaultThreshold="True" />
+<field name="unknown_0x80" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="-1" defaultThreshold="True" />
+<field name="unknown_0x84" type="u32" arraylength="1" bitsize="-1" sortid="0" defaultValue="1400" defaultThreshold="True" />
+<field name="unknown_0x88" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="-1" defaultThreshold="True" />
+<field name="unknown_0x8c" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="-1" defaultThreshold="True" />
+<field name="unknown_0x90" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="-1" defaultThreshold="True" />
+<field name="unknown_0x94" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="-1" defaultThreshold="True" />
+<field name="unknown_0x98" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" defaultThreshold="True" />
+<field name="unknown_0x9c" type="u32" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" defaultThreshold="True" />
+</fields>
+<rows>
+<row id="0" triggerSpEffectId="-1" npcParamId="-1" npcThinkParamId="-1" x_offset="0" z_offset="0" y_angle="0" dopingSpEffect_lv0="-1" dopingSpEffect_lv1="-1" dopingSpEffect_lv2="-1" dopingSpEffect_lv3="-1" dopingSpEffect_lv4="-1" dopingSpEffect_lv5="-1" dopingSpEffect_lv6="-1" dopingSpEffect_lv7="-1" dopingSpEffect_lv8="-1" dopingSpEffect_lv9="-1" dopingSpEffect_lv10="-1" generateAnimId="-1" unknown_0x5c="4294967295" unknown_0x60="4294967295" unknown_0x84="4294967295" />
+<row id="20000000" paramdexName="Black Knife Tiche" triggerSpEffectId="200000" npcParamId="121000000" npcThinkParamId="121000000" x_offset="1.3" z_offset="0" y_angle="0" />
+<row id="20100000" paramdexName="Banished Knight Oleg" triggerSpEffectId="201000" npcParamId="130101000" npcThinkParamId="130101000" x_offset="1.3" z_offset="0" y_angle="0" />
+<row id="20200000" paramdexName="Banished Knight Engvall" triggerSpEffectId="202000" npcParamId="130102000" npcThinkParamId="130102000" x_offset="1.3" z_offset="0" y_angle="0" />
+<row id="20228000" triggerSpEffectId="20228000" npcParamId="-1" npcThinkParamId="-1" x_offset="1.3" z_offset="0" y_angle="0" />
+<row id="20229000" triggerSpEffectId="20229000" npcParamId="-1" npcThinkParamId="-1" x_offset="1.3" z_offset="0" y_angle="0" />
+<row id="20230000" triggerSpEffectId="20230000" npcParamId="-1" npcThinkParamId="-1" x_offset="1.3" z_offset="0" y_angle="0" />
+<row id="20300000" paramdexName="Fanged Imps" triggerSpEffectId="203000" npcParamId="130801100" npcThinkParamId="130800000" x_offset="1.5" z_offset="-0.5" y_angle="-90" />
+<row id="20300001" paramdexName="Fanged Imps" triggerSpEffectId="203000" npcParamId="130801100" npcThinkParamId="130800000" x_offset="-1.5" z_offset="-0.5" y_angle="90" />
+<row id="20400000" paramdexName="Latenna the Albinauric" triggerSpEffectId="204000" npcParamId="131700000" npcThinkParamId="131700000" x_offset="0" z_offset="0" y_angle="0" pcFollowType="2" />
+<row id="20500000" paramdexName="Nomad" triggerSpEffectId="205000" npcParamId="132010000" npcThinkParamId="132010000" x_offset="1.3" z_offset="-1" y_angle="-10" />
+<row id="20600000" paramdexName="Nightmaiden &amp; Swordstress" triggerSpEffectId="206000" npcParamId="133001000" npcThinkParamId="133100000" x_offset="1.5" z_offset="0.4" y_angle="15" />
+<row id="20600001" paramdexName="Nightmaiden &amp; Swordstress" triggerSpEffectId="206000" npcParamId="133002000" npcThinkParamId="133101000" x_offset="0.4" z_offset="0.7" y_angle="-25" />
+<row id="20700000" paramdexName="Mimic Tear" triggerSpEffectId="207000" npcParamId="133201000" npcThinkParamId="133200000" x_offset="1.5" z_offset="-0.5" y_angle="0" pcFollowType="2" generateAnimId="1831" />
+<row id="20700001" paramdexName="Mimic Tear" triggerSpEffectId="207000" npcParamId="100000010" npcThinkParamId="100000010" x_offset="1.5" z_offset="-0.5" y_angle="0" dopingSpEffect_lv0="290200" dopingSpEffect_lv1="290201" dopingSpEffect_lv2="290202" dopingSpEffect_lv3="290203" dopingSpEffect_lv4="290204" dopingSpEffect_lv5="290205" dopingSpEffect_lv6="290206" dopingSpEffect_lv7="290207" dopingSpEffect_lv8="290208" dopingSpEffect_lv9="290209" dopingSpEffect_lv10="290210" npcPlayerInitParamId="26050" generateAnimId="60500" />
+<row id="20800000" paramdexName="Crystalian" triggerSpEffectId="208000" npcParamId="133500000" npcThinkParamId="133500000" x_offset="1.3" z_offset="0" y_angle="0" />
+<row id="20900000" paramdexName="Ancestral Follower" triggerSpEffectId="209000" npcParamId="133600500" npcThinkParamId="133600500" x_offset="1.5" z_offset="-0.5" y_angle="0" />
+<row id="21000000" paramdexName="Winged Misbegotten" triggerSpEffectId="210000" npcParamId="134502000" npcThinkParamId="134501000" x_offset="1.5" z_offset="1.3" y_angle="30" />
+<row id="21100000" paramdexName="Albinauric Ashes" triggerSpEffectId="211000" npcParamId="134701300" npcThinkParamId="134701000" x_offset="1.5" z_offset="0" y_angle="-15" />
+<row id="21100001" paramdexName="Albinauric Ashes" triggerSpEffectId="211000" npcParamId="134701300" npcThinkParamId="134701000" x_offset="-1.5" z_offset="0" y_angle="0" />
+<row id="21200000" paramdexName="Skeletal Militiaman" triggerSpEffectId="212000" npcParamId="135000000" npcThinkParamId="135000000" x_offset="1.2" z_offset="0" y_angle="20" />
+<row id="21200001" paramdexName="Skeletal Militiaman" triggerSpEffectId="212000" npcParamId="135000000" npcThinkParamId="135000000" x_offset="-1.2" z_offset="0" y_angle="-20" />
+<row id="21300000" paramdexName="Skeletal Bandit" triggerSpEffectId="213000" npcParamId="135004000" npcThinkParamId="135004000" x_offset="1.2" z_offset="0" y_angle="20" />
+<row id="21400000" paramdexName="Oracle Envoy" triggerSpEffectId="214000" npcParamId="136100000" npcThinkParamId="136100000" x_offset="1.2" z_offset="1.3" y_angle="0" />
+<row id="21400001" paramdexName="Oracle Envoy" triggerSpEffectId="214000" npcParamId="136100000" npcThinkParamId="136100000" x_offset="1.5" z_offset="-1.2" y_angle="55" />
+<row id="21400002" paramdexName="Oracle Envoy" triggerSpEffectId="214000" npcParamId="136100000" npcThinkParamId="136100000" x_offset="-1.4" z_offset="0.8" y_angle="-10" />
+<row id="21400003" paramdexName="Oracle Envoy" triggerSpEffectId="214000" npcParamId="136100000" npcThinkParamId="136100000" x_offset="-1.5" z_offset="-1.3" y_angle="-55" />
+<row id="21500000" paramdexName="Putrid Corpse" triggerSpEffectId="215000" npcParamId="136610000" npcThinkParamId="136610000" x_offset="1.3" z_offset="1" y_angle="35" appearOnAroundSekihi="1" disablePCTargetShare="1" pcFollowType="1" />
+<row id="21500001" paramdexName="Putrid Corpse" triggerSpEffectId="215000" npcParamId="136610000" npcThinkParamId="136610000" x_offset="0.5" z_offset="-0.3" y_angle="-10" appearOnAroundSekihi="1" disablePCTargetShare="1" pcFollowType="1" />
+<row id="21500002" paramdexName="Putrid Corpse" triggerSpEffectId="215000" npcParamId="136610000" npcThinkParamId="136610000" x_offset="-0.7" z_offset="-0.8" y_angle="-60" appearOnAroundSekihi="1" disablePCTargetShare="1" pcFollowType="1" />
+<row id="21500003" paramdexName="Putrid Corpse" triggerSpEffectId="215000" npcParamId="136610000" npcThinkParamId="136610000" x_offset="-1.3" z_offset="0.8" y_angle="-45" appearOnAroundSekihi="1" disablePCTargetShare="1" pcFollowType="1" />
+<row id="21600000" paramdexName="Depraved Perfumer" triggerSpEffectId="216000" npcParamId="137000000" npcThinkParamId="137000000" x_offset="1.3" z_offset="-0.5" y_angle="0" />
+<row id="21700000" paramdexName="Perfumer Tricia" triggerSpEffectId="217000" npcParamId="137011000" npcThinkParamId="137010000" x_offset="1.3" z_offset="-1" y_angle="0" />
+<row id="21800000" paramdexName="Glintstone Sorcerer" triggerSpEffectId="218000" npcParamId="137021000" npcThinkParamId="137020100" x_offset="1.2" z_offset="-1" y_angle="0" />
+<row id="21900000" paramdexName="Twinsage Sorcerer" triggerSpEffectId="219000" npcParamId="137023000" npcThinkParamId="137020100" x_offset="1.2" z_offset="-1" y_angle="0" />
+<row id="22000000" paramdexName="Page Ashes" triggerSpEffectId="220000" npcParamId="137030000" npcThinkParamId="137030000" x_offset="1.3" z_offset="-1" y_angle="15" />
+<row id="22100000" paramdexName="Battlemage Hugues" triggerSpEffectId="221000" npcParamId="137040000" npcThinkParamId="137040000" x_offset="1.5" z_offset="-1" y_angle="-25" />
+<row id="22200000" paramdexName="Clayman" triggerSpEffectId="222000" npcParamId="137502000" npcThinkParamId="137502000" x_offset="1.3" z_offset="-0.5" y_angle="0" />
+<row id="22200001" paramdexName="Clayman" triggerSpEffectId="222000" npcParamId="137502000" npcThinkParamId="137502000" x_offset="-1.3" z_offset="-0.5" y_angle="0" />
+<row id="22300000" paramdexName="Cleanrot Knight Finlay" triggerSpEffectId="223000" npcParamId="138001000" npcThinkParamId="138001000" x_offset="1.4" z_offset="0.5" y_angle="0" />
+<row id="22400000" paramdexName="Kindred of Rot" triggerSpEffectId="224000" npcParamId="138100000" npcThinkParamId="138100000" x_offset="1.4" z_offset="0" y_angle="0" />
+<row id="22500000" paramdexName="Marionette Soldier" triggerSpEffectId="225000" npcParamId="138500000" npcThinkParamId="138500000" x_offset="1.2" z_offset="-1" y_angle="0" disablePCTargetShare="1" pcFollowType="1" />
+<row id="22500001" paramdexName="Marionette Soldier" triggerSpEffectId="225000" npcParamId="138500000" npcThinkParamId="138500000" x_offset="-1.2" z_offset="-1" y_angle="0" disablePCTargetShare="1" pcFollowType="1" />
+<row id="22600000" paramdexName="Avionette Soldier" triggerSpEffectId="226000" npcParamId="138601100" npcThinkParamId="138601000" x_offset="1.3" z_offset="0.6" y_angle="20" />
+<row id="22600001" paramdexName="Avionette Soldier" triggerSpEffectId="226000" npcParamId="138601100" npcThinkParamId="138601000" x_offset="-1.2" z_offset="-0.6" y_angle="-25" />
+<row id="22700000" paramdexName="Fire Monk" triggerSpEffectId="227000" npcParamId="139000000" npcThinkParamId="139000000" x_offset="1.5" z_offset="0" y_angle="0" />
+<row id="22800000" paramdexName="Blackflame Monk" triggerSpEffectId="228000" npcParamId="139011000" npcThinkParamId="139011000" x_offset="1.5" z_offset="0" y_angle="0" />
+<row id="22900000" paramdexName="Man-Serpent" triggerSpEffectId="229000" npcParamId="139501000" npcThinkParamId="139500000" x_offset="1.5" z_offset="0.8" y_angle="-5" />
+<row id="23000000" paramdexName="Azula Beastman" triggerSpEffectId="230000" npcParamId="139701100" npcThinkParamId="139701000" x_offset="1.5" z_offset="-1.3" y_angle="25" />
+<row id="23000001" paramdexName="Azula Beastman" triggerSpEffectId="230000" npcParamId="139701100" npcThinkParamId="139701000" x_offset="-1.5" z_offset="1.3" y_angle="-13" />
+<row id="23100000" paramdexName="Kaiden Sellsword" triggerSpEffectId="231000" npcParamId="140500000" npcThinkParamId="140500000" x_offset="1.3" z_offset="1" y_angle="0" />
+<row id="23200000" paramdexName="Lone Wolf" triggerSpEffectId="232000" npcParamId="140700000" npcThinkParamId="140700000" x_offset="-1.1" z_offset="1.3" y_angle="0" />
+<row id="23200001" paramdexName="Lone Wolf" triggerSpEffectId="232000" npcParamId="140700000" npcThinkParamId="140700000" x_offset="1.4" z_offset="-1.3" y_angle="10" />
+<row id="23200002" paramdexName="Lone Wolf" triggerSpEffectId="232000" npcParamId="140700000" npcThinkParamId="140700000" x_offset="-1.5" z_offset="-1.3" y_angle="-25" />
+<row id="23300000" paramdexName="Giant Rat" triggerSpEffectId="233000" npcParamId="140800000" npcThinkParamId="140800000" x_offset="0" z_offset="1" y_angle="5" appearOnAroundSekihi="1" disablePCTargetShare="1" pcFollowType="1" dopingSpEffect_lv5="-1" dopingSpEffect_lv6="-1" dopingSpEffect_lv7="-1" dopingSpEffect_lv8="-1" dopingSpEffect_lv9="-1" dopingSpEffect_lv10="-1" />
+<row id="23300001" paramdexName="Giant Rat" triggerSpEffectId="233000" npcParamId="140800000" npcThinkParamId="140800000" x_offset="1.3" z_offset="-0.6" y_angle="10" appearOnAroundSekihi="1" disablePCTargetShare="1" pcFollowType="1" dopingSpEffect_lv5="-1" dopingSpEffect_lv6="-1" dopingSpEffect_lv7="-1" dopingSpEffect_lv8="-1" dopingSpEffect_lv9="-1" dopingSpEffect_lv10="-1" />
+<row id="23300002" paramdexName="Giant Rat" triggerSpEffectId="233000" npcParamId="140800000" npcThinkParamId="140800000" x_offset="-1.2" z_offset="-1.2" y_angle="-10" appearOnAroundSekihi="1" disablePCTargetShare="1" pcFollowType="1" dopingSpEffect_lv5="-1" dopingSpEffect_lv6="-1" dopingSpEffect_lv7="-1" dopingSpEffect_lv8="-1" dopingSpEffect_lv9="-1" dopingSpEffect_lv10="-1" />
+<row id="23310000" paramdexName="Giant Rat - Additional Set 1" triggerSpEffectId="233100" npcParamId="140800000" npcThinkParamId="140800000" x_offset="1" z_offset="1" y_angle="5" appearOnAroundSekihi="1" disablePCTargetShare="1" pcFollowType="1" dopingSpEffect_lv0="-1" dopingSpEffect_lv1="-1" dopingSpEffect_lv2="-1" dopingSpEffect_lv3="-1" dopingSpEffect_lv4="-1" dopingSpEffect_lv10="-1" />
+<row id="23310001" paramdexName="Giant Rat - Additional Set 1" triggerSpEffectId="233100" npcParamId="140800000" npcThinkParamId="140800000" x_offset="1.3" z_offset="-0.6" y_angle="10" appearOnAroundSekihi="1" disablePCTargetShare="1" pcFollowType="1" dopingSpEffect_lv0="-1" dopingSpEffect_lv1="-1" dopingSpEffect_lv2="-1" dopingSpEffect_lv3="-1" dopingSpEffect_lv4="-1" dopingSpEffect_lv10="-1" />
+<row id="23310002" paramdexName="Giant Rat - Additional Set 1" triggerSpEffectId="233100" npcParamId="140800000" npcThinkParamId="140800000" x_offset="-1.2" z_offset="-1.2" y_angle="-10" appearOnAroundSekihi="1" disablePCTargetShare="1" pcFollowType="1" dopingSpEffect_lv0="-1" dopingSpEffect_lv1="-1" dopingSpEffect_lv2="-1" dopingSpEffect_lv3="-1" dopingSpEffect_lv4="-1" dopingSpEffect_lv10="-1" />
+<row id="23310003" paramdexName="Giant Rat - Additional Set 1" triggerSpEffectId="233100" npcParamId="140800000" npcThinkParamId="140800000" x_offset="-1" z_offset="1" y_angle="-10" appearOnAroundSekihi="1" disablePCTargetShare="1" pcFollowType="1" dopingSpEffect_lv0="-1" dopingSpEffect_lv1="-1" dopingSpEffect_lv2="-1" dopingSpEffect_lv3="-1" dopingSpEffect_lv4="-1" dopingSpEffect_lv10="-1" />
+<row id="23320000" paramdexName="Giant Rat - Additional Set 2" triggerSpEffectId="233200" npcParamId="140800000" npcThinkParamId="140800000" x_offset="1" z_offset="1" y_angle="5" appearOnAroundSekihi="1" disablePCTargetShare="1" pcFollowType="1" dopingSpEffect_lv0="-1" dopingSpEffect_lv1="-1" dopingSpEffect_lv2="-1" dopingSpEffect_lv3="-1" dopingSpEffect_lv4="-1" dopingSpEffect_lv5="-1" dopingSpEffect_lv6="-1" dopingSpEffect_lv7="-1" dopingSpEffect_lv8="-1" dopingSpEffect_lv9="-1" />
+<row id="23320001" paramdexName="Giant Rat - Additional Set 2" triggerSpEffectId="233200" npcParamId="140800000" npcThinkParamId="140800000" x_offset="1.3" z_offset="-0.6" y_angle="10" appearOnAroundSekihi="1" disablePCTargetShare="1" pcFollowType="1" dopingSpEffect_lv0="-1" dopingSpEffect_lv1="-1" dopingSpEffect_lv2="-1" dopingSpEffect_lv3="-1" dopingSpEffect_lv4="-1" dopingSpEffect_lv5="-1" dopingSpEffect_lv6="-1" dopingSpEffect_lv7="-1" dopingSpEffect_lv8="-1" dopingSpEffect_lv9="-1" />
+<row id="23320002" paramdexName="Giant Rat - Additional Set 2" triggerSpEffectId="233200" npcParamId="140800000" npcThinkParamId="140800000" x_offset="-1.2" z_offset="-1.2" y_angle="-10" appearOnAroundSekihi="1" disablePCTargetShare="1" pcFollowType="1" dopingSpEffect_lv0="-1" dopingSpEffect_lv1="-1" dopingSpEffect_lv2="-1" dopingSpEffect_lv3="-1" dopingSpEffect_lv4="-1" dopingSpEffect_lv5="-1" dopingSpEffect_lv6="-1" dopingSpEffect_lv7="-1" dopingSpEffect_lv8="-1" dopingSpEffect_lv9="-1" />
+<row id="23320003" paramdexName="Giant Rat - Additional Set 2" triggerSpEffectId="233200" npcParamId="140800000" npcThinkParamId="140800000" x_offset="-1" z_offset="1" y_angle="-10" appearOnAroundSekihi="1" disablePCTargetShare="1" pcFollowType="1" dopingSpEffect_lv0="-1" dopingSpEffect_lv1="-1" dopingSpEffect_lv2="-1" dopingSpEffect_lv3="-1" dopingSpEffect_lv4="-1" dopingSpEffect_lv5="-1" dopingSpEffect_lv6="-1" dopingSpEffect_lv7="-1" dopingSpEffect_lv8="-1" dopingSpEffect_lv9="-1" />
+<row id="23320004" paramdexName="Giant Rat - Additional Set 2" triggerSpEffectId="233200" npcParamId="140800000" npcThinkParamId="140800000" x_offset="0" z_offset="1.5" y_angle="-10" appearOnAroundSekihi="1" disablePCTargetShare="1" pcFollowType="1" dopingSpEffect_lv0="-1" dopingSpEffect_lv1="-1" dopingSpEffect_lv2="-1" dopingSpEffect_lv3="-1" dopingSpEffect_lv4="-1" dopingSpEffect_lv5="-1" dopingSpEffect_lv6="-1" dopingSpEffect_lv7="-1" dopingSpEffect_lv8="-1" dopingSpEffect_lv9="-1" />
+<row id="23400000" paramdexName="Demi-Human" triggerSpEffectId="234000" npcParamId="141000000" npcThinkParamId="141000000" x_offset="-1.5" z_offset="0.25" y_angle="-45" />
+<row id="23400001" paramdexName="Demi-Human" triggerSpEffectId="234000" npcParamId="141001000" npcThinkParamId="141001000" x_offset="1" z_offset="0.4" y_angle="25" />
+<row id="23400002" paramdexName="Demi-Human" triggerSpEffectId="234000" npcParamId="141002000" npcThinkParamId="141002000" x_offset="1.5" z_offset="-0.5" y_angle="70" />
+<row id="23400003" paramdexName="Demi-Human" triggerSpEffectId="234000" npcParamId="141010000" npcThinkParamId="141010000" x_offset="0.2" z_offset="1.3" y_angle="0" />
+<row id="23400004" paramdexName="Demi-Human" triggerSpEffectId="234000" npcParamId="141100000" npcThinkParamId="141100000" x_offset="-1" z_offset="-0.75" y_angle="-35" />
+<row id="23500000" paramdexName="Rotten Stray" triggerSpEffectId="235000" npcParamId="141660000" npcThinkParamId="141660000" x_offset="1.3" z_offset="0.5" y_angle="-5" />
+<row id="23600000" paramdexName="Spirit Jellyfish" triggerSpEffectId="236000" npcParamId="141800000" npcThinkParamId="141800000" x_offset="1.5" z_offset="1" y_angle="0" unknown_0x64="14200" />
+<row id="23700000" paramdexName="Warhawk" triggerSpEffectId="237000" npcParamId="142100100" npcThinkParamId="142100000" x_offset="1.5" z_offset="0.5" y_angle="15" />
+<row id="23800000" paramdexName="Stormhawk" triggerSpEffectId="238000" npcParamId="142102000" npcThinkParamId="142100000" x_offset="1.5" z_offset="0.5" y_angle="-28" />
+<row id="23900000" paramdexName="Bloodhound Knight Floh" triggerSpEffectId="239000" npcParamId="142900000" npcThinkParamId="142900000" x_offset="1.5" z_offset="1" y_angle="0" disablePCTargetShare="1" pcFollowType="1" />
+<row id="24000000" paramdexName="Wandering Noble" triggerSpEffectId="240000" npcParamId="143000000" npcThinkParamId="143000000" x_offset="1.2" z_offset="0.75" y_angle="10" />
+<row id="24000001" paramdexName="Wandering Noble" triggerSpEffectId="240000" npcParamId="143000200" npcThinkParamId="143000000" x_offset="-0.7" z_offset="0.5" y_angle="-10" />
+<row id="24000002" paramdexName="Wandering Noble" triggerSpEffectId="240000" npcParamId="143001000" npcThinkParamId="143001000" x_offset="0" z_offset="1" y_angle="0" />
+<row id="24000003" paramdexName="Wandering Noble" triggerSpEffectId="240000" npcParamId="143005000" npcThinkParamId="143005000" x_offset="1.3" z_offset="-0.75" y_angle="25" />
+<row id="24000004" paramdexName="Wandering Noble" triggerSpEffectId="240000" npcParamId="143005100" npcThinkParamId="143005000" x_offset="-1" z_offset="-1" y_angle="-25" />
+<row id="24100000" paramdexName="Noble Sorcerer" triggerSpEffectId="241000" npcParamId="143002000" npcThinkParamId="143002000" x_offset="1.2" z_offset="-1" y_angle="35" />
+<row id="24200000" paramdexName="Vulgar Militia" triggerSpEffectId="242000" npcParamId="143210000" npcThinkParamId="143210000" x_offset="1.2" z_offset="-0.4" y_angle="0" />
+<row id="24200001" paramdexName="Vulgar Militia" triggerSpEffectId="242000" npcParamId="143210000" npcThinkParamId="143210000" x_offset="1.5" z_offset="-1.4" y_angle="30" />
+<row id="24200002" paramdexName="Vulgar Militia" triggerSpEffectId="242000" npcParamId="143210000" npcThinkParamId="143210000" x_offset="-1.3" z_offset="-1.2" y_angle="-15" />
+<row id="24300000" paramdexName="Mad Pumpkin Head" triggerSpEffectId="243000" npcParamId="143410000" npcThinkParamId="143410000" x_offset="1.5" z_offset="1" y_angle="10" />
+<row id="24400000" paramdexName="Land Squirt" triggerSpEffectId="244000" npcParamId="144400000" npcThinkParamId="144400000" x_offset="0" z_offset="1.5" y_angle="0" appearOnAroundSekihi="1" disablePCTargetShare="1" pcFollowType="1" />
+<row id="24400001" paramdexName="Land Squirt" triggerSpEffectId="244000" npcParamId="144400000" npcThinkParamId="144400000" x_offset="1.5" z_offset="-1.3" y_angle="90" appearOnAroundSekihi="1" disablePCTargetShare="1" pcFollowType="1" />
+<row id="24400002" paramdexName="Land Squirt" triggerSpEffectId="244000" npcParamId="144400000" npcThinkParamId="144400000" x_offset="-1.5" z_offset="-1.5" y_angle="-130" appearOnAroundSekihi="1" disablePCTargetShare="1" pcFollowType="1" />
+<row id="24500000" paramdexName="Miranda Sprout" triggerSpEffectId="245000" npcParamId="144810000" npcThinkParamId="144810000" x_offset="1.5" z_offset="1.5" y_angle="10" />
+<row id="24500001" paramdexName="Miranda Sprout" triggerSpEffectId="245000" npcParamId="144810000" npcThinkParamId="144810000" x_offset="1.2" z_offset="-1.3" y_angle="5" />
+<row id="24500002" paramdexName="Miranda Sprout" triggerSpEffectId="245000" npcParamId="144810000" npcThinkParamId="144810000" x_offset="0" z_offset="1.5" y_angle="0" />
+<row id="24500003" paramdexName="Miranda Sprout" triggerSpEffectId="245000" npcParamId="144810000" npcThinkParamId="144810000" x_offset="-1.2" z_offset="-1.5" y_angle="-10" />
+<row id="24500004" paramdexName="Miranda Sprout" triggerSpEffectId="245000" npcParamId="144810000" npcThinkParamId="144810000" x_offset="-1.5" z_offset="1.5" y_angle="-20" />
+<row id="24600000" paramdexName="Soldjars of Fortune" triggerSpEffectId="246000" npcParamId="144910200" npcThinkParamId="144910000" x_offset="1.3" z_offset="1.3" y_angle="5" />
+<row id="24600001" paramdexName="Soldjars of Fortune" triggerSpEffectId="246000" npcParamId="144910200" npcThinkParamId="144910000" x_offset="1.4" z_offset="-1.2" y_angle="15" />
+<row id="24600002" paramdexName="Soldjars of Fortune" triggerSpEffectId="246000" npcParamId="144910200" npcThinkParamId="144910000" x_offset="-1.3" z_offset="-1.2" y_angle="-20" />
+<row id="24700000" paramdexName="Omenkiller" triggerSpEffectId="247000" npcParamId="148200000" npcThinkParamId="148200000" x_offset="1.4" z_offset="1" y_angle="-10" />
+<row id="24800000" paramdexName="Greatshield Soldier" triggerSpEffectId="248000" npcParamId="170001000" npcThinkParamId="170001000" x_offset="1.5" z_offset="0.3" y_angle="20" />
+<row id="24800001" paramdexName="Greatshield Soldier" triggerSpEffectId="248000" npcParamId="170001000" npcThinkParamId="170001000" x_offset="0.75" z_offset="-0.9" y_angle="10" />
+<row id="24800002" paramdexName="Greatshield Soldier" triggerSpEffectId="248000" npcParamId="170001000" npcThinkParamId="170001000" x_offset="0" z_offset="0.8" y_angle="0" />
+<row id="24800003" paramdexName="Greatshield Soldier" triggerSpEffectId="248000" npcParamId="170001000" npcThinkParamId="170001000" x_offset="-0.75" z_offset="-0.9" y_angle="-10" />
+<row id="24800004" paramdexName="Greatshield Soldier" triggerSpEffectId="248000" npcParamId="170001000" npcThinkParamId="170001000" x_offset="-1.5" z_offset="0.3" y_angle="-20" />
+<row id="24900000" paramdexName="Archer" triggerSpEffectId="249000" npcParamId="170002000" npcThinkParamId="170002000" x_offset="1.4" z_offset="-1.2" y_angle="25" />
+<row id="24900001" paramdexName="Archer" triggerSpEffectId="249000" npcParamId="170002000" npcThinkParamId="170002000" x_offset="-0.8" z_offset="1" y_angle="10" />
+<row id="24900002" paramdexName="Archer" triggerSpEffectId="249000" npcParamId="170002000" npcThinkParamId="170002000" x_offset="-1.3" z_offset="-1.3" y_angle="25" />
+<row id="25000000" paramdexName="Godrick Soldier" triggerSpEffectId="250000" npcParamId="143111300" npcThinkParamId="143110000" x_offset="1.3" z_offset="0" y_angle="20" />
+<row id="25000001" paramdexName="Godrick Soldier" triggerSpEffectId="250000" npcParamId="143112000" npcThinkParamId="143112000" x_offset="-1.3" z_offset="0" y_angle="-20" />
+<row id="25100000" paramdexName="Raya Lucaria Soldier" triggerSpEffectId="251000" npcParamId="143122000" npcThinkParamId="143122000" x_offset="1.5" z_offset="-1.5" y_angle="-25" />
+<row id="25100001" paramdexName="Raya Lucaria Soldier" triggerSpEffectId="251000" npcParamId="143720500" npcThinkParamId="143720000" x_offset="1.1" z_offset="1.3" y_angle="15" />
+<row id="25100002" paramdexName="Raya Lucaria Soldier" triggerSpEffectId="251000" npcParamId="143722500" npcThinkParamId="143720000" x_offset="-1.3" z_offset="1.3" y_angle="-20" />
+<row id="25200000" paramdexName="Leyndell Soldier" triggerSpEffectId="252000" npcParamId="143133000" npcThinkParamId="143133000" x_offset="1.3" z_offset="0" y_angle="10" />
+<row id="25200001" paramdexName="Leyndell Soldier" triggerSpEffectId="252000" npcParamId="143133000" npcThinkParamId="143133000" x_offset="-1.3" z_offset="0" y_angle="-10" />
+<row id="25300000" paramdexName="Radahn Soldier" triggerSpEffectId="253000" npcParamId="143140100" npcThinkParamId="143140100" x_offset="1.3" z_offset="0" y_angle="20" disablePCTargetShare="1" pcFollowType="1" />
+<row id="25300001" paramdexName="Radahn Soldier" triggerSpEffectId="253000" npcParamId="143142000" npcThinkParamId="143142000" x_offset="-1.3" z_offset="0" y_angle="-20" disablePCTargetShare="1" pcFollowType="1" />
+<row id="25400000" paramdexName="Mausoleum Soldier" triggerSpEffectId="254000" npcParamId="143150000" npcThinkParamId="143150000" x_offset="0" z_offset="0" y_angle="0" />
+<row id="25400001" paramdexName="Mausoleum Soldier" triggerSpEffectId="254000" npcParamId="143151000" npcThinkParamId="143151000" x_offset="1" z_offset="1.3" y_angle="0" />
+<row id="25400002" paramdexName="Mausoleum Soldier" triggerSpEffectId="254000" npcParamId="143151000" npcThinkParamId="143151000" x_offset="-1.5" z_offset="0" y_angle="-40" />
+<row id="25400003" paramdexName="Mausoleum Soldier" triggerSpEffectId="254000" npcParamId="143152000" npcThinkParamId="143152000" x_offset="-1" z_offset="-1.3" y_angle="-15" />
+<row id="25400004" paramdexName="Mausoleum Soldier" triggerSpEffectId="254000" npcParamId="143152000" npcThinkParamId="143152000" x_offset="1.5" z_offset="0" y_angle="25" />
+<row id="25500000" paramdexName="Haligtree Soldier" triggerSpEffectId="255000" npcParamId="143760500" npcThinkParamId="143760000" x_offset="1.2" z_offset="0.8" y_angle="20" />
+<row id="25500001" paramdexName="Haligtree Soldier" triggerSpEffectId="255000" npcParamId="143760500" npcThinkParamId="143760000" x_offset="-1.2" z_offset="0.2" y_angle="10" />
+<row id="25500002" paramdexName="Haligtree Soldier" triggerSpEffectId="255000" npcParamId="143762500" npcThinkParamId="143760000" x_offset="1.5" z_offset="-1" y_angle="40" />
+<row id="25500003" paramdexName="Haligtree Soldier" triggerSpEffectId="255000" npcParamId="143762500" npcThinkParamId="143760000" x_offset="-1.5" z_offset="-1.5" y_angle="-75" />
+<row id="25600000" paramdexName="Ancient Dragon Knight Kristoff" triggerSpEffectId="256000" npcParamId="143531000" npcThinkParamId="143531000" x_offset="1.4" z_offset="0" y_angle="0" />
+<row id="25700000" paramdexName="Redmane Knight Ogha" triggerSpEffectId="257000" npcParamId="143542000" npcThinkParamId="143542000" x_offset="1.5" z_offset="-1.3" y_angle="-45" disablePCTargetShare="1" pcFollowType="1" />
+<row id="25800000" paramdexName="Lhutel the Headless" triggerSpEffectId="258000" npcParamId="143551000" npcThinkParamId="143551000" x_offset="1.5" z_offset="0" y_angle="0" />
+<row id="25900000" paramdexName="Nepheli Loux Puppet" triggerSpEffectId="259000" npcParamId="100000020" npcThinkParamId="100000020" x_offset="1.3" z_offset="-1.3" y_angle="20" dopingSpEffect_lv0="290050" dopingSpEffect_lv1="290051" dopingSpEffect_lv2="290052" dopingSpEffect_lv3="290053" dopingSpEffect_lv4="290054" dopingSpEffect_lv5="290055" dopingSpEffect_lv6="290056" dopingSpEffect_lv7="290057" dopingSpEffect_lv8="290058" dopingSpEffect_lv9="290059" dopingSpEffect_lv10="290060" npcPlayerInitParamId="23342" generateAnimId="60501" unknown_0x64="19390" />
+<row id="26000000" paramdexName="Dung Eater Puppet" triggerSpEffectId="260000" npcParamId="100000030" npcThinkParamId="100000030" x_offset="1.3" z_offset="-1.3" y_angle="20" dopingSpEffect_lv0="290050" dopingSpEffect_lv1="290051" dopingSpEffect_lv2="290052" dopingSpEffect_lv3="290053" dopingSpEffect_lv4="290054" dopingSpEffect_lv5="290055" dopingSpEffect_lv6="290056" dopingSpEffect_lv7="290057" dopingSpEffect_lv8="290058" dopingSpEffect_lv9="290059" dopingSpEffect_lv10="290060" npcPlayerInitParamId="23232" generateAnimId="60501" unknown_0x64="19390" />
+<row id="26100000" paramdexName="Finger Maiden Therolina Puppet" triggerSpEffectId="261000" npcParamId="100000040" npcThinkParamId="100000040" x_offset="1.3" z_offset="-1.3" y_angle="20" dopingSpEffect_lv0="290100" dopingSpEffect_lv1="290101" dopingSpEffect_lv2="290102" dopingSpEffect_lv3="290103" dopingSpEffect_lv4="290104" dopingSpEffect_lv5="290105" dopingSpEffect_lv6="290106" dopingSpEffect_lv7="290107" dopingSpEffect_lv8="290108" dopingSpEffect_lv9="290109" dopingSpEffect_lv10="290110" npcPlayerInitParamId="23631" generateAnimId="60501" unknown_0x64="19390" />
+<row id="26200000" paramdexName="Dolores the Sleeping Arrow" triggerSpEffectId="262000" npcParamId="100000050" npcThinkParamId="100000050" x_offset="1.3" z_offset="-1.3" y_angle="20" dopingSpEffect_lv0="290050" dopingSpEffect_lv1="290051" dopingSpEffect_lv2="290052" dopingSpEffect_lv3="290053" dopingSpEffect_lv4="290054" dopingSpEffect_lv5="290055" dopingSpEffect_lv6="290056" dopingSpEffect_lv7="290057" dopingSpEffect_lv8="290058" dopingSpEffect_lv9="290059" dopingSpEffect_lv10="290060" npcPlayerInitParamId="23640" generateAnimId="60501" unknown_0x64="19390" />
+<row id="26300000" paramdexName="Jarwight Puppet" triggerSpEffectId="263000" npcParamId="100000060" npcThinkParamId="100000060" x_offset="1.3" z_offset="-1.3" y_angle="20" dopingSpEffect_lv0="290150" dopingSpEffect_lv1="290151" dopingSpEffect_lv2="290152" dopingSpEffect_lv3="290153" dopingSpEffect_lv4="290154" dopingSpEffect_lv5="290155" dopingSpEffect_lv6="290156" dopingSpEffect_lv7="290157" dopingSpEffect_lv8="290158" dopingSpEffect_lv9="290159" dopingSpEffect_lv10="290160" npcPlayerInitParamId="23650" generateAnimId="60501" unknown_0x64="19390" />
+<row id="30000000" paramdexName="Curseblade Meera" triggerSpEffectId="20200000" npcParamId="150400000" npcThinkParamId="150400000" x_offset="1.3" z_offset="0" y_angle="0" disablePCTargetShare="1" pcFollowType="1" />
+<row id="30100000" paramdexName="Bloodfiend Hexer" triggerSpEffectId="20201000" npcParamId="150800000" npcThinkParamId="150800000" x_offset="1.3" z_offset="0" y_angle="0" />
+<row id="30200000" paramdexName="Gravebird Ashes" triggerSpEffectId="20202000" npcParamId="150900000" npcThinkParamId="150900000" x_offset="1.3" z_offset="0" y_angle="0" />
+<row id="30300000" paramdexName="Fire Knight Hilde" triggerSpEffectId="20203000" npcParamId="151600000" npcThinkParamId="151600000" x_offset="1.3" z_offset="0" y_angle="0" />
+<row id="30400000" paramdexName="Spider Scorpion" triggerSpEffectId="20204000" npcParamId="151940000" npcThinkParamId="151900000" x_offset="1.3" z_offset="0" y_angle="15" appearOnAroundSekihi="1" disablePCTargetShare="1" pcFollowType="1" />
+<row id="30500000" triggerSpEffectId="-1" npcParamId="151930000" npcThinkParamId="151930000" x_offset="1.2" z_offset="1.3" y_angle="0" />
+<row id="30500001" triggerSpEffectId="-1" npcParamId="151930000" npcThinkParamId="151930000" x_offset="1.5" z_offset="-1.2" y_angle="55" />
+<row id="30500002" triggerSpEffectId="-1" npcParamId="151930000" npcThinkParamId="151930000" x_offset="-1.4" z_offset="0.8" y_angle="-10" />
+<row id="30500003" triggerSpEffectId="-1" npcParamId="151930000" npcThinkParamId="151930000" x_offset="-1.5" z_offset="-1.3" y_angle="-55" />
+<row id="30600000" paramdexName="Inquisitor 1" triggerSpEffectId="20205000" npcParamId="153110000" npcThinkParamId="153110000" x_offset="1.3" z_offset="0" y_angle="10" />
+<row id="30600001" paramdexName="Inquisitor 2" triggerSpEffectId="20205000" npcParamId="153110100" npcThinkParamId="153110000" x_offset="-1.3" z_offset="0" y_angle="-10" />
+<row id="30700000" paramdexName="Demi-Human Swordsman Yosh" triggerSpEffectId="20206000" npcParamId="158100000" npcThinkParamId="158100000" x_offset="1.3" z_offset="0" y_angle="0" />
+<row id="30800000" paramdexName="Messmer Soldier 1" triggerSpEffectId="20207000" npcParamId="158300000" npcThinkParamId="158300000" x_offset="1.3" z_offset="0" y_angle="10" />
+<row id="30800001" paramdexName="Messmer Soldier 2" triggerSpEffectId="20207000" npcParamId="158301000" npcThinkParamId="158301000" x_offset="-1.3" z_offset="0" y_angle="-10" />
+<row id="30900000" paramdexName="Black Knight Commander Andreas" triggerSpEffectId="20208000" npcParamId="158400000" npcThinkParamId="158400000" x_offset="1.3" z_offset="0" y_angle="0" />
+<row id="31000000" paramdexName="Black Knight Captain Huw" triggerSpEffectId="20209000" npcParamId="158400500" npcThinkParamId="158400500" x_offset="1.3" z_offset="0" y_angle="0" />
+<row id="31100000" paramdexName="Bigmouth Imp" triggerSpEffectId="20210000" npcParamId="158700000" npcThinkParamId="158700000" x_offset="1.3" z_offset="0" y_angle="0" />
+<row id="31200000" paramdexName="Man-Fly 1" triggerSpEffectId="20211000" npcParamId="159000000" npcThinkParamId="159000000" x_offset="1.8" z_offset="1.3" y_angle="10" />
+<row id="31200001" paramdexName="Man-Fly 2" triggerSpEffectId="20211000" npcParamId="159000000" npcThinkParamId="159000000" x_offset="-1.8" z_offset="1.3" y_angle="-10" />
+<row id="31200002" paramdexName="Man-Fly 3" triggerSpEffectId="20211000" npcParamId="159000100" npcThinkParamId="159000100" x_offset="0" z_offset="-0.3" y_angle="0" />
+<row id="31300000" paramdexName="Golem Smith" triggerSpEffectId="20212000" npcParamId="152610000" npcThinkParamId="152602000" x_offset="1.3" z_offset="0" y_angle="0" />
+<row id="31400000" paramdexName="Divine Bird Warrior Ornis" triggerSpEffectId="20213000" npcParamId="152500000" npcThinkParamId="152500000" x_offset="1.3" z_offset="0" y_angle="0" />
+<row id="31500000" paramdexName="Horned Warrior" triggerSpEffectId="20214000" npcParamId="152501000" npcThinkParamId="152501000" x_offset="1.3" z_offset="0" y_angle="0" />
+<row id="31600000" paramdexName="Fingercreeper" triggerSpEffectId="20217000" npcParamId="155600000" npcThinkParamId="155600000" x_offset="1.3" z_offset="0" y_angle="0" />
+<row id="31700000" paramdexName="Ancient Dragon Florissax" triggerSpEffectId="20215000" npcParamId="150000000" npcThinkParamId="150000000" x_offset="1.3" z_offset="0" y_angle="0" dopingSpEffect_lv0="290050" dopingSpEffect_lv1="290051" dopingSpEffect_lv2="290052" dopingSpEffect_lv3="290053" dopingSpEffect_lv4="290054" dopingSpEffect_lv5="290055" dopingSpEffect_lv6="290056" dopingSpEffect_lv7="290057" dopingSpEffect_lv8="290058" dopingSpEffect_lv9="290059" dopingSpEffect_lv10="290060" npcPlayerInitParamId="2024061" generateAnimId="60509" unknown_0x64="19390" />
+<row id="31800000" triggerSpEffectId="-1" npcParamId="150000001" npcThinkParamId="150000001" x_offset="1.3" z_offset="0" y_angle="0" dopingSpEffect_lv0="290050" dopingSpEffect_lv1="290051" dopingSpEffect_lv2="290052" dopingSpEffect_lv3="290053" dopingSpEffect_lv4="290054" dopingSpEffect_lv5="290055" dopingSpEffect_lv6="290056" dopingSpEffect_lv7="290057" dopingSpEffect_lv8="290058" dopingSpEffect_lv9="290059" dopingSpEffect_lv10="290060" npcPlayerInitParamId="2024220" unknown_0x64="19390" />
+<row id="31900000" paramdexName="Fire Knight Queelign" triggerSpEffectId="20218000" npcParamId="150000002" npcThinkParamId="150000002" x_offset="1.3" z_offset="0" y_angle="0" disablePCTargetShare="1" pcFollowType="1" dopingSpEffect_lv0="290050" dopingSpEffect_lv1="290051" dopingSpEffect_lv2="290052" dopingSpEffect_lv3="290053" dopingSpEffect_lv4="290054" dopingSpEffect_lv5="290055" dopingSpEffect_lv6="290056" dopingSpEffect_lv7="290057" dopingSpEffect_lv8="290058" dopingSpEffect_lv9="290059" dopingSpEffect_lv10="290060" npcPlayerInitParamId="2024132" generateAnimId="60507" unknown_0x64="19390" />
+<row id="32000000" paramdexName="Swordhand of Night Jolan" triggerSpEffectId="20219000" npcParamId="150000003" npcThinkParamId="150000003" x_offset="1.3" z_offset="0" y_angle="0" dopingSpEffect_lv0="290050" dopingSpEffect_lv1="290051" dopingSpEffect_lv2="290052" dopingSpEffect_lv3="290053" dopingSpEffect_lv4="290054" dopingSpEffect_lv5="290055" dopingSpEffect_lv6="290056" dopingSpEffect_lv7="290057" dopingSpEffect_lv8="290058" dopingSpEffect_lv9="290059" dopingSpEffect_lv10="290060" npcPlayerInitParamId="2024093" generateAnimId="60506" unknown_0x64="19390" />
+<row id="32100000" paramdexName="Jolan and Anna" triggerSpEffectId="20220000" npcParamId="150000004" npcThinkParamId="150000003" x_offset="1.3" z_offset="0" y_angle="10" dopingSpEffect_lv0="290050" dopingSpEffect_lv1="290051" dopingSpEffect_lv2="290052" dopingSpEffect_lv3="290053" dopingSpEffect_lv4="290054" dopingSpEffect_lv5="290055" dopingSpEffect_lv6="290056" dopingSpEffect_lv7="290057" dopingSpEffect_lv8="290058" dopingSpEffect_lv9="290059" dopingSpEffect_lv10="290060" npcPlayerInitParamId="2024092" generateAnimId="60506" unknown_0x64="19390" />
+<row id="32200000" paramdexName="Jolan and Anna" triggerSpEffectId="20220000" npcParamId="150000005" npcThinkParamId="150000004" x_offset="-1.3" z_offset="0" y_angle="-10" dopingSpEffect_lv0="290050" dopingSpEffect_lv1="290051" dopingSpEffect_lv2="290052" dopingSpEffect_lv3="290053" dopingSpEffect_lv4="290054" dopingSpEffect_lv5="290055" dopingSpEffect_lv6="290056" dopingSpEffect_lv7="290057" dopingSpEffect_lv8="290058" dopingSpEffect_lv9="290059" dopingSpEffect_lv10="290060" npcPlayerInitParamId="2024121" generateAnimId="60508" unknown_0x64="19390" />
+<row id="32300000" triggerSpEffectId="20223000" npcParamId="-1" npcThinkParamId="-1" x_offset="1.3" z_offset="0" y_angle="0" />
+<row id="32400000" triggerSpEffectId="20224000" npcParamId="-1" npcThinkParamId="-1" x_offset="1.3" z_offset="0" y_angle="0" />
+<row id="32500000" triggerSpEffectId="20225000" npcParamId="-1" npcThinkParamId="-1" x_offset="1.3" z_offset="0" y_angle="0" />
+<row id="32600000" triggerSpEffectId="20226000" npcParamId="-1" npcThinkParamId="-1" x_offset="1.3" z_offset="0" y_angle="0" />
+<row id="32700000" triggerSpEffectId="20227000" npcParamId="-1" npcThinkParamId="-1" x_offset="1.3" z_offset="0" y_angle="0" />
+<row id="32800000" triggerSpEffectId="20228000" npcParamId="-1" npcThinkParamId="-1" x_offset="1.3" z_offset="0" y_angle="0" />
+<row id="32900000" triggerSpEffectId="20229000" npcParamId="-1" npcThinkParamId="-1" x_offset="1.3" z_offset="0" y_angle="0" />
+<row id="33000000" triggerSpEffectId="20230000" npcParamId="-1" npcThinkParamId="-1" x_offset="1.3" z_offset="0" y_angle="0" />
+</rows>
+</param>

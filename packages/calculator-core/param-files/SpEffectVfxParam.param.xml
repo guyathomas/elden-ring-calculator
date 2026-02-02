@@ -1,0 +1,1605 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>SpEffectVfxParam.param</filename>
+<compression>None</compression>
+<type>SP_EFFECT_VFX_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>1</unk06>
+<paramdef>
+<type>SP_EFFECT_VFX_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="midstSfxId" type="s32" arraylength="1" bitsize="-1" sortid="1100" defaultValue="-1" />
+<field name="midstSeId" type="s32" arraylength="1" bitsize="-1" sortid="1200" defaultValue="-1" />
+<field name="initSfxId" type="s32" arraylength="1" bitsize="-1" sortid="1500" defaultValue="-1" defaultThreshold="True" />
+<field name="initSeId" type="s32" arraylength="1" bitsize="-1" sortid="1600" defaultValue="-1" defaultThreshold="True" />
+<field name="finishSfxId" type="s32" arraylength="1" bitsize="-1" sortid="1900" defaultValue="-1" defaultThreshold="True" />
+<field name="finishSeId" type="s32" arraylength="1" bitsize="-1" sortid="2000" defaultValue="-1" defaultThreshold="True" />
+<field name="camouflageBeginDist" type="f32" arraylength="1" bitsize="-1" sortid="2100" defaultValue="-1" defaultThreshold="True" />
+<field name="camouflageEndDist" type="f32" arraylength="1" bitsize="-1" sortid="2200" defaultValue="-1" defaultThreshold="True" />
+<field name="transformProtectorId" type="s32" arraylength="1" bitsize="-1" sortid="2300" defaultValue="-1" defaultThreshold="True" />
+<field name="midstDmyId" type="s16" arraylength="1" bitsize="-1" sortid="1000" defaultValue="-1" />
+<field name="initDmyId" type="s16" arraylength="1" bitsize="-1" sortid="1400" defaultValue="-1" defaultThreshold="True" />
+<field name="finishDmyId" type="s16" arraylength="1" bitsize="-1" sortid="1800" defaultValue="-1" defaultThreshold="True" />
+<field name="effectType" type="u8" arraylength="1" bitsize="-1" sortid="100" defaultValue="0" defaultThreshold="True" />
+<field name="soulParamIdForWepEnchant" type="u8" arraylength="1" bitsize="-1" sortid="200" defaultValue="0" defaultThreshold="True" />
+<field name="playCategory" type="u8" arraylength="1" bitsize="-1" sortid="10" defaultValue="0" defaultThreshold="True" />
+<field name="playPriority" type="u8" arraylength="1" bitsize="-1" sortid="20" defaultValue="0" defaultThreshold="True" />
+<field name="existEffectForLarge" type="u8" arraylength="1" bitsize="1" sortid="300" defaultValue="0" defaultThreshold="True" />
+<field name="existEffectForSoul" type="u8" arraylength="1" bitsize="1" sortid="400" defaultValue="0" defaultThreshold="True" />
+<field name="effectInvisibleAtCamouflage" type="u8" arraylength="1" bitsize="1" sortid="500" defaultValue="0" defaultThreshold="True" />
+<field name="useCamouflage" type="u8" arraylength="1" bitsize="1" sortid="600" defaultValue="0" defaultThreshold="True" />
+<field name="invisibleAtFriendCamouflage" type="u8" arraylength="1" bitsize="1" sortid="700" defaultValue="0" defaultThreshold="True" />
+<field name="isHideFootEffect_forCamouflage" type="u8" arraylength="1" bitsize="1" sortid="550" defaultValue="0" defaultThreshold="True" />
+<field name="halfCamouflage" type="u8" arraylength="1" bitsize="1" sortid="750" defaultValue="0" defaultThreshold="True" />
+<field name="isFullBodyTransformProtectorId" type="u8" arraylength="1" bitsize="1" sortid="2310" defaultValue="0" defaultThreshold="True" />
+<field name="isInvisibleWeapon" type="u8" arraylength="1" bitsize="1" sortid="250" defaultValue="0" defaultThreshold="True" />
+<field name="isSilence" type="u8" arraylength="1" bitsize="1" sortid="775" defaultValue="0" defaultThreshold="True" />
+<field name="isMidstFullbody" type="u8" arraylength="1" bitsize="1" sortid="1001" defaultValue="0" defaultThreshold="True" />
+<field name="isInitFullbody" type="u8" arraylength="1" bitsize="1" sortid="1401" defaultValue="0" defaultThreshold="True" />
+<field name="isFinishFullbody" type="u8" arraylength="1" bitsize="1" sortid="1801" defaultValue="0" defaultThreshold="True" />
+<field name="isVisibleDeadChr" type="u8" arraylength="1" bitsize="1" sortid="290" defaultValue="0" defaultThreshold="True" />
+<field name="isUseOffsetEnchantSfxSize" type="u8" arraylength="1" bitsize="1" sortid="350" defaultValue="0" defaultThreshold="True" />
+<field name="unknown_0x2f_7" type="u8" arraylength="1" bitsize="1" sortid="7201" defaultValue="0" defaultThreshold="True" />
+<field name="decalId1" type="s32" arraylength="1" bitsize="-1" sortid="2400" defaultValue="-1" defaultThreshold="True" />
+<field name="decalId2" type="s32" arraylength="1" bitsize="-1" sortid="2500" defaultValue="-1" defaultThreshold="True" />
+<field name="footEffectPriority" type="u8" arraylength="1" bitsize="-1" sortid="2600" defaultValue="0" defaultThreshold="True" />
+<field name="footEffectOffset" type="u8" arraylength="1" bitsize="-1" sortid="2610" defaultValue="0" defaultThreshold="True" />
+<field name="traceSfxIdOffsetType" type="u8" arraylength="1" bitsize="-1" sortid="260" defaultValue="0" defaultThreshold="True" />
+<field name="forceDeceasedType" type="u8" arraylength="1" bitsize="-1" sortid="7100" defaultValue="0" defaultThreshold="True" />
+<field name="enchantStartDmyId_0" type="s32" arraylength="1" bitsize="-1" sortid="2010" defaultValue="-1" defaultThreshold="True" />
+<field name="enchantEndDmyId_0" type="s32" arraylength="1" bitsize="-1" sortid="2011" defaultValue="-1" defaultThreshold="True" />
+<field name="enchantStartDmyId_1" type="s32" arraylength="1" bitsize="-1" sortid="2012" defaultValue="-1" defaultThreshold="True" />
+<field name="enchantEndDmyId_1" type="s32" arraylength="1" bitsize="-1" sortid="2013" defaultValue="-1" defaultThreshold="True" />
+<field name="enchantStartDmyId_2" type="s32" arraylength="1" bitsize="-1" sortid="2014" defaultValue="-1" defaultThreshold="True" />
+<field name="enchantEndDmyId_2" type="s32" arraylength="1" bitsize="-1" sortid="2015" defaultValue="-1" defaultThreshold="True" />
+<field name="enchantStartDmyId_3" type="s32" arraylength="1" bitsize="-1" sortid="2016" defaultValue="-1" defaultThreshold="True" />
+<field name="enchantEndDmyId_3" type="s32" arraylength="1" bitsize="-1" sortid="2017" defaultValue="-1" defaultThreshold="True" />
+<field name="enchantStartDmyId_4" type="s32" arraylength="1" bitsize="-1" sortid="2018" defaultValue="-1" defaultThreshold="True" />
+<field name="enchantEndDmyId_4" type="s32" arraylength="1" bitsize="-1" sortid="2019" defaultValue="-1" defaultThreshold="True" />
+<field name="enchantStartDmyId_5" type="s32" arraylength="1" bitsize="-1" sortid="2020" defaultValue="-1" defaultThreshold="True" />
+<field name="enchantEndDmyId_5" type="s32" arraylength="1" bitsize="-1" sortid="2021" defaultValue="-1" defaultThreshold="True" />
+<field name="enchantStartDmyId_6" type="s32" arraylength="1" bitsize="-1" sortid="2022" defaultValue="-1" defaultThreshold="True" />
+<field name="enchantEndDmyId_6" type="s32" arraylength="1" bitsize="-1" sortid="2023" defaultValue="-1" defaultThreshold="True" />
+<field name="enchantStartDmyId_7" type="s32" arraylength="1" bitsize="-1" sortid="2024" defaultValue="-1" defaultThreshold="True" />
+<field name="enchantEndDmyId_7" type="s32" arraylength="1" bitsize="-1" sortid="2025" defaultValue="-1" defaultThreshold="True" />
+<field name="SfxIdOffsetType" type="u8" arraylength="1" bitsize="-1" sortid="799" defaultValue="0" defaultThreshold="True" />
+<field name="phantomParamOverwriteType" type="u8" arraylength="1" bitsize="-1" sortid="270" defaultValue="0" defaultThreshold="True" />
+<field name="camouflageMinAlpha" type="u8" arraylength="1" bitsize="-1" sortid="760" defaultValue="0" defaultThreshold="True" />
+<field name="wetAspectType" type="u8" arraylength="1" bitsize="-1" sortid="7200" defaultValue="0" defaultThreshold="True" />
+<field name="phantomParamOverwriteId" type="s32" arraylength="1" bitsize="-1" sortid="280" defaultValue="0" defaultThreshold="True" />
+<field name="materialParamId" type="s32" arraylength="1" bitsize="-1" sortid="6000" defaultValue="-1" defaultThreshold="True" />
+<field name="materialParamInitValue" type="f32" arraylength="1" bitsize="-1" sortid="6100" defaultValue="0" defaultThreshold="True" />
+<field name="materialParamTargetValue" type="f32" arraylength="1" bitsize="-1" sortid="6200" defaultValue="0" defaultThreshold="True" />
+<field name="materialParamFadeTime" type="f32" arraylength="1" bitsize="-1" sortid="6300" defaultValue="0" defaultThreshold="True" />
+<field name="footDecalMaterialOffsetOverwriteId" type="s16" arraylength="1" bitsize="-1" sortid="7000" defaultValue="-1" defaultThreshold="True" />
+<field name="unknown_0x96" type="u8" arraylength="1" bitsize="-1" sortid="0" defaultValue="150" defaultThreshold="True" />
+<field name="unknown_0x97" type="u8" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" defaultThreshold="True" />
+<field name="unknown_0x98" type="u8" arraylength="1" bitsize="-1" sortid="0" defaultValue="150" defaultThreshold="True" />
+<field name="unknown_0x99" type="u8" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" defaultThreshold="True" />
+<field name="unknown_0x9a" type="u8" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" defaultThreshold="True" />
+<field name="pad" type="dummy8" arraylength="9" bitsize="-1" sortid="7202" defaultValue="[0|0|0|0|0|0|0|0|0]" defaultThreshold="True" />
+</fields>
+<rows>
+<row id="0" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="1" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="2" midstSfxId="4140" midstSeId="-1" midstDmyId="905" playCategory="4" playPriority="12" existEffectForLarge="1" footEffectOffset="1" />
+<row id="3" midstSfxId="890" midstSeId="-1" midstDmyId="200" playCategory="4" playPriority="3" />
+<row id="4" midstSfxId="815" midstSeId="-1" midstDmyId="220" existEffectForLarge="1" />
+<row id="5" midstSfxId="4200" midstSeId="-1" midstDmyId="905" playCategory="4" playPriority="11" existEffectForLarge="1" footEffectOffset="2" />
+<row id="6" midstSfxId="4080" midstSeId="-1" midstDmyId="220" existEffectForLarge="1" existEffectForSoul="1" isVisibleDeadChr="1" footEffectOffset="3" />
+<row id="8" midstSfxId="24027" midstSeId="-1" camouflageBeginDist="17" camouflageEndDist="12" midstDmyId="220" playCategory="3" playPriority="2" effectInvisibleAtCamouflage="1" useCamouflage="1" invisibleAtFriendCamouflage="1" halfCamouflage="1" />
+<row id="9" midstSfxId="20228" midstSeId="-1" midstDmyId="236" playCategory="3" playPriority="53" />
+<row id="10" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="11" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="12" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="13" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="14" midstSfxId="22223" midstSeId="-1" midstDmyId="200" />
+<row id="15" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="16" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="17" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="18" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="19" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playCategory="3" playPriority="255" />
+<row id="20" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playCategory="3" playPriority="255" />
+<row id="21" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playCategory="3" playPriority="255" />
+<row id="22" midstSfxId="22122" midstSeId="-1" midstDmyId="200" playCategory="3" playPriority="15" />
+<row id="23" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="24" midstSfxId="4260" midstSeId="23112" midstDmyId="220" playCategory="4" playPriority="21" existEffectForLarge="1" />
+<row id="25" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="26" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="27" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="28" midstSfxId="523102" midstSeId="523102" midstDmyId="18" effectType="1" soulParamIdForWepEnchant="1" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="29" midstSfxId="20252" midstSeId="20004" midstDmyId="200" playCategory="3" playPriority="51" />
+<row id="30" midstSfxId="197" midstSeId="-1" midstDmyId="200" playCategory="4" playPriority="5" />
+<row id="31" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="32" midstSfxId="195" midstSeId="-1" midstDmyId="200" playCategory="4" playPriority="6" />
+<row id="33" midstSfxId="196" midstSeId="-1" midstDmyId="200" playCategory="4" playPriority="7" />
+<row id="34" midstSfxId="30043" midstSeId="-1" midstDmyId="100" />
+<row id="35" midstSfxId="30013" midstSeId="-1" midstDmyId="104" />
+<row id="36" midstSfxId="630731" midstSeId="-1" midstDmyId="11" />
+<row id="37" midstSfxId="630731" midstSeId="-1" midstDmyId="100" />
+<row id="38" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="39" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="40" midstSfxId="20253" midstSeId="20004" midstDmyId="200" playCategory="3" playPriority="50" />
+<row id="41" midstSfxId="20211" midstSeId="21112" midstDmyId="200" playCategory="3" playPriority="52" />
+<row id="42" midstSfxId="525002" midstSeId="-1" midstDmyId="220" existEffectForLarge="1" />
+<row id="43" midstSfxId="16010" midstSeId="-1" midstDmyId="200" />
+<row id="44" midstSfxId="16011" midstSeId="-1" midstDmyId="200" />
+<row id="45" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="46" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playCategory="3" playPriority="255" />
+<row id="47" midstSfxId="20244" midstSeId="20005" midstDmyId="212" playCategory="3" playPriority="255" />
+<row id="48" midstSfxId="24003" midstSeId="-1" midstDmyId="220" playCategory="3" playPriority="41" />
+<row id="49" midstSfxId="24004" midstSeId="-1" midstDmyId="220" playCategory="3" playPriority="40" />
+<row id="50" midstSfxId="525042" midstSeId="-1" initSfxId="525006" midstDmyId="220" initDmyId="220" playCategory="3" playPriority="90" />
+<row id="51" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="52" midstSfxId="24012" midstSeId="-1" midstDmyId="220" playCategory="3" playPriority="91" />
+<row id="53" midstSfxId="24030" midstSeId="-1" midstDmyId="200" playCategory="3" playPriority="5" effectInvisibleAtCamouflage="1" useCamouflage="1" invisibleAtFriendCamouflage="1" halfCamouflage="1" />
+<row id="54" midstSfxId="20208" midstSeId="-1" midstDmyId="212" playCategory="3" playPriority="180" isSilence="1" />
+<row id="55" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="56" midstSfxId="890" midstSeId="-1" midstDmyId="202" playCategory="4" playPriority="4" />
+<row id="57" midstSfxId="202" midstSeId="-1" midstDmyId="50" />
+<row id="58" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="59" midstSfxId="35" midstSeId="-1" midstDmyId="220" />
+<row id="60" midstSfxId="20279" midstSeId="-1" midstDmyId="206" effectType="1" soulParamIdForWepEnchant="4" />
+<row id="61" midstSfxId="303131" midstSeId="303131" midstDmyId="-1" effectType="1" soulParamIdForWepEnchant="10" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="10" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="62" midstSfxId="303001" midstSeId="303001" midstDmyId="-1" effectType="1" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="2" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="63" midstSfxId="20242" midstSeId="-1" midstDmyId="206" effectType="2" soulParamIdForWepEnchant="4" />
+<row id="64" midstSfxId="303071" midstSeId="303071" midstDmyId="-1" effectType="1" soulParamIdForWepEnchant="1" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="1" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="65" midstSfxId="13045" midstSeId="-1" midstDmyId="20" />
+<row id="66" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playCategory="3" playPriority="255" />
+<row id="67" midstSfxId="24006" midstSeId="-1" midstDmyId="220" playCategory="3" playPriority="100" />
+<row id="68" midstSfxId="23228" midstSeId="-1" finishSfxId="23328" midstDmyId="200" finishDmyId="200" playCategory="3" playPriority="101" />
+<row id="69" midstSfxId="20250" midstSeId="-1" midstDmyId="220" playCategory="3" playPriority="80" />
+<row id="70" midstSfxId="24009" midstSeId="-1" midstDmyId="200" playCategory="3" playPriority="151" />
+<row id="71" midstSfxId="24010" midstSeId="-1" midstDmyId="200" playCategory="3" playPriority="71" />
+<row id="72" midstSfxId="24011" midstSeId="-1" midstDmyId="200" playCategory="3" playPriority="70" />
+<row id="73" midstSfxId="24025" midstSeId="-1" midstDmyId="200" playCategory="3" playPriority="152" />
+<row id="74" midstSfxId="24026" midstSeId="-1" midstDmyId="200" playCategory="3" playPriority="150" />
+<row id="75" midstSfxId="301022" midstSeId="301022" midstDmyId="220" playCategory="3" playPriority="140" />
+<row id="76" midstSfxId="24021" midstSeId="-1" midstDmyId="7" playCategory="3" playPriority="160" />
+<row id="77" midstSfxId="24008" midstSeId="-1" midstDmyId="200" playCategory="3" playPriority="71" />
+<row id="78" midstSfxId="30013" midstSeId="-1" midstDmyId="107" />
+<row id="79" midstSfxId="30013" midstSeId="-1" midstDmyId="109" />
+<row id="80" midstSfxId="14997" midstSeId="-1" midstDmyId="225" />
+<row id="91" midstSfxId="30052" midstSeId="-1" midstDmyId="158" />
+<row id="92" midstSfxId="630740" midstSeId="-1" finishSfxId="630706" midstDmyId="100" finishDmyId="100" />
+<row id="93" midstSfxId="630701" midstSeId="-1" finishSfxId="630707" midstDmyId="100" finishDmyId="100" />
+<row id="94" midstSfxId="630702" midstSeId="-1" finishSfxId="630708" midstDmyId="100" finishDmyId="100" />
+<row id="95" midstSfxId="1" midstSeId="-1" finishSfxId="2" midstDmyId="-1" playCategory="3" playPriority="1" useCamouflage="1" invisibleAtFriendCamouflage="1" />
+<row id="96" midstSfxId="-1" midstSeId="-1" initSfxId="840" transformProtectorId="900000" midstDmyId="-1" initDmyId="7" playCategory="2" playPriority="2" />
+<row id="97" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="98" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="99" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="100" midstSfxId="213" midstSeId="-1" midstDmyId="220" />
+<row id="101" midstSfxId="212" midstSeId="-1" midstDmyId="220" />
+<row id="102" midstSfxId="870" midstSeId="-1" midstDmyId="220" playCategory="4" playPriority="22" existEffectForLarge="1" />
+<row id="103" midstSfxId="12210" midstSeId="-1" midstDmyId="7" />
+<row id="104" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="105" midstSfxId="129102" midstSeId="-1" midstDmyId="7" />
+<row id="106" midstSfxId="129200" midstSeId="-1" midstDmyId="7" />
+<row id="107" midstSfxId="129200" midstSeId="-1" midstDmyId="230" />
+<row id="108" midstSfxId="12212" midstSeId="-1" initSfxId="12211" midstDmyId="220" initDmyId="220" playCategory="4" playPriority="2" />
+<row id="109" midstSfxId="12213" midstSeId="221000003" midstDmyId="220" playCategory="4" playPriority="1" />
+<row id="110" midstSfxId="24003" midstSeId="-1" midstDmyId="220" />
+<row id="111" midstSfxId="620000" midstSeId="-1" midstDmyId="4" />
+<row id="112" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="113" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="114" midstSfxId="-1" midstSeId="-1" initSfxId="107" finishSfxId="108" transformProtectorId="1010000" midstDmyId="-1" initDmyId="7" finishDmyId="7" playCategory="2" playPriority="1" />
+<row id="115" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="116" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" footEffectOffset="4" />
+<row id="117" midstSfxId="900" midstSeId="-1" midstDmyId="200" />
+<row id="118" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="119" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="120" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="121" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="122" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="123" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="124" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="125" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="126" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="127" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="128" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="129" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="130" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="131" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="132" midstSfxId="901" midstSeId="-1" midstDmyId="199" playCategory="4" playPriority="19" />
+<row id="133" midstSfxId="20238" midstSeId="-1" midstDmyId="-1" playCategory="3" playPriority="200" />
+<row id="134" midstSfxId="-1" midstSeId="-1" initSfxId="20137" finishSfxId="20237" midstDmyId="-1" initDmyId="7" finishDmyId="7" />
+<row id="135" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="136" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="137" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="138" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="139" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="140" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="141" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="142" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="143" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="144" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="145" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="146" midstSfxId="-1" midstSeId="-1" initSfxId="20343" midstDmyId="-1" initDmyId="206" />
+<row id="147" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="148" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="149" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="150" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="151" midstSfxId="303011" midstSeId="303011" midstDmyId="-1" effectType="1" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="3" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="152" midstSfxId="303061" midstSeId="303061" midstDmyId="-1" effectType="1" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="5" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="153" midstSfxId="20255" midstSeId="-1" midstDmyId="206" effectType="1" traceSfxIdOffsetType="14" />
+<row id="154" midstSfxId="300363" midstSeId="-1" midstDmyId="8" playCategory="4" playPriority="21" existEffectForLarge="1" />
+<row id="155" midstSfxId="24023" midstSeId="-1" midstDmyId="220" playCategory="3" playPriority="55" />
+<row id="156" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="157" midstSfxId="22825" midstSeId="-1" midstDmyId="220" playCategory="3" playPriority="10" />
+<row id="158" midstSfxId="523302" midstSeId="-1" midstDmyId="19" />
+<row id="159" midstSfxId="-1" midstSeId="-1" midstDmyId="3" />
+<row id="160" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="161" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="162" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="163" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="164" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="165" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="166" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="167" midstSfxId="-1" midstSeId="-1" initSfxId="840" transformProtectorId="900000" midstDmyId="-1" initDmyId="8" playCategory="1" playPriority="1" isFullBodyTransformProtectorId="1" />
+<row id="168" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="169" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="170" midstSfxId="20254" midstSeId="-1" midstDmyId="220" playCategory="3" playPriority="20" />
+<row id="171" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="172" midstSfxId="129103" midstSeId="-1" midstDmyId="200" />
+<row id="173" midstSfxId="129102" midstSeId="-1" midstDmyId="200" />
+<row id="174" midstSfxId="129101" midstSeId="-1" midstDmyId="200" />
+<row id="175" midstSfxId="130021" midstSeId="-1" midstDmyId="90" />
+<row id="176" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="177" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="178" midstSfxId="820" midstSeId="-1" midstDmyId="220" existEffectForLarge="1" />
+<row id="179" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" footEffectOffset="4" />
+<row id="180" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" footEffectOffset="4" />
+<row id="181" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" footEffectOffset="4" />
+<row id="182" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" footEffectOffset="4" />
+<row id="183" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="184" midstSfxId="20209" midstSeId="-1" finishSfxId="20209" midstDmyId="206" finishDmyId="206" effectType="1" isInvisibleWeapon="1" />
+<row id="185" midstSfxId="22887" midstSeId="-1" midstDmyId="220" />
+<row id="186" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="187" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="188" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="189" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="190" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="191" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="192" midstSfxId="-1" midstSeId="-1" initSfxId="107" finishSfxId="108" transformProtectorId="1020000" midstDmyId="-1" initDmyId="7" finishDmyId="7" playCategory="2" playPriority="1" />
+<row id="193" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="194" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="195" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="196" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="197" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="198" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="199" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="200" midstSfxId="20221" midstSeId="-1" midstDmyId="200" playCategory="3" playPriority="49" />
+<row id="201" midstSfxId="20256" midstSeId="23112" midstDmyId="236" />
+<row id="202" midstSfxId="825" midstSeId="-1" midstDmyId="220" playCategory="3" playPriority="9" />
+<row id="203" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="204" midstSfxId="20242" midstSeId="-1" midstDmyId="206" effectType="2" soulParamIdForWepEnchant="4" />
+<row id="205" midstSfxId="303131" midstSeId="303131" midstDmyId="-1" effectType="1" soulParamIdForWepEnchant="10" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="10" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="206" midstSfxId="16120" midstSeId="16120" midstDmyId="190" />
+<row id="207" midstSfxId="15371" midstSeId="-1" midstDmyId="190" />
+<row id="208" midstSfxId="16124" midstSeId="16120" midstDmyId="190" />
+<row id="209" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="210" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="211" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="212" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="213" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="214" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="215" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="216" midstSfxId="650190" midstSeId="-1" midstDmyId="6" />
+<row id="217" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="218" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="219" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="220" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="221" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="222" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="223" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="224" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="225" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="226" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="227" midstSfxId="52" midstSeId="-1" midstDmyId="7" />
+<row id="228" midstSfxId="52" midstSeId="-1" midstDmyId="1" />
+<row id="229" midstSfxId="52" midstSeId="-1" midstDmyId="2" />
+<row id="230" midstSfxId="52" midstSeId="-1" midstDmyId="3" />
+<row id="231" midstSfxId="52" midstSeId="-1" midstDmyId="4" />
+<row id="232" midstSfxId="18140" midstSeId="-1" midstDmyId="80" />
+<row id="233" midstSfxId="18140" midstSeId="-1" midstDmyId="11" />
+<row id="234" midstSfxId="18140" midstSeId="-1" midstDmyId="12" />
+<row id="235" midstSfxId="18140" midstSeId="-1" midstDmyId="13" />
+<row id="236" midstSfxId="18140" midstSeId="-1" midstDmyId="14" />
+<row id="237" midstSfxId="24032" midstSeId="-1" midstDmyId="211" />
+<row id="238" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" footEffectOffset="9" />
+<row id="239" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" footEffectOffset="9" />
+<row id="240" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" footEffectOffset="9" />
+<row id="241" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" footEffectOffset="9" />
+<row id="242" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" footEffectOffset="9" />
+<row id="243" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" footEffectOffset="9" />
+<row id="244" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" footEffectOffset="9" />
+<row id="245" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" footEffectOffset="9" />
+<row id="246" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" footEffectOffset="9" />
+<row id="247" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" footEffectOffset="9" />
+<row id="248" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" footEffectOffset="9" />
+<row id="249" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" footEffectOffset="9" />
+<row id="250" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" footEffectOffset="9" />
+<row id="251" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" footEffectOffset="9" />
+<row id="252" midstSfxId="4130" midstSeId="-1" midstDmyId="905" playCategory="7" playPriority="20" existEffectForLarge="1" footEffectOffset="9" wetAspectType="5" />
+<row id="253" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" footEffectOffset="9" />
+<row id="254" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" footEffectOffset="9" />
+<row id="255" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" footEffectOffset="9" />
+<row id="256" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" footEffectOffset="9" />
+<row id="257" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" footEffectOffset="9" />
+<row id="258" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" footEffectOffset="9" />
+<row id="259" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" footEffectOffset="9" />
+<row id="260" midstSfxId="4270" midstSeId="-1" midstDmyId="905" existEffectForLarge="1" isVisibleDeadChr="1" footEffectOffset="1" wetAspectType="4" />
+<row id="261" midstSfxId="894" midstSeId="-1" initSfxId="890" finishSfxId="895" midstDmyId="198" initDmyId="198" finishDmyId="198" footEffectOffset="5" />
+<row id="262" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="263" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="264" midstSfxId="1002230" midstSeId="-1" midstDmyId="220" playCategory="4" playPriority="44" />
+<row id="265" midstSfxId="1002231" midstSeId="-1" midstDmyId="220" playCategory="4" playPriority="45" />
+<row id="266" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="267" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="268" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="269" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="270" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="271" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="272" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="273" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="274" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="1000" midstSfxId="171" midstSeId="-1" midstDmyId="220" isMidstFullbody="1" />
+<row id="4000" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" effectInvisibleAtCamouflage="1" materialParamId="800027" materialParamInitValue="1" materialParamTargetValue="1" footDecalMaterialOffsetOverwriteId="0" />
+<row id="4010" midstSfxId="-1" midstSeId="440082" midstDmyId="401" />
+<row id="4500" midstSfxId="-1" midstSeId="-1" midstDmyId="220" effectInvisibleAtCamouflage="1" footDecalMaterialOffsetOverwriteId="0" />
+<row id="4505" midstSfxId="-1" midstSeId="-1" midstDmyId="220" footDecalMaterialOffsetOverwriteId="0" />
+<row id="4510" midstSfxId="320020" midstSeId="-1" midstDmyId="220" footDecalMaterialOffsetOverwriteId="0" />
+<row id="4515" midstSfxId="320030" midstSeId="-1" midstDmyId="220" footDecalMaterialOffsetOverwriteId="0" />
+<row id="4520" midstSfxId="-1" midstSeId="-1" midstDmyId="220" footDecalMaterialOffsetOverwriteId="0" />
+<row id="4525" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playCategory="3" playPriority="160" isSilence="1" footDecalMaterialOffsetOverwriteId="0" />
+<row id="4530" midstSfxId="-1" midstSeId="-1" midstDmyId="220" footDecalMaterialOffsetOverwriteId="0" />
+<row id="4535" midstSfxId="-1" midstSeId="-1" midstDmyId="220" footDecalMaterialOffsetOverwriteId="0" />
+<row id="4540" midstSfxId="-1" midstSeId="-1" midstDmyId="7" footDecalMaterialOffsetOverwriteId="0" />
+<row id="4545" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" forceDeceasedType="1" phantomParamOverwriteType="2" phantomParamOverwriteId="80" footDecalMaterialOffsetOverwriteId="0" />
+<row id="4550" midstSfxId="-1" midstSeId="-1" initSfxId="320090" finishSfxId="320091" midstDmyId="-1" initDmyId="900" finishDmyId="900" useCamouflage="1" invisibleAtFriendCamouflage="1" footDecalMaterialOffsetOverwriteId="0" />
+<row id="4555" midstSfxId="-1" midstSeId="-1" midstDmyId="220" footDecalMaterialOffsetOverwriteId="0" />
+<row id="4560" midstSfxId="-1" midstSeId="-1" midstDmyId="220" footDecalMaterialOffsetOverwriteId="0" />
+<row id="4565" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" forceDeceasedType="1" phantomParamOverwriteType="2" footDecalMaterialOffsetOverwriteId="0" />
+<row id="4570" midstSfxId="-1" midstSeId="-1" camouflageBeginDist="17" camouflageEndDist="16" midstDmyId="220" playCategory="1" playPriority="3" useCamouflage="1" footDecalMaterialOffsetOverwriteId="0" />
+<row id="4575" midstSfxId="320160" midstSeId="-1" midstDmyId="220" footDecalMaterialOffsetOverwriteId="0" />
+<row id="4580" midstSfxId="320160" midstSeId="-1" midstDmyId="220" footDecalMaterialOffsetOverwriteId="0" />
+<row id="4585" midstSfxId="320170" midstSeId="-1" midstDmyId="220" footDecalMaterialOffsetOverwriteId="0" />
+<row id="4590" midstSfxId="320020" midstSeId="-1" midstDmyId="220" playCategory="3" playPriority="40" footDecalMaterialOffsetOverwriteId="0" />
+<row id="4595" midstSfxId="320030" midstSeId="-1" midstDmyId="220" playCategory="3" playPriority="41" footDecalMaterialOffsetOverwriteId="0" />
+<row id="4600" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" footDecalMaterialOffsetOverwriteId="0" />
+<row id="4605" midstSfxId="320140" midstSeId="-1" midstDmyId="220" playCategory="3" playPriority="44" footDecalMaterialOffsetOverwriteId="0" />
+<row id="4610" midstSfxId="320180" midstSeId="-1" midstDmyId="220" footDecalMaterialOffsetOverwriteId="0" />
+<row id="4615" midstSfxId="-1" midstSeId="-1" midstDmyId="220" footDecalMaterialOffsetOverwriteId="0" />
+<row id="4620" midstSfxId="524402" midstSeId="524402" midstDmyId="200" playCategory="3" playPriority="45" isMidstFullbody="1" />
+<row id="5000" midstSfxId="402000" midstSeId="-1" midstDmyId="64" effectType="2" enchantStartDmyId_0="206" enchantEndDmyId_0="206" />
+<row id="5001" midstSfxId="130010" midstSeId="-1" midstDmyId="3" />
+<row id="5010" midstSfxId="300183" midstSeId="-1" midstDmyId="220" />
+<row id="5011" midstSfxId="300183" midstSeId="-1" midstDmyId="220" />
+<row id="5012" midstSfxId="300183" midstSeId="-1" midstDmyId="220" />
+<row id="5020" midstSfxId="-1" midstSeId="-1" initSfxId="300373" midstDmyId="-1" initDmyId="205" />
+<row id="5021" midstSfxId="4860" midstSeId="-1" midstDmyId="905" existEffectForLarge="1" />
+<row id="5022" midstSfxId="4865" midstSeId="-1" midstDmyId="199" />
+<row id="5030" midstSfxId="301002" midstSeId="-1" midstDmyId="220" isMidstFullbody="1" />
+<row id="5031" midstSfxId="-1" midstSeId="-1" initSfxId="302901" midstDmyId="-1" initDmyId="907" />
+<row id="5032" midstSfxId="-1" midstSeId="-1" initSfxId="302911" midstDmyId="-1" initDmyId="907" />
+<row id="5033" midstSfxId="-1" midstSeId="-1" initSfxId="302921" midstDmyId="-1" initDmyId="907" />
+<row id="5035" midstSfxId="304665" midstSeId="-1" midstDmyId="220" footDecalMaterialOffsetOverwriteId="0" />
+<row id="5036" midstSfxId="4910" midstSeId="100004910" midstDmyId="905" existEffectForLarge="1" />
+<row id="5037" midstSfxId="4900" midstSeId="100004900" midstDmyId="905" existEffectForLarge="1" />
+<row id="5043" midstSfxId="304620" midstSeId="-1" midstDmyId="220" footDecalMaterialOffsetOverwriteId="0" />
+<row id="5044" midstSfxId="304675" midstSeId="-1" initSfxId="320160" midstDmyId="220" initDmyId="220" footDecalMaterialOffsetOverwriteId="0" />
+<row id="5045" midstSfxId="4910" midstSeId="100004910" midstDmyId="905" existEffectForLarge="1" />
+<row id="5046" midstSfxId="4900" midstSeId="100004900" midstDmyId="905" existEffectForLarge="1" />
+<row id="5050" midstSfxId="-1" midstSeId="-1" initSfxId="304571" midstDmyId="-1" initDmyId="905" />
+<row id="5051" midstSfxId="-1" midstSeId="-1" initSfxId="304511" midstDmyId="-1" initDmyId="905" />
+<row id="5052" midstSfxId="-1" midstSeId="-1" initSfxId="304541" midstDmyId="-1" initDmyId="905" />
+<row id="5053" midstSfxId="-1" midstSeId="-1" initSfxId="304551" midstDmyId="-1" initDmyId="905" />
+<row id="5054" midstSfxId="-1" midstSeId="-1" initSfxId="304521" midstDmyId="-1" initDmyId="905" />
+<row id="5055" midstSfxId="-1" midstSeId="-1" initSfxId="304561" midstDmyId="-1" initDmyId="905" />
+<row id="5056" midstSfxId="-1" midstSeId="-1" initSfxId="304531" midstDmyId="-1" initDmyId="905" />
+<row id="5090" midstSfxId="303091" midstSeId="303091" midstDmyId="-1" effectType="1" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="11" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="5091" midstSfxId="303101" midstSeId="303101" midstDmyId="-1" effectType="1" soulParamIdForWepEnchant="12" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="12" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="5092" midstSfxId="303111" midstSeId="303111" midstDmyId="-1" effectType="1" soulParamIdForWepEnchant="6" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="6" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="5093" midstSfxId="303181" midstSeId="303181" midstDmyId="-1" effectType="1" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="16" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="5094" midstSfxId="303191" midstSeId="303191" midstDmyId="-1" effectType="1" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="14" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="5100" midstSfxId="303001" midstSeId="303001" midstDmyId="-1" effectType="2" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="2" enchantStartDmyId_0="20300" enchantStartDmyId_1="21300" enchantStartDmyId_2="20310" enchantStartDmyId_3="21310" enchantStartDmyId_4="20320" enchantStartDmyId_5="21320" enchantStartDmyId_6="20330" enchantStartDmyId_7="21330" />
+<row id="5105" midstSfxId="303011" midstSeId="303011" midstDmyId="-1" effectType="2" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="3" enchantStartDmyId_0="20300" enchantStartDmyId_1="21300" enchantStartDmyId_2="20310" enchantStartDmyId_3="21310" enchantStartDmyId_4="20320" enchantStartDmyId_5="21320" enchantStartDmyId_6="20330" enchantStartDmyId_7="21330" />
+<row id="5110" midstSfxId="303061" midstSeId="303061" midstDmyId="-1" effectType="2" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="5" enchantStartDmyId_0="20300" enchantStartDmyId_1="21300" enchantStartDmyId_2="20310" enchantStartDmyId_3="21310" enchantStartDmyId_4="20320" enchantStartDmyId_5="21320" enchantStartDmyId_6="20330" enchantStartDmyId_7="21330" />
+<row id="5115" midstSfxId="303071" midstSeId="303071" midstDmyId="-1" effectType="2" soulParamIdForWepEnchant="1" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="1" enchantStartDmyId_0="20300" enchantStartDmyId_1="21300" enchantStartDmyId_2="20310" enchantStartDmyId_3="21310" enchantStartDmyId_4="20320" enchantStartDmyId_5="21320" enchantStartDmyId_6="20330" enchantStartDmyId_7="21330" />
+<row id="5120" midstSfxId="303131" midstSeId="303131" midstDmyId="-1" effectType="2" soulParamIdForWepEnchant="10" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="10" enchantStartDmyId_0="20300" enchantStartDmyId_1="21300" enchantStartDmyId_2="20310" enchantStartDmyId_3="21310" enchantStartDmyId_4="20320" enchantStartDmyId_5="21320" enchantStartDmyId_6="20330" enchantStartDmyId_7="21330" />
+<row id="5125" midstSfxId="303091" midstSeId="303091" midstDmyId="-1" effectType="2" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="11" enchantStartDmyId_0="20300" enchantStartDmyId_1="21300" enchantStartDmyId_2="20310" enchantStartDmyId_3="21310" enchantStartDmyId_4="20320" enchantStartDmyId_5="21320" enchantStartDmyId_6="20330" enchantStartDmyId_7="21330" />
+<row id="5130" midstSfxId="303101" midstSeId="303101" midstDmyId="-1" effectType="2" soulParamIdForWepEnchant="12" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="12" enchantStartDmyId_0="20300" enchantStartDmyId_1="21300" enchantStartDmyId_2="20310" enchantStartDmyId_3="21310" enchantStartDmyId_4="20320" enchantStartDmyId_5="21320" enchantStartDmyId_6="20330" enchantStartDmyId_7="21330" />
+<row id="5135" midstSfxId="303111" midstSeId="303111" midstDmyId="-1" effectType="2" soulParamIdForWepEnchant="6" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="6" enchantStartDmyId_0="20300" enchantStartDmyId_1="21300" enchantStartDmyId_2="20310" enchantStartDmyId_3="21310" enchantStartDmyId_4="20320" enchantStartDmyId_5="21320" enchantStartDmyId_6="20330" enchantStartDmyId_7="21330" />
+<row id="5140" midstSfxId="303131" midstSeId="303131" midstDmyId="-1" effectType="2" soulParamIdForWepEnchant="10" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="10" enchantStartDmyId_0="20300" enchantStartDmyId_1="21300" enchantStartDmyId_2="20310" enchantStartDmyId_3="21310" enchantStartDmyId_4="20320" enchantStartDmyId_5="21320" enchantStartDmyId_6="20330" enchantStartDmyId_7="21330" />
+<row id="5145" midstSfxId="303181" midstSeId="303181" midstDmyId="-1" effectType="2" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="16" enchantStartDmyId_0="20300" enchantStartDmyId_1="21300" enchantStartDmyId_2="20310" enchantStartDmyId_3="21310" enchantStartDmyId_4="20320" enchantStartDmyId_5="21320" enchantStartDmyId_6="20330" enchantStartDmyId_7="21330" />
+<row id="5150" midstSfxId="303191" midstSeId="303191" midstDmyId="-1" effectType="2" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="14" enchantStartDmyId_0="20300" enchantStartDmyId_1="21300" enchantStartDmyId_2="20310" enchantStartDmyId_3="21310" enchantStartDmyId_4="20320" enchantStartDmyId_5="21320" enchantStartDmyId_6="20330" enchantStartDmyId_7="21330" />
+<row id="5160" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" effectType="1" soulParamIdForWepEnchant="1" traceSfxIdOffsetType="1" />
+<row id="5165" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" effectType="2" soulParamIdForWepEnchant="1" traceSfxIdOffsetType="1" />
+<row id="5190" midstSfxId="4090" midstSeId="-1" midstDmyId="907" existEffectForLarge="1" />
+<row id="5200" midstSfxId="301282" midstSeId="-1" midstDmyId="200" playCategory="3" playPriority="70" isMidstFullbody="1" />
+<row id="5210" midstSfxId="4720" midstSeId="-1" midstDmyId="905" playCategory="3" playPriority="70" />
+<row id="5220" midstSfxId="301292" midstSeId="-1" midstDmyId="200" playCategory="3" playPriority="70" isMidstFullbody="1" />
+<row id="5230" midstSfxId="301312" midstSeId="-1" midstDmyId="200" playCategory="3" playPriority="70" isMidstFullbody="1" />
+<row id="5270" midstSfxId="-1" midstSeId="-1" finishSfxId="300552" finishSeId="300552" midstDmyId="-1" finishDmyId="200" playCategory="7" playPriority="6" isFinishFullbody="1" wetAspectType="7" />
+<row id="5271" midstSfxId="300552" midstSeId="-1" initSfxId="300551" midstDmyId="200" initDmyId="220" isMidstFullbody="1" />
+<row id="5280" midstSfxId="4530" midstSeId="-1" midstDmyId="905" playCategory="3" playPriority="60" isFinishFullbody="1" />
+<row id="5281" midstSfxId="-1" midstSeId="-1" initSfxId="300561" midstDmyId="-1" initDmyId="220" isFinishFullbody="1" />
+<row id="5302" midstSfxId="300552" midstSeId="-1" initSfxId="300551" midstDmyId="200" initDmyId="220" playCategory="7" playPriority="6" isMidstFullbody="1" wetAspectType="7" />
+<row id="5303" midstSfxId="4530" midstSeId="-1" initSfxId="300561" midstDmyId="905" initDmyId="220" playCategory="3" playPriority="60" isFinishFullbody="1" />
+<row id="5304" midstSfxId="4610" midstSeId="-1" midstDmyId="220" existEffectForLarge="1" isMidstFullbody="1" isInitFullbody="1" isFinishFullbody="1" />
+<row id="5306" midstSfxId="4750" midstSeId="300541" midstDmyId="905" playCategory="3" playPriority="21" existEffectForLarge="1" />
+<row id="5307" midstSfxId="4500" midstSeId="-1" initSfxId="300541" midstDmyId="905" initDmyId="905" playCategory="3" playPriority="40" existEffectForLarge="1" />
+<row id="5308" midstSfxId="4610" midstSeId="-1" midstDmyId="220" existEffectForLarge="1" />
+<row id="5309" midstSfxId="4225" midstSeId="-1" midstDmyId="845" existEffectForLarge="1" />
+<row id="5310" midstSfxId="302212" midstSeId="523542" midstDmyId="212" playCategory="1" playPriority="20" isSilence="1" />
+<row id="5311" midstSfxId="302213" midstSeId="523542" midstDmyId="1" isSilence="1" />
+<row id="5312" midstSfxId="302213" midstSeId="-1" midstDmyId="2" isSilence="1" />
+<row id="5313" midstSfxId="302213" midstSeId="-1" midstDmyId="3" isSilence="1" />
+<row id="5314" midstSfxId="302213" midstSeId="-1" midstDmyId="4" isSilence="1" />
+<row id="5320" midstSfxId="300642" midstSeId="-1" initSfxId="300641" midstDmyId="200" initDmyId="220" playCategory="7" playPriority="7" isMidstFullbody="1" wetAspectType="1" />
+<row id="5321" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playCategory="7" playPriority="7" wetAspectType="1" />
+<row id="5330" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" finishDmyId="220" playCategory="3" playPriority="10" useCamouflage="1" invisibleAtFriendCamouflage="1" isHideFootEffect_forCamouflage="1" isSilence="1" SfxIdOffsetType="2" />
+<row id="5331" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playCategory="1" playPriority="10" />
+<row id="5350" midstSfxId="4500" midstSeId="-1" midstDmyId="905" playCategory="3" playPriority="60" isFinishFullbody="1" />
+<row id="5352" midstSfxId="301202" midstSeId="-1" midstDmyId="220" playCategory="3" playPriority="80" isMidstFullbody="1" isInitFullbody="1" isFinishFullbody="1" />
+<row id="5354" midstSfxId="301212" midstSeId="-1" midstDmyId="905" playCategory="3" playPriority="70" isInitFullbody="1" isFinishFullbody="1" />
+<row id="5356" midstSfxId="301222" midstSeId="-1" midstDmyId="905" playCategory="3" playPriority="70" isInitFullbody="1" isFinishFullbody="1" />
+<row id="5358" midstSfxId="301232" midstSeId="-1" midstDmyId="905" playCategory="3" playPriority="70" isInitFullbody="1" isFinishFullbody="1" />
+<row id="5360" midstSfxId="301242" midstSeId="-1" midstDmyId="905" playCategory="3" playPriority="70" isInitFullbody="1" isFinishFullbody="1" />
+<row id="5362" midstSfxId="301252" midstSeId="-1" midstDmyId="220" playCategory="3" playPriority="100" isMidstFullbody="1" isInitFullbody="1" isFinishFullbody="1" />
+<row id="5364" midstSfxId="301262" midstSeId="-1" midstDmyId="220" playCategory="3" playPriority="100" isMidstFullbody="1" isInitFullbody="1" isFinishFullbody="1" />
+<row id="5366" midstSfxId="301232" midstSeId="-1" initSfxId="528152" midstDmyId="905" initDmyId="220" playCategory="3" playPriority="90" />
+<row id="5370" midstSfxId="301352" midstSeId="-1" initSfxId="301351" midstDmyId="905" initDmyId="905" playCategory="3" playPriority="70" footDecalMaterialOffsetOverwriteId="0" />
+<row id="5372" midstSfxId="301362" midstSeId="-1" initSfxId="301361" midstDmyId="905" initDmyId="905" playCategory="3" playPriority="70" footDecalMaterialOffsetOverwriteId="0" />
+<row id="5374" midstSfxId="301602" midstSeId="-1" midstDmyId="220" footDecalMaterialOffsetOverwriteId="0" />
+<row id="5376" midstSfxId="-1" midstSeId="-1" initSfxId="302181" midstDmyId="-1" initDmyId="7" />
+<row id="5380" midstSfxId="4190" midstSeId="-1" midstDmyId="7" playCategory="4" playPriority="65" existEffectForLarge="1" isMidstFullbody="1" />
+<row id="5385" midstSfxId="4100" midstSeId="-1" midstDmyId="7" playCategory="4" playPriority="65" existEffectForLarge="1" isMidstFullbody="1" />
+<row id="5386" midstSfxId="4240" midstSeId="-1" midstDmyId="7" playCategory="4" playPriority="65" existEffectForLarge="1" isMidstFullbody="1" />
+<row id="5400" midstSfxId="302420" midstSeId="-1" midstDmyId="160" />
+<row id="5401" midstSfxId="302421" midstSeId="-1" midstDmyId="160" />
+<row id="5505" midstSfxId="331201" midstSeId="-1" midstDmyId="200" isMidstFullbody="1" />
+<row id="5507" midstSfxId="330000" midstSeId="-1" midstDmyId="220" />
+<row id="5520" midstSfxId="331211" midstSeId="-1" midstDmyId="220" isMidstFullbody="1" isInitFullbody="1" isFinishFullbody="1" />
+<row id="5530" midstSfxId="331301" midstSeId="-1" midstDmyId="200" isMidstFullbody="1" isInitFullbody="1" isFinishFullbody="1" />
+<row id="5600" midstSfxId="302152" midstSeId="302152" midstDmyId="200" playCategory="3" playPriority="70" isMidstFullbody="1" isInitFullbody="1" isFinishFullbody="1" />
+<row id="5610" midstSfxId="301372" midstSeId="302152" midstDmyId="200" playCategory="3" playPriority="70" isMidstFullbody="1" isInitFullbody="1" isFinishFullbody="1" />
+<row id="5700" midstSfxId="4110" midstSeId="-1" midstDmyId="905" playCategory="4" playPriority="34" existEffectForLarge="1" />
+<row id="5800" midstSfxId="4500" midstSeId="-1" midstDmyId="905" isFinishFullbody="1" />
+<row id="5801" midstSfxId="333201" midstSeId="-1" midstDmyId="905" isFinishFullbody="1" />
+<row id="5802" midstSfxId="331901" midstSeId="-1" midstDmyId="905" isFinishFullbody="1" />
+<row id="5803" midstSfxId="333001" midstSeId="-1" midstDmyId="905" isFinishFullbody="1" />
+<row id="5804" midstSfxId="333101" midstSeId="-1" midstDmyId="905" isFinishFullbody="1" />
+<row id="5805" midstSfxId="331801" midstSeId="-1" midstDmyId="905" isFinishFullbody="1" />
+<row id="5806" midstSfxId="4500" midstSeId="-1" midstDmyId="905" isFinishFullbody="1" />
+<row id="5807" midstSfxId="332202" midstSeId="-1" midstDmyId="905" isFinishFullbody="1" />
+<row id="5820" midstSfxId="301352" midstSeId="-1" midstDmyId="905" playCategory="3" playPriority="70" isFinishFullbody="1" />
+<row id="5821" midstSfxId="4720" midstSeId="-1" midstDmyId="905" playCategory="3" playPriority="70" />
+<row id="5822" midstSfxId="4710" midstSeId="-1" midstDmyId="905" playCategory="3" playPriority="70" isFinishFullbody="1" />
+<row id="5823" midstSfxId="4730" midstSeId="-1" midstDmyId="905" playCategory="3" playPriority="70" isFinishFullbody="1" />
+<row id="5824" midstSfxId="4740" midstSeId="-1" midstDmyId="905" playCategory="3" playPriority="70" isFinishFullbody="1" />
+<row id="5825" midstSfxId="331501" midstSeId="-1" midstDmyId="905" isFinishFullbody="1" />
+<row id="5826" midstSfxId="331401" midstSeId="-1" midstDmyId="905" isFinishFullbody="1" />
+<row id="5827" midstSfxId="331601" midstSeId="-1" initSfxId="331600" midstDmyId="905" initDmyId="905" isFinishFullbody="1" />
+<row id="5842" midstSfxId="302222" midstSeId="-1" midstDmyId="220" playCategory="3" playPriority="50" isFinishFullbody="1" />
+<row id="5846" midstSfxId="331211" midstSeId="-1" midstDmyId="220" isFinishFullbody="1" />
+<row id="5847" midstSfxId="301242" midstSeId="-1" midstDmyId="905" isFinishFullbody="1" />
+<row id="5848" midstSfxId="330401" midstSeId="-1" midstDmyId="220" isFinishFullbody="1" />
+<row id="5849" midstSfxId="330301" midstSeId="-1" midstDmyId="905" isFinishFullbody="1" />
+<row id="5850" midstSfxId="301202" midstSeId="-1" midstDmyId="220" isMidstFullbody="1" isInitFullbody="1" isFinishFullbody="1" />
+<row id="5860" midstSfxId="330111" midstSeId="-1" midstDmyId="905" isFinishFullbody="1" />
+<row id="5865" midstSfxId="4500" midstSeId="524402" initSfxId="301271" midstDmyId="905" initDmyId="905" isFinishFullbody="1" />
+<row id="5866" midstSfxId="331411" midstSeId="-1" midstDmyId="905" isFinishFullbody="1" />
+<row id="5890" midstSfxId="-1" midstSeId="-1" initSfxId="301002" midstDmyId="-1" initDmyId="8" />
+<row id="6000" midstSfxId="440111" midstSeId="440111" midstDmyId="200" playCategory="3" isMidstFullbody="1" />
+<row id="6001" midstSfxId="440111" midstSeId="440111" midstDmyId="200" playCategory="3" isMidstFullbody="1" />
+<row id="6010" midstSfxId="402040" midstSeId="-1" midstDmyId="100" playCategory="3" isMidstFullbody="1" />
+<row id="7000" midstSfxId="302800" midstSeId="-1" midstDmyId="7" playPriority="45" />
+<row id="7001" midstSfxId="302810" midstSeId="-1" midstDmyId="7" playPriority="45" />
+<row id="7002" midstSfxId="302820" midstSeId="-1" midstDmyId="7" playPriority="45" />
+<row id="7003" midstSfxId="302830" midstSeId="-1" midstDmyId="7" playPriority="45" />
+<row id="7004" midstSfxId="302840" midstSeId="-1" midstDmyId="7" playPriority="45" />
+<row id="7920" midstSfxId="303001" midstSeId="303001" midstDmyId="-1" effectType="1" soulParamIdForWepEnchant="2" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="2" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="7930" midstSfxId="636665" midstSeId="366110000" midstDmyId="220" />
+<row id="7940" midstSfxId="525602" midstSeId="525602" midstDmyId="200" playCategory="3" playPriority="50" isMidstFullbody="1" />
+<row id="7950" midstSfxId="525602" midstSeId="525602" midstDmyId="200" playCategory="3" playPriority="50" isMidstFullbody="1" />
+<row id="7960" midstSfxId="525602" midstSeId="525602" midstDmyId="200" playCategory="3" playPriority="50" isMidstFullbody="1" />
+<row id="7970" midstSfxId="303061" midstSeId="303061" midstDmyId="-1" effectType="1" soulParamIdForWepEnchant="3" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="3" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="7980" midstSfxId="-1" midstSeId="-1" initSfxId="525083" midstDmyId="-1" initDmyId="220" />
+<row id="7990" midstSfxId="-1" midstSeId="-1" initSfxId="525083" midstDmyId="-1" initDmyId="220" />
+<row id="8000" midstSfxId="524352" midstSeId="-1" midstDmyId="18" soulParamIdForWepEnchant="1" />
+<row id="8010" midstSfxId="525046" midstSeId="-1" initSfxId="525006" midstDmyId="220" initDmyId="220" playCategory="3" playPriority="90" />
+<row id="8020" midstSfxId="525006" midstSeId="-1" midstDmyId="220" playCategory="3" playPriority="90" />
+<row id="8030" midstSfxId="525902" midstSeId="-1" midstDmyId="18" soulParamIdForWepEnchant="1" />
+<row id="8040" midstSfxId="303111" midstSeId="303111" midstDmyId="-1" effectType="1" soulParamIdForWepEnchant="6" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="6" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="8050" midstSfxId="303071" midstSeId="303071" midstDmyId="-1" effectType="1" soulParamIdForWepEnchant="1" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="1" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="8060" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" effectType="1" isInvisibleWeapon="1" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" />
+<row id="8070" midstSfxId="-1" midstSeId="-1" initSfxId="523264" midstDmyId="-1" initDmyId="900" />
+<row id="8080" midstSfxId="523302" midstSeId="-1" midstDmyId="19" effectType="2" soulParamIdForWepEnchant="1" traceSfxIdOffsetType="1" />
+<row id="8090" midstSfxId="303061" midstSeId="303061" midstDmyId="-1" effectType="1" soulParamIdForWepEnchant="5" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="5" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="8100" midstSfxId="-1" midstSeId="-1" initSfxId="525083" midstDmyId="-1" initDmyId="220" />
+<row id="8110" midstSfxId="-1" midstSeId="-1" initSfxId="525083" midstDmyId="-1" initDmyId="220" />
+<row id="8120" midstSfxId="525602" midstSeId="525602" midstDmyId="200" playCategory="3" playPriority="50" isMidstFullbody="1" />
+<row id="8130" midstSfxId="524402" midstSeId="524402" midstDmyId="200" playCategory="3" playPriority="45" isMidstFullbody="1" />
+<row id="8140" midstSfxId="525602" midstSeId="525602" midstDmyId="200" playCategory="3" playPriority="50" isMidstFullbody="1" />
+<row id="8150" midstSfxId="525633" midstSeId="525633" initSfxId="525813" midstDmyId="200" initDmyId="220" playCategory="3" playPriority="52" isMidstFullbody="1" />
+<row id="8160" midstSfxId="527702" midstSeId="524402" midstDmyId="220" playCategory="3" playPriority="66" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="8170" midstSfxId="527702" midstSeId="524402" midstDmyId="220" playCategory="3" playPriority="66" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="8180" midstSfxId="526502" midstSeId="524402" midstDmyId="-1" playCategory="3" playPriority="46" />
+<row id="8190" midstSfxId="523813" midstSeId="523813" midstDmyId="200" playCategory="3" playPriority="50" isMidstFullbody="1" />
+<row id="8200" midstSfxId="523542" midstSeId="523542" midstDmyId="212" playCategory="3" playPriority="151" isSilence="1" />
+<row id="8210" midstSfxId="1" midstSeId="-1" finishSfxId="2" midstDmyId="-1" finishDmyId="220" playCategory="1" playPriority="1" useCamouflage="1" invisibleAtFriendCamouflage="1" SfxIdOffsetType="2" />
+<row id="8220" midstSfxId="4160" midstSeId="524402" midstDmyId="905" playCategory="3" playPriority="45" isMidstFullbody="1" />
+<row id="8230" midstSfxId="4120" midstSeId="-1" midstDmyId="7" existEffectForLarge="1" />
+<row id="8240" midstSfxId="525602" midstSeId="525602" midstDmyId="200" playCategory="3" playPriority="50" isMidstFullbody="1" />
+<row id="8250" midstSfxId="4095" midstSeId="-1" midstDmyId="7" finishDmyId="7" playCategory="4" playPriority="5" existEffectForLarge="1" />
+<row id="8260" midstSfxId="303061" midstSeId="303061" midstDmyId="-1" effectType="1" soulParamIdForWepEnchant="11" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="11" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="8270" midstSfxId="523412" midstSeId="-1" camouflageBeginDist="17" camouflageEndDist="12" midstDmyId="220" playCategory="1" playPriority="4" effectInvisibleAtCamouflage="1" useCamouflage="1" invisibleAtFriendCamouflage="1" halfCamouflage="1" />
+<row id="8300" midstSfxId="-1" midstSeId="-1" initSfxId="524903" midstDmyId="-1" initDmyId="220" />
+<row id="8310" midstSfxId="-1" midstSeId="-1" initSfxId="525003" midstDmyId="-1" initDmyId="220" />
+<row id="8320" midstSfxId="-1" midstSeId="-1" initSfxId="525033" midstDmyId="-1" initDmyId="220" />
+<row id="8330" midstSfxId="-1" midstSeId="-1" initSfxId="525083" midstDmyId="-1" initDmyId="220" />
+<row id="8340" midstSfxId="-1" midstSeId="-1" initSfxId="525003" midstDmyId="-1" initDmyId="220" />
+<row id="8350" midstSfxId="525042" midstSeId="525042" midstDmyId="220" playCategory="3" playPriority="112" />
+<row id="8360" midstSfxId="525072" midstSeId="525042" midstDmyId="220" playCategory="3" playPriority="111" />
+<row id="8370" midstSfxId="525052" midstSeId="525042" midstDmyId="220" playCategory="3" playPriority="110" />
+<row id="8380" midstSfxId="-1" midstSeId="-1" initSfxId="525003" midstDmyId="-1" initDmyId="220" />
+<row id="8390" midstSfxId="-1" midstSeId="-1" initSfxId="525083" midstDmyId="-1" initDmyId="220" />
+<row id="8400" midstSfxId="4070" midstSeId="-1" midstDmyId="907" playCategory="4" playPriority="13" existEffectForLarge="1" />
+<row id="8410" midstSfxId="523502" midstSeId="-1" midstDmyId="211" />
+<row id="8420" midstSfxId="525602" midstSeId="525602" midstDmyId="200" playCategory="3" playPriority="50" isMidstFullbody="1" />
+<row id="8430" midstSfxId="525602" midstSeId="525602" midstDmyId="200" playCategory="3" playPriority="50" isMidstFullbody="1" />
+<row id="8440" midstSfxId="525602" midstSeId="525602" midstDmyId="200" playCategory="3" playPriority="50" isMidstFullbody="1" />
+<row id="8450" midstSfxId="525602" midstSeId="525602" midstDmyId="200" playCategory="3" playPriority="50" isMidstFullbody="1" />
+<row id="8460" midstSfxId="525602" midstSeId="525602" midstDmyId="200" playCategory="3" playPriority="50" isMidstFullbody="1" />
+<row id="8470" midstSfxId="-1" midstSeId="-1" initSfxId="525083" midstDmyId="-1" initDmyId="220" />
+<row id="8480" midstSfxId="523302" midstSeId="-1" midstDmyId="19" effectType="2" soulParamIdForWepEnchant="1" traceSfxIdOffsetType="1" />
+<row id="8490" midstSfxId="303061" midstSeId="303061" midstDmyId="-1" effectType="1" soulParamIdForWepEnchant="10" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="10" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="8500" midstSfxId="303001" midstSeId="-1" midstDmyId="-1" effectType="1" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="2" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="8505" midstSfxId="440000" midstSeId="440010" midstDmyId="-1" />
+<row id="8510" midstSfxId="440000" midstSeId="440000" midstDmyId="-1" effectType="1" soulParamIdForWepEnchant="7" enchantStartDmyId_0="10001" />
+<row id="8511" midstSfxId="440000" midstSeId="440000" midstDmyId="-1" effectType="2" soulParamIdForWepEnchant="7" enchantStartDmyId_0="20001" />
+<row id="8515" midstSfxId="4250" midstSeId="-1" midstDmyId="905" playCategory="4" playPriority="20" existEffectForLarge="1" />
+<row id="8520" midstSfxId="303091" midstSeId="303091" midstDmyId="-1" effectType="1" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="11" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="8521" midstSfxId="303091" midstSeId="303091" midstDmyId="-1" effectType="2" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="11" enchantStartDmyId_0="20300" enchantStartDmyId_1="21300" enchantStartDmyId_2="20310" enchantStartDmyId_3="21310" enchantStartDmyId_4="20320" enchantStartDmyId_5="21320" enchantStartDmyId_6="20330" enchantStartDmyId_7="21330" />
+<row id="8525" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playCategory="1" playPriority="13" isSilence="1" />
+<row id="8526" midstSfxId="-1" midstSeId="-1" finishSfxId="523412" camouflageBeginDist="17" camouflageEndDist="12" midstDmyId="-1" finishDmyId="220" playCategory="3" playPriority="12" useCamouflage="1" invisibleAtFriendCamouflage="1" halfCamouflage="1" />
+<row id="8530" midstSfxId="303091" midstSeId="303091" midstDmyId="-1" effectType="1" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="4" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="8535" midstSfxId="450344" midstSeId="-1" midstDmyId="220" />
+<row id="8540" midstSfxId="4170" midstSeId="-1" midstDmyId="220" playCategory="4" playPriority="33" existEffectForLarge="1" />
+<row id="8545" midstSfxId="450492" midstSeId="450492" midstDmyId="10130" effectType="1" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="18" enchantStartDmyId_0="10130" enchantStartDmyId_1="11130" />
+<row id="8546" midstSfxId="450492" midstSeId="450492" midstDmyId="20130" effectType="2" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="18" enchantStartDmyId_0="20130" enchantStartDmyId_1="21130" />
+<row id="8550" midstSfxId="636665" midstSeId="366110000" midstDmyId="220" />
+<row id="8555" midstSfxId="303301" midstSeId="303071" midstDmyId="-1" effectType="1" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="25" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="8556" midstSfxId="303301" midstSeId="303071" midstDmyId="-1" effectType="2" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="25" enchantStartDmyId_0="20300" enchantStartDmyId_1="21300" enchantStartDmyId_2="20310" enchantStartDmyId_3="21310" enchantStartDmyId_4="20320" enchantStartDmyId_5="21320" enchantStartDmyId_6="20330" enchantStartDmyId_7="21330" />
+<row id="8560" midstSfxId="525033" midstSeId="-1" midstDmyId="220" />
+<row id="8561" midstSfxId="633600" midstSeId="-1" midstDmyId="220" />
+<row id="8565" midstSfxId="303161" midstSeId="303161" midstDmyId="-1" effectType="1" soulParamIdForWepEnchant="17" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="17" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="8566" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" effectType="2" soulParamIdForWepEnchant="17" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="17" />
+<row id="8570" midstSfxId="440111" midstSeId="440111" midstDmyId="200" playCategory="3" playPriority="23" isMidstFullbody="1" />
+<row id="8575" midstSfxId="303171" midstSeId="303171" midstDmyId="10130" effectType="1" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="18" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="8576" midstSfxId="303171" midstSeId="303171" midstDmyId="20130" effectType="2" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="18" enchantStartDmyId_0="20300" enchantStartDmyId_1="21300" enchantStartDmyId_2="20310" enchantStartDmyId_3="21310" enchantStartDmyId_4="20320" enchantStartDmyId_5="21320" enchantStartDmyId_6="20330" enchantStartDmyId_7="21330" />
+<row id="8580" midstSfxId="440093" midstSeId="-1" midstDmyId="220" />
+<row id="8590" midstSfxId="440000" midstSeId="440010" midstDmyId="-1" effectType="1" soulParamIdForWepEnchant="7" enchantStartDmyId_0="10120" enchantEndDmyId_0="10120" />
+<row id="8591" midstSfxId="440012" midstSeId="-1" midstDmyId="901" effectType="1" enchantStartDmyId_0="10120" enchantEndDmyId_0="10120" />
+<row id="8595" midstSfxId="440000" midstSeId="440010" midstDmyId="-1" effectType="2" soulParamIdForWepEnchant="7" enchantStartDmyId_0="20120" enchantEndDmyId_0="20120" />
+<row id="8596" midstSfxId="440012" midstSeId="-1" midstDmyId="902" effectType="2" enchantStartDmyId_0="20120" enchantEndDmyId_0="20120" />
+<row id="8600" midstSfxId="4500" midstSeId="-1" midstDmyId="905" playCategory="3" playPriority="65" />
+<row id="8610" midstSfxId="450060" midstSeId="-1" midstDmyId="-1" effectType="1" traceSfxIdOffsetType="20" enchantStartDmyId_0="10110" />
+<row id="8611" midstSfxId="450060" midstSeId="-1" midstDmyId="-1" effectType="2" traceSfxIdOffsetType="20" enchantStartDmyId_0="20110" />
+<row id="8620" midstSfxId="4520" midstSeId="-1" midstDmyId="905" initDmyId="220" playCategory="3" playPriority="40" isMidstFullbody="1" />
+<row id="8621" midstSfxId="450090" midstSeId="-1" midstDmyId="-1" effectType="1" enchantStartDmyId_0="10300" enchantEndDmyId_0="10300" enchantStartDmyId_1="11300" enchantEndDmyId_1="11300" />
+<row id="8630" midstSfxId="-1" midstSeId="-1" initSfxId="525033" midstDmyId="-1" initDmyId="220" />
+<row id="8635" midstSfxId="4500" midstSeId="-1" midstDmyId="905" playCategory="3" playPriority="40" existEffectForLarge="1" isMidstFullbody="1" isInitFullbody="1" isFinishFullbody="1" />
+<row id="8640" midstSfxId="440602" midstSeId="-1" midstDmyId="220" existEffectForLarge="1" isVisibleDeadChr="1" />
+<row id="8641" midstSfxId="303061" midstSeId="303061" midstDmyId="-1" effectType="1" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="5" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="8642" midstSfxId="303061" midstSeId="303061" midstDmyId="-1" effectType="2" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="5" enchantStartDmyId_0="20300" enchantStartDmyId_1="21300" enchantStartDmyId_2="20310" enchantStartDmyId_3="21310" enchantStartDmyId_4="20320" enchantStartDmyId_5="21320" enchantStartDmyId_6="20330" enchantStartDmyId_7="21330" />
+<row id="8645" midstSfxId="450620" midstSeId="450620" midstDmyId="110" effectType="1" traceSfxIdOffsetType="15" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="8646" midstSfxId="450620" midstSeId="450620" midstDmyId="110" effectType="2" traceSfxIdOffsetType="15" enchantStartDmyId_0="20300" enchantStartDmyId_1="21300" enchantStartDmyId_2="20310" enchantStartDmyId_3="21310" enchantStartDmyId_4="20320" enchantStartDmyId_5="21320" enchantStartDmyId_6="20330" enchantStartDmyId_7="21330" />
+<row id="8650" midstSfxId="303011" midstSeId="303011" midstDmyId="-1" effectType="1" traceSfxIdOffsetType="3" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="8651" midstSfxId="303011" midstSeId="303011" midstDmyId="-1" effectType="2" traceSfxIdOffsetType="3" enchantStartDmyId_0="20300" enchantStartDmyId_1="21300" enchantStartDmyId_2="20310" enchantStartDmyId_3="21310" enchantStartDmyId_4="20320" enchantStartDmyId_5="21320" enchantStartDmyId_6="20330" enchantStartDmyId_7="21330" />
+<row id="8655" midstSfxId="303122" midstSeId="303121" midstDmyId="-1" effectType="1" traceSfxIdOffsetType="19" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="8656" midstSfxId="303122" midstSeId="303121" midstDmyId="-1" effectType="2" traceSfxIdOffsetType="19" enchantStartDmyId_0="20300" enchantStartDmyId_1="21300" enchantStartDmyId_2="20310" enchantStartDmyId_3="21310" enchantStartDmyId_4="20320" enchantStartDmyId_5="21320" enchantStartDmyId_6="20330" enchantStartDmyId_7="21330" />
+<row id="8660" midstSfxId="4500" midstSeId="-1" midstDmyId="905" playCategory="3" playPriority="65" />
+<row id="8670" midstSfxId="303141" midstSeId="303141" midstDmyId="-1" effectType="1" isUseOffsetEnchantSfxSize="1" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="8671" midstSfxId="303141" midstSeId="303141" midstDmyId="-1" effectType="2" isUseOffsetEnchantSfxSize="1" enchantStartDmyId_0="20300" enchantStartDmyId_1="21300" enchantStartDmyId_2="20310" enchantStartDmyId_3="21310" enchantStartDmyId_4="20320" enchantStartDmyId_5="21320" enchantStartDmyId_6="20330" enchantStartDmyId_7="21330" />
+<row id="8680" midstSfxId="-1" midstSeId="-1" initSfxId="440581" midstDmyId="-1" initDmyId="220" />
+<row id="8690" midstSfxId="303131" midstSeId="303131" midstDmyId="-1" effectType="1" soulParamIdForWepEnchant="10" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="10" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="8691" midstSfxId="303131" midstSeId="303131" midstDmyId="-1" effectType="2" soulParamIdForWepEnchant="10" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="10" enchantStartDmyId_0="20300" enchantStartDmyId_1="21300" enchantStartDmyId_2="20310" enchantStartDmyId_3="21310" enchantStartDmyId_4="20320" enchantStartDmyId_5="21320" enchantStartDmyId_6="20330" enchantStartDmyId_7="21330" />
+<row id="8700" midstSfxId="4520" midstSeId="-1" initSfxId="525813" midstDmyId="905" initDmyId="220" playCategory="3" playPriority="52" isMidstFullbody="1" />
+<row id="8710" midstSfxId="4500" midstSeId="-1" midstDmyId="905" playCategory="3" playPriority="65" />
+<row id="8720" midstSfxId="450311" midstSeId="303011" midstDmyId="110" effectType="1" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="21" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="8721" midstSfxId="450311" midstSeId="303011" midstDmyId="110" effectType="2" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="21" enchantStartDmyId_0="20300" enchantStartDmyId_1="21300" enchantStartDmyId_2="20310" enchantStartDmyId_3="21310" enchantStartDmyId_4="20320" enchantStartDmyId_5="21320" enchantStartDmyId_6="20330" enchantStartDmyId_7="21330" />
+<row id="8725" midstSfxId="641801" midstSeId="450533" midstDmyId="800" isVisibleDeadChr="1" materialParamId="1002" materialParamTargetValue="1" materialParamFadeTime="0.6" />
+<row id="8726" midstSfxId="641801" midstSeId="450533" midstDmyId="800" isVisibleDeadChr="1" materialParamId="1002" materialParamTargetValue="1" materialParamFadeTime="0.6" />
+<row id="8727" midstSfxId="4500" midstSeId="-1" midstDmyId="905" playCategory="3" playPriority="32" existEffectForLarge="1" isMidstFullbody="1" isInitFullbody="1" isFinishFullbody="1" />
+<row id="8728" midstSfxId="641800" midstSeId="450534" midstDmyId="800" materialParamId="1002" materialParamInitValue="1" materialParamFadeTime="0.6" />
+<row id="8729" midstSfxId="641800" midstSeId="450534" midstDmyId="800" materialParamId="1002" materialParamInitValue="1" materialParamFadeTime="0.6" />
+<row id="8740" midstSfxId="4520" midstSeId="-1" initSfxId="525813" midstDmyId="905" initDmyId="220" playCategory="3" playPriority="52" isMidstFullbody="1" />
+<row id="8750" midstSfxId="4275" midstSeId="-1" midstDmyId="220" playCategory="4" existEffectForLarge="1" />
+<row id="8751" midstSfxId="4275" midstSeId="-1" midstDmyId="220" playCategory="4" existEffectForLarge="1" />
+<row id="8760" midstSfxId="303201" midstSeId="303131" midstDmyId="-1" effectType="1" soulParamIdForWepEnchant="24" traceSfxIdOffsetType="24" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="8761" midstSfxId="303201" midstSeId="303131" midstDmyId="-1" effectType="2" soulParamIdForWepEnchant="24" traceSfxIdOffsetType="24" enchantStartDmyId_0="20300" enchantStartDmyId_1="21300" enchantStartDmyId_2="20310" enchantStartDmyId_3="21310" enchantStartDmyId_4="20320" enchantStartDmyId_5="21320" enchantStartDmyId_6="20330" enchantStartDmyId_7="21330" />
+<row id="8770" midstSfxId="450811" midstSeId="-1" midstDmyId="905" playCategory="3" playPriority="22" />
+<row id="8775" midstSfxId="303111" midstSeId="303111" midstDmyId="-1" effectType="1" soulParamIdForWepEnchant="6" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="6" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="8776" midstSfxId="303111" midstSeId="303111" midstDmyId="-1" effectType="2" soulParamIdForWepEnchant="6" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="6" enchantStartDmyId_0="20300" enchantStartDmyId_1="21300" enchantStartDmyId_2="20310" enchantStartDmyId_3="21310" enchantStartDmyId_4="20320" enchantStartDmyId_5="21320" enchantStartDmyId_6="20330" enchantStartDmyId_7="21330" />
+<row id="9000" midstSfxId="4300" midstSeId="-1" midstDmyId="200" existEffectForLarge="1" isMidstFullbody="1" footEffectOffset="9" />
+<row id="9010" midstSfxId="4180" midstSeId="-1" midstDmyId="905" playPriority="50" existEffectForLarge="1" />
+<row id="9011" midstSfxId="4280" midstSeId="-1" midstDmyId="905" playPriority="50" existEffectForLarge="1" />
+<row id="9012" midstSfxId="4290" midstSeId="-1" midstDmyId="905" playPriority="50" existEffectForLarge="1" />
+<row id="9013" midstSfxId="4410" midstSeId="-1" midstDmyId="905" playCategory="4" playPriority="23" existEffectForLarge="1" />
+<row id="9014" midstSfxId="4410" midstSeId="-1" midstDmyId="905" playCategory="4" playPriority="22" existEffectForLarge="1" />
+<row id="11100" midstSfxId="-1" midstSeId="-1" initSfxId="8020" midstDmyId="-1" initDmyId="905" footDecalMaterialOffsetOverwriteId="0" />
+<row id="11110" midstSfxId="8030" midstSeId="-1" midstDmyId="900" footDecalMaterialOffsetOverwriteId="0" />
+<row id="11111" midstSfxId="8030" midstSeId="-1" midstDmyId="900" footDecalMaterialOffsetOverwriteId="0" />
+<row id="11140" midstSfxId="8000" midstSeId="-1" midstDmyId="210" footDecalMaterialOffsetOverwriteId="0" />
+<row id="11150" midstSfxId="8010" midstSeId="-1" midstDmyId="210" footDecalMaterialOffsetOverwriteId="0" />
+<row id="11200" midstSfxId="-1" midstSeId="-1" initSfxId="8040" midstDmyId="-1" initDmyId="8" footDecalMaterialOffsetOverwriteId="0" />
+<row id="11300" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" phantomParamOverwriteType="2" phantomParamOverwriteId="203" />
+<row id="40002" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playCategory="4" playPriority="12" existEffectForLarge="1" footEffectOffset="1" />
+<row id="40260" midstSfxId="4020" midstSeId="-1" midstDmyId="905" playCategory="4" playPriority="10" existEffectForLarge="1" footEffectOffset="9" />
+<row id="50100" midstSfxId="600620" midstSeId="-1" midstDmyId="40" />
+<row id="50101" midstSfxId="643070" midstSeId="-1" midstDmyId="40" />
+<row id="50102" midstSfxId="611000" midstSeId="-1" midstDmyId="50" />
+<row id="50103" midstSfxId="611000" midstSeId="-1" midstDmyId="60" />
+<row id="50104" midstSfxId="643060" midstSeId="-1" midstDmyId="199" />
+<row id="50110" midstSfxId="643008" midstSeId="643008" finishSfxId="643009" finishSeId="643009" midstDmyId="220" finishDmyId="220" />
+<row id="50111" midstSfxId="-1" midstSeId="-1" camouflageBeginDist="6" camouflageEndDist="5" midstDmyId="-1" effectInvisibleAtCamouflage="1" useCamouflage="1" isHideFootEffect_forCamouflage="1" />
+<row id="50112" midstSfxId="-1" midstSeId="-1" camouflageBeginDist="10" camouflageEndDist="9" midstDmyId="-1" effectInvisibleAtCamouflage="1" useCamouflage="1" isHideFootEffect_forCamouflage="1" />
+<row id="50113" midstSfxId="-1" midstSeId="-1" camouflageBeginDist="15" camouflageEndDist="14" midstDmyId="-1" effectInvisibleAtCamouflage="1" useCamouflage="1" isHideFootEffect_forCamouflage="1" />
+<row id="50114" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" effectInvisibleAtCamouflage="1" useCamouflage="1" invisibleAtFriendCamouflage="1" isHideFootEffect_forCamouflage="1" />
+<row id="50115" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" effectInvisibleAtCamouflage="1" useCamouflage="1" invisibleAtFriendCamouflage="1" isHideFootEffect_forCamouflage="1" />
+<row id="50116" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" phantomParamOverwriteType="2" phantomParamOverwriteId="920" />
+<row id="50120" midstSfxId="640205" midstSeId="-1" midstDmyId="220" />
+<row id="50121" midstSfxId="640225" midstSeId="-1" midstDmyId="220" />
+<row id="50122" midstSfxId="640206" midstSeId="-1" midstDmyId="220" />
+<row id="50123" midstSfxId="640207" midstSeId="-1" midstDmyId="7" />
+<row id="50124" midstSfxId="-1" midstSeId="-1" camouflageBeginDist="0" camouflageEndDist="0" midstDmyId="-1" useCamouflage="1" invisibleAtFriendCamouflage="1" isVisibleDeadChr="1" />
+<row id="50125" midstSfxId="-1" midstSeId="-1" camouflageBeginDist="0" camouflageEndDist="0" midstDmyId="-1" effectInvisibleAtCamouflage="1" useCamouflage="1" invisibleAtFriendCamouflage="1" isVisibleDeadChr="1" />
+<row id="50130" midstSfxId="600620" midstSeId="-1" midstDmyId="40" />
+<row id="50131" midstSfxId="601000" midstSeId="-1" midstDmyId="199" />
+<row id="50132" midstSfxId="630030" midstSeId="-1" midstDmyId="220" />
+<row id="50133" midstSfxId="681103" midstSeId="-1" midstDmyId="10" />
+<row id="50134" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" phantomParamOverwriteType="2" phantomParamOverwriteId="900" />
+<row id="50160" midstSfxId="660404" midstSeId="-1" midstDmyId="199" />
+<row id="50170" midstSfxId="646020" midstSeId="460010001" midstDmyId="300" />
+<row id="50171" midstSfxId="-1" midstSeId="460010002" midstDmyId="301" />
+<row id="50172" midstSfxId="-1" midstSeId="460010003" midstDmyId="302" />
+<row id="50173" midstSfxId="4500" midstSeId="-1" midstDmyId="905" existEffectForLarge="1" isMidstFullbody="1" isInitFullbody="1" isFinishFullbody="1" />
+<row id="50175" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" phantomParamOverwriteType="2" phantomParamOverwriteId="240" />
+<row id="50200" midstSfxId="635642" midstSeId="-1" midstDmyId="201" />
+<row id="50201" midstSfxId="635642" midstSeId="-1" midstDmyId="220" />
+<row id="50202" midstSfxId="632598" midstSeId="-1" initSeId="422001000" midstDmyId="220" />
+<row id="50203" midstSfxId="635693" midstSeId="-1" midstDmyId="960" />
+<row id="50250" midstSfxId="635772" midstSeId="-1" midstDmyId="220" />
+<row id="50251" midstSfxId="632598" midstSeId="-1" initSeId="422001000" midstDmyId="90" />
+<row id="50252" midstSfxId="635793" midstSeId="-1" midstDmyId="960" />
+<row id="50300" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playCategory="6" playPriority="10" isVisibleDeadChr="1" materialParamId="100" materialParamInitValue="1" materialParamFadeTime="15" />
+<row id="50301" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" materialParamId="100" materialParamInitValue="0.8" materialParamFadeTime="10" />
+<row id="50302" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" materialParamId="100" materialParamTargetValue="0.7" materialParamFadeTime="4" />
+<row id="50303" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playCategory="6" playPriority="1" isVisibleDeadChr="1" materialParamId="100" materialParamTargetValue="1" materialParamFadeTime="4" />
+<row id="50310" midstSfxId="-1" midstSeId="-1" camouflageEndDist="0" midstDmyId="-1" useCamouflage="1" invisibleAtFriendCamouflage="1" isVisibleDeadChr="1" camouflageMinAlpha="90" />
+<row id="50311" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" />
+<row id="50316" midstSfxId="670035" midstSeId="-1" midstDmyId="50" />
+<row id="50320" midstSfxId="302405" midstSeId="-1" midstDmyId="7" />
+<row id="50321" midstSfxId="302406" midstSeId="-1" midstDmyId="7" />
+<row id="50350" midstSfxId="4500" midstSeId="405000001" midstDmyId="905" existEffectForLarge="1" />
+<row id="50400" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playPriority="10" isVisibleDeadChr="1" materialParamId="1000" />
+<row id="50401" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playPriority="1" isVisibleDeadChr="1" materialParamTargetValue="1" materialParamFadeTime="3" />
+<row id="50402" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playPriority="1" isVisibleDeadChr="1" materialParamFadeTime="3" />
+<row id="50403" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playPriority="5" isVisibleDeadChr="1" materialParamTargetValue="1" />
+<row id="50404" midstSfxId="500082" midstSeId="-1" midstDmyId="226" materialParamTargetValue="1" />
+<row id="50405" midstSfxId="644959" midstSeId="-1" midstDmyId="907" materialParamTargetValue="1" />
+<row id="50406" midstSfxId="645530" midstSeId="-1" midstDmyId="199" materialParamTargetValue="1" />
+<row id="50407" midstSfxId="4160" midstSeId="-1" midstDmyId="905" playCategory="3" playPriority="45" isMidstFullbody="1" />
+<row id="50505" midstSfxId="642010" midstSeId="-1" midstDmyId="7" />
+<row id="50610" midstSfxId="648037" midstSeId="480001000" midstDmyId="300" />
+<row id="50650" midstSfxId="648080" midstSeId="-1" midstDmyId="220" />
+<row id="50651" midstSfxId="648081" midstSeId="-1" midstDmyId="220" />
+<row id="50652" midstSfxId="648082" midstSeId="-1" midstDmyId="220" />
+<row id="50653" midstSfxId="-1" midstSeId="-1" midstDmyId="220" />
+<row id="50655" midstSfxId="648082" midstSeId="-1" midstDmyId="220" />
+<row id="50660" midstSfxId="331610" midstSeId="-1" midstDmyId="905" />
+<row id="50661" midstSfxId="331611" midstSeId="-1" midstDmyId="905" />
+<row id="50662" midstSfxId="331612" midstSeId="-1" midstDmyId="905" />
+<row id="50665" midstSfxId="4500" midstSeId="524402" initSfxId="301271" midstDmyId="905" initDmyId="905" playCategory="3" playPriority="45" />
+<row id="50700" midstSfxId="640000" midstSeId="-1" midstDmyId="100" isVisibleDeadChr="1" />
+<row id="50710" midstSfxId="640045" midstSeId="-1" midstDmyId="220" />
+<row id="50715" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" materialParamId="10300" materialParamInitValue="1" materialParamFadeTime="1" />
+<row id="50800" midstSfxId="632013" midstSeId="-1" midstDmyId="8" playCategory="4" playPriority="20" existEffectForLarge="1" />
+<row id="50810" midstSfxId="632032" midstSeId="-1" midstDmyId="90" />
+<row id="50815" midstSfxId="632041" midstSeId="468001001" midstDmyId="220" />
+<row id="50820" midstSfxId="632000" midstSeId="-1" finishSfxId="632520" midstDmyId="190" finishDmyId="190" />
+<row id="50850" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" phantomParamOverwriteType="2" phantomParamOverwriteId="24" />
+<row id="50851" midstSfxId="-1" midstSeId="-1" camouflageEndDist="0" midstDmyId="-1" effectInvisibleAtCamouflage="1" useCamouflage="1" camouflageMinAlpha="1" />
+<row id="50852" midstSfxId="632026" midstSeId="-1" midstDmyId="7" />
+<row id="50853" midstSfxId="632027" midstSeId="-1" midstDmyId="7" />
+<row id="50854" midstSfxId="632028" midstSeId="-1" midstDmyId="7" />
+<row id="50859" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" phantomParamOverwriteType="2" phantomParamOverwriteId="500" />
+<row id="50900" midstSfxId="649111" midstSeId="-1" midstDmyId="302" isVisibleDeadChr="1" materialParamId="10000" materialParamTargetValue="1" materialParamFadeTime="1" />
+<row id="50901" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" materialParamId="10000" materialParamInitValue="1" materialParamFadeTime="0.3" />
+<row id="50950" midstSfxId="630500" midstSeId="-1" midstDmyId="908" />
+<row id="50951" midstSfxId="630501" midstSeId="630503" midstDmyId="900" />
+<row id="50955" midstSfxId="4500" midstSeId="301202" midstDmyId="905" isMidstFullbody="1" />
+<row id="50956" midstSfxId="630587" midstSeId="301202" midstDmyId="905" isMidstFullbody="1" />
+<row id="50958" midstSfxId="-1" midstSeId="-1" camouflageEndDist="0" midstDmyId="-1" useCamouflage="1" invisibleAtFriendCamouflage="1" isVisibleDeadChr="1" />
+<row id="50959" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" phantomParamOverwriteType="2" phantomParamOverwriteId="235" />
+<row id="50960" midstSfxId="-1" midstSeId="-1" initSfxId="630598" initSeId="999997803" midstDmyId="-1" initDmyId="960" isVisibleDeadChr="1" />
+<row id="50961" midstSfxId="-1" midstSeId="999997804" midstDmyId="-1" useCamouflage="1" invisibleAtFriendCamouflage="1" isVisibleDeadChr="1" />
+<row id="50962" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" useCamouflage="1" invisibleAtFriendCamouflage="1" isVisibleDeadChr="1" />
+<row id="50970" midstSfxId="630103" midstSeId="-1" midstDmyId="220" />
+<row id="50971" midstSfxId="630104" midstSeId="-1" midstDmyId="220" />
+<row id="50972" midstSfxId="630160" midstSeId="-1" midstDmyId="220" />
+<row id="50973" midstSfxId="630190" midstSeId="630190" midstDmyId="300" />
+<row id="50974" midstSfxId="630190" midstSeId="630190" midstDmyId="300" />
+<row id="50975" midstSfxId="630190" midstSeId="630190" midstDmyId="310" />
+<row id="50976" midstSfxId="630191" midstSeId="630190" midstDmyId="32" />
+<row id="50978" midstSfxId="642620" midstSeId="-1" midstDmyId="199" />
+<row id="51000" midstSfxId="503" midstSeId="-1" midstDmyId="-1" finishDmyId="220" playCategory="1" playPriority="1" useCamouflage="1" invisibleAtFriendCamouflage="1" />
+<row id="51001" midstSfxId="-1" midstSeId="-1" camouflageBeginDist="5" camouflageEndDist="4" midstDmyId="-1" effectInvisibleAtCamouflage="1" useCamouflage="1" isHideFootEffect_forCamouflage="1" />
+<row id="51002" midstSfxId="-1" midstSeId="-1" camouflageBeginDist="5" camouflageEndDist="4" midstDmyId="-1" materialParamId="10300" />
+<row id="51010" midstSfxId="641032" midstSeId="-1" midstDmyId="199" />
+<row id="51011" midstSfxId="641030" midstSeId="-1" midstDmyId="199" />
+<row id="51012" midstSfxId="641031" midstSeId="-1" midstDmyId="908" />
+<row id="51020" midstSfxId="641132" midstSeId="-1" midstDmyId="199" />
+<row id="51021" midstSfxId="641130" midstSeId="-1" midstDmyId="199" />
+<row id="51022" midstSfxId="641131" midstSeId="-1" midstDmyId="908" />
+<row id="51030" midstSfxId="641325" midstSeId="-1" midstDmyId="199" />
+<row id="51031" midstSfxId="641326" midstSeId="-1" midstDmyId="908" />
+<row id="51040" midstSfxId="641203" midstSeId="-1" midstDmyId="199" />
+<row id="51041" midstSfxId="641200" midstSeId="-1" midstDmyId="199" />
+<row id="51042" midstSfxId="641201" midstSeId="-1" midstDmyId="908" />
+<row id="51050" midstSfxId="635501" midstSeId="355010000" midstDmyId="900" />
+<row id="51051" midstSfxId="635521" midstSeId="635521" midstDmyId="301" />
+<row id="51055" midstSfxId="4500" midstSeId="524402" initSfxId="301271" midstDmyId="905" initDmyId="905" playCategory="3" playPriority="45" />
+<row id="51100" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" materialParamId="1001" materialParamTargetValue="1" materialParamFadeTime="0.1" />
+<row id="51101" midstSfxId="-1" midstSeId="-1" initSfxId="633530" midstDmyId="-1" initDmyId="200" isInitFullbody="1" />
+<row id="51110" midstSfxId="633540" midstSeId="-1" midstDmyId="905" isVisibleDeadChr="1" materialParamId="1001" materialParamTargetValue="1" />
+<row id="51120" midstSfxId="633520" midstSeId="-1" midstDmyId="199" playCategory="1" playPriority="10" />
+<row id="51121" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playCategory="1" playPriority="9" />
+<row id="51130" midstSfxId="640511" midstSeId="-1" midstDmyId="90" phantomParamOverwriteType="2" phantomParamOverwriteId="25" />
+<row id="51150" midstSfxId="642225" midstSeId="-1" initSeId="422001000" midstDmyId="900" />
+<row id="51151" midstSfxId="642260" midstSeId="-1" midstDmyId="801" />
+<row id="51152" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" materialParamId="10300" materialParamInitValue="1" materialParamFadeTime="2" />
+<row id="51153" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" materialParamId="10301" materialParamInitValue="1" materialParamFadeTime="2" />
+<row id="51200" midstSfxId="600620" midstSeId="-1" midstDmyId="100" />
+<row id="51201" midstSfxId="303001" midstSeId="303001" midstDmyId="-1" effectType="1" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="2" enchantStartDmyId_0="10300" enchantStartDmyId_1="300" />
+<row id="51202" midstSfxId="-1" midstSeId="-1" midstDmyId="0" phantomParamOverwriteType="2" phantomParamOverwriteId="240" />
+<row id="51203" midstSfxId="101" midstSeId="431009001" midstDmyId="220" isVisibleDeadChr="1" />
+<row id="51204" midstSfxId="-1" midstSeId="431009000" midstDmyId="-1" useCamouflage="1" invisibleAtFriendCamouflage="1" isVisibleDeadChr="1" />
+<row id="51205" midstSfxId="643100" midstSeId="303001" midstDmyId="11" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="2" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="51206" midstSfxId="643101" midstSeId="303001" midstDmyId="320" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="2" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="51207" midstSfxId="643102" midstSeId="303001" midstDmyId="31" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="2" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="51208" midstSfxId="643103" midstSeId="303001" midstDmyId="312" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="2" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="51209" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="2" />
+<row id="51210" midstSfxId="-1" midstSeId="-1" midstDmyId="0" phantomParamOverwriteType="2" phantomParamOverwriteId="240" />
+<row id="51211" midstSfxId="643190" midstSeId="-1" midstDmyId="199" />
+<row id="51212" midstSfxId="643155" midstSeId="-1" midstDmyId="11" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="10" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="51213" midstSfxId="643156" midstSeId="-1" midstDmyId="31" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="10" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="51214" midstSfxId="643146" midstSeId="440010" midstDmyId="11" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="51215" midstSfxId="643147" midstSeId="440010" midstDmyId="31" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="51216" midstSfxId="440012" midstSeId="-1" midstDmyId="901" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="51217" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" useCamouflage="1" />
+<row id="51220" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" phantomParamOverwriteType="2" phantomParamOverwriteId="200" />
+<row id="51221" midstSfxId="-1" midstSeId="-1" midstDmyId="0" useCamouflage="1" invisibleAtFriendCamouflage="1" isVisibleDeadChr="1" />
+<row id="51222" midstSfxId="646712" midstSeId="-1" midstDmyId="220" useCamouflage="1" invisibleAtFriendCamouflage="1" isVisibleDeadChr="1" />
+<row id="51223" midstSfxId="641441" midstSeId="-1" midstDmyId="220" isMidstFullbody="1" />
+<row id="51230" midstSfxId="-1" midstSeId="-1" camouflageBeginDist="0" camouflageEndDist="0" midstDmyId="-1" effectInvisibleAtCamouflage="1" useCamouflage="1" invisibleAtFriendCamouflage="1" isHideFootEffect_forCamouflage="1" isVisibleDeadChr="1" />
+<row id="51250" midstSfxId="642404" midstSeId="642404" midstDmyId="220" />
+<row id="51300" midstSfxId="631721" midstSeId="631711" midstDmyId="800" />
+<row id="51301" midstSfxId="631722" midstSeId="-1" midstDmyId="801" />
+<row id="51302" midstSfxId="631722" midstSeId="-1" midstDmyId="802" />
+<row id="51303" midstSfxId="631722" midstSeId="-1" midstDmyId="803" />
+<row id="51350" midstSfxId="646600" midstSeId="466010000" midstDmyId="908" />
+<row id="51351" midstSfxId="646610" midstSeId="646610" midstDmyId="30" />
+<row id="51352" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" materialParamId="10000" materialParamTargetValue="1" materialParamFadeTime="1" />
+<row id="51353" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" materialParamId="10000" />
+<row id="51354" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" materialParamId="10000" materialParamInitValue="1" materialParamFadeTime="1" />
+<row id="51355" midstSfxId="646670" midstSeId="-1" midstDmyId="10" />
+<row id="51356" midstSfxId="646685" midstSeId="-1" midstDmyId="21" />
+<row id="51357" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" materialParamId="10000" />
+<row id="51400" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" materialParamId="10101" materialParamTargetValue="1" materialParamFadeTime="0.3" />
+<row id="51401" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" materialParamId="10000" materialParamTargetValue="1" materialParamFadeTime="0.3" />
+<row id="51402" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" materialParamId="10101" materialParamInitValue="1" materialParamFadeTime="0.3" />
+<row id="51403" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" materialParamId="10000" materialParamInitValue="1" materialParamFadeTime="0.3" />
+<row id="51450" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="51451" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" materialParamId="10010" materialParamInitValue="1" materialParamTargetValue="1" />
+<row id="51452" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" materialParamId="10010" />
+<row id="51500" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playCategory="6" playPriority="1" isVisibleDeadChr="1" materialParamId="10000" materialParamInitValue="1" materialParamFadeTime="3" />
+<row id="51501" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playCategory="6" playPriority="1" isVisibleDeadChr="1" materialParamId="10000" materialParamTargetValue="1" materialParamFadeTime="3" />
+<row id="51502" midstSfxId="633600" midstSeId="-1" midstDmyId="220" />
+<row id="51503" midstSfxId="633605" midstSeId="-1" midstDmyId="220" />
+<row id="51504" midstSfxId="633630" midstSeId="-1" midstDmyId="220" />
+<row id="51505" midstSfxId="633631" midstSeId="-1" midstDmyId="7" />
+<row id="51506" midstSfxId="633690" midstSeId="-1" midstDmyId="220" />
+<row id="51507" midstSfxId="633790" midstSeId="-1" midstDmyId="220" />
+<row id="51508" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" phantomParamOverwriteType="2" phantomParamOverwriteId="260" />
+<row id="51509" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" useCamouflage="1" invisibleAtFriendCamouflage="1" isVisibleDeadChr="1" />
+<row id="51550" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" materialParamId="10000" materialParamInitValue="1" materialParamFadeTime="0.3" />
+<row id="51551" midstSfxId="642640" midstSeId="-1" midstDmyId="30" materialParamId="10000" materialParamTargetValue="1" materialParamFadeTime="0.3" />
+<row id="51552" midstSfxId="642641" midstSeId="-1" midstDmyId="30" materialParamId="10000" materialParamTargetValue="1" materialParamFadeTime="0.3" />
+<row id="51553" midstSfxId="642642" midstSeId="-1" midstDmyId="30" materialParamId="10000" materialParamTargetValue="1" materialParamFadeTime="0.3" />
+<row id="51600" midstSfxId="635005" midstSeId="-1" midstDmyId="200" />
+<row id="51601" midstSfxId="635000" midstSeId="-1" midstDmyId="6" />
+<row id="51602" midstSfxId="635000" midstSeId="-1" midstDmyId="5" />
+<row id="51603" midstSfxId="635080" midstSeId="-1" midstDmyId="11" />
+<row id="51604" midstSfxId="635081" midstSeId="-1" midstDmyId="20" />
+<row id="51605" midstSfxId="635082" midstSeId="-1" midstDmyId="32" />
+<row id="51606" midstSfxId="635083" midstSeId="-1" midstDmyId="41" />
+<row id="51607" midstSfxId="635084" midstSeId="-1" midstDmyId="62" />
+<row id="51608" midstSfxId="635085" midstSeId="-1" midstDmyId="72" />
+<row id="51609" midstSfxId="635090" midstSeId="-1" midstDmyId="199" />
+<row id="51650" midstSfxId="600620" midstSeId="-1" midstDmyId="20" />
+<row id="51700" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="51710" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" effectInvisibleAtCamouflage="1" useCamouflage="1" invisibleAtFriendCamouflage="1" isHideFootEffect_forCamouflage="1" />
+<row id="51720" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playCategory="3" playPriority="1" />
+<row id="51721" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playCategory="4" playPriority="1" />
+<row id="51750" midstSfxId="600621" midstSeId="325100002" midstDmyId="40" />
+<row id="51751" midstSfxId="632500" midstSeId="-1" midstDmyId="30" />
+<row id="51752" midstSfxId="632598" midstSeId="-1" midstDmyId="220" playCategory="3" />
+<row id="51753" midstSfxId="440093" midstSeId="-1" midstDmyId="220" playCategory="3" />
+<row id="51760" midstSfxId="632521" midstSeId="325000003" midstDmyId="21" />
+<row id="51761" midstSfxId="632502" midstSeId="-1" midstDmyId="40" />
+<row id="51770" midstSfxId="632586" midstSeId="325210000" midstDmyId="905" />
+<row id="51771" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" phantomParamOverwriteType="2" phantomParamOverwriteId="300" />
+<row id="51772" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" effectInvisibleAtCamouflage="1" useCamouflage="1" isHideFootEffect_forCamouflage="1" />
+<row id="51800" midstSfxId="638000" midstSeId="380001000" midstDmyId="50" />
+<row id="51801" midstSfxId="638005" midstSeId="-1" midstDmyId="40" />
+<row id="51802" midstSfxId="638050" midstSeId="380001000" midstDmyId="90" />
+<row id="51850" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" materialParamId="10000" materialParamInitValue="0.2" materialParamTargetValue="0.2" />
+<row id="51851" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" materialParamId="10000" materialParamInitValue="0.2" materialParamTargetValue="1" materialParamFadeTime="2" />
+<row id="51852" midstSfxId="646712" midstSeId="-1" midstDmyId="220" />
+<row id="51853" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isSilence="1" isVisibleDeadChr="1" phantomParamOverwriteType="2" phantomParamOverwriteId="260" />
+<row id="51900" midstSfxId="647280" midstSeId="647280" midstDmyId="960" />
+<row id="51901" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" phantomParamOverwriteType="2" phantomParamOverwriteId="270" />
+<row id="51950" midstSfxId="643700" midstSeId="-1" midstDmyId="27" />
+<row id="51951" midstSfxId="643740" midstSeId="-1" midstDmyId="220" />
+<row id="51952" midstSfxId="643190" midstSeId="-1" midstDmyId="199" />
+<row id="51953" midstSfxId="-1" midstSeId="-1" midstDmyId="0" phantomParamOverwriteType="2" phantomParamOverwriteId="240" />
+<row id="51954" midstSfxId="-1" midstSeId="-1" midstDmyId="0" />
+<row id="52000" midstSfxId="639100" midstSeId="391000002" midstDmyId="80" />
+<row id="52001" midstSfxId="639101" midstSeId="-1" midstDmyId="80" />
+<row id="52050" midstSfxId="636505" midstSeId="-1" midstDmyId="905" />
+<row id="52051" midstSfxId="636515" midstSeId="-1" midstDmyId="905" />
+<row id="52052" midstSfxId="636520" midstSeId="-1" midstDmyId="905" />
+<row id="52053" midstSfxId="636530" midstSeId="-1" midstDmyId="810" />
+<row id="52054" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="52100" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" materialParamId="10001" materialParamTargetValue="1" materialParamFadeTime="1.3" />
+<row id="52101" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" materialParamId="10001" materialParamInitValue="1" materialParamTargetValue="1" />
+<row id="52102" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" materialParamId="10001" materialParamInitValue="1" materialParamFadeTime="2" />
+<row id="52103" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" useCamouflage="1" invisibleAtFriendCamouflage="1" />
+<row id="52104" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" phantomParamOverwriteType="2" phantomParamOverwriteId="320" />
+<row id="52105" midstSfxId="641991" midstSeId="-1" midstDmyId="10" />
+<row id="52106" midstSfxId="641990" midstSeId="-1" midstDmyId="10" />
+<row id="52107" midstSfxId="641992" midstSeId="-1" midstDmyId="10" />
+<row id="52113" midstSfxId="641961" midstSeId="-1" midstDmyId="10" />
+<row id="52114" midstSfxId="641960" midstSeId="-1" midstDmyId="10" />
+<row id="52115" midstSfxId="641962" midstSeId="-1" midstDmyId="10" />
+<row id="52116" midstSfxId="641926" midstSeId="-1" midstDmyId="10" />
+<row id="52117" midstSfxId="641925" midstSeId="-1" midstDmyId="10" />
+<row id="52118" midstSfxId="641927" midstSeId="-1" midstDmyId="10" />
+<row id="52119" midstSfxId="641971" midstSeId="-1" midstDmyId="10" />
+<row id="52120" midstSfxId="641970" midstSeId="-1" midstDmyId="10" />
+<row id="52121" midstSfxId="641972" midstSeId="-1" midstDmyId="10" />
+<row id="52122" midstSfxId="641976" midstSeId="-1" midstDmyId="10" />
+<row id="52123" midstSfxId="641975" midstSeId="-1" midstDmyId="10" />
+<row id="52124" midstSfxId="641977" midstSeId="-1" midstDmyId="10" />
+<row id="52125" midstSfxId="641966" midstSeId="-1" midstDmyId="10" />
+<row id="52126" midstSfxId="641965" midstSeId="-1" midstDmyId="10" />
+<row id="52127" midstSfxId="641967" midstSeId="-1" midstDmyId="10" />
+<row id="52150" midstSfxId="641801" midstSeId="-1" midstDmyId="800" isVisibleDeadChr="1" materialParamId="1002" materialParamTargetValue="1" materialParamFadeTime="0.5" />
+<row id="52151" midstSfxId="641800" midstSeId="-1" midstDmyId="800" materialParamId="1002" materialParamInitValue="1" materialParamFadeTime="0.8" />
+<row id="52152" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" materialParamId="1003" materialParamTargetValue="1" materialParamFadeTime="0.5" />
+<row id="52153" midstSfxId="641800" midstSeId="-1" midstDmyId="800" materialParamId="1002" materialParamTargetValue="1" materialParamFadeTime="1" />
+<row id="52154" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" materialParamId="1003" materialParamInitValue="1" materialParamFadeTime="0.5" />
+<row id="52155" midstSfxId="641802" midstSeId="-1" midstDmyId="800" isVisibleDeadChr="1" />
+<row id="52200" midstSfxId="647303" midstSeId="-1" midstDmyId="40" />
+<row id="52201" midstSfxId="647303" midstSeId="-1" midstDmyId="41" />
+<row id="52202" midstSfxId="647303" midstSeId="-1" midstDmyId="42" />
+<row id="52203" midstSfxId="647303" midstSeId="-1" midstDmyId="43" />
+<row id="52204" midstSfxId="647330" midstSeId="-1" midstDmyId="810" />
+<row id="52205" midstSfxId="647330" midstSeId="-1" midstDmyId="820" />
+<row id="52206" midstSfxId="647332" midstSeId="647332" midstDmyId="960" />
+<row id="52207" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" effectInvisibleAtCamouflage="1" useCamouflage="1" invisibleAtFriendCamouflage="1" isHideFootEffect_forCamouflage="1" />
+<row id="52230" midstSfxId="4500" midstSeId="340000001" midstDmyId="905" />
+<row id="52231" midstSfxId="634030" midstSeId="-1" midstDmyId="13" />
+<row id="52232" midstSfxId="634035" midstSeId="-1" midstDmyId="22" />
+<row id="52233" midstSfxId="634036" midstSeId="-1" midstDmyId="32" />
+<row id="52250" midstSfxId="-1" midstSeId="210010002" initSeId="210010000" midstDmyId="-1" playCategory="3" playPriority="10" useCamouflage="1" />
+<row id="52251" midstSfxId="-1" midstSeId="210010003" initSeId="210010001" midstDmyId="-1" playCategory="3" playPriority="5" />
+<row id="52252" midstSfxId="-1" midstSeId="210010002" initSeId="210010000" camouflageBeginDist="20" camouflageEndDist="19" midstDmyId="-1" playCategory="3" playPriority="10" useCamouflage="1" />
+<row id="52300" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" materialParamId="1004" materialParamTargetValue="1" materialParamFadeTime="2.5" />
+<row id="52301" midstSfxId="644620" midstSeId="-1" midstDmyId="907" />
+<row id="52302" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" materialParamId="10000" materialParamInitValue="1" materialParamTargetValue="0.3" materialParamFadeTime="1" />
+<row id="52303" midstSfxId="644651" midstSeId="-1" midstDmyId="70" />
+<row id="52304" midstSfxId="644650" midstSeId="-1" midstDmyId="7" />
+<row id="52350" midstSfxId="620430" midstSeId="-1" finishSfxId="620431" finishSeId="620431" midstDmyId="10" finishDmyId="10" />
+<row id="52351" midstSfxId="620307" midstSeId="203000002" initSeId="203000001" finishSeId="203000003" midstDmyId="10" />
+<row id="52352" midstSfxId="620410" midstSeId="-1" midstDmyId="20" />
+<row id="52353" midstSfxId="620410" midstSeId="-1" midstDmyId="21" />
+<row id="52354" midstSfxId="620307" midstSeId="203000002" initSeId="203000001" finishSfxId="620308" midstDmyId="240" finishDmyId="240" />
+<row id="52355" midstSfxId="620309" midstSeId="203000002" initSeId="203000001" finishSeId="203000005" midstDmyId="10" />
+<row id="52356" midstSfxId="620310" midstSeId="203000009" initSeId="203000001" finishSfxId="620308" finishSeId="203000006" midstDmyId="10" finishDmyId="10" />
+<row id="52357" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" phantomParamOverwriteType="2" phantomParamOverwriteId="230" />
+<row id="52358" midstSfxId="620311" midstSeId="203000009" finishSeId="203000004" midstDmyId="10" />
+<row id="52359" midstSfxId="620307" midstSeId="203000002" initSeId="203000001" finishSfxId="620308" midstDmyId="240" finishDmyId="240" />
+<row id="52390" midstSfxId="620410" midstSeId="-1" midstDmyId="240" />
+<row id="52391" midstSfxId="638505" midstSeId="-1" midstDmyId="240" />
+<row id="52392" midstSfxId="638530" midstSeId="-1" midstDmyId="240" />
+<row id="52393" midstSfxId="638531" midstSeId="-1" midstDmyId="240" />
+<row id="52400" midstSfxId="620150" midstSeId="-1" midstDmyId="199" />
+<row id="52401" midstSfxId="620141" midstSeId="-1" midstDmyId="908" />
+<row id="52402" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" phantomParamOverwriteType="2" phantomParamOverwriteId="60" />
+<row id="52403" midstSfxId="620190" midstSeId="-1" midstDmyId="10" />
+<row id="52420" midstSfxId="638620" midstSeId="-1" midstDmyId="240" />
+<row id="52421" midstSfxId="638621" midstSeId="-1" midstDmyId="240" />
+<row id="52450" midstSfxId="4500" midstSeId="-1" initSfxId="300541" midstDmyId="905" initDmyId="905" existEffectForLarge="1" />
+<row id="52451" midstSfxId="-1" midstSeId="-1" midstDmyId="220" />
+<row id="52452" midstSfxId="4530" midstSeId="-1" initSfxId="300561" midstDmyId="905" initDmyId="905" existEffectForLarge="1" />
+<row id="52453" midstSfxId="637040" midstSeId="-1" midstDmyId="220" />
+<row id="52454" midstSfxId="637006" midstSeId="-1" midstDmyId="220" />
+<row id="52455" midstSfxId="637007" midstSeId="637007" midstDmyId="220" isVisibleDeadChr="1" />
+<row id="52456" midstSfxId="4750" midstSeId="300541" midstDmyId="905" existEffectForLarge="1" />
+<row id="52500" midstSfxId="625002" midstSeId="250001000" midstDmyId="100" />
+<row id="52501" midstSfxId="625002" midstSeId="250001000" midstDmyId="101" />
+<row id="52502" midstSfxId="625002" midstSeId="250001000" midstDmyId="104" />
+<row id="52503" midstSfxId="625002" midstSeId="250001000" midstDmyId="102" />
+<row id="52504" midstSfxId="625002" midstSeId="250001000" midstDmyId="103" />
+<row id="52510" midstSfxId="640901" midstSeId="-1" midstDmyId="199" />
+<row id="52520" midstSfxId="640801" midstSeId="-1" midstDmyId="199" />
+<row id="52530" midstSfxId="4225" midstSeId="370000041" midstDmyId="845" />
+<row id="52531" midstSfxId="4225" midstSeId="370000041" midstDmyId="845" />
+<row id="52550" midstSfxId="636610" midstSeId="-1" midstDmyId="30" />
+<row id="52551" midstSfxId="636611" midstSeId="-1" midstDmyId="30" />
+<row id="52552" midstSfxId="636620" midstSeId="-1" midstDmyId="220" />
+<row id="52553" midstSfxId="636612" midstSeId="-1" midstDmyId="199" />
+<row id="52600" midstSfxId="632500" midstSeId="325201000" midstDmyId="31" />
+<row id="52650" midstSfxId="644830" midstSeId="391000002" midstDmyId="16" />
+<row id="52651" midstSfxId="644800" midstSeId="391000002" midstDmyId="16" />
+<row id="52670" midstSfxId="643240" midstSeId="-1" midstDmyId="11" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="10" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="52671" midstSfxId="643240" midstSeId="-1" midstDmyId="11" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="10" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="52672" midstSfxId="643240" midstSeId="-1" midstDmyId="11" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="10" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="52700" midstSfxId="647520" midstSeId="475010001" midstDmyId="900" />
+<row id="52701" midstSfxId="647525" midstSeId="475010002" midstDmyId="900" />
+<row id="52702" midstSfxId="647526" midstSeId="475010003" midstDmyId="10" />
+<row id="52703" midstSfxId="647527" midstSeId="475010004" midstDmyId="10" />
+<row id="52750" midstSfxId="644300" midstSeId="-1" midstDmyId="199" />
+<row id="52800" midstSfxId="621130" midstSeId="211001000" midstDmyId="301" />
+<row id="52801" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="52810" midstSfxId="631871" midstSeId="-1" midstDmyId="960" />
+<row id="52850" midstSfxId="645101" midstSeId="-1" midstDmyId="810" />
+<row id="52851" midstSfxId="645102" midstSeId="-1" midstDmyId="811" />
+<row id="52852" midstSfxId="645103" midstSeId="-1" midstDmyId="812" />
+<row id="52853" midstSfxId="645100" midstSeId="-1" midstDmyId="907" />
+<row id="52860" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="52870" midstSfxId="645100" midstSeId="-1" midstDmyId="907" />
+<row id="52880" midstSfxId="645105" midstSeId="-1" midstDmyId="908" />
+<row id="52881" midstSfxId="645106" midstSeId="-1" midstDmyId="900" />
+<row id="52882" midstSfxId="645180" midstSeId="-1" midstDmyId="220" />
+<row id="52900" midstSfxId="645530" midstSeId="-1" midstDmyId="199" />
+<row id="52901" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="52950" midstSfxId="647600" midstSeId="476001000" midstDmyId="820" />
+<row id="52951" midstSfxId="647601" midstSeId="476001000" midstDmyId="825" />
+<row id="52952" midstSfxId="647602" midstSeId="476001000" midstDmyId="827" />
+<row id="52960" midstSfxId="647600" midstSeId="476001000" midstDmyId="821" />
+<row id="52961" midstSfxId="647601" midstSeId="476001000" midstDmyId="826" />
+<row id="52962" midstSfxId="647602" midstSeId="476001000" midstDmyId="828" />
+<row id="52970" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" materialParamId="1006" materialParamInitValue="0.3" materialParamTargetValue="0.37" materialParamFadeTime="0.2" />
+<row id="52971" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" materialParamId="1006" materialParamInitValue="0.37" materialParamTargetValue="0.44" materialParamFadeTime="0.2" />
+<row id="52972" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" materialParamId="1006" materialParamInitValue="0.44" materialParamTargetValue="0.51" materialParamFadeTime="0.2" />
+<row id="52973" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" materialParamId="1006" materialParamInitValue="0.51" materialParamTargetValue="0.58" materialParamFadeTime="0.2" />
+<row id="52974" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" materialParamId="1006" materialParamInitValue="0.58" materialParamTargetValue="0.65" materialParamFadeTime="0.2" />
+<row id="52975" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" materialParamId="1006" materialParamInitValue="0.65" materialParamTargetValue="0.72" materialParamFadeTime="0.2" />
+<row id="52976" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" materialParamId="1006" materialParamInitValue="0.72" materialParamTargetValue="0.79" materialParamFadeTime="0.2" />
+<row id="52977" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" materialParamId="1006" materialParamInitValue="0.86" materialParamTargetValue="0.93" materialParamFadeTime="0.2" />
+<row id="52978" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" materialParamId="1006" materialParamInitValue="0.93" materialParamTargetValue="1" materialParamFadeTime="0.2" />
+<row id="52980" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" materialParamId="1007" materialParamInitValue="0.3" materialParamTargetValue="0.37" materialParamFadeTime="0.2" />
+<row id="52981" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" materialParamId="1007" materialParamInitValue="0.37" materialParamTargetValue="0.44" materialParamFadeTime="0.2" />
+<row id="52982" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" materialParamId="1007" materialParamInitValue="0.44" materialParamTargetValue="0.51" materialParamFadeTime="0.2" />
+<row id="52983" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" materialParamId="1007" materialParamInitValue="0.51" materialParamTargetValue="0.58" materialParamFadeTime="0.2" />
+<row id="52984" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" materialParamId="1007" materialParamInitValue="0.58" materialParamTargetValue="0.65" materialParamFadeTime="0.2" />
+<row id="52985" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" materialParamId="1007" materialParamInitValue="0.65" materialParamTargetValue="0.72" materialParamFadeTime="0.2" />
+<row id="52986" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" materialParamId="1007" materialParamInitValue="0.72" materialParamTargetValue="0.79" materialParamFadeTime="0.2" />
+<row id="52987" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" materialParamId="1007" materialParamInitValue="0.86" materialParamTargetValue="0.93" materialParamFadeTime="0.2" />
+<row id="52988" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" materialParamId="1007" materialParamInitValue="0.93" materialParamTargetValue="1" materialParamFadeTime="0.2" />
+<row id="53000" midstSfxId="-1" midstSeId="-1" camouflageEndDist="0" midstDmyId="-1" useCamouflage="1" invisibleAtFriendCamouflage="1" isVisibleDeadChr="1" />
+<row id="53099" midstSfxId="-1" midstSeId="-1" camouflageEndDist="0" midstDmyId="-1" useCamouflage="1" invisibleAtFriendCamouflage="1" isVisibleDeadChr="1" camouflageMinAlpha="90" />
+<row id="53100" midstSfxId="643850" midstSeId="438100001" midstDmyId="800" />
+<row id="53101" midstSfxId="643868" midstSeId="-1" midstDmyId="199" />
+<row id="53102" midstSfxId="643853" midstSeId="438100002" midstDmyId="300" />
+<row id="53105" midstSfxId="4500" midstSeId="524402" initSfxId="525083" midstDmyId="905" initDmyId="220" playCategory="3" playPriority="45" />
+<row id="53150" midstSfxId="643820" midstSeId="-1" midstDmyId="20" />
+<row id="53151" midstSfxId="643821" midstSeId="-1" midstDmyId="20" />
+<row id="53200" midstSfxId="633210" midstSeId="-1" midstDmyId="930" />
+<row id="53201" midstSfxId="633230" midstSeId="-1" midstDmyId="220" />
+<row id="53202" midstSfxId="-1" midstSeId="-1" midstDmyId="0" playCategory="7" playPriority="5" isMidstFullbody="1" isVisibleDeadChr="1" wetAspectType="18" />
+<row id="53210" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" phantomParamOverwriteType="2" phantomParamOverwriteId="60" />
+<row id="53211" midstSfxId="600901" midstSeId="-1" midstDmyId="220" />
+<row id="53212" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" phantomParamOverwriteType="2" phantomParamOverwriteId="62" />
+<row id="53213" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" phantomParamOverwriteType="2" phantomParamOverwriteId="340" />
+<row id="53214" midstSfxId="803280" midstSeId="-1" midstDmyId="900" />
+<row id="53215" midstSfxId="7101" midstSeId="-1" midstDmyId="200" />
+<row id="53216" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" phantomParamOverwriteType="2" phantomParamOverwriteId="240" />
+<row id="53217" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" effectInvisibleAtCamouflage="1" useCamouflage="1" invisibleAtFriendCamouflage="1" isHideFootEffect_forCamouflage="1" />
+<row id="53218" midstSfxId="600902" midstSeId="-1" midstDmyId="220" />
+<row id="53219" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" phantomParamOverwriteType="2" phantomParamOverwriteId="350" />
+<row id="53220" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" phantomParamOverwriteType="2" phantomParamOverwriteId="900" />
+<row id="53221" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" phantomParamOverwriteType="2" phantomParamOverwriteId="902" />
+<row id="53222" midstSfxId="600903" midstSeId="-1" midstDmyId="220" />
+<row id="53230" midstSfxId="621903" midstSeId="-1" midstDmyId="220" />
+<row id="53231" midstSfxId="621902" midstSeId="-1" midstDmyId="220" />
+<row id="53232" midstSfxId="621902" midstSeId="-1" midstDmyId="220" />
+<row id="53233" midstSfxId="621902" midstSeId="-1" midstDmyId="220" />
+<row id="53234" midstSfxId="621902" midstSeId="-1" midstDmyId="220" />
+<row id="53235" midstSfxId="621901" midstSeId="-1" midstDmyId="220" />
+<row id="53236" midstSfxId="621901" midstSeId="-1" midstDmyId="220" />
+<row id="53237" midstSfxId="621901" midstSeId="-1" midstDmyId="220" />
+<row id="53250" midstSfxId="622041" midstSeId="-1" midstDmyId="220" />
+<row id="53251" midstSfxId="648082" midstSeId="-1" midstDmyId="132" />
+<row id="53252" midstSfxId="621933" midstSeId="-1" midstDmyId="220" />
+<row id="53300" midstSfxId="660715" midstSeId="607101000" midstDmyId="800" />
+<row id="53301" midstSfxId="660720" midstSeId="607101000" midstDmyId="801" />
+<row id="53400" midstSfxId="621220" midstSeId="212090001" midstDmyId="800" />
+<row id="53401" midstSfxId="621220" midstSeId="212090001" midstDmyId="801" />
+<row id="53402" midstSfxId="621220" midstSeId="212090001" midstDmyId="802" />
+<row id="53403" midstSfxId="621220" midstSeId="212090001" midstDmyId="810" />
+<row id="53404" midstSfxId="621220" midstSeId="212090001" midstDmyId="811" />
+<row id="53405" midstSfxId="621220" midstSeId="212090001" midstDmyId="812" />
+<row id="53410" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" phantomParamOverwriteType="2" phantomParamOverwriteId="19" />
+<row id="53420" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" effectInvisibleAtCamouflage="1" useCamouflage="1" invisibleAtFriendCamouflage="1" isSilence="1" />
+<row id="53430" midstSfxId="621250" midstSeId="-1" midstDmyId="220" />
+<row id="53431" midstSfxId="621250" midstSeId="-1" midstDmyId="220" />
+<row id="53432" midstSfxId="621250" midstSeId="-1" midstDmyId="220" />
+<row id="53433" midstSfxId="621250" midstSeId="-1" midstDmyId="220" />
+<row id="53434" midstSfxId="621250" midstSeId="-1" midstDmyId="220" />
+<row id="53450" midstSfxId="671050" midstSeId="-1" midstDmyId="301" />
+<row id="53451" midstSfxId="671051" midstSeId="710010001" midstDmyId="900" />
+<row id="53500" midstSfxId="646830" midstSeId="468001001" midstDmyId="810" />
+<row id="53501" midstSfxId="646806" midstSeId="468001002" midstDmyId="-1" />
+<row id="53502" midstSfxId="-1" midstSeId="468001003" midstDmyId="-1" />
+<row id="53503" midstSfxId="646840" midstSeId="468001004" midstDmyId="905" />
+<row id="53510" midstSfxId="636660" midstSeId="366110001" midstDmyId="220" />
+<row id="53511" midstSfxId="636665" midstSeId="366110000" midstDmyId="220" />
+<row id="53512" midstSfxId="636640" midstSeId="-1" midstDmyId="907" />
+<row id="53520" midstSfxId="636661" midstSeId="366110001" midstDmyId="220" />
+<row id="53521" midstSfxId="636666" midstSeId="366110000" midstDmyId="220" />
+<row id="53522" midstSfxId="636641" midstSeId="-1" midstDmyId="907" />
+<row id="53550" midstSfxId="621430" midstSeId="214001000" midstDmyId="300" />
+<row id="53551" midstSfxId="621431" midstSeId="214001000" midstDmyId="310" />
+<row id="53552" midstSfxId="621450" midstSeId="214001000" midstDmyId="310" />
+<row id="53600" midstSfxId="642850" midstSeId="-1" midstDmyId="199" />
+<row id="53610" midstSfxId="642620" midstSeId="-1" midstDmyId="199" />
+<row id="53670" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playCategory="6" playPriority="1" isVisibleDeadChr="1" materialParamId="1010" materialParamTargetValue="1" materialParamFadeTime="1.5" />
+<row id="53671" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playCategory="6" playPriority="1" isVisibleDeadChr="1" materialParamId="1010" materialParamTargetValue="1" materialParamFadeTime="1.5" />
+<row id="53680" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playCategory="6" playPriority="1" isVisibleDeadChr="1" materialParamId="1010" materialParamInitValue="1" materialParamFadeTime="1.5" />
+<row id="53681" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playCategory="6" playPriority="1" isVisibleDeadChr="1" materialParamId="1010" materialParamInitValue="0.3" materialParamFadeTime="1" />
+<row id="53690" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playCategory="6" playPriority="1" isVisibleDeadChr="1" materialParamId="1010" />
+<row id="53691" midstSfxId="646310" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" materialParamId="0" />
+<row id="53692" midstSfxId="645220" midstSeId="-1" midstDmyId="960" />
+<row id="53695" midstSfxId="645225" midstSeId="-1" midstDmyId="900" />
+<row id="53699" midstSfxId="524402" midstSeId="-1" midstDmyId="200" existEffectForLarge="1" />
+<row id="53700" midstSfxId="643970" midstSeId="438201003" midstDmyId="802" />
+<row id="53701" midstSfxId="643874" midstSeId="438201001" midstDmyId="801" />
+<row id="53702" midstSfxId="643898" midstSeId="438201002" midstDmyId="800" />
+<row id="53703" midstSfxId="643971" midstSeId="-1" midstDmyId="803" />
+<row id="53704" midstSfxId="643972" midstSeId="-1" midstDmyId="803" />
+<row id="53750" midstSfxId="-1" midstSeId="-1" midstDmyId="820" />
+<row id="53800" midstSfxId="646531" midstSeId="465001001" midstDmyId="810" />
+<row id="53801" midstSfxId="646531" midstSeId="465001001" midstDmyId="820" />
+<row id="53802" midstSfxId="646530" midstSeId="465001001" midstDmyId="1" />
+<row id="53803" midstSfxId="646530" midstSeId="465001001" midstDmyId="2" />
+<row id="53804" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" phantomParamOverwriteType="2" phantomParamOverwriteId="330" />
+<row id="53805" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" effectInvisibleAtCamouflage="1" useCamouflage="1" isHideFootEffect_forCamouflage="1" />
+<row id="53850" midstSfxId="646921" midstSeId="469001001" midstDmyId="310" />
+<row id="53851" midstSfxId="646921" midstSeId="469001001" midstDmyId="300" />
+<row id="53900" midstSfxId="643900" midstSeId="468001001" midstDmyId="32" />
+<row id="53901" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" materialParamId="10000" materialParamInitValue="1" materialParamTargetValue="0.1" materialParamFadeTime="1" />
+<row id="53920" midstSfxId="643901" midstSeId="468001001" midstDmyId="32" />
+<row id="53921" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" materialParamId="10000" materialParamInitValue="1" materialParamTargetValue="0.1" materialParamFadeTime="1" />
+<row id="53922" midstSfxId="643924" midstSeId="468001001" midstDmyId="199" />
+<row id="53950" midstSfxId="647320" midstSeId="-1" midstDmyId="10" />
+<row id="53951" midstSfxId="647320" midstSeId="-1" midstDmyId="20" />
+<row id="53952" midstSfxId="646241" midstSeId="-1" midstDmyId="64" />
+<row id="53953" midstSfxId="646241" midstSeId="-1" midstDmyId="62" />
+<row id="53954" midstSfxId="646241" midstSeId="-1" midstDmyId="60" />
+<row id="54010" midstSfxId="648115" midstSeId="481010000" midstDmyId="10" enchantStartDmyId_0="10" enchantEndDmyId_0="13" />
+<row id="54015" midstSfxId="-1" midstSeId="-1" midstDmyId="0" phantomParamOverwriteType="2" phantomParamOverwriteId="240" />
+<row id="54016" midstSfxId="101" midstSeId="-1" midstDmyId="220" isVisibleDeadChr="1" />
+<row id="54017" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" useCamouflage="1" invisibleAtFriendCamouflage="1" isVisibleDeadChr="1" />
+<row id="54020" midstSfxId="630700" midstSeId="307001001" midstDmyId="20" />
+<row id="54021" midstSfxId="641032" midstSeId="-1" midstDmyId="199" />
+<row id="54030" midstSfxId="646420" midstSeId="464010000" midstDmyId="960" />
+<row id="54031" midstSfxId="646421" midstSeId="464010001" midstDmyId="960" />
+<row id="54040" midstSfxId="636680" midstSeId="366410000" midstDmyId="220" />
+<row id="54041" midstSfxId="636694" midstSeId="366410001" midstDmyId="220" />
+<row id="54060" midstSfxId="-1" midstSeId="-1" midstDmyId="0" phantomParamOverwriteType="2" phantomParamOverwriteId="13" />
+<row id="54061" midstSfxId="649530" midstSeId="-1" midstDmyId="100" />
+<row id="54062" midstSfxId="649500" midstSeId="-1" midstDmyId="900" />
+<row id="54070" midstSfxId="644902" midstSeId="-1" midstDmyId="7" />
+<row id="54080" midstSfxId="-1" midstSeId="-1" midstDmyId="0" playCategory="3" isMidstFullbody="1" wetAspectType="7" />
+<row id="54100" midstSfxId="639715" midstSeId="-1" midstDmyId="800" />
+<row id="54101" midstSfxId="639716" midstSeId="-1" midstDmyId="800" />
+<row id="54102" midstSfxId="639717" midstSeId="-1" midstDmyId="800" />
+<row id="54103" midstSfxId="490000" midstSeId="-1" midstDmyId="2" />
+<row id="54150" midstSfxId="639041" midstSeId="498010001" midstDmyId="10" />
+<row id="54151" midstSfxId="644612" midstSeId="498010002" midstDmyId="13" />
+<row id="54152" midstSfxId="644612" midstSeId="498010003" midstDmyId="14" />
+<row id="54170" midstSfxId="643561" midstSeId="-1" midstDmyId="300" />
+<row id="54171" midstSfxId="643561" midstSeId="-1" midstDmyId="320" />
+<row id="54172" midstSfxId="643582" midstSeId="-1" midstDmyId="300" />
+<row id="54173" midstSfxId="643593" midstSeId="-1" midstDmyId="320" />
+<row id="54174" midstSfxId="643503" midstSeId="440010" midstDmyId="300" />
+<row id="54175" midstSfxId="643510" midstSeId="-1" midstDmyId="300" />
+<row id="54176" midstSfxId="643511" midstSeId="-1" midstDmyId="320" />
+<row id="54177" midstSfxId="643557" midstSeId="-1" midstDmyId="300" />
+<row id="54178" midstSfxId="643511" midstSeId="-1" midstDmyId="320" />
+<row id="54181" midstSfxId="643536" midstSeId="-1" midstDmyId="300" />
+<row id="54182" midstSfxId="643537" midstSeId="-1" midstDmyId="320" />
+<row id="54183" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" phantomParamOverwriteType="2" phantomParamOverwriteId="240" />
+<row id="54184" midstSfxId="643652" midstSeId="-1" midstDmyId="220" playCategory="3" playPriority="51" />
+<row id="54185" midstSfxId="4610" midstSeId="-1" midstDmyId="905" playCategory="3" playPriority="52" existEffectForLarge="1" />
+<row id="54186" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" phantomParamOverwriteType="2" phantomParamOverwriteId="240" />
+<row id="54190" midstSfxId="4520" midstSeId="-1" midstDmyId="905" initDmyId="220" playCategory="3" playPriority="52" existEffectForLarge="1" isMidstFullbody="1" />
+<row id="54191" midstSfxId="643639" midstSeId="-1" midstDmyId="199" />
+<row id="54192" midstSfxId="4500" midstSeId="-1" midstDmyId="905" existEffectForLarge="1" isMidstFullbody="1" />
+<row id="54193" midstSfxId="4500" midstSeId="524402" initSfxId="301271" midstDmyId="905" initDmyId="905" playCategory="3" playPriority="45" />
+<row id="54210" midstSfxId="622750" midstSeId="-1" midstDmyId="201" />
+<row id="54215" midstSfxId="640422" midstSeId="642404" midstDmyId="220" />
+<row id="54220" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" phantomParamOverwriteType="2" phantomParamOverwriteId="62" />
+<row id="54221" midstSfxId="621820" midstSeId="-1" midstDmyId="21" />
+<row id="54225" midstSfxId="440093" midstSeId="-1" midstDmyId="220" playCategory="3" playPriority="70" isMidstFullbody="1" isInitFullbody="1" isFinishFullbody="1" />
+<row id="54230" midstSfxId="635005" midstSeId="-1" midstDmyId="200" />
+<row id="54231" midstSfxId="635000" midstSeId="-1" midstDmyId="10" />
+<row id="54232" midstSfxId="635000" midstSeId="-1" midstDmyId="11" />
+<row id="54240" midstSfxId="4500" midstSeId="421100001" midstDmyId="905" existEffectForLarge="1" />
+<row id="54250" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" useCamouflage="1" invisibleAtFriendCamouflage="1" isVisibleDeadChr="1" />
+<row id="54260" midstSfxId="-1" midstSeId="-1" midstDmyId="0" phantomParamOverwriteType="2" phantomParamOverwriteId="250" />
+<row id="54261" midstSfxId="101" midstSeId="-1" midstDmyId="220" isVisibleDeadChr="1" />
+<row id="54262" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" useCamouflage="1" invisibleAtFriendCamouflage="1" isVisibleDeadChr="1" />
+<row id="54270" midstSfxId="-1" midstSeId="-1" camouflageBeginDist="6" camouflageEndDist="5" midstDmyId="-1" effectInvisibleAtCamouflage="1" useCamouflage="1" isHideFootEffect_forCamouflage="1" />
+<row id="54271" midstSfxId="-1" midstSeId="-1" camouflageBeginDist="10" camouflageEndDist="9" midstDmyId="-1" effectInvisibleAtCamouflage="1" useCamouflage="1" isHideFootEffect_forCamouflage="1" />
+<row id="54272" midstSfxId="-1" midstSeId="-1" camouflageBeginDist="15" camouflageEndDist="14" midstDmyId="-1" effectInvisibleAtCamouflage="1" useCamouflage="1" isHideFootEffect_forCamouflage="1" />
+<row id="54280" midstSfxId="-1" midstSeId="-1" camouflageBeginDist="0" camouflageEndDist="0" midstDmyId="-1" effectInvisibleAtCamouflage="1" useCamouflage="1" invisibleAtFriendCamouflage="1" isHideFootEffect_forCamouflage="1" isVisibleDeadChr="1" />
+<row id="54290" midstSfxId="646531" midstSeId="-1" camouflageBeginDist="0" camouflageEndDist="0" midstDmyId="600" />
+<row id="54300" midstSfxId="643420" midstSeId="434001000" midstDmyId="300" />
+<row id="54301" midstSfxId="643421" midstSeId="434001000" midstDmyId="21" />
+<row id="54310" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" phantomParamOverwriteType="2" phantomParamOverwriteId="310" />
+<row id="54315" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" phantomParamOverwriteType="2" phantomParamOverwriteId="310" />
+<row id="54320" midstSfxId="-1" midstSeId="-1" camouflageBeginDist="0" camouflageEndDist="0" midstDmyId="-1" effectInvisibleAtCamouflage="1" useCamouflage="1" />
+<row id="54330" midstSfxId="-1" midstSeId="-1" camouflageBeginDist="99" camouflageEndDist="99" midstDmyId="-1" useCamouflage="1" isHideFootEffect_forCamouflage="1" />
+<row id="54340" midstSfxId="621325" midstSeId="-1" midstDmyId="16" />
+<row id="54341" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="54342" midstSfxId="621326" midstSeId="-1" midstDmyId="220" />
+<row id="54343" midstSfxId="621327" midstSeId="-1" midstDmyId="220" />
+<row id="57000" paramdexName="Spirit Summon Phantom Color" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" phantomParamOverwriteType="2" phantomParamOverwriteId="200" />
+<row id="57010" midstSfxId="-1" midstSeId="-1" initSfxId="691" initSeId="999997803" midstDmyId="-1" initDmyId="960" isVisibleDeadChr="1" />
+<row id="57011" midstSfxId="-1" midstSeId="-1" initSfxId="692" initSeId="999997805" midstDmyId="-1" initDmyId="960" isVisibleDeadChr="1" />
+<row id="57012" midstSfxId="-1" midstSeId="-1" initSfxId="693" initSeId="999997806" midstDmyId="-1" initDmyId="960" isVisibleDeadChr="1" />
+<row id="57013" midstSfxId="-1" midstSeId="-1" initSfxId="694" initSeId="999997807" midstDmyId="-1" initDmyId="960" isVisibleDeadChr="1" />
+<row id="57020" midstSfxId="-1" midstSeId="-1" initSfxId="701" midstDmyId="-1" initDmyId="905" isVisibleDeadChr="1" />
+<row id="57021" midstSfxId="-1" midstSeId="-1" initSfxId="702" midstDmyId="-1" initDmyId="905" isVisibleDeadChr="1" />
+<row id="57022" midstSfxId="-1" midstSeId="-1" initSfxId="703" midstDmyId="-1" initDmyId="905" isVisibleDeadChr="1" />
+<row id="57023" midstSfxId="-1" midstSeId="-1" initSfxId="704" midstDmyId="-1" initDmyId="905" isVisibleDeadChr="1" />
+<row id="57030" midstSfxId="-1" midstSeId="999997804" midstDmyId="-1" useCamouflage="1" invisibleAtFriendCamouflage="1" isVisibleDeadChr="1" camouflageMinAlpha="90" />
+<row id="57031" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" useCamouflage="1" invisibleAtFriendCamouflage="1" isVisibleDeadChr="1" camouflageMinAlpha="80" />
+<row id="57032" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" useCamouflage="1" invisibleAtFriendCamouflage="1" isVisibleDeadChr="1" camouflageMinAlpha="70" />
+<row id="57033" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" useCamouflage="1" invisibleAtFriendCamouflage="1" isVisibleDeadChr="1" camouflageMinAlpha="60" />
+<row id="57034" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" useCamouflage="1" invisibleAtFriendCamouflage="1" isVisibleDeadChr="1" camouflageMinAlpha="50" />
+<row id="57035" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" useCamouflage="1" invisibleAtFriendCamouflage="1" isVisibleDeadChr="1" camouflageMinAlpha="40" />
+<row id="57036" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" useCamouflage="1" invisibleAtFriendCamouflage="1" isVisibleDeadChr="1" camouflageMinAlpha="30" />
+<row id="57037" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" useCamouflage="1" invisibleAtFriendCamouflage="1" isVisibleDeadChr="1" camouflageMinAlpha="20" />
+<row id="57038" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" useCamouflage="1" invisibleAtFriendCamouflage="1" isVisibleDeadChr="1" camouflageMinAlpha="10" />
+<row id="57039" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" useCamouflage="1" invisibleAtFriendCamouflage="1" isVisibleDeadChr="1" />
+<row id="57050" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" useCamouflage="1" invisibleAtFriendCamouflage="1" isVisibleDeadChr="1" />
+<row id="57100" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" phantomParamOverwriteType="2" phantomParamOverwriteId="201" />
+<row id="57101" midstSfxId="601041" midstSeId="-1" midstDmyId="199" />
+<row id="57102" midstSfxId="601042" midstSeId="-1" midstDmyId="199" />
+<row id="57103" midstSfxId="601043" midstSeId="-1" midstDmyId="199" />
+<row id="57104" midstSfxId="601043" midstSeId="-1" midstDmyId="199" />
+<row id="57110" midstSfxId="-1" midstSeId="-1" initSfxId="691" initSeId="999997803" midstDmyId="-1" initDmyId="960" isVisibleDeadChr="1" />
+<row id="57111" midstSfxId="-1" midstSeId="-1" initSfxId="692" initSeId="999997805" midstDmyId="-1" initDmyId="960" isVisibleDeadChr="1" />
+<row id="57112" midstSfxId="-1" midstSeId="-1" initSfxId="693" initSeId="999997806" midstDmyId="-1" initDmyId="960" isVisibleDeadChr="1" />
+<row id="57113" midstSfxId="-1" midstSeId="-1" initSfxId="694" initSeId="999997807" midstDmyId="-1" initDmyId="960" isVisibleDeadChr="1" />
+<row id="57120" midstSfxId="-1" midstSeId="-1" initSfxId="701" midstDmyId="-1" initDmyId="905" isVisibleDeadChr="1" />
+<row id="57121" midstSfxId="-1" midstSeId="-1" initSfxId="702" midstDmyId="-1" initDmyId="905" isVisibleDeadChr="1" />
+<row id="57122" midstSfxId="-1" midstSeId="-1" initSfxId="703" midstDmyId="-1" initDmyId="905" isVisibleDeadChr="1" />
+<row id="57123" midstSfxId="-1" midstSeId="-1" initSfxId="704" midstDmyId="-1" initDmyId="905" isVisibleDeadChr="1" />
+<row id="57130" midstSfxId="601051" midstSeId="-1" midstDmyId="905" />
+<row id="57131" midstSfxId="601052" midstSeId="-1" midstDmyId="905" />
+<row id="57132" midstSfxId="601053" midstSeId="-1" midstDmyId="905" />
+<row id="57133" midstSfxId="601054" midstSeId="-1" midstDmyId="905" />
+<row id="57900" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" useCamouflage="1" invisibleAtFriendCamouflage="1" isVisibleDeadChr="1" />
+<row id="57999" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+<row id="58000" midstSfxId="671055" midstSeId="-1" midstDmyId="906" />
+<row id="58001" midstSfxId="671056" midstSeId="-1" midstDmyId="900" />
+<row id="58100" midstSfxId="671050" midstSeId="-1" midstDmyId="906" />
+<row id="58101" midstSfxId="671051" midstSeId="-1" midstDmyId="900" />
+<row id="59000" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" phantomParamOverwriteType="2" phantomParamOverwriteId="40" />
+<row id="59001" midstSfxId="-1" midstSeId="-1" camouflageEndDist="0" midstDmyId="-1" effectInvisibleAtCamouflage="1" useCamouflage="1" camouflageMinAlpha="1" />
+<row id="59002" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playPriority="5" useCamouflage="1" />
+<row id="59003" midstSfxId="-1" midstSeId="-1" camouflageBeginDist="100" camouflageEndDist="100" midstDmyId="-1" playPriority="1" useCamouflage="1" />
+<row id="60000" midstSfxId="1000" midstSeId="-1" midstDmyId="220" />
+<row id="60001" midstSfxId="5000" midstSeId="-1" midstDmyId="220" />
+<row id="60002" midstSfxId="600021" midstSeId="-1" midstDmyId="91" phantomParamOverwriteType="2" phantomParamOverwriteId="12" />
+<row id="60010" midstSfxId="71" midstSeId="-1" midstDmyId="199" effectInvisibleAtCamouflage="1" />
+<row id="60011" midstSfxId="72" midstSeId="-1" midstDmyId="907" />
+<row id="61000" midstSfxId="644301" midstSeId="-1" midstDmyId="210" playCategory="5" playPriority="3" footDecalMaterialOffsetOverwriteId="700" />
+<row id="61010" midstSfxId="71" midstSeId="-1" midstDmyId="210" playCategory="5" playPriority="2" footDecalMaterialOffsetOverwriteId="702" />
+<row id="61020" midstSfxId="635000" midstSeId="-1" midstDmyId="210" playCategory="5" playPriority="2" footDecalMaterialOffsetOverwriteId="702" />
+<row id="61030" midstSfxId="639101" midstSeId="-1" midstDmyId="210" playCategory="5" playPriority="4" />
+<row id="61040" midstSfxId="639100" midstSeId="-1" midstDmyId="210" playCategory="5" playPriority="2" footDecalMaterialOffsetOverwriteId="702" />
+<row id="99999" midstSfxId="4031" midstSeId="-1" midstDmyId="220" playCategory="4" />
+<row id="100000" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playCategory="7" playPriority="30" wetAspectType="1" />
+<row id="100001" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playCategory="7" playPriority="10" wetAspectType="1" />
+<row id="100010" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playCategory="7" playPriority="32" wetAspectType="2" />
+<row id="100011" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playCategory="7" playPriority="12" wetAspectType="2" />
+<row id="100020" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playCategory="7" playPriority="33" wetAspectType="3" />
+<row id="100021" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playCategory="7" playPriority="13" wetAspectType="3" />
+<row id="100030" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playCategory="7" playPriority="31" wetAspectType="19" />
+<row id="100031" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playCategory="7" playPriority="11" wetAspectType="19" />
+<row id="101000" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playCategory="7" playPriority="255" wetAspectType="6" />
+<row id="101900" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playCategory="7" playPriority="7" wetAspectType="1" />
+<row id="104305" midstSfxId="801" midstSeId="-1" midstDmyId="960" isVisibleDeadChr="1" />
+<row id="104306" midstSfxId="802" midstSeId="-1" midstDmyId="960" isVisibleDeadChr="1" />
+<row id="104307" midstSfxId="803" midstSeId="-1" midstDmyId="960" isVisibleDeadChr="1" />
+<row id="104308" midstSfxId="804" midstSeId="-1" midstDmyId="960" isVisibleDeadChr="1" />
+<row id="104310" midstSfxId="812" midstSeId="-1" midstDmyId="905" useCamouflage="1" invisibleAtFriendCamouflage="1" isVisibleDeadChr="1" />
+<row id="104311" midstSfxId="812" midstSeId="-1" midstDmyId="905" useCamouflage="1" invisibleAtFriendCamouflage="1" isVisibleDeadChr="1" />
+<row id="104312" midstSfxId="813" midstSeId="-1" midstDmyId="905" useCamouflage="1" invisibleAtFriendCamouflage="1" isVisibleDeadChr="1" />
+<row id="104313" midstSfxId="814" midstSeId="-1" midstDmyId="905" useCamouflage="1" invisibleAtFriendCamouflage="1" isVisibleDeadChr="1" />
+<row id="104320" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" phantomParamOverwriteType="2" phantomParamOverwriteId="290" />
+<row id="104321" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" phantomParamOverwriteType="1" phantomParamOverwriteId="290" />
+<row id="104330" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" phantomParamOverwriteType="2" phantomParamOverwriteId="220" />
+<row id="104340" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" wetAspectType="8" />
+<row id="104350" midstSfxId="-1" midstSeId="332001000" midstDmyId="6" />
+<row id="104380" midstSfxId="-1" midstSeId="-1" camouflageBeginDist="1.5" camouflageEndDist="1.5" midstDmyId="-1" effectInvisibleAtCamouflage="1" useCamouflage="1" invisibleAtFriendCamouflage="1" isHideFootEffect_forCamouflage="1" />
+<row id="104610" midstSfxId="-1" midstSeId="430207001" finishSeId="430207002" midstDmyId="-1" effectInvisibleAtCamouflage="1" useCamouflage="1" invisibleAtFriendCamouflage="1" isHideFootEffect_forCamouflage="1" />
+<row id="104611" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" phantomParamOverwriteType="2" phantomParamOverwriteId="920" />
+<row id="104900" midstSfxId="301002" midstSeId="-1" midstDmyId="905" />
+<row id="104901" midstSfxId="301052" midstSeId="-1" midstDmyId="905" />
+<row id="108970" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" phantomParamOverwriteType="2" phantomParamOverwriteId="210" />
+<row id="108971" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" phantomParamOverwriteType="2" phantomParamOverwriteId="211" />
+<row id="110000" midstSfxId="-1" midstSeId="-1" initSfxId="301505" initSeId="301505" midstDmyId="-1" initDmyId="900" />
+<row id="110010" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" useCamouflage="1" invisibleAtFriendCamouflage="1" isVisibleDeadChr="1" camouflageMinAlpha="5" />
+<row id="110011" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" useCamouflage="1" invisibleAtFriendCamouflage="1" isVisibleDeadChr="1" camouflageMinAlpha="95" />
+<row id="110015" midstSfxId="-1" midstSeId="-1" initSeId="301505" midstDmyId="-1" />
+<row id="120000" midstSfxId="4120" midstSeId="-1" midstDmyId="907" existEffectForLarge="1" />
+<row id="130000" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" effectInvisibleAtCamouflage="1" useCamouflage="1" invisibleAtFriendCamouflage="1" isHideFootEffect_forCamouflage="1" />
+<row id="200000" midstSfxId="806801" midstSeId="-1" midstDmyId="-1" />
+<row id="200002" midstSfxId="806802" midstSeId="-1" midstDmyId="-1" />
+<row id="200005" midstSfxId="806820" midstSeId="-1" midstDmyId="-1" />
+<row id="200010" midstSfxId="806020" midstSeId="-1" midstDmyId="-1" />
+<row id="200011" midstSfxId="806133" midstSeId="-1" midstDmyId="-1" />
+<row id="200012" midstSfxId="806102" midstSeId="-1" midstDmyId="-1" />
+<row id="200013" midstSfxId="806126" midstSeId="-1" midstDmyId="-1" />
+<row id="312500" midstSfxId="4500" midstSeId="524402" initSfxId="301271" midstDmyId="905" initDmyId="905" />
+<row id="320400" midstSfxId="4500" midstSeId="524402" initSfxId="301271" midstDmyId="905" initDmyId="905" footDecalMaterialOffsetOverwriteId="0" />
+<row id="320500" midstSfxId="4500" midstSeId="524402" initSfxId="301271" midstDmyId="905" initDmyId="905" footDecalMaterialOffsetOverwriteId="0" />
+<row id="320800" midstSfxId="4500" midstSeId="524402" initSfxId="301271" midstDmyId="905" initDmyId="905" />
+<row id="320810" midstSfxId="4500" midstSeId="524402" initSfxId="301271" midstDmyId="905" initDmyId="905" />
+<row id="321600" midstSfxId="4500" midstSeId="524402" initSfxId="301271" midstDmyId="905" initDmyId="905" />
+<row id="321700" midstSfxId="4500" midstSeId="524402" initSfxId="525083" midstDmyId="905" initDmyId="220" />
+<row id="340800" midstSfxId="4790" midstSeId="-1" initSfxId="301361" midstDmyId="905" initDmyId="905" footDecalMaterialOffsetOverwriteId="0" />
+<row id="340900" midstSfxId="4790" midstSeId="-1" initSfxId="301361" midstDmyId="905" initDmyId="905" footDecalMaterialOffsetOverwriteId="0" />
+<row id="350300" midstSfxId="320100" midstSeId="-1" initSfxId="320160" midstDmyId="220" initDmyId="220" footDecalMaterialOffsetOverwriteId="0" />
+<row id="350400" midstSfxId="320100" midstSeId="-1" initSfxId="320160" midstDmyId="220" initDmyId="220" />
+<row id="350500" midstSfxId="320100" midstSeId="-1" initSfxId="320160" midstDmyId="220" initDmyId="220" footDecalMaterialOffsetOverwriteId="0" />
+<row id="350600" midstSfxId="-1" midstSeId="-1" initSfxId="320170" midstDmyId="-1" initDmyId="220" footDecalMaterialOffsetOverwriteId="0" />
+<row id="360000" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playCategory="3" playPriority="255" isSilence="1" footDecalMaterialOffsetOverwriteId="0" />
+<row id="360100" midstSfxId="-1" midstSeId="-1" camouflageBeginDist="17" camouflageEndDist="16" midstDmyId="220" useCamouflage="1" footDecalMaterialOffsetOverwriteId="0" />
+<row id="360800" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" forceDeceasedType="1" phantomParamOverwriteType="2" footDecalMaterialOffsetOverwriteId="0" />
+<row id="360900" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" forceDeceasedType="1" phantomParamOverwriteType="2" phantomParamOverwriteId="61" footDecalMaterialOffsetOverwriteId="0" />
+<row id="361100" midstSfxId="-1" midstSeId="-1" initSfxId="320170" midstDmyId="-1" initDmyId="220" footDecalMaterialOffsetOverwriteId="0" />
+<row id="730300" midstSfxId="30330" midstSeId="-1" midstDmyId="900" />
+<row id="730301" midstSfxId="30320" midstSeId="-1" midstDmyId="900" />
+<row id="1413000" midstSfxId="4510" midstSeId="-1" midstDmyId="905" isMidstFullbody="1" />
+<row id="1414000" midstSfxId="523502" midstSeId="-1" midstDmyId="211" />
+<row id="1436000" midstSfxId="4400" midstSeId="-1" midstDmyId="905" playCategory="4" playPriority="30" existEffectForLarge="1" isMidstFullbody="1" />
+<row id="1436100" midstSfxId="4400" midstSeId="-1" midstDmyId="905" playCategory="4" playPriority="30" existEffectForLarge="1" isMidstFullbody="1" />
+<row id="1446000" midstSfxId="303071" midstSeId="303071" midstDmyId="-1" effectType="1" soulParamIdForWepEnchant="1" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="1" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="1447000" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" effectType="2" soulParamIdForWepEnchant="1" traceSfxIdOffsetType="1" />
+<row id="1448000" midstSfxId="-1" midstSeId="-1" initSfxId="523152" midstDmyId="-1" initDmyId="220" />
+<row id="1449000" midstSfxId="303111" midstSeId="303111" midstDmyId="-1" effectType="1" soulParamIdForWepEnchant="6" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="6" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="1464000" midstSfxId="-1" midstSeId="-1" initSfxId="523264" midstDmyId="-1" initDmyId="900" />
+<row id="1466000" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" effectType="1" isInvisibleWeapon="1" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="1467000" midstSfxId="-1" midstSeId="-1" finishSfxId="523412" midstDmyId="-1" initDmyId="220" finishDmyId="220" playCategory="3" playPriority="11" useCamouflage="1" invisibleAtFriendCamouflage="1" unknown_0x2f_7="1" camouflageMinAlpha="50" />
+<row id="1467001" midstSfxId="-1" midstSeId="-1" initSfxId="523412" midstDmyId="-1" initDmyId="220" />
+<row id="1467002" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playCategory="1" playPriority="11" />
+<row id="1467005" midstSfxId="-1" midstSeId="-1" finishSfxId="523413" midstDmyId="-1" initDmyId="220" finishDmyId="220" useCamouflage="1" invisibleAtFriendCamouflage="1" unknown_0x2f_7="1" camouflageMinAlpha="50" />
+<row id="1467006" midstSfxId="-1" midstSeId="-1" initSfxId="523413" midstDmyId="-1" initDmyId="220" />
+<row id="1604000" midstSfxId="-1" midstSeId="-1" initSfxId="524321" midstDmyId="-1" initDmyId="220" />
+<row id="1604001" midstSfxId="-1" midstSeId="-1" initSfxId="524322" midstDmyId="-1" initDmyId="220" />
+<row id="1605000" midstSfxId="524402" midstSeId="524402" midstDmyId="200" playCategory="3" playPriority="60" isMidstFullbody="1" />
+<row id="1606000" midstSfxId="4820" midstSeId="-1" midstDmyId="905" playCategory="3" playPriority="70" isMidstFullbody="1" />
+<row id="1626000" midstSfxId="303161" midstSeId="303161" midstDmyId="-1" effectType="1" soulParamIdForWepEnchant="17" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="17" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="1626001" midstSfxId="524402" midstSeId="-1" midstDmyId="200" existEffectForLarge="1" />
+<row id="1627000" midstSfxId="4800" midstSeId="-1" midstDmyId="905" playCategory="3" playPriority="70" isMidstFullbody="1" />
+<row id="1632000" midstSfxId="303171" midstSeId="303171" midstDmyId="-1" effectType="1" soulParamIdForWepEnchant="18" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="18" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="1633000" midstSfxId="4810" midstSeId="-1" midstDmyId="905" playCategory="3" playPriority="70" isMidstFullbody="1" />
+<row id="1634000" midstSfxId="4850" midstSeId="-1" midstDmyId="905" playCategory="3" playPriority="70" isMidstFullbody="1" />
+<row id="1642000" midstSfxId="-1" midstSeId="-1" initSfxId="4600" midstDmyId="-1" initDmyId="220" />
+<row id="1642100" midstSfxId="-1" midstSeId="-1" initSfxId="4600" midstDmyId="-1" initDmyId="220" />
+<row id="1642200" midstSfxId="-1" midstSeId="-1" initSfxId="4600" midstDmyId="-1" initDmyId="220" />
+<row id="1642300" midstSfxId="-1" midstSeId="-1" initSfxId="4600" midstDmyId="-1" initDmyId="220" />
+<row id="1642400" midstSfxId="-1" midstSeId="-1" initSfxId="4600" midstDmyId="-1" initDmyId="220" />
+<row id="1643000" midstSfxId="4610" midstSeId="-1" midstDmyId="220" />
+<row id="1643100" midstSfxId="4610" midstSeId="-1" midstDmyId="220" />
+<row id="1644000" midstSfxId="-1" midstSeId="-1" initSfxId="525083" midstDmyId="-1" initDmyId="220" />
+<row id="1644100" midstSfxId="-1" midstSeId="-1" initSfxId="4620" midstDmyId="-1" initDmyId="220" />
+<row id="1645000" midstSfxId="4720" midstSeId="-1" midstDmyId="905" playCategory="3" playPriority="70" isMidstFullbody="1" />
+<row id="1646000" midstSfxId="4710" midstSeId="-1" midstDmyId="905" playCategory="3" playPriority="70" isMidstFullbody="1" />
+<row id="1647000" midstSfxId="4730" midstSeId="-1" midstDmyId="905" playCategory="3" playPriority="70" isMidstFullbody="1" />
+<row id="1648000" midstSfxId="4740" midstSeId="-1" midstDmyId="905" playCategory="3" playPriority="70" isMidstFullbody="1" />
+<row id="1649000" midstSfxId="4840" midstSeId="-1" midstDmyId="905" playCategory="3" playPriority="70" isMidstFullbody="1" />
+<row id="1651000" midstSfxId="523542" midstSeId="523542" midstDmyId="212" playCategory="1" playPriority="20" isSilence="1" />
+<row id="1651001" midstSfxId="523543" midstSeId="523542" midstDmyId="1" isSilence="1" />
+<row id="1651002" midstSfxId="523543" midstSeId="-1" midstDmyId="2" isSilence="1" />
+<row id="1651003" midstSfxId="523543" midstSeId="-1" midstDmyId="3" isSilence="1" />
+<row id="1651004" midstSfxId="523543" midstSeId="-1" midstDmyId="4" isSilence="1" />
+<row id="1653000" midstSfxId="4150" midstSeId="-1" midstDmyId="7" existEffectForLarge="1" />
+<row id="1660000" midstSfxId="4520" midstSeId="-1" initSfxId="525813" midstDmyId="905" initDmyId="220" playCategory="3" playPriority="40" isMidstFullbody="1" />
+<row id="1673000" midstSfxId="-1" midstSeId="-1" initSfxId="4630" midstDmyId="-1" initDmyId="220" />
+<row id="1674000" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" effectType="2" soulParamIdForWepEnchant="10" traceSfxIdOffsetType="10" />
+<row id="1676000" midstSfxId="528172" midstSeId="-1" midstDmyId="905" playCategory="3" playPriority="20" isMidstFullbody="1" />
+<row id="1676001" midstSfxId="-1" midstSeId="-1" initSfxId="528173" midstDmyId="-1" initDmyId="905" />
+<row id="1676002" midstSfxId="-1" midstSeId="-1" initSfxId="528177" midstDmyId="-1" initDmyId="905" />
+<row id="1677000" midstSfxId="303131" midstSeId="303131" midstDmyId="-1" effectType="1" soulParamIdForWepEnchant="10" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="10" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="1678000" midstSfxId="-1" midstSeId="-1" initSfxId="528152" midstDmyId="-1" initDmyId="220" />
+<row id="1685000" midstSfxId="4610" midstSeId="-1" midstDmyId="220" />
+<row id="1686000" midstSfxId="-1" midstSeId="-1" initSfxId="529511" midstDmyId="-1" initDmyId="220" />
+<row id="1696000" midstSfxId="303011" midstSeId="303011" midstDmyId="-1" effectType="1" soulParamIdForWepEnchant="3" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="3" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="1697000" midstSfxId="303151" midstSeId="303011" midstDmyId="-1" effectType="1" soulParamIdForWepEnchant="9" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="9" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="1697001" midstSfxId="525642" midstSeId="303011" midstDmyId="200" isMidstFullbody="1" />
+<row id="1697100" midstSfxId="525652" midstSeId="303011" midstDmyId="200" playCategory="3" playPriority="70" isMidstFullbody="1" />
+<row id="1709000" midstSfxId="4160" midstSeId="-1" midstDmyId="905" playCategory="4" playPriority="30" isMidstFullbody="1" />
+<row id="1723000" midstSfxId="303061" midstSeId="303061" midstDmyId="-1" effectType="1" soulParamIdForWepEnchant="5" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="5" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="1733000" midstSfxId="527052" midstSeId="-1" midstDmyId="220" playCategory="3" playPriority="40" isMidstFullbody="1" />
+<row id="1753000" midstSfxId="524402" midstSeId="-1" midstDmyId="200" existEffectForLarge="1" />
+<row id="1790000" midstSfxId="525413" midstSeId="-1" midstDmyId="220" />
+<row id="1790300" midstSfxId="4830" midstSeId="-1" midstDmyId="905" playCategory="3" playPriority="70" isMidstFullbody="1" />
+<row id="5031401" midstSfxId="-1" midstSeId="-1" initSfxId="320160" midstDmyId="-1" initDmyId="220" footDecalMaterialOffsetOverwriteId="0" />
+<row id="5031601" midstSfxId="-1" midstSeId="-1" initSfxId="320170" midstDmyId="-1" initDmyId="220" footDecalMaterialOffsetOverwriteId="0" />
+<row id="5071101" midstSfxId="-1" midstSeId="-1" initSfxId="320160" midstDmyId="-1" initDmyId="220" footDecalMaterialOffsetOverwriteId="0" />
+<row id="5120101" midstSfxId="-1" midstSeId="-1" initSfxId="320160" midstDmyId="-1" initDmyId="220" footDecalMaterialOffsetOverwriteId="0" />
+<row id="5141101" midstSfxId="-1" midstSeId="-1" initSfxId="320170" midstDmyId="-1" initDmyId="220" footDecalMaterialOffsetOverwriteId="0" />
+<row id="6018010" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isSilence="1" footDecalMaterialOffsetOverwriteId="0" />
+<row id="6068001" midstSfxId="4500" midstSeId="-1" midstDmyId="905" />
+<row id="6069000" midstSfxId="330401" midstSeId="-1" midstDmyId="905" playCategory="3" playPriority="65" />
+<row id="6201001" midstSfxId="4500" midstSeId="524402" initSfxId="525083" midstDmyId="905" initDmyId="220" />
+<row id="6202001" midstSfxId="4500" midstSeId="-1" midstDmyId="905" />
+<row id="10050000" midstSfxId="650040" midstSeId="650040" midstDmyId="960" />
+<row id="20006101" midstSfxId="-1" midstSeId="-1" finishSfxId="404006" midstDmyId="-1" initDmyId="1" finishDmyId="10181" />
+<row id="20006103" midstSfxId="-1" midstSeId="-1" finishSfxId="404006" midstDmyId="-1" initDmyId="2" finishDmyId="20181" />
+<row id="20006105" midstSfxId="-1" midstSeId="-1" finishSfxId="404006" midstDmyId="-1" initDmyId="2" finishDmyId="901" />
+<row id="20006106" midstSfxId="-1" midstSeId="-1" finishSfxId="404006" midstDmyId="-1" initDmyId="2" finishDmyId="902" />
+<row id="20006110" midstSfxId="-1" midstSeId="-1" transformProtectorId="10000" midstDmyId="-1" playCategory="8" playPriority="100" unknown_0x9a="1" />
+<row id="20006122" midstSfxId="-1" midstSeId="-1" finishSfxId="402063" midstDmyId="-1" initDmyId="1" finishDmyId="10120" />
+<row id="20006123" midstSfxId="-1" midstSeId="-1" finishSfxId="402083" midstDmyId="-1" initDmyId="2" finishDmyId="10120" />
+<row id="20006124" midstSfxId="-1" midstSeId="-1" finishSfxId="402084" midstDmyId="-1" initDmyId="2" finishDmyId="10130" />
+<row id="20006125" midstSfxId="-1" midstSeId="-1" finishSfxId="402073" midstDmyId="-1" initDmyId="1" finishDmyId="10400" />
+<row id="20006126" midstSfxId="-1" midstSeId="-1" finishSfxId="402164" midstDmyId="-1" initDmyId="1" finishDmyId="10301" />
+<row id="20006127" midstSfxId="-1" midstSeId="-1" finishSfxId="402123" midstDmyId="-1" initDmyId="1" finishDmyId="901" />
+<row id="20006128" midstSfxId="-1" midstSeId="-1" finishSfxId="402123" midstDmyId="-1" initDmyId="1" finishDmyId="902" />
+<row id="20006129" midstSfxId="-1" midstSeId="-1" finishSfxId="402093" midstDmyId="-1" initDmyId="1" finishDmyId="10401" />
+<row id="20006130" midstSfxId="-1" midstSeId="-1" finishSfxId="402093" midstDmyId="-1" initDmyId="1" finishDmyId="11401" />
+<row id="20006131" midstSfxId="-1" midstSeId="-1" finishSfxId="451085" midstDmyId="-1" initDmyId="1" finishDmyId="10310" />
+<row id="20006132" midstSfxId="-1" midstSeId="-1" finishSfxId="451086" midstDmyId="-1" initDmyId="1" finishDmyId="11310" />
+<row id="20006133" midstSfxId="-1" midstSeId="-1" finishSfxId="402115" midstDmyId="-1" initDmyId="1" finishDmyId="901" />
+<row id="20006134" midstSfxId="-1" midstSeId="-1" finishSfxId="402115" midstDmyId="-1" initDmyId="1" finishDmyId="901" />
+<row id="20006135" midstSfxId="-1" midstSeId="-1" finishSfxId="402115" midstDmyId="-1" initDmyId="1" finishDmyId="902" />
+<row id="20006136" midstSfxId="-1" midstSeId="-1" finishSfxId="402103" midstDmyId="-1" initDmyId="1" finishDmyId="10400" />
+<row id="20006137" midstSfxId="-1" midstSeId="-1" finishSfxId="402103" midstDmyId="-1" initDmyId="1" finishDmyId="11400" />
+<row id="20008500" midstSfxId="303401" midstSeId="-1" midstDmyId="-1" effectType="1" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="26" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="20008501" midstSfxId="303401" midstSeId="-1" midstDmyId="-1" effectType="2" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="26" enchantStartDmyId_0="20300" enchantStartDmyId_1="21300" enchantStartDmyId_2="20310" enchantStartDmyId_3="21310" enchantStartDmyId_4="20320" enchantStartDmyId_5="21320" enchantStartDmyId_6="20330" enchantStartDmyId_7="21330" />
+<row id="20008510" midstSfxId="441042" midstSeId="-1" midstDmyId="220" existEffectForLarge="1" isVisibleDeadChr="1" />
+<row id="20008511" midstSfxId="303061" midstSeId="303061" midstDmyId="-1" effectType="1" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="14" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="20008512" midstSfxId="303061" midstSeId="303061" midstDmyId="-1" effectType="2" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="14" enchantStartDmyId_0="20300" enchantStartDmyId_1="21300" enchantStartDmyId_2="20310" enchantStartDmyId_3="21310" enchantStartDmyId_4="20320" enchantStartDmyId_5="21320" enchantStartDmyId_6="20330" enchantStartDmyId_7="21330" />
+<row id="20008520" midstSfxId="303122" midstSeId="303121" midstDmyId="-1" effectType="1" traceSfxIdOffsetType="19" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="20008521" midstSfxId="303122" midstSeId="303121" midstDmyId="-1" effectType="2" traceSfxIdOffsetType="19" enchantStartDmyId_0="20300" enchantStartDmyId_1="21300" enchantStartDmyId_2="20310" enchantStartDmyId_3="21310" enchantStartDmyId_4="20320" enchantStartDmyId_5="21320" enchantStartDmyId_6="20330" enchantStartDmyId_7="21330" />
+<row id="20008530" midstSfxId="303122" midstSeId="303121" midstDmyId="-1" effectType="1" traceSfxIdOffsetType="19" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="20008531" midstSfxId="303122" midstSeId="303121" midstDmyId="-1" effectType="2" traceSfxIdOffsetType="19" enchantStartDmyId_0="20300" enchantStartDmyId_1="21300" enchantStartDmyId_2="20310" enchantStartDmyId_3="21310" enchantStartDmyId_4="20320" enchantStartDmyId_5="21320" enchantStartDmyId_6="20330" enchantStartDmyId_7="21330" />
+<row id="20008540" midstSfxId="4470" midstSeId="-1" midstDmyId="220" playCategory="4" existEffectForLarge="1" />
+<row id="20008550" midstSfxId="451342" midstSeId="-1" midstDmyId="10122" effectType="1" soulParamIdForWepEnchant="10" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="10" enchantStartDmyId_0="10122" />
+<row id="20008551" midstSfxId="451342" midstSeId="-1" midstDmyId="20122" effectType="2" soulParamIdForWepEnchant="10" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="10" enchantStartDmyId_0="20122" />
+<row id="20008552" midstSfxId="451346" midstSeId="-1" midstDmyId="10122" effectType="1" soulParamIdForWepEnchant="10" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="10" enchantStartDmyId_0="10122" />
+<row id="20008553" midstSfxId="451346" midstSeId="-1" midstDmyId="20122" effectType="2" soulParamIdForWepEnchant="10" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="10" enchantStartDmyId_0="20122" />
+<row id="20008560" midstSfxId="4460" midstSeId="-1" midstDmyId="905" playCategory="4" playPriority="30" existEffectForLarge="1" isMidstFullbody="1" />
+<row id="20008570" midstSfxId="4440" midstSeId="-1" midstDmyId="905" playCategory="3" existEffectForLarge="1" isMidstFullbody="1" />
+<row id="20008580" midstSfxId="451241" midstSeId="-1" midstDmyId="-1" effectType="1" enchantStartDmyId_0="10130" />
+<row id="20008581" midstSfxId="451241" midstSeId="-1" midstDmyId="-1" effectType="2" enchantStartDmyId_0="20130" />
+<row id="20008590" midstSfxId="-1" midstSeId="-1" initSfxId="451250" finishSfxId="451251" camouflageBeginDist="5" camouflageEndDist="3" midstDmyId="220" initDmyId="220" finishDmyId="220" playCategory="1" playPriority="4" effectInvisibleAtCamouflage="1" useCamouflage="1" invisibleAtFriendCamouflage="1" halfCamouflage="1" unknown_0x2f_7="1" />
+<row id="20008600" midstSfxId="451292" midstSeId="-1" midstDmyId="220" existEffectForLarge="1" isVisibleDeadChr="1" />
+<row id="20010110" midstSfxId="658243" midstSeId="-1" initSfxId="658242" midstDmyId="220" initDmyId="220" playCategory="4" />
+<row id="20050000" midstSfxId="650320" midstSeId="-1" midstDmyId="13" soulParamIdForWepEnchant="14" traceSfxIdOffsetType="14" enchantStartDmyId_0="10" enchantEndDmyId_0="13" />
+<row id="20050001" midstSfxId="650321" midstSeId="-1" midstDmyId="13" soulParamIdForWepEnchant="14" traceSfxIdOffsetType="14" enchantStartDmyId_0="10" enchantEndDmyId_0="13" />
+<row id="20050002" midstSfxId="650322" midstSeId="-1" midstDmyId="13" soulParamIdForWepEnchant="14" traceSfxIdOffsetType="14" enchantStartDmyId_0="10" enchantEndDmyId_0="13" />
+<row id="20050003" midstSfxId="643240" midstSeId="-1" midstDmyId="0" soulParamIdForWepEnchant="14" traceSfxIdOffsetType="14" enchantStartDmyId_0="10" enchantEndDmyId_0="13" />
+<row id="20050004" midstSfxId="650341" midstSeId="-1" midstDmyId="220" existEffectForLarge="1" isVisibleDeadChr="1" />
+<row id="20050050" midstSfxId="650702" midstSeId="-1" midstDmyId="220" />
+<row id="20050051" midstSfxId="-1" midstSeId="-1" initSfxId="650733" midstDmyId="-1" initDmyId="220" />
+<row id="20050100" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" materialParamId="2001" materialParamTargetValue="1" materialParamFadeTime="0.8" />
+<row id="20050101" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isVisibleDeadChr="1" materialParamId="2001" materialParamInitValue="1" materialParamFadeTime="0.5" />
+<row id="20050102" midstSfxId="651105" midstSeId="-1" midstDmyId="220" />
+<row id="20050150" midstSfxId="652015" midstSeId="-1" midstDmyId="40" />
+<row id="20050151" midstSfxId="303161" midstSeId="-1" midstDmyId="150" />
+<row id="20050152" midstSfxId="303071" midstSeId="-1" midstDmyId="150" />
+<row id="20050153" midstSfxId="622080" midstSeId="-1" midstDmyId="40" />
+<row id="20050154" midstSfxId="622080" midstSeId="-1" midstDmyId="41" />
+<row id="20050155" midstSfxId="622080" midstSeId="-1" midstDmyId="42" />
+<row id="20050200" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" phantomParamOverwriteType="2" phantomParamOverwriteId="300" />
+<row id="20050210" midstSfxId="652130" midstSeId="-1" midstDmyId="905" />
+<row id="20050211" midstSfxId="-1" midstSeId="-1" initSfxId="652131" midstDmyId="-1" initDmyId="905" />
+<row id="20050212" midstSfxId="-1" midstSeId="-1" initSfxId="652132" midstDmyId="-1" initDmyId="905" />
+<row id="20050213" midstSfxId="1652120" midstSeId="-1" midstDmyId="905" />
+<row id="20050214" midstSfxId="1652121" midstSeId="-1" midstDmyId="905" />
+<row id="20050215" midstSfxId="1652123" midstSeId="-1" midstDmyId="10" />
+<row id="20050220" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" phantomParamOverwriteType="2" phantomParamOverwriteId="400" />
+<row id="20050221" midstSfxId="-1" midstSeId="-1" initSfxId="525003" midstDmyId="-1" initDmyId="220" />
+<row id="20050222" midstSfxId="4500" midstSeId="301202" midstDmyId="905" initDmyId="905" isMidstFullbody="1" />
+<row id="20050224" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" isFinishFullbody="1" />
+<row id="20050225" midstSfxId="652477" midstSeId="-1" midstDmyId="905" isMidstFullbody="1" />
+<row id="20050229" midstSfxId="652425" midstSeId="-1" midstDmyId="50" />
+<row id="20050250" midstSfxId="650812" midstSeId="-1" initSfxId="658242" midstDmyId="905" initDmyId="905" playCategory="4" />
+<row id="20050251" midstSfxId="650832" midstSeId="-1" midstDmyId="220" />
+<row id="20050252" midstSfxId="650818" midstSeId="-1" midstDmyId="199" />
+<row id="20050253" midstSfxId="4500" midstSeId="301202" midstDmyId="905" existEffectForLarge="1" isMidstFullbody="1" />
+<row id="20050254" midstSfxId="650885" midstSeId="-1" midstDmyId="330" traceSfxIdOffsetType="12" enchantStartDmyId_0="41" enchantEndDmyId_0="40" />
+<row id="20050255" midstSfxId="650813" midstSeId="524402" initSfxId="301271" midstDmyId="905" initDmyId="905" playCategory="3" playPriority="45" />
+<row id="20050256" midstSfxId="650873" midstSeId="524402" initSfxId="301271" midstDmyId="905" initDmyId="905" playCategory="3" playPriority="45" />
+<row id="20050257" midstSfxId="650814" midstSeId="524402" initSfxId="301271" midstDmyId="905" initDmyId="905" playCategory="3" playPriority="45" />
+<row id="20050258" midstSfxId="650874" midstSeId="524402" initSfxId="301271" midstDmyId="905" initDmyId="905" playCategory="3" playPriority="45" />
+<row id="20050300" midstSfxId="650900" midstSeId="-1" midstDmyId="907" />
+<row id="20050350" midstSfxId="-1" midstSeId="-1" camouflageBeginDist="0" camouflageEndDist="0" midstDmyId="-1" effectInvisibleAtCamouflage="1" useCamouflage="1" invisibleAtFriendCamouflage="1" isHideFootEffect_forCamouflage="1" />
+<row id="20050400" midstSfxId="650590" midstSeId="-1" midstDmyId="30" />
+<row id="20050450" midstSfxId="652810" midstSeId="0" midstDmyId="900" initDmyId="900" />
+<row id="20050451" midstSfxId="0" midstSeId="0" midstDmyId="0" initDmyId="0" />
+<row id="20050452" midstSfxId="652811" midstSeId="0" midstDmyId="900" initDmyId="900" />
+<row id="20050453" midstSfxId="4225" midstSeId="-1" midstDmyId="845" />
+<row id="20050454" midstSfxId="648080" midstSeId="-1" midstDmyId="220" />
+<row id="20050455" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" initDmyId="907" />
+<row id="20050456" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" initDmyId="907" />
+<row id="20050457" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" initDmyId="907" />
+<row id="20050458" midstSfxId="652805" midstSeId="-1" midstDmyId="905" phantomParamOverwriteType="2" phantomParamOverwriteId="410" />
+<row id="20050459" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" phantomParamOverwriteType="1" phantomParamOverwriteId="410" />
+<row id="20050460" midstSfxId="652806" midstSeId="-1" midstDmyId="905" />
+<row id="20050461" midstSfxId="652801" midstSeId="-1" midstDmyId="907" />
+<row id="20050500" midstSfxId="621130" midstSeId="-1" midstDmyId="31" enchantStartDmyId_0="10" enchantEndDmyId_0="13" />
+<row id="20050503" midstSfxId="621130" midstSeId="-1" midstDmyId="31" enchantStartDmyId_0="10" enchantEndDmyId_0="13" />
+<row id="20050505" midstSfxId="652541" midstSeId="-1" midstDmyId="321" />
+<row id="20050506" midstSfxId="671051" midstSeId="-1" midstDmyId="900" />
+<row id="20050507" midstSfxId="0" midstSeId="-1" midstDmyId="0" phantomParamOverwriteType="2" phantomParamOverwriteId="420" />
+<row id="20050550" midstSfxId="652285" midstSeId="-1" midstDmyId="51" />
+<row id="20050551" midstSfxId="652285" midstSeId="-1" midstDmyId="52" />
+<row id="20050552" midstSfxId="652285" midstSeId="-1" midstDmyId="53" />
+<row id="20050553" midstSfxId="652285" midstSeId="-1" midstDmyId="54" />
+<row id="20050554" midstSfxId="652285" midstSeId="-1" midstDmyId="55" />
+<row id="20050555" midstSfxId="652285" midstSeId="-1" midstDmyId="56" />
+<row id="20050556" midstSfxId="652285" midstSeId="-1" midstDmyId="57" />
+<row id="20050557" midstSfxId="652285" midstSeId="-1" midstDmyId="58" />
+<row id="20050558" midstSfxId="652285" midstSeId="-1" midstDmyId="59" />
+<row id="20050559" midstSfxId="652285" midstSeId="-1" midstDmyId="60" />
+<row id="20050560" midstSfxId="652295" midstSeId="-1" midstDmyId="92" isVisibleDeadChr="1" />
+<row id="20050600" midstSfxId="653100" midstSeId="-1" midstDmyId="30" />
+<row id="20050601" midstSfxId="653100" midstSeId="-1" midstDmyId="40" />
+<row id="20050602" midstSfxId="653101" midstSeId="-1" midstDmyId="40" />
+<row id="20050603" midstSfxId="653102" midstSeId="-1" midstDmyId="16" />
+<row id="20050604" midstSfxId="653103" midstSeId="-1" midstDmyId="16" />
+<row id="20050605" midstSfxId="0" midstSeId="-1" midstDmyId="0" phantomParamOverwriteType="2" phantomParamOverwriteId="420" />
+<row id="20050606" midstSfxId="653200" midstSeId="-1" midstDmyId="905" />
+<row id="20050607" midstSfxId="-1" midstSeId="-1" initSfxId="525003" midstDmyId="-1" initDmyId="220" />
+<row id="20050608" midstSfxId="4500" midstSeId="301202" midstDmyId="905" initDmyId="905" isMidstFullbody="1" />
+<row id="20050650" midstSfxId="650619" midstSeId="642404" midstDmyId="220" />
+<row id="20050700" midstSfxId="651285" midstSeId="-1" midstDmyId="22" />
+<row id="20050900" midstSfxId="658110" midstSeId="-1" midstDmyId="11" />
+<row id="20050950" midstSfxId="4520" midstSeId="-1" midstDmyId="905" initDmyId="220" playCategory="3" playPriority="52" existEffectForLarge="1" isMidstFullbody="1" />
+<row id="20051000" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" effectInvisibleAtCamouflage="1" useCamouflage="1" invisibleAtFriendCamouflage="1" isHideFootEffect_forCamouflage="1" unknown_0x96="67" unknown_0x98="67" />
+<row id="20052010" midstSfxId="653000" midstSeId="-1" midstDmyId="301" playCategory="1" playPriority="20" traceSfxIdOffsetType="1" enchantStartDmyId_0="10" enchantEndDmyId_0="12" />
+<row id="20052011" midstSfxId="653001" midstSeId="-1" midstDmyId="311" playCategory="2" playPriority="20" traceSfxIdOffsetType="2" enchantStartDmyId_0="20" enchantEndDmyId_0="22" />
+<row id="20052015" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playCategory="1" playPriority="10" />
+<row id="20052016" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" playCategory="2" playPriority="10" />
+<row id="20052050" midstSfxId="658500" midstSeId="658500" midstDmyId="905" />
+<row id="20052051" midstSfxId="658501" midstSeId="658500" midstDmyId="905" />
+<row id="20052100" midstSfxId="-1" midstSeId="653500" midstDmyId="20" />
+<row id="20052101" midstSfxId="642641" midstSeId="-1" midstDmyId="220" />
+<row id="20052102" midstSfxId="653502" midstSeId="653502" midstDmyId="220" />
+<row id="20052150" midstSfxId="651775" midstSeId="-1" midstDmyId="71" />
+<row id="20052200" midstSfxId="651660" midstSeId="651660" midstDmyId="220" />
+<row id="20052201" midstSfxId="651661" midstSeId="651661" midstDmyId="220" />
+<row id="20052202" midstSfxId="651662" midstSeId="651662" midstDmyId="220" />
+<row id="20052250" midstSfxId="640422" midstSeId="642404" midstDmyId="220" />
+<row id="20052300" midstSfxId="655100" midstSeId="655100" midstDmyId="220" />
+<row id="20052301" midstSfxId="655101" midstSeId="655101" midstDmyId="220" />
+<row id="20052350" midstSfxId="655201" midstSeId="655200" midstDmyId="905" />
+<row id="20052351" midstSfxId="655200" midstSeId="655201" midstDmyId="905" />
+<row id="20052400" midstSfxId="659620" midstSeId="659620" midstDmyId="960" />
+<row id="20052450" midstSfxId="654500" midstSeId="654500" midstDmyId="199" />
+<row id="20052500" midstSfxId="655010" midstSeId="-1" midstDmyId="930" />
+<row id="20052550" midstSfxId="658825" midstSeId="370000041" midstDmyId="900" initDmyId="900" />
+<row id="20052600" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" phantomParamOverwriteType="2" phantomParamOverwriteId="204" />
+<row id="20052650" midstSfxId="655811" midstSeId="-1" midstDmyId="13" />
+<row id="20052651" midstSfxId="655812" midstSeId="-1" midstDmyId="18" />
+<row id="20052652" midstSfxId="655810" midstSeId="-1" midstDmyId="905" />
+<row id="20052653" midstSfxId="655813" midstSeId="-1" midstDmyId="14" />
+<row id="20052654" midstSfxId="655814" midstSeId="-1" midstDmyId="19" />
+<row id="20052700" midstSfxId="658335" midstSeId="-1" midstDmyId="27" />
+<row id="20052701" midstSfxId="656500" midstSeId="303411" midstDmyId="11" />
+<row id="20052702" midstSfxId="656501" midstSeId="303411" midstDmyId="11" />
+<row id="20052750" midstSfxId="658335" midstSeId="-1" midstDmyId="100" />
+<row id="20052751" midstSfxId="658340" midstSeId="303411" midstDmyId="312" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="2" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="20052800" midstSfxId="655020" midstSeId="-1" midstDmyId="220" />
+<row id="20052850" midstSfxId="602035" midstSeId="-1" midstDmyId="220" />
+<row id="20052851" midstSfxId="602036" midstSeId="-1" midstDmyId="220" />
+<row id="20052852" midstSfxId="602037" midstSeId="-1" midstDmyId="220" />
+<row id="20052853" midstSfxId="602038" midstSeId="-1" midstDmyId="220" />
+<row id="20052854" midstSfxId="602039" midstSeId="-1" midstDmyId="220" />
+<row id="20052855" midstSfxId="602040" midstSeId="-1" midstDmyId="220" />
+<row id="20052856" midstSfxId="-1" midstSeId="-1" midstDmyId="220" />
+<row id="20053000" midstSfxId="655900" midstSeId="655900" midstDmyId="220" />
+<row id="20090000" midstSfxId="71" midstSeId="-1" midstDmyId="450" effectInvisibleAtCamouflage="1" />
+<row id="20090001" midstSfxId="71" midstSeId="-1" midstDmyId="451" effectInvisibleAtCamouflage="1" />
+<row id="20090002" midstSfxId="71" midstSeId="-1" midstDmyId="452" effectInvisibleAtCamouflage="1" />
+<row id="20090050" midstSfxId="4866" midstSeId="-1" midstDmyId="845" />
+<row id="20090051" midstSfxId="4866" midstSeId="-1" midstDmyId="846" />
+<row id="20104380" midstSfxId="-1" midstSeId="-1" camouflageBeginDist="3" camouflageEndDist="2" midstDmyId="220" useCamouflage="1" invisibleAtFriendCamouflage="1" phantomParamOverwriteType="2" phantomParamOverwriteId="61" footDecalMaterialOffsetOverwriteId="0" />
+<row id="20200010" midstSfxId="861661" midstSeId="-1" midstDmyId="-1" />
+<row id="20200011" midstSfxId="861660" midstSeId="-1" midstDmyId="-1" />
+<row id="20200020" midstSfxId="806130" midstSeId="-1" midstDmyId="-1" />
+<row id="20200021" midstSfxId="806121" midstSeId="-1" midstDmyId="-1" />
+<row id="20200022" midstSfxId="652192" midstSeId="-1" midstDmyId="-1" />
+<row id="20200030" midstSfxId="861710" midstSeId="861710" midstDmyId="-1" />
+<row id="20200040" midstSfxId="806130" midstSeId="-1" midstDmyId="-1" />
+<row id="20200041" midstSfxId="806121" midstSeId="-1" midstDmyId="-1" />
+<row id="20200042" midstSfxId="652192" midstSeId="-1" midstDmyId="-1" />
+<row id="20700000" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" effectInvisibleAtCamouflage="1" useCamouflage="1" invisibleAtFriendCamouflage="1" isHideFootEffect_forCamouflage="1" unknown_0x96="67" unknown_0x98="67" />
+<row id="21080000" midstSfxId="340081" midstSeId="-1" midstDmyId="905" />
+<row id="21110000" midstSfxId="-1" midstSeId="-1" midstDmyId="905" initDmyId="905" playCategory="3" playPriority="70" footDecalMaterialOffsetOverwriteId="0" />
+<row id="21111000" midstSfxId="331911" midstSeId="-1" midstDmyId="905" initDmyId="905" playCategory="3" playPriority="70" footDecalMaterialOffsetOverwriteId="0" />
+<row id="21120000" midstSfxId="340102" midstSeId="-1" midstDmyId="905" initDmyId="905" playCategory="3" playPriority="70" footDecalMaterialOffsetOverwriteId="0" />
+<row id="21140000" midstSfxId="303411" midstSeId="303411" midstDmyId="-1" effectType="1" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="28" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="21140001" midstSfxId="303411" midstSeId="303411" midstDmyId="-1" effectType="2" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="28" enchantStartDmyId_0="20300" enchantStartDmyId_1="21300" enchantStartDmyId_2="20310" enchantStartDmyId_3="21310" enchantStartDmyId_4="20320" enchantStartDmyId_5="21320" enchantStartDmyId_6="20330" enchantStartDmyId_7="21330" />
+<row id="21141000" midstSfxId="303421" midstSeId="303421" midstDmyId="-1" effectType="1" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="3" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="21141001" midstSfxId="303421" midstSeId="303421" midstDmyId="-1" effectType="2" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="3" enchantStartDmyId_0="20300" enchantStartDmyId_1="21300" enchantStartDmyId_2="20310" enchantStartDmyId_3="21310" enchantStartDmyId_4="20320" enchantStartDmyId_5="21320" enchantStartDmyId_6="20330" enchantStartDmyId_7="21330" />
+<row id="21142000" midstSfxId="303431" midstSeId="303431" midstDmyId="-1" effectType="1" soulParamIdForWepEnchant="27" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="27" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="21142001" midstSfxId="303431" midstSeId="303431" midstDmyId="-1" effectType="2" soulParamIdForWepEnchant="27" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="27" enchantStartDmyId_0="20300" enchantStartDmyId_1="21300" enchantStartDmyId_2="20310" enchantStartDmyId_3="21310" enchantStartDmyId_4="20320" enchantStartDmyId_5="21320" enchantStartDmyId_6="20330" enchantStartDmyId_7="21330" />
+<row id="21143000" midstSfxId="303441" midstSeId="303441" midstDmyId="-1" effectType="1" soulParamIdForWepEnchant="10" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="10" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="21143001" midstSfxId="303441" midstSeId="303441" midstDmyId="-1" effectType="2" soulParamIdForWepEnchant="10" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="10" enchantStartDmyId_0="20300" enchantStartDmyId_1="21300" enchantStartDmyId_2="20310" enchantStartDmyId_3="21310" enchantStartDmyId_4="20320" enchantStartDmyId_5="21320" enchantStartDmyId_6="20330" enchantStartDmyId_7="21330" />
+<row id="21145000" midstSfxId="303461" midstSeId="303461" midstDmyId="-1" effectType="1" soulParamIdForWepEnchant="12" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="12" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="21145001" midstSfxId="303461" midstSeId="303461" midstDmyId="-1" effectType="2" soulParamIdForWepEnchant="12" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="12" enchantStartDmyId_0="20300" enchantStartDmyId_1="21300" enchantStartDmyId_2="20310" enchantStartDmyId_3="21310" enchantStartDmyId_4="20320" enchantStartDmyId_5="21320" enchantStartDmyId_6="20330" enchantStartDmyId_7="21330" />
+<row id="21145002" midstSfxId="4450" midstSeId="-1" midstDmyId="907" playCategory="4" playPriority="13" existEffectForLarge="1" />
+<row id="21148000" midstSfxId="303451" midstSeId="303451" midstDmyId="-1" effectType="1" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="16" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="21148001" midstSfxId="303451" midstSeId="303451" midstDmyId="-1" effectType="2" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="16" enchantStartDmyId_0="20300" enchantStartDmyId_1="21300" enchantStartDmyId_2="20310" enchantStartDmyId_3="21310" enchantStartDmyId_4="20320" enchantStartDmyId_5="21320" enchantStartDmyId_6="20330" enchantStartDmyId_7="21330" />
+<row id="21160000" midstSfxId="303471" midstSeId="303471" midstDmyId="-1" effectType="1" soulParamIdForWepEnchant="24" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="24" enchantStartDmyId_0="10300" enchantStartDmyId_1="11300" enchantStartDmyId_2="10310" enchantStartDmyId_3="11310" enchantStartDmyId_4="10320" enchantStartDmyId_5="11320" enchantStartDmyId_6="10330" enchantStartDmyId_7="11330" />
+<row id="21160001" midstSfxId="303471" midstSeId="303471" midstDmyId="-1" effectType="2" soulParamIdForWepEnchant="24" isUseOffsetEnchantSfxSize="1" traceSfxIdOffsetType="24" enchantStartDmyId_0="20300" enchantStartDmyId_1="21300" enchantStartDmyId_2="20310" enchantStartDmyId_3="21310" enchantStartDmyId_4="20320" enchantStartDmyId_5="21320" enchantStartDmyId_6="20330" enchantStartDmyId_7="21330" />
+<row id="21201000" midstSfxId="-1" midstSeId="-1" transformProtectorId="5040000" midstDmyId="-1" playCategory="8" playPriority="1" isFullBodyTransformProtectorId="1" />
+<row id="21202000" midstSfxId="-1" midstSeId="-1" transformProtectorId="5050000" midstDmyId="-1" playCategory="8" playPriority="1" isFullBodyTransformProtectorId="1" />
+<row id="21203000" midstSfxId="-1" midstSeId="-1" transformProtectorId="5170000" midstDmyId="-1" playCategory="8" playPriority="1" isFullBodyTransformProtectorId="1" />
+<row id="21210000" midstSfxId="336031" midstSeId="303011" midstDmyId="200" playCategory="3" playPriority="70" existEffectForLarge="1" isMidstFullbody="1" />
+<row id="21210001" midstSfxId="-1" midstSeId="303011" midstDmyId="-1" initDmyId="220" playCategory="3" playPriority="70" existEffectForLarge="1" />
+<row id="21430000" midstSfxId="-1" midstSeId="-1" finishSfxId="550002" midstDmyId="-1" initDmyId="220" finishDmyId="220" playCategory="3" playPriority="11" useCamouflage="1" invisibleAtFriendCamouflage="1" />
+<row id="21490000" midstSfxId="543002" midstSeId="543002" initSfxId="543004" finishSfxId="543003" finishSeId="543003" midstDmyId="200" initDmyId="900" finishDmyId="200" playCategory="1" playPriority="11" isMidstFullbody="1" isFinishFullbody="1" />
+<row id="21490001" midstSfxId="543005" midstSeId="-1" midstDmyId="905" playCategory="1" playPriority="11" />
+<row id="21691000" midstSfxId="4870" midstSeId="303011" midstDmyId="200" playCategory="3" playPriority="70" existEffectForLarge="1" isMidstFullbody="1" />
+<row id="21691002" midstSfxId="-1" midstSeId="303011" midstDmyId="-1" initDmyId="220" playCategory="3" playPriority="70" existEffectForLarge="1" />
+<row id="21692000" midstSfxId="541135" midstSeId="303011" midstDmyId="200" playCategory="3" playPriority="70" isMidstFullbody="1" />
+<row id="21800000" midstSfxId="-1" midstSeId="-1" initSfxId="304681" midstDmyId="-1" initDmyId="905" footDecalMaterialOffsetOverwriteId="0" />
+<row id="22816000" midstSfxId="4940" midstSeId="524402" initSfxId="301271" midstDmyId="905" initDmyId="905" />
+<row id="22820000" midstSfxId="440111" midstSeId="440111" initSfxId="440110" initSeId="440110" midstDmyId="200" initDmyId="905" isMidstFullbody="1" />
+<row id="23100000" midstSfxId="330121" midstSeId="-1" midstDmyId="905" />
+<row id="23101000" midstSfxId="330411" midstSeId="-1" midstDmyId="905" />
+<row id="23104000" midstSfxId="334000" midstSeId="-1" midstDmyId="905" />
+<row id="23107000" midstSfxId="331921" midstSeId="-1" midstDmyId="905" />
+<row id="999999999" midstSfxId="-1" midstSeId="-1" midstDmyId="-1" />
+</rows>
+</param>

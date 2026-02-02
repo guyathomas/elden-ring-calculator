@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>CoolTimeParam.param</filename>
+<compression>None</compression>
+<type>COOL_TIME_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>COOL_TIME_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="limitationTime_0" type="f32" arraylength="1" bitsize="-1" sortid="10" unkb8="coop0" unkc0="LIMIT_BY_COOP_NUM" defaultValue="900" />
+<field name="observeTime_0" type="f32" arraylength="1" bitsize="-1" sortid="11" unkb8="coop0" unkc0="LIMIT_BY_COOP_NUM" defaultValue="900" />
+<field name="limitationTime_1" type="f32" arraylength="1" bitsize="-1" sortid="20" unkb8="coop1" unkc0="LIMIT_BY_COOP_NUM" defaultValue="600" />
+<field name="observeTime_1" type="f32" arraylength="1" bitsize="-1" sortid="21" unkb8="coop1" unkc0="LIMIT_BY_COOP_NUM" defaultValue="450" />
+<field name="limitationTime_2" type="f32" arraylength="1" bitsize="-1" sortid="30" unkb8="coop2" unkc0="LIMIT_BY_COOP_NUM" defaultValue="300" />
+<field name="observeTime_2" type="f32" arraylength="1" bitsize="-1" sortid="31" unkb8="coop2" unkc0="LIMIT_BY_COOP_NUM" defaultValue="200" />
+<field name="limitationTime_3" type="f32" arraylength="1" bitsize="-1" sortid="40" unkb8="coop3" unkc0="LIMIT_BY_COOP_NUM" defaultValue="0" />
+<field name="observeTime_3" type="f32" arraylength="1" bitsize="-1" sortid="41" unkb8="coop3" unkc0="LIMIT_BY_COOP_NUM" defaultValue="0" />
+</fields>
+<rows>
+<row id="101" limitationTime_0="900" observeTime_0="600" limitationTime_1="600" observeTime_1="450" limitationTime_2="300" observeTime_2="200" limitationTime_3="0" observeTime_3="0" />
+<row id="102" limitationTime_0="900" observeTime_0="600" limitationTime_1="600" observeTime_1="450" limitationTime_2="300" observeTime_2="200" limitationTime_3="0" observeTime_3="0" />
+<row id="103" limitationTime_0="900" observeTime_0="480" limitationTime_1="600" observeTime_1="450" limitationTime_2="300" observeTime_2="200" limitationTime_3="0" observeTime_3="0" />
+<row id="104" limitationTime_0="900" observeTime_0="480" limitationTime_1="600" observeTime_1="450" limitationTime_2="300" observeTime_2="200" limitationTime_3="0" observeTime_3="0" />
+<row id="105" limitationTime_0="900" observeTime_0="480" limitationTime_1="600" observeTime_1="450" limitationTime_2="300" observeTime_2="200" limitationTime_3="0" observeTime_3="0" />
+<row id="106" limitationTime_0="900" observeTime_0="300" limitationTime_1="600" observeTime_1="450" limitationTime_2="300" observeTime_2="200" limitationTime_3="0" observeTime_3="0" />
+<row id="107" limitationTime_0="900" observeTime_0="300" limitationTime_1="600" observeTime_1="450" limitationTime_2="300" observeTime_2="200" limitationTime_3="0" observeTime_3="0" />
+<row id="108" limitationTime_0="900" observeTime_0="300" limitationTime_1="600" observeTime_1="450" limitationTime_2="300" observeTime_2="200" limitationTime_3="0" observeTime_3="0" />
+<row id="109" limitationTime_0="900" observeTime_0="180" limitationTime_1="600" observeTime_1="450" limitationTime_2="300" observeTime_2="200" limitationTime_3="0" observeTime_3="0" />
+<row id="110" limitationTime_0="900" observeTime_0="180" limitationTime_1="600" observeTime_1="450" limitationTime_2="300" observeTime_2="200" limitationTime_3="0" observeTime_3="0" />
+<row id="201" limitationTime_0="900" observeTime_0="600" limitationTime_1="600" observeTime_1="450" limitationTime_2="300" observeTime_2="200" limitationTime_3="0" observeTime_3="0" />
+<row id="202" limitationTime_0="900" observeTime_0="600" limitationTime_1="600" observeTime_1="450" limitationTime_2="300" observeTime_2="200" limitationTime_3="0" observeTime_3="0" />
+<row id="203" limitationTime_0="900" observeTime_0="480" limitationTime_1="600" observeTime_1="450" limitationTime_2="300" observeTime_2="200" limitationTime_3="0" observeTime_3="0" />
+<row id="204" limitationTime_0="900" observeTime_0="480" limitationTime_1="600" observeTime_1="450" limitationTime_2="300" observeTime_2="200" limitationTime_3="0" observeTime_3="0" />
+<row id="205" limitationTime_0="900" observeTime_0="480" limitationTime_1="600" observeTime_1="450" limitationTime_2="300" observeTime_2="200" limitationTime_3="0" observeTime_3="0" />
+<row id="206" limitationTime_0="900" observeTime_0="300" limitationTime_1="600" observeTime_1="450" limitationTime_2="300" observeTime_2="200" limitationTime_3="0" observeTime_3="0" />
+<row id="207" limitationTime_0="900" observeTime_0="300" limitationTime_1="600" observeTime_1="450" limitationTime_2="300" observeTime_2="200" limitationTime_3="0" observeTime_3="0" />
+<row id="208" limitationTime_0="900" observeTime_0="300" limitationTime_1="600" observeTime_1="450" limitationTime_2="300" observeTime_2="200" limitationTime_3="0" observeTime_3="0" />
+<row id="209" limitationTime_0="900" observeTime_0="180" limitationTime_1="600" observeTime_1="450" limitationTime_2="300" observeTime_2="200" limitationTime_3="0" observeTime_3="0" />
+<row id="210" limitationTime_0="900" observeTime_0="180" limitationTime_1="600" observeTime_1="450" limitationTime_2="300" observeTime_2="200" limitationTime_3="0" observeTime_3="0" />
+<row id="301" limitationTime_0="900" observeTime_0="600" limitationTime_1="600" observeTime_1="450" limitationTime_2="300" observeTime_2="200" limitationTime_3="0" observeTime_3="0" />
+<row id="302" limitationTime_0="900" observeTime_0="600" limitationTime_1="600" observeTime_1="450" limitationTime_2="300" observeTime_2="200" limitationTime_3="0" observeTime_3="0" />
+<row id="303" limitationTime_0="900" observeTime_0="480" limitationTime_1="600" observeTime_1="450" limitationTime_2="300" observeTime_2="200" limitationTime_3="0" observeTime_3="0" />
+<row id="304" limitationTime_0="900" observeTime_0="480" limitationTime_1="600" observeTime_1="450" limitationTime_2="300" observeTime_2="200" limitationTime_3="0" observeTime_3="0" />
+<row id="305" limitationTime_0="900" observeTime_0="480" limitationTime_1="600" observeTime_1="450" limitationTime_2="300" observeTime_2="200" limitationTime_3="0" observeTime_3="0" />
+<row id="306" limitationTime_0="900" observeTime_0="300" limitationTime_1="600" observeTime_1="450" limitationTime_2="300" observeTime_2="200" limitationTime_3="0" observeTime_3="0" />
+<row id="307" limitationTime_0="900" observeTime_0="300" limitationTime_1="600" observeTime_1="450" limitationTime_2="300" observeTime_2="200" limitationTime_3="0" observeTime_3="0" />
+<row id="308" limitationTime_0="900" observeTime_0="300" limitationTime_1="600" observeTime_1="450" limitationTime_2="300" observeTime_2="200" limitationTime_3="0" observeTime_3="0" />
+<row id="309" limitationTime_0="900" observeTime_0="180" limitationTime_1="600" observeTime_1="450" limitationTime_2="300" observeTime_2="200" limitationTime_3="0" observeTime_3="0" />
+<row id="310" limitationTime_0="900" observeTime_0="180" limitationTime_1="600" observeTime_1="450" limitationTime_2="300" observeTime_2="200" limitationTime_3="0" observeTime_3="0" />
+<row id="401" limitationTime_0="120" observeTime_0="900" limitationTime_1="120" observeTime_1="900" limitationTime_2="180" observeTime_2="900" limitationTime_3="300" observeTime_3="900" />
+<row id="402" limitationTime_0="120" observeTime_0="900" limitationTime_1="120" observeTime_1="900" limitationTime_2="180" observeTime_2="900" limitationTime_3="300" observeTime_3="900" />
+<row id="403" limitationTime_0="120" observeTime_0="900" limitationTime_1="120" observeTime_1="900" limitationTime_2="180" observeTime_2="900" limitationTime_3="300" observeTime_3="900" />
+<row id="404" limitationTime_0="120" observeTime_0="900" limitationTime_1="120" observeTime_1="900" limitationTime_2="180" observeTime_2="900" limitationTime_3="300" observeTime_3="900" />
+<row id="405" limitationTime_0="120" observeTime_0="900" limitationTime_1="120" observeTime_1="900" limitationTime_2="180" observeTime_2="900" limitationTime_3="300" observeTime_3="900" />
+<row id="406" limitationTime_0="120" observeTime_0="900" limitationTime_1="120" observeTime_1="900" limitationTime_2="180" observeTime_2="900" limitationTime_3="300" observeTime_3="900" />
+<row id="407" limitationTime_0="120" observeTime_0="900" limitationTime_1="120" observeTime_1="900" limitationTime_2="180" observeTime_2="900" limitationTime_3="300" observeTime_3="900" />
+<row id="408" limitationTime_0="120" observeTime_0="900" limitationTime_1="120" observeTime_1="900" limitationTime_2="180" observeTime_2="900" limitationTime_3="300" observeTime_3="900" />
+<row id="409" limitationTime_0="120" observeTime_0="900" limitationTime_1="120" observeTime_1="900" limitationTime_2="180" observeTime_2="900" limitationTime_3="300" observeTime_3="900" />
+<row id="410" limitationTime_0="120" observeTime_0="900" limitationTime_1="120" observeTime_1="900" limitationTime_2="180" observeTime_2="900" limitationTime_3="300" observeTime_3="900" />
+</rows>
+</param>

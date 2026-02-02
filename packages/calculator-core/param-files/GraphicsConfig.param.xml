@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>GraphicsConfig.param</filename>
+<compression>None</compression>
+<type>CS_GRAPHICS_CONFIG_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>2</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>CS_GRAPHICS_CONFIG_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>2</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="m_textureFilterQuality" type="u8" arraylength="1" bitsize="-1" sortid="1" defaultValue="2" />
+<field name="m_aaQuality" type="u8" arraylength="1" bitsize="-1" sortid="2" defaultValue="3" />
+<field name="m_ssaoQuality" type="u8" arraylength="1" bitsize="-1" sortid="3" defaultValue="3" />
+<field name="m_dofQuality" type="u8" arraylength="1" bitsize="-1" sortid="4" defaultValue="3" />
+<field name="m_motionBlurQuality" type="u8" arraylength="1" bitsize="-1" sortid="5" defaultValue="3" />
+<field name="m_shadowQuality" type="u8" arraylength="1" bitsize="-1" sortid="6" defaultValue="3" />
+<field name="m_lightingQuality" type="u8" arraylength="1" bitsize="-1" sortid="7" defaultValue="3" />
+<field name="m_effectQuality" type="u8" arraylength="1" bitsize="-1" sortid="8" defaultValue="3" />
+<field name="m_decalQuality" type="u8" arraylength="1" bitsize="-1" sortid="9" defaultValue="3" />
+<field name="m_reflectionQuality" type="u8" arraylength="1" bitsize="-1" sortid="10" defaultValue="3" />
+<field name="m_waterQuality" type="u8" arraylength="1" bitsize="-1" sortid="11" defaultValue="3" />
+<field name="m_shaderQuality" type="u8" arraylength="1" bitsize="-1" sortid="12" defaultValue="3" />
+<field name="m_volumetricEffectQuality" type="u8" arraylength="1" bitsize="-1" sortid="13" defaultValue="3" />
+<field name="m_RayTracingQuality" type="u8" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="m_dummy_offset17" type="dummy8" arraylength="2" bitsize="-1" sortid="15" defaultValue="[0|0]" />
+</fields>
+<rows>
+<row id="0" m_textureFilterQuality="2" m_aaQuality="3" m_ssaoQuality="3" m_dofQuality="3" m_motionBlurQuality="3" m_shadowQuality="3" m_lightingQuality="3" m_effectQuality="3" m_decalQuality="3" m_reflectionQuality="3" m_waterQuality="3" m_shaderQuality="3" m_volumetricEffectQuality="3" m_RayTracingQuality="3" m_dummy_offset17="[0|0]" />
+<row id="1" m_textureFilterQuality="3" m_aaQuality="3" m_ssaoQuality="3" m_dofQuality="3" m_motionBlurQuality="3" m_shadowQuality="3" m_lightingQuality="3" m_effectQuality="3" m_decalQuality="3" m_reflectionQuality="3" m_waterQuality="3" m_shaderQuality="3" m_volumetricEffectQuality="3" m_RayTracingQuality="3" m_dummy_offset17="[0|0]" />
+<row id="2" m_textureFilterQuality="2" m_aaQuality="3" m_ssaoQuality="3" m_dofQuality="3" m_motionBlurQuality="3" m_shadowQuality="3" m_lightingQuality="3" m_effectQuality="3" m_decalQuality="3" m_reflectionQuality="3" m_waterQuality="3" m_shaderQuality="3" m_volumetricEffectQuality="3" m_RayTracingQuality="0" m_dummy_offset17="[0|0]" />
+<row id="3" m_textureFilterQuality="2" m_aaQuality="3" m_ssaoQuality="3" m_dofQuality="3" m_motionBlurQuality="3" m_shadowQuality="3" m_lightingQuality="3" m_effectQuality="3" m_decalQuality="3" m_reflectionQuality="3" m_waterQuality="3" m_shaderQuality="3" m_volumetricEffectQuality="3" m_RayTracingQuality="0" m_dummy_offset17="[0|0]" />
+<row id="4" m_textureFilterQuality="1" m_aaQuality="3" m_ssaoQuality="1" m_dofQuality="1" m_motionBlurQuality="2" m_shadowQuality="2" m_lightingQuality="2" m_effectQuality="2" m_decalQuality="2" m_reflectionQuality="1" m_waterQuality="2" m_shaderQuality="2" m_volumetricEffectQuality="1" m_RayTracingQuality="0" m_dummy_offset17="[0|0]" />
+<row id="5" m_textureFilterQuality="2" m_aaQuality="3" m_ssaoQuality="3" m_dofQuality="3" m_motionBlurQuality="3" m_shadowQuality="3" m_lightingQuality="3" m_effectQuality="3" m_decalQuality="3" m_reflectionQuality="3" m_waterQuality="3" m_shaderQuality="3" m_volumetricEffectQuality="3" m_RayTracingQuality="0" m_dummy_offset17="[0|0]" />
+<row id="6" m_textureFilterQuality="3" m_aaQuality="3" m_ssaoQuality="3" m_dofQuality="3" m_motionBlurQuality="3" m_shadowQuality="4" m_lightingQuality="3" m_effectQuality="3" m_decalQuality="3" m_reflectionQuality="4" m_waterQuality="3" m_shaderQuality="3" m_volumetricEffectQuality="4" m_RayTracingQuality="2" m_dummy_offset17="[0|0]" />
+<row id="7" m_textureFilterQuality="2" m_aaQuality="3" m_ssaoQuality="3" m_dofQuality="3" m_motionBlurQuality="3" m_shadowQuality="3" m_lightingQuality="3" m_effectQuality="3" m_decalQuality="3" m_reflectionQuality="3" m_waterQuality="3" m_shaderQuality="3" m_volumetricEffectQuality="3" m_RayTracingQuality="0" m_dummy_offset17="[0|0]" />
+<row id="8" m_textureFilterQuality="3" m_aaQuality="3" m_ssaoQuality="3" m_dofQuality="3" m_motionBlurQuality="3" m_shadowQuality="4" m_lightingQuality="3" m_effectQuality="3" m_decalQuality="3" m_reflectionQuality="4" m_waterQuality="3" m_shaderQuality="3" m_volumetricEffectQuality="4" m_RayTracingQuality="2" m_dummy_offset17="[0|0]" />
+</rows>
+</param>

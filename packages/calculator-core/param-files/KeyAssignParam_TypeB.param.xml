@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>KeyAssignParam_TypeB.param</filename>
+<compression>None</compression>
+<type>KEY_ASSIGN_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>KEY_ASSIGN_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="padKeyId" type="s32" arraylength="1" bitsize="-1" sortid="1" defaultValue="-1" />
+<field name="keyboardModifyKey" type="s32" arraylength="1" bitsize="-1" sortid="2" defaultValue="0" />
+<field name="keyboardKeyId" type="s32" arraylength="1" bitsize="-1" sortid="3" defaultValue="-1" />
+<field name="mouseModifyKey" type="s32" arraylength="1" bitsize="-1" sortid="4" defaultValue="0" />
+<field name="mouseKeyId" type="s32" arraylength="1" bitsize="-1" sortid="5" defaultValue="0" />
+<field name="reserved" type="dummy8" arraylength="12" bitsize="-1" sortid="7" defaultValue="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+</fields>
+<rows>
+<row id="0" padKeyId="-1" keyboardModifyKey="0" keyboardKeyId="125" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="1" padKeyId="3003" keyboardModifyKey="0" keyboardKeyId="86" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="2" padKeyId="3003" keyboardModifyKey="0" keyboardKeyId="100" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="3" padKeyId="3002" keyboardModifyKey="0" keyboardKeyId="99" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="4" padKeyId="3002" keyboardModifyKey="0" keyboardKeyId="101" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="5" padKeyId="2010" keyboardModifyKey="0" keyboardKeyId="114" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="6" padKeyId="2005" keyboardModifyKey="0" keyboardKeyId="126" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="7" padKeyId="2004" keyboardModifyKey="0" keyboardKeyId="102" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="8" padKeyId="3005" keyboardModifyKey="0" keyboardKeyId="-1" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="9" padKeyId="3005" keyboardModifyKey="0" keyboardKeyId="-1" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="10" padKeyId="3004" keyboardModifyKey="0" keyboardKeyId="-1" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="11" padKeyId="3004" keyboardModifyKey="0" keyboardKeyId="-1" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="12" padKeyId="2011" keyboardModifyKey="0" keyboardKeyId="85" mouseModifyKey="0" mouseKeyId="8" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="13" padKeyId="2000" keyboardModifyKey="0" keyboardKeyId="190" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="14" padKeyId="2001" keyboardModifyKey="0" keyboardKeyId="195" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="15" padKeyId="2003" keyboardModifyKey="0" keyboardKeyId="193" mouseModifyKey="3" mouseKeyId="9" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="16" padKeyId="2002" keyboardModifyKey="0" keyboardKeyId="192" mouseModifyKey="3" mouseKeyId="10" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="17" padKeyId="2009" keyboardModifyKey="0" keyboardKeyId="-1" mouseModifyKey="0" mouseKeyId="2" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="18" padKeyId="3001" keyboardModifyKey="0" keyboardKeyId="-1" mouseModifyKey="3" mouseKeyId="2" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="19" padKeyId="2008" keyboardModifyKey="0" keyboardKeyId="-1" mouseModifyKey="0" mouseKeyId="1" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="20" padKeyId="3000" keyboardModifyKey="0" keyboardKeyId="-1" mouseModifyKey="3" mouseKeyId="1" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="21" padKeyId="2006" keyboardModifyKey="0" keyboardKeyId="88" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="22" padKeyId="2007" keyboardModifyKey="0" keyboardKeyId="87" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="23" padKeyId="2000" keyboardModifyKey="0" keyboardKeyId="102" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="24" padKeyId="2013" keyboardModifyKey="0" keyboardKeyId="70" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="25" padKeyId="2012" keyboardModifyKey="0" keyboardKeyId="103" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="26" padKeyId="2000" keyboardModifyKey="0" keyboardKeyId="190" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="27" padKeyId="2001" keyboardModifyKey="0" keyboardKeyId="195" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="28" padKeyId="2003" keyboardModifyKey="0" keyboardKeyId="193" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="29" padKeyId="2002" keyboardModifyKey="0" keyboardKeyId="192" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="30" padKeyId="3003" keyboardModifyKey="0" keyboardKeyId="86" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="31" padKeyId="3003" keyboardModifyKey="0" keyboardKeyId="100" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="32" padKeyId="3002" keyboardModifyKey="0" keyboardKeyId="101" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="33" padKeyId="3002" keyboardModifyKey="0" keyboardKeyId="99" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="34" padKeyId="2900" keyboardModifyKey="0" keyboardKeyId="87" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="35" padKeyId="-1" keyboardModifyKey="0" keyboardKeyId="-1" mouseModifyKey="0" mouseKeyId="2" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="36" padKeyId="2900" keyboardModifyKey="0" keyboardKeyId="-1" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="37" padKeyId="2901" keyboardModifyKey="0" keyboardKeyId="85" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="38" padKeyId="2901" keyboardModifyKey="0" keyboardKeyId="-1" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="39" padKeyId="2008" keyboardModifyKey="3" keyboardKeyId="192" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="40" padKeyId="2009" keyboardModifyKey="3" keyboardKeyId="193" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="41" padKeyId="2007" keyboardModifyKey="0" keyboardKeyId="102" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="42" padKeyId="2006" keyboardModifyKey="0" keyboardKeyId="88" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="43" padKeyId="-1" keyboardModifyKey="0" keyboardKeyId="-1" mouseModifyKey="0" mouseKeyId="1" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="44" padKeyId="-1" keyboardModifyKey="0" keyboardKeyId="-1" mouseModifyKey="0" mouseKeyId="9" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="45" padKeyId="-1" keyboardModifyKey="0" keyboardKeyId="-1" mouseModifyKey="0" mouseKeyId="10" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="46" padKeyId="2010" keyboardModifyKey="0" keyboardKeyId="114" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="47" padKeyId="2011" keyboardModifyKey="0" keyboardKeyId="115" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="48" padKeyId="3000" keyboardModifyKey="3" keyboardKeyId="190" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="49" padKeyId="3001" keyboardModifyKey="3" keyboardKeyId="195" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="50" padKeyId="3010" keyboardModifyKey="3" keyboardKeyId="190" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="51" padKeyId="3011" keyboardModifyKey="3" keyboardKeyId="195" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="52" padKeyId="-1" keyboardModifyKey="0" keyboardKeyId="97" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="53" padKeyId="-1" keyboardModifyKey="0" keyboardKeyId="83" mouseModifyKey="0" mouseKeyId="0" reserved="[0|0|0|0|0|0|0|0|0|0|0|0]" />
+</rows>
+</param>

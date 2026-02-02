@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>SpEffectSetParam.param</filename>
+<compression>None</compression>
+<type>SP_EFFECT_SET_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>1</unk06>
+<paramdef>
+<type>SP_EFFECT_SET_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="spEffectId1" type="s32" arraylength="1" bitsize="-1" sortid="1000" defaultValue="-1" />
+<field name="spEffectId2" type="s32" arraylength="1" bitsize="-1" sortid="1001" defaultValue="-1" defaultThreshold="True" />
+<field name="spEffectId3" type="s32" arraylength="1" bitsize="-1" sortid="1002" defaultValue="-1" defaultThreshold="True" />
+<field name="spEffectId4" type="s32" arraylength="1" bitsize="-1" sortid="1003" defaultValue="-1" defaultThreshold="True" />
+</fields>
+<rows>
+<row id="0" spEffectId1="-1" />
+<row id="101000" spEffectId1="5000" />
+<row id="101001" spEffectId1="5004" />
+<row id="102000" spEffectId1="4800" />
+<row id="102010" spEffectId1="4801" />
+<row id="102020" spEffectId1="4802" />
+<row id="103000" spEffectId1="8085" />
+<row id="103010" spEffectId1="8081" />
+<row id="103020" spEffectId1="8086" />
+<row id="104000" spEffectId1="8560" />
+<row id="105000" spEffectId1="8600" />
+<row id="106100" spEffectId1="19050" spEffectId2="19055" spEffectId3="19058" />
+<row id="106101" spEffectId1="19051" spEffectId2="19055" spEffectId3="19058" />
+<row id="106110" spEffectId1="4300" spEffectId2="4315" spEffectId3="4370" />
+<row id="106120" spEffectId1="4300" spEffectId2="4315" spEffectId3="4375" />
+<row id="107000" spEffectId1="5070" />
+<row id="107001" spEffectId1="5071" />
+<row id="107002" spEffectId1="5072" />
+<row id="108000" spEffectId1="8971" spEffectId2="5260" spEffectId3="9080" />
+<row id="108010" spEffectId1="4330" spEffectId2="5260" />
+<row id="108100" spEffectId1="4460" spEffectId2="4461" />
+<row id="108110" spEffectId1="4460" spEffectId2="4461" spEffectId3="4465" />
+<row id="109000" paramdexName="Enemy: Fade After Death (Boss)" spEffectId1="4301" />
+<row id="109010" paramdexName="Enemy: Fade After Death" spEffectId1="4300" />
+<row id="1200000" spEffectId1="-1" />
+<row id="1200010" spEffectId1="16613" />
+<row id="1200020" spEffectId1="16614" />
+<row id="1200030" spEffectId1="16615" />
+<row id="10000000" spEffectId1="-1" />
+<row id="10000010" spEffectId1="9680" />
+<row id="10000020" spEffectId1="9681" />
+<row id="20410000" spEffectId1="-1" />
+<row id="20410010" spEffectId1="18900" />
+<row id="20410020" spEffectId1="18901" />
+<row id="20410030" spEffectId1="18902" />
+<row id="21200000" spEffectId1="-1" />
+<row id="21200010" spEffectId1="16147" />
+<row id="21400000" spEffectId1="-1" />
+<row id="21400010" spEffectId1="16506" />
+<row id="21400020" spEffectId1="16503" />
+<row id="21400030" spEffectId1="16515" />
+<row id="21400040" spEffectId1="16518" />
+<row id="21400050" spEffectId1="16519" />
+<row id="21500000" spEffectId1="-1" />
+<row id="21500010" spEffectId1="19101" />
+<row id="21500020" spEffectId1="19102" />
+<row id="22700000" spEffectId1="-1" />
+<row id="22700010" spEffectId1="12049" />
+<row id="22700020" spEffectId1="12560" />
+<row id="30000000" spEffectId1="-1" />
+<row id="30000010" spEffectId1="10173" />
+<row id="30000020" spEffectId1="10183" />
+<row id="30000030" spEffectId1="10164" />
+<row id="30000040" spEffectId1="19000" />
+<row id="30000050" spEffectId1="19001" />
+<row id="30000060" spEffectId1="19002" />
+<row id="30000070" spEffectId1="19003" />
+<row id="30000080" spEffectId1="19004" />
+<row id="30000090" spEffectId1="19005" />
+<row id="30000100" spEffectId1="19006" />
+<row id="30000110" spEffectId1="19007" />
+<row id="30100000" spEffectId1="-1" />
+<row id="30100010" spEffectId1="10855" />
+<row id="30700000" spEffectId1="-1" />
+<row id="30700010" spEffectId1="12054" />
+<row id="30700020" spEffectId1="12059" />
+<row id="30701000" spEffectId1="12057" />
+<row id="30800000" spEffectId1="-1" />
+<row id="30800200" spEffectId1="17153" />
+<row id="30800210" spEffectId1="17152" />
+<row id="30801000" spEffectId1="17154" />
+<row id="31500000" spEffectId1="-1" />
+<row id="31501000" spEffectId1="11830" />
+<row id="31700000" spEffectId1="-1" />
+<row id="31700010" spEffectId1="11870" />
+<row id="31700020" spEffectId1="11860" />
+<row id="31800000" spEffectId1="-1" />
+<row id="31800010" spEffectId1="5401" />
+<row id="31810000" spEffectId1="-1" />
+<row id="31810010" spEffectId1="16902" />
+<row id="31810020" spEffectId1="16904" />
+<row id="32510000" spEffectId1="-1" />
+<row id="32510010" spEffectId1="13772" />
+<row id="33200000" spEffectId1="-1" />
+<row id="33200010" spEffectId1="5020" />
+<row id="33200020" spEffectId1="5021" />
+<row id="33200030" spEffectId1="5022" />
+<row id="33200040" spEffectId1="16311" />
+<row id="33300000" spEffectId1="-1" />
+<row id="33300010" spEffectId1="5020" />
+<row id="33300020" spEffectId1="5021" />
+<row id="33600000" spEffectId1="-1" />
+<row id="33600010" spEffectId1="13195" />
+<row id="33600020" spEffectId1="13177" spEffectId2="4300" />
+<row id="33700000" spEffectId1="-1" />
+<row id="33700010" spEffectId1="13185" />
+<row id="34700000" spEffectId1="-1" />
+<row id="34700010" spEffectId1="15606" />
+<row id="34700020" spEffectId1="15607" />
+<row id="34700030" spEffectId1="15610" />
+<row id="35000000" spEffectId1="-1" />
+<row id="35000010" spEffectId1="12535" />
+<row id="35000020" spEffectId1="12536" />
+<row id="35000030" spEffectId1="12537" />
+<row id="35000040" spEffectId1="19050" />
+<row id="35100000" spEffectId1="-1" />
+<row id="35100010" spEffectId1="17210" />
+<row id="35700000" spEffectId1="-1" />
+<row id="35700010" spEffectId1="15507" />
+<row id="36100000" spEffectId1="-1" />
+<row id="36100010" spEffectId1="5020" />
+<row id="36300000" spEffectId1="-1" />
+<row id="36300010" spEffectId1="5020" />
+<row id="36600000" spEffectId1="-1" />
+<row id="36600005" spEffectId1="14702" />
+<row id="36600010" spEffectId1="14705" />
+<row id="36600020" spEffectId1="14706" />
+<row id="36600030" spEffectId1="14703" />
+<row id="36600060" spEffectId1="14704" />
+<row id="36600070" spEffectId1="14712" />
+<row id="36610000" spEffectId1="-1" />
+<row id="36610010" spEffectId1="17041" />
+<row id="36610020" spEffectId1="17042" />
+<row id="36610030" spEffectId1="17044" />
+<row id="36610040" spEffectId1="17045" />
+<row id="36610050" spEffectId1="13471" />
+<row id="36610060" spEffectId1="17047" />
+<row id="36610070" spEffectId1="17048" />
+<row id="36610080" spEffectId1="17049" />
+<row id="36700000" spEffectId1="-1" />
+<row id="36700010" spEffectId1="17121" />
+<row id="37020000" spEffectId1="-1" />
+<row id="37020010" spEffectId1="14806" />
+<row id="37030010" spEffectId1="14443" />
+<row id="37040000" spEffectId1="-1" />
+<row id="37040010" spEffectId1="17452" />
+<row id="37500000" spEffectId1="-1" />
+<row id="37500010" spEffectId1="14151" />
+<row id="37500020" spEffectId1="14154" />
+<row id="38500000" spEffectId1="-1" />
+<row id="38500010" spEffectId1="14061" />
+<row id="39700000" spEffectId1="-1" />
+<row id="39700010" spEffectId1="14661" spEffectId2="14663" />
+<row id="39700020" spEffectId1="14662" spEffectId2="14663" />
+<row id="39700030" spEffectId1="14667" />
+<row id="40200000" spEffectId1="-1" />
+<row id="40200010" spEffectId1="16683" />
+<row id="40400000" spEffectId1="-1" />
+<row id="40400010" spEffectId1="18530" />
+<row id="40500000" spEffectId1="-1" />
+<row id="40500010" spEffectId1="-1" />
+<row id="40500020" spEffectId1="-1" />
+<row id="40700000" spEffectId1="-1" />
+<row id="40700010" spEffectId1="10416" />
+<row id="40700020" spEffectId1="10417" />
+<row id="40700500" spEffectId1="16941" />
+<row id="40700510" spEffectId1="16940" />
+<row id="40800000" spEffectId1="-1" />
+<row id="40800010" spEffectId1="10432" />
+<row id="41000000" spEffectId1="-1" />
+<row id="41000010" spEffectId1="10559" />
+<row id="41000020" spEffectId1="10585" spEffectId2="10587" />
+<row id="41000030" spEffectId1="10586" />
+<row id="41000040" spEffectId1="10585" spEffectId2="10588" />
+<row id="41100000" spEffectId1="-1" />
+<row id="41100010" spEffectId1="10579" />
+<row id="41400000" spEffectId1="-1" />
+<row id="41400010" spEffectId1="15008" />
+<row id="41400020" spEffectId1="15050" />
+<row id="41400030" spEffectId1="15051" />
+<row id="41400040" spEffectId1="15052" />
+<row id="41400100" spEffectId1="4302" spEffectId2="15025" spEffectId3="295000" />
+<row id="41900000" spEffectId1="-1" />
+<row id="41900010" spEffectId1="12605" spEffectId2="12606" />
+<row id="41900020" spEffectId1="12605" spEffectId2="12607" />
+<row id="41900030" spEffectId1="12605" spEffectId2="12608" />
+<row id="41900040" spEffectId1="12630" spEffectId2="12615" spEffectId3="5000" />
+<row id="41900041" spEffectId1="12630" spEffectId2="12615" />
+<row id="41900050" spEffectId1="12604" />
+<row id="42000000" spEffectId1="-1" />
+<row id="42000010" spEffectId1="10507" />
+<row id="42000020" spEffectId1="10516" />
+<row id="42000030" spEffectId1="10517" />
+<row id="42100000" spEffectId1="-1" />
+<row id="42100010" spEffectId1="10911" />
+<row id="42400000" spEffectId1="-1" />
+<row id="42400010" spEffectId1="12015" />
+<row id="42600000" spEffectId1="-1" />
+<row id="42600010" spEffectId1="13430" />
+<row id="42600020" spEffectId1="13431" />
+<row id="42800000" spEffectId1="-1" />
+<row id="42800010" spEffectId1="15369" />
+<row id="43000000" spEffectId1="-1" />
+<row id="43000010" spEffectId1="10108" />
+<row id="43000020" spEffectId1="10112" />
+<row id="43000030" spEffectId1="10102" />
+<row id="43000040" spEffectId1="10105" />
+<row id="43100000" spEffectId1="-1" />
+<row id="43100010" spEffectId1="5090" />
+<row id="43100020" spEffectId1="13279" />
+<row id="43100030" spEffectId1="13290" />
+<row id="43100040" spEffectId1="13270" />
+<row id="43100050" spEffectId1="13289" />
+<row id="43100060" spEffectId1="13298" spEffectId2="13289" />
+<row id="43100070" spEffectId1="295200" spEffectId2="295201" spEffectId3="4302" />
+<row id="43100071" spEffectId1="295200" spEffectId2="4302" />
+<row id="43100080" spEffectId1="5021" />
+<row id="43210000" spEffectId1="-1" />
+<row id="43210010" spEffectId1="11980" />
+<row id="43210020" spEffectId1="11983" />
+<row id="43400000" spEffectId1="-1" />
+<row id="43400010" spEffectId1="13268" />
+<row id="43400020" spEffectId1="13269" />
+<row id="43500000" spEffectId1="-1" />
+<row id="43500010" spEffectId1="14475" spEffectId2="14469" />
+<row id="43500020" spEffectId1="14497" />
+<row id="43500030" spEffectId1="14498" />
+<row id="43500040" spEffectId1="14486" />
+<row id="43500050" spEffectId1="14487" />
+<row id="43500060" spEffectId1="14492" />
+<row id="43500070" spEffectId1="14493" />
+<row id="43500080" spEffectId1="14455" />
+<row id="43500090" spEffectId1="14467" />
+<row id="43500100" spEffectId1="14490" />
+<row id="43500110" spEffectId1="14499" />
+<row id="43700000" spEffectId1="-1" />
+<row id="43700010" spEffectId1="13690" />
+<row id="43700011" spEffectId1="5024" />
+<row id="43700020" spEffectId1="13665" />
+<row id="43700021" spEffectId1="13666" />
+<row id="43700030" spEffectId1="13663" />
+<row id="43700031" spEffectId1="13675" />
+<row id="43700040" spEffectId1="13689" spEffectId2="4300" />
+<row id="43700050" spEffectId1="13688" />
+<row id="43800000" spEffectId1="-1" />
+<row id="43800010" spEffectId1="15655" />
+<row id="43800020" spEffectId1="15656" />
+<row id="43800021" spEffectId1="15658" />
+<row id="43800022" spEffectId1="15657" />
+<row id="43810000" spEffectId1="-1" />
+<row id="43810010" spEffectId1="16549" />
+<row id="43820000" spEffectId1="-1" />
+<row id="43820010" spEffectId1="16567" />
+<row id="43850000" spEffectId1="-1" />
+<row id="43850010" spEffectId1="17130" />
+<row id="44700000" spEffectId1="-1" />
+<row id="44700010" spEffectId1="14306" />
+<row id="44800000" spEffectId1="-1" />
+<row id="44800010" spEffectId1="14980" />
+<row id="44800020" spEffectId1="14981" />
+<row id="44900000" spEffectId1="-1" />
+<row id="44900010" spEffectId1="15206" />
+<row id="44900020" spEffectId1="15211" />
+<row id="45100000" spEffectId1="-1" />
+<row id="45100010" spEffectId1="14886" />
+<row id="45100020" spEffectId1="14876" />
+<row id="45500000" spEffectId1="-1" />
+<row id="45500010" spEffectId1="14018" />
+<row id="45600000" spEffectId1="-1" />
+<row id="45600010" spEffectId1="15444" />
+<row id="45700000" spEffectId1="-1" />
+<row id="45700010" spEffectId1="16581" />
+<row id="46000000" spEffectId1="-1" />
+<row id="46000010" spEffectId1="10155" />
+<row id="46000020" spEffectId1="10156" />
+<row id="46000030" spEffectId1="10158" />
+<row id="46000040" spEffectId1="10159" />
+<row id="46000050" spEffectId1="10139" />
+<row id="46400000" spEffectId1="-1" />
+<row id="46400010" spEffectId1="18872" />
+<row id="46400020" spEffectId1="18873" />
+<row id="46400030" spEffectId1="18874" />
+<row id="46500000" spEffectId1="-1" />
+<row id="46500010" spEffectId1="13222" />
+<row id="46600000" spEffectId1="-1" />
+<row id="46600010" spEffectId1="12177" />
+<row id="46600020" spEffectId1="12159" />
+<row id="46600030" spEffectId1="12183" />
+<row id="46600040" spEffectId1="12184" />
+<row id="46900000" spEffectId1="-1" />
+<row id="46900010" spEffectId1="16290" />
+<row id="46900020" spEffectId1="16283" spEffectId2="16284" />
+<row id="46900030" spEffectId1="16291" />
+<row id="46900040" spEffectId1="16292" />
+<row id="47700000" spEffectId1="-1" />
+<row id="47700010" spEffectId1="17637" />
+<row id="47700020" spEffectId1="17638" />
+<row id="47700030" spEffectId1="17639" />
+<row id="48100000" spEffectId1="-1" />
+<row id="48100010" spEffectId1="17301" />
+<row id="49500000" spEffectId1="-1" />
+<row id="49500010" spEffectId1="15346" />
+<row id="49500020" spEffectId1="15347" />
+<row id="49500030" spEffectId1="15348" />
+<row id="49500040" spEffectId1="15349" />
+<row id="49600000" spEffectId1="-1" />
+<row id="49600010" spEffectId1="5020" />
+<row id="50400000" spEffectId1="-1" />
+<row id="50400010" spEffectId1="20010931" />
+<row id="50800000" spEffectId1="-1" />
+<row id="50800010" spEffectId1="20010783" />
+<row id="50900000" spEffectId1="-1" />
+<row id="50900010" spEffectId1="19601" />
+<row id="50900020" spEffectId1="20010515" />
+<row id="50900030" spEffectId1="20010517" />
+<row id="51700000" spEffectId1="-1" />
+<row id="51700010" spEffectId1="20011145" />
+<row id="51700020" spEffectId1="20011146" />
+<row id="51700030" spEffectId1="20011147" />
+<row id="51900000" spEffectId1="-1" />
+<row id="51900010" spEffectId1="20011020" />
+<row id="51900020" spEffectId1="20011021" />
+<row id="51900030" spEffectId1="20011022" />
+<row id="52100000" spEffectId1="-1" />
+<row id="52100010" spEffectId1="20011248" />
+<row id="52400000" spEffectId1="-1" />
+<row id="52400010" spEffectId1="20011330" />
+<row id="52400020" spEffectId1="20011340" />
+<row id="52400030" spEffectId1="20011331" />
+<row id="52400040" spEffectId1="20011332" />
+<row id="52400050" spEffectId1="20011341" />
+<row id="52400060" spEffectId1="20011342" />
+<row id="52400070" spEffectId1="20011343" />
+<row id="52400080" spEffectId1="20011344" />
+<row id="52400090" spEffectId1="20011346" />
+<row id="52400100" spEffectId1="20011310" />
+<row id="52400110" spEffectId1="20011337" />
+<row id="52400120" spEffectId1="20011338" />
+<row id="52400130" spEffectId1="20011339" />
+<row id="52400140" spEffectId1="20011335" />
+<row id="52400150" spEffectId1="20011347" />
+<row id="52400160" spEffectId1="20011348" />
+<row id="52400170" spEffectId1="20011326" />
+<row id="52500000" spEffectId1="-1" />
+<row id="52500010" spEffectId1="20011860" />
+<row id="52500020" spEffectId1="20011861" />
+<row id="52500030" spEffectId1="20011862" />
+<row id="52500040" spEffectId1="20011863" />
+<row id="52500050" spEffectId1="20011864" />
+<row id="52600000" spEffectId1="-1" />
+<row id="52600010" spEffectId1="20012617" />
+<row id="52600020" spEffectId1="20012618" />
+<row id="52600030" spEffectId1="20012619" />
+<row id="52600040" spEffectId1="20012637" />
+<row id="52700000" spEffectId1="-1" />
+<row id="52700010" spEffectId1="20011910" />
+<row id="52700020" spEffectId1="20011911" />
+<row id="52700030" spEffectId1="20011912" />
+<row id="52700040" spEffectId1="20011913" />
+<row id="52700050" spEffectId1="20011914" />
+<row id="52700060" spEffectId1="20011915" />
+<row id="52700070" spEffectId1="20011916" />
+<row id="52700080" spEffectId1="20011917" />
+<row id="52710000" spEffectId1="-1" />
+<row id="52710010" spEffectId1="20011930" />
+<row id="52710020" spEffectId1="20011931" />
+<row id="52710030" spEffectId1="20011932" />
+<row id="52710040" spEffectId1="20011933" />
+<row id="53100000" spEffectId1="-1" />
+<row id="53100010" spEffectId1="20011822" />
+<row id="53100020" spEffectId1="20011825" />
+<row id="53100021" spEffectId1="20011825" spEffectId2="20011828" />
+<row id="53100030" spEffectId1="20011826" />
+<row id="53100040" spEffectId1="20013251" />
+<row id="53100041" spEffectId1="20013252" />
+<row id="53100042" spEffectId1="20013253" />
+<row id="53100043" spEffectId1="20013254" />
+<row id="53100050" spEffectId1="20011827" />
+<row id="53900000" spEffectId1="-1" />
+<row id="53900010" spEffectId1="20013100" />
+<row id="54300000" spEffectId1="-1" />
+<row id="54300010" spEffectId1="20013350" />
+<row id="55800000" spEffectId1="-1" />
+<row id="55800010" spEffectId1="20012700" />
+<row id="55800020" spEffectId1="20012701" />
+<row id="56510000" spEffectId1="-1" />
+<row id="56510010" spEffectId1="20011602" />
+<row id="56510020" spEffectId1="20011603" />
+<row id="57700000" spEffectId1="-1" />
+<row id="57700010" spEffectId1="20012650" />
+<row id="57700020" spEffectId1="20012651" />
+<row id="58300000" spEffectId1="-1" />
+<row id="58300010" spEffectId1="20010320" />
+<row id="58300020" spEffectId1="20010310" />
+<row id="58300030" spEffectId1="20010316" />
+<row id="58300040" spEffectId1="20010332" />
+<row id="58300050" spEffectId1="20010333" spEffectId2="20010310" />
+<row id="58300060" spEffectId1="20010338" spEffectId2="20010306" />
+<row id="58400000" spEffectId1="-1" />
+<row id="58400010" spEffectId1="20010386" />
+<row id="58400020" spEffectId1="20010387" />
+<row id="59000000" spEffectId1="-1" />
+<row id="59000010" spEffectId1="20011254" />
+<row id="59000020" spEffectId1="20011255" />
+<row id="59000030" spEffectId1="20011256" />
+<row id="60100000" spEffectId1="-1" />
+<row id="60100010" spEffectId1="11400" />
+<row id="60720000" spEffectId1="-1" />
+<row id="60720010" spEffectId1="15555" />
+<row id="62100000" spEffectId1="-1" />
+<row id="62100010" spEffectId1="11870" />
+</rows>
+</param>

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>BonfireWarpSubCategoryParam.param</filename>
+<compression>None</compression>
+<type>BONFIRE_WARP_SUB_CATEGORY_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>BONFIRE_WARP_SUB_CATEGORY_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="disableParam_NT" type="u8" arraylength="1" bitsize="1" sortid="0" defaultValue="1" />
+<field name="disableParamReserve1" type="dummy8" arraylength="1" bitsize="7" sortid="301" defaultValue="[0]" />
+<field name="disableParamReserve2" type="dummy8" arraylength="3" bitsize="-1" sortid="302" defaultValue="[0|0|0]" />
+<field name="textId" type="s32" arraylength="1" bitsize="-1" sortid="100" defaultValue="241335" />
+<field name="tabId" type="u16" arraylength="1" bitsize="-1" sortid="200" defaultValue="6800" />
+<field name="sortId" type="u16" arraylength="1" bitsize="-1" sortid="300" defaultValue="10" />
+<field name="pad" type="dummy8" arraylength="4" bitsize="-1" sortid="303" defaultValue="[0|0|0|0]" />
+</fields>
+<rows>
+<row id="6800" paramdexName="Gravesite Plain" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241353" tabId="6800" sortId="10" pad="[0|0|0|0]" />
+<row id="6820" paramdexName="Castle Ensis" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241352" tabId="6800" sortId="20" pad="[0|0|0|0]" />
+<row id="6830" paramdexName="Cerulean Coast" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241338" tabId="6800" sortId="30" pad="[0|0|0|0]" />
+<row id="6840" paramdexName="Charo's Hidden Grave" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241341" tabId="6800" sortId="40" pad="[0|0|0|0]" />
+<row id="6850" paramdexName="Jagged Peak" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241340" tabId="6800" sortId="70" pad="[0|0|0|0]" />
+<row id="6851" paramdexName="Foot of the Jagged Peak" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241339" tabId="6800" sortId="60" pad="[0|0|0|0]" />
+<row id="6860" paramdexName="Abyssal Woods" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241344" tabId="6900" sortId="40" pad="[0|0|0|0]" />
+<row id="6900" paramdexName="Scadu Altus" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241337" tabId="6900" sortId="10" pad="[0|0|0|0]" />
+<row id="6920" paramdexName="Scaduview" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241343" tabId="21000" sortId="40" pad="[0|0|0|0]" />
+<row id="6940" paramdexName="Ancient Ruins of Rauh" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241342" tabId="20000" sortId="30" pad="[0|0|0|0]" />
+<row id="6950" paramdexName="Rauh Base" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241354" tabId="20000" sortId="40" pad="[0|0|0|0]" />
+<row id="10000" paramdexName="Stormveil Castle" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241300" tabId="10000" sortId="10" pad="[0|0|0|0]" />
+<row id="10010" paramdexName="Chapel of Anticipation" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241301" tabId="10000" sortId="20" pad="[0|0|0|0]" />
+<row id="11000" paramdexName="Leyndell, Royal Capital" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241302" tabId="11000" sortId="10" pad="[0|0|0|0]" />
+<row id="11050" paramdexName="Leyndell, Ashen Capital" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241303" tabId="11000" sortId="30" pad="[0|0|0|0]" />
+<row id="11100" paramdexName="Roundtable Hold" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241304" tabId="11100" sortId="10" pad="[0|0|0|0]" />
+<row id="12010" paramdexName="Ainsel River Main" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241305" tabId="12000" sortId="20" pad="[0|0|0|0]" />
+<row id="12011" paramdexName="Lake of Rot" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241306" tabId="12000" sortId="30" pad="[0|0|0|0]" />
+<row id="12012" paramdexName="Ainsel River" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241307" tabId="12000" sortId="10" pad="[0|0|0|0]" />
+<row id="12020" paramdexName="Nokron Eternal City" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241308" tabId="12001" sortId="10" pad="[0|0|0|0]" />
+<row id="12030" paramdexName="Deeproot Depths" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241310" tabId="12002" sortId="10" pad="[0|0|0|0]" />
+<row id="12050" paramdexName="Mohgwyn Palace" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241311" tabId="12001" sortId="30" pad="[0|0|0|0]" />
+<row id="12070" paramdexName="Siofra River" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241309" tabId="12001" sortId="20" pad="[0|0|0|0]" />
+<row id="13000" paramdexName="Crumbling Farum Azula" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241312" tabId="13000" sortId="10" pad="[0|0|0|0]" />
+<row id="14000" paramdexName="Academy of Raya Lucaria" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241313" tabId="14000" sortId="10" pad="[0|0|0|0]" />
+<row id="15000" paramdexName="Elphael, Brace of the Haligtree" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241315" tabId="15000" sortId="20" pad="[0|0|0|0]" />
+<row id="15001" paramdexName="Muquella's Haligtree" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241314" tabId="15000" sortId="10" pad="[0|0|0|0]" />
+<row id="16000" paramdexName="Volcano Manor" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241316" tabId="16000" sortId="10" pad="[0|0|0|0]" />
+<row id="18000" paramdexName="Stranded Graveyard" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241317" tabId="61000" sortId="11" pad="[0|0|0|0]" />
+<row id="19000" paramdexName="Stone Platform" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241318" tabId="11000" sortId="40" pad="[0|0|0|0]" />
+<row id="20000" paramdexName="Land of the Tower" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241345" tabId="20000" sortId="10" pad="[0|0|0|0]" />
+<row id="20010" paramdexName="Enir-Ilim" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241346" tabId="20000" sortId="20" pad="[0|0|0|0]" />
+<row id="21000" paramdexName="Shadow Keep" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241347" tabId="21000" sortId="10" pad="[0|0|0|0]" />
+<row id="21001" paramdexName="Shadow Keep, Church District" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241348" tabId="21000" sortId="20" pad="[0|0|0|0]" />
+<row id="21010" paramdexName="Specimen Storehouse" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241349" tabId="21000" sortId="30" pad="[0|0|0|0]" />
+<row id="22000" paramdexName="Stone Coffin Fissure" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241350" tabId="6800" sortId="50" pad="[0|0|0|0]" />
+<row id="28000" paramdexName="Midra's Manse" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241351" tabId="6900" sortId="50" pad="[0|0|0|0]" />
+<row id="35000" paramdexName="Subterranean Shunning-Grounds" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241319" tabId="11000" sortId="20" pad="[0|0|0|0]" />
+<row id="39200" paramdexName="Ruin-Strewn Precipice" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241320" tabId="62000" sortId="30" pad="[0|0|0|0]" />
+<row id="61000" paramdexName="Limgrave" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241321" tabId="61000" sortId="10" pad="[0|0|0|0]" />
+<row id="61001" paramdexName="Stormhill" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241322" tabId="61000" sortId="20" pad="[0|0|0|0]" />
+<row id="61002" paramdexName="Weeping Peninsula" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241323" tabId="61000" sortId="30" pad="[0|0|0|0]" />
+<row id="62000" paramdexName="Liurnia of the Lakes" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241324" tabId="62000" sortId="10" pad="[0|0|0|0]" />
+<row id="62001" paramdexName="Bellum Highway" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241325" tabId="62000" sortId="20" pad="[0|0|0|0]" />
+<row id="62002" paramdexName="Moonlight Altar" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241326" tabId="62000" sortId="40" pad="[0|0|0|0]" />
+<row id="63000" paramdexName="Altus Plateau" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241327" tabId="63000" sortId="10" pad="[0|0|0|0]" />
+<row id="63001" paramdexName="Mt. Gelmir" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241328" tabId="63000" sortId="20" pad="[0|0|0|0]" />
+<row id="63002" paramdexName="Capital Outskirts" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241329" tabId="63000" sortId="30" pad="[0|0|0|0]" />
+<row id="63003" paramdexName="Forbidden Lands" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241330" tabId="65000" sortId="10" pad="[0|0|0|0]" />
+<row id="64000" paramdexName="Caelid" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241331" tabId="64000" sortId="10" pad="[0|0|0|0]" />
+<row id="64001" paramdexName="Greyoll's Dragonbarrow" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241332" tabId="64000" sortId="30" pad="[0|0|0|0]" />
+<row id="64002" paramdexName="Swamp of Aeonia" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241336" tabId="64000" sortId="20" pad="[0|0|0|0]" />
+<row id="65000" paramdexName="Mountaintops of the Giants" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241333" tabId="65000" sortId="20" pad="[0|0|0|0]" />
+<row id="65001" paramdexName="Flame Peak" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241334" tabId="65000" sortId="30" pad="[0|0|0|0]" />
+<row id="65002" paramdexName="Concecrated Snowfield" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241335" tabId="65000" sortId="40" pad="[0|0|0|0]" />
+</rows>
+</param>

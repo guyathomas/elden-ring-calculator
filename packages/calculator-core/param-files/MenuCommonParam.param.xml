@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>MenuCommonParam.param</filename>
+<compression>None</compression>
+<type>MENU_COMMON_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>MENU_COMMON_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="soloPlayDeath_ToFadeOutTime" type="f32" arraylength="1" bitsize="-1" sortid="100" defaultValue="3.8" />
+<field name="partyGhostDeath_ToFadeOutTime" type="f32" arraylength="1" bitsize="-1" sortid="200" defaultValue="3.3" />
+<field name="playerMaxHpLimit" type="s32" arraylength="1" bitsize="-1" sortid="300" defaultValue="3565" />
+<field name="playerMaxMpLimit" type="s32" arraylength="1" bitsize="-1" sortid="400" defaultValue="825" />
+<field name="playerMaxSpLimit" type="s32" arraylength="1" bitsize="-1" sortid="500" defaultValue="480" />
+<field name="actionPanelChangeThreshold_Vel" type="f32" arraylength="1" bitsize="-1" sortid="600" defaultValue="0.5" />
+<field name="actionPanelChangeThreshold_PassTime" type="f32" arraylength="1" bitsize="-1" sortid="700" defaultValue="0" />
+<field name="kgIconVspace" type="s32" arraylength="1" bitsize="-1" sortid="110" defaultValue="-16" />
+<field name="worldMapCursorSelectRadius" type="f32" arraylength="1" bitsize="-1" sortid="1890" defaultValue="60" />
+<field name="reserved8" type="dummy8" arraylength="4" bitsize="-1" sortid="800" defaultValue="[0|0|0|0]" />
+<field name="decalPosOffsetX" type="s32" arraylength="1" bitsize="-1" sortid="8000" defaultValue="-8" />
+<field name="decalPosOffsetY" type="s32" arraylength="1" bitsize="-1" sortid="8010" defaultValue="40" />
+<field name="targetStateSearchDurationTime" type="f32" arraylength="1" bitsize="-1" sortid="1300" defaultValue="2" />
+<field name="targetStateBattleDurationTime" type="f32" arraylength="1" bitsize="-1" sortid="1400" defaultValue="2" />
+<field name="worldMapCursorSpeed" type="f32" arraylength="1" bitsize="-1" sortid="1500" defaultValue="420" />
+<field name="worldMapCursorFirstDistance" type="f32" arraylength="1" bitsize="-1" sortid="1600" defaultValue="35" />
+<field name="worldMapCursorFirstDelay" type="f32" arraylength="1" bitsize="-1" sortid="1700" defaultValue="0.09" />
+<field name="worldMapCursorWaitTime" type="f32" arraylength="1" bitsize="-1" sortid="1800" defaultValue="0.09" />
+<field name="worldMapCursorSnapRadius" type="f32" arraylength="1" bitsize="-1" sortid="1900" defaultValue="30" />
+<field name="worldMapCursorSnapTime" type="f32" arraylength="1" bitsize="-1" sortid="2000" defaultValue="0.09" />
+<field name="itemGetLogAliveTime" type="f32" arraylength="1" bitsize="-1" sortid="2100" defaultValue="6" />
+<field name="playerMaxSaLimit" type="s32" arraylength="1" bitsize="-1" sortid="2200" defaultValue="380" />
+<field name="worldMap_IsChangeableLayerEventFlagId" type="u32" arraylength="1" bitsize="-1" sortid="2300" defaultValue="82001" />
+<field name="worldMap_TravelMargin" type="f32" arraylength="1" bitsize="-1" sortid="2400" defaultValue="256" />
+<field name="systemAnnounceScrollBufferTime" type="f32" arraylength="1" bitsize="-1" sortid="4000" defaultValue="3" />
+<field name="systemAnnounceScrollSpeed" type="s32" arraylength="1" bitsize="-1" sortid="4100" defaultValue="150" />
+<field name="systemAnnounceNoScrollWaitTime" type="f32" arraylength="1" bitsize="-1" sortid="4300" defaultValue="15" />
+<field name="systemAnnounceScrollCount" type="u8" arraylength="1" bitsize="-1" sortid="4200" defaultValue="3" />
+<field name="reserved17" type="dummy8" arraylength="3" bitsize="-1" sortid="13001" defaultValue="[0|0|0]" />
+<field name="compassMemoDispDistance" type="f32" arraylength="1" bitsize="-1" sortid="6000" defaultValue="50" />
+<field name="compassBonfireDispDistance" type="f32" arraylength="1" bitsize="-1" sortid="6100" defaultValue="50" />
+<field name="markerGoalThreshold" type="f32" arraylength="1" bitsize="-1" sortid="2500" defaultValue="2" />
+<field name="svSliderStep" type="f32" arraylength="1" bitsize="-1" sortid="8100" defaultValue="100" />
+<field name="preOpeningMovie_WaitSec" type="f32" arraylength="1" bitsize="-1" sortid="3300" defaultValue="3.5" />
+<field name="kgIconScale" type="f32" arraylength="1" bitsize="-1" sortid="100" defaultValue="50" />
+<field name="kgIconScale_forTable" type="f32" arraylength="1" bitsize="-1" sortid="200" defaultValue="34" />
+<field name="kgIconVspace_forTable" type="s32" arraylength="1" bitsize="-1" sortid="210" defaultValue="-16" />
+<field name="kgIconScale_forConfig" type="f32" arraylength="1" bitsize="-1" sortid="300" defaultValue="47" />
+<field name="kgIconVspace_forConfig" type="s32" arraylength="1" bitsize="-1" sortid="310" defaultValue="-16" />
+<field name="worldMap_SearchRadius" type="f32" arraylength="1" bitsize="-1" sortid="2410" defaultValue="320" />
+<field name="tutorialDisplayTime" type="f32" arraylength="1" bitsize="-1" sortid="9000" defaultValue="3" />
+<field name="compassFriendHostInnerDistance" type="f32" arraylength="1" bitsize="-1" sortid="6200" defaultValue="0" />
+<field name="compassEnemyHostInnerDistance" type="f32" arraylength="1" bitsize="-1" sortid="6210" defaultValue="30" />
+<field name="compassFriendGuestInnerDistance" type="f32" arraylength="1" bitsize="-1" sortid="6220" defaultValue="0" />
+<field name="cutsceneKeyGuideAliveTime" type="f32" arraylength="1" bitsize="-1" sortid="10000" defaultValue="5" />
+<field name="autoHideHpThresholdRatio" type="f32" arraylength="1" bitsize="-1" sortid="11000" defaultValue="99" />
+<field name="autoHideHpThresholdValue" type="s32" arraylength="1" bitsize="-1" sortid="11001" defaultValue="-1" />
+<field name="autoHideMpThresholdRatio" type="f32" arraylength="1" bitsize="-1" sortid="11010" defaultValue="70" />
+<field name="autoHideMpThresholdValue" type="s32" arraylength="1" bitsize="-1" sortid="11011" defaultValue="-1" />
+<field name="autoHideSpThresholdRatio" type="f32" arraylength="1" bitsize="-1" sortid="11020" defaultValue="-1" />
+<field name="autoHideSpThresholdValue" type="s32" arraylength="1" bitsize="-1" sortid="11021" defaultValue="28" />
+<field name="worldMapZoomAnimationTime" type="f32" arraylength="1" bitsize="-1" sortid="2600" defaultValue="0.5" />
+<field name="worldMapIconScaleMin" type="f32" arraylength="1" bitsize="-1" sortid="2700" defaultValue="0.4" />
+<field name="worldMap_TravelMargin_Point" type="f32" arraylength="1" bitsize="-1" sortid="2405" defaultValue="64" />
+<field name="enemyTagSafeLeft" type="u16" arraylength="1" bitsize="-1" sortid="12000" defaultValue="130" />
+<field name="enemyTagSafeRight" type="u16" arraylength="1" bitsize="-1" sortid="12010" defaultValue="1790" />
+<field name="enemyTagSafeTop" type="u16" arraylength="1" bitsize="-1" sortid="12020" defaultValue="175" />
+<field name="enemyTagSafeBottom" type="u16" arraylength="1" bitsize="-1" sortid="12030" defaultValue="990" />
+<field name="pcHorseHpRecoverDispThreshold" type="u32" arraylength="1" bitsize="-1" sortid="13000" defaultValue="5" />
+<field name="unknown_0xe0" type="u8" arraylength="1" bitsize="-1" sortid="0" defaultValue="82" />
+<field name="unknown_0xe1" type="u8" arraylength="1" bitsize="-1" sortid="0" defaultValue="64" />
+<field name="unknown_0xe2" type="u8" arraylength="1" bitsize="-1" sortid="0" defaultValue="1" />
+<field name="unknown_0xe3" type="u8" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="unknown_0xe4" type="u8" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="unknown_0xe5" type="u8" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="unknown_0xe6" type="u8" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="unknown_0xe7" type="u8" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="unknown_0xe8" type="u8" arraylength="1" bitsize="-1" sortid="0" defaultValue="150" />
+<field name="unknown_0xe9" type="u8" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="unknown_0xea" type="u8" arraylength="1" bitsize="-1" sortid="0" defaultValue="150" />
+<field name="unknown_0xeb" type="u8" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="unknown_0xec" type="u8" arraylength="1" bitsize="-1" sortid="0" defaultValue="150" />
+<field name="unknown_0xed" type="u8" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="unknown_0xee" type="u8" arraylength="1" bitsize="-1" sortid="0" defaultValue="150" />
+<field name="reserved33" type="dummy8" arraylength="17" bitsize="-1" sortid="13002" defaultValue="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+</fields>
+<rows>
+<row id="0" paramdexName="Configuration" soloPlayDeath_ToFadeOutTime="3.8" partyGhostDeath_ToFadeOutTime="3.3" playerMaxHpLimit="3565" playerMaxMpLimit="825" playerMaxSpLimit="480" actionPanelChangeThreshold_Vel="0.5" actionPanelChangeThreshold_PassTime="0" kgIconVspace="-16" worldMapCursorSelectRadius="60" reserved8="[0|0|0|0]" decalPosOffsetX="-8" decalPosOffsetY="40" targetStateSearchDurationTime="2" targetStateBattleDurationTime="2" worldMapCursorSpeed="420" worldMapCursorFirstDistance="35" worldMapCursorFirstDelay="0.09" worldMapCursorWaitTime="0.09" worldMapCursorSnapRadius="30" worldMapCursorSnapTime="0.09" itemGetLogAliveTime="6" playerMaxSaLimit="380" worldMap_IsChangeableLayerEventFlagId="82001" worldMap_TravelMargin="256" systemAnnounceScrollBufferTime="3" systemAnnounceScrollSpeed="150" systemAnnounceNoScrollWaitTime="15" systemAnnounceScrollCount="3" reserved17="[0|0|0]" compassMemoDispDistance="50" compassBonfireDispDistance="50" markerGoalThreshold="2" svSliderStep="100" preOpeningMovie_WaitSec="3.5" kgIconScale="50" kgIconScale_forTable="34" kgIconVspace_forTable="-16" kgIconScale_forConfig="47" kgIconVspace_forConfig="-16" worldMap_SearchRadius="320" tutorialDisplayTime="3" compassFriendHostInnerDistance="0" compassEnemyHostInnerDistance="30" compassFriendGuestInnerDistance="0" cutsceneKeyGuideAliveTime="5" autoHideHpThresholdRatio="99" autoHideHpThresholdValue="-1" autoHideMpThresholdRatio="70" autoHideMpThresholdValue="-1" autoHideSpThresholdRatio="-1" autoHideSpThresholdValue="28" worldMapZoomAnimationTime="0.5" worldMapIconScaleMin="0.4" worldMap_TravelMargin_Point="64" enemyTagSafeLeft="130" enemyTagSafeRight="1790" enemyTagSafeTop="175" enemyTagSafeBottom="990" pcHorseHpRecoverDispThreshold="5" unknown_0xe0="82" unknown_0xe1="64" unknown_0xe2="1" unknown_0xe3="0" unknown_0xe4="0" unknown_0xe5="0" unknown_0xe6="0" unknown_0xe7="0" unknown_0xe8="150" unknown_0xe9="0" unknown_0xea="150" unknown_0xeb="0" unknown_0xec="150" unknown_0xed="0" unknown_0xee="150" reserved33="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+</rows>
+</param>

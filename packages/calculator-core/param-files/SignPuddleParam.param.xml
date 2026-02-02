@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>SignPuddleParam.param</filename>
+<compression>None</compression>
+<type>SIGN_PUDDLE_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>2</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>1</unk06>
+<paramdef>
+<type>SIGN_PUDDLE_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="disableParam_NT" type="u8" arraylength="1" bitsize="1" sortid="0" defaultValue="0" defaultThreshold="True" />
+<field name="disableParamReserve1" type="dummy8" arraylength="1" bitsize="7" sortid="1001" defaultValue="[0]" defaultThreshold="True" />
+<field name="disableParamReserve2" type="dummy8" arraylength="3" bitsize="-1" sortid="1002" defaultValue="[0|0|0]" defaultThreshold="True" />
+<field name="matchAreaId" type="s32" arraylength="1" bitsize="-1" sortid="1000" defaultValue="4000" />
+<field name="unknown_0x20" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="5898329" defaultThreshold="True" />
+<field name="unknown_0x24" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="1" />
+<field name="areaNo" type="u8" arraylength="1" bitsize="-1" sortid="0" defaultValue="60" />
+<field name="gridXNo" type="u8" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="gridZNo" type="u8" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="pad3" type="dummy8" arraylength="1" bitsize="-1" sortid="0" defaultValue="[0]" defaultThreshold="True" />
+<field name="posX" type="f32" arraylength="1" bitsize="-1" sortid="0" defaultValue="-88.48" />
+<field name="posY" type="f32" arraylength="1" bitsize="-1" sortid="0" defaultValue="164.867" />
+<field name="posZ" type="f32" arraylength="1" bitsize="-1" sortid="0" defaultValue="145.32" />
+<field name="signSubCategoryId" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="62000" />
+<field name="locationTextId" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="10670980" />
+<field name="sortId" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="20" />
+<field name="endPad" type="dummy8" arraylength="4" bitsize="-1" sortid="0" defaultValue="[0|0|0|0]" defaultThreshold="True" />
+</fields>
+<rows>
+<row id="0" matchAreaId="0" unknown_0x20="0" unknown_0x24="0" areaNo="0" gridXNo="0" gridZNo="0" posX="0" posY="0" posZ="0" signSubCategoryId="-1" locationTextId="-1" sortId="0" />
+<row id="670100" paramdexName="Weeping Penisula - Witchbane Ruins" matchAreaId="1200" unknown_0x24="1" areaNo="60" gridXNo="41" gridZNo="33" posX="102.023" posY="11.965" posZ="-47.724" signSubCategoryId="61002" locationTextId="10670100" sortId="60" />
+<row id="670101" paramdexName="Limgrave - The First Step" matchAreaId="1000" unknown_0x24="1" areaNo="60" gridXNo="42" gridZNo="36" posX="-0.962" posY="86.128" posZ="-53.669" signSubCategoryId="61000" locationTextId="10670101" sortId="90" />
+<row id="670102" paramdexName="Limgrave - Agheel Lake" matchAreaId="1000" unknown_0x24="1" areaNo="60" gridXNo="43" gridZNo="37" posX="-0.551" posY="65.601" posZ="-147.48" signSubCategoryId="61000" locationTextId="10670102" sortId="100" />
+<row id="670103" paramdexName="Limgrave - Dragon-Burnt Ruins" matchAreaId="1000" unknown_0x24="1" areaNo="60" gridXNo="43" gridZNo="36" posX="-37.44" posY="64.693" posZ="-26.427" signSubCategoryId="61000" locationTextId="10670103" sortId="110" />
+<row id="670104" paramdexName="Weeping Peninsula - Peninsula Minor Erdtree" matchAreaId="1200" unknown_0x24="1" areaNo="60" gridXNo="43" gridZNo="33" posX="-58.643" posY="83.343" posZ="65.292" signSubCategoryId="61002" locationTextId="10670104" sortId="70" />
+<row id="670105" paramdexName="Weeping Peninsula - Castle Morne" matchAreaId="1200" unknown_0x24="1" areaNo="60" gridXNo="43" gridZNo="31" posX="77.47" posY="95.521" posZ="-22.385" signSubCategoryId="61002" locationTextId="10670105" sortId="80" />
+<row id="670106" paramdexName="Limgrave - Waypoint Ruins" matchAreaId="1000" unknown_0x24="1" areaNo="60" gridXNo="44" gridZNo="36" posX="3.785" posY="92.094" posZ="77.736" signSubCategoryId="61000" locationTextId="10670106" sortId="130" />
+<row id="670130" paramdexName="Stormhill - Castleward Tunnel" matchAreaId="1000" unknown_0x24="1" areaNo="10" gridXNo="0" gridZNo="0" posX="23.005" posY="-7.369" posZ="-14.436" signSubCategoryId="61001" locationTextId="10670130" sortId="100" />
+<row id="670131" paramdexName="Stormveil Castle - Secluded Cell" matchAreaId="1400" unknown_0x24="1" areaNo="10" gridXNo="0" gridZNo="0" posX="-223.605" posY="82.985" posZ="289.646" signSubCategoryId="10000" locationTextId="10670131" sortId="10" />
+<row id="670132" paramdexName="Stormveil Castle - Liftside Chamber" matchAreaId="1400" unknown_0x24="1" areaNo="10" gridXNo="0" gridZNo="0" posX="-243.35" posY="71.548" posZ="236.705" signSubCategoryId="10000" locationTextId="10670132" sortId="20" />
+<row id="670133" paramdexName="Stormveil Castle - Rampart Tower" matchAreaId="1400" unknown_0x24="1" areaNo="10" gridXNo="0" gridZNo="0" posX="-257.847" posY="98.422" posZ="135.239" signSubCategoryId="10000" locationTextId="10670133" sortId="30" />
+<row id="670134" paramdexName="Stormveil Castle - Stormveil Cliffside" matchAreaId="1400" unknown_0x24="1" areaNo="10" gridXNo="0" gridZNo="0" posX="-200.349" posY="30.455" posZ="-22.306" signSubCategoryId="10000" locationTextId="10670134" sortId="40" />
+<row id="670135" paramdexName="Stormveil Castle - Stormveil Main Gate" matchAreaId="1400" unknown_0x24="1" areaNo="10" gridXNo="0" gridZNo="0" posX="-127.338" posY="22.173" posZ="-2.543" signSubCategoryId="10000" locationTextId="10670135" sortId="50" />
+<row id="670160" paramdexName="Weeping Peninsula - Tombsward Catacombs" matchAreaId="1200" unknown_0x24="1" areaNo="30" gridXNo="0" gridZNo="0" posX="-60.756" posY="51.215" posZ="64.305" signSubCategoryId="61002" locationTextId="10670160" sortId="10" />
+<row id="670161" paramdexName="Weeping Peninsula - Impaler's Catacombs" matchAreaId="1200" unknown_0x24="1" areaNo="30" gridXNo="1" gridZNo="0" posX="-59.576" posY="28.41" posZ="-104.684" signSubCategoryId="61002" locationTextId="10670161" sortId="20" />
+<row id="670162" paramdexName="Limgrave - Stormfoot Catacombs" matchAreaId="1000" unknown_0x24="1" areaNo="30" gridXNo="2" gridZNo="0" posX="49.773" posY="99.99" posZ="47.841" signSubCategoryId="61000" locationTextId="10670162" sortId="20" />
+<row id="670163" paramdexName="Stormhill - Deathtouched Catacombs" matchAreaId="1000" unknown_0x24="1" areaNo="30" gridXNo="11" gridZNo="0" posX="-143.24" posY="182.79" posZ="21.55" signSubCategoryId="61001" locationTextId="10670163" sortId="20" />
+<row id="670164" paramdexName="Limgrave - Murkwater Catacombs" matchAreaId="1000" unknown_0x24="1" areaNo="30" gridXNo="4" gridZNo="0" posX="62.018" posY="56.575" posZ="41.969" signSubCategoryId="61000" locationTextId="10670164" sortId="30" />
+<row id="670170" paramdexName="Weeping Peninsula - Tombsward Cave" matchAreaId="1200" unknown_0x24="1" areaNo="31" gridXNo="2" gridZNo="0" posX="-148.5" posY="-5.61" posZ="15.58" signSubCategoryId="61002" locationTextId="10670170" sortId="30" />
+<row id="670171" paramdexName="Weeping Peninsula - Earthbore Cave" matchAreaId="1200" unknown_0x24="1" areaNo="31" gridXNo="1" gridZNo="0" posX="-159.78" posY="-10.91" posZ="-53.38" signSubCategoryId="61002" locationTextId="10670171" sortId="40" />
+<row id="670172" paramdexName="Limgrave - Murkwater Cave" matchAreaId="1000" unknown_0x24="1" areaNo="31" gridXNo="0" gridZNo="0" posX="39.56" posY="50.5" posZ="42.87" signSubCategoryId="61000" locationTextId="10670172" sortId="40" />
+<row id="670173" matchAreaId="1000" unknown_0x24="1" areaNo="31" gridXNo="3" gridZNo="0" posX="-68.07" posY="110.1" posZ="-1.57" signSubCategoryId="61000" locationTextId="10670173" sortId="50" />
+<row id="670174" matchAreaId="1000" unknown_0x24="1" areaNo="31" gridXNo="15" gridZNo="0" posX="38.69" posY="-9.99" posZ="-14.04" signSubCategoryId="61000" locationTextId="10670174" sortId="60" />
+<row id="670175" matchAreaId="1000" unknown_0x24="1" areaNo="31" gridXNo="17" gridZNo="0" posX="38.4" posY="91.06" posZ="101.93" signSubCategoryId="61000" locationTextId="10670175" sortId="70" />
+<row id="670180" matchAreaId="1200" unknown_0x24="1" areaNo="32" gridXNo="0" gridZNo="0" posX="37.79" posY="-8.12" posZ="-90.89" signSubCategoryId="61002" locationTextId="10670180" sortId="50" />
+<row id="670181" matchAreaId="1000" unknown_0x24="1" areaNo="32" gridXNo="1" gridZNo="0" posX="103.95" posY="33.11" posZ="22.48" signSubCategoryId="61000" locationTextId="10670181" sortId="80" />
+<row id="670200" matchAreaId="2000" unknown_0x24="1" areaNo="60" gridXNo="33" gridZNo="43" posX="71.741" posY="280.665" posZ="-21.331" signSubCategoryId="62000" locationTextId="10670200" sortId="90" />
+<row id="670201" matchAreaId="2000" unknown_0x24="1" areaNo="60" gridXNo="34" gridZNo="45" posX="-63.591" posY="237.351" posZ="-57.127" signSubCategoryId="62000" locationTextId="10670201" sortId="100" />
+<row id="670202" matchAreaId="2000" unknown_0x24="1" areaNo="60" gridXNo="34" gridZNo="42" posX="75.27" posY="270.481" posZ="-101.474" signSubCategoryId="62000" locationTextId="10670202" sortId="110" />
+<row id="670203" matchAreaId="2000" unknown_0x24="1" areaNo="60" gridXNo="34" gridZNo="48" posX="3.285" posY="266.743" posZ="104.245" signSubCategoryId="62000" locationTextId="10670203" sortId="120" />
+<row id="670204" matchAreaId="2000" unknown_0x24="1" areaNo="60" gridXNo="35" gridZNo="50" posX="85.37" posY="401.978" posZ="-26.802" signSubCategoryId="62000" locationTextId="10670204" sortId="130" />
+<row id="670205" matchAreaId="2000" unknown_0x24="1" areaNo="60" gridXNo="38" gridZNo="48" posX="-64.155" posY="409.803" posZ="-65.041" signSubCategoryId="62000" locationTextId="10670205" sortId="140" />
+<row id="670230" matchAreaId="2400" unknown_0x24="1" areaNo="60" gridXNo="35" gridZNo="46" posX="-75.593" posY="321.304" posZ="7.028" signSubCategoryId="62000" locationTextId="10670230" sortId="10" />
+<row id="670231" matchAreaId="2400" unknown_0x24="1" areaNo="14" gridXNo="0" gridZNo="0" posX="137.939" posY="94.047" posZ="-191.675" signSubCategoryId="14000" locationTextId="10670231" sortId="10" />
+<row id="670232" matchAreaId="2400" unknown_0x24="1" areaNo="14" gridXNo="0" gridZNo="0" posX="-15.305" posY="62.015" posZ="-105.335" signSubCategoryId="14000" locationTextId="10670232" sortId="20" />
+<row id="670233" matchAreaId="2400" unknown_0x24="1" areaNo="14" gridXNo="0" gridZNo="0" posX="154.406" posY="110.561" posZ="-192.776" signSubCategoryId="14000" locationTextId="10670233" sortId="30" />
+<row id="670240" matchAreaId="2600" unknown_0x24="1" areaNo="39" gridXNo="20" gridZNo="0" posX="97.478" posY="238.615" posZ="-1310.53" signSubCategoryId="39200" locationTextId="10670240" sortId="10" />
+<row id="670241" matchAreaId="2600" unknown_0x24="1" areaNo="39" gridXNo="20" gridZNo="0" posX="-22.635" posY="350.532" posZ="-1349.03" signSubCategoryId="39200" locationTextId="10670241" sortId="20" />
+<row id="670260" matchAreaId="2000" unknown_0x24="1" areaNo="30" gridXNo="5" gridZNo="0" posX="-137.195" posY="411.492" posZ="116.538" signSubCategoryId="62000" locationTextId="10670260" sortId="20" />
+<row id="670261" matchAreaId="2000" unknown_0x24="1" areaNo="30" gridXNo="3" gridZNo="0" posX="35.1" posY="213.778" posZ="-42.38" signSubCategoryId="62000" locationTextId="10670261" sortId="30" />
+<row id="670262" matchAreaId="2000" unknown_0x24="1" areaNo="30" gridXNo="6" gridZNo="0" posX="12.344" posY="199.579" posZ="36.861" signSubCategoryId="62000" locationTextId="10670262" sortId="40" />
+<row id="670270" matchAreaId="2000" unknown_0x24="1" areaNo="31" gridXNo="4" gridZNo="0" posX="14.56" posY="224.64" posZ="-52.01" signSubCategoryId="62000" locationTextId="10670270" sortId="50" />
+<row id="670271" matchAreaId="2000" unknown_0x24="1" areaNo="31" gridXNo="5" gridZNo="0" posX="-119.48" posY="225.63" posZ="-6.1" signSubCategoryId="62000" locationTextId="10670271" sortId="60" />
+<row id="670272" matchAreaId="2000" unknown_0x24="1" areaNo="31" gridXNo="6" gridZNo="0" posX="100.22" posY="229.64" posZ="96.2" signSubCategoryId="62000" locationTextId="10670272" sortId="70" />
+<row id="670280" matchAreaId="2000" unknown_0x24="1" areaNo="32" gridXNo="2" gridZNo="0" posX="-48.98" posY="206.96" posZ="15.99" signSubCategoryId="62000" locationTextId="10670280" sortId="80" />
+<row id="670300" matchAreaId="3200" unknown_0x24="1" areaNo="60" gridXNo="35" gridZNo="53" posX="2.93" posY="826.662" posZ="-13.199" signSubCategoryId="63001" locationTextId="10670300" sortId="50" />
+<row id="670301" matchAreaId="3200" unknown_0x24="1" areaNo="60" gridXNo="35" gridZNo="52" posX="123.21" posY="836.546" posZ="11.575" signSubCategoryId="63001" locationTextId="10670301" sortId="60" />
+<row id="670303" matchAreaId="3200" unknown_0x24="1" areaNo="60" gridXNo="36" gridZNo="54" posX="-13.077" posY="931.225" posZ="-71.648" signSubCategoryId="63001" locationTextId="10670303" sortId="70" />
+<row id="670304" matchAreaId="3200" unknown_0x24="1" areaNo="60" gridXNo="36" gridZNo="52" posX="87.95" posY="879.64" posZ="-4.54" signSubCategoryId="63001" locationTextId="10670304" sortId="80" />
+<row id="670305" matchAreaId="3000" unknown_0x24="1" areaNo="60" gridXNo="38" gridZNo="52" posX="41.059" posY="789.921" posZ="-62.379" signSubCategoryId="63000" locationTextId="10670305" sortId="60" />
+<row id="670306" matchAreaId="3000" unknown_0x24="1" areaNo="60" gridXNo="39" gridZNo="54" posX="16.951" posY="724.994" posZ="-47.759" signSubCategoryId="63000" locationTextId="10670306" sortId="70" />
+<row id="670307" matchAreaId="3000" unknown_0x24="1" areaNo="60" gridXNo="40" gridZNo="53" posX="-57.237" posY="807.952" posZ="107.507" signSubCategoryId="63000" locationTextId="10670307" sortId="80" />
+<row id="670308" matchAreaId="3000" unknown_0x24="1" areaNo="60" gridXNo="42" gridZNo="55" posX="-43.818" posY="950.324" posZ="-101.746" signSubCategoryId="63000" locationTextId="10670308" sortId="90" />
+<row id="670309" matchAreaId="3300" unknown_0x24="1" areaNo="60" gridXNo="44" gridZNo="53" posX="22.539" posY="990.045" posZ="-2.394" signSubCategoryId="63002" locationTextId="10670309" sortId="40" />
+<row id="670310" matchAreaId="3300" unknown_0x24="1" areaNo="60" gridXNo="45" gridZNo="52" posX="24.299" posY="1014.375" posZ="84.943" signSubCategoryId="63002" locationTextId="10670310" sortId="50" />
+<row id="670330" matchAreaId="3400" unknown_0x24="1" areaNo="11" gridXNo="0" gridZNo="0" posX="-36.41" posY="7.987" posZ="-75.076" signSubCategoryId="11000" locationTextId="10670330" sortId="10" />
+<row id="670331" matchAreaId="3400" unknown_0x24="1" areaNo="11" gridXNo="0" gridZNo="0" posX="-187.109" posY="-50.006" posZ="-184.522" signSubCategoryId="11000" locationTextId="10670331" sortId="20" />
+<row id="670332" matchAreaId="3400" unknown_0x24="1" areaNo="11" gridXNo="0" gridZNo="0" posX="-214.094" posY="-64.809" posZ="-223.593" signSubCategoryId="11000" locationTextId="10670332" sortId="30" />
+<row id="670333" matchAreaId="3400" unknown_0x24="1" areaNo="11" gridXNo="0" gridZNo="0" posX="-208.687" posY="-14.927" posZ="-271.763" signSubCategoryId="11000" locationTextId="10670333" sortId="40" />
+<row id="670334" matchAreaId="3400" unknown_0x24="1" areaNo="11" gridXNo="0" gridZNo="0" posX="-10.431" posY="56.216" posZ="-357.757" signSubCategoryId="11000" locationTextId="10670334" sortId="50" />
+<row id="670340" matchAreaId="3500" unknown_0x24="1" areaNo="35" gridXNo="0" gridZNo="0" posX="-131.82" posY="-98.55" posZ="-184.62" signSubCategoryId="35000" locationTextId="10670340" sortId="10" />
+<row id="670341" matchAreaId="3500" unknown_0x24="1" areaNo="35" gridXNo="0" gridZNo="0" posX="-31.09" posY="-278.54" posZ="-137.31" signSubCategoryId="35000" locationTextId="10670341" sortId="20" />
+<row id="670342" matchAreaId="3500" unknown_0x24="1" areaNo="35" gridXNo="0" gridZNo="0" posX="-160.288" posY="-148.554" posZ="-270.329" signSubCategoryId="35000" locationTextId="10670342" sortId="30" />
+<row id="670351" matchAreaId="3600" unknown_0x24="1" areaNo="16" gridXNo="0" gridZNo="0" posX="-59.624" posY="-9.307" posZ="-125.176" signSubCategoryId="16000" locationTextId="10670351" sortId="10" />
+<row id="670352" matchAreaId="3600" unknown_0x24="1" areaNo="16" gridXNo="0" gridZNo="0" posX="-140.582" posY="-43.67" posZ="-215.369" signSubCategoryId="16000" locationTextId="10670352" sortId="20" />
+<row id="670353" matchAreaId="3600" unknown_0x24="1" areaNo="16" gridXNo="0" gridZNo="0" posX="96.373" posY="14.206" posZ="-211.089" signSubCategoryId="16000" locationTextId="10670353" sortId="30" />
+<row id="670354" matchAreaId="3600" unknown_0x24="1" areaNo="16" gridXNo="0" gridZNo="0" posX="95.358" posY="-432.872" posZ="-14.787" signSubCategoryId="16000" locationTextId="10670354" sortId="40" />
+<row id="670360" matchAreaId="3000" unknown_0x24="1" areaNo="30" gridXNo="8" gridZNo="0" posX="28.355" posY="802.192" posZ="-29.458" signSubCategoryId="63000" locationTextId="10670360" sortId="10" />
+<row id="670361" matchAreaId="3200" unknown_0x24="1" areaNo="30" gridXNo="9" gridZNo="0" posX="83" posY="769.91" posZ="7.69" signSubCategoryId="63001" locationTextId="10670361" sortId="10" />
+<row id="670362" matchAreaId="3300" unknown_0x24="1" areaNo="30" gridXNo="10" gridZNo="0" posX="59.32" posY="835.74" posZ="88.03" signSubCategoryId="63002" locationTextId="10670362" sortId="20" />
+<row id="670363" matchAreaId="3200" unknown_0x24="1" areaNo="30" gridXNo="12" gridZNo="0" posX="-28.91" posY="643.59" posZ="167.93" signSubCategoryId="63000" locationTextId="10670363" sortId="20" />
+<row id="670364" matchAreaId="3200" unknown_0x24="1" areaNo="30" gridXNo="7" gridZNo="0" posX="-123.192" posY="825.793" posZ="174.498" signSubCategoryId="63001" locationTextId="10670364" sortId="20" />
+<row id="670370" matchAreaId="3200" unknown_0x24="1" areaNo="31" gridXNo="7" gridZNo="0" posX="-28.21" posY="787.21" posZ="181.16" signSubCategoryId="63001" locationTextId="10670370" sortId="30" />
+<row id="670371" matchAreaId="3200" unknown_0x24="1" areaNo="31" gridXNo="9" gridZNo="0" posX="-78.71" posY="1027.52" posZ="-81.05" signSubCategoryId="63001" locationTextId="10670371" sortId="40" />
+<row id="670372" matchAreaId="3000" unknown_0x24="1" areaNo="31" gridXNo="18" gridZNo="0" posX="17.22" posY="817.82" posZ="85.37" signSubCategoryId="63000" locationTextId="10670372" sortId="30" />
+<row id="670373" matchAreaId="3200" unknown_0x24="1" areaNo="31" gridXNo="19" gridZNo="0" posX="122.93" posY="652.66" posZ="-48.53" signSubCategoryId="63000" locationTextId="10670373" sortId="40" />
+<row id="670380" matchAreaId="3200" unknown_0x24="1" areaNo="32" gridXNo="4" gridZNo="0" posX="-241.69" posY="690.36" posZ="-104.75" signSubCategoryId="63000" locationTextId="10670380" sortId="50" />
+<row id="670381" matchAreaId="3000" unknown_0x24="1" areaNo="32" gridXNo="5" gridZNo="0" posX="-50.59" posY="777.87" posZ="-0.41" signSubCategoryId="63000" locationTextId="10670381" sortId="60" />
+<row id="670390" matchAreaId="3300" unknown_0x24="1" areaNo="34" gridXNo="12" gridZNo="0" posX="-91.69" posY="808.95" posZ="5.15" signSubCategoryId="63002" locationTextId="10670390" sortId="30" />
+<row id="670400" matchAreaId="4000" unknown_0x24="1" areaNo="60" gridXNo="46" gridZNo="40" posX="18.744" posY="157.591" posZ="22" signSubCategoryId="64000" locationTextId="10670400" sortId="80" />
+<row id="670401" matchAreaId="4000" unknown_0x24="1" areaNo="60" gridXNo="47" gridZNo="40" posX="110.756" posY="160.615" posZ="-41.585" signSubCategoryId="64000" locationTextId="10670401" sortId="90" />
+<row id="670402" matchAreaId="4000" unknown_0x24="1" areaNo="60" gridXNo="48" gridZNo="37" posX="-90.11" posY="114.517" posZ="14.093" signSubCategoryId="64000" locationTextId="10670402" sortId="100" />
+<row id="670403" matchAreaId="4000" unknown_0x24="1" areaNo="60" gridXNo="49" gridZNo="38" posX="-67.546" posY="64.281" posZ="11.462" signSubCategoryId="64002" locationTextId="10670403" sortId="10" />
+<row id="670404" matchAreaId="4000" unknown_0x24="1" areaNo="60" gridXNo="49" gridZNo="38" posX="115.915" posY="80.29" posZ="93.49" signSubCategoryId="64000" locationTextId="10670404" sortId="110" />
+<row id="670405" matchAreaId="4200" unknown_0x24="1" areaNo="60" gridXNo="50" gridZNo="40" posX="-104.76" posY="191.199" posZ="-18.92" signSubCategoryId="64001" locationTextId="10670405" sortId="30" />
+<row id="670406" matchAreaId="4000" unknown_0x24="1" areaNo="60" gridXNo="51" gridZNo="36" posX="25.9" posY="89.243" posZ="-111.561" signSubCategoryId="64000" locationTextId="10670406" sortId="120" />
+<row id="670407" matchAreaId="4000" unknown_0x24="1" areaNo="60" gridXNo="51" gridZNo="37" posX="60.607" posY="0.578" posZ="-74.703" signSubCategoryId="64000" locationTextId="10670407" sortId="130" />
+<row id="670408" matchAreaId="4200" unknown_0x24="1" areaNo="60" gridXNo="51" gridZNo="40" posX="68.574" posY="216.492" posZ="96.573" signSubCategoryId="64001" locationTextId="10670408" sortId="40" />
+<row id="670409" matchAreaId="4200" unknown_0x24="1" areaNo="60" gridXNo="52" gridZNo="41" posX="-134.826" posY="247.99" posZ="262.743" signSubCategoryId="64001" locationTextId="10670409" sortId="50" />
+<row id="670460" matchAreaId="4000" unknown_0x24="1" areaNo="30" gridXNo="14" gridZNo="0" posX="-67.09" posY="118.4" posZ="40.93" signSubCategoryId="64000" locationTextId="10670460" sortId="10" />
+<row id="670461" matchAreaId="4000" unknown_0x24="1" areaNo="30" gridXNo="15" gridZNo="0" posX="57.07" posY="44.52" posZ="96.68" signSubCategoryId="64000" locationTextId="10670461" sortId="20" />
+<row id="670462" matchAreaId="4200" unknown_0x24="1" areaNo="30" gridXNo="16" gridZNo="0" posX="38.08" posY="-9.93" posZ="-89.32" signSubCategoryId="64000" locationTextId="10670462" sortId="30" />
+<row id="670470" matchAreaId="4000" unknown_0x24="1" areaNo="31" gridXNo="21" gridZNo="0" posX="-71.33" posY="79.8" posZ="65.29" signSubCategoryId="64000" locationTextId="10670470" sortId="40" />
+<row id="670471" matchAreaId="4200" unknown_0x24="1" areaNo="31" gridXNo="10" gridZNo="0" posX="31.39" posY="153.27" posZ="63.28" signSubCategoryId="64001" locationTextId="10670471" sortId="10" />
+<row id="670472" matchAreaId="4000" unknown_0x24="1" areaNo="31" gridXNo="20" gridZNo="0" posX="169.45" posY="103.99" posZ="81.91" signSubCategoryId="64000" locationTextId="10670472" sortId="50" />
+<row id="670473" matchAreaId="4000" unknown_0x24="1" areaNo="31" gridXNo="11" gridZNo="0" posX="111.58" posY="187.8" posZ="74.15" signSubCategoryId="64001" locationTextId="10670473" sortId="20" />
+<row id="670480" matchAreaId="4000" unknown_0x24="1" areaNo="32" gridXNo="7" gridZNo="0" posX="64.49" posY="106.67" posZ="97.76" signSubCategoryId="64000" locationTextId="10670480" sortId="60" />
+<row id="670481" matchAreaId="4000" unknown_0x24="1" areaNo="32" gridXNo="8" gridZNo="0" posX="30.54" posY="94.47" posZ="165.16" signSubCategoryId="64000" locationTextId="10670481" sortId="70" />
+<row id="670490" matchAreaId="4200" unknown_0x24="1" areaNo="34" gridXNo="13" gridZNo="0" posX="96.311" posY="242.299" posZ="-62.532" signSubCategoryId="64001" locationTextId="10670490" sortId="60" />
+<row id="670500" matchAreaId="5000" unknown_0x24="1" areaNo="60" gridXNo="47" gridZNo="51" posX="22.502" posY="995.671" posZ="-30.465" signSubCategoryId="63003" locationTextId="10670500" sortId="20" />
+<row id="670501" matchAreaId="5000" unknown_0x24="1" areaNo="60" gridXNo="53" gridZNo="57" posX="-126.307" posY="1622.264" posZ="55.838" signSubCategoryId="65000" locationTextId="10670501" sortId="20" />
+<row id="670502" matchAreaId="5000" unknown_0x24="1" areaNo="60" gridXNo="52" gridZNo="53" posX="-65.611" posY="1804.388" posZ="-52.485" signSubCategoryId="65002" locationTextId="10670502" sortId="40" />
+<row id="670503" matchAreaId="5000" unknown_0x24="1" areaNo="60" gridXNo="52" gridZNo="57" posX="-61.881" posY="1679.065" posZ="-116.127" signSubCategoryId="65000" locationTextId="10670503" sortId="40" />
+<row id="670504" matchAreaId="5000" unknown_0x24="1" areaNo="60" gridXNo="51" gridZNo="57" posX="-127.252" posY="1637.637" posZ="-13.817" signSubCategoryId="65000" locationTextId="10670504" sortId="50" />
+<row id="670505" matchAreaId="5000" unknown_0x24="1" areaNo="60" gridXNo="51" gridZNo="57" posX="-10.021" posY="1596.279" posZ="64.588" signSubCategoryId="65000" locationTextId="10670505" sortId="60" />
+<row id="670506" matchAreaId="5200" unknown_0x24="1" areaNo="60" gridXNo="49" gridZNo="56" posX="17.782" posY="1260.692" posZ="-78.594" signSubCategoryId="65002" locationTextId="10670506" sortId="50" />
+<row id="670507" matchAreaId="5200" unknown_0x24="1" areaNo="60" gridXNo="49" gridZNo="57" posX="34.742" posY="1343.225" posZ="-42.512" signSubCategoryId="65002" locationTextId="10670507" sortId="60" />
+<row id="670530" matchAreaId="5400" unknown_0x24="1" areaNo="15" gridXNo="0" gridZNo="0" posX="7.959" posY="618.772" posZ="42.054" signSubCategoryId="15001" locationTextId="10670530" sortId="10" />
+<row id="670531" matchAreaId="5400" unknown_0x24="1" areaNo="15" gridXNo="0" gridZNo="0" posX="55.553" posY="501.634" posZ="233.992" signSubCategoryId="15001" locationTextId="10670531" sortId="20" />
+<row id="670532" matchAreaId="5400" unknown_0x24="1" areaNo="15" gridXNo="0" gridZNo="0" posX="-0.267" posY="476.012" posZ="286.653" signSubCategoryId="15001" locationTextId="10670532" sortId="30" />
+<row id="670534" matchAreaId="5400" unknown_0x24="1" areaNo="15" gridXNo="0" gridZNo="0" posX="140.932" posY="431.778" posZ="208.047" signSubCategoryId="15001" locationTextId="10670534" sortId="40" />
+<row id="670535" matchAreaId="5600" unknown_0x24="1" areaNo="15" gridXNo="0" gridZNo="0" posX="83.725" posY="247.066" posZ="437.233" signSubCategoryId="15000" locationTextId="10670535" sortId="10" />
+<row id="670536" matchAreaId="5600" unknown_0x24="1" areaNo="15" gridXNo="0" gridZNo="0" posX="-22.457" posY="211.421" posZ="591.873" signSubCategoryId="15000" locationTextId="10670536" sortId="20" />
+<row id="670537" matchAreaId="5600" unknown_0x24="1" areaNo="15" gridXNo="0" gridZNo="0" posX="130.049" posY="170.282" posZ="487.792" signSubCategoryId="15000" locationTextId="10670537" sortId="30" />
+<row id="670539" matchAreaId="5600" unknown_0x24="1" areaNo="15" gridXNo="0" gridZNo="0" posX="51.438" posY="54.636" posZ="527.254" signSubCategoryId="15000" locationTextId="10670539" sortId="40" />
+<row id="670560" matchAreaId="5000" unknown_0x24="1" areaNo="30" gridXNo="17" gridZNo="0" posX="-129.74" posY="1512.01" posZ="115.04" signSubCategoryId="65001" locationTextId="10670560" sortId="10" />
+<row id="670561" matchAreaId="5000" unknown_0x24="1" areaNo="30" gridXNo="18" gridZNo="0" posX="-27.28" posY="1567.68" posZ="100.75" signSubCategoryId="65001" locationTextId="10670561" sortId="20" />
+<row id="670562" matchAreaId="5200" unknown_0x24="1" areaNo="30" gridXNo="19" gridZNo="0" posX="15.95" posY="1379.97" posZ="-150.39" signSubCategoryId="65002" locationTextId="10670562" sortId="10" />
+<row id="670563" matchAreaId="5200" unknown_0x24="1" areaNo="30" gridXNo="20" gridZNo="0" posX="-24.57" posY="1313.6" posZ="-193.02" signSubCategoryId="63003" locationTextId="10670563" sortId="10" />
+<row id="670570" matchAreaId="5200" unknown_0x24="1" areaNo="31" gridXNo="12" gridZNo="0" posX="-17.8" posY="1245.81" posZ="82.26" signSubCategoryId="65002" locationTextId="10670570" sortId="20" />
+<row id="670571" matchAreaId="5000" unknown_0x24="1" areaNo="31" gridXNo="22" gridZNo="0" posX="-27.78" posY="1614.92" posZ="69.6" signSubCategoryId="65000" locationTextId="10670571" sortId="30" />
+<row id="670580" matchAreaId="5200" unknown_0x24="1" areaNo="32" gridXNo="11" gridZNo="0" posX="44.58" posY="1222.89" posZ="-10.34" signSubCategoryId="65002" locationTextId="10670580" sortId="30" />
+<row id="670610" matchAreaId="6000" unknown_0x24="2" areaNo="12" gridXNo="1" gridZNo="0" posX="397.092" posY="-145.109" posZ="-100.391" signSubCategoryId="12012" locationTextId="10670610" sortId="10" />
+<row id="670611" matchAreaId="6000" unknown_0x24="2" areaNo="12" gridXNo="1" gridZNo="0" posX="201.365" posY="-170.724" posZ="-199.554" signSubCategoryId="12012" locationTextId="10670611" sortId="20" />
+<row id="670612" matchAreaId="6000" unknown_0x24="2" areaNo="12" gridXNo="1" gridZNo="0" posX="-23.152" posY="-210.236" posZ="-112.744" signSubCategoryId="12012" locationTextId="10670612" sortId="30" />
+<row id="670613" matchAreaId="6200" unknown_0x24="2" areaNo="12" gridXNo="1" gridZNo="0" posX="314.004" posY="-79.619" posZ="246.986" signSubCategoryId="12010" locationTextId="10670613" sortId="10" />
+<row id="670614" matchAreaId="6200" unknown_0x24="2" areaNo="12" gridXNo="1" gridZNo="0" posX="26.166" posY="-161.932" posZ="80.579" signSubCategoryId="12010" locationTextId="10670614" sortId="20" />
+<row id="670615" matchAreaId="6200" unknown_0x24="2" areaNo="12" gridXNo="1" gridZNo="0" posX="-307.733" posY="-308.074" posZ="-70.789" signSubCategoryId="12011" locationTextId="10670615" sortId="10" />
+<row id="670616" matchAreaId="6200" unknown_0x24="2" areaNo="12" gridXNo="1" gridZNo="0" posX="-444.603" posY="-340.816" posZ="-514.991" signSubCategoryId="12011" locationTextId="10670616" sortId="20" />
+<row id="670620" matchAreaId="6400" unknown_0x24="2" areaNo="12" gridXNo="2" gridZNo="0" posX="1111.775" posY="-823.523" posZ="1267.358" signSubCategoryId="12070" locationTextId="10670620" sortId="20" />
+<row id="670621" matchAreaId="6400" unknown_0x24="2" areaNo="12" gridXNo="2" gridZNo="0" posX="1435.615" posY="-816.396" posZ="1524.266" signSubCategoryId="12070" locationTextId="10670621" sortId="30" />
+<row id="670622" matchAreaId="6500" unknown_0x24="2" areaNo="12" gridXNo="2" gridZNo="0" posX="1041.386" posY="-611.585" posZ="1185.444" signSubCategoryId="12020" locationTextId="10670622" sortId="20" />
+<row id="670623" matchAreaId="6500" unknown_0x24="2" areaNo="12" gridXNo="2" gridZNo="0" posX="1019.792" posY="-605.59" posZ="1467.184" signSubCategoryId="12020" locationTextId="10670623" sortId="30" />
+<row id="670624" matchAreaId="6500" unknown_0x24="2" areaNo="12" gridXNo="2" gridZNo="0" posX="1216.653" posY="-616.314" posZ="1775.365" signSubCategoryId="12020" locationTextId="10670624" sortId="40" />
+<row id="670625" matchAreaId="6500" unknown_0x24="2" areaNo="12" gridXNo="2" gridZNo="0" posX="944.884" posY="-670.941" posZ="1305.297" signSubCategoryId="12020" locationTextId="10670625" sortId="50" />
+<row id="670626" matchAreaId="6400" unknown_0x24="2" areaNo="12" gridXNo="2" gridZNo="0" posX="1524.869" posY="-770.7" posZ="1870.777" signSubCategoryId="12070" locationTextId="10670626" sortId="40" />
+<row id="670630" matchAreaId="6600" unknown_0x24="2" areaNo="12" gridXNo="3" gridZNo="0" posX="-195.439" posY="271.193" posZ="-520.945" signSubCategoryId="12030" locationTextId="10670630" sortId="10" />
+<row id="670631" matchAreaId="6600" unknown_0x24="2" areaNo="12" gridXNo="3" gridZNo="0" posX="-175.885" posY="92.204" posZ="-629.532" signSubCategoryId="12030" locationTextId="10670631" sortId="20" />
+<row id="670632" matchAreaId="6600" unknown_0x24="2" areaNo="12" gridXNo="3" gridZNo="0" posX="-591.311" posY="97.92245" posZ="-605.126" signSubCategoryId="12030" locationTextId="10670632" sortId="30" />
+<row id="670633" matchAreaId="6600" unknown_0x24="2" areaNo="12" gridXNo="3" gridZNo="0" posX="-468.192" posY="149.678" posZ="-344.332" signSubCategoryId="12030" locationTextId="10670633" sortId="40" />
+<row id="670634" matchAreaId="6600" unknown_0x24="2" areaNo="12" gridXNo="3" gridZNo="0" posX="-693.08" posY="91.598" posZ="-419.62" signSubCategoryId="12030" locationTextId="10670634" sortId="50" />
+<row id="670650" matchAreaId="6800" unknown_0x24="2" areaNo="12" gridXNo="5" gridZNo="0" posX="1907.931" posY="-599.958" posZ="1113.571" signSubCategoryId="12050" locationTextId="10670650" sortId="10" />
+<row id="670651" matchAreaId="6800" unknown_0x24="2" areaNo="12" gridXNo="5" gridZNo="0" posX="1704.087" posY="-611.838" posZ="1280.523" signSubCategoryId="12050" locationTextId="10670651" sortId="20" />
+<row id="670652" matchAreaId="6800" unknown_0x24="2" areaNo="12" gridXNo="5" gridZNo="0" posX="1636.182" posY="-562.425" posZ="1236.96" signSubCategoryId="12050" locationTextId="10670652" sortId="30" />
+<row id="670670" matchAreaId="6400" unknown_0x24="2" areaNo="12" gridXNo="7" gridZNo="0" posX="751.598" posY="-913.088" posZ="1176.296" signSubCategoryId="12070" locationTextId="10670670" sortId="10" />
+<row id="670671" matchAreaId="6500" unknown_0x24="2" areaNo="12" gridXNo="7" gridZNo="0" posX="717.315" posY="-579.52" posZ="1230.649" signSubCategoryId="12020" locationTextId="10670671" sortId="10" />
+<row id="670730" matchAreaId="7000" unknown_0x24="1" areaNo="11" gridXNo="5" gridZNo="0" posX="-10.489" posY="56.242" posZ="-357.9" signSubCategoryId="11050" locationTextId="10670730" sortId="10" />
+<row id="670731" matchAreaId="7000" unknown_0x24="1" areaNo="11" gridXNo="5" gridZNo="0" posX="-195.586" posY="25.709" posZ="-393.112" signSubCategoryId="11050" locationTextId="10670731" sortId="20" />
+<row id="670740" matchAreaId="7200" unknown_0x24="1" areaNo="13" gridXNo="0" gridZNo="0" posX="113.006" posY="53.986" posZ="174.642" signSubCategoryId="13000" locationTextId="10670740" sortId="10" />
+<row id="670741" matchAreaId="7200" unknown_0x24="1" areaNo="13" gridXNo="0" gridZNo="0" posX="-117.834" posY="47.471" posZ="220.565" signSubCategoryId="13000" locationTextId="10670741" sortId="20" />
+<row id="670742" matchAreaId="7200" unknown_0x24="1" areaNo="13" gridXNo="0" gridZNo="0" posX="-101.951" posY="31.527" posZ="297.854" signSubCategoryId="13000" locationTextId="10670742" sortId="30" />
+<row id="670743" matchAreaId="7200" unknown_0x24="1" areaNo="13" gridXNo="0" gridZNo="0" posX="-74.714" posY="-20.012" posZ="412.025" signSubCategoryId="13000" locationTextId="10670743" sortId="40" />
+<row id="670744" matchAreaId="7200" unknown_0x24="1" areaNo="13" gridXNo="0" gridZNo="0" posX="9.131" posY="-39.014" posZ="432.212" signSubCategoryId="13000" locationTextId="10670744" sortId="50" />
+<row id="670745" matchAreaId="7200" unknown_0x24="1" areaNo="13" gridXNo="0" gridZNo="0" posX="-74.19" posY="0.776" posZ="487.04" signSubCategoryId="13000" locationTextId="10670745" sortId="60" />
+<row id="670746" matchAreaId="7200" unknown_0x24="1" areaNo="13" gridXNo="0" gridZNo="0" posX="43.912" posY="-68.804" posZ="498.606" signSubCategoryId="13000" locationTextId="10670746" sortId="70" />
+<row id="670747" matchAreaId="7200" unknown_0x24="1" areaNo="13" gridXNo="0" gridZNo="0" posX="107.647" posY="-98.005" posZ="602.601" signSubCategoryId="13000" locationTextId="10670747" sortId="80" />
+<row id="670750" matchAreaId="7800" unknown_0x24="1" areaNo="19" gridXNo="0" gridZNo="0" posX="79.871" posY="79.05" posZ="-467.766" signSubCategoryId="19000" locationTextId="10670750" sortId="10" />
+<row id="670800" matchAreaId="8000" unknown_0x24="4" areaNo="61" gridXNo="46" gridZNo="41" posX="-122.483" posY="329.7" posZ="51.439" signSubCategoryId="6800" locationTextId="10670800" sortId="200" />
+<row id="670801" matchAreaId="8000" unknown_0x24="4" areaNo="61" gridXNo="46" gridZNo="44" posX="-111.24" posY="263.925" posZ="-117.078" signSubCategoryId="6800" locationTextId="10670801" sortId="210" />
+<row id="670802" matchAreaId="8100" unknown_0x24="4" areaNo="61" gridXNo="47" gridZNo="44" posX="-32.43" posY="304.58" posZ="-56.58" signSubCategoryId="6800" locationTextId="10670802" sortId="220" />
+<row id="670804" matchAreaId="8300" unknown_0x24="4" areaNo="61" gridXNo="48" gridZNo="39" posX="-100.81" posY="49.82" posZ="-41.9" signSubCategoryId="6830" locationTextId="10670804" sortId="10" />
+<row id="670805" matchAreaId="8300" unknown_0x24="4" areaNo="61" gridXNo="46" gridZNo="40" posX="28.76" posY="15.96" posZ="-50.59" signSubCategoryId="6830" locationTextId="10670805" sortId="20" />
+<row id="670806" matchAreaId="8300" unknown_0x24="4" areaNo="61" gridXNo="46" gridZNo="38" posX="-0.03" posY="20.69" posZ="-59.83" signSubCategoryId="6830" locationTextId="10670806" sortId="30" />
+<row id="670807" matchAreaId="8410" unknown_0x24="4" areaNo="61" gridXNo="49" gridZNo="41" posX="11.12" posY="68.97" posZ="-93.38" signSubCategoryId="6851" locationTextId="10670807" sortId="20" />
+<row id="670808" matchAreaId="8400" unknown_0x24="4" areaNo="61" gridXNo="48" gridZNo="38" posX="61.21" posY="80.09" posZ="34.26" signSubCategoryId="6840" locationTextId="10670808" sortId="10" />
+<row id="670809" matchAreaId="8400" unknown_0x24="4" areaNo="61" gridXNo="48" gridZNo="39" posX="-93.04" posY="95.28" posZ="-36.04" signSubCategoryId="6840" locationTextId="10670809" sortId="20" />
+<row id="670812" matchAreaId="8500" unknown_0x24="4" areaNo="61" gridXNo="54" gridZNo="39" posX="42.95" posY="955.71" posZ="96.23" signSubCategoryId="6850" locationTextId="10670812" sortId="120" />
+<row id="670813" matchAreaId="9030" unknown_0x24="4" areaNo="40" gridXNo="2" gridZNo="0" posX="196.282" posY="-503.045" posZ="132.771" signSubCategoryId="6900" locationTextId="10670813" sortId="120" />
+<row id="670814" matchAreaId="8600" unknown_0x24="4" areaNo="28" gridXNo="0" gridZNo="0" posX="2.59" posY="2.96" posZ="-32.34" signSubCategoryId="28000" locationTextId="10670814" sortId="10" />
+<row id="670815" matchAreaId="8600" unknown_0x24="4" areaNo="28" gridXNo="0" gridZNo="0" posX="-4.26" posY="15.97" posZ="-56.27" signSubCategoryId="28000" locationTextId="10670815" sortId="20" />
+<row id="670830" matchAreaId="8700" unknown_0x24="4" areaNo="22" gridXNo="0" gridZNo="0" posX="-399.33" posY="302.88" posZ="1.4" signSubCategoryId="22000" locationTextId="10670830" sortId="10" />
+<row id="670831" matchAreaId="8700" unknown_0x24="4" areaNo="22" gridXNo="0" gridZNo="0" posX="-14.96" posY="215.73" posZ="217" signSubCategoryId="22000" locationTextId="10670831" sortId="20" />
+<row id="670841" matchAreaId="8800" unknown_0x24="4" areaNo="20" gridXNo="0" gridZNo="0" posX="-104.62" posY="44.4" posZ="195.4" signSubCategoryId="20000" locationTextId="10670841" sortId="10" />
+<row id="670842" matchAreaId="8800" unknown_0x24="4" areaNo="20" gridXNo="0" gridZNo="0" posX="-10.58" posY="60.27" posZ="153.86" signSubCategoryId="20000" locationTextId="10670842" sortId="20" />
+<row id="670843" matchAreaId="8800" unknown_0x24="4" areaNo="20" gridXNo="0" gridZNo="0" posX="-54.43" posY="118.08" posZ="284.25" signSubCategoryId="20000" locationTextId="10670843" sortId="30" />
+<row id="670850" matchAreaId="8900" unknown_0x24="4" areaNo="20" gridXNo="1" gridZNo="0" posX="-167.83" posY="-15.09" posZ="16.3" signSubCategoryId="20010" locationTextId="10670850" sortId="10" />
+<row id="670851" matchAreaId="8900" unknown_0x24="4" areaNo="20" gridXNo="1" gridZNo="0" posX="-146.33" posY="21.57" posZ="-96.83" signSubCategoryId="20010" locationTextId="10670851" sortId="20" />
+<row id="670852" matchAreaId="8900" unknown_0x24="4" areaNo="20" gridXNo="1" gridZNo="0" posX="-303.44" posY="66.04" posZ="-92.18" signSubCategoryId="20010" locationTextId="10670852" sortId="30" />
+<row id="670853" matchAreaId="8900" unknown_0x24="4" areaNo="20" gridXNo="1" gridZNo="0" posX="-309.79" posY="169.73" posZ="-310.19" signSubCategoryId="20010" locationTextId="10670853" sortId="40" />
+<row id="670854" matchAreaId="8900" unknown_0x24="4" areaNo="20" gridXNo="1" gridZNo="0" posX="-177.35" posY="287.46" posZ="-193.65" signSubCategoryId="20010" locationTextId="10670854" sortId="50" />
+<row id="670860" matchAreaId="8100" unknown_0x24="4" areaNo="40" gridXNo="0" gridZNo="0" posX="-88.65" posY="218.99" posZ="-26.8" signSubCategoryId="6800" locationTextId="10670860" sortId="100" />
+<row id="670870" matchAreaId="8000" unknown_0x24="4" areaNo="41" gridXNo="0" gridZNo="0" posX="-100.72" posY="259.77" posZ="-106.43" signSubCategoryId="6800" locationTextId="10670870" sortId="110" />
+<row id="670871" matchAreaId="8400" unknown_0x24="4" areaNo="41" gridXNo="2" gridZNo="0" posX="85.77" posY="76.52" posZ="4.58" signSubCategoryId="6840" locationTextId="10670871" sortId="100" />
+<row id="670880" matchAreaId="8100" unknown_0x24="4" areaNo="43" gridXNo="1" gridZNo="0" posX="-67.76" posY="347.45" posZ="18.42" signSubCategoryId="6800" locationTextId="10670880" sortId="130" />
+<row id="670900" matchAreaId="9000" unknown_0x24="4" areaNo="61" gridXNo="49" gridZNo="44" posX="-42.78" posY="357.87" posZ="-43.99" signSubCategoryId="6900" locationTextId="10670900" sortId="220" />
+<row id="670901" matchAreaId="9000" unknown_0x24="4" areaNo="61" gridXNo="44" gridZNo="48" posX="-55.14" posY="327.33" posZ="-91.34" signSubCategoryId="6950" locationTextId="10670901" sortId="300" />
+<row id="670902" matchAreaId="9000" unknown_0x24="4" areaNo="61" gridXNo="46" gridZNo="45" posX="85.39" posY="408.62" posZ="-33.94" signSubCategoryId="6950" locationTextId="10670902" sortId="310" />
+<row id="670903" matchAreaId="9030" unknown_0x24="4" areaNo="61" gridXNo="51" gridZNo="44" posX="-39.15" posY="175.03" posZ="85.84" signSubCategoryId="6900" locationTextId="10670903" sortId="320" />
+<row id="670904" matchAreaId="9900" unknown_0x24="4" areaNo="61" gridXNo="49" gridZNo="48" posX="51.31" posY="583.95" posZ="-54.98" signSubCategoryId="6920" locationTextId="10670904" sortId="200" />
+<row id="670906" matchAreaId="9400" unknown_0x24="4" areaNo="61" gridXNo="46" gridZNo="47" posX="108" posY="624.96" posZ="18.86" signSubCategoryId="6940" locationTextId="10670906" sortId="200" />
+<row id="670907" matchAreaId="9400" unknown_0x24="4" areaNo="61" gridXNo="45" gridZNo="46" posX="114.21" posY="547.27" posZ="-32.29" signSubCategoryId="6940" locationTextId="10670907" sortId="210" />
+<row id="670908" matchAreaId="9400" unknown_0x24="4" areaNo="61" gridXNo="44" gridZNo="46" posX="-58.46" posY="625.11" posZ="-67.24" signSubCategoryId="6940" locationTextId="10670908" sortId="220" />
+<row id="670909" matchAreaId="9800" unknown_0x24="4" areaNo="21" gridXNo="0" gridZNo="0" posX="387.06" posY="-239.5" posZ="417.52" signSubCategoryId="21001" locationTextId="10670909" sortId="40" />
+<row id="670910" matchAreaId="9300" unknown_0x24="4" areaNo="61" gridXNo="50" gridZNo="48" posX="-104.5" posY="559.59" posZ="-109.03" signSubCategoryId="6920" locationTextId="10670910" sortId="210" />
+<row id="670911" matchAreaId="9000" unknown_0x24="4" areaNo="61" gridXNo="49" gridZNo="45" posX="-5.07" posY="400.17" posZ="110.84" signSubCategoryId="6900" locationTextId="10670911" sortId="200" />
+<row id="670912" matchAreaId="9000" unknown_0x24="4" areaNo="61" gridXNo="47" gridZNo="45" posX="-37.87" posY="355.32" posZ="-67.06" signSubCategoryId="6900" locationTextId="10670912" sortId="210" />
+<row id="670913" matchAreaId="9000" unknown_0x24="4" areaNo="61" gridXNo="49" gridZNo="43" posX="-10.86" posY="385.38" posZ="-12.33" signSubCategoryId="6900" locationTextId="10670913" sortId="230" />
+<row id="670930" matchAreaId="9700" unknown_0x24="4" areaNo="61" gridXNo="51" gridZNo="46" posX="-99.381" posY="421.206" posZ="-115.5" signSubCategoryId="6900" locationTextId="10670930" sortId="10" />
+<row id="670940" matchAreaId="9000" unknown_0x24="4" areaNo="21" gridXNo="0" gridZNo="0" posX="47.11" posY="157.01" posZ="106.07" signSubCategoryId="21000" locationTextId="10670940" sortId="10" />
+<row id="670941" matchAreaId="9800" unknown_0x24="4" areaNo="21" gridXNo="0" gridZNo="0" posX="388.11" posY="49.97" posZ="204.23" signSubCategoryId="21001" locationTextId="10670941" sortId="10" />
+<row id="670942" matchAreaId="9800" unknown_0x24="4" areaNo="21" gridXNo="0" gridZNo="0" posX="305.66" posY="28.64" posZ="125.8" signSubCategoryId="21001" locationTextId="10670942" sortId="20" />
+<row id="670943" matchAreaId="9800" unknown_0x24="4" areaNo="21" gridXNo="0" gridZNo="0" posX="320.92" posY="-213.01" posZ="297.24" signSubCategoryId="21001" locationTextId="10670943" sortId="30" />
+<row id="670945" matchAreaId="9900" unknown_0x24="4" areaNo="21" gridXNo="2" gridZNo="0" posX="-11.11" posY="132" posZ="263.04" signSubCategoryId="21010" locationTextId="10670945" sortId="70" />
+<row id="670950" matchAreaId="9900" unknown_0x24="4" areaNo="21" gridXNo="1" gridZNo="0" posX="196.67" posY="267.95" posZ="261.93" signSubCategoryId="21010" locationTextId="10670950" sortId="10" />
+<row id="670951" matchAreaId="9900" unknown_0x24="4" areaNo="21" gridXNo="1" gridZNo="0" posX="155.39" posY="298.07" posZ="272.44" signSubCategoryId="21010" locationTextId="10670951" sortId="20" />
+<row id="670952" matchAreaId="9900" unknown_0x24="4" areaNo="21" gridXNo="1" gridZNo="0" posX="182.44" posY="328.08" posZ="314.8" signSubCategoryId="21010" locationTextId="10670952" sortId="30" />
+<row id="670953" matchAreaId="9900" unknown_0x24="4" areaNo="21" gridXNo="1" gridZNo="0" posX="99.41" posY="351.71" posZ="319.56" signSubCategoryId="21010" locationTextId="10670953" sortId="40" />
+<row id="670955" matchAreaId="9900" unknown_0x24="4" areaNo="21" gridXNo="1" gridZNo="0" posX="206.35" posY="278.06" posZ="240.64" signSubCategoryId="21010" locationTextId="10670955" sortId="50" />
+<row id="670956" matchAreaId="9900" unknown_0x24="4" areaNo="21" gridXNo="1" gridZNo="0" posX="213.38" posY="338.03" posZ="256.01" signSubCategoryId="21010" locationTextId="10670956" sortId="60" />
+<row id="670960" matchAreaId="9000" unknown_0x24="4" areaNo="40" gridXNo="1" gridZNo="0" posX="-43.41" posY="255.01" posZ="29.68" signSubCategoryId="6950" locationTextId="10670960" sortId="100" />
+<row id="670961" matchAreaId="9030" unknown_0x24="4" areaNo="40" gridXNo="2" gridZNo="0" posX="-46.21" posY="80.01" posZ="111.53" signSubCategoryId="6900" locationTextId="10670961" sortId="110" />
+<row id="670970" matchAreaId="9020" unknown_0x24="4" areaNo="41" gridXNo="1" gridZNo="0" posX="-45.36" posY="304.6" posZ="-25.5" signSubCategoryId="6900" locationTextId="10670970" sortId="130" />
+<row id="670980" matchAreaId="8100" unknown_0x24="4" areaNo="43" gridXNo="0" gridZNo="0" posX="-88.48" posY="164.867" posZ="145.32" signSubCategoryId="6800" locationTextId="10670980" sortId="120" />
+</rows>
+</param>

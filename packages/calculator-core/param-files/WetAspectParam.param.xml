@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>WetAspectParam.param</filename>
+<compression>None</compression>
+<type>WET_ASPECT_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>WET_ASPECT_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="baseColorR" type="u8" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="baseColorG" type="u8" arraylength="1" bitsize="-1" sortid="1" defaultValue="0" />
+<field name="baseColorB" type="u8" arraylength="1" bitsize="-1" sortid="2" defaultValue="0" />
+<field name="reserve_0" type="dummy8" arraylength="1" bitsize="-1" sortid="1000" defaultValue="[0]" />
+<field name="baseColorA" type="f32" arraylength="1" bitsize="-1" sortid="3" defaultValue="0" />
+<field name="metallic" type="u8" arraylength="1" bitsize="-1" sortid="4" defaultValue="0" />
+<field name="reserve_1" type="dummy8" arraylength="1" bitsize="-1" sortid="1001" defaultValue="[0]" />
+<field name="reserve_2" type="dummy8" arraylength="1" bitsize="-1" sortid="1002" defaultValue="[0]" />
+<field name="reserve_3" type="dummy8" arraylength="1" bitsize="-1" sortid="1003" defaultValue="[0]" />
+<field name="metallicRate" type="f32" arraylength="1" bitsize="-1" sortid="7" defaultValue="0" />
+<field name="shininessRate" type="f32" arraylength="1" bitsize="-1" sortid="9" defaultValue="0" />
+<field name="shininess" type="u8" arraylength="1" bitsize="-1" sortid="8" defaultValue="0" />
+<field name="reserve_4" type="dummy8" arraylength="11" bitsize="-1" sortid="1004" defaultValue="[0|0|0|0|0|0|0|0|0|0|0]" />
+</fields>
+<rows>
+<row id="0" paramdexName="None" baseColorR="0" baseColorG="0" baseColorB="0" reserve_0="[0]" baseColorA="0" metallic="0" reserve_1="[0]" reserve_2="[0]" reserve_3="[0]" metallicRate="0" shininessRate="0" shininess="0" reserve_4="[0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="1" paramdexName="Wet" baseColorR="0" baseColorG="0" baseColorB="0" reserve_0="[0]" baseColorA="0.2" metallic="0" reserve_1="[0]" reserve_2="[0]" reserve_3="[0]" metallicRate="0" shininessRate="0.7" shininess="180" reserve_4="[0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="2" paramdexName="Green" baseColorR="50" baseColorG="90" baseColorB="40" reserve_0="[0]" baseColorA="0.6" metallic="0" reserve_1="[0]" reserve_2="[0]" reserve_3="[0]" metallicRate="0.2" shininessRate="0.7" shininess="130" reserve_4="[0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="3" paramdexName="Brown" baseColorR="90" baseColorG="80" baseColorB="60" reserve_0="[0]" baseColorA="0.9" metallic="0" reserve_1="[0]" reserve_2="[0]" reserve_3="[0]" metallicRate="0.9" shininessRate="0.7" shininess="150" reserve_4="[0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="4" paramdexName="Dull Silver" baseColorR="200" baseColorG="210" baseColorB="230" reserve_0="[0]" baseColorA="0.2" metallic="0" reserve_1="[0]" reserve_2="[0]" reserve_3="[0]" metallicRate="0.05" shininessRate="0.7" shininess="150" reserve_4="[0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="5" paramdexName="Dark Green" baseColorR="90" baseColorG="90" baseColorB="10" reserve_0="[0]" baseColorA="0.3" metallic="255" reserve_1="[0]" reserve_2="[0]" reserve_3="[0]" metallicRate="0.2" shininessRate="0.9" shininess="150" reserve_4="[0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="6" paramdexName="Dark Red" baseColorR="60" baseColorG="20" baseColorB="10" reserve_0="[0]" baseColorA="0.5" metallic="0" reserve_1="[0]" reserve_2="[0]" reserve_3="[0]" metallicRate="0.1" shininessRate="0.7" shininess="20" reserve_4="[0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="7" paramdexName="Metallic Silver (Blue Tint)" baseColorR="155" baseColorG="155" baseColorB="175" reserve_0="[0]" baseColorA="1" metallic="255" reserve_1="[0]" reserve_2="[0]" reserve_3="[0]" metallicRate="1" shininessRate="1" shininess="190" reserve_4="[0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="8" paramdexName="None" baseColorR="0" baseColorG="0" baseColorB="0" reserve_0="[0]" baseColorA="0" metallic="0" reserve_1="[0]" reserve_2="[0]" reserve_3="[0]" metallicRate="0" shininessRate="0" shininess="0" reserve_4="[0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="9" paramdexName="None" baseColorR="0" baseColorG="0" baseColorB="0" reserve_0="[0]" baseColorA="0" metallic="0" reserve_1="[0]" reserve_2="[0]" reserve_3="[0]" metallicRate="0" shininessRate="0" shininess="0" reserve_4="[0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="10" paramdexName="Red" baseColorR="120" baseColorG="0" baseColorB="10" reserve_0="[0]" baseColorA="0.9" metallic="0" reserve_1="[0]" reserve_2="[0]" reserve_3="[0]" metallicRate="0" shininessRate="0.7" shininess="150" reserve_4="[0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="11" paramdexName="Wet Black" baseColorR="5" baseColorG="5" baseColorB="10" reserve_0="[0]" baseColorA="1" metallic="0" reserve_1="[0]" reserve_2="[0]" reserve_3="[0]" metallicRate="0" shininessRate="1" shininess="150" reserve_4="[0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="12" paramdexName="None" baseColorR="0" baseColorG="0" baseColorB="0" reserve_0="[0]" baseColorA="0" metallic="0" reserve_1="[0]" reserve_2="[0]" reserve_3="[0]" metallicRate="0" shininessRate="0" shininess="0" reserve_4="[0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="13" paramdexName="None" baseColorR="0" baseColorG="0" baseColorB="0" reserve_0="[0]" baseColorA="0" metallic="0" reserve_1="[0]" reserve_2="[0]" reserve_3="[0]" metallicRate="0" shininessRate="0" shininess="0" reserve_4="[0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="14" paramdexName="None" baseColorR="0" baseColorG="0" baseColorB="0" reserve_0="[0]" baseColorA="0" metallic="0" reserve_1="[0]" reserve_2="[0]" reserve_3="[0]" metallicRate="0" shininessRate="0" shininess="0" reserve_4="[0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="15" paramdexName="None" baseColorR="0" baseColorG="0" baseColorB="0" reserve_0="[0]" baseColorA="0" metallic="0" reserve_1="[0]" reserve_2="[0]" reserve_3="[0]" metallicRate="0" shininessRate="0" shininess="0" reserve_4="[0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="16" paramdexName="None" baseColorR="0" baseColorG="0" baseColorB="0" reserve_0="[0]" baseColorA="0" metallic="0" reserve_1="[0]" reserve_2="[0]" reserve_3="[0]" metallicRate="0" shininessRate="0" shininess="0" reserve_4="[0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="17" paramdexName="Yellow" baseColorR="255" baseColorG="255" baseColorB="0" reserve_0="[0]" baseColorA="1" metallic="0" reserve_1="[0]" reserve_2="[0]" reserve_3="[0]" metallicRate="0" shininessRate="0" shininess="0" reserve_4="[0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="18" paramdexName="Metallic Silver" baseColorR="200" baseColorG="200" baseColorB="200" reserve_0="[0]" baseColorA="0.8" metallic="255" reserve_1="[0]" reserve_2="[0]" reserve_3="[0]" metallicRate="1" shininessRate="0.85" shininess="255" reserve_4="[0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="19" paramdexName="Orange" baseColorR="130" baseColorG="60" baseColorB="30" reserve_0="[0]" baseColorA="0.7" metallic="0" reserve_1="[0]" reserve_2="[0]" reserve_3="[0]" metallicRate="0.2" shininessRate="0.7" shininess="130" reserve_4="[0|0|0|0|0|0|0|0|0|0|0]" />
+</rows>
+</param>

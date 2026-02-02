@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>MapPieceTexParam_m61.param</filename>
+<compression>None</compression>
+<type>MAP_PIECE_TEX_PARAM_ST_DLC02</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>2</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>MAP_PIECE_TEX_PARAM_ST_DLC02</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>2</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="disableParam_NT" type="u8" arraylength="1" bitsize="1" sortid="0" defaultValue="0" />
+<field name="disableParamReserve1" type="dummy8" arraylength="1" bitsize="7" sortid="301" defaultValue="[0]" />
+<field name="disableParamReserve2" type="dummy8" arraylength="3" bitsize="-1" sortid="302" defaultValue="[0|0|0]" />
+<field name="srcR" type="u8" arraylength="1" bitsize="-1" sortid="110" defaultValue="255" />
+<field name="srcG" type="u8" arraylength="1" bitsize="-1" sortid="120" defaultValue="192" />
+<field name="srcB" type="u8" arraylength="1" bitsize="-1" sortid="130" defaultValue="96" />
+<field name="pad1" type="dummy8" arraylength="1" bitsize="-1" sortid="303" defaultValue="[0]" />
+<field name="saveMapNameId" type="s32" arraylength="1" bitsize="-1" sortid="200" defaultValue="-1" />
+<field name="multiPlayAreaId" type="s32" arraylength="1" bitsize="-1" sortid="300" defaultValue="-1" />
+<field name="unknown_0x10" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="1" />
+<field name="unknown_0x14" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="unknown_0x18" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="-1" />
+<field name="unknown_0x1c" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="-1" />
+<field name="unknownPlayRegion_1" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="-1" />
+<field name="unknownPlayRegion_2" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="-1" />
+</fields>
+<rows>
+<row id="10" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="192" srcG="192" srcB="192" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="6800000" unknown_0x10="0" unknown_0x14="0" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="-1" unknownPlayRegion_2="-1" />
+<row id="15" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="164" srcG="164" srcB="164" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="6810000" unknown_0x10="0" unknown_0x14="0" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="-1" unknownPlayRegion_2="-1" />
+<row id="16" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="144" srcG="144" srcB="144" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="-1" unknown_0x10="1" unknown_0x14="352" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="6810000" unknownPlayRegion_2="6900000" />
+<row id="17" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="144" srcG="192" srcB="144" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="-1" unknown_0x10="1" unknown_0x14="368" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="6810000" unknownPlayRegion_2="6901000" />
+<row id="20" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="192" srcG="192" srcB="236" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="6810001" unknown_0x10="0" unknown_0x14="0" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="-1" unknownPlayRegion_2="-1" />
+<row id="21" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="192" srcG="192" srcB="224" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="-1" unknown_0x10="1" unknown_0x14="70" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="6810001" unknownPlayRegion_2="6800000" />
+<row id="22" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="144" srcG="144" srcB="224" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="-1" unknown_0x10="1" unknown_0x14="70" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="6810001" unknownPlayRegion_2="6810000" />
+<row id="23" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="144" srcG="192" srcB="224" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="-1" unknown_0x10="1" unknown_0x14="70" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="6810001" unknownPlayRegion_2="6901000" />
+<row id="25" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="0" srcG="127" srcB="223" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="6820000" unknown_0x10="0" unknown_0x14="0" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="-1" unknownPlayRegion_2="-1" />
+<row id="30" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="96" srcG="96" srcB="96" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="6900000" unknown_0x10="0" unknown_0x14="0" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="-1" unknownPlayRegion_2="-1" />
+<row id="35" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="96" srcG="160" srcB="96" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="6901000" unknown_0x10="0" unknown_0x14="0" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="-1" unknownPlayRegion_2="-1" />
+<row id="36" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="96" srcG="255" srcB="96" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="-1" unknown_0x10="1" unknown_0x14="400" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="6901000" unknownPlayRegion_2="6940000" />
+<row id="37" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="160" srcB="96" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="-1" unknown_0x10="1" unknown_0x14="400" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="6901000" unknownPlayRegion_2="6941000" />
+<row id="40" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="96" srcG="96" srcB="160" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="6902000" unknown_0x10="0" unknown_0x14="0" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="-1" unknownPlayRegion_2="-1" />
+<row id="41" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="176" srcG="48" srcB="158" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="-1" unknown_0x10="1" unknown_0x14="530" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="6902000" unknownPlayRegion_2="6930000" />
+<row id="45" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="160" srcG="160" srcB="96" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="6903000" unknown_0x10="0" unknown_0x14="0" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="-1" unknownPlayRegion_2="-1" />
+<row id="46" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="128" srcG="128" srcB="96" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="-1" unknown_0x10="1" unknown_0x14="300" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="6903000" unknownPlayRegion_2="6900000" />
+<row id="47" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="128" srcG="128" srcB="160" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="-1" unknown_0x10="1" unknown_0x14="280" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="6903000" unknownPlayRegion_2="6902000" />
+<row id="50" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="0" srcG="0" srcB="255" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="6830000" unknown_0x10="0" unknown_0x14="0" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="-1" unknownPlayRegion_2="-1" />
+<row id="51" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="192" srcG="192" srcB="255" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="-1" unknown_0x10="1" unknown_0x14="150" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="6830000" unknownPlayRegion_2="6800000" />
+<row id="52" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="128" srcG="83" srcB="128" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="-1" unknown_0x10="1" unknown_0x14="70" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="6830000" unknownPlayRegion_2="6841000" />
+<row id="53" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="64" srcG="61" srcB="192" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="-1" unknown_0x10="1" unknown_0x14="70" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="6830000" unknownPlayRegion_2="6840000" />
+<row id="54" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="128" srcG="0" srcB="255" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="-1" unknown_0x10="1" unknown_0x14="70" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="6830000" unknownPlayRegion_2="6850000" />
+<row id="60" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="0" srcG="255" srcB="255" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="6840000" unknown_0x10="0" unknown_0x14="0" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="-1" unknownPlayRegion_2="-1" />
+<row id="61" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="96" srcG="224" srcB="224" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="-1" unknown_0x10="1" unknown_0x14="200" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="6840000" unknownPlayRegion_2="6800000" />
+<row id="65" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="0" srcB="0" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="6850000" unknown_0x10="0" unknown_0x14="0" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="-1" unknownPlayRegion_2="-1" />
+<row id="70" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="128" srcB="0" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="6841000" unknown_0x10="0" unknown_0x14="0" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="-1" unknownPlayRegion_2="-1" />
+<row id="71" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="224" srcG="197" srcB="96" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="-1" unknown_0x10="1" unknown_0x14="352" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="6841000" unknownPlayRegion_2="6810000" />
+<row id="72" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="64" srcB="0" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="-1" unknown_0x10="1" unknown_0x14="352" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="6841000" unknownPlayRegion_2="6850000" />
+<row id="80" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="0" srcG="255" srcB="0" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="6940000" unknown_0x10="0" unknown_0x14="0" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="-1" unknownPlayRegion_2="-1" />
+<row id="81" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="64" srcB="128" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="6941000" unknown_0x10="0" unknown_0x14="0" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="-1" unknownPlayRegion_2="-1" />
+<row id="90" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="220" srcB="220" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="21010010" unknown_0x10="0" unknown_0x14="0" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="-1" unknownPlayRegion_2="-1" />
+<row id="91" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="0" srcB="220" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="6920000" unknown_0x10="0" unknown_0x14="0" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="-1" unknownPlayRegion_2="-1" />
+<row id="92" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="196" srcG="0" srcB="220" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="6930000" unknown_0x10="0" unknown_0x14="0" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="-1" unknownPlayRegion_2="-1" />
+<row id="100" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="255" srcB="0" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="6860000" unknown_0x10="0" unknown_0x14="0" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="-1" unknownPlayRegion_2="-1" />
+<row id="101" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="224" srcG="224" srcB="96" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="-1" unknown_0x10="1" unknown_0x14="65336" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="6860000" unknownPlayRegion_2="6800000" />
+<row id="102" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="176" srcG="176" srcB="48" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="-1" unknown_0x10="1" unknown_0x14="65336" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="6860000" unknownPlayRegion_2="6900000" />
+<row id="103" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="156" srcG="156" srcB="24" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="-1" unknown_0x10="1" unknown_0x14="65336" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="6860000" unknownPlayRegion_2="6902000" />
+<row id="104" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="156" srcG="156" srcB="224" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="-1" unknown_0x10="1" unknown_0x14="65336" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="6860000" unknownPlayRegion_2="6903000" />
+<row id="105" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="64" srcB="0" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="-1" unknown_0x10="1" unknown_0x14="65336" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="6860000" unknownPlayRegion_2="6850000" />
+<row id="106" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="192" srcB="0" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="-1" unknown_0x10="1" unknown_0x14="65336" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="6860000" unknownPlayRegion_2="6841000" />
+<row id="107" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="128" srcG="224" srcB="96" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="-1" unknown_0x10="1" unknown_0x14="65336" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="6860000" unknownPlayRegion_2="6840000" />
+<row id="255" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="0" srcG="0" srcB="0" pad1="[0]" saveMapNameId="-1" multiPlayAreaId="-1" unknown_0x10="0" unknown_0x14="0" unknown_0x18="-1" unknown_0x1c="-1" unknownPlayRegion_1="-1" unknownPlayRegion_2="-1" />
+</rows>
+</param>

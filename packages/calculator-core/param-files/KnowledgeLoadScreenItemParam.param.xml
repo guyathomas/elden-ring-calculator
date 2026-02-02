@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>KnowledgeLoadScreenItemParam.param</filename>
+<compression>None</compression>
+<type>KNOWLEDGE_LOADSCREEN_ITEM_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>KNOWLEDGE_LOADSCREEN_ITEM_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="disableParam_NT" type="u8" arraylength="1" bitsize="1" sortid="0" defaultValue="0" />
+<field name="disableParamReserve1" type="dummy8" arraylength="1" bitsize="7" sortid="301" defaultValue="[0]" />
+<field name="disableParamReserve2" type="dummy8" arraylength="3" bitsize="-1" sortid="302" defaultValue="[0|0|0]" />
+<field name="unlockFlagId" type="u32" arraylength="1" bitsize="-1" sortid="200" defaultValue="0" />
+<field name="invalidFlagId" type="u32" arraylength="1" bitsize="-1" sortid="300" defaultValue="0" />
+<field name="msgId" type="s32" arraylength="1" bitsize="-1" sortid="100" defaultValue="207" />
+</fields>
+<rows>
+<row id="1" paramdexName="Crouching" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="1" />
+<row id="2" paramdexName="Guarding" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="2" />
+<row id="3" paramdexName="Guard Counters" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="3" />
+<row id="4" paramdexName="Two-Handing Armaments" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="4" />
+<row id="5" paramdexName="Charge and Jump Attacks" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="5" />
+<row id="6" paramdexName="Skill" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="6" />
+<row id="7" paramdexName="Parrying" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="7" />
+<row id="8" paramdexName="Setting a Target" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="8" />
+<row id="9" paramdexName="Precision Aiming" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="9" />
+<row id="10" paramdexName="Equipping Armaments" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="10" />
+<row id="11" paramdexName="Using Items" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="11" />
+<row id="12" paramdexName="Using Torches" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="12" />
+<row id="13" paramdexName="Critical Hits" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="13" />
+<row id="14" paramdexName="Gestures" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="14" />
+<row id="15" paramdexName="The Map" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="15" />
+<row id="16" paramdexName="Spiritspring Jumping" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="16" />
+<row id="50" paramdexName="Dying and Dropping Runes" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="50" />
+<row id="52" paramdexName="Summoning Spirits" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="52" />
+<row id="53" paramdexName="Resting at Sites of Grace" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="53" />
+<row id="54" paramdexName="Finding Sites of Grace" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="54" />
+<row id="55" paramdexName="Guidance of Grace" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="55" />
+<row id="56" paramdexName="Sacred Flasks" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="56" />
+<row id="57" paramdexName="Fast Travel to Sites of Grace" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="57" />
+<row id="58" paramdexName="Mounted Attacks" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="58" />
+<row id="59" paramdexName="No-Riding Areas" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="59" />
+<row id="60" paramdexName="Item Crafting" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="60" />
+<row id="61" paramdexName="Container Items" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="61" />
+<row id="62" paramdexName="Armament Customization" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="62" />
+<row id="64" paramdexName="Reviving After Dying" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="64" />
+<row id="65" paramdexName="Equip Load" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="65" />
+<row id="66" paramdexName="While in Combat" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="66" />
+<row id="67" paramdexName="Strengthening Spirits" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="67" />
+<row id="68" paramdexName="Leveling Up" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="68" />
+<row id="70" paramdexName="Status: Poison" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="70" />
+<row id="71" paramdexName="Status: Scarlet Rot" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="71" />
+<row id="72" paramdexName="Status: Blood Loss" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="72" />
+<row id="73" paramdexName="Status: Frost/Frostbite" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="73" />
+<row id="74" paramdexName="Status: Sleep" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="74" />
+<row id="75" paramdexName="Status: Madness" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="75" />
+<row id="76" paramdexName="Status: Death" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="76" />
+<row id="77" paramdexName="Poise" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="77" />
+<row id="80" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="80" />
+<row id="81" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="81" />
+<row id="100" paramdexName="Cooperator's Objective (Furled Finger)" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="100" />
+<row id="101" paramdexName="Adversary's Objective (Duelist)" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="101" />
+<row id="102" paramdexName="Multipler Maximums" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="102" />
+<row id="103" paramdexName="Seeing Summon Signs" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="103" />
+<row id="104" paramdexName="Leaving Co-op Signs" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="104" />
+<row id="105" paramdexName="Leaving Hostile Signs" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="105" />
+<row id="106" paramdexName="Invasion" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="106" />
+<row id="107" paramdexName="Requesting Support" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="107" />
+<row id="108" paramdexName="Supporting" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="108" />
+<row id="109" paramdexName="Summoning Pools" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="109" />
+<row id="110" paramdexName="Group Passwords" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="110" />
+<row id="111" paramdexName="Multiplayer Passwords" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="111" />
+<row id="112" paramdexName="Messages" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="112" />
+<row id="113" paramdexName="Multiplayer Movement Limits" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="113" />
+<row id="114" paramdexName="Phantoms" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="114" />
+<row id="115" paramdexName="Bloodstains" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="115" />
+<row id="116" paramdexName="Support Objective (Hunter)" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="116" />
+<row id="117" paramdexName="Summon Signs" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="117" />
+<row id="118" paramdexName="Advanced Messages" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="118" />
+<row id="120" paramdexName="Colosseums" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="120" />
+<row id="121" paramdexName="Colosseum Ranking" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="121" />
+<row id="150" paramdexName="Limits of Guarding" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="150" />
+<row id="151" paramdexName="Stance-Breaking" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="151" />
+<row id="152" paramdexName="Knowcking Down Mounted Enemies" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="152" />
+<row id="153" paramdexName="Hardened Foes" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="153" />
+<row id="200" paramdexName="Teardrop Scarabs" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="200" />
+<row id="205" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="205" />
+<row id="206" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="206" />
+<row id="207" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" unlockFlagId="0" invalidFlagId="0" msgId="207" />
+</rows>
+</param>

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>MapGdRegionDrawParam.param</filename>
+<compression>None</compression>
+<type>MAP_GD_REGION_DRAW_PARAM</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>2</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>MAP_GD_REGION_DRAW_PARAM</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>2</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="disableParam_NT" type="u8" arraylength="1" bitsize="1" sortid="0" defaultValue="1" />
+<field name="disableParamReserve1" type="dummy8" arraylength="1" bitsize="7" sortid="5" defaultValue="[0]" />
+<field name="disableParamReserve2" type="dummy8" arraylength="3" bitsize="-1" sortid="6" defaultValue="[0|0|0]" />
+<field name="overrideIVLocalLightScale" type="f32" arraylength="1" bitsize="-1" sortid="1" defaultValue="-1" />
+</fields>
+<rows>
+<row id="0" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="10" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="20" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="21" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="30" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="31" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="40" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="41" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="42" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="1000" paramdexName="Stormveil Castle" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="1001" paramdexName="Chapel of Anticipation" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="1100" paramdexName="Leyndell- Royal Capital" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="1105" paramdexName="Leyndell- Ashen Capital" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="1110" paramdexName="Roundtable Hold" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="1171" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="1201" paramdexName="Ainsel River" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="1202" paramdexName="Siofra River" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="1203" paramdexName="Deeproot Depths" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="1204" paramdexName="Ainsel River Boss" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="1300" paramdexName="Crumbling Farum Azula" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="1400" paramdexName="Academy of Raya Lucaria" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="1500" paramdexName="Miquella's Haligtree" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="1600" paramdexName="Volcano Manor" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="1800" paramdexName="Stranded Graveyard" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="1900" paramdexName="Stone Platform" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3000" paramdexName="Tombsward Catacombs" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3001" paramdexName="Impaler's Catacombs" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3002" paramdexName="Stormfoot Catacombs" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3003" paramdexName="Road's End Catacombs" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3004" paramdexName="Murkwater Catacombs" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3005" paramdexName="Black Knife Catacombs" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3006" paramdexName="Cliffbottom Catacombs" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3007" paramdexName="Wyndham Catacombs" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3008" paramdexName="Sainted Hero's Grave" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3009" paramdexName="Gelmir Hero's Grave" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3010" paramdexName="Auriza's Hero Grave" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3011" paramdexName="Deathtouched Catacombs" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3012" paramdexName="Unsightly Catacombs" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3013" paramdexName="Auriza Side Tomb" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3014" paramdexName="Minor Erdtree Catacombs" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3015" paramdexName="Caelid Catacombs" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3016" paramdexName="War-Dead Catacombs" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3017" paramdexName="Giant-Conquering Hero's Grave" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3018" paramdexName="Giants' Mountaintops Catacombs" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3100" paramdexName="Murkwater Cave" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3101" paramdexName="Earthbore Cave" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3102" paramdexName="Tombsward Cave" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3103" paramdexName="Groveside Cave" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3104" paramdexName="Stillwater Cave" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3105" paramdexName="Lakeside Crystal Cave" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3106" paramdexName="Academy Crystal Cave" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3107" paramdexName="Seethewater Cave" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3108" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3109" paramdexName="Volcano Cave" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3110" paramdexName="Dragonbarrow Cave" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3111" paramdexName="Sellia Hideaway" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3112" paramdexName="Cave of the Forlorn" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3113" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3114" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3115" paramdexName="Coastal Cave" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3117" paramdexName="High Road Cave" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3200" paramdexName="Morne Tunnel" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3201" paramdexName="Limgrave Tunnels" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3202" paramdexName="Raya Lucaria Crystal Tunnel" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3203" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3204" paramdexName="Old Altus Tunnel" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3205" paramdexName="Altus Tunnel" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3206" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3207" paramdexName="Gael Tunnel" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3208" paramdexName="Sellia Crystal Tunnel" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3209" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3210" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3211" paramdexName="Yelough Anix Tunnel" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3212" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3410" paramdexName="Divine Tower of Limgrave" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3411" paramdexName="Divine Tower of Liurnia (Carian Study Hall)" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3412" paramdexName="Divine Tower of West Altus (Sealed Tunnel)" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3413" paramdexName="Divine Tower of Caelid" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3414" paramdexName="Divine Tower of East Altus" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3415" paramdexName="Isolated Divine Tower" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3416" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3500" paramdexName="Subterranean Shunning-Grounds" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="3920" paramdexName="Ruin-Strewn Precipice" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="9901" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+<row id="9902" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" overrideIVLocalLightScale="-1" />
+</rows>
+</param>

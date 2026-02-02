@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>BonfireWarpTabParam.param</filename>
+<compression>None</compression>
+<type>BONFIRE_WARP_TAB_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>2</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>BONFIRE_WARP_TAB_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>2</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="disableParam_NT" type="u8" arraylength="1" bitsize="1" sortid="0" defaultValue="1" />
+<field name="disableParamReserve1" type="dummy8" arraylength="1" bitsize="7" sortid="8" defaultValue="[0]" />
+<field name="disableParamReserve2" type="dummy8" arraylength="3" bitsize="-1" sortid="9" defaultValue="[0|0|0]" />
+<field name="textId" type="s32" arraylength="1" bitsize="-1" sortid="1" defaultValue="241414" />
+<field name="sortId" type="s32" arraylength="1" bitsize="-1" sortid="2" defaultValue="5000" />
+<field name="iconId" type="u16" arraylength="1" bitsize="-1" sortid="3" defaultValue="65" />
+<field name="pad" type="dummy8" arraylength="2" bitsize="-1" sortid="10" defaultValue="[0|0]" />
+</fields>
+<rows>
+<row id="6800" paramdexName="Gravesite Plain" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241417" sortId="8000" iconId="68" pad="[0|0]" />
+<row id="6900" paramdexName="Scadu Altus" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241418" sortId="9000" iconId="69" pad="[0|0]" />
+<row id="10000" paramdexName="Stormveil Castle" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241401" sortId="1010" iconId="10" pad="[0|0]" />
+<row id="11000" paramdexName="Leyndell, Royal Capital" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241402" sortId="3020" iconId="11" pad="[0|0]" />
+<row id="11100" paramdexName="Roundtable Hold" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241400" sortId="-1" iconId="1" pad="[0|0]" />
+<row id="12000" paramdexName="Ainsel River" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241407" sortId="6000" iconId="40" pad="[0|0]" />
+<row id="12001" paramdexName="Siofra River" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241408" sortId="6100" iconId="41" pad="[0|0]" />
+<row id="12002" paramdexName="Deeproot Depths" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241409" sortId="6200" iconId="42" pad="[0|0]" />
+<row id="13000" paramdexName="Crumbling Farum Azula" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241403" sortId="7000" iconId="13" pad="[0|0]" />
+<row id="14000" paramdexName="Academy of Raya Lucaria" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241404" sortId="2010" iconId="14" pad="[0|0]" />
+<row id="15000" paramdexName="Miquella's Haligtree" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241405" sortId="5010" iconId="15" pad="[0|0]" />
+<row id="16000" paramdexName="Volcano Manor" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241406" sortId="3010" iconId="16" pad="[0|0]" />
+<row id="20000" paramdexName="Land of the Tower" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241419" sortId="8010" iconId="20" pad="[0|0]" />
+<row id="21000" paramdexName="Shadow Keep" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241420" sortId="9010" iconId="21" pad="[0|0]" />
+<row id="61000" paramdexName="Limgrave" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241410" sortId="1000" iconId="61" pad="[0|0]" />
+<row id="62000" paramdexName="Liurnia of the Lakes" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241411" sortId="2000" iconId="62" pad="[0|0]" />
+<row id="63000" paramdexName="Altus Plateau" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241412" sortId="3000" iconId="63" pad="[0|0]" />
+<row id="64000" paramdexName="Caelid" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241413" sortId="4000" iconId="64" pad="[0|0]" />
+<row id="65000" paramdexName="Mountaintops of the Giants" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" textId="241414" sortId="5000" iconId="65" pad="[0|0]" />
+</rows>
+</param>

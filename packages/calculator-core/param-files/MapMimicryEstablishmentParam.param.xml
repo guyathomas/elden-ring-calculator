@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>MapMimicryEstablishmentParam.param</filename>
+<compression>None</compression>
+<type>MAP_MIMICRY_ESTABLISHMENT_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>MAP_MIMICRY_ESTABLISHMENT_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="mimicryEstablishment0" type="f32" arraylength="1" bitsize="-1" sortid="100" defaultValue="333" defaultThreshold="True" />
+<field name="mimicryEstablishment1" type="f32" arraylength="1" bitsize="-1" sortid="110" defaultValue="333" defaultThreshold="True" />
+<field name="mimicryEstablishment2" type="f32" arraylength="1" bitsize="-1" sortid="120" defaultValue="333" defaultThreshold="True" />
+<field name="mimicryBeginSfxId0" type="s32" arraylength="1" bitsize="-1" sortid="300" defaultValue="-1" defaultThreshold="True" />
+<field name="mimicrySfxId0" type="s32" arraylength="1" bitsize="-1" sortid="310" defaultValue="302640" />
+<field name="mimicryEndSfxId0" type="s32" arraylength="1" bitsize="-1" sortid="320" defaultValue="302603" defaultThreshold="True" />
+<field name="mimicryBeginSfxId1" type="s32" arraylength="1" bitsize="-1" sortid="400" defaultValue="-1" defaultThreshold="True" />
+<field name="mimicrySfxId1" type="s32" arraylength="1" bitsize="-1" sortid="410" defaultValue="302641" />
+<field name="mimicryEndSfxId1" type="s32" arraylength="1" bitsize="-1" sortid="420" defaultValue="302603" defaultThreshold="True" />
+<field name="mimicryBeginSfxId2" type="s32" arraylength="1" bitsize="-1" sortid="500" defaultValue="-1" defaultThreshold="True" />
+<field name="mimicrySfxId2" type="s32" arraylength="1" bitsize="-1" sortid="510" defaultValue="302642" />
+<field name="mimicryEndSfxId2" type="s32" arraylength="1" bitsize="-1" sortid="520" defaultValue="302603" defaultThreshold="True" />
+<field name="pad1" type="dummy8" arraylength="16" bitsize="-1" sortid="521" defaultValue="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" defaultThreshold="True" />
+</fields>
+<rows>
+<row id="0" mimicrySfxId0="302604" mimicrySfxId1="302605" mimicrySfxId2="302606" />
+<row id="6100000" mimicrySfxId0="302607" mimicrySfxId1="302608" mimicrySfxId2="302609" />
+<row id="6102000" mimicrySfxId0="302607" mimicrySfxId1="302608" mimicrySfxId2="302609" />
+<row id="6200000" mimicrySfxId0="302613" mimicrySfxId1="302614" mimicrySfxId2="302606" />
+<row id="6202000" mimicrySfxId0="302613" mimicrySfxId1="302614" mimicrySfxId2="302606" />
+<row id="6300000" mimicrySfxId0="302615" mimicrySfxId1="302616" mimicrySfxId2="302644" />
+<row id="6301000" mimicrySfxId0="302615" mimicrySfxId1="302616" mimicrySfxId2="302644" />
+<row id="6302000" mimicrySfxId0="302615" mimicrySfxId1="302616" mimicrySfxId2="302644" />
+<row id="6400000" mimicrySfxId0="302617" mimicrySfxId1="302618" mimicrySfxId2="302645" />
+<row id="6402000" mimicrySfxId0="302617" mimicrySfxId1="302618" mimicrySfxId2="302645" />
+<row id="6500000" mimicrySfxId0="302619" mimicrySfxId1="302620" mimicrySfxId2="302621" />
+<row id="6501000" mimicrySfxId0="302619" mimicrySfxId1="302620" mimicrySfxId2="302621" />
+<row id="6502000" mimicrySfxId0="302619" mimicrySfxId1="302620" mimicrySfxId2="302621" />
+<row id="6503000" mimicrySfxId0="302619" mimicrySfxId1="302620" mimicrySfxId2="302621" />
+<row id="6800000" mimicrySfxId0="302720" mimicrySfxId1="302721" mimicrySfxId2="302722" />
+<row id="6830000" mimicrySfxId0="302723" mimicrySfxId1="302724" mimicrySfxId2="302725" />
+<row id="6840000" mimicrySfxId0="302726" mimicrySfxId1="302727" mimicrySfxId2="302728" />
+<row id="6841000" mimicrySfxId0="302729" mimicrySfxId1="302730" mimicrySfxId2="302731" />
+<row id="6850000" mimicrySfxId0="302732" mimicrySfxId1="302733" mimicrySfxId2="302734" />
+<row id="6860000" mimicrySfxId0="302735" mimicrySfxId1="302736" mimicrySfxId2="302737" />
+<row id="6900000" mimicrySfxId0="302738" mimicrySfxId1="302739" mimicrySfxId2="302740" />
+<row id="6902000" mimicrySfxId0="302741" mimicrySfxId1="302742" mimicrySfxId2="302743" />
+<row id="6903000" mimicrySfxId0="302744" mimicrySfxId1="302745" mimicrySfxId2="302746" />
+<row id="6920000" mimicrySfxId0="302747" mimicrySfxId1="302747" mimicrySfxId2="302747" />
+<row id="6930000" mimicrySfxId0="302750" mimicrySfxId1="302751" mimicrySfxId2="302752" />
+<row id="6940000" mimicrySfxId0="302753" mimicrySfxId1="302754" mimicrySfxId2="302755" />
+<row id="10000800" mimicrySfxId0="302610" mimicrySfxId1="302611" mimicrySfxId2="302612" />
+<row id="11000800" mimicrySfxId0="302622" mimicrySfxId1="302623" mimicrySfxId2="302646" />
+<row id="11000850" mimicrySfxId0="302622" mimicrySfxId1="302623" mimicrySfxId2="302646" />
+<row id="11050800" mimicrySfxId0="302622" mimicrySfxId1="302623" mimicrySfxId2="302646" />
+<row id="11050850" mimicrySfxId0="302622" mimicrySfxId1="302623" mimicrySfxId2="302646" />
+<row id="12010800" mimicrySfxId0="302624" mimicrySfxId1="302647" mimicrySfxId2="302648" />
+<row id="12020800" mimicrySfxId0="302625" mimicrySfxId1="302626" mimicrySfxId2="302627" />
+<row id="12020850" mimicrySfxId0="302625" mimicrySfxId1="302626" mimicrySfxId2="302627" />
+<row id="12030800" mimicrySfxId0="302628" mimicrySfxId1="302649" mimicrySfxId2="302650" />
+<row id="12040800" mimicrySfxId0="302624" mimicrySfxId1="302647" mimicrySfxId2="302648" />
+<row id="12050800" mimicrySfxId0="302629" mimicrySfxId1="302630" mimicrySfxId2="302631" />
+<row id="12080800" mimicrySfxId0="302625" mimicrySfxId1="302626" mimicrySfxId2="302627" />
+<row id="13000800" mimicrySfxId0="302651" mimicrySfxId1="302652" mimicrySfxId2="302653" />
+<row id="13000830" mimicrySfxId0="302651" mimicrySfxId1="302652" mimicrySfxId2="302653" />
+<row id="13000850" mimicrySfxId0="302651" mimicrySfxId1="302652" mimicrySfxId2="302653" />
+<row id="14000800" mimicrySfxId0="302632" mimicrySfxId1="302633" mimicrySfxId2="302634" />
+<row id="14000850" mimicrySfxId0="302632" mimicrySfxId1="302633" mimicrySfxId2="302634" />
+<row id="15000800" mimicrySfxId0="302635" mimicrySfxId1="302636" mimicrySfxId2="302637" />
+<row id="15000850" mimicrySfxId0="302635" mimicrySfxId1="302636" mimicrySfxId2="302637" />
+<row id="16000800" mimicrySfxId0="302638" mimicrySfxId1="302639" mimicrySfxId2="302654" />
+<row id="16000850" mimicrySfxId0="302638" mimicrySfxId1="302639" mimicrySfxId2="302654" />
+<row id="16000860" mimicrySfxId0="302638" mimicrySfxId1="302639" mimicrySfxId2="302654" />
+<row id="18000800" mimicrySfxId0="302640" mimicrySfxId1="302641" mimicrySfxId2="302642" />
+<row id="20000800" mimicrySfxId0="302756" mimicrySfxId1="302757" mimicrySfxId2="302758" />
+<row id="20010800" mimicrySfxId0="302759" mimicrySfxId1="302760" mimicrySfxId2="302761" />
+<row id="20010850" mimicrySfxId0="302759" mimicrySfxId1="302760" mimicrySfxId2="302761" />
+<row id="21000850" mimicrySfxId0="302765" mimicrySfxId1="302766" mimicrySfxId2="302767" />
+<row id="21010800" mimicrySfxId0="302762" mimicrySfxId1="302763" mimicrySfxId2="302764" />
+<row id="22000800" mimicrySfxId0="302768" mimicrySfxId1="302769" mimicrySfxId2="302770" />
+<row id="30000800" mimicrySfxId0="302640" mimicrySfxId1="302641" mimicrySfxId2="302642" />
+<row id="30010800" mimicrySfxId0="302640" mimicrySfxId1="302641" mimicrySfxId2="302642" />
+<row id="30020800" mimicrySfxId0="302640" mimicrySfxId1="302641" mimicrySfxId2="302642" />
+<row id="30030800" mimicrySfxId0="302640" mimicrySfxId1="302641" mimicrySfxId2="302642" />
+<row id="30040800" mimicrySfxId0="302640" mimicrySfxId1="302641" mimicrySfxId2="302642" />
+<row id="30050800" mimicrySfxId0="302640" mimicrySfxId1="302641" mimicrySfxId2="302642" />
+<row id="30060800" mimicrySfxId0="302640" mimicrySfxId1="302641" mimicrySfxId2="302642" />
+<row id="30070800" mimicrySfxId0="302640" mimicrySfxId1="302641" mimicrySfxId2="302642" />
+<row id="30080800" mimicrySfxId0="302640" mimicrySfxId1="302641" mimicrySfxId2="302642" />
+<row id="30090800" mimicrySfxId0="302640" mimicrySfxId1="302641" mimicrySfxId2="302642" />
+<row id="30100800" mimicrySfxId0="302640" mimicrySfxId1="302641" mimicrySfxId2="302642" />
+<row id="30110800" mimicrySfxId0="302640" mimicrySfxId1="302641" mimicrySfxId2="302642" />
+<row id="30120800" mimicrySfxId0="302640" mimicrySfxId1="302641" mimicrySfxId2="302642" />
+<row id="30130800" mimicrySfxId0="302640" mimicrySfxId1="302641" mimicrySfxId2="302642" />
+<row id="30140800" mimicrySfxId0="302640" mimicrySfxId1="302641" mimicrySfxId2="302642" />
+<row id="30150800" mimicrySfxId0="302640" mimicrySfxId1="302641" mimicrySfxId2="302642" />
+<row id="30160800" mimicrySfxId0="302640" mimicrySfxId1="302641" mimicrySfxId2="302642" />
+<row id="30170800" mimicrySfxId0="302640" mimicrySfxId1="302641" mimicrySfxId2="302642" />
+<row id="30180800" mimicrySfxId0="302640" mimicrySfxId1="302641" mimicrySfxId2="302642" />
+<row id="30190800" mimicrySfxId0="302640" mimicrySfxId1="302641" mimicrySfxId2="302642" />
+<row id="30200800" mimicrySfxId0="302640" mimicrySfxId1="302641" mimicrySfxId2="302642" />
+<row id="31000800" mimicrySfxId0="302655" mimicrySfxId1="302656" mimicrySfxId2="302657" />
+<row id="31010800" mimicrySfxId0="302655" mimicrySfxId1="302656" mimicrySfxId2="302657" />
+<row id="31020800" mimicrySfxId0="302655" mimicrySfxId1="302656" mimicrySfxId2="302657" />
+<row id="31030800" mimicrySfxId0="302655" mimicrySfxId1="302656" mimicrySfxId2="302657" />
+<row id="31040800" mimicrySfxId0="302655" mimicrySfxId1="302656" mimicrySfxId2="302657" />
+<row id="31050800" mimicrySfxId0="302655" mimicrySfxId1="302656" mimicrySfxId2="302657" />
+<row id="31060800" mimicrySfxId0="302655" mimicrySfxId1="302656" mimicrySfxId2="302657" />
+<row id="31070800" mimicrySfxId0="302655" mimicrySfxId1="302656" mimicrySfxId2="302657" />
+<row id="31090800" mimicrySfxId0="302655" mimicrySfxId1="302656" mimicrySfxId2="302657" />
+<row id="31100800" mimicrySfxId0="302655" mimicrySfxId1="302656" mimicrySfxId2="302657" />
+<row id="31110800" mimicrySfxId0="302655" mimicrySfxId1="302656" mimicrySfxId2="302657" />
+<row id="31120800" mimicrySfxId0="302655" mimicrySfxId1="302656" mimicrySfxId2="302657" />
+<row id="31150800" mimicrySfxId0="302655" mimicrySfxId1="302656" mimicrySfxId2="302657" />
+<row id="31170800" mimicrySfxId0="302655" mimicrySfxId1="302656" mimicrySfxId2="302657" />
+<row id="31180800" mimicrySfxId0="302655" mimicrySfxId1="302656" mimicrySfxId2="302657" />
+<row id="31190800" mimicrySfxId0="302655" mimicrySfxId1="302656" mimicrySfxId2="302657" />
+<row id="31200800" mimicrySfxId0="302655" mimicrySfxId1="302656" mimicrySfxId2="302657" />
+<row id="31210800" mimicrySfxId0="302655" mimicrySfxId1="302656" mimicrySfxId2="302657" />
+<row id="31220800" mimicrySfxId0="302655" mimicrySfxId1="302656" mimicrySfxId2="302657" />
+<row id="32000800" mimicrySfxId0="302658" mimicrySfxId1="302659" mimicrySfxId2="302660" />
+<row id="32010800" mimicrySfxId0="302658" mimicrySfxId1="302659" mimicrySfxId2="302660" />
+<row id="32020800" mimicrySfxId0="302658" mimicrySfxId1="302659" mimicrySfxId2="302660" />
+<row id="32040800" mimicrySfxId0="302658" mimicrySfxId1="302659" mimicrySfxId2="302660" />
+<row id="32050800" mimicrySfxId0="302658" mimicrySfxId1="302659" mimicrySfxId2="302660" />
+<row id="32070800" mimicrySfxId0="302658" mimicrySfxId1="302659" mimicrySfxId2="302660" />
+<row id="32080800" mimicrySfxId0="302658" mimicrySfxId1="302659" mimicrySfxId2="302660" />
+<row id="32110800" mimicrySfxId0="302658" mimicrySfxId1="302659" mimicrySfxId2="302660" />
+<row id="35000800" mimicrySfxId0="302643" mimicrySfxId1="302661" mimicrySfxId2="302662" />
+<row id="35000850" mimicrySfxId0="302640" mimicrySfxId1="302641" mimicrySfxId2="302642" />
+<row id="39200800" mimicrySfxId0="302658" mimicrySfxId1="302659" mimicrySfxId2="302660" />
+<row id="40000800" mimicrySfxId0="302771" mimicrySfxId1="302772" mimicrySfxId2="302773" />
+<row id="40010800" mimicrySfxId0="302771" mimicrySfxId1="302772" mimicrySfxId2="302773" />
+<row id="40020800" mimicrySfxId0="302771" mimicrySfxId1="302772" mimicrySfxId2="302773" />
+<row id="41000800" mimicrySfxId0="302774" mimicrySfxId1="302775" mimicrySfxId2="302776" />
+<row id="41010800" mimicrySfxId0="302774" mimicrySfxId1="302775" mimicrySfxId2="302776" />
+<row id="41020800" mimicrySfxId0="302774" mimicrySfxId1="302775" mimicrySfxId2="302776" />
+<row id="42000800" mimicrySfxId0="302777" mimicrySfxId1="302778" mimicrySfxId2="302779" />
+<row id="42010800" mimicrySfxId0="302777" mimicrySfxId1="302778" mimicrySfxId2="302779" />
+<row id="42020800" mimicrySfxId0="302777" mimicrySfxId1="302778" mimicrySfxId2="302779" />
+<row id="42030800" mimicrySfxId0="302777" mimicrySfxId1="302778" mimicrySfxId2="302779" />
+<row id="43000800" mimicrySfxId0="302780" mimicrySfxId1="302781" mimicrySfxId2="302782" />
+<row id="43010800" mimicrySfxId0="302780" mimicrySfxId1="302781" mimicrySfxId2="302782" />
+<row id="2049480800" mimicrySfxId0="302747" mimicrySfxId1="302747" mimicrySfxId2="302747" />
+<row id="2050480800" mimicrySfxId0="302765" mimicrySfxId1="302766" mimicrySfxId2="302767" />
+</rows>
+</param>

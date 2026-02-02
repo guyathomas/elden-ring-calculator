@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>LoadBalancerNewDrawDistScaleParam_xsx.param</filename>
+<compression>None</compression>
+<type>LOAD_BALANCER_NEW_DRAW_DIST_SCALE_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>0</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>LOAD_BALANCER_NEW_DRAW_DIST_SCALE_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>0</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="DrawDist_LvBegin" type="u8" arraylength="1" bitsize="-1" sortid="1" defaultValue="21" />
+<field name="DrawDist_LvEnd" type="u8" arraylength="1" bitsize="-1" sortid="2" defaultValue="21" />
+<field name="reserve0" type="dummy8" arraylength="2" bitsize="-1" sortid="12" defaultValue="[0|0]" />
+<field name="DrawDist_ScaleBegin" type="f32" arraylength="1" bitsize="-1" sortid="3" defaultValue="1" />
+<field name="DrawDist_ScaleEnd" type="f32" arraylength="1" bitsize="-1" sortid="4" defaultValue="1" />
+<field name="ShadwDrawDist_LvBegin" type="u8" arraylength="1" bitsize="-1" sortid="5" defaultValue="21" />
+<field name="ShadwDrawDist_LvEnd" type="u8" arraylength="1" bitsize="-1" sortid="6" defaultValue="21" />
+<field name="reserve1" type="dummy8" arraylength="2" bitsize="-1" sortid="13" defaultValue="[0|0]" />
+<field name="ShadwDrawDist_ScaleBegin" type="f32" arraylength="1" bitsize="-1" sortid="7" defaultValue="1" />
+<field name="ShadwDrawDist_ScaleEnd" type="f32" arraylength="1" bitsize="-1" sortid="8" defaultValue="1" />
+<field name="reserve2" type="dummy8" arraylength="24" bitsize="-1" sortid="14" defaultValue="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+</fields>
+<rows>
+<row id="0" DrawDist_LvBegin="21" DrawDist_LvEnd="21" reserve0="[0|0]" DrawDist_ScaleBegin="1" DrawDist_ScaleEnd="1" ShadwDrawDist_LvBegin="21" ShadwDrawDist_LvEnd="21" reserve1="[0|0]" ShadwDrawDist_ScaleBegin="1" ShadwDrawDist_ScaleEnd="1" reserve2="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+</rows>
+</param>

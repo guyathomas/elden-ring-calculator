@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>WeatherLotTexParam.param</filename>
+<compression>None</compression>
+<type>WEATHER_LOT_TEX_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>WEATHER_LOT_TEX_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="disableParam_NT" type="u8" arraylength="1" bitsize="1" sortid="0" defaultValue="0" />
+<field name="disableParamReserve1" type="dummy8" arraylength="1" bitsize="7" sortid="201" defaultValue="[0]" />
+<field name="disableParamReserve2" type="dummy8" arraylength="3" bitsize="-1" sortid="202" defaultValue="[0|0|0]" />
+<field name="srcR" type="u8" arraylength="1" bitsize="-1" sortid="110" defaultValue="0" />
+<field name="srcG" type="u8" arraylength="1" bitsize="-1" sortid="120" defaultValue="255" />
+<field name="srcB" type="u8" arraylength="1" bitsize="-1" sortid="130" defaultValue="0" />
+<field name="pad1" type="dummy8" arraylength="1" bitsize="-1" sortid="203" defaultValue="[0]" />
+<field name="weatherLogId" type="s32" arraylength="1" bitsize="-1" sortid="200" defaultValue="5010" />
+<field name="pad2" type="dummy8" arraylength="4" bitsize="-1" sortid="204" defaultValue="[0|0|0|0]" />
+</fields>
+<rows>
+<row id="0" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="15" srcG="15" srcB="127" pad1="[0]" weatherLogId="600000000" pad2="[0|0|0|0]" />
+<row id="10" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="0" srcG="255" srcB="0" pad1="[0]" weatherLogId="610000000" pad2="[0|0|0|0]" />
+<row id="11" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="223" srcG="255" srcB="0" pad1="[0]" weatherLogId="3021" pad2="[0|0|0|0]" />
+<row id="12" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="223" srcG="255" srcB="64" pad1="[0]" weatherLogId="5010" pad2="[0|0|0|0]" />
+<row id="15" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="15" srcG="127" srcB="15" pad1="[0]" weatherLogId="615000000" pad2="[0|0|0|0]" />
+<row id="20" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="0" srcG="0" srcB="255" pad1="[0]" weatherLogId="620000000" pad2="[0|0|0|0]" />
+<row id="21" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="0" srcG="255" srcB="255" pad1="[0]" weatherLogId="4000" pad2="[0|0|0|0]" />
+<row id="22" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="0" srcG="128" srcB="255" pad1="[0]" weatherLogId="620000100" pad2="[0|0|0|0]" />
+<row id="25" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="0" srcG="196" srcB="255" pad1="[0]" weatherLogId="4001" pad2="[0|0|0|0]" />
+<row id="30" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="255" srcB="0" pad1="[0]" weatherLogId="630000000" pad2="[0|0|0|0]" />
+<row id="31" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="255" srcB="128" pad1="[0]" weatherLogId="5010" pad2="[0|0|0|0]" />
+<row id="32" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="255" srcB="191" pad1="[0]" weatherLogId="5000" pad2="[0|0|0|0]" />
+<row id="35" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="159" srcB="0" pad1="[0]" weatherLogId="635000000" pad2="[0|0|0|0]" />
+<row id="38" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="223" srcG="255" srcB="255" pad1="[0]" weatherLogId="638000000" pad2="[0|0|0|0]" />
+<row id="40" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="127" srcB="127" pad1="[0]" weatherLogId="640000000" pad2="[0|0|0|0]" />
+<row id="41" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="96" srcB="96" pad1="[0]" weatherLogId="641000000" pad2="[0|0|0|0]" />
+<row id="45" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="196" srcG="127" srcB="156" pad1="[0]" weatherLogId="645000000" pad2="[0|0|0|0]" />
+<row id="46" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="216" srcG="127" srcB="156" pad1="[0]" weatherLogId="3020" pad2="[0|0|0|0]" />
+<row id="50" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="181" srcG="223" srcB="223" pad1="[0]" weatherLogId="650000000" pad2="[0|0|0|0]" />
+<row id="51" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="181" srcG="196" srcB="223" pad1="[0]" weatherLogId="651000000" pad2="[0|0|0|0]" />
+<row id="52" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="159" srcG="127" srcB="127" pad1="[0]" weatherLogId="652000000" pad2="[0|0|0|0]" />
+<row id="55" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="223" srcG="223" srcB="239" pad1="[0]" weatherLogId="655000000" pad2="[0|0|0|0]" />
+<row id="56" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="223" srcG="239" srcB="239" pad1="[0]" weatherLogId="4010" pad2="[0|0|0|0]" />
+<row id="57" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="239" srcG="239" srcB="239" pad1="[0]" weatherLogId="4020" pad2="[0|0|0|0]" />
+<row id="255" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="0" srcG="0" srcB="0" pad1="[0]" weatherLogId="-1" pad2="[0|0|0|0]" />
+</rows>
+</param>

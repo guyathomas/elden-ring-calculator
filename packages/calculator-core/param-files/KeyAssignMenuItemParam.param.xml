@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>KeyAssignMenuItemParam.param</filename>
+<compression>None</compression>
+<type>CS_KEY_ASSIGN_MENUITEM_PARAM</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>CS_KEY_ASSIGN_MENUITEM_PARAM</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="textID" type="s32" arraylength="1" bitsize="-1" sortid="200" defaultValue="0" />
+<field name="key" type="s32" arraylength="1" bitsize="-1" sortid="201" defaultValue="-1" />
+<field name="enableUnassign" type="u8" arraylength="1" bitsize="-1" sortid="300" defaultValue="1" />
+<field name="enablePadConfig" type="u8" arraylength="1" bitsize="-1" sortid="301" defaultValue="1" />
+<field name="enableMouseConfig" type="u8" arraylength="1" bitsize="-1" sortid="302" defaultValue="1" />
+<field name="group" type="u8" arraylength="1" bitsize="-1" sortid="303" defaultValue="0" />
+<field name="mappingTextID" type="s32" arraylength="1" bitsize="-1" sortid="400" defaultValue="0" />
+<field name="viewPad" type="u8" arraylength="1" bitsize="-1" sortid="100" defaultValue="1" />
+<field name="viewKeyboardMouse" type="u8" arraylength="1" bitsize="-1" sortid="101" defaultValue="1" />
+<field name="padding" type="dummy8" arraylength="6" bitsize="-1" sortid="99999" defaultValue="[0|0|0|0|0|0]" />
+</fields>
+<rows>
+<row id="1" paramdexName="Move" textID="280010" key="-1" enableUnassign="1" enablePadConfig="1" enableMouseConfig="1" group="0" mappingTextID="0" viewPad="1" viewKeyboardMouse="1" padding="[0|0|0|0|0|0]" />
+<row id="2" paramdexName="Movement Control" textID="280100" key="0" enableUnassign="1" enablePadConfig="0" enableMouseConfig="1" group="0" mappingTextID="280100" viewPad="0" viewKeyboardMouse="1" padding="[0|0|0|0|0|0]" />
+<row id="3" paramdexName="Move Forwards" textID="280101" key="1" enableUnassign="1" enablePadConfig="0" enableMouseConfig="0" group="0" mappingTextID="280110" viewPad="1" viewKeyboardMouse="1" padding="[0|0|0|0|0|0]" />
+<row id="4" paramdexName="Move Backwards" textID="280102" key="2" enableUnassign="1" enablePadConfig="0" enableMouseConfig="0" group="0" mappingTextID="0" viewPad="1" viewKeyboardMouse="1" padding="[0|0|0|0|0|0]" />
+<row id="5" paramdexName="Move Left" textID="280103" key="3" enableUnassign="1" enablePadConfig="0" enableMouseConfig="0" group="0" mappingTextID="0" viewPad="1" viewKeyboardMouse="1" padding="[0|0|0|0|0|0]" />
+<row id="6" paramdexName="Move Right" textID="280104" key="4" enableUnassign="1" enablePadConfig="0" enableMouseConfig="0" group="0" mappingTextID="0" viewPad="1" viewKeyboardMouse="1" padding="[0|0|0|0|0|0]" />
+<row id="7" paramdexName="Backstep, Dodge Roll, Dash" textID="280105" key="6" enableUnassign="1" enablePadConfig="1" enableMouseConfig="1" group="0" mappingTextID="280105" viewPad="1" viewKeyboardMouse="1" padding="[0|0|0|0|0|0]" />
+<row id="8" paramdexName="Jump" textID="280106" key="7" enableUnassign="1" enablePadConfig="1" enableMouseConfig="1" group="0" mappingTextID="280106" viewPad="1" viewKeyboardMouse="1" padding="[0|0|0|0|0|0]" />
+<row id="9" paramdexName="Crouch / Stand Up" textID="280107" key="5" enableUnassign="1" enablePadConfig="1" enableMouseConfig="1" group="0" mappingTextID="280107" viewPad="1" viewKeyboardMouse="1" padding="[0|0|0|0|0|0]" />
+<row id="10" paramdexName="Camera Controls" textID="280020" key="-1" enableUnassign="1" enablePadConfig="1" enableMouseConfig="1" group="0" mappingTextID="0" viewPad="1" viewKeyboardMouse="1" padding="[0|0|0|0|0|0]" />
+<row id="11" paramdexName="Move Camera / Change Target (Up)" textID="280200" key="8" enableUnassign="1" enablePadConfig="0" enableMouseConfig="0" group="0" mappingTextID="280199" viewPad="1" viewKeyboardMouse="1" padding="[0|0|0|0|0|0]" />
+<row id="12" paramdexName="Move Camera / Change Target (Down)" textID="280201" key="9" enableUnassign="1" enablePadConfig="0" enableMouseConfig="0" group="0" mappingTextID="0" viewPad="1" viewKeyboardMouse="1" padding="[0|0|0|0|0|0]" />
+<row id="13" paramdexName="Move Camera / Change Target (Left)" textID="280202" key="10" enableUnassign="1" enablePadConfig="0" enableMouseConfig="0" group="0" mappingTextID="0" viewPad="1" viewKeyboardMouse="1" padding="[0|0|0|0|0|0]" />
+<row id="14" paramdexName="Move Camera / Change Target (Right)" textID="280203" key="11" enableUnassign="1" enablePadConfig="0" enableMouseConfig="0" group="0" mappingTextID="0" viewPad="1" viewKeyboardMouse="1" padding="[0|0|0|0|0|0]" />
+<row id="15" paramdexName="Reset Camera, Lock-On/Remove Target" textID="280204" key="12" enableUnassign="1" enablePadConfig="1" enableMouseConfig="1" group="0" mappingTextID="280204" viewPad="1" viewKeyboardMouse="1" padding="[0|0|0|0|0|0]" />
+<row id="16" paramdexName="Switch Armament" textID="280030" key="-1" enableUnassign="1" enablePadConfig="1" enableMouseConfig="1" group="0" mappingTextID="0" viewPad="1" viewKeyboardMouse="1" padding="[0|0|0|0|0|0]" />
+<row id="17" paramdexName="Switch Sorcery/Incantation" textID="280303" key="13" enableUnassign="1" enablePadConfig="1" enableMouseConfig="1" group="0" mappingTextID="280303" viewPad="1" viewKeyboardMouse="1" padding="[0|0|0|0|0|0]" />
+<row id="18" paramdexName="Switch Item" textID="280300" key="14" enableUnassign="1" enablePadConfig="1" enableMouseConfig="1" group="0" mappingTextID="280300" viewPad="1" viewKeyboardMouse="1" padding="[0|0|0|0|0|0]" />
+<row id="19" paramdexName="Switch Right-Hand Armament" textID="280301" key="15" enableUnassign="1" enablePadConfig="1" enableMouseConfig="1" group="0" mappingTextID="280301" viewPad="1" viewKeyboardMouse="1" padding="[0|0|0|0|0|0]" />
+<row id="20" paramdexName="Switch Left-Hand Armament" textID="280302" key="16" enableUnassign="1" enablePadConfig="1" enableMouseConfig="1" group="0" mappingTextID="280302" viewPad="1" viewKeyboardMouse="1" padding="[0|0|0|0|0|0]" />
+<row id="21" paramdexName="Attack" textID="280040" key="-1" enableUnassign="1" enablePadConfig="1" enableMouseConfig="1" group="0" mappingTextID="0" viewPad="1" viewKeyboardMouse="1" padding="[0|0|0|0|0|0]" />
+<row id="22" paramdexName="Attack (RH &amp; Two-Handed Armament)" textID="280400" key="17" enableUnassign="1" enablePadConfig="1" enableMouseConfig="1" group="0" mappingTextID="280400" viewPad="1" viewKeyboardMouse="1" padding="[0|0|0|0|0|0]" />
+<row id="23" paramdexName="Strong Attack (RH &amp; 2H Armament)" textID="280401" key="18" enableUnassign="1" enablePadConfig="1" enableMouseConfig="1" group="0" mappingTextID="280401" viewPad="1" viewKeyboardMouse="1" padding="[0|0|0|0|0|0]" />
+<row id="24" paramdexName="Guard (LH Armament)" textID="280402" key="19" enableUnassign="1" enablePadConfig="1" enableMouseConfig="1" group="0" mappingTextID="280402" viewPad="1" viewKeyboardMouse="1" padding="[0|0|0|0|0|0]" />
+<row id="25" paramdexName="Skill" textID="280403" key="20" enableUnassign="1" enablePadConfig="1" enableMouseConfig="1" group="0" mappingTextID="280403" viewPad="1" viewKeyboardMouse="1" padding="[0|0|0|0|0|0]" />
+<row id="26" paramdexName="Use Item" textID="280405" key="21" enableUnassign="1" enablePadConfig="1" enableMouseConfig="1" group="0" mappingTextID="280405" viewPad="1" viewKeyboardMouse="1" padding="[0|0|0|0|0|0]" />
+<row id="27" paramdexName="Event Action (Examine, Open, etc.)" textID="280404" key="22" enableUnassign="0" enablePadConfig="1" enableMouseConfig="1" group="0" mappingTextID="280404" viewPad="1" viewKeyboardMouse="1" padding="[0|0|0|0|0|0]" />
+<row id="28" paramdexName="Main Menu" textID="0" key="24" enableUnassign="1" enablePadConfig="1" enableMouseConfig="1" group="0" mappingTextID="280500" viewPad="0" viewKeyboardMouse="0" padding="[0|0|0|0|0|0]" />
+<row id="29" paramdexName="Map" textID="0" key="25" enableUnassign="1" enablePadConfig="1" enableMouseConfig="1" group="0" mappingTextID="280501" viewPad="0" viewKeyboardMouse="0" padding="[0|0|0|0|0|0]" />
+<row id="30" textID="0" key="41" enableUnassign="1" enablePadConfig="1" enableMouseConfig="1" group="1" mappingTextID="0" viewPad="0" viewKeyboardMouse="0" padding="[0|0|0|0|0|0]" />
+<row id="31" textID="0" key="42" enableUnassign="1" enablePadConfig="1" enableMouseConfig="1" group="1" mappingTextID="0" viewPad="0" viewKeyboardMouse="0" padding="[0|0|0|0|0|0]" />
+<row id="32" textID="280060" key="-1" enableUnassign="1" enablePadConfig="1" enableMouseConfig="1" group="0" mappingTextID="0" viewPad="0" viewKeyboardMouse="1" padding="[0|0|0|0|0|0]" />
+<row id="33" textID="280600" key="25" enableUnassign="1" enablePadConfig="0" enableMouseConfig="1" group="2" mappingTextID="0" viewPad="0" viewKeyboardMouse="1" padding="[0|0|0|0|0|0]" />
+</rows>
+</param>

@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>MenuPropertySpecParam.param</filename>
+<compression>None</compression>
+<type>MENUPROPERTY_SPEC</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>MENUPROPERTY_SPEC</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="CaptionTextID" type="s32" arraylength="1" bitsize="-1" sortid="1" defaultValue="0" />
+<field name="IconID" type="s32" arraylength="1" bitsize="-1" sortid="3" defaultValue="-1" defaultThreshold="True" />
+<field name="RequiredPropertyID" type="u32" arraylength="1" bitsize="-1" sortid="4" defaultValue="0" defaultThreshold="True" />
+<field name="CompareType" type="s8" arraylength="1" bitsize="-1" sortid="5" defaultValue="1" />
+<field name="pad2" type="dummy8" arraylength="1" bitsize="-1" sortid="8" defaultValue="[0]" defaultThreshold="True" />
+<field name="FormatType" type="u16" arraylength="1" bitsize="-1" sortid="6" defaultValue="0" />
+<field name="pad" type="dummy8" arraylength="16" bitsize="-1" sortid="9" defaultValue="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" defaultThreshold="True" />
+</fields>
+<rows>
+<row id="0" CaptionTextID="0" IconID="0" CompareType="0" FormatType="0" />
+<row id="100" CaptionTextID="0" CompareType="0" FormatType="0" />
+<row id="101" CaptionTextID="0" CompareType="0" FormatType="0" />
+<row id="102" CaptionTextID="0" CompareType="0" FormatType="0" />
+<row id="103" CaptionTextID="11351" CompareType="2" FormatType="0" />
+<row id="104" CaptionTextID="0" CompareType="2" FormatType="0" />
+<row id="105" CaptionTextID="0" CompareType="0" FormatType="0" />
+<row id="110" CaptionTextID="11004" CompareType="0" FormatType="0" />
+<row id="111" CaptionTextID="0" CompareType="0" FormatType="0" />
+<row id="112" CaptionTextID="11005" CompareType="0" FormatType="0" />
+<row id="113" CaptionTextID="0" CompareType="0" FormatType="0" />
+<row id="120" CaptionTextID="12000" IconID="31020" CompareType="0" FormatType="2" />
+<row id="121" CaptionTextID="12010" IconID="31021" CompareType="0" FormatType="0" />
+<row id="130" CaptionTextID="0" CompareType="0" FormatType="0" />
+<row id="131" CaptionTextID="0" CompareType="0" FormatType="0" />
+<row id="132" CaptionTextID="0" CompareType="0" FormatType="0" />
+<row id="140" CaptionTextID="0" CompareType="0" FormatType="0" />
+<row id="150" CaptionTextID="0" CompareType="0" FormatType="0" />
+<row id="151" CaptionTextID="0" RequiredPropertyID="152" CompareType="0" FormatType="0" />
+<row id="152" CaptionTextID="0" CompareType="0" FormatType="0" />
+<row id="153" CaptionTextID="0" CompareType="0" FormatType="0" />
+<row id="155" CaptionTextID="0" CompareType="0" FormatType="0" />
+<row id="156" CaptionTextID="0" RequiredPropertyID="157" CompareType="0" FormatType="0" />
+<row id="157" CaptionTextID="0" CompareType="0" FormatType="0" />
+<row id="158" CaptionTextID="0" CompareType="0" FormatType="0" />
+<row id="160" CaptionTextID="0" CompareType="0" FormatType="0" />
+<row id="161" CaptionTextID="0" RequiredPropertyID="162" CompareType="0" FormatType="0" />
+<row id="162" CaptionTextID="0" CompareType="0" FormatType="0" />
+<row id="163" CaptionTextID="0" CompareType="0" FormatType="0" />
+<row id="165" CaptionTextID="0" CompareType="0" FormatType="0" />
+<row id="166" CaptionTextID="0" RequiredPropertyID="167" CompareType="0" FormatType="0" />
+<row id="167" CaptionTextID="0" CompareType="0" FormatType="0" />
+<row id="168" CaptionTextID="0" CompareType="0" FormatType="0" />
+<row id="199" CaptionTextID="0" CompareType="0" FormatType="0" />
+<row id="200" CaptionTextID="11360" CompareType="0" FormatType="90" />
+<row id="201" CaptionTextID="11310" CompareType="1" FormatType="100" />
+<row id="202" CaptionTextID="11311" CompareType="1" FormatType="100" />
+<row id="203" CaptionTextID="11312" CompareType="1" FormatType="100" />
+<row id="204" CaptionTextID="11313" CompareType="1" FormatType="100" />
+<row id="205" CaptionTextID="11318" CompareType="1" FormatType="100" />
+<row id="209" CaptionTextID="11043" CompareType="2" FormatType="2" />
+<row id="210" CaptionTextID="11042" CompareType="2" FormatType="2" />
+<row id="220" CaptionTextID="0" CompareType="0" FormatType="300" />
+<row id="221" CaptionTextID="0" CompareType="0" FormatType="0" />
+<row id="222" CaptionTextID="0" CompareType="0" FormatType="0" />
+<row id="223" CaptionTextID="11009" CompareType="0" FormatType="0" />
+<row id="235" CaptionTextID="0" RequiredPropertyID="10008" CompareType="1" FormatType="0" />
+<row id="300" CaptionTextID="11001" CompareType="0" FormatType="120" />
+<row id="301" CaptionTextID="11003" CompareType="0" FormatType="2" />
+<row id="302" CaptionTextID="11006" CompareType="1" FormatType="2" />
+<row id="310" CaptionTextID="11010" CompareType="1" FormatType="0" />
+<row id="311" CaptionTextID="11011" CompareType="1" FormatType="0" />
+<row id="312" CaptionTextID="11012" CompareType="1" FormatType="0" />
+<row id="313" CaptionTextID="11013" CompareType="1" FormatType="0" />
+<row id="314" CaptionTextID="11014" CompareType="1" FormatType="0" />
+<row id="315" CaptionTextID="0" CompareType="1" FormatType="1" />
+<row id="316" CaptionTextID="0" CompareType="1" FormatType="1" />
+<row id="317" CaptionTextID="0" CompareType="1" FormatType="1" />
+<row id="318" CaptionTextID="0" CompareType="1" FormatType="1" />
+<row id="319" CaptionTextID="0" CompareType="1" FormatType="1" />
+<row id="320" CaptionTextID="11032" CompareType="1" FormatType="0" />
+<row id="321" CaptionTextID="11033" CompareType="1" FormatType="0" />
+<row id="322" CaptionTextID="11030" CompareType="1" FormatType="0" />
+<row id="326" CaptionTextID="-1" CompareType="1" FormatType="0" />
+<row id="327" CaptionTextID="-1" CompareType="1" FormatType="0" />
+<row id="328" CaptionTextID="-1" CompareType="1" FormatType="0" />
+<row id="329" CaptionTextID="-1" CompareType="1" FormatType="0" />
+<row id="330" CaptionTextID="11050" CompareType="1" FormatType="0" />
+<row id="331" CaptionTextID="11051" CompareType="1" FormatType="0" />
+<row id="332" CaptionTextID="11052" CompareType="1" FormatType="0" />
+<row id="333" CaptionTextID="11053" CompareType="1" FormatType="0" />
+<row id="334" CaptionTextID="11054" CompareType="1" FormatType="0" />
+<row id="338" CaptionTextID="11035" CompareType="1" FormatType="0" />
+<row id="339" CaptionTextID="11036" CompareType="1" FormatType="0" />
+<row id="340" CaptionTextID="11020" CompareType="1" FormatType="2" />
+<row id="341" CaptionTextID="11021" CompareType="1" FormatType="2" />
+<row id="342" CaptionTextID="11022" CompareType="1" FormatType="2" />
+<row id="343" CaptionTextID="11023" CompareType="1" FormatType="2" />
+<row id="344" CaptionTextID="11024" CompareType="1" FormatType="2" />
+<row id="345" CaptionTextID="0" CompareType="1" FormatType="10" />
+<row id="346" CaptionTextID="0" CompareType="1" FormatType="10" />
+<row id="347" CaptionTextID="0" CompareType="1" FormatType="10" />
+<row id="348" CaptionTextID="0" CompareType="1" FormatType="10" />
+<row id="349" CaptionTextID="0" CompareType="1" FormatType="10" />
+<row id="350" CaptionTextID="11031" CompareType="1" FormatType="2" />
+<row id="351" CaptionTextID="0" CompareType="1" FormatType="1" />
+<row id="360" CaptionTextID="11300" RequiredPropertyID="10103" CompareType="2" FormatType="0" />
+<row id="361" CaptionTextID="11301" RequiredPropertyID="10104" CompareType="2" FormatType="0" />
+<row id="362" CaptionTextID="11302" RequiredPropertyID="10106" CompareType="2" FormatType="0" />
+<row id="363" CaptionTextID="11303" RequiredPropertyID="10107" CompareType="2" FormatType="0" />
+<row id="364" CaptionTextID="11304" RequiredPropertyID="10109" CompareType="2" FormatType="0" />
+<row id="365" CaptionTextID="0" CompareType="2" FormatType="0" />
+<row id="366" CaptionTextID="0" CompareType="2" FormatType="0" />
+<row id="367" CaptionTextID="0" CompareType="2" FormatType="0" />
+<row id="368" CaptionTextID="0" CompareType="2" FormatType="0" />
+<row id="369" CaptionTextID="0" CompareType="2" FormatType="0" />
+<row id="370" CaptionTextID="11310" CompareType="1" FormatType="100" />
+<row id="371" CaptionTextID="11311" CompareType="1" FormatType="100" />
+<row id="372" CaptionTextID="11312" CompareType="1" FormatType="100" />
+<row id="373" CaptionTextID="11313" CompareType="1" FormatType="100" />
+<row id="374" CaptionTextID="11319" CompareType="1" FormatType="100" />
+<row id="380" CaptionTextID="11350" CompareType="1" FormatType="0" />
+<row id="381" CaptionTextID="11350" CompareType="1" FormatType="0" />
+<row id="385" CaptionTextID="0" IconID="0" CompareType="0" FormatType="0" />
+<row id="386" CaptionTextID="0" IconID="0" CompareType="0" FormatType="0" />
+<row id="387" CaptionTextID="0" IconID="0" CompareType="0" FormatType="0" />
+<row id="388" CaptionTextID="0" IconID="0" CompareType="0" FormatType="0" />
+<row id="389" CaptionTextID="0" IconID="0" CompareType="0" FormatType="0" />
+<row id="390" CaptionTextID="11034" CompareType="2" FormatType="2" />
+<row id="391" CaptionTextID="11034" CompareType="2" FormatType="2" />
+<row id="392" CaptionTextID="11034" CompareType="2" FormatType="2" />
+<row id="393" CaptionTextID="11034" CompareType="2" FormatType="2" />
+<row id="395" CaptionTextID="0" IconID="0" CompareType="0" FormatType="0" />
+<row id="396" CaptionTextID="0" IconID="0" CompareType="0" FormatType="0" />
+<row id="397" CaptionTextID="0" IconID="0" CompareType="0" FormatType="0" />
+<row id="398" CaptionTextID="0" IconID="0" CompareType="0" FormatType="0" />
+<row id="399" CaptionTextID="0" IconID="0" CompareType="0" FormatType="0" />
+<row id="400" CaptionTextID="10530" CompareType="1" FormatType="0" />
+<row id="401" CaptionTextID="10531" CompareType="1" FormatType="0" />
+<row id="402" CaptionTextID="10532" CompareType="1" FormatType="0" />
+<row id="403" CaptionTextID="10533" CompareType="1" FormatType="0" />
+<row id="404" CaptionTextID="10534" CompareType="1" FormatType="0" />
+<row id="405" CaptionTextID="10535" CompareType="1" FormatType="0" />
+<row id="406" CaptionTextID="10536" CompareType="1" FormatType="0" />
+<row id="411" CaptionTextID="11190" CompareType="1" FormatType="0" />
+<row id="412" CaptionTextID="11191" CompareType="1" FormatType="0" />
+<row id="413" CaptionTextID="11193" CompareType="1" FormatType="0" />
+<row id="414" CaptionTextID="-1" CompareType="1" FormatType="0" />
+<row id="415" CaptionTextID="-1" CompareType="1" FormatType="0" />
+<row id="416" CaptionTextID="-1" CompareType="1" FormatType="0" />
+<row id="417" CaptionTextID="11192" CompareType="1" FormatType="0" />
+<row id="418" CaptionTextID="11200" CompareType="1" FormatType="4" />
+<row id="420" CaptionTextID="11350" CompareType="1" FormatType="0" />
+<row id="421" CaptionTextID="11350" CompareType="1" FormatType="0" />
+<row id="430" CaptionTextID="11180" CompareType="2" FormatType="20" />
+<row id="431" CaptionTextID="11181" CompareType="2" FormatType="20" />
+<row id="432" CaptionTextID="11182" CompareType="2" FormatType="20" />
+<row id="433" CaptionTextID="11183" CompareType="2" FormatType="20" />
+<row id="434" CaptionTextID="11184" CompareType="2" FormatType="20" />
+<row id="435" CaptionTextID="11185" CompareType="2" FormatType="20" />
+<row id="436" CaptionTextID="11186" CompareType="2" FormatType="20" />
+<row id="437" CaptionTextID="11187" CompareType="2" FormatType="20" />
+<row id="500" CaptionTextID="11002" CompareType="0" FormatType="0" />
+<row id="501" CaptionTextID="11003" CompareType="0" FormatType="0" />
+<row id="502" CaptionTextID="11040" CompareType="2" FormatType="0" />
+<row id="503" CaptionTextID="11031" CompareType="1" FormatType="0" />
+<row id="504" CaptionTextID="11302" RequiredPropertyID="10106" CompareType="2" FormatType="0" />
+<row id="505" CaptionTextID="11303" RequiredPropertyID="10107" CompareType="2" FormatType="0" />
+<row id="506" CaptionTextID="11304" RequiredPropertyID="10109" CompareType="2" FormatType="0" />
+<row id="520" CaptionTextID="11041" CompareType="2" FormatType="0" />
+<row id="521" CaptionTextID="-1" CompareType="2" FormatType="2" />
+<row id="600" CaptionTextID="11001" CompareType="0" FormatType="120" />
+<row id="601" CaptionTextID="11003" CompareType="0" FormatType="0" />
+<row id="610" CaptionTextID="11010" CompareType="1" FormatType="0" />
+<row id="611" CaptionTextID="11011" CompareType="1" FormatType="0" />
+<row id="612" CaptionTextID="11012" CompareType="1" FormatType="0" />
+<row id="613" CaptionTextID="11013" CompareType="1" FormatType="0" />
+<row id="614" CaptionTextID="11030" CompareType="1" FormatType="0" />
+<row id="615" CaptionTextID="11014" CompareType="1" FormatType="0" />
+<row id="620" CaptionTextID="11050" CompareType="1" FormatType="0" />
+<row id="621" CaptionTextID="11051" CompareType="1" FormatType="0" />
+<row id="622" CaptionTextID="11052" CompareType="1" FormatType="0" />
+<row id="623" CaptionTextID="11053" CompareType="1" FormatType="0" />
+<row id="624" CaptionTextID="11054" CompareType="1" FormatType="0" />
+<row id="700" CaptionTextID="0" CompareType="0" FormatType="0" />
+<row id="701" CaptionTextID="0" CompareType="0" FormatType="0" />
+<row id="702" CaptionTextID="0" CompareType="0" FormatType="0" />
+<row id="710" CaptionTextID="0" CompareType="0" FormatType="0" />
+<row id="711" CaptionTextID="0" CompareType="0" FormatType="0" />
+<row id="712" CaptionTextID="0" CompareType="0" FormatType="0" />
+<row id="800" CaptionTextID="-1" CompareType="0" FormatType="400" />
+<row id="801" CaptionTextID="-1" CompareType="0" FormatType="0" />
+<row id="802" CaptionTextID="-1" CompareType="0" FormatType="0" />
+<row id="803" CaptionTextID="-1" CompareType="0" FormatType="400" />
+<row id="810" CaptionTextID="-1" CompareType="0" FormatType="0" />
+<row id="811" CaptionTextID="-1" CompareType="0" FormatType="0" />
+<row id="820" CaptionTextID="11034" CompareType="2" FormatType="2" />
+<row id="821" CaptionTextID="11034" CompareType="2" FormatType="2" />
+<row id="822" CaptionTextID="11034" CompareType="2" FormatType="2" />
+<row id="900" CaptionTextID="122010" CompareType="0" FormatType="0" />
+<row id="901" CaptionTextID="122020" CompareType="0" FormatType="0" />
+<row id="902" CaptionTextID="122030" CompareType="0" FormatType="0" />
+<row id="903" CaptionTextID="122040" CompareType="0" FormatType="0" />
+<row id="904" CaptionTextID="122050" CompareType="0" FormatType="0" />
+<row id="910" CaptionTextID="122110" CompareType="0" FormatType="0" />
+<row id="911" CaptionTextID="122110" CompareType="0" FormatType="0" />
+<row id="912" CaptionTextID="122110" CompareType="0" FormatType="0" />
+<row id="913" CaptionTextID="122110" CompareType="0" FormatType="0" />
+<row id="914" CaptionTextID="122110" CompareType="0" FormatType="0" />
+<row id="10000" CaptionTextID="10100" CompareType="0" FormatType="0" />
+<row id="10001" CaptionTextID="10101" CompareType="0" FormatType="0" />
+<row id="10002" CaptionTextID="10102" CompareType="0" FormatType="0" />
+<row id="10003" CaptionTextID="10103" CompareType="0" FormatType="0" />
+<row id="10004" CaptionTextID="10104" CompareType="0" FormatType="0" />
+<row id="10005" CaptionTextID="10105" CompareType="0" FormatType="0" />
+<row id="10006" CaptionTextID="10106" CompareType="0" FormatType="0" />
+<row id="10007" CaptionTextID="10107" CompareType="0" FormatType="0" />
+<row id="10008" CaptionTextID="10200" CompareType="1" FormatType="0" />
+<row id="10009" CaptionTextID="10201" IconID="30050" CompareType="1" FormatType="0" />
+<row id="10010" CaptionTextID="10202" IconID="30051" CompareType="0" FormatType="2" />
+<row id="10011" CaptionTextID="10300" CompareType="0" FormatType="110" />
+<row id="10012" CaptionTextID="10301" CompareType="0" FormatType="0" />
+<row id="10013" CaptionTextID="10203" CompareType="2" FormatType="0" />
+<row id="10014" CaptionTextID="-1" CompareType="0" FormatType="0" />
+<row id="10020" CaptionTextID="10410" CompareType="0" FormatType="0" />
+<row id="10021" CaptionTextID="10411" CompareType="0" FormatType="0" />
+<row id="10100" CaptionTextID="10400" CompareType="1" FormatType="0" />
+<row id="10101" CaptionTextID="10401" CompareType="1" FormatType="0" />
+<row id="10102" CaptionTextID="10402" CompareType="1" FormatType="0" />
+<row id="10103" CaptionTextID="10403" CompareType="1" FormatType="0" />
+<row id="10104" CaptionTextID="10404" CompareType="1" FormatType="0" />
+<row id="10105" CaptionTextID="10405" CompareType="1" FormatType="0" />
+<row id="10106" CaptionTextID="10406" CompareType="1" FormatType="0" />
+<row id="10107" CaptionTextID="10407" CompareType="1" FormatType="0" />
+<row id="10108" CaptionTextID="10204" CompareType="1" FormatType="0" />
+<row id="10109" CaptionTextID="10409" CompareType="1" FormatType="0" />
+<row id="10200" CaptionTextID="10500" CompareType="1" FormatType="0" />
+<row id="10201" CaptionTextID="10500" CompareType="1" FormatType="0" />
+<row id="10202" CaptionTextID="10501" CompareType="1" FormatType="0" />
+<row id="10203" CaptionTextID="10501" CompareType="1" FormatType="0" />
+<row id="10204" CaptionTextID="10502" CompareType="1" FormatType="0" />
+<row id="10205" CaptionTextID="10510" CompareType="2" FormatType="0" />
+<row id="10206" CaptionTextID="10512" CompareType="1" FormatType="0" />
+<row id="10207" CaptionTextID="10520" CompareType="1" FormatType="0" />
+<row id="10208" CaptionTextID="10521" CompareType="1" FormatType="0" />
+<row id="10209" CaptionTextID="10522" CompareType="1" FormatType="0" />
+<row id="10210" CaptionTextID="10523" CompareType="1" FormatType="0" />
+<row id="10211" CaptionTextID="10524" CompareType="1" FormatType="0" />
+<row id="10212" CaptionTextID="10525" CompareType="1" FormatType="0" />
+<row id="10213" CaptionTextID="10530" CompareType="1" FormatType="0" />
+<row id="10214" CaptionTextID="10531" CompareType="1" FormatType="0" />
+<row id="10215" CaptionTextID="10532" CompareType="1" FormatType="0" />
+<row id="10216" CaptionTextID="10533" CompareType="1" FormatType="0" />
+<row id="10217" CaptionTextID="10534" CompareType="1" FormatType="0" />
+<row id="10218" CaptionTextID="10535" CompareType="1" FormatType="0" />
+<row id="10219" CaptionTextID="10536" CompareType="1" FormatType="0" />
+<row id="10224" CaptionTextID="10561" CompareType="1" FormatType="0" />
+<row id="10225" CaptionTextID="10562" CompareType="1" FormatType="0" />
+<row id="10226" CaptionTextID="10511" CompareType="2" FormatType="0" />
+<row id="10228" CaptionTextID="-1" CompareType="2" FormatType="50" />
+<row id="10229" CaptionTextID="11200" CompareType="1" FormatType="4" />
+<row id="10242" CaptionTextID="11180" CompareType="2" FormatType="22" />
+<row id="10243" CaptionTextID="11184" CompareType="2" FormatType="22" />
+<row id="10244" CaptionTextID="11205" CompareType="2" FormatType="22" />
+<row id="10245" CaptionTextID="11206" CompareType="2" FormatType="22" />
+<row id="10258" CaptionTextID="10537" CompareType="1" FormatType="0" />
+<row id="10259" CaptionTextID="11201" CompareType="2" FormatType="22" />
+<row id="10260" CaptionTextID="11202" CompareType="2" FormatType="22" />
+<row id="10261" CaptionTextID="11203" CompareType="2" FormatType="22" />
+<row id="10262" CaptionTextID="11207" CompareType="2" FormatType="22" />
+<row id="10270" CaptionTextID="10540" CompareType="1" FormatType="0" />
+<row id="10271" CaptionTextID="10541" CompareType="1" FormatType="0" />
+<row id="10272" CaptionTextID="10543" CompareType="1" FormatType="0" />
+<row id="10273" CaptionTextID="10542" CompareType="1" FormatType="0" />
+<row id="10274" CaptionTextID="-1" CompareType="1" FormatType="0" />
+<row id="10275" CaptionTextID="-1" CompareType="1" FormatType="0" />
+<row id="10276" CaptionTextID="10542" CompareType="1" FormatType="0" />
+<row id="10280" CaptionTextID="10541" CompareType="1" FormatType="0" />
+<row id="10281" CaptionTextID="10540" CompareType="1" FormatType="0" />
+<row id="10282" CaptionTextID="10542" CompareType="1" FormatType="0" />
+<row id="10283" CaptionTextID="10543" CompareType="1" FormatType="0" />
+<row id="10284" CaptionTextID="-1" CompareType="1" FormatType="0" />
+<row id="10285" CaptionTextID="-1" CompareType="1" FormatType="0" />
+<row id="10286" CaptionTextID="10542" CompareType="1" FormatType="0" />
+<row id="20300" CaptionTextID="0" CompareType="1" FormatType="0" />
+<row id="20301" CaptionTextID="0" CompareType="1" FormatType="0" />
+<row id="20302" CaptionTextID="0" CompareType="1" FormatType="0" />
+<row id="20303" CaptionTextID="0" CompareType="1" FormatType="0" />
+<row id="20400" CaptionTextID="0" CompareType="1" FormatType="0" />
+<row id="20401" CaptionTextID="0" CompareType="1" FormatType="0" />
+<row id="20600" CaptionTextID="0" CompareType="1" FormatType="0" />
+<row id="20800" CaptionTextID="0" CompareType="1" FormatType="0" />
+<row id="20801" CaptionTextID="0" CompareType="1" FormatType="0" />
+<row id="30000" CaptionTextID="20003" IconID="33002" CompareType="0" FormatType="0" />
+<row id="30001" CaptionTextID="20007" IconID="33012" CompareType="0" FormatType="0" />
+<row id="39999" CaptionTextID="0" CompareType="1" FormatType="0" />
+<row id="100000" CaptionTextID="0" IconID="0" CompareType="1" FormatType="0" />
+</rows>
+</param>

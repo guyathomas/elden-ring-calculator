@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>CutSceneTextureLoadParam.param</filename>
+<compression>None</compression>
+<type>CUTSCENE_TEXTURE_LOAD_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>CUTSCENE_TEXTURE_LOAD_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="disableParam_NT" type="u8" arraylength="1" bitsize="1" sortid="0" defaultValue="1" />
+<field name="disableParam_Debug" type="u8" arraylength="1" bitsize="1" sortid="1" defaultValue="0" />
+<field name="disableParamReserve1" type="dummy8" arraylength="1" bitsize="6" sortid="9999" defaultValue="[0]" />
+<field name="disableParamReserve2" type="dummy8" arraylength="3" bitsize="-1" sortid="9999" defaultValue="[0|0|0]" />
+<field name="texName_00" type="fixstr" arraylength="16" bitsize="-1" sortid="100" defaultValue="" />
+<field name="texName_01" type="fixstr" arraylength="16" bitsize="-1" sortid="100" defaultValue="" />
+<field name="texName_02" type="fixstr" arraylength="16" bitsize="-1" sortid="100" defaultValue="" />
+<field name="texName_03" type="fixstr" arraylength="16" bitsize="-1" sortid="100" defaultValue="" />
+<field name="texName_04" type="fixstr" arraylength="16" bitsize="-1" sortid="100" defaultValue="" />
+<field name="texName_05" type="fixstr" arraylength="16" bitsize="-1" sortid="100" defaultValue="" />
+<field name="texName_06" type="fixstr" arraylength="16" bitsize="-1" sortid="100" defaultValue="" />
+<field name="texName_07" type="fixstr" arraylength="16" bitsize="-1" sortid="100" defaultValue="" />
+<field name="texName_08" type="fixstr" arraylength="16" bitsize="-1" sortid="100" defaultValue="" />
+<field name="texName_09" type="fixstr" arraylength="16" bitsize="-1" sortid="100" defaultValue="" />
+<field name="texName_10" type="fixstr" arraylength="16" bitsize="-1" sortid="100" defaultValue="" />
+<field name="texName_11" type="fixstr" arraylength="16" bitsize="-1" sortid="100" defaultValue="" />
+<field name="texName_12" type="fixstr" arraylength="16" bitsize="-1" sortid="100" defaultValue="" />
+<field name="texName_13" type="fixstr" arraylength="16" bitsize="-1" sortid="100" defaultValue="" />
+<field name="texName_14" type="fixstr" arraylength="16" bitsize="-1" sortid="100" defaultValue="" />
+<field name="texName_15" type="fixstr" arraylength="16" bitsize="-1" sortid="100" defaultValue="" />
+</fields>
+<rows>
+<row id="0" disableParam_NT="1" disableParam_Debug="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" texName_00="" texName_01="" texName_02="" texName_03="" texName_04="" texName_05="" texName_06="" texName_07="" texName_08="" texName_09="" texName_10="" texName_11="" texName_12="" texName_13="" texName_14="" texName_15="" />
+<row id="12060000" disableParam_NT="1" disableParam_Debug="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" texName_00="c2050" texName_01="" texName_02="" texName_03="" texName_04="" texName_05="" texName_06="" texName_07="" texName_08="" texName_09="" texName_10="" texName_11="" texName_12="" texName_13="" texName_14="" texName_15="" />
+<row id="13000040" disableParam_NT="1" disableParam_Debug="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" texName_00="c2110" texName_01="" texName_02="" texName_03="" texName_04="" texName_05="" texName_06="" texName_07="" texName_08="" texName_09="" texName_10="" texName_11="" texName_12="" texName_13="" texName_14="" texName_15="" />
+<row id="14000010" disableParam_NT="1" disableParam_Debug="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" texName_00="c2030" texName_01="" texName_02="" texName_03="" texName_04="" texName_05="" texName_06="" texName_07="" texName_08="" texName_09="" texName_10="" texName_11="" texName_12="" texName_13="" texName_14="" texName_15="" />
+<row id="15000000" disableParam_NT="1" disableParam_Debug="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" texName_00="c2120" texName_01="" texName_02="" texName_03="" texName_04="" texName_05="" texName_06="" texName_07="" texName_08="" texName_09="" texName_10="" texName_11="" texName_12="" texName_13="" texName_14="" texName_15="" />
+<row id="19000000" disableParam_NT="1" disableParam_Debug="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" texName_00="c2190" texName_01="" texName_02="" texName_03="" texName_04="" texName_05="" texName_06="" texName_07="" texName_08="" texName_09="" texName_10="" texName_11="" texName_12="" texName_13="" texName_14="" texName_15="" />
+<row id="21010000" disableParam_NT="0" disableParam_Debug="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" texName_00="c5130" texName_01="" texName_02="" texName_03="" texName_04="" texName_05="" texName_06="" texName_07="" texName_08="" texName_09="" texName_10="" texName_11="" texName_12="" texName_13="" texName_14="" texName_15="" />
+<row id="21010010" disableParam_NT="0" disableParam_Debug="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" texName_00="c5130" texName_01="" texName_02="" texName_03="" texName_04="" texName_05="" texName_06="" texName_07="" texName_08="" texName_09="" texName_10="" texName_11="" texName_12="" texName_13="" texName_14="" texName_15="" />
+<row id="60510000" disableParam_NT="1" disableParam_Debug="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" texName_00="c3800" texName_01="" texName_02="" texName_03="" texName_04="" texName_05="" texName_06="" texName_07="" texName_08="" texName_09="" texName_10="" texName_11="" texName_12="" texName_13="" texName_14="" texName_15="" />
+<row id="91000000" disableParam_NT="1" disableParam_Debug="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" texName_00="c3800" texName_01="" texName_02="" texName_03="" texName_04="" texName_05="" texName_06="" texName_07="" texName_08="" texName_09="" texName_10="" texName_11="" texName_12="" texName_13="" texName_14="" texName_15="" />
+<row id="99999901" disableParam_NT="0" disableParam_Debug="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" texName_00="" texName_01="" texName_02="" texName_03="" texName_04="" texName_05="" texName_06="" texName_07="" texName_08="" texName_09="" texName_10="" texName_11="" texName_12="" texName_13="" texName_14="" texName_15="" />
+<row id="99999902" disableParam_NT="0" disableParam_Debug="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" texName_00="" texName_01="" texName_02="" texName_03="" texName_04="" texName_05="" texName_06="" texName_07="" texName_08="" texName_09="" texName_10="" texName_11="" texName_12="" texName_13="" texName_14="" texName_15="" />
+</rows>
+</param>

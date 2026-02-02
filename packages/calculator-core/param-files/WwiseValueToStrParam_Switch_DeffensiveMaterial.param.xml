@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>WwiseValueToStrParam_Switch_DeffensiveMaterial.param</filename>
+<compression>None</compression>
+<type>WWISE_VALUE_TO_STR_CONVERT_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>2</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>WWISE_VALUE_TO_STR_CONVERT_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>2</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="disableParam_NT" type="u8" arraylength="1" bitsize="1" sortid="0" defaultValue="0" defaultThreshold="True" />
+<field name="disableParamReserve1" type="dummy8" arraylength="1" bitsize="7" sortid="5" defaultValue="[0]" defaultThreshold="True" />
+<field name="disableParamReserve2" type="dummy8" arraylength="3" bitsize="-1" sortid="6" defaultValue="[0|0|0]" defaultThreshold="True" />
+<field name="ParamStr" type="fixstr" arraylength="32" bitsize="-1" sortid="1" defaultValue="_023_PoisonSwamp" />
+</fields>
+<rows>
+<row id="0" ParamStr="_001_StonePavement" />
+<row id="1" ParamStr="_001_StonePavement" />
+<row id="2" ParamStr="_001_StonePavement" />
+<row id="3" ParamStr="_003_Dirt" />
+<row id="4" ParamStr="_004_Timber" />
+<row id="5" ParamStr="_005_Grass" />
+<row id="6" ParamStr="_006_Gravel" />
+<row id="7" ParamStr="_007_Magma" />
+<row id="8" ParamStr="_008_Wood" />
+<row id="9" ParamStr="_009_Swamp" />
+<row id="10" ParamStr="_001_StonePavement" />
+<row id="11" ParamStr="_011_Iron" />
+<row id="12" ParamStr="_012_FleshAndBlood" />
+<row id="13" ParamStr="_013_Sand" />
+<row id="14" ParamStr="_014_Bone" />
+<row id="15" ParamStr="_015_Ash" />
+<row id="16" ParamStr="_001_StonePavement" />
+<row id="17" ParamStr="_017_Cloth" />
+<row id="18" ParamStr="_018_FallenLeaves" />
+<row id="19" ParamStr="_011_Iron" />
+<row id="20" ParamStr="_020_Paddle" />
+<row id="21" ParamStr="_021_Water" />
+<row id="22" ParamStr="_021_Water" />
+<row id="23" ParamStr="_023_PoisonSwamp" />
+<row id="24" ParamStr="_023_PoisonSwamp" />
+<row id="25" ParamStr="_023_PoisonSwamp" />
+<row id="26" ParamStr="_026_PoisonSwampPaddle" />
+<row id="27" ParamStr="_021_Water" />
+<row id="28" ParamStr="_028_Carpet" />
+<row id="29" ParamStr="_029_None" />
+<row id="30" ParamStr="_001_StonePavement" />
+<row id="31" ParamStr="_001_StonePavement" />
+<row id="32" ParamStr="_001_StonePavement" />
+<row id="33" ParamStr="_001_StonePavement" />
+<row id="34" ParamStr="_001_StonePavement" />
+<row id="35" ParamStr="_012_FleshAndBlood" />
+<row id="36" ParamStr="_026_PoisonSwampPaddle" />
+<row id="37" ParamStr="_023_PoisonSwamp" />
+<row id="38" ParamStr="_023_PoisonSwamp" />
+<row id="39" ParamStr="_023_PoisonSwamp" />
+<row id="40" ParamStr="_001_StonePavement" />
+<row id="41" ParamStr="_001_StonePavement" />
+<row id="42" ParamStr="_001_StonePavement" />
+<row id="43" ParamStr="_043_Snow" />
+<row id="44" ParamStr="_044_Mud" />
+<row id="45" ParamStr="_045_Ice" />
+<row id="46" ParamStr="_023_PoisonSwamp" />
+<row id="47" ParamStr="_023_PoisonSwamp" />
+<row id="48" ParamStr="_023_PoisonSwamp" />
+<row id="49" ParamStr="_023_PoisonSwamp" />
+<row id="52" ParamStr="_023_PoisonSwamp" />
+<row id="60" ParamStr="_023_PoisonSwamp" />
+<row id="61" ParamStr="_023_PoisonSwamp" />
+<row id="62" ParamStr="_007_Magma" />
+<row id="100" ParamStr="_100_IronWeapon" />
+<row id="101" ParamStr="_101_Mercury" />
+<row id="102" ParamStr="_102_WoodWeapon" />
+<row id="103" ParamStr="_103_FleshWeapon" />
+<row id="104" ParamStr="_104_IronShield" />
+<row id="105" ParamStr="_105_WoodShield" />
+<row id="106" ParamStr="_106_Iron" />
+<row id="107" ParamStr="_107_DriedFlesh" />
+<row id="108" ParamStr="_108_LeatherArmor" />
+<row id="109" ParamStr="_109_Flesh" />
+<row id="110" ParamStr="_110_FleshWeakness" />
+<row id="111" ParamStr="_111_FleshWeaknessHuge" />
+<row id="112" ParamStr="_112_HeavyIron" />
+<row id="113" ParamStr="_113_Cloth" />
+<row id="114" ParamStr="_114_Rune" />
+<row id="115" ParamStr="_115_RuneWeakness" />
+<row id="116" ParamStr="_116_StoneSoft" />
+<row id="117" ParamStr="_117_Stone" />
+<row id="118" ParamStr="_118_Mud" />
+<row id="119" ParamStr="_119_LavaWeakness" />
+<row id="120" ParamStr="_120_Lava" />
+<row id="121" ParamStr="_121_Spirit" />
+<row id="122" ParamStr="_122_Crystal" />
+<row id="123" ParamStr="_123_Shell" />
+<row id="124" ParamStr="_124_Bone" />
+<row id="125" ParamStr="_125_Carapace" />
+<row id="126" ParamStr="_126_SpiritWeakness" />
+<row id="127" ParamStr="_127_StoneShield" />
+<row id="128" ParamStr="_128_Wood" />
+<row id="129" ParamStr="_129_HeavyIronShield" />
+<row id="130" ParamStr="_130_WhiteGhost" />
+<row id="131" ParamStr="_130_WhiteGhost" />
+<row id="132" ParamStr="_130_WhiteGhost" />
+<row id="133" ParamStr="_130_WhiteGhost" />
+<row id="134" ParamStr="_134_Shadow" />
+<row id="135" ParamStr="_135_WGhostGuard" />
+<row id="136" ParamStr="_136_BGhostGuard" />
+<row id="137" ParamStr="_137_WGhostEnemyGuard" />
+<row id="138" ParamStr="_138_BGhostEnemyGuard" />
+<row id="139" ParamStr="_139_None" />
+<row id="140" ParamStr="_140_OldMetal" />
+<row id="141" ParamStr="_141_ShadowWeakness" />
+<row id="142" ParamStr="_142_SpiritGeneral" />
+<row id="143" ParamStr="_143_SpiritGeneralWeakness" />
+<row id="144" ParamStr="_144_ChainMail" />
+<row id="145" ParamStr="_145_BodyFluid" />
+<row id="146" ParamStr="_146_BodyFluidWeakness" />
+<row id="147" ParamStr="_147_Rotten" />
+<row id="148" ParamStr="_148_RottenWeakness" />
+<row id="149" ParamStr="_149_IronWeapon_Light" />
+<row id="150" ParamStr="_150_IronWeapon_Middle" />
+<row id="151" ParamStr="_151_IronWeapon_Heavy" />
+<row id="152" ParamStr="_152_WoodWeapon_Heavy" />
+<row id="153" ParamStr="_153_StoneWeapon" />
+<row id="154" ParamStr="_154_StoneWeapon_Light" />
+<row id="155" ParamStr="_155_StoneWeapon_Heavy" />
+<row id="156" ParamStr="_156_MercuryWeapon" />
+<row id="157" ParamStr="_157_CrystalWeapon" />
+<row id="158" ParamStr="_100_IronWeapon" />
+<row id="159" ParamStr="_159_FingerWeapon" />
+<row id="160" ParamStr="_160_IronShield_Light" />
+<row id="161" ParamStr="_161_WoodShield_Heavy" />
+<row id="162" ParamStr="_162_StoneShield_Heavy" />
+<row id="163" ParamStr="_163_CrystalShield" />
+<row id="164" ParamStr="_164_GhostShield" />
+<row id="165" ParamStr="_165_MercuryHard" />
+<row id="166" ParamStr="_166_MalikethRobe" />
+<row id="167" ParamStr="_167_MalikethArmor" />
+<row id="168" ParamStr="_168_MassiveUniverse" />
+<row id="171" ParamStr="_171_Scale" />
+<row id="172" ParamStr="_172_ScaleWeakness" />
+<row id="173" ParamStr="_173_ScaleWeaknessHuge" />
+<row id="174" ParamStr="_174_HardScale" />
+<row id="176" ParamStr="_176_BlackShadow" />
+<row id="151114" ParamStr="_151114" />
+</rows>
+</param>

@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>WwiseValueToStrParam_BgmBossChrIdConv.param</filename>
+<compression>None</compression>
+<type>WWISE_VALUE_TO_STR_CONVERT_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>2</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>WWISE_VALUE_TO_STR_CONVERT_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>2</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="disableParam_NT" type="u8" arraylength="1" bitsize="1" sortid="0" defaultValue="1" defaultThreshold="True" />
+<field name="disableParamReserve1" type="dummy8" arraylength="1" bitsize="7" sortid="5" defaultValue="[0]" defaultThreshold="True" />
+<field name="disableParamReserve2" type="dummy8" arraylength="3" bitsize="-1" sortid="6" defaultValue="[0|0|0]" defaultThreshold="True" />
+<field name="ParamStr" type="fixstr" arraylength="32" bitsize="-1" sortid="1" defaultValue="MidBoss_Melee" />
+</fields>
+<rows>
+<row id="203000" paramdexName="Rennala, Queen of the Full Moon" ParamStr="c2030" />
+<row id="203001" paramdexName="Rennala, Queen of the Full Moon" ParamStr="c2030_B" />
+<row id="211000" paramdexName="Beast Clergyman" ParamStr="c2110" />
+<row id="212000" paramdexName="Malenia, Blade of Miquella" ParamStr="c2120" />
+<row id="213000" paramdexName="Margit, the Fell Omen" disableParam_NT="0" ParamStr="c2130_A" />
+<row id="213001" paramdexName="Morgott, the Omen King" ParamStr="c2130_B" />
+<row id="219000" paramdexName="The Final Battle" ParamStr="c2190" />
+<row id="356000" paramdexName="Godskin Apostles" ParamStr="c3560" />
+<row id="451000" paramdexName="Lichdragon Fortissax" ParamStr="c4510" />
+<row id="452000" paramdexName="Dragonlord Placidusax" ParamStr="c4520" />
+<row id="467000" paramdexName="Regal Ancestor Spirit" ParamStr="c4670" />
+<row id="471000" paramdexName="God-Devouring Serpent" ParamStr="c4710" />
+<row id="472000" paramdexName="Godfrey, The First Elden Lord" ParamStr="c4720" />
+<row id="472001" paramdexName="Lord's Apparition" ParamStr="c4720_B" />
+<row id="473000" paramdexName="Starscourge Radahn" ParamStr="c4730" />
+<row id="475000" paramdexName="Godrick the Grafted" ParamStr="c4750" />
+<row id="476000" paramdexName="Fire Giant" ParamStr="c4760" />
+<row id="480000" paramdexName="Mohg, Lord of Blood" ParamStr="c4800" />
+<row id="502000" ParamStr="c5020" />
+<row id="503000" ParamStr="c5030" />
+<row id="505000" ParamStr="c5050" />
+<row id="512000" ParamStr="c5120" />
+<row id="513000" ParamStr="c5130" />
+<row id="520000" ParamStr="c5200" />
+<row id="521000" ParamStr="c5210" />
+<row id="522000" ParamStr="c5220" />
+<row id="523000" ParamStr="c5230" />
+<row id="530000" ParamStr="c5300" />
+<row id="920100" paramdexName="Death's Kindred" ParamStr="MidBoss_DeathGenus" />
+<row id="920200" paramdexName="Erdtree Knights" disableParam_NT="0" ParamStr="MidBoss_TreeKnights" />
+<row id="920300" paramdexName="Dragon" disableParam_NT="0" ParamStr="MidBoss_Wyvern" />
+<row id="920400" paramdexName="Grave Wardens" ParamStr="MidBoss_UgRemains" />
+<row id="920500" paramdexName="Erdtree Knights" ParamStr="MidBoss_CarianRoyal" />
+<row id="920600" paramdexName="Erdtree Avatar" ParamStr="MidBoss_TreeDaemon" />
+<row id="920700" paramdexName="Astel, Naturalborn of the Void" ParamStr="MidBoss_Aster" />
+<row id="920800" paramdexName="Fallingstar Beast" ParamStr="MidBoss_MeteoricIronBeast" />
+<row id="920900" paramdexName="Formidable Foe II" disableParam_NT="0" ParamStr="MidBoss_BasementRoom" />
+<row id="921000" paramdexName="Fallen Knights" ParamStr="MidBoss_DarkKnights" />
+<row id="921100" paramdexName="The Immured" ParamStr="MidBoss_NewCircle" />
+<row id="921200" paramdexName="The Accursed" ParamStr="MidBoss_Creepy" />
+<row id="921300" paramdexName="Formidable Foe II" ParamStr="MidBoss_FieldDragon" />
+<row id="921400" paramdexName="Red Wolf of Radagon" ParamStr="MidBoss_Wolf" />
+<row id="921500" paramdexName="Black Knives" ParamStr="MidBoss_BlackSword" />
+<row id="921600" paramdexName="Omen Illusion" ParamStr="MidBoss_DaemonPhantom" />
+<row id="921700" paramdexName="Bloody Fingers" ParamStr="MidBoss_DeepBlood" />
+<row id="925000" paramdexName="The Immured" disableParam_NT="0" ParamStr="MidBoss_CircleEvent" />
+<row id="930000" paramdexName="Grave Wardens" disableParam_NT="0" ParamStr="MidBoss_Catacombs" />
+<row id="931000" paramdexName="Formidable Foe I" disableParam_NT="0" ParamStr="MidBoss_Cave" />
+<row id="932000" paramdexName="Grave Wardens" disableParam_NT="0" ParamStr="MidBoss_Tunnel" />
+<row id="940000" ParamStr="MidBoss_Catacombs_B" />
+<row id="941000" ParamStr="MidBoss_Prison" />
+<row id="942000" ParamStr="MidBoss_Godman" />
+<row id="943000" ParamStr="MidBoss_Melee" />
+<row id="944000" ParamStr="MidBoss_MeleeLast" />
+<row id="950000" paramdexName="Old Warriors" ParamStr="MidBoss_Fortress" />
+<row id="10000000" ParamStr="None" />
+<row id="10000001" ParamStr="_BgmSilent" />
+<row id="10000002" ParamStr="c2030" />
+<row id="10000003" ParamStr="c2120" />
+<row id="10000004" ParamStr="c2130_A" />
+<row id="10000005" ParamStr="c2130_B" />
+<row id="10000006" ParamStr="c3560" />
+<row id="10000007" ParamStr="c4670" />
+<row id="10000008" ParamStr="c4720" />
+<row id="10000009" ParamStr="c4730" />
+<row id="10000010" ParamStr="c4750" />
+<row id="10000011" ParamStr="MidBoss_Catacombs" />
+<row id="10000012" ParamStr="MidBoss_Cave" />
+<row id="10000013" ParamStr="MidBoss_Fortress" />
+<row id="10000014" ParamStr="FieldStrongEnemyA" />
+<row id="10000015" ParamStr="FieldStrongEnemyB" />
+<row id="10000016" ParamStr="MidBoss_Tunnel" />
+<row id="10000017" ParamStr="MidBoss_DeathGenus" />
+<row id="10000018" ParamStr="MidBoss_TreeKnights" />
+<row id="10000019" ParamStr="_BgmSilent_MistWall" />
+<row id="10000020" ParamStr="MidBoss_CircleEvent" />
+<row id="10000021" ParamStr="c4710" />
+<row id="10000022" ParamStr="MidBoss_Wyvern" />
+<row id="10000023" ParamStr="MidBoss_UgRemains" />
+<row id="10000024" ParamStr="c4720_B" />
+<row id="10000025" ParamStr="c2030_B" />
+<row id="10000026" ParamStr="c4800" />
+<row id="10000027" ParamStr="c4510" />
+<row id="10000028" ParamStr="MidBoss_TreeDaemon" />
+<row id="10000029" ParamStr="MidBoss_Aster" />
+<row id="10000030" ParamStr="MidBoss_MeteoricIronBeast" />
+<row id="10000031" ParamStr="MidBoss_BasementRoom" />
+<row id="10000032" ParamStr="c2110" />
+<row id="10000033" ParamStr="c2190" />
+<row id="10000034" ParamStr="c4520" />
+<row id="10000035" ParamStr="c4760" />
+<row id="10000036" ParamStr="MidBoss_CarianRoyal" />
+<row id="10000037" ParamStr="MidBoss_DarkKnights" />
+<row id="10000038" ParamStr="MidBoss_NewCircle" />
+<row id="10000039" ParamStr="MidBoss_Creepy" />
+<row id="10000040" ParamStr="MidBoss_FieldDragon" />
+<row id="10000041" ParamStr="MidBoss_Wolf" />
+<row id="10000042" ParamStr="MidBoss_BlackSword" />
+<row id="10000043" ParamStr="MidBoss_DaemonPhantom" />
+<row id="10000044" ParamStr="MidBoss_DeepBlood" />
+<row id="10000045" ParamStr="EventBoss_Reserved08" />
+<row id="10000046" ParamStr="EventBoss_Reserved09" />
+<row id="10000047" ParamStr="EventBoss_Reserved10" />
+<row id="10000048" ParamStr="EventBoss_Reserved11" />
+<row id="10000049" ParamStr="EventBoss_Reserved12" />
+<row id="10000050" ParamStr="EventBoss_Reserved13" />
+<row id="10000051" ParamStr="EventBoss_Reserved14" />
+<row id="10000052" ParamStr="EventBoss_Reserved15" />
+<row id="10000053" ParamStr="FieldBoss_Lv02" />
+<row id="10000054" ParamStr="FieldBoss_Lv03" />
+<row id="10000055" ParamStr="FieldBoss_Lv04" />
+<row id="10000056" ParamStr="FieldBoss_Lv05" />
+<row id="10000057" ParamStr="FieldBoss_Lv06" />
+<row id="10000058" ParamStr="FieldBoss_Lv07" />
+<row id="10000059" ParamStr="FieldBoss_Lv08" />
+<row id="10000060" ParamStr="FieldBoss_Lv09" />
+<row id="10000061" ParamStr="FieldBoss_Lv10" />
+<row id="10000062" ParamStr="FieldBoss_Lv11" />
+<row id="10000063" ParamStr="FieldBoss_Lv12" />
+<row id="10000064" ParamStr="FieldBoss_Lv13" />
+<row id="10000065" ParamStr="FieldBoss_Lv14" />
+<row id="10000066" ParamStr="FieldBoss_Lv15" />
+<row id="10000067" ParamStr="FieldBoss_Lv16" />
+<row id="10000068" ParamStr="FieldBoss_Lv17" />
+<row id="10000069" ParamStr="FieldBoss_Lv18" />
+<row id="10000070" ParamStr="FieldBoss_Lv19" />
+<row id="10000071" ParamStr="FieldBoss_Lv20" />
+<row id="10000072" ParamStr="FieldBoss_Lv21" />
+<row id="10000073" ParamStr="FieldBoss_Lv22" />
+<row id="10000074" ParamStr="FieldBoss_Lv23" />
+<row id="10000075" ParamStr="FieldBoss_Lv24" />
+<row id="10000076" ParamStr="FieldBoss_Lv25" />
+<row id="10000077" ParamStr="FieldBoss_Lv26" />
+<row id="10000078" ParamStr="FieldBoss_Lv27" />
+<row id="10000079" ParamStr="FieldBoss_Lv28" />
+<row id="10000080" ParamStr="FieldBoss_Lv29" />
+<row id="10000081" ParamStr="FieldBoss_Lv30" />
+<row id="10000082" ParamStr="FieldBoss_Lv31" />
+<row id="10000083" ParamStr="MultiHostile_00" />
+<row id="10000084" ParamStr="MultiHostile_01" />
+<row id="10000085" ParamStr="MultiHostile_02" />
+<row id="10000086" ParamStr="MultiHostile_03" />
+<row id="10000087" ParamStr="MultiHostile_04" />
+<row id="10000088" ParamStr="MultiHostile_05" />
+<row id="10000089" ParamStr="Reserved" />
+<row id="10000090" ParamStr="MidBoss_Prison" />
+<row id="10000091" ParamStr="MidBoss_Catacombs_B" />
+<row id="10000092" ParamStr="c5020" />
+<row id="10000093" ParamStr="c5030" />
+<row id="10000094" ParamStr="c5050" />
+<row id="10000095" ParamStr="c5120" />
+<row id="10000096" ParamStr="c5130" />
+<row id="10000097" ParamStr="c5220" />
+<row id="10000098" ParamStr="c5200" />
+<row id="10000099" ParamStr="c5210" />
+<row id="10000100" ParamStr="c5300" />
+<row id="10000101" ParamStr="c5230" />
+<row id="10000102" ParamStr="MidBoss_Godman" />
+<row id="10000103" ParamStr="MidBoss_MeleeLast" />
+<row id="10000104" ParamStr="MidBoss_Melee" />
+<row id="11000000" ParamStr="Bgm_000_Green" />
+<row id="11000001" ParamStr="Bgm_010_Lake" />
+<row id="11000002" ParamStr="Bgm_020_Mountain" />
+<row id="11000003" ParamStr="Bgm_030_Plain" />
+<row id="11000004" ParamStr="Bgm_040_Snow" />
+<row id="11000005" ParamStr="Bgm_100_Castle" />
+<row id="11000006" ParamStr="Bgm_110_KingCity" />
+<row id="11000007" ParamStr="Bgm_120_UgLabyrinth" />
+<row id="11000008" ParamStr="Bgm_121_UgLabyrinth_Ruins" />
+<row id="11000009" ParamStr="Bgm_130_Remains" />
+<row id="11000010" ParamStr="Bgm_140_Academy" />
+<row id="11000011" ParamStr="Bgm_150_RottenBigTree" />
+<row id="11000012" ParamStr="Bgm_160_VolcanoPrison" />
+<row id="11000013" ParamStr="Bgm_180_Tutorial" />
+<row id="11000014" ParamStr="Bgm_190_Ritual" />
+<row id="11000015" ParamStr="Bgm_300_Catacombs" />
+<row id="11000016" ParamStr="Bgm_310_Cave" />
+<row id="11000017" ParamStr="Bgm_320_Tunnel" />
+<row id="11000018" ParamStr="Bgm_340_Tower" />
+<row id="11000019" ParamStr="Bgm_350_UgKingCity" />
+<row id="11000020" ParamStr="Bgm_351_UgKingCity_Tomb" />
+<row id="11000021" ParamStr="Bgm_390_CliffTunnel" />
+<row id="11000022" ParamStr="Bgm_500_Fortress" />
+<row id="11000023" ParamStr="Bgm_999_None" />
+<row id="11000024" ParamStr="Bgm_021_Volcano" />
+<row id="11000025" ParamStr="Bgm_041_SnowUnder" />
+<row id="11000026" ParamStr="Bgm_111_Hub" />
+<row id="11000027" ParamStr="Bgm_161_VolcanoHall" />
+<row id="11000028" ParamStr="Bgm_151_RottenBigTreeLatter" />
+<row id="11000029" ParamStr="Bgm_501_FortressPlain" />
+<row id="11000030" ParamStr="Bgm_502_FortressPlainFes" />
+<row id="11000031" ParamStr="Bgm_200_TowerLow" />
+<row id="11000032" ParamStr="Bgm_201_TowerHigh" />
+<row id="11000033" ParamStr="Bgm_202_TowerRevival" />
+<row id="11000034" ParamStr="Bgm_210_CenterFortress" />
+<row id="11000035" ParamStr="Bgm_220_Ark" />
+<row id="11000036" ParamStr="Bgm_250_Nursery" />
+<row id="11000037" ParamStr="Bgm_280_Hall" />
+<row id="11000038" ParamStr="Bgm_400_Catacombs_B" />
+<row id="11000039" ParamStr="Bgm_410_Prison" />
+<row id="11000040" ParamStr="Bgm_420_Blacksmith" />
+<row id="11000041" ParamStr="Bgm_430_Cave_B" />
+<row id="11000042" ParamStr="Bgm_050_Cemetery" />
+<row id="11000043" ParamStr="Bgm_051_CemeteryLatter" />
+<row id="11000044" ParamStr="Bgm_052_Hill" />
+<row id="11000045" ParamStr="Bgm_053_DarkTree" />
+<row id="11000046" ParamStr="Bgm_054_AbyssForest" />
+<row id="11000047" ParamStr="Bgm_550_RoadFortress" />
+<row id="11000048" ParamStr="Bgm_221_Npc405" />
+<row id="11000049" ParamStr="Bgm_560_MtDragon" />
+<row id="11000050" ParamStr="Bgm_561_Frontier" />
+<row id="11000051" ParamStr="Bgm_562_FingerRuin" />
+<row id="11000052" ParamStr="Bgm_563_MediumVil" />
+</rows>
+</param>

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>BulletCreateLimitParam.param</filename>
+<compression>None</compression>
+<type>BULLET_CREATE_LIMIT_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>BULLET_CREATE_LIMIT_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="limitNum_byGroup" type="u8" arraylength="1" bitsize="-1" sortid="10000" defaultValue="1" />
+<field name="isLimitEachOwner" type="u8" arraylength="1" bitsize="1" sortid="10100" defaultValue="1" />
+<field name="pad2" type="dummy8" arraylength="1" bitsize="7" sortid="10101" defaultValue="[0]" />
+<field name="pad" type="dummy8" arraylength="30" bitsize="-1" sortid="10102" defaultValue="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+</fields>
+<rows>
+<row id="0" limitNum_byGroup="0" isLimitEachOwner="0" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="1" limitNum_byGroup="3" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="2" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="3" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="4" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="5" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="6" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="7" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="8" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="9" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="10" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="11" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="12" limitNum_byGroup="5" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="13" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="14" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="15" limitNum_byGroup="17" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="16" limitNum_byGroup="2" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="17" limitNum_byGroup="14" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="18" limitNum_byGroup="30" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="19" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="20" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="21" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="22" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="23" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="24" limitNum_byGroup="12" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="25" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="26" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="27" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="28" limitNum_byGroup="3" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="29" limitNum_byGroup="3" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="30" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="31" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="32" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="33" limitNum_byGroup="2" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="34" limitNum_byGroup="2" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="35" limitNum_byGroup="2" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="36" limitNum_byGroup="2" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="37" limitNum_byGroup="2" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="38" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="39" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="40" limitNum_byGroup="5" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="41" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="42" limitNum_byGroup="2" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="43" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="44" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="50" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="51" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="52" limitNum_byGroup="2" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="55" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="56" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="60" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="61" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="62" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="63" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="64" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="65" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="66" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="67" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="70" limitNum_byGroup="1" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="80" limitNum_byGroup="2" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="90" limitNum_byGroup="3" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="91" limitNum_byGroup="3" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="92" limitNum_byGroup="6" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="93" limitNum_byGroup="6" isLimitEachOwner="1" pad2="[0]" pad="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+</rows>
+</param>

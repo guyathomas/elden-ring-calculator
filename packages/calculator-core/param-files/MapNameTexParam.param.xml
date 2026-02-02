@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>MapNameTexParam.param</filename>
+<compression>None</compression>
+<type>MAP_NAME_TEX_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>MAP_NAME_TEX_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="disableParam_NT" type="u8" arraylength="1" bitsize="1" sortid="0" defaultValue="0" />
+<field name="disableParamReserve1" type="dummy8" arraylength="1" bitsize="7" sortid="201" defaultValue="[0]" />
+<field name="disableParamReserve2" type="dummy8" arraylength="3" bitsize="-1" sortid="202" defaultValue="[0|0|0]" />
+<field name="srcR" type="u8" arraylength="1" bitsize="-1" sortid="110" defaultValue="0" />
+<field name="srcG" type="u8" arraylength="1" bitsize="-1" sortid="120" defaultValue="127" />
+<field name="srcB" type="u8" arraylength="1" bitsize="-1" sortid="130" defaultValue="0" />
+<field name="pad1" type="dummy8" arraylength="1" bitsize="-1" sortid="203" defaultValue="[0]" />
+<field name="mapNameId" type="s32" arraylength="1" bitsize="-1" sortid="200" defaultValue="0" />
+<field name="pad2" type="dummy8" arraylength="4" bitsize="-1" sortid="204" defaultValue="[0|0|0|0]" />
+</fields>
+<rows>
+<row id="10" paramdexName="Limgrave" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="0" srcG="255" srcB="0" pad1="[0]" mapNameId="-61000" pad2="[0|0|0|0]" />
+<row id="11" paramdexName="Limgrave" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="0" srcG="223" srcB="0" pad1="[0]" mapNameId="61000" pad2="[0|0|0|0]" />
+<row id="12" paramdexName="Stormhill" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="0" srcG="191" srcB="191" pad1="[0]" mapNameId="-61001" pad2="[0|0|0|0]" />
+<row id="13" paramdexName="Stormhill" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="0" srcG="223" srcB="191" pad1="[0]" mapNameId="61001" pad2="[0|0|0|0]" />
+<row id="15" paramdexName="Weeping Peninsula" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="15" srcG="127" srcB="15" pad1="[0]" mapNameId="-61002" pad2="[0|0|0|0]" />
+<row id="16" paramdexName="Weeping Peninsula" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="15" srcG="191" srcB="15" pad1="[0]" mapNameId="61002" pad2="[0|0|0|0]" />
+<row id="20" paramdexName="Liurnia of the Lakes" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="15" srcG="15" srcB="127" pad1="[0]" mapNameId="-62000" pad2="[0|0|0|0]" />
+<row id="21" paramdexName="Liurnia of the Lakes" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="0" srcG="127" srcB="223" pad1="[0]" mapNameId="62000" pad2="[0|0|0|0]" />
+<row id="22" paramdexName="Bellum Highway" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="0" srcG="255" srcB="255" pad1="[0]" mapNameId="-62001" pad2="[0|0|0|0]" />
+<row id="23" paramdexName="Bellum Highway" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="0" srcG="223" srcB="223" pad1="[0]" mapNameId="62001" pad2="[0|0|0|0]" />
+<row id="24" paramdexName="Moonlight Altar" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="0" srcG="0" srcB="255" pad1="[0]" mapNameId="-62002" pad2="[0|0|0|0]" />
+<row id="25" paramdexName="Moonlight Altar" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="0" srcG="0" srcB="223" pad1="[0]" mapNameId="62002" pad2="[0|0|0|0]" />
+<row id="30" paramdexName="Altus Plateau" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="255" srcB="191" pad1="[0]" mapNameId="-63000" pad2="[0|0|0|0]" />
+<row id="31" paramdexName="Altus Plateau" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="223" srcB="191" pad1="[0]" mapNameId="63000" pad2="[0|0|0|0]" />
+<row id="32" paramdexName="Capital Outskirts" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="207" srcB="0" pad1="[0]" mapNameId="-63002" pad2="[0|0|0|0]" />
+<row id="33" paramdexName="Capital Outskirts" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="191" srcB="0" pad1="[0]" mapNameId="63002" pad2="[0|0|0|0]" />
+<row id="34" paramdexName="Mt. Gelmir" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="159" srcB="0" pad1="[0]" mapNameId="-63001" pad2="[0|0|0|0]" />
+<row id="35" paramdexName="Mt. Gelmir" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="127" srcB="0" pad1="[0]" mapNameId="63001" pad2="[0|0|0|0]" />
+<row id="36" paramdexName="Forbidden Lands" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="191" srcG="223" srcB="191" pad1="[0]" mapNameId="-63003" pad2="[0|0|0|0]" />
+<row id="37" paramdexName="Forbidden Lands" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="191" srcG="239" srcB="191" pad1="[0]" mapNameId="63003" pad2="[0|0|0|0]" />
+<row id="40" paramdexName="Caelid" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="0" srcB="0" pad1="[0]" mapNameId="-64000" pad2="[0|0|0|0]" />
+<row id="41" paramdexName="Caelid" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="223" srcG="0" srcB="0" pad1="[0]" mapNameId="64000" pad2="[0|0|0|0]" />
+<row id="42" paramdexName="Greyoll's Dragonbarrow" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="127" srcB="127" pad1="[0]" mapNameId="-64001" pad2="[0|0|0|0]" />
+<row id="43" paramdexName="Greyoll's Dragonbarrow" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="207" srcG="127" srcB="127" pad1="[0]" mapNameId="64001" pad2="[0|0|0|0]" />
+<row id="44" paramdexName="Swamp of Aeonia" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="127" srcB="255" pad1="[0]" mapNameId="-64002" pad2="[0|0|0|0]" />
+<row id="45" paramdexName="Swamp of Aeonia" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="223" srcG="127" srcB="223" pad1="[0]" mapNameId="64002" pad2="[0|0|0|0]" />
+<row id="50" paramdexName="Mountaintops of the Giants" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="191" srcG="191" srcB="191" pad1="[0]" mapNameId="-65000" pad2="[0|0|0|0]" />
+<row id="51" paramdexName="Mountaintops of the Giants" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="223" srcG="223" srcB="223" pad1="[0]" mapNameId="65000" pad2="[0|0|0|0]" />
+<row id="52" paramdexName="Flame Peak" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="159" srcG="127" srcB="127" pad1="[0]" mapNameId="-65001" pad2="[0|0|0|0]" />
+<row id="53" paramdexName="Flame Peak" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="159" srcG="159" srcB="159" pad1="[0]" mapNameId="65001" pad2="[0|0|0|0]" />
+<row id="54" paramdexName="Consecrated Snowfield" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="223" srcG="223" srcB="239" pad1="[0]" mapNameId="-65002" pad2="[0|0|0|0]" />
+<row id="55" paramdexName="Consecrated Snowfield" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="239" srcG="239" srcB="239" pad1="[0]" mapNameId="65002" pad2="[0|0|0|0]" />
+<row id="255" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="0" srcG="0" srcB="0" pad1="[0]" mapNameId="0" pad2="[0|0|0|0]" />
+</rows>
+</param>

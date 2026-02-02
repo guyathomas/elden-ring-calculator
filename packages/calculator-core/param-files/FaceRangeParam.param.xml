@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>FaceRangeParam.param</filename>
+<compression>None</compression>
+<type>FACE_RANGE_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>3</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>FACE_RANGE_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>3</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="face_partsId" type="f32" arraylength="1" bitsize="-1" sortid="1000" defaultValue="255" />
+<field name="skin_color_R" type="f32" arraylength="1" bitsize="-1" sortid="1010" defaultValue="0.9" />
+<field name="skin_color_G" type="f32" arraylength="1" bitsize="-1" sortid="1011" defaultValue="0.9" />
+<field name="skin_color_B" type="f32" arraylength="1" bitsize="-1" sortid="1012" defaultValue="0.9" />
+<field name="skin_gloss" type="f32" arraylength="1" bitsize="-1" sortid="1020" defaultValue="1" />
+<field name="skin_pores" type="f32" arraylength="1" bitsize="-1" sortid="1030" defaultValue="1" />
+<field name="face_beard" type="f32" arraylength="1" bitsize="-1" sortid="1040" defaultValue="1" />
+<field name="face_aroundEye" type="f32" arraylength="1" bitsize="-1" sortid="1050" defaultValue="1" />
+<field name="face_aroundEyeColor_R" type="f32" arraylength="1" bitsize="-1" sortid="1060" defaultValue="3" />
+<field name="face_aroundEyeColor_G" type="f32" arraylength="1" bitsize="-1" sortid="1061" defaultValue="3" />
+<field name="face_aroundEyeColor_B" type="f32" arraylength="1" bitsize="-1" sortid="1062" defaultValue="3" />
+<field name="face_cheek" type="f32" arraylength="1" bitsize="-1" sortid="1070" defaultValue="1" />
+<field name="face_cheekColor_R" type="f32" arraylength="1" bitsize="-1" sortid="1080" defaultValue="3" />
+<field name="face_cheekColor_G" type="f32" arraylength="1" bitsize="-1" sortid="1081" defaultValue="3" />
+<field name="face_cheekColor_B" type="f32" arraylength="1" bitsize="-1" sortid="1082" defaultValue="3" />
+<field name="face_eyeLine" type="f32" arraylength="1" bitsize="-1" sortid="1090" defaultValue="20" />
+<field name="face_eyeLineColor_R" type="f32" arraylength="1" bitsize="-1" sortid="1100" defaultValue="0.4" />
+<field name="face_eyeLineColor_G" type="f32" arraylength="1" bitsize="-1" sortid="1101" defaultValue="0.4" />
+<field name="face_eyeLineColor_B" type="f32" arraylength="1" bitsize="-1" sortid="1102" defaultValue="0.4" />
+<field name="face_eyeShadowDown" type="f32" arraylength="1" bitsize="-1" sortid="1110" defaultValue="1" />
+<field name="face_eyeShadowDownColor_R" type="f32" arraylength="1" bitsize="-1" sortid="1120" defaultValue="0.4" />
+<field name="face_eyeShadowDownColor_G" type="f32" arraylength="1" bitsize="-1" sortid="1121" defaultValue="0.4" />
+<field name="face_eyeShadowDownColor_B" type="f32" arraylength="1" bitsize="-1" sortid="1122" defaultValue="0.4" />
+<field name="face_eyeShadowUp" type="f32" arraylength="1" bitsize="-1" sortid="1130" defaultValue="1" />
+<field name="face_eyeShadowUpColor_R" type="f32" arraylength="1" bitsize="-1" sortid="1140" defaultValue="0.7" />
+<field name="face_eyeShadowUpColor_G" type="f32" arraylength="1" bitsize="-1" sortid="1141" defaultValue="0.7" />
+<field name="face_eyeShadowUpColor_B" type="f32" arraylength="1" bitsize="-1" sortid="1142" defaultValue="0.7" />
+<field name="face_lip" type="f32" arraylength="1" bitsize="-1" sortid="1150" defaultValue="1" />
+<field name="face_lipColor_R" type="f32" arraylength="1" bitsize="-1" sortid="1160" defaultValue="0.4" />
+<field name="face_lipColor_G" type="f32" arraylength="1" bitsize="-1" sortid="1161" defaultValue="0.4" />
+<field name="face_lipColor_B" type="f32" arraylength="1" bitsize="-1" sortid="1162" defaultValue="0.4" />
+<field name="body_hair" type="f32" arraylength="1" bitsize="-1" sortid="1200" defaultValue="1" />
+<field name="body_hairColor_R" type="f32" arraylength="1" bitsize="-1" sortid="1210" defaultValue="1" />
+<field name="body_hairColor_G" type="f32" arraylength="1" bitsize="-1" sortid="1211" defaultValue="1" />
+<field name="body_hairColor_B" type="f32" arraylength="1" bitsize="-1" sortid="1212" defaultValue="1" />
+<field name="eye_partsId" type="f32" arraylength="1" bitsize="-1" sortid="1300" defaultValue="255" />
+<field name="eyeR_irisColor_R" type="f32" arraylength="1" bitsize="-1" sortid="1400" defaultValue="1" />
+<field name="eyeR_irisColor_G" type="f32" arraylength="1" bitsize="-1" sortid="1401" defaultValue="1" />
+<field name="eyeR_irisColor_B" type="f32" arraylength="1" bitsize="-1" sortid="1402" defaultValue="1" />
+<field name="eyeR_irisScale" type="f32" arraylength="1" bitsize="-1" sortid="1410" defaultValue="0.9" />
+<field name="eyeR_cataract" type="f32" arraylength="1" bitsize="-1" sortid="1420" defaultValue="1" />
+<field name="eyeR_cataractColor_R" type="f32" arraylength="1" bitsize="-1" sortid="1430" defaultValue="1" />
+<field name="eyeR_cataractColor_G" type="f32" arraylength="1" bitsize="-1" sortid="1431" defaultValue="1" />
+<field name="eyeR_cataractColor_B" type="f32" arraylength="1" bitsize="-1" sortid="1432" defaultValue="1" />
+<field name="eyeR_scleraColor_R" type="f32" arraylength="1" bitsize="-1" sortid="1440" defaultValue="1" />
+<field name="eyeR_scleraColor_G" type="f32" arraylength="1" bitsize="-1" sortid="1441" defaultValue="1" />
+<field name="eyeR_scleraColor_B" type="f32" arraylength="1" bitsize="-1" sortid="1442" defaultValue="1" />
+<field name="eyeR_irisDistance" type="f32" arraylength="1" bitsize="-1" sortid="1450" defaultValue="0.3" />
+<field name="eyeL_irisColor_R" type="f32" arraylength="1" bitsize="-1" sortid="1500" defaultValue="1" />
+<field name="eyeL_irisColor_G" type="f32" arraylength="1" bitsize="-1" sortid="1501" defaultValue="1" />
+<field name="eyeL_irisColor_B" type="f32" arraylength="1" bitsize="-1" sortid="1502" defaultValue="1" />
+<field name="eyeL_irisScale" type="f32" arraylength="1" bitsize="-1" sortid="1510" defaultValue="0.9" />
+<field name="eyeL_cataract" type="f32" arraylength="1" bitsize="-1" sortid="1520" defaultValue="1" />
+<field name="eyeL_cataractColor_R" type="f32" arraylength="1" bitsize="-1" sortid="1530" defaultValue="1" />
+<field name="eyeL_cataractColor_G" type="f32" arraylength="1" bitsize="-1" sortid="1531" defaultValue="1" />
+<field name="eyeL_cataractColor_B" type="f32" arraylength="1" bitsize="-1" sortid="1532" defaultValue="1" />
+<field name="eyeL_scleraColor_R" type="f32" arraylength="1" bitsize="-1" sortid="1540" defaultValue="1" />
+<field name="eyeL_scleraColor_G" type="f32" arraylength="1" bitsize="-1" sortid="1541" defaultValue="1" />
+<field name="eyeL_scleraColor_B" type="f32" arraylength="1" bitsize="-1" sortid="1542" defaultValue="1" />
+<field name="eyeL_irisDistance" type="f32" arraylength="1" bitsize="-1" sortid="1550" defaultValue="0.3" />
+<field name="hair_partsId" type="f32" arraylength="1" bitsize="-1" sortid="1600" defaultValue="255" />
+<field name="hair_color_R" type="f32" arraylength="1" bitsize="-1" sortid="1610" defaultValue="0.8" />
+<field name="hair_color_G" type="f32" arraylength="1" bitsize="-1" sortid="1611" defaultValue="0.8" />
+<field name="hair_color_B" type="f32" arraylength="1" bitsize="-1" sortid="1612" defaultValue="0.8" />
+<field name="hair_shininess" type="f32" arraylength="1" bitsize="-1" sortid="1620" defaultValue="0.7" />
+<field name="hair_rootBlack" type="f32" arraylength="1" bitsize="-1" sortid="1630" defaultValue="1" />
+<field name="hair_whiteDensity" type="f32" arraylength="1" bitsize="-1" sortid="1640" defaultValue="1" />
+<field name="beard_partsId" type="f32" arraylength="1" bitsize="-1" sortid="1700" defaultValue="255" />
+<field name="beard_color_R" type="f32" arraylength="1" bitsize="-1" sortid="1710" defaultValue="0.8" />
+<field name="beard_color_G" type="f32" arraylength="1" bitsize="-1" sortid="1711" defaultValue="0.8" />
+<field name="beard_color_B" type="f32" arraylength="1" bitsize="-1" sortid="1712" defaultValue="0.8" />
+<field name="beard_shininess" type="f32" arraylength="1" bitsize="-1" sortid="1720" defaultValue="0.7" />
+<field name="beard_rootBlack" type="f32" arraylength="1" bitsize="-1" sortid="1730" defaultValue="1" />
+<field name="beard_whiteDensity" type="f32" arraylength="1" bitsize="-1" sortid="1740" defaultValue="1" />
+<field name="eyebrow_partsId" type="f32" arraylength="1" bitsize="-1" sortid="1800" defaultValue="255" />
+<field name="eyebrow_color_R" type="f32" arraylength="1" bitsize="-1" sortid="1810" defaultValue="0.8" />
+<field name="eyebrow_color_G" type="f32" arraylength="1" bitsize="-1" sortid="1811" defaultValue="0.8" />
+<field name="eyebrow_color_B" type="f32" arraylength="1" bitsize="-1" sortid="1812" defaultValue="0.8" />
+<field name="eyebrow_shininess" type="f32" arraylength="1" bitsize="-1" sortid="1820" defaultValue="0.7" />
+<field name="eyebrow_rootBlack" type="f32" arraylength="1" bitsize="-1" sortid="1830" defaultValue="1" />
+<field name="eyebrow_whiteDensity" type="f32" arraylength="1" bitsize="-1" sortid="1840" defaultValue="1" />
+<field name="eyelash_partsId" type="f32" arraylength="1" bitsize="-1" sortid="1900" defaultValue="255" />
+<field name="eyelash_color_R" type="f32" arraylength="1" bitsize="-1" sortid="1910" defaultValue="0.8" />
+<field name="eyelash_color_G" type="f32" arraylength="1" bitsize="-1" sortid="1911" defaultValue="0.8" />
+<field name="eyelash_color_B" type="f32" arraylength="1" bitsize="-1" sortid="1912" defaultValue="0.8" />
+<field name="accessories_partsId" type="f32" arraylength="1" bitsize="-1" sortid="2000" defaultValue="255" />
+<field name="accessories_color_R" type="f32" arraylength="1" bitsize="-1" sortid="2010" defaultValue="0.8" />
+<field name="accessories_color_G" type="f32" arraylength="1" bitsize="-1" sortid="2011" defaultValue="0.8" />
+<field name="accessories_color_B" type="f32" arraylength="1" bitsize="-1" sortid="2012" defaultValue="0.8" />
+<field name="decal_partsId" type="f32" arraylength="1" bitsize="-1" sortid="2100" defaultValue="255" />
+<field name="decal_posX" type="f32" arraylength="1" bitsize="-1" sortid="2110" defaultValue="0.4" />
+<field name="decal_posY" type="f32" arraylength="1" bitsize="-1" sortid="2111" defaultValue="0.4" />
+<field name="decal_angle" type="f32" arraylength="1" bitsize="-1" sortid="2120" defaultValue="3.14" />
+<field name="decal_scale" type="f32" arraylength="1" bitsize="-1" sortid="2130" defaultValue="1" />
+<field name="decal_color_R" type="f32" arraylength="1" bitsize="-1" sortid="2140" defaultValue="1" />
+<field name="decal_color_G" type="f32" arraylength="1" bitsize="-1" sortid="2141" defaultValue="1" />
+<field name="decal_color_B" type="f32" arraylength="1" bitsize="-1" sortid="2142" defaultValue="1" />
+<field name="decal_gloss" type="f32" arraylength="1" bitsize="-1" sortid="2150" defaultValue="1" />
+<field name="decal_mirror" type="f32" arraylength="1" bitsize="-1" sortid="2160" defaultValue="1" />
+<field name="chrBodyScaleHead" type="f32" arraylength="1" bitsize="-1" sortid="2500" defaultValue="1" />
+<field name="chrBodyScaleBreast" type="f32" arraylength="1" bitsize="-1" sortid="2510" defaultValue="1" />
+<field name="chrBodyScaleAbdomen" type="f32" arraylength="1" bitsize="-1" sortid="2520" defaultValue="1" />
+<field name="chrBodyScaleArm" type="f32" arraylength="1" bitsize="-1" sortid="2530" defaultValue="1" />
+<field name="chrBodyScaleLeg" type="f32" arraylength="1" bitsize="-1" sortid="2540" defaultValue="1" />
+<field name="age" type="f32" arraylength="1" bitsize="-1" sortid="3000" defaultValue="60" />
+<field name="gender" type="f32" arraylength="1" bitsize="-1" sortid="3100" defaultValue="4" />
+<field name="caricatureGeometry" type="f32" arraylength="1" bitsize="-1" sortid="3200" defaultValue="2" />
+<field name="caricatureTexture" type="f32" arraylength="1" bitsize="-1" sortid="3300" defaultValue="2" />
+<field name="faceGeoData00" type="f32" arraylength="1" bitsize="-1" sortid="3400" defaultValue="-10" />
+<field name="faceGeoData01" type="f32" arraylength="1" bitsize="-1" sortid="3401" defaultValue="10" />
+<field name="faceGeoData02" type="f32" arraylength="1" bitsize="-1" sortid="3402" defaultValue="-10" />
+<field name="faceGeoData03" type="f32" arraylength="1" bitsize="-1" sortid="3403" defaultValue="10" />
+<field name="faceGeoData04" type="f32" arraylength="1" bitsize="-1" sortid="3404" defaultValue="10" />
+<field name="faceGeoData05" type="f32" arraylength="1" bitsize="-1" sortid="3405" defaultValue="10" />
+<field name="faceGeoData06" type="f32" arraylength="1" bitsize="-1" sortid="3406" defaultValue="10" />
+<field name="faceGeoData07" type="f32" arraylength="1" bitsize="-1" sortid="3407" defaultValue="-10" />
+<field name="faceGeoData08" type="f32" arraylength="1" bitsize="-1" sortid="3408" defaultValue="10" />
+<field name="faceGeoData09" type="f32" arraylength="1" bitsize="-1" sortid="3409" defaultValue="-10" />
+<field name="faceGeoData10" type="f32" arraylength="1" bitsize="-1" sortid="3410" defaultValue="10" />
+<field name="faceGeoData11" type="f32" arraylength="1" bitsize="-1" sortid="3411" defaultValue="10" />
+<field name="faceGeoData12" type="f32" arraylength="1" bitsize="-1" sortid="3412" defaultValue="10" />
+<field name="faceGeoData13" type="f32" arraylength="1" bitsize="-1" sortid="3413" defaultValue="10" />
+<field name="faceGeoData14" type="f32" arraylength="1" bitsize="-1" sortid="3414" defaultValue="-10" />
+<field name="faceGeoData15" type="f32" arraylength="1" bitsize="-1" sortid="3415" defaultValue="10" />
+<field name="faceGeoData16" type="f32" arraylength="1" bitsize="-1" sortid="3416" defaultValue="10" />
+<field name="faceGeoData17" type="f32" arraylength="1" bitsize="-1" sortid="3417" defaultValue="10" />
+<field name="faceGeoData18" type="f32" arraylength="1" bitsize="-1" sortid="3418" defaultValue="-10" />
+<field name="faceGeoData19" type="f32" arraylength="1" bitsize="-1" sortid="3419" defaultValue="-10" />
+<field name="faceGeoData20" type="f32" arraylength="1" bitsize="-1" sortid="3420" defaultValue="10" />
+<field name="faceGeoData21" type="f32" arraylength="1" bitsize="-1" sortid="3421" defaultValue="0" />
+<field name="faceGeoData22" type="f32" arraylength="1" bitsize="-1" sortid="3422" defaultValue="-10" />
+<field name="faceGeoData23" type="f32" arraylength="1" bitsize="-1" sortid="3423" defaultValue="-10" />
+<field name="faceGeoData24" type="f32" arraylength="1" bitsize="-1" sortid="3424" defaultValue="-10" />
+<field name="faceGeoData25" type="f32" arraylength="1" bitsize="-1" sortid="3425" defaultValue="-10" />
+<field name="faceGeoData26" type="f32" arraylength="1" bitsize="-1" sortid="3426" defaultValue="0" />
+<field name="faceGeoData27" type="f32" arraylength="1" bitsize="-1" sortid="3427" defaultValue="5" />
+<field name="faceGeoData28" type="f32" arraylength="1" bitsize="-1" sortid="3428" defaultValue="-5" />
+<field name="faceGeoData29" type="f32" arraylength="1" bitsize="-1" sortid="3429" defaultValue="0" />
+<field name="faceGeoData30" type="f32" arraylength="1" bitsize="-1" sortid="3430" defaultValue="10" />
+<field name="faceGeoData31" type="f32" arraylength="1" bitsize="-1" sortid="3431" defaultValue="-5" />
+<field name="faceGeoData32" type="f32" arraylength="1" bitsize="-1" sortid="3432" defaultValue="-5" />
+<field name="faceGeoData33" type="f32" arraylength="1" bitsize="-1" sortid="3433" defaultValue="10" />
+<field name="faceGeoData34" type="f32" arraylength="1" bitsize="-1" sortid="3434" defaultValue="-10" />
+<field name="faceGeoData35" type="f32" arraylength="1" bitsize="-1" sortid="3435" defaultValue="-10" />
+<field name="faceGeoData36" type="f32" arraylength="1" bitsize="-1" sortid="3436" defaultValue="10" />
+<field name="faceGeoData37" type="f32" arraylength="1" bitsize="-1" sortid="3437" defaultValue="-10" />
+<field name="faceGeoData38" type="f32" arraylength="1" bitsize="-1" sortid="3438" defaultValue="-10" />
+<field name="faceGeoData39" type="f32" arraylength="1" bitsize="-1" sortid="3439" defaultValue="10" />
+<field name="faceGeoData40" type="f32" arraylength="1" bitsize="-1" sortid="3440" defaultValue="-10" />
+<field name="faceGeoData41" type="f32" arraylength="1" bitsize="-1" sortid="3441" defaultValue="-10" />
+<field name="faceGeoData42" type="f32" arraylength="1" bitsize="-1" sortid="3442" defaultValue="10" />
+<field name="faceGeoData43" type="f32" arraylength="1" bitsize="-1" sortid="3443" defaultValue="-10" />
+<field name="faceGeoData44" type="f32" arraylength="1" bitsize="-1" sortid="3444" defaultValue="-10" />
+<field name="faceGeoData45" type="f32" arraylength="1" bitsize="-1" sortid="3445" defaultValue="10" />
+<field name="faceGeoData46" type="f32" arraylength="1" bitsize="-1" sortid="3446" defaultValue="10" />
+<field name="faceGeoData47" type="f32" arraylength="1" bitsize="-1" sortid="3447" defaultValue="10" />
+<field name="faceGeoData48" type="f32" arraylength="1" bitsize="-1" sortid="3448" defaultValue="10" />
+<field name="faceGeoData49" type="f32" arraylength="1" bitsize="-1" sortid="3449" defaultValue="-10" />
+<field name="faceGeoData50" type="f32" arraylength="1" bitsize="-1" sortid="3450" defaultValue="10" />
+<field name="faceGeoData51" type="f32" arraylength="1" bitsize="-1" sortid="3451" defaultValue="10" />
+<field name="faceGeoData52" type="f32" arraylength="1" bitsize="-1" sortid="3452" defaultValue="-10" />
+<field name="faceGeoData53" type="f32" arraylength="1" bitsize="-1" sortid="3453" defaultValue="10" />
+<field name="faceGeoData54" type="f32" arraylength="1" bitsize="-1" sortid="3454" defaultValue="10" />
+<field name="faceGeoData55" type="f32" arraylength="1" bitsize="-1" sortid="3455" defaultValue="10" />
+<field name="faceGeoData56" type="f32" arraylength="1" bitsize="-1" sortid="3456" defaultValue="10" />
+<field name="faceGeoData57" type="f32" arraylength="1" bitsize="-1" sortid="3457" defaultValue="10" />
+<field name="faceGeoData58" type="f32" arraylength="1" bitsize="-1" sortid="3458" defaultValue="10" />
+<field name="faceGeoData59" type="f32" arraylength="1" bitsize="-1" sortid="3459" defaultValue="10" />
+<field name="faceGeoData60" type="f32" arraylength="1" bitsize="-1" sortid="3460" defaultValue="10" />
+<field name="faceTexData00" type="f32" arraylength="1" bitsize="-1" sortid="3500" defaultValue="0" />
+<field name="faceTexData01" type="f32" arraylength="1" bitsize="-1" sortid="3501" defaultValue="0" />
+<field name="faceTexData02" type="f32" arraylength="1" bitsize="-1" sortid="3502" defaultValue="0" />
+<field name="faceTexData03" type="f32" arraylength="1" bitsize="-1" sortid="3503" defaultValue="0" />
+<field name="faceTexData04" type="f32" arraylength="1" bitsize="-1" sortid="3504" defaultValue="10" />
+<field name="faceTexData05" type="f32" arraylength="1" bitsize="-1" sortid="3505" defaultValue="10" />
+<field name="faceTexData06" type="f32" arraylength="1" bitsize="-1" sortid="3506" defaultValue="10" />
+<field name="faceTexData07" type="f32" arraylength="1" bitsize="-1" sortid="3507" defaultValue="10" />
+<field name="faceTexData08" type="f32" arraylength="1" bitsize="-1" sortid="3508" defaultValue="10" />
+<field name="faceTexData09" type="f32" arraylength="1" bitsize="-1" sortid="3509" defaultValue="0" />
+<field name="faceTexData10" type="f32" arraylength="1" bitsize="-1" sortid="3510" defaultValue="0" />
+<field name="faceTexData11" type="f32" arraylength="1" bitsize="-1" sortid="3511" defaultValue="0" />
+<field name="faceTexData12" type="f32" arraylength="1" bitsize="-1" sortid="3512" defaultValue="0" />
+<field name="faceTexData13" type="f32" arraylength="1" bitsize="-1" sortid="3513" defaultValue="0" />
+<field name="faceTexData14" type="f32" arraylength="1" bitsize="-1" sortid="3514" defaultValue="0" />
+<field name="faceTexData15" type="f32" arraylength="1" bitsize="-1" sortid="3515" defaultValue="0" />
+<field name="faceTexData16" type="f32" arraylength="1" bitsize="-1" sortid="3516" defaultValue="0" />
+<field name="faceTexData17" type="f32" arraylength="1" bitsize="-1" sortid="3517" defaultValue="0" />
+<field name="faceTexData18" type="f32" arraylength="1" bitsize="-1" sortid="3518" defaultValue="-10" />
+<field name="faceTexData19" type="f32" arraylength="1" bitsize="-1" sortid="3519" defaultValue="10" />
+<field name="faceTexData20" type="f32" arraylength="1" bitsize="-1" sortid="3520" defaultValue="-10" />
+<field name="faceTexData21" type="f32" arraylength="1" bitsize="-1" sortid="3521" defaultValue="-10" />
+<field name="faceTexData22" type="f32" arraylength="1" bitsize="-1" sortid="3522" defaultValue="0" />
+<field name="faceTexData23" type="f32" arraylength="1" bitsize="-1" sortid="3523" defaultValue="0" />
+<field name="faceTexData24" type="f32" arraylength="1" bitsize="-1" sortid="3524" defaultValue="0" />
+<field name="faceTexData25" type="f32" arraylength="1" bitsize="-1" sortid="3525" defaultValue="0" />
+<field name="faceTexData26" type="f32" arraylength="1" bitsize="-1" sortid="3526" defaultValue="-10" />
+<field name="faceTexData27" type="f32" arraylength="1" bitsize="-1" sortid="3527" defaultValue="10" />
+<field name="faceTexData28" type="f32" arraylength="1" bitsize="-1" sortid="3528" defaultValue="-10" />
+<field name="faceTexData29" type="f32" arraylength="1" bitsize="-1" sortid="3529" defaultValue="10" />
+<field name="faceTexData30" type="f32" arraylength="1" bitsize="-1" sortid="3530" defaultValue="10" />
+<field name="faceTexData31" type="f32" arraylength="1" bitsize="-1" sortid="3531" defaultValue="-10" />
+<field name="faceTexData32" type="f32" arraylength="1" bitsize="-1" sortid="3532" defaultValue="0.5" />
+<field name="faceTexData33" type="f32" arraylength="1" bitsize="-1" sortid="3533" defaultValue="2" />
+<field name="faceTexData34" type="f32" arraylength="1" bitsize="-1" sortid="3534" defaultValue="5" />
+<field name="faceTexData35" type="f32" arraylength="1" bitsize="-1" sortid="3535" defaultValue="2" />
+<field name="burn_scar" type="f32" arraylength="1" bitsize="-1" sortid="2200" defaultValue="1" />
+</fields>
+<rows>
+<row id="1" paramdexName="Minimum" face_partsId="0" skin_color_R="0.1" skin_color_G="0.1" skin_color_B="0.1" skin_gloss="0" skin_pores="0" face_beard="0" face_aroundEye="0" face_aroundEyeColor_R="-1" face_aroundEyeColor_G="-1" face_aroundEyeColor_B="-1" face_cheek="0" face_cheekColor_R="0" face_cheekColor_G="0" face_cheekColor_B="0" face_eyeLine="0" face_eyeLineColor_R="0" face_eyeLineColor_G="0" face_eyeLineColor_B="0" face_eyeShadowDown="0" face_eyeShadowDownColor_R="0" face_eyeShadowDownColor_G="0" face_eyeShadowDownColor_B="0" face_eyeShadowUp="0" face_eyeShadowUpColor_R="-1" face_eyeShadowUpColor_G="-1" face_eyeShadowUpColor_B="-1" face_lip="0" face_lipColor_R="0" face_lipColor_G="0" face_lipColor_B="0" body_hair="-0.25" body_hairColor_R="0.1" body_hairColor_G="0.1" body_hairColor_B="0.1" eye_partsId="0" eyeR_irisColor_R="0" eyeR_irisColor_G="0" eyeR_irisColor_B="0" eyeR_irisScale="2" eyeR_cataract="0" eyeR_cataractColor_R="0" eyeR_cataractColor_G="0" eyeR_cataractColor_B="0" eyeR_scleraColor_R="0.1" eyeR_scleraColor_G="0.1" eyeR_scleraColor_B="0.1" eyeR_irisDistance="-0.3" eyeL_irisColor_R="0" eyeL_irisColor_G="0" eyeL_irisColor_B="0" eyeL_irisScale="2" eyeL_cataract="0" eyeL_cataractColor_R="0" eyeL_cataractColor_G="0" eyeL_cataractColor_B="0" eyeL_scleraColor_R="0.1" eyeL_scleraColor_G="0.1" eyeL_scleraColor_B="0.1" eyeL_irisDistance="-0.3" hair_partsId="0" hair_color_R="0" hair_color_G="0" hair_color_B="0" hair_shininess="0.1" hair_rootBlack="0" hair_whiteDensity="0" beard_partsId="0" beard_color_R="0" beard_color_G="0" beard_color_B="0" beard_shininess="0.1" beard_rootBlack="0" beard_whiteDensity="0" eyebrow_partsId="0" eyebrow_color_R="0" eyebrow_color_G="0" eyebrow_color_B="0" eyebrow_shininess="0.1" eyebrow_rootBlack="0" eyebrow_whiteDensity="0" eyelash_partsId="0" eyelash_color_R="0" eyelash_color_G="0" eyelash_color_B="0" accessories_partsId="0" accessories_color_R="0.1" accessories_color_G="0.1" accessories_color_B="0.1" decal_partsId="0" decal_posX="-0.4" decal_posY="-0.4" decal_angle="-3.14" decal_scale="4" decal_color_R="0" decal_color_G="0" decal_color_B="0" decal_gloss="0" decal_mirror="0" chrBodyScaleHead="-1" chrBodyScaleBreast="-1" chrBodyScaleAbdomen="-1" chrBodyScaleArm="-1" chrBodyScaleLeg="-1" age="15" gender="-4" caricatureGeometry="0" caricatureTexture="0" faceGeoData00="10" faceGeoData01="-10" faceGeoData02="10" faceGeoData03="-10" faceGeoData04="-10" faceGeoData05="-10" faceGeoData06="-10" faceGeoData07="10" faceGeoData08="-10" faceGeoData09="10" faceGeoData10="-10" faceGeoData11="-10" faceGeoData12="-10" faceGeoData13="-10" faceGeoData14="10" faceGeoData15="-10" faceGeoData16="-10" faceGeoData17="-10" faceGeoData18="10" faceGeoData19="10" faceGeoData20="-10" faceGeoData21="0" faceGeoData22="10" faceGeoData23="10" faceGeoData24="10" faceGeoData25="10" faceGeoData26="0" faceGeoData27="-5" faceGeoData28="5" faceGeoData29="0" faceGeoData30="-10" faceGeoData31="5" faceGeoData32="5" faceGeoData33="-10" faceGeoData34="10" faceGeoData35="10" faceGeoData36="-10" faceGeoData37="10" faceGeoData38="10" faceGeoData39="-10" faceGeoData40="10" faceGeoData41="10" faceGeoData42="-10" faceGeoData43="10" faceGeoData44="10" faceGeoData45="-10" faceGeoData46="-10" faceGeoData47="-10" faceGeoData48="-10" faceGeoData49="10" faceGeoData50="-10" faceGeoData51="-10" faceGeoData52="10" faceGeoData53="-10" faceGeoData54="-10" faceGeoData55="-10" faceGeoData56="-10" faceGeoData57="-10" faceGeoData58="-10" faceGeoData59="-10" faceGeoData60="-10" faceTexData00="0" faceTexData01="0" faceTexData02="0" faceTexData03="0" faceTexData04="-10" faceTexData05="-10" faceTexData06="-10" faceTexData07="-10" faceTexData08="-10" faceTexData09="0" faceTexData10="0" faceTexData11="0" faceTexData12="0" faceTexData13="0" faceTexData14="0" faceTexData15="0" faceTexData16="0" faceTexData17="0" faceTexData18="10" faceTexData19="-10" faceTexData20="10" faceTexData21="10" faceTexData22="0" faceTexData23="0" faceTexData24="0" faceTexData25="0" faceTexData26="10" faceTexData27="-10" faceTexData28="10" faceTexData29="0" faceTexData30="-10" faceTexData31="10" faceTexData32="-0.5" faceTexData33="-2" faceTexData34="-4" faceTexData35="-2" burn_scar="0" />
+<row id="2" paramdexName="Maximum" face_partsId="255" skin_color_R="0.9" skin_color_G="0.9" skin_color_B="0.9" skin_gloss="1" skin_pores="1" face_beard="1" face_aroundEye="1" face_aroundEyeColor_R="3" face_aroundEyeColor_G="3" face_aroundEyeColor_B="3" face_cheek="1" face_cheekColor_R="3" face_cheekColor_G="3" face_cheekColor_B="3" face_eyeLine="20" face_eyeLineColor_R="0.4" face_eyeLineColor_G="0.4" face_eyeLineColor_B="0.4" face_eyeShadowDown="1" face_eyeShadowDownColor_R="0.4" face_eyeShadowDownColor_G="0.4" face_eyeShadowDownColor_B="0.4" face_eyeShadowUp="1" face_eyeShadowUpColor_R="0.7" face_eyeShadowUpColor_G="0.7" face_eyeShadowUpColor_B="0.7" face_lip="1" face_lipColor_R="0.4" face_lipColor_G="0.4" face_lipColor_B="0.4" body_hair="1" body_hairColor_R="1" body_hairColor_G="1" body_hairColor_B="1" eye_partsId="255" eyeR_irisColor_R="1" eyeR_irisColor_G="1" eyeR_irisColor_B="1" eyeR_irisScale="0.9" eyeR_cataract="1" eyeR_cataractColor_R="1" eyeR_cataractColor_G="1" eyeR_cataractColor_B="1" eyeR_scleraColor_R="1" eyeR_scleraColor_G="1" eyeR_scleraColor_B="1" eyeR_irisDistance="0.3" eyeL_irisColor_R="1" eyeL_irisColor_G="1" eyeL_irisColor_B="1" eyeL_irisScale="0.9" eyeL_cataract="1" eyeL_cataractColor_R="1" eyeL_cataractColor_G="1" eyeL_cataractColor_B="1" eyeL_scleraColor_R="1" eyeL_scleraColor_G="1" eyeL_scleraColor_B="1" eyeL_irisDistance="0.3" hair_partsId="255" hair_color_R="0.8" hair_color_G="0.8" hair_color_B="0.8" hair_shininess="0.7" hair_rootBlack="1" hair_whiteDensity="1" beard_partsId="255" beard_color_R="0.8" beard_color_G="0.8" beard_color_B="0.8" beard_shininess="0.7" beard_rootBlack="1" beard_whiteDensity="1" eyebrow_partsId="255" eyebrow_color_R="0.8" eyebrow_color_G="0.8" eyebrow_color_B="0.8" eyebrow_shininess="0.7" eyebrow_rootBlack="1" eyebrow_whiteDensity="1" eyelash_partsId="255" eyelash_color_R="0.8" eyelash_color_G="0.8" eyelash_color_B="0.8" accessories_partsId="255" accessories_color_R="0.8" accessories_color_G="0.8" accessories_color_B="0.8" decal_partsId="255" decal_posX="0.4" decal_posY="0.4" decal_angle="3.14" decal_scale="1" decal_color_R="1" decal_color_G="1" decal_color_B="1" decal_gloss="1" decal_mirror="1" chrBodyScaleHead="1" chrBodyScaleBreast="1" chrBodyScaleAbdomen="1" chrBodyScaleArm="1" chrBodyScaleLeg="1" age="60" gender="4" caricatureGeometry="2" caricatureTexture="2" faceGeoData00="-10" faceGeoData01="10" faceGeoData02="-10" faceGeoData03="10" faceGeoData04="10" faceGeoData05="10" faceGeoData06="10" faceGeoData07="-10" faceGeoData08="10" faceGeoData09="-10" faceGeoData10="10" faceGeoData11="10" faceGeoData12="10" faceGeoData13="10" faceGeoData14="-10" faceGeoData15="10" faceGeoData16="10" faceGeoData17="10" faceGeoData18="-10" faceGeoData19="-10" faceGeoData20="10" faceGeoData21="0" faceGeoData22="-10" faceGeoData23="-10" faceGeoData24="-10" faceGeoData25="-10" faceGeoData26="0" faceGeoData27="5" faceGeoData28="-5" faceGeoData29="0" faceGeoData30="10" faceGeoData31="-5" faceGeoData32="-5" faceGeoData33="10" faceGeoData34="-10" faceGeoData35="-10" faceGeoData36="10" faceGeoData37="-10" faceGeoData38="-10" faceGeoData39="10" faceGeoData40="-10" faceGeoData41="-10" faceGeoData42="10" faceGeoData43="-10" faceGeoData44="-10" faceGeoData45="10" faceGeoData46="10" faceGeoData47="10" faceGeoData48="10" faceGeoData49="-10" faceGeoData50="10" faceGeoData51="10" faceGeoData52="-10" faceGeoData53="10" faceGeoData54="10" faceGeoData55="10" faceGeoData56="10" faceGeoData57="10" faceGeoData58="10" faceGeoData59="10" faceGeoData60="10" faceTexData00="0" faceTexData01="0" faceTexData02="0" faceTexData03="0" faceTexData04="10" faceTexData05="10" faceTexData06="10" faceTexData07="10" faceTexData08="10" faceTexData09="0" faceTexData10="0" faceTexData11="0" faceTexData12="0" faceTexData13="0" faceTexData14="0" faceTexData15="0" faceTexData16="0" faceTexData17="0" faceTexData18="-10" faceTexData19="10" faceTexData20="-10" faceTexData21="-10" faceTexData22="0" faceTexData23="0" faceTexData24="0" faceTexData25="0" faceTexData26="-10" faceTexData27="10" faceTexData28="-10" faceTexData29="10" faceTexData30="10" faceTexData31="-10" faceTexData32="0.5" faceTexData33="2" faceTexData34="5" faceTexData35="2" burn_scar="1" />
+</rows>
+</param>

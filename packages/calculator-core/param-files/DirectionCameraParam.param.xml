@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>DirectionCameraParam.param</filename>
+<compression>None</compression>
+<type>DIRECTION_CAMERA_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>DIRECTION_CAMERA_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="isUseOption" type="u8" arraylength="1" bitsize="1" sortid="100" defaultValue="1" />
+<field name="pad2" type="dummy8" arraylength="1" bitsize="3" sortid="101" defaultValue="[0]" />
+<field name="pad1" type="dummy8" arraylength="15" bitsize="-1" sortid="102" defaultValue="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+</fields>
+<rows>
+<row id="80" isUseOption="1" pad2="[0]" pad1="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="81" isUseOption="1" pad2="[0]" pad1="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="82" isUseOption="1" pad2="[0]" pad1="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="83" isUseOption="1" pad2="[0]" pad1="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="90" isUseOption="1" pad2="[0]" pad1="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="92" isUseOption="1" pad2="[0]" pad1="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+</rows>
+</param>

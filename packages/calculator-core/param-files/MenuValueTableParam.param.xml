@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>MenuValueTableParam.param</filename>
+<compression>None</compression>
+<type>MENU_VALUE_TABLE_SPEC</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>MENU_VALUE_TABLE_SPEC</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="value" type="s32" arraylength="1" bitsize="-1" sortid="2" defaultValue="1" />
+<field name="textId" type="s32" arraylength="1" bitsize="-1" sortid="3" defaultValue="60090" />
+<field name="compareType" type="s8" arraylength="1" bitsize="-1" sortid="1" defaultValue="0" />
+<field name="padding" type="dummy8" arraylength="3" bitsize="-1" sortid="999" defaultValue="[0|0|0]" />
+</fields>
+<rows>
+<row id="50" paramdexName="Light Load" value="1" textId="10513" compareType="0" padding="[0|0|0]" />
+<row id="51" paramdexName="Med. Load" value="2" textId="10514" compareType="0" padding="[0|0|0]" />
+<row id="52" paramdexName="Heavy Load" value="3" textId="10515" compareType="0" padding="[0|0|0]" />
+<row id="53" paramdexName="Overloaded" value="4" textId="10516" compareType="0" padding="[0|0|0]" />
+<row id="90" paramdexName="Consumable" value="1" textId="11330" compareType="1" padding="[0|0|0]" />
+<row id="91" paramdexName="Reusable" value="0" textId="11331" compareType="2" padding="[0|0|0]" />
+<row id="100" paramdexName="S" value="175" textId="11321" compareType="1" padding="[0|0|0]" />
+<row id="101" paramdexName="A" value="140" textId="11322" compareType="1" padding="[0|0|0]" />
+<row id="102" paramdexName="B" value="90" textId="11323" compareType="1" padding="[0|0|0]" />
+<row id="103" paramdexName="C" value="60" textId="11324" compareType="1" padding="[0|0|0]" />
+<row id="104" paramdexName="D" value="25" textId="11325" compareType="1" padding="[0|0|0]" />
+<row id="105" paramdexName="E" value="1" textId="11326" compareType="1" padding="[0|0|0]" />
+<row id="106" paramdexName="-" value="0" textId="11320" compareType="2" padding="[0|0|0]" />
+<row id="110" paramdexName="-" value="0" textId="11320" compareType="0" padding="[0|0|0]" />
+<row id="111" value="1" textId="41001" compareType="0" padding="[0|0|0]" />
+<row id="112" value="2" textId="41002" compareType="0" padding="[0|0|0]" />
+<row id="113" value="3" textId="41003" compareType="0" padding="[0|0|0]" />
+<row id="114" value="4" textId="41004" compareType="0" padding="[0|0|0]" />
+<row id="115" value="5" textId="41005" compareType="0" padding="[0|0|0]" />
+<row id="116" value="6" textId="41006" compareType="0" padding="[0|0|0]" />
+<row id="117" value="7" textId="41007" compareType="0" padding="[0|0|0]" />
+<row id="118" value="8" textId="41008" compareType="0" padding="[0|0|0]" />
+<row id="119" value="9" textId="41009" compareType="0" padding="[0|0|0]" />
+<row id="120" paramdexName="Dagger" value="1" textId="60010" compareType="0" padding="[0|0|0]" />
+<row id="121" paramdexName="Straight Sword" value="3" textId="60015" compareType="0" padding="[0|0|0]" />
+<row id="122" paramdexName="Greatsword" value="5" textId="60020" compareType="0" padding="[0|0|0]" />
+<row id="123" paramdexName="Colossal Sword" value="7" textId="60025" compareType="0" padding="[0|0|0]" />
+<row id="124" paramdexName="Curved Sword" value="9" textId="60030" compareType="0" padding="[0|0|0]" />
+<row id="125" paramdexName="Curved Greatsword" value="11" textId="60035" compareType="0" padding="[0|0|0]" />
+<row id="126" paramdexName="Katana" value="13" textId="60040" compareType="0" padding="[0|0|0]" />
+<row id="127" paramdexName="Twinblade" value="14" textId="60043" compareType="0" padding="[0|0|0]" />
+<row id="128" paramdexName="Thrusting Sword" value="15" textId="60045" compareType="0" padding="[0|0|0]" />
+<row id="129" paramdexName="Heavy Thrusting Sword" value="16" textId="60046" compareType="0" padding="[0|0|0]" />
+<row id="130" paramdexName="Axe" value="17" textId="60050" compareType="0" padding="[0|0|0]" />
+<row id="131" paramdexName="Greataxe" value="19" textId="60055" compareType="0" padding="[0|0|0]" />
+<row id="132" paramdexName="Hammer" value="21" textId="60060" compareType="0" padding="[0|0|0]" />
+<row id="133" paramdexName="Warhammer" value="23" textId="60065" compareType="0" padding="[0|0|0]" />
+<row id="134" paramdexName="Flail" value="24" textId="60067" compareType="0" padding="[0|0|0]" />
+<row id="135" paramdexName="Spear" value="25" textId="60070" compareType="0" padding="[0|0|0]" />
+<row id="136" value="27" textId="60075" compareType="0" padding="[0|0|0]" />
+<row id="137" paramdexName="Great Spear" value="28" textId="60077" compareType="0" padding="[0|0|0]" />
+<row id="138" paramdexName="Halberd" value="29" textId="60080" compareType="0" padding="[0|0|0]" />
+<row id="139" paramdexName="Reaper" value="31" textId="60085" compareType="0" padding="[0|0|0]" />
+<row id="140" paramdexName="Fist" value="33" textId="60090" compareType="0" padding="[0|0|0]" />
+<row id="141" paramdexName="Fist" value="35" textId="60090" compareType="0" padding="[0|0|0]" />
+<row id="142" paramdexName="Claw" value="37" textId="60100" compareType="0" padding="[0|0|0]" />
+<row id="143" paramdexName="Whip" value="39" textId="60155" compareType="0" padding="[0|0|0]" />
+<row id="144" paramdexName="Colossal Weapon" value="41" textId="60102" compareType="0" padding="[0|0|0]" />
+<row id="145" paramdexName="Light Bow" value="50" textId="60104" compareType="0" padding="[0|0|0]" />
+<row id="146" paramdexName="Bow" value="51" textId="60105" compareType="0" padding="[0|0|0]" />
+<row id="147" paramdexName="Greatbow" value="53" textId="60110" compareType="0" padding="[0|0|0]" />
+<row id="148" paramdexName="Crossbow" value="55" textId="60115" compareType="0" padding="[0|0|0]" />
+<row id="149" paramdexName="Ballista" value="56" textId="60117" compareType="0" padding="[0|0|0]" />
+<row id="150" paramdexName="Glintstone Staff" value="57" textId="60120" compareType="0" padding="[0|0|0]" />
+<row id="151" paramdexName="Tattoo" value="59" textId="60125" compareType="0" padding="[0|0|0]" />
+<row id="152" paramdexName="Sacred Seal" value="61" textId="60130" compareType="0" padding="[0|0|0]" />
+<row id="153" value="63" textId="60135" compareType="0" padding="[0|0|0]" />
+<row id="154" paramdexName="Small Shield" value="65" textId="60140" compareType="0" padding="[0|0|0]" />
+<row id="155" paramdexName="Medium Shield" value="67" textId="60145" compareType="0" padding="[0|0|0]" />
+<row id="156" paramdexName="Greatshield" value="69" textId="60150" compareType="0" padding="[0|0|0]" />
+<row id="157" paramdexName="Arrow" value="81" textId="60160" compareType="0" padding="[0|0|0]" />
+<row id="158" paramdexName="Greatarrow" value="83" textId="60165" compareType="0" padding="[0|0|0]" />
+<row id="159" paramdexName="Bolt" value="85" textId="60170" compareType="0" padding="[0|0|0]" />
+<row id="160" paramdexName="Greatbolt" value="86" textId="60171" compareType="0" padding="[0|0|0]" />
+<row id="161" paramdexName="Torch" value="87" textId="60175" compareType="0" padding="[0|0|0]" />
+<row id="162" value="101" textId="60011" compareType="0" padding="[0|0|0]" />
+<row id="163" value="103" textId="60016" compareType="0" padding="[0|0|0]" />
+<row id="164" value="105" textId="60026" compareType="0" padding="[0|0|0]" />
+<row id="165" value="107" textId="60031" compareType="0" padding="[0|0|0]" />
+<row id="166" value="109" textId="60041" compareType="0" padding="[0|0|0]" />
+<row id="167" value="111" textId="60051" compareType="0" padding="[0|0|0]" />
+<row id="168" value="113" textId="60061" compareType="0" padding="[0|0|0]" />
+<row id="169" value="115" textId="60071" compareType="0" padding="[0|0|0]" />
+<row id="170" value="88" textId="60180" compareType="0" padding="[0|0|0]" />
+<row id="171" value="89" textId="60181" compareType="0" padding="[0|0|0]" />
+<row id="172" value="90" textId="60182" compareType="0" padding="[0|0|0]" />
+<row id="173" value="91" textId="60183" compareType="0" padding="[0|0|0]" />
+<row id="174" value="92" textId="60184" compareType="0" padding="[0|0|0]" />
+<row id="175" value="93" textId="60185" compareType="0" padding="[0|0|0]" />
+<row id="176" value="94" textId="60186" compareType="0" padding="[0|0|0]" />
+<row id="177" value="95" textId="60187" compareType="0" padding="[0|0|0]" />
+<row id="300" paramdexName="Cracked Pot" value="1" textId="80000" compareType="0" padding="[0|0|0]" />
+<row id="301" paramdexName="Perfume Bottle" value="2" textId="80001" compareType="0" padding="[0|0|0]" />
+<row id="302" paramdexName="Ritual Pot" value="3" textId="80010" compareType="0" padding="[0|0|0]" />
+<row id="303" value="4" textId="80020" compareType="0" padding="[0|0|0]" />
+<row id="400" paramdexName="Standard" value="0" textId="62000" compareType="0" padding="[0|0|0]" />
+<row id="401" paramdexName="Heavy" value="1" textId="62001" compareType="0" padding="[0|0|0]" />
+<row id="402" paramdexName="Keen" value="2" textId="62002" compareType="0" padding="[0|0|0]" />
+<row id="403" paramdexName="Quality" value="3" textId="62003" compareType="0" padding="[0|0|0]" />
+<row id="404" paramdexName="Magic" value="8" textId="62008" compareType="0" padding="[0|0|0]" />
+<row id="405" paramdexName="Fire" value="4" textId="62004" compareType="0" padding="[0|0|0]" />
+<row id="406" paramdexName="Flame Art" value="5" textId="62005" compareType="0" padding="[0|0|0]" />
+<row id="407" paramdexName="Lightning" value="6" textId="62006" compareType="0" padding="[0|0|0]" />
+<row id="408" paramdexName="Sacred" value="7" textId="62007" compareType="0" padding="[0|0|0]" />
+<row id="409" paramdexName="Poison" value="10" textId="62011" compareType="0" padding="[0|0|0]" />
+<row id="410" paramdexName="Blood" value="11" textId="62012" compareType="0" padding="[0|0|0]" />
+<row id="411" paramdexName="Cold" value="9" textId="62010" compareType="0" padding="[0|0|0]" />
+<row id="412" paramdexName="Occult" value="12" textId="62009" compareType="0" padding="[0|0|0]" />
+</rows>
+</param>

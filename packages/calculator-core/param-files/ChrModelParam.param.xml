@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>ChrModelParam.param</filename>
+<compression>None</compression>
+<type>CHR_MODEL_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>3</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>1</unk06>
+<paramdef>
+<type>CHR_MODEL_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>2</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="disableParam_NT" type="u8" arraylength="1" bitsize="1" sortid="0" defaultValue="0" defaultThreshold="True" />
+<field name="disableParamReserve1" type="dummy8" arraylength="1" bitsize="7" sortid="301" defaultValue="[0]" defaultThreshold="True" />
+<field name="disableParamReserve2" type="dummy8" arraylength="3" bitsize="-1" sortid="302" defaultValue="[0|0|0]" defaultThreshold="True" />
+<field name="modelMemoryType" type="u8" arraylength="1" bitsize="-1" sortid="100" defaultValue="0" />
+<field name="texMemoryType" type="u8" arraylength="1" bitsize="-1" sortid="200" defaultValue="0" />
+<field name="cameraDitherFadeId" type="s16" arraylength="1" bitsize="-1" sortid="300" defaultValue="101" />
+<field name="reportAnimMemSizeMb" type="f32" arraylength="1" bitsize="-1" sortid="210" defaultValue="12" />
+<field name="unk" type="u32" arraylength="1" bitsize="-1" sortid="210" defaultValue="0" defaultThreshold="True" />
+</fields>
+<rows>
+<row id="100" modelMemoryType="1" texMemoryType="1" cameraDitherFadeId="0" reportAnimMemSizeMb="12" />
+<row id="110" modelMemoryType="1" texMemoryType="1" cameraDitherFadeId="0" reportAnimMemSizeMb="12" />
+<row id="120" modelMemoryType="1" texMemoryType="1" cameraDitherFadeId="0" reportAnimMemSizeMb="12" />
+<row id="1000" modelMemoryType="1" texMemoryType="1" cameraDitherFadeId="0" reportAnimMemSizeMb="12" />
+<row id="2010" paramdexName="Blaidd" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="2030" paramdexName="Rennala" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="2031" paramdexName="Rennala" modelMemoryType="1" texMemoryType="1" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="2040" paramdexName="Juvenile Scholar" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="2041" paramdexName="Larva of Rot" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="2050" paramdexName="Ranni the Witch" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="2051" paramdexName="Ranni the Witch" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="2060" paramdexName="The Two Fingers" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="120" reportAnimMemSizeMb="12" />
+<row id="2070" paramdexName="The Three Fingers" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="120" reportAnimMemSizeMb="12" />
+<row id="2100" paramdexName="Black Knife Assassin" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="2110" paramdexName="Beast Clergyman" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="120" reportAnimMemSizeMb="12" unk="262144" />
+<row id="2120" paramdexName="Malenia" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="2130" paramdexName="Morgott" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="110" reportAnimMemSizeMb="12" />
+<row id="2131" paramdexName="Morgott (Dead)" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="2140" paramdexName="Omen" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="110" reportAnimMemSizeMb="12" />
+<row id="2150" paramdexName="Lightning Ball" modelMemoryType="1" texMemoryType="1" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="2160" paramdexName="Finger Reader Crone" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="2170" paramdexName="Finger Reader Crone" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="2180" paramdexName="Melina" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="2190" paramdexName="Radagon" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="2191" paramdexName="Radagon (Crucified)" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="2200" paramdexName="Elden Beast" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="120" reportAnimMemSizeMb="12" />
+<row id="2270" paramdexName="Giant Crab" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="110" reportAnimMemSizeMb="12" />
+<row id="2271" paramdexName="Crab" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="2272" paramdexName="Giant Black Crab" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="110" reportAnimMemSizeMb="12" />
+<row id="2273" paramdexName="Black Crab" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="2274" paramdexName="Giant Albinauric Crab" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="110" reportAnimMemSizeMb="12" />
+<row id="2275" paramdexName="Albinauric Crab" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="2276" paramdexName="Giant Death Crab" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="110" reportAnimMemSizeMb="12" />
+<row id="2277" paramdexName="Death Crab" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="2500" paramdexName="Crucible Knight" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="3000" paramdexName="Exile Soldier" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="15" />
+<row id="3010" paramdexName="Banished Knight" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="3020" paramdexName="Exile Soldier (Large)" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="3050" paramdexName="Commander Niall/O'Neill" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="110" reportAnimMemSizeMb="12" />
+<row id="3060" paramdexName="Giant Skeleton" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="3061" paramdexName="Giant Beast Skeleton" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="3070" paramdexName="Dominula Celebrant" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="3080" paramdexName="Imp" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="3100" paramdexName="Elemer of the Briar" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="3150" paramdexName="Night's Cavalry" modelMemoryType="3" texMemoryType="4" cameraDitherFadeId="110" reportAnimMemSizeMb="12" />
+<row id="3160" paramdexName="Funeral Steed" modelMemoryType="3" texMemoryType="1" cameraDitherFadeId="110" reportAnimMemSizeMb="12" />
+<row id="3170" paramdexName="Albinauric Archer" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="3171" paramdexName="Phillia, Towering Little Sister" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="110" reportAnimMemSizeMb="12" />
+<row id="3180" paramdexName="Albinauric Archer's Wolf" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="3181" paramdexName="Red Wolf of Radagon" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="110" reportAnimMemSizeMb="12" unk="262144" />
+<row id="3200" paramdexName="Nomadic Merchant" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="3201" paramdexName="Frenzied Nomad" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="3202" paramdexName="Nomadic Merchant" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="3210" paramdexName="Nomadic Merchant's Donkey" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="3250" paramdexName="Draconic Tree Sentinel" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="120" reportAnimMemSizeMb="12" />
+<row id="3251" paramdexName="Tree Sentinel" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="120" reportAnimMemSizeMb="12" />
+<row id="3252" paramdexName="Loretta" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="120" reportAnimMemSizeMb="12" />
+<row id="3300" paramdexName="Nox Swordstress/Monk/Nightmaiden" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="3320" paramdexName="Silver Tear" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="3330" paramdexName="Giant Silver Tear" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="110" reportAnimMemSizeMb="12" />
+<row id="3350" paramdexName="Crystalian" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="3360" paramdexName="Ancestral Follower" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="3361" paramdexName="Putrid Ancestral Follower" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="3370" paramdexName="Ancestral Follower Shaman" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="3371" paramdexName="Putrid Ancestral Follower Shaman" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="3400" paramdexName="Grave Warden Duelist" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="3450" paramdexName="Misbegotten" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="15" />
+<row id="3451" paramdexName="Scaly Misbegotten" modelMemoryType="1" texMemoryType="1" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="3460" paramdexName="Leonine Misbegotten" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="3470" paramdexName="Albinauric" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="3471" paramdexName="Large Albinauric" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="3500" paramdexName="Skeletal Militiaman/Bandit/Knight/Grave Warden" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="3510" paramdexName="Catacomb Skeleton" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="3550" paramdexName="Sanguine Noble" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="3560" paramdexName="Godskin Apostle" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="110" reportAnimMemSizeMb="12" />
+<row id="3570" paramdexName="Godskin Noble" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="110" reportAnimMemSizeMb="12" />
+<row id="3600" paramdexName="Alabaster Lord" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="3610" paramdexName="Oracle Envoy" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="3620" paramdexName="Oracle Envoy (Large)" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="3630" paramdexName="Oracle Envoy (Giant)" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="120" reportAnimMemSizeMb="12" />
+<row id="3640" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="110" reportAnimMemSizeMb="12" />
+<row id="3650" paramdexName="Guardian" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="3660" paramdexName="Commoner" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="15" />
+<row id="3661" paramdexName="Putrid Corpse" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="3662" paramdexName="Putrid Corpse (Large)" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="3664" paramdexName="Cemetery Shade" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="3665" paramdexName="Gostoc" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="3666" paramdexName="The Noble Goldmask" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="3670" paramdexName="Elder Albinauric" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="3700" paramdexName="Depraved Perfumer" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="3701" paramdexName="Perfumer" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="3702" paramdexName="Glintstone Sorcerer" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="3703" paramdexName="Page" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="3704" paramdexName="Battlemage" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="3710" paramdexName="Azur" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="3720" paramdexName="Lusat" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="3730" paramdexName="Graven School" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="110" reportAnimMemSizeMb="12" />
+<row id="3750" paramdexName="Clayman" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="3800" paramdexName="Cleanrot Knight" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="3810" paramdexName="Kindred of Rot" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="3850" paramdexName="Marionette Soldier" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="3860" paramdexName="Avionette Soldier" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="3900" paramdexName="Fire Monk" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="3901" paramdexName="Blackflame Monk" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="3910" paramdexName="Fire Prelate" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="110" reportAnimMemSizeMb="12" />
+<row id="3950" paramdexName="Man-Serpent" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="15" />
+<row id="3970" paramdexName="Azula Beastman" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4000" paramdexName="Revenant Follower" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4020" paramdexName="Royal Revenant" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4040" paramdexName="Slug" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4050" paramdexName="Kaiden Sellsword" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="4060" paramdexName="Kaiden Sellsword's Horse" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4070" paramdexName="Wolf" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4071" paramdexName="White Wolf" modelMemoryType="1" texMemoryType="1" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4080" paramdexName="Rat" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4090" paramdexName="Giant Rat" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4100" paramdexName="Demi-Human" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4101" paramdexName="Demi-Human (Large)" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4110" paramdexName="Demi-Human Shaman" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4120" paramdexName="Demi-Human Chief" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4130" paramdexName="Demi-Human Queen" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="110" reportAnimMemSizeMb="12" unk="768" />
+<row id="4140" paramdexName="Snail" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4150" paramdexName="Basilisk" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4160" paramdexName="Stray (Large)" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4161" paramdexName="Stray" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4162" paramdexName="Farum Azula Stray (Large)" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4163" paramdexName="Farum Azula Stray" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4164" paramdexName="Bloodbane Stray (Large)" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4165" paramdexName="Bloodbane Stray" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4166" paramdexName="Rotten Stray (Large)" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4167" paramdexName="Rotten Stray" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4170" paramdexName="Putrid Flesh" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4171" paramdexName="Putrid Flesh (Large)" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4180" paramdexName="Spirit Jellyfish" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4190" paramdexName="Large Scarab" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4191" paramdexName="Scarab" modelMemoryType="1" texMemoryType="1" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4192" paramdexName="Giant Scarab" modelMemoryType="1" texMemoryType="1" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4200" paramdexName="Man-Bat" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="512" />
+<row id="4201" paramdexName="Operatic Bat" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4210" paramdexName="Warhawk" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="4220" paramdexName="Land Octopus (Large)" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="120" reportAnimMemSizeMb="12" />
+<row id="4230" paramdexName="Land Octopus (Small)" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4240" paramdexName="Fingercreeper" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="110" reportAnimMemSizeMb="12" />
+<row id="4241" paramdexName="Fingercreeper (Large)" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="120" reportAnimMemSizeMb="12" />
+<row id="4250" paramdexName="Fingercreeper (Small)" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4260" paramdexName="Erdtree Burial Watchdog" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4270" paramdexName="Elder Lion" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="110" reportAnimMemSizeMb="12" />
+<row id="4280" paramdexName="Giant Ant" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="110" reportAnimMemSizeMb="12" />
+<row id="4281" paramdexName="Giant Ant (Skull Plate)" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="120" reportAnimMemSizeMb="12" />
+<row id="4290" paramdexName="Bloodhound Knight" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4300" paramdexName="Wandering Noble" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="15" unk="768" />
+<row id="4310" paramdexName="Lordsworn Soldier" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="15" />
+<row id="4311" paramdexName="Godrick Soldier" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="4312" paramdexName="Raya Lucaria Soldier" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="4313" paramdexName="Leyndell Soldier" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="4314" paramdexName="Radahn Soldier" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="4315" paramdexName="Mausoleum Soldier" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="4316" paramdexName="Haligtree Soldier" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="4321" paramdexName="Vulgar Militia" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4340" paramdexName="Mad Pumpkin Head" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="110" reportAnimMemSizeMb="12" />
+<row id="4341" paramdexName="Mad Pumpkin Head (Thin)" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="110" reportAnimMemSizeMb="12" />
+<row id="4350" paramdexName="Lordsworn Knight" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4351" paramdexName="Godrick Knight" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="4352" paramdexName="Cuckoo Knight" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="4353" paramdexName="Leyndell Knight" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="4354" paramdexName="Redmane Kngiht" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="4355" paramdexName="Mausoleum Knight" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="4356" paramdexName="Haligtree Knight" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="4358" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="4360" paramdexName="Lordsworn Knight's Horse" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4361" paramdexName="Godrick Knight's Horse" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4362" paramdexName="Cuckoo Knight's Horse" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4363" paramdexName="Leyndell Knight's Horse" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4364" paramdexName="Redmane Knight's Horse" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4365" paramdexName="Mausoleum Knight's Horse" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4368" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4370" paramdexName="Foot Soldier" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4371" paramdexName="Godrick Foot Soldier" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4372" paramdexName="Raya Lucaria Foot Soldier" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4373" paramdexName="Leyndell Foot Soldier" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4374" paramdexName="Radahn Foot Soldier" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4375" paramdexName="Mausoleum Foot Soldier" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4376" paramdexName="Haligtree Foot Soldier" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4377" paramdexName="Highwayman" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4380" paramdexName="Starcaller" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="15" unk="768" />
+<row id="4381" paramdexName="Guilty" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="4382" paramdexName="Stonedigger" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4383" paramdexName="Glintstone Digger" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4384" paramdexName="Glintstone Digger - Small Sack" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4385" paramdexName="Disciple of Rot" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4420" paramdexName="Giant Crayfish" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="110" reportAnimMemSizeMb="12" />
+<row id="4421" paramdexName="Giant Crayfish" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="110" reportAnimMemSizeMb="12" />
+<row id="4430" paramdexName="Watcher Stones" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4440" paramdexName="Land Squirt" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4441" paramdexName="Giant Land Squirt" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="120" reportAnimMemSizeMb="12" />
+<row id="4442" paramdexName="Giant Rotten Land Squirt" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="120" reportAnimMemSizeMb="12" />
+<row id="4450" paramdexName="Walking Mausoleum" modelMemoryType="5" texMemoryType="5" cameraDitherFadeId="-1" reportAnimMemSizeMb="12" />
+<row id="4460" paramdexName="Flame Chariot" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="120" reportAnimMemSizeMb="12" />
+<row id="4470" paramdexName="Abductor Virgin" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="110" reportAnimMemSizeMb="12" unk="262144" />
+<row id="4480" paramdexName="Miranda Blossom" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="110" reportAnimMemSizeMb="12" unk="768" />
+<row id="4481" paramdexName="Miranda Sprout" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4482" paramdexName="Rotten Miranda Blossom" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="110" reportAnimMemSizeMb="12" />
+<row id="4483" paramdexName="Rotten Miranda Sprout" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="4490" paramdexName="Living Jar Warrior" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="110" reportAnimMemSizeMb="12" />
+<row id="4491" paramdexName="Living Jar" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4492" paramdexName="Greatjar" modelMemoryType="7" texMemoryType="7" cameraDitherFadeId="120" reportAnimMemSizeMb="12" />
+<row id="4500" paramdexName="Flying Dragon" modelMemoryType="5" texMemoryType="5" cameraDitherFadeId="120" reportAnimMemSizeMb="12" />
+<row id="4501" paramdexName="Decaying Ekzykes" modelMemoryType="5" texMemoryType="5" cameraDitherFadeId="120" reportAnimMemSizeMb="12" />
+<row id="4502" paramdexName="Glintstone Dragon" modelMemoryType="5" texMemoryType="5" cameraDitherFadeId="120" reportAnimMemSizeMb="12" />
+<row id="4503" paramdexName="Borealis the Freezing Fog" modelMemoryType="5" texMemoryType="5" cameraDitherFadeId="120" reportAnimMemSizeMb="12" />
+<row id="4504" paramdexName="Elder Dragon Greyoll" modelMemoryType="5" texMemoryType="5" cameraDitherFadeId="120" reportAnimMemSizeMb="12" />
+<row id="4505" paramdexName="Flying Dragon (Small)" modelMemoryType="5" texMemoryType="5" cameraDitherFadeId="120" reportAnimMemSizeMb="12" />
+<row id="4510" paramdexName="Ancient Dragon" modelMemoryType="5" texMemoryType="5" cameraDitherFadeId="120" reportAnimMemSizeMb="12" unk="262144" />
+<row id="4511" paramdexName="Lichdragon Fortissax" modelMemoryType="5" texMemoryType="5" cameraDitherFadeId="120" reportAnimMemSizeMb="12" unk="262144" />
+<row id="4520" paramdexName="Dragonlord Placidusax" modelMemoryType="5" texMemoryType="5" cameraDitherFadeId="120" reportAnimMemSizeMb="12" unk="262144" />
+<row id="4550" paramdexName="Giant Dog" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="110" reportAnimMemSizeMb="12" />
+<row id="4560" paramdexName="Giant Crow" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="110" reportAnimMemSizeMb="12" />
+<row id="4561" paramdexName="Giant Crow" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="110" reportAnimMemSizeMb="12" />
+<row id="4570" paramdexName="Wormface" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="110" reportAnimMemSizeMb="12" />
+<row id="4580" paramdexName="Large Wormface" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="120" reportAnimMemSizeMb="12" />
+<row id="4600" paramdexName="Troll" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="120" reportAnimMemSizeMb="12" />
+<row id="4601" paramdexName="Troll Knight" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="120" reportAnimMemSizeMb="12" />
+<row id="4602" paramdexName="Snowfield Troll" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="120" reportAnimMemSizeMb="12" />
+<row id="4603" paramdexName="Stonedigger Troll" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="120" reportAnimMemSizeMb="12" />
+<row id="4604" paramdexName="War Counselor Iji" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="120" reportAnimMemSizeMb="12" unk="768" />
+<row id="4620" paramdexName="Astel, Naturalborn of the Void" modelMemoryType="6" texMemoryType="6" cameraDitherFadeId="120" reportAnimMemSizeMb="12" unk="262144" />
+<row id="4630" paramdexName="Runebear" modelMemoryType="4" texMemoryType="3" cameraDitherFadeId="120" reportAnimMemSizeMb="12" />
+<row id="4640" paramdexName="Ulcerated Tree Spirit" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="120" reportAnimMemSizeMb="12" unk="262144" />
+<row id="4650" paramdexName="Dragonkin Soldier" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="120" reportAnimMemSizeMb="12" />
+<row id="4660" paramdexName="Guardian Golem" modelMemoryType="5" texMemoryType="5" cameraDitherFadeId="120" reportAnimMemSizeMb="12" />
+<row id="4670" paramdexName="Ancestor Spirit" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="120" reportAnimMemSizeMb="12" unk="262144" />
+<row id="4680" paramdexName="Falling-star Beast" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="120" reportAnimMemSizeMb="12" />
+<row id="4690" paramdexName="Grafted Scion" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="110" reportAnimMemSizeMb="12" />
+<row id="4710" paramdexName="God-Devouring Serpent / Rykard, Lord of Blasphemy" modelMemoryType="6" texMemoryType="6" cameraDitherFadeId="120" reportAnimMemSizeMb="12" unk="262144" />
+<row id="4711" paramdexName="Rykard's Corpse" modelMemoryType="4" texMemoryType="6" cameraDitherFadeId="110" reportAnimMemSizeMb="12" />
+<row id="4720" paramdexName="Godfrey, First Elden Lord" modelMemoryType="5" texMemoryType="5" cameraDitherFadeId="110" reportAnimMemSizeMb="12" unk="768" />
+<row id="4721" paramdexName="Hoarah Loux, Warrior" modelMemoryType="1" texMemoryType="1" cameraDitherFadeId="110" reportAnimMemSizeMb="12" unk="768" />
+<row id="4730" paramdexName="Starscourge Radahn" modelMemoryType="5" texMemoryType="5" cameraDitherFadeId="120" reportAnimMemSizeMb="12" unk="327680" />
+<row id="4750" paramdexName="Godrick the Grafted" modelMemoryType="5" texMemoryType="5" cameraDitherFadeId="110" reportAnimMemSizeMb="12" unk="262912" />
+<row id="4751" paramdexName="Godrick's Corpse" modelMemoryType="3" texMemoryType="5" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4760" paramdexName="Fire Giant" modelMemoryType="7" texMemoryType="7" cameraDitherFadeId="120" reportAnimMemSizeMb="12" unk="327680" />
+<row id="4770" paramdexName="Valiant Gargoyle" modelMemoryType="5" texMemoryType="5" cameraDitherFadeId="110" reportAnimMemSizeMb="12" />
+<row id="4800" paramdexName="Mohg, Lord of Blood" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="110" reportAnimMemSizeMb="12" unk="768" />
+<row id="4801" paramdexName="Mohg, Lord of Blood (Unknown)" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4810" paramdexName="Erdtree Avatar" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="110" reportAnimMemSizeMb="12" />
+<row id="4811" paramdexName="Putrid Avatar" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="110" reportAnimMemSizeMb="12" />
+<row id="4820" paramdexName="Omenkiller" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" unk="768" />
+<row id="4910" paramdexName="Magma Wyrm" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="120" reportAnimMemSizeMb="12" />
+<row id="4911" paramdexName="Great Wyrm Theodorix" modelMemoryType="5" texMemoryType="5" cameraDitherFadeId="120" reportAnimMemSizeMb="12" />
+<row id="4950" paramdexName="Tibia Mariner" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="4960" paramdexName="Giant Skeleton Torso" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="120" reportAnimMemSizeMb="12" />
+<row id="4980" paramdexName="Death Rite Bird" modelMemoryType="5" texMemoryType="5" cameraDitherFadeId="110" reportAnimMemSizeMb="12" unk="262912" />
+<row id="5000" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="120" reportAnimMemSizeMb="0" unk="262144" />
+<row id="5010" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="120" reportAnimMemSizeMb="0" unk="262144" />
+<row id="5011" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="120" reportAnimMemSizeMb="0" unk="262144" />
+<row id="5020" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="110" reportAnimMemSizeMb="0" />
+<row id="5030" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="110" reportAnimMemSizeMb="0" />
+<row id="5040" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5050" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5051" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5060" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" unk="262144" />
+<row id="5061" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" unk="262144" />
+<row id="5070" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" unk="262144" />
+<row id="5080" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="110" reportAnimMemSizeMb="0" />
+<row id="5081" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="120" reportAnimMemSizeMb="0" />
+<row id="5090" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5110" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" unk="262144" />
+<row id="5120" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="120" reportAnimMemSizeMb="0" unk="262144" />
+<row id="5130" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5140" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="110" reportAnimMemSizeMb="0" unk="262144" />
+<row id="5141" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="110" reportAnimMemSizeMb="0" unk="262144" />
+<row id="5160" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5170" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="120" reportAnimMemSizeMb="0" unk="262144" />
+<row id="5190" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5192" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="110" reportAnimMemSizeMb="0" />
+<row id="5193" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5194" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5200" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="120" reportAnimMemSizeMb="0" />
+<row id="5210" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="120" reportAnimMemSizeMb="0" unk="262144" />
+<row id="5220" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="110" reportAnimMemSizeMb="0" unk="327680" />
+<row id="5230" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="120" reportAnimMemSizeMb="0" unk="262144" />
+<row id="5240" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5241" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5250" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5251" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5260" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="120" reportAnimMemSizeMb="0" />
+<row id="5261" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="120" reportAnimMemSizeMb="0" />
+<row id="5270" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5271" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5280" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5300" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5310" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5311" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5312" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5320" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="120" reportAnimMemSizeMb="0" unk="262144" />
+<row id="5330" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5350" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5360" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5370" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="120" reportAnimMemSizeMb="0" unk="262144" />
+<row id="5380" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="110" reportAnimMemSizeMb="0" />
+<row id="5381" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5390" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="120" reportAnimMemSizeMb="0" />
+<row id="5391" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="120" reportAnimMemSizeMb="0" />
+<row id="5392" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="120" reportAnimMemSizeMb="0" />
+<row id="5401" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5410" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5421" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5430" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5440" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5450" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5460" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5470" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5471" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5472" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5480" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5490" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5500" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5501" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5510" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5511" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5512" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5513" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5520" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5521" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5522" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5523" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5524" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5525" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5526" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5527" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5530" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5540" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5541" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5550" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="110" reportAnimMemSizeMb="0" />
+<row id="5551" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="120" reportAnimMemSizeMb="0" />
+<row id="5560" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5570" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5580" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="120" reportAnimMemSizeMb="0" />
+<row id="5581" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="120" reportAnimMemSizeMb="0" />
+<row id="5590" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5591" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5600" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5620" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5630" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="110" reportAnimMemSizeMb="0" />
+<row id="5640" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="110" reportAnimMemSizeMb="0" />
+<row id="5641" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5651" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5661" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5670" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="2" reportAnimMemSizeMb="0" />
+<row id="5680" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="2" reportAnimMemSizeMb="0" />
+<row id="5690" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="2" reportAnimMemSizeMb="0" />
+<row id="5700" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5701" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5710" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5720" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5730" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="110" reportAnimMemSizeMb="0" />
+<row id="5740" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5750" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="110" reportAnimMemSizeMb="0" />
+<row id="5751" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5760" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5761" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5770" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="120" reportAnimMemSizeMb="0" />
+<row id="5780" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="120" reportAnimMemSizeMb="0" />
+<row id="5790" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="120" reportAnimMemSizeMb="0" />
+<row id="5800" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5810" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5820" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="120" reportAnimMemSizeMb="0" />
+<row id="5830" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5840" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5850" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="110" reportAnimMemSizeMb="0" />
+<row id="5860" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="120" reportAnimMemSizeMb="0" />
+<row id="5870" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5871" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="110" reportAnimMemSizeMb="0" />
+<row id="5872" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="120" reportAnimMemSizeMb="0" />
+<row id="5880" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5890" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5900" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5910" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5920" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="120" reportAnimMemSizeMb="0" />
+<row id="5930" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5931" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5940" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5950" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5960" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="120" reportAnimMemSizeMb="0" unk="262144" />
+<row id="5970" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="110" reportAnimMemSizeMb="0" unk="262144" />
+<row id="5980" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="5990" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="6001" paramdexName="Eagle" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="1.5" unk="768" />
+<row id="6010" paramdexName="Deer" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="1.5" />
+<row id="6031" paramdexName="Bear" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="1.5" />
+<row id="6040" paramdexName="Owl" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="1.5" />
+<row id="6050" paramdexName="Boar" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="1.5" />
+<row id="6060" paramdexName="Goat" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="1.5" />
+<row id="6070" paramdexName="Murre" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="1.5" />
+<row id="6072" paramdexName="Carrier Pigeon" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="1.5" />
+<row id="6080" paramdexName="Dragonfly" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="1.5" unk="768" />
+<row id="6081" paramdexName="Yellow Dragonfly" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="1.5" unk="768" />
+<row id="6082" paramdexName="Great Dragonfly" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="1.5" unk="768" />
+<row id="6090" paramdexName="Turtle" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="1.5" />
+<row id="6091" paramdexName="Miriel, Pastor of Vows" modelMemoryType="4" texMemoryType="4" cameraDitherFadeId="110" reportAnimMemSizeMb="1.5" />
+<row id="6100" paramdexName="Springhare" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="1.5" />
+<row id="6200" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="6201" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="6202" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="6210" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="6220" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="6221" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="110" reportAnimMemSizeMb="0" unk="262144" />
+<row id="6230" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="6231" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="6232" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="6233" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="6240" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="6251" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="120" reportAnimMemSizeMb="0" />
+<row id="6260" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="110" reportAnimMemSizeMb="0" unk="262144" />
+<row id="6270" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="6290" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="6291" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="6300" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="6310" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="120" reportAnimMemSizeMb="0" />
+<row id="6320" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="101" reportAnimMemSizeMb="0" />
+<row id="7000" paramdexName="Fallen Hawks Soldier" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="7100" paramdexName="Ancient Hero" modelMemoryType="2" texMemoryType="2" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="8000" paramdexName="Torrent" modelMemoryType="3" texMemoryType="3" cameraDitherFadeId="101" reportAnimMemSizeMb="12" />
+<row id="8100" paramdexName="Ballista" modelMemoryType="3" texMemoryType="7" cameraDitherFadeId="2" reportAnimMemSizeMb="12" />
+<row id="8101" paramdexName="Trebuchet" modelMemoryType="3" texMemoryType="7" cameraDitherFadeId="2" reportAnimMemSizeMb="12" />
+<row id="8110" paramdexName="Dragon-faced Flamethrower" modelMemoryType="3" texMemoryType="7" cameraDitherFadeId="2" reportAnimMemSizeMb="12" />
+<row id="8120" paramdexName="Merciless Chariot" modelMemoryType="5" texMemoryType="7" cameraDitherFadeId="1" reportAnimMemSizeMb="12" />
+<row id="9992" modelMemoryType="0" texMemoryType="0" cameraDitherFadeId="0" reportAnimMemSizeMb="0" />
+</rows>
+</param>

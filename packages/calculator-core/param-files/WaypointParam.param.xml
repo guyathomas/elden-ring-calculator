@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>WaypointParam.param</filename>
+<compression>None</compression>
+<type>WAYPOINT_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>WAYPOINT_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="attribute1" type="s16" arraylength="1" bitsize="-1" sortid="100" defaultValue="4" />
+<field name="attribute2" type="s16" arraylength="1" bitsize="-1" sortid="200" defaultValue="-1" />
+<field name="attribute3" type="s16" arraylength="1" bitsize="-1" sortid="300" defaultValue="-1" />
+<field name="attribute4" type="s16" arraylength="1" bitsize="-1" sortid="400" defaultValue="-1" />
+<field name="padding4" type="dummy8" arraylength="8" bitsize="-1" sortid="100040" defaultValue="[0|0|0|0|0|0|0|0]" />
+</fields>
+<rows>
+<row id="0" attribute1="-1" attribute2="-1" attribute3="-1" attribute4="-1" padding4="[0|0|0|0|0|0|0|0]" />
+<row id="100" attribute1="0" attribute2="-1" attribute3="-1" attribute4="-1" padding4="[0|0|0|0|0|0|0|0]" />
+<row id="200" attribute1="1" attribute2="-1" attribute3="-1" attribute4="-1" padding4="[0|0|0|0|0|0|0|0]" />
+<row id="300" attribute1="2" attribute2="-1" attribute3="-1" attribute4="-1" padding4="[0|0|0|0|0|0|0|0]" />
+<row id="400" attribute1="3" attribute2="-1" attribute3="-1" attribute4="-1" padding4="[0|0|0|0|0|0|0|0]" />
+<row id="500" attribute1="4" attribute2="-1" attribute3="-1" attribute4="-1" padding4="[0|0|0|0|0|0|0|0]" />
+</rows>
+</param>

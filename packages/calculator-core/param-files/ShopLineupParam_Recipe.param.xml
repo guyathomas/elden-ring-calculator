@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>ShopLineupParam_Recipe.param</filename>
+<compression>None</compression>
+<type>SHOP_LINEUP_PARAM</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>3</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>1</unk06>
+<paramdef>
+<type>SHOP_LINEUP_PARAM</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>3</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="equipId" type="s32" arraylength="1" bitsize="-1" sortid="400" defaultValue="52520000" />
+<field name="value" type="s32" arraylength="1" bitsize="-1" sortid="500" defaultValue="0" defaultThreshold="True" />
+<field name="mtrlId" type="s32" arraylength="1" bitsize="-1" sortid="600" defaultValue="371000" />
+<field name="eventFlag_forStock" type="u32" arraylength="1" bitsize="-1" sortid="700" defaultValue="0" defaultThreshold="True" />
+<field name="eventFlag_forRelease" type="u32" arraylength="1" bitsize="-1" sortid="900" defaultValue="0" />
+<field name="sellQuantity" type="s16" arraylength="1" bitsize="-1" sortid="800" defaultValue="-1" defaultThreshold="True" />
+<field name="pad3" type="dummy8" arraylength="1" bitsize="-1" sortid="1011" defaultValue="[0]" defaultThreshold="True" />
+<field name="equipType" type="u8" arraylength="1" bitsize="-1" sortid="200" defaultValue="3" />
+<field name="costType" type="u8" arraylength="1" bitsize="-1" sortid="505" defaultValue="0" defaultThreshold="True" />
+<field name="pad1" type="dummy8" arraylength="1" bitsize="-1" sortid="1012" defaultValue="[0]" defaultThreshold="True" />
+<field name="setNum" type="u16" arraylength="1" bitsize="-1" sortid="810" defaultValue="1" />
+<field name="value_Add" type="s32" arraylength="1" bitsize="-1" sortid="520" defaultValue="0" defaultThreshold="True" />
+<field name="value_Magnification" type="f32" arraylength="1" bitsize="-1" sortid="510" defaultValue="1" defaultThreshold="True" />
+<field name="iconId" type="s32" arraylength="1" bitsize="-1" sortid="1000" defaultValue="-1" defaultThreshold="True" />
+<field name="nameMsgId" type="s32" arraylength="1" bitsize="-1" sortid="1010" defaultValue="-1" defaultThreshold="True" />
+<field name="menuTitleMsgId" type="s32" arraylength="1" bitsize="-1" sortid="100" defaultValue="-1" defaultThreshold="True" />
+<field name="menuIconId" type="s16" arraylength="1" bitsize="-1" sortid="110" defaultValue="-1" defaultThreshold="True" />
+<field name="pad2" type="dummy8" arraylength="2" bitsize="-1" sortid="1013" defaultValue="[0|0]" defaultThreshold="True" />
+</fields>
+<rows>
+<row id="1" equipId="240" value="100" mtrlId="-1" eventFlag_forRelease="0" equipType="3" setNum="1" />
+<row id="30000" paramdexName="Furlcalling Finger Remedy - Default" equipId="150" mtrlId="300000" eventFlag_forRelease="0" equipType="3" setNum="1" />
+<row id="30100" paramdexName="Fire Pot - Default" equipId="300" mtrlId="301000" eventFlag_forRelease="0" equipType="3" setNum="1" />
+<row id="30101" paramdexName="Redmane Fire Pot - Armorer's Cookbook [4]" equipId="301" mtrlId="301010" eventFlag_forRelease="67260" equipType="3" setNum="1" />
+<row id="30102" paramdexName="Giantsflame Fire Pot - Armorer's Cookbook [7]" equipId="302" mtrlId="301020" eventFlag_forRelease="67250" equipType="3" setNum="1" />
+<row id="30103" paramdexName="Lightning Pot - Ancient Dragon Apostle's Cookbook [2]" equipId="320" mtrlId="301030" eventFlag_forRelease="68010" equipType="3" setNum="1" />
+<row id="30104" paramdexName="Ancient Dragonbolt Pot - Ancient Dragon Apostle's Cookbook [4]" equipId="321" mtrlId="301040" eventFlag_forRelease="68020" equipType="3" setNum="1" />
+<row id="30105" paramdexName="Fetid Pot - Nomadic Warrior's Cookbook [4]" equipId="330" mtrlId="301050" eventFlag_forRelease="67800" equipType="3" setNum="1" />
+<row id="30106" paramdexName="Swarm Pot - Nomadic Warrior's Cookbook [24]" equipId="340" mtrlId="301060" eventFlag_forRelease="67910" equipType="3" setNum="1" />
+<row id="30107" paramdexName="Holy Water Pot - Missionary's Cookbook [1]" equipId="350" mtrlId="301070" eventFlag_forRelease="67610" equipType="3" setNum="1" />
+<row id="30108" paramdexName="Sacred Order Pot - Missionary's Cookbook [5]" equipId="351" mtrlId="301080" eventFlag_forRelease="67630" equipType="3" setNum="1" />
+<row id="30109" paramdexName="Freezing Pot - Glintstone Craftsman's Cookbook [6]" equipId="360" mtrlId="301090" eventFlag_forRelease="67460" equipType="3" setNum="1" />
+<row id="30110" paramdexName="Poison Pot - Nomadic Warrior's Cookbook [14]" equipId="370" mtrlId="301100" eventFlag_forRelease="67870" equipType="3" setNum="1" />
+<row id="30111" paramdexName="Oil Pot - Nomadic Warrior's Cookbook [17]" equipId="380" mtrlId="301110" eventFlag_forRelease="67100" equipType="3" setNum="1" />
+<row id="30112" paramdexName="Alluring Pot - Nomadic Warrior's Cookbook [21]" equipId="390" mtrlId="301120" eventFlag_forRelease="67120" equipType="3" setNum="1" />
+<row id="30113" paramdexName="Beastlure Pot - Nomadic Warrior's Cookbook [5]" equipId="391" mtrlId="301130" eventFlag_forRelease="67830" equipType="3" setNum="1" />
+<row id="30114" paramdexName="Roped Fire Pot - Nomadic Warrior's Cookbook [7]" equipId="400" mtrlId="301140" eventFlag_forRelease="0" equipType="3" setNum="1" />
+<row id="30115" paramdexName="Roped Lightning Pot - Ancient Dragon Apostle's Cookbook [2]" equipId="420" mtrlId="301150" eventFlag_forRelease="68010" equipType="3" setNum="1" />
+<row id="30116" paramdexName="Roped Fetid Pot - Nomadic Warrior's Cookbook [4]" equipId="430" mtrlId="301160" eventFlag_forRelease="67800" equipType="3" setNum="1" />
+<row id="30117" paramdexName="Roped Poison Pot - Nomadic Warrior's Cookbook [14]" equipId="440" mtrlId="301170" eventFlag_forRelease="67870" equipType="3" setNum="1" />
+<row id="30118" paramdexName="Roped Oil Pot - Nomadic Warrior's Cookbook [17]" equipId="450" mtrlId="301180" eventFlag_forRelease="67100" equipType="3" setNum="1" />
+<row id="30119" paramdexName="Roped Magic Pot - Glintstone Craftsman's Cookbook [4]" equipId="460" mtrlId="301190" eventFlag_forRelease="67400" equipType="3" setNum="1" />
+<row id="30120" paramdexName="Roped Fly Pot - Nomadic Warrior's Cookbook [24]" equipId="470" mtrlId="301200" eventFlag_forRelease="67910" equipType="3" setNum="1" />
+<row id="30122" paramdexName="Roped Volcano Pot - Nomadic Warrior's Cookbook [20]" equipId="490" mtrlId="301220" eventFlag_forRelease="67230" equipType="3" setNum="1" />
+<row id="30123" paramdexName="Roped Holy Water Pot - Missionary's Cookbook [1]" equipId="510" mtrlId="301230" eventFlag_forRelease="67610" equipType="3" setNum="1" />
+<row id="30124" paramdexName="Volcano Pot - Nomadic Warrior's Cookbook [20]" equipId="600" mtrlId="301240" eventFlag_forRelease="67230" equipType="3" setNum="1" />
+<row id="30125" paramdexName="Albinauric Pot - Glintstone Craftsman's Cookbook [3]" equipId="610" mtrlId="301250" eventFlag_forRelease="67480" equipType="3" setNum="1" />
+<row id="30126" paramdexName="Cursed-Blood Pot - Nomadic Warrior's Cookbook [12]" equipId="630" mtrlId="301260" eventFlag_forRelease="67060" equipType="3" setNum="1" />
+<row id="30127" paramdexName="Sleep Pot - Fevor's Cookbook [1]" equipId="640" mtrlId="301270" eventFlag_forRelease="68200" equipType="3" setNum="1" />
+<row id="30128" paramdexName="Rancor Pot - Nomadic Warrior's Cookbook [9]" equipId="650" mtrlId="301280" eventFlag_forRelease="67430" equipType="3" setNum="1" />
+<row id="30129" paramdexName="Magic Pot - Glintstone Craftsman's Cookbook [4]" equipId="660" mtrlId="301290" eventFlag_forRelease="67400" equipType="3" setNum="1" />
+<row id="30130" paramdexName="Academy Magic Pot - Glintstone Craftsman's Cookbook [8]" equipId="661" mtrlId="301300" eventFlag_forRelease="67440" equipType="3" setNum="1" />
+<row id="30131" paramdexName="Rot Pot - Nomadic Warrior's Cookbook [22]" equipId="670" mtrlId="301310" eventFlag_forRelease="67890" equipType="3" setNum="1" />
+<row id="30200" paramdexName="Rowa Raisin - Default" equipId="810" mtrlId="302000" eventFlag_forRelease="0" equipType="3" setNum="1" />
+<row id="30201" paramdexName="Sweet Raisin - Nomadic Warrior's Cookbook [19]" equipId="811" mtrlId="302010" eventFlag_forRelease="67070" equipType="3" setNum="1" />
+<row id="30202" paramdexName="Frozen Raisin - Nomadic Warrior's Cookbook [23]" equipId="812" mtrlId="302020" eventFlag_forRelease="67090" equipType="3" setNum="1" />
+<row id="30300" paramdexName="Neutralizing Boluses - Armorer's Cookbook [2]" equipId="900" mtrlId="303000" eventFlag_forRelease="67210" equipType="3" setNum="1" />
+<row id="30301" paramdexName="Stanching Boluses - Nomadic Cookbook [7]" equipId="910" mtrlId="303010" eventFlag_forRelease="67050" equipType="3" setNum="1" />
+<row id="30302" paramdexName="Thawfrost Boluses - Nomadic Warrior's Cookbook [16]" equipId="920" mtrlId="303020" eventFlag_forRelease="67290" equipType="3" setNum="1" />
+<row id="30303" paramdexName="Stimulating Boluses - Nomadic Warrior's Cookbook [16]" equipId="930" mtrlId="303030" eventFlag_forRelease="67290" equipType="3" setNum="1" />
+<row id="30304" paramdexName="Preserving Boluses - Armorer's Cookbook [6]" equipId="940" mtrlId="303040" eventFlag_forRelease="67300" equipType="3" setNum="1" />
+<row id="30305" paramdexName="Rejuvenating Boluses - Missionary's Cookbook [7]" equipId="950" mtrlId="303050" eventFlag_forRelease="68230" equipType="3" setNum="1" />
+<row id="30306" paramdexName="Clarifying Boluses - Frenzied's Cookbook [1]" equipId="960" mtrlId="303060" eventFlag_forRelease="68400" equipType="3" setNum="1" />
+<row id="30400" paramdexName="Pickled Turtle Neck - Nomadic Warrior's Cookbook [3]" equipId="1100" mtrlId="304000" eventFlag_forRelease="67010" equipType="3" setNum="1" />
+<row id="30401" paramdexName="Immunizing Cured Meat - Armorer's Cookbook [5]" equipId="1110" mtrlId="304010" eventFlag_forRelease="67310" equipType="3" setNum="1" />
+<row id="30402" paramdexName="Invigorating Cured Meat - Nomadic Warrior's Cookbook [2]" equipId="1120" mtrlId="304020" eventFlag_forRelease="67110" equipType="3" setNum="1" />
+<row id="30403" paramdexName="Clarifying Cured Meat - Nomadic Warrior's Cookbook [23]" equipId="1130" mtrlId="304030" eventFlag_forRelease="67090" equipType="3" setNum="1" />
+<row id="30404" paramdexName="Dappled Cured Meat - Nomadic Warrior's Cookbook [18]" equipId="1140" mtrlId="304040" eventFlag_forRelease="67270" equipType="3" setNum="1" />
+<row id="30405" paramdexName="Spellproof Dried Liver - Nomadic Warrior's Cookbook [11]" equipId="1150" mtrlId="304050" eventFlag_forRelease="67220" equipType="3" setNum="1" />
+<row id="30406" paramdexName="Fireproof Dried Liver - Armorer's Cookbook [1]" equipId="1160" mtrlId="304060" eventFlag_forRelease="67200" equipType="3" setNum="1" />
+<row id="30407" paramdexName="Lightningproof Dried Liver - Ancient Dragon Apostle's Cookbook [4]" equipId="1170" mtrlId="304070" eventFlag_forRelease="68020" equipType="3" setNum="1" />
+<row id="30408" paramdexName="Holyproof Dried Liver - Missionary's Cookbook [6]" equipId="1180" mtrlId="304080" eventFlag_forRelease="67130" equipType="3" setNum="1" />
+<row id="30409" paramdexName="Silver-Pickled Fowl Foot - Missionary's Cookbook [3]" equipId="1190" mtrlId="304090" eventFlag_forRelease="67650" equipType="3" setNum="1" />
+<row id="30410" paramdexName="Gold-Pickled Fowl Foot - Missionary's Cookbook [2]" equipId="1200" mtrlId="304100" eventFlag_forRelease="67600" equipType="3" setNum="1" />
+<row id="30411" paramdexName="Exalted Flesh - Armorer's Cookbook [3]" equipId="1210" mtrlId="304110" eventFlag_forRelease="67280" equipType="3" setNum="1" />
+<row id="30413" paramdexName="Immunizing White Cured Meat - Armorer's Cookbook [5]" equipId="1310" mtrlId="304130" eventFlag_forRelease="67310" equipType="3" setNum="1" />
+<row id="30414" paramdexName="Invigorating White Cured Meat - Nomadic Warrior's Cookbook [2]" equipId="1320" mtrlId="304140" eventFlag_forRelease="67110" equipType="3" setNum="1" />
+<row id="30415" paramdexName="Clarifying White Cured Meat - Nomadic Warrior's Cookbook [23]" equipId="1330" mtrlId="304150" eventFlag_forRelease="67090" equipType="3" setNum="1" />
+<row id="30416" paramdexName="Dappled White Cured Meat - Nomadic Warrior's Cookbook [18]" equipId="1340" mtrlId="304160" eventFlag_forRelease="67270" equipType="3" setNum="1" />
+<row id="30500" paramdexName="Fire Grease - Armorer's Cookbook [1]" equipId="1400" mtrlId="305000" eventFlag_forRelease="67200" equipType="3" setNum="1" />
+<row id="30501" paramdexName="Lightning Grease - Ancient Dragon Apostle's Cookbook [1]" equipId="1410" mtrlId="305010" eventFlag_forRelease="68000" equipType="3" setNum="1" />
+<row id="30502" paramdexName="Magic Grease - Glintstone Craftsman's Cookbook [5]" equipId="1420" mtrlId="305020" eventFlag_forRelease="67420" equipType="3" setNum="1" />
+<row id="30503" paramdexName="Holy Grease - Missionary's Cookbook [4]" equipId="1430" mtrlId="305030" eventFlag_forRelease="67640" equipType="3" setNum="1" />
+<row id="30504" paramdexName="Blood Grease - Nomadic Warrior's Cookbook [6]" equipId="1440" mtrlId="305040" eventFlag_forRelease="67020" equipType="3" setNum="1" />
+<row id="30505" paramdexName="Soporific Grease - Fevor's Cookbook [2]" equipId="1450" mtrlId="305050" eventFlag_forRelease="68220" equipType="3" setNum="1" />
+<row id="30506" paramdexName="Poison Grease - Nomadic Warrior's Cookbook [8]" equipId="1460" mtrlId="305060" eventFlag_forRelease="67880" equipType="3" setNum="1" />
+<row id="30507" paramdexName="Freezing Grease - Glintstone Craftsman's Cookbook [2]" equipId="1470" mtrlId="305070" eventFlag_forRelease="67450" equipType="3" setNum="1" />
+<row id="30508" paramdexName="Dragonwound Grease - Ancient Dragon Apostle's Cookbook [3]" equipId="1480" mtrlId="305080" eventFlag_forRelease="68030" equipType="3" setNum="1" />
+<row id="30509" paramdexName="Rot Grease - Nomadic Warrior's Cookbook [22]" equipId="1490" mtrlId="305090" eventFlag_forRelease="67890" equipType="3" setNum="1" />
+<row id="30510" paramdexName="Drawstring Fire Grease - Armorer's Cookbook [1]" equipId="1500" mtrlId="305100" eventFlag_forRelease="67200" equipType="3" setNum="1" />
+<row id="30511" paramdexName="Drawstring Lightning Grease - Ancient Dragon Apostle's Cookbook [1]" equipId="1510" mtrlId="305110" eventFlag_forRelease="68000" equipType="3" setNum="1" />
+<row id="30512" paramdexName="Drawstring Magic Grease - Glintstone Craftsman's Cookbook [5]" equipId="1520" mtrlId="305120" eventFlag_forRelease="67420" equipType="3" setNum="1" />
+<row id="30513" paramdexName="Drawstring Holy Grease - Missionary's Cookbook [4]" equipId="1530" mtrlId="305130" eventFlag_forRelease="67640" equipType="3" setNum="1" />
+<row id="30514" paramdexName="Drawstring Blood Grease - Nomadic Warrior's Cookbook [6]" equipId="1540" mtrlId="305140" eventFlag_forRelease="67020" equipType="3" setNum="1" />
+<row id="30515" paramdexName="Drawstring Soporific Grease - Fevor's Cookbook [2]" equipId="1550" mtrlId="305150" eventFlag_forRelease="68220" equipType="3" setNum="1" />
+<row id="30516" paramdexName="Drawstring Poison Grease - Nomadeic Warrior's Cookbook [8]" equipId="1560" mtrlId="305160" eventFlag_forRelease="67880" equipType="3" setNum="1" />
+<row id="30518" paramdexName="Drawstring Rot Grease - Nomadic Warrior's Cookbook [22]" equipId="1590" mtrlId="305180" eventFlag_forRelease="67890" equipType="3" setNum="1" />
+<row id="30519" paramdexName="Shield Grease - Glintstone Craftsman's Cookbook [4]" equipId="1690" mtrlId="305190" eventFlag_forRelease="67400" equipType="3" setNum="1" />
+<row id="30600" paramdexName="Bone Dart - Default" equipId="1710" mtrlId="306000" eventFlag_forRelease="0" equipType="3" setNum="5" />
+<row id="30601" paramdexName="Poisonbone Dart - Nomadic Warrior's Cookbook [14]" equipId="1720" mtrlId="306010" eventFlag_forRelease="67870" equipType="3" setNum="5" />
+<row id="30602" paramdexName="Crystal Dart - Nomadic Warrior's Cookbook [11]" equipId="1740" mtrlId="306020" eventFlag_forRelease="67220" equipType="3" setNum="5" />
+<row id="30700" paramdexName="Rainbow Stone - Default" equipId="2020" mtrlId="307000" eventFlag_forRelease="0" equipType="3" setNum="1" />
+<row id="30701" paramdexName="Glowstone - Nomadic Warrior's Cookbook [2]" equipId="2030" mtrlId="307010" eventFlag_forRelease="67110" equipType="3" setNum="1" />
+<row id="30702" paramdexName="Grace Mimic - Missionary's Cookbook [2]" equipId="2050" mtrlId="307020" eventFlag_forRelease="67600" equipType="3" setNum="1" />
+<row id="30703" paramdexName="Soft Cotton - Nomadic Warrior's Cookbook [7]" equipId="2100" mtrlId="307030" eventFlag_forRelease="67050" equipType="3" setNum="1" />
+<row id="30704" paramdexName="Soap - Nomadic Warrior's Cookbook [17]" equipId="2120" mtrlId="307040" eventFlag_forRelease="67100" equipType="3" setNum="1" />
+<row id="30800" paramdexName="Cuckoo Glintstone - Glintstone Craftsman's Cookbook [1]" equipId="3030" mtrlId="308000" eventFlag_forRelease="67410" equipType="3" setNum="1" />
+<row id="30801" paramdexName="Warming Stone - Nomadic Warrior's Cookbook [19]" equipId="3310" mtrlId="308010" eventFlag_forRelease="67070" equipType="3" setNum="1" />
+<row id="30802" paramdexName="Frenzyflame Stone - Frenzied’s Cookbook [2]" equipId="3311" mtrlId="308020" eventFlag_forRelease="68410" equipType="3" setNum="1" />
+<row id="30803" paramdexName="Scriptstone - Missionary's Cookbook [2]" equipId="3320" mtrlId="308030" eventFlag_forRelease="67600" equipType="3" setNum="1" />
+<row id="30804" paramdexName="Bewitching Branch - Fevor's Cookbook [3]" equipId="3350" mtrlId="308040" eventFlag_forRelease="68210" equipType="3" setNum="1" />
+<row id="30900" paramdexName="Uplifting Aromatic - Perfumer's Cookbook [1]" equipId="3500" mtrlId="309000" eventFlag_forRelease="67840" equipType="3" setNum="1" />
+<row id="30901" paramdexName="Spark Aromatic - Perfumer's Cookbook [1]" equipId="3510" mtrlId="309010" eventFlag_forRelease="67840" equipType="3" setNum="1" />
+<row id="30902" paramdexName="Ironjar Aromatic - Perfumer's Cookbook [3]" equipId="3520" mtrlId="309020" eventFlag_forRelease="67860" equipType="3" setNum="1" />
+<row id="30903" paramdexName="Bloodboil Aromatic - Perfumer's Cookbook [2]" equipId="3550" mtrlId="309030" eventFlag_forRelease="67850" equipType="3" setNum="1" />
+<row id="30904" paramdexName="Poison Spraymist - Perfumer's Cookbook [2]" equipId="3580" mtrlId="309040" eventFlag_forRelease="67850" equipType="3" setNum="1" />
+<row id="30905" paramdexName="Acid Spraymist - Perfumer's Cookbook [4]" equipId="3610" mtrlId="309050" eventFlag_forRelease="67920" equipType="3" setNum="1" />
+<row id="32000" paramdexName="Bone Arrow (Fletched) - Nomadic Warrior's Cookbook [1]" equipId="50030000" mtrlId="320000" eventFlag_forRelease="67000" equipType="0" setNum="10" />
+<row id="32001" paramdexName="Bone Arrow - Nomadic Warrior's Cookbook [1]" equipId="50110000" mtrlId="320010" eventFlag_forRelease="67000" equipType="0" setNum="10" />
+<row id="32002" paramdexName="Firebone Arrow (Fletched) - Armorer's Cookbook [2]" equipId="50130000" mtrlId="320020" eventFlag_forRelease="67210" equipType="0" setNum="10" />
+<row id="32003" paramdexName="Firebone Arrow - Armorer's Cookbook [2]" equipId="50140000" mtrlId="320030" eventFlag_forRelease="67210" equipType="0" setNum="10" />
+<row id="32004" paramdexName="Poisonbone Arrow (Fletched) - Nomadic Warrior's Cookbook [3]" equipId="50150000" mtrlId="320040" eventFlag_forRelease="67010" equipType="0" setNum="10" />
+<row id="32005" paramdexName="Poisonbone Arrow - Nomadic Warrior's Cookbook [3]" equipId="50160000" mtrlId="320050" eventFlag_forRelease="67010" equipType="0" setNum="10" />
+<row id="32006" paramdexName="Sleepbone Arrow (Fletched) - Fevor's Cookbook [2]" equipId="50170000" mtrlId="320060" eventFlag_forRelease="68220" equipType="0" setNum="10" />
+<row id="32007" paramdexName="Sleepbone Arrow - Fevor's Cookbook [2]" equipId="50180000" mtrlId="320070" eventFlag_forRelease="68220" equipType="0" setNum="10" />
+<row id="32008" paramdexName="Stormwing Bone Arrow - Nomadic Warrior's Cookbook [10]" equipId="50190000" mtrlId="320080" eventFlag_forRelease="67030" equipType="0" setNum="10" />
+<row id="32009" paramdexName="Lightningbone Arrow (Fletched) - Ancient Dragon Apostle's Cookbook [1]" equipId="50200000" mtrlId="320090" eventFlag_forRelease="68000" equipType="0" setNum="10" />
+<row id="32010" paramdexName="Lightningbone Arrow - Ancient Dragon Apostle's Cookbook [1]" equipId="50210000" mtrlId="320100" eventFlag_forRelease="68000" equipType="0" setNum="10" />
+<row id="32011" paramdexName="Rainbow Stone Arrow - Nomadic Warrior's Cookbook [7]" equipId="50220000" mtrlId="320110" eventFlag_forRelease="67050" equipType="0" setNum="10" />
+<row id="32012" paramdexName="Shattershard Arrow - Nomadic Warrior's Cookbook [11]" equipId="50230000" mtrlId="320120" eventFlag_forRelease="67220" equipType="0" setNum="10" />
+<row id="32013" paramdexName="Magicbone Arrow (Fletched) - Glintstone Craftsman's Cookbook [5]" equipId="50260000" mtrlId="320130" eventFlag_forRelease="67420" equipType="0" setNum="10" />
+<row id="32014" paramdexName="Magicbone Arrow - Glintstone Craftsman's Cookbook [5]" equipId="50270000" mtrlId="320140" eventFlag_forRelease="67420" equipType="0" setNum="10" />
+<row id="32015" paramdexName="Haligbone Arrow (Fletched) - Missionary's Cookbook [4]" equipId="50280000" mtrlId="320150" eventFlag_forRelease="67640" equipType="0" setNum="10" />
+<row id="32016" paramdexName="Haligbone Arrow - Missionary's Cookbook [4]" equipId="50290000" mtrlId="320160" eventFlag_forRelease="67640" equipType="0" setNum="10" />
+<row id="32017" paramdexName="Bloodbone Arrow (Fletched) - Nomadic Warrior's Cookbook [6]" equipId="50300000" mtrlId="320170" eventFlag_forRelease="67020" equipType="0" setNum="10" />
+<row id="32018" paramdexName="Bloodbone Arrow - Nomadic Warrior's Cookbook [6]" equipId="50310000" mtrlId="320180" eventFlag_forRelease="67020" equipType="0" setNum="10" />
+<row id="32019" paramdexName="Coldbone Arrow (Fletched) - Glintstone Craftsman's Cookbook [7]" equipId="50320000" mtrlId="320190" eventFlag_forRelease="67470" equipType="0" setNum="10" />
+<row id="32020" paramdexName="Coldbone Arrow - Glintstone Craftsman's Cookbook [7]" equipId="50330000" mtrlId="320200" eventFlag_forRelease="67470" equipType="0" setNum="10" />
+<row id="32021" paramdexName="Rotbone Arrow (Fletched) - Nomadic Warrior's Cookbook [15]" equipId="50340000" mtrlId="320210" eventFlag_forRelease="67900" equipType="0" setNum="10" />
+<row id="32022" paramdexName="Rotbone Arrow - Nomadic Warrior's Cookbook [15]" equipId="50350000" mtrlId="320220" eventFlag_forRelease="67900" equipType="0" setNum="10" />
+<row id="32100" paramdexName="Bone Great Arrow (Fletched) - Nomadic Warrior's Cookbook [1]" equipId="51050000" mtrlId="321000" eventFlag_forRelease="67080" equipType="0" setNum="5" />
+<row id="32101" paramdexName="Bone Great Arrow - Nomadic Warrior's Cookbook [1]" equipId="51060000" mtrlId="321010" eventFlag_forRelease="67080" equipType="0" setNum="5" />
+<row id="32200" paramdexName="Bone Bolt - Nomadic Warrior's Cookbook [1]" equipId="52090000" mtrlId="322000" eventFlag_forRelease="67000" equipType="0" setNum="10" />
+<row id="32201" paramdexName="Firebone Bolt - Armorer's Cookbook [2]" equipId="52100000" mtrlId="322010" eventFlag_forRelease="67210" equipType="0" setNum="10" />
+<row id="32202" paramdexName="Lightningbone Bolt - Ancient Dragon Apostle's Cookbook [1]" equipId="52110000" mtrlId="322020" eventFlag_forRelease="68000" equipType="0" setNum="10" />
+<row id="32203" paramdexName="Magicbone Bolt - Glintstone Craftsman's Cookbook [5]" equipId="52120000" mtrlId="322030" eventFlag_forRelease="67420" equipType="0" setNum="10" />
+<row id="32204" paramdexName="Haligbone Bolt - Missionary's Cookbook [4]" equipId="52130000" mtrlId="322040" eventFlag_forRelease="67640" equipType="0" setNum="10" />
+<row id="32205" paramdexName="Poisonbone Bolt - Nomadic Warrior's Cookbook [3]" equipId="52140000" mtrlId="322050" eventFlag_forRelease="67010" equipType="0" setNum="10" />
+<row id="32206" paramdexName="Bloodbone Bolt - Nomadic Warrior's Cookbook [6]" equipId="52150000" mtrlId="322060" eventFlag_forRelease="67020" equipType="0" setNum="10" />
+<row id="32207" paramdexName="Coldbone Bolt - Glintstone Craftsman's Cookbook [7]" equipId="52160000" mtrlId="322070" eventFlag_forRelease="67470" equipType="0" setNum="10" />
+<row id="32208" paramdexName="Rotbone Bolt - Nomadic Warrior's Cookbook [15]" equipId="52170000" mtrlId="322080" eventFlag_forRelease="67900" equipType="0" setNum="10" />
+<row id="32209" paramdexName="Sleepbone Bolt -  Fevor's Cookbook [2]" equipId="52180000" mtrlId="322090" eventFlag_forRelease="68220" equipType="0" setNum="10" />
+<row id="32300" paramdexName="Bone Ballista Bolt - Nomadic Warrior's Cookbook [13]" equipId="53030000" mtrlId="323000" eventFlag_forRelease="67080" equipType="0" setNum="5" />
+<row id="35100" paramdexName="Hefty Fire Pot - Greater Potentate's Cookbook [1]" equipId="2000300" mtrlId="351000" eventFlag_forRelease="68590" equipType="3" setNum="1" />
+<row id="35101" paramdexName="Hefty Magic Pot - Greater Potentate's Cookbook [4]" equipId="2000660" mtrlId="351010" eventFlag_forRelease="68600" equipType="3" setNum="1" />
+<row id="35102" paramdexName="Hefty Lightning Pot - Greater Potentate's Cookbook [5]" equipId="2000320" mtrlId="351020" eventFlag_forRelease="68610" equipType="3" setNum="1" />
+<row id="35104" paramdexName="Hefty Rock Pot - Greater Potentate's Cookbook [12]" equipId="2000310" mtrlId="351040" eventFlag_forRelease="68620" equipType="3" setNum="1" />
+<row id="35105" paramdexName="Hefty Poison Pot - Greater Potentate's Cookbook [7]" equipId="2000370" mtrlId="351050" eventFlag_forRelease="68630" equipType="3" setNum="1" />
+<row id="35106" paramdexName="Hefty Rot Pot - Greater Potentate's Cookbook [9]" equipId="2000670" mtrlId="351060" eventFlag_forRelease="68640" equipType="3" setNum="1" />
+<row id="35107" paramdexName="Hefty Fly Pot - Greater Potentate's Cookbook [10]" equipId="2000340" mtrlId="351070" eventFlag_forRelease="68650" equipType="3" setNum="1" />
+<row id="35108" paramdexName="Hefty Freezing Pot - Greater Potentate's Cookbook [11]" equipId="2000360" mtrlId="351080" eventFlag_forRelease="68660" equipType="3" setNum="1" />
+<row id="35110" paramdexName="Hefty Frenzied Flame Pot - Greater Potentate's Cookbook [2]" equipId="2000620" mtrlId="351100" eventFlag_forRelease="68670" equipType="3" setNum="1" />
+<row id="35111" paramdexName="Hefty Fetid Pot - Greater Potentate's Cookbook [8]" equipId="2000330" mtrlId="351110" eventFlag_forRelease="68680" equipType="3" setNum="1" />
+<row id="35112" paramdexName="Hefty Oil Pot - Greater Potentate's Cookbook [3]" equipId="2000380" mtrlId="351120" eventFlag_forRelease="68690" equipType="3" setNum="1" />
+<row id="35113" paramdexName="Hefty Volcano Pot - Greater Potentate's Cookbook [13]" equipId="2000600" mtrlId="351130" eventFlag_forRelease="68700" equipType="3" setNum="1" />
+<row id="35114" paramdexName="Hefty Rancor Pot - Greater Potentate's Cookbook [14]" equipId="2000650" mtrlId="351140" eventFlag_forRelease="68710" equipType="3" setNum="1" />
+<row id="35115" paramdexName="Hefty Red Lightning Pot - Greater Potentate's Cookbook [6]" equipId="2000690" mtrlId="351150" eventFlag_forRelease="68720" equipType="3" setNum="1" />
+<row id="35116" paramdexName="Hefty Furance Pot - Greater Potentate's Cookbook [2]" equipId="2000680" mtrlId="351160" eventFlag_forRelease="68730" equipType="3" setNum="1" />
+<row id="35120" paramdexName="Red Lightning Pot - Ancient Dragon Knight's Cookbook [1]" equipId="2000700" mtrlId="351200" eventFlag_forRelease="68740" equipType="3" setNum="1" />
+<row id="35121" paramdexName="Frenzied Flame Pot - Mad Craftsman's Cookbook [1]" equipId="2000710" mtrlId="351210" eventFlag_forRelease="68750" equipType="3" setNum="1" />
+<row id="35122" paramdexName="Eternal Sleep Pot - St. Trina Disciple's Cookbook [1]" equipId="2000740" mtrlId="351220" eventFlag_forRelease="68760" equipType="3" setNum="1" />
+<row id="35131" paramdexName="Roped Frenzied Flame Pot - Mad Craftsman's Cookbook [1]" equipId="2000760" mtrlId="351310" eventFlag_forRelease="68750" equipType="3" setNum="1" />
+<row id="35200" paramdexName="Spirit Raisin - Forager Brood Cookbook [7]" equipId="2000800" mtrlId="352000" eventFlag_forRelease="68830" equipType="3" setNum="1" />
+<row id="35300" paramdexName="Lulling Branch - St. Trina Disciple's Cookbook [3]" equipId="2000910" mtrlId="353000" eventFlag_forRelease="68840" equipType="3" setNum="1" />
+<row id="35400" paramdexName="Dragon Communion Flesh - Igon's Cookbook [2]" equipId="2001100" mtrlId="354000" eventFlag_forRelease="68570" equipType="3" setNum="1" />
+<row id="35401" paramdexName="Fingerprint Nostrum - Finger-Weaver's Cookbook [2]" equipId="2001110" mtrlId="354010" eventFlag_forRelease="68580" equipType="3" setNum="1" />
+<row id="35410" paramdexName="Spellproof Pickled Liver - Forager Brood Cookbook [1]" equipId="2001120" mtrlId="354100" eventFlag_forRelease="68520" equipType="3" setNum="1" />
+<row id="35411" paramdexName="Fireproof Pickled Liver - Forager Brood Cookbook [2]" equipId="2001130" mtrlId="354110" eventFlag_forRelease="68530" equipType="3" setNum="1" />
+<row id="35412" paramdexName="Lightningproof Pickled Liver - Forager Brood Cookbook [3]" equipId="2001140" mtrlId="354120" eventFlag_forRelease="68540" equipType="3" setNum="1" />
+<row id="35413" paramdexName="Holyproof Pickled Liver - Forager Brood Cookbook [4]" equipId="2001150" mtrlId="354130" eventFlag_forRelease="68550" equipType="3" setNum="1" />
+<row id="35414" paramdexName="Opaline Pickled Liver - Forager Brood Cookbook [5]" equipId="2001160" mtrlId="354140" eventFlag_forRelease="68560" equipType="3" setNum="1" />
+<row id="35415" paramdexName="Well-Pickled Turtle Neck - Forager Brood Cookbook [6]" equipId="2001170" mtrlId="354150" eventFlag_forRelease="68510" equipType="3" setNum="1" />
+<row id="35500" paramdexName="Messmerfire Grease - Fire Knight's Cookbook [1]" equipId="2001400" mtrlId="355000" eventFlag_forRelease="68770" equipType="3" setNum="1" />
+<row id="35501" paramdexName="Dragonbolt Grease - Ancient Dragon Knight's Cookbook [2]" equipId="2001410" mtrlId="355010" eventFlag_forRelease="68780" equipType="3" setNum="1" />
+<row id="35502" paramdexName="Royal Magic Grease - Loyal Knight's Cookbook" equipId="2001420" mtrlId="355020" eventFlag_forRelease="68790" equipType="3" setNum="1" />
+<row id="35503" paramdexName="Golden Grease - Battlefield Priest's Cookbook [1]" equipId="2001430" mtrlId="355030" eventFlag_forRelease="68800" equipType="3" setNum="1" />
+<row id="35504" paramdexName="Eternal Sleep Grease - St. Trina Disciple's Cookbook [2]" equipId="2001450" mtrlId="355040" eventFlag_forRelease="68950" equipType="3" setNum="1" />
+<row id="35505" paramdexName="Dragon Communion Grease - Igon's Cookbook [1]" equipId="2001480" mtrlId="355050" eventFlag_forRelease="68810" equipType="3" setNum="1" />
+<row id="35506" paramdexName="Drawstring Messmerfire Grease - Fire Knight's Cookbook [1]" equipId="2001500" mtrlId="355060" eventFlag_forRelease="68770" equipType="3" setNum="1" />
+<row id="35507" paramdexName="Drawstring Dragonbolt Grease - Ancient Dragon Knight's Cookbook [2]" equipId="2001510" mtrlId="355070" eventFlag_forRelease="68780" equipType="3" setNum="1" />
+<row id="35508" paramdexName="Drawstring Royal Magic Grease - Loyal Knight's Cookbook" equipId="2001520" mtrlId="355080" eventFlag_forRelease="68790" equipType="3" setNum="1" />
+<row id="35509" paramdexName="Drawstring Golden Grease - Battlefield Priest's Cookbook [1]" equipId="2001530" mtrlId="355090" eventFlag_forRelease="68800" equipType="3" setNum="1" />
+<row id="35510" paramdexName="Drawstring Eternal Sleep Grease - St. Trina Disciple's Cookbook [2]" equipId="2001550" mtrlId="355100" eventFlag_forRelease="68950" equipType="3" setNum="1" />
+<row id="35511" paramdexName="Festive Grease - Battlefield Priest's Cookbook [2]" equipId="2001600" mtrlId="355110" eventFlag_forRelease="68820" equipType="3" setNum="1" />
+<row id="35600" paramdexName="Dragon Communion Harpoon - Igon's Cookbook [1]" equipId="2001710" mtrlId="356000" eventFlag_forRelease="68810" equipType="3" setNum="1" />
+<row id="35700" paramdexName="Polter Stone - Grave Keeper's Cookbook [2]" equipId="2002000" mtrlId="357000" eventFlag_forRelease="68850" equipType="3" setNum="1" />
+<row id="35800" paramdexName="Spritestone - Antiquity Scholar's Cookbook [2]" equipId="2003001" mtrlId="358000" eventFlag_forRelease="68860" equipType="3" setNum="1" />
+<row id="35801" paramdexName="Call of Tibia - Tibia's Cookbook" equipId="2003150" mtrlId="358010" eventFlag_forRelease="68870" equipType="3" setNum="1" />
+<row id="35802" paramdexName="Surging Frenzied Flame - Mad Craftsman's Cookbook [3]" equipId="2003160" mtrlId="358020" eventFlag_forRelease="68880" equipType="3" setNum="1" />
+<row id="35803" paramdexName="Golden Vow - Battlefield Priest's Cookbook [3]" equipId="2003170" mtrlId="358030" eventFlag_forRelease="68890" equipType="3" setNum="1" />
+<row id="35804" paramdexName="Fire Coil - Fire Knight's Cookbook [2]" equipId="2003180" mtrlId="358040" eventFlag_forRelease="68900" equipType="3" setNum="1" />
+<row id="35805" paramdexName="Fire Spritestone - Antiquity Scholar's Cookbook [1]" equipId="2003190" mtrlId="358050" eventFlag_forRelease="68910" equipType="3" setNum="1" />
+<row id="35806" paramdexName="Glinting Nail - Finger-Weaver's Cookbook [1]" equipId="2003200" mtrlId="358060" eventFlag_forRelease="68920" equipType="3" setNum="1" />
+<row id="35807" paramdexName="Sunwarmth Stone - Battlefield Priest's Cookbook [4]" equipId="2003310" mtrlId="358070" eventFlag_forRelease="68930" equipType="3" setNum="1" />
+<row id="35808" paramdexName="Charming Branch - Forager Brood Cookbook [7]" equipId="2003350" mtrlId="358080" eventFlag_forRelease="68830" equipType="3" setNum="1" />
+<row id="37000" paramdexName="Piquebone Arrow (Fletched) - Grave Keeper's Cookbook [1]" equipId="50540000" mtrlId="370000" eventFlag_forRelease="68940" equipType="0" setNum="10" />
+<row id="37001" paramdexName="Piquebone Arrow - Grave Keeper's Cookbook [1]" equipId="50550000" mtrlId="370010" eventFlag_forRelease="68940" equipType="0" setNum="10" />
+<row id="37100" paramdexName="Piquebone Bolt - Grave Keeper's Cookbook [1]" equipId="52520000" mtrlId="371000" eventFlag_forRelease="68940" equipType="0" setNum="5" />
+</rows>
+</param>

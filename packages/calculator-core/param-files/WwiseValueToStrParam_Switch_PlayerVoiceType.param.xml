@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>WwiseValueToStrParam_Switch_PlayerVoiceType.param</filename>
+<compression>None</compression>
+<type>WWISE_VALUE_TO_STR_CONVERT_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>2</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>WWISE_VALUE_TO_STR_CONVERT_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>2</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="disableParam_NT" type="u8" arraylength="1" bitsize="1" sortid="0" defaultValue="0" defaultThreshold="True" />
+<field name="disableParamReserve1" type="dummy8" arraylength="1" bitsize="7" sortid="5" defaultValue="[0]" defaultThreshold="True" />
+<field name="disableParamReserve2" type="dummy8" arraylength="3" bitsize="-1" sortid="6" defaultValue="[0|0|0]" defaultThreshold="True" />
+<field name="ParamStr" type="fixstr" arraylength="32" bitsize="-1" sortid="1" defaultValue="" />
+</fields>
+<rows>
+<row id="0" ParamStr="_00_PC_Male_Young_Neutral" />
+<row id="1" ParamStr="_01_PC_Male_Young_Deeper" />
+<row id="2" ParamStr="_02_PC_Male_Mature_Neutral" />
+<row id="3" ParamStr="_03_PC_Male_Mature_Deeper" />
+<row id="4" ParamStr="_04_PC_Male_Aged_Neutral" />
+<row id="5" ParamStr="_05_PC_Male_Aged_Deeper" />
+<row id="10" ParamStr="_10_PC_Female_Young_Neutral" />
+<row id="11" ParamStr="_11_PC_Female_Young_Deeper" />
+<row id="12" ParamStr="_12_PC_Female_Mature_Neutral" />
+<row id="13" ParamStr="_13_PC_Female_Mature_Deeper" />
+<row id="14" ParamStr="_14_PC_Female_Aged_Neutral" />
+<row id="15" ParamStr="_15_PC_Female_Aged_Deeper" />
+<row id="50" ParamStr="_50_NPC_Male_Young" />
+<row id="51" ParamStr="_51_NPC_Male_Middle" />
+<row id="52" ParamStr="_52_NPC_Male_Old" />
+<row id="60" ParamStr="_60_NPC_Female_Young" />
+<row id="61" ParamStr="_61_NPC_Female_Middle" />
+<row id="62" ParamStr="_62_NPC_Female_Old" />
+<row id="100" ParamStr="NPC_vc300" />
+<row id="101" ParamStr="NPC_vc301" />
+<row id="102" ParamStr="NPC_vc302" />
+<row id="103" ParamStr="NPC_vc303" />
+<row id="104" ParamStr="NPC_vc304" />
+<row id="105" ParamStr="NPC_vc305" />
+<row id="106" ParamStr="NPC_vc306" />
+<row id="107" ParamStr="NPC_vc307" />
+<row id="108" ParamStr="NPC_vc308" />
+<row id="109" ParamStr="NPC_vc309" />
+<row id="110" ParamStr="NPC_vc310" />
+<row id="111" ParamStr="NPC_vc311" />
+<row id="112" ParamStr="NPC_vc312" />
+<row id="113" ParamStr="NPC_vc313" />
+<row id="114" ParamStr="NPC_vc314" />
+<row id="115" ParamStr="NPC_vc315" />
+<row id="116" ParamStr="NPC_vc316" />
+<row id="117" ParamStr="NPC_vc317" />
+<row id="118" ParamStr="NPC_vc318" />
+<row id="119" ParamStr="NPC_vc319" />
+<row id="120" ParamStr="NPC_vc320" />
+<row id="121" ParamStr="NPC_vc321" />
+<row id="122" ParamStr="NPC_vc322" />
+<row id="123" ParamStr="NPC_vc323" />
+<row id="124" ParamStr="NPC_vc324" />
+<row id="125" ParamStr="NPC_vc325" />
+<row id="126" ParamStr="NPC_vc326" />
+<row id="127" ParamStr="NPC_vc327" />
+<row id="128" ParamStr="NPC_vc328" />
+<row id="129" ParamStr="NPC_vc329" />
+<row id="130" ParamStr="NPC_vc330" />
+<row id="131" ParamStr="NPC_vc331" />
+<row id="132" ParamStr="NPC_vc332" />
+<row id="133" ParamStr="NPC_vc333" />
+<row id="134" ParamStr="NPC_vc334" />
+<row id="135" ParamStr="NPC_vc335" />
+<row id="136" ParamStr="NPC_vc336" />
+<row id="137" ParamStr="NPC_vc337" />
+<row id="138" ParamStr="NPC_vc338" />
+<row id="139" ParamStr="NPC_vc339" />
+<row id="140" ParamStr="NPC_vc340" />
+<row id="141" ParamStr="NPC_vc341" />
+<row id="142" ParamStr="NPC_vc342" />
+<row id="143" ParamStr="NPC_vc343" />
+<row id="144" ParamStr="NPC_vc344" />
+<row id="145" ParamStr="NPC_vc345" />
+<row id="146" ParamStr="NPC_vc346" />
+<row id="147" ParamStr="NPC_vc347" />
+<row id="148" ParamStr="NPC_vc348" />
+<row id="149" ParamStr="NPC_vc349" />
+<row id="150" ParamStr="NPC_vc350" />
+<row id="151" ParamStr="NPC_vc351" />
+<row id="152" ParamStr="NPC_vc352" />
+<row id="153" ParamStr="NPC_vc353" />
+<row id="154" ParamStr="NPC_vc354" />
+<row id="155" ParamStr="NPC_vc355" />
+<row id="156" ParamStr="NPC_vc356" />
+<row id="157" ParamStr="NPC_vc357" />
+<row id="158" ParamStr="NPC_vc358" />
+<row id="159" ParamStr="NPC_vc359" />
+<row id="160" ParamStr="NPC_vc360" />
+<row id="161" ParamStr="NPC_vc361" />
+<row id="162" ParamStr="NPC_vc362" />
+<row id="163" ParamStr="NPC_vc363" />
+<row id="164" ParamStr="NPC_vc364" />
+<row id="165" ParamStr="NPC_vc365" />
+<row id="166" ParamStr="NPC_vc366" />
+<row id="167" ParamStr="NPC_vc367" />
+<row id="168" ParamStr="NPC_vc368" />
+<row id="169" ParamStr="NPC_vc369" />
+<row id="170" ParamStr="NPC_vc370" />
+<row id="171" ParamStr="NPC_vc371" />
+<row id="172" ParamStr="NPC_vc372" />
+<row id="173" ParamStr="NPC_vc373" />
+<row id="174" ParamStr="NPC_vc374" />
+<row id="175" ParamStr="NPC_vc375" />
+<row id="176" ParamStr="NPC_vc376" />
+<row id="177" ParamStr="NPC_vc377" />
+<row id="178" ParamStr="NPC_vc378" />
+<row id="179" ParamStr="NPC_vc379" />
+<row id="180" ParamStr="NPC_vc380" />
+<row id="181" ParamStr="NPC_vc381" />
+<row id="182" ParamStr="NPC_vc382" />
+<row id="183" ParamStr="NPC_vc383" />
+<row id="184" ParamStr="NPC_vc384" />
+<row id="185" ParamStr="NPC_vc385" />
+<row id="186" ParamStr="NPC_vc386" />
+<row id="187" ParamStr="NPC_vc387" />
+<row id="188" ParamStr="NPC_vc388" />
+<row id="189" ParamStr="NPC_vc389" />
+<row id="190" ParamStr="NPC_vc390" />
+<row id="191" ParamStr="NPC_vc391" />
+<row id="192" ParamStr="NPC_vc392" />
+<row id="193" ParamStr="NPC_vc393" />
+<row id="194" ParamStr="NPC_vc394" />
+<row id="195" ParamStr="NPC_vc395" />
+<row id="196" ParamStr="NPC_vc396" />
+<row id="197" ParamStr="NPC_vc397" />
+<row id="198" ParamStr="NPC_vc398" />
+<row id="199" ParamStr="NPC_vc399" />
+<row id="200" ParamStr="NPC_vc400" />
+<row id="201" ParamStr="NPC_vc401" />
+<row id="202" ParamStr="NPC_vc402" />
+<row id="203" ParamStr="NPC_vc403" />
+<row id="204" ParamStr="NPC_vc404" />
+<row id="205" ParamStr="NPC_vc405" />
+<row id="206" ParamStr="NPC_vc406" />
+<row id="207" ParamStr="NPC_vc407" />
+<row id="208" ParamStr="NPC_vc408" />
+<row id="209" ParamStr="NPC_vc409" />
+<row id="210" ParamStr="NPC_vc410" />
+<row id="211" ParamStr="NPC_vc411" />
+<row id="212" ParamStr="NPC_vc412" />
+<row id="213" ParamStr="NPC_vc413" />
+<row id="214" ParamStr="NPC_vc414" />
+<row id="215" ParamStr="NPC_vc415" />
+<row id="216" ParamStr="NPC_vc416" />
+<row id="217" ParamStr="NPC_vc417" />
+<row id="218" ParamStr="NPC_vc418" />
+<row id="219" ParamStr="NPC_vc419" />
+<row id="220" ParamStr="NPC_vc420" />
+<row id="221" ParamStr="NPC_vc421" />
+<row id="222" ParamStr="NPC_vc422" />
+<row id="223" ParamStr="NPC_vc423" />
+<row id="224" ParamStr="NPC_vc424" />
+<row id="225" ParamStr="NPC_vc425" />
+<row id="226" ParamStr="NPC_vc426" />
+<row id="227" ParamStr="NPC_vc427" />
+<row id="228" ParamStr="NPC_vc428" />
+<row id="229" ParamStr="NPC_vc429" />
+<row id="230" ParamStr="NPC_vc430" />
+<row id="231" ParamStr="NPC_vc431" />
+<row id="232" ParamStr="NPC_vc432" />
+<row id="233" ParamStr="NPC_vc433" />
+<row id="234" ParamStr="NPC_vc434" />
+<row id="235" ParamStr="NPC_vc435" />
+<row id="236" ParamStr="NPC_vc436" />
+<row id="237" ParamStr="NPC_vc437" />
+<row id="238" ParamStr="NPC_vc438" />
+<row id="239" ParamStr="NPC_vc439" />
+<row id="240" ParamStr="NPC_vc440" />
+<row id="241" ParamStr="NPC_vc441" />
+<row id="242" ParamStr="NPC_vc442" />
+<row id="243" ParamStr="NPC_vc443" />
+<row id="244" ParamStr="NPC_vc444" />
+<row id="245" ParamStr="NPC_vc445" />
+<row id="246" ParamStr="NPC_vc446" />
+<row id="247" ParamStr="NPC_vc447" />
+<row id="248" ParamStr="NPC_vc448" />
+<row id="249" ParamStr="NPC_vc449" />
+<row id="250" ParamStr="NPC_vc450" />
+<row id="251" ParamStr="NPC_vc451" />
+<row id="252" ParamStr="NPC_vc452" />
+<row id="253" ParamStr="NPC_vc453" />
+<row id="254" ParamStr="NPC_vc454" />
+<row id="255" ParamStr="" />
+</rows>
+</param>

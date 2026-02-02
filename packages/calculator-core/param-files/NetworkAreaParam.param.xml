@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>NetworkAreaParam.param</filename>
+<compression>None</compression>
+<type>NETWORK_AREA_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>4</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>NETWORK_AREA_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>4</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="cellSizeX" type="f32" arraylength="1" bitsize="-1" sortid="0" defaultValue="30" />
+<field name="cellSizeY" type="f32" arraylength="1" bitsize="-1" sortid="1" defaultValue="20" />
+<field name="cellSizeZ" type="f32" arraylength="1" bitsize="-1" sortid="2" defaultValue="30" />
+<field name="cellOffsetX" type="f32" arraylength="1" bitsize="-1" sortid="3" defaultValue="0" />
+<field name="cellOffsetY" type="f32" arraylength="1" bitsize="-1" sortid="4" defaultValue="0" />
+<field name="cellOffsetZ" type="f32" arraylength="1" bitsize="-1" sortid="5" defaultValue="0" />
+<field name="enableBloodstain" type="u8" arraylength="1" bitsize="1" sortid="6" defaultValue="1" />
+<field name="enableBloodMessage" type="u8" arraylength="1" bitsize="1" sortid="7" defaultValue="1" />
+<field name="enableGhost" type="u8" arraylength="1" bitsize="1" sortid="8" defaultValue="1" />
+<field name="enableMultiPlay" type="u8" arraylength="1" bitsize="1" sortid="9" defaultValue="1" />
+<field name="enableRingSearch" type="u8" arraylength="1" bitsize="1" sortid="10" defaultValue="1" />
+<field name="enableBreakInSearch" type="u8" arraylength="1" bitsize="1" sortid="11" defaultValue="1" />
+<field name="dummy" type="dummy8" arraylength="3" bitsize="-1" sortid="999" defaultValue="[0|0|0]" />
+</fields>
+<rows>
+<row id="0" cellSizeX="30" cellSizeY="20" cellSizeZ="30" cellOffsetX="0" cellOffsetY="0" cellOffsetZ="0" enableBloodstain="0" enableBloodMessage="0" enableGhost="0" enableMultiPlay="0" enableRingSearch="0" enableBreakInSearch="0" dummy="[0|0|0]" />
+<row id="300000" cellSizeX="30" cellSizeY="20" cellSizeZ="30" cellOffsetX="0" cellOffsetY="0" cellOffsetZ="0" enableBloodstain="1" enableBloodMessage="1" enableGhost="1" enableMultiPlay="1" enableRingSearch="1" enableBreakInSearch="1" dummy="[0|0|0]" />
+<row id="301000" cellSizeX="30" cellSizeY="20" cellSizeZ="30" cellOffsetX="0" cellOffsetY="0" cellOffsetZ="0" enableBloodstain="1" enableBloodMessage="1" enableGhost="1" enableMultiPlay="1" enableRingSearch="1" enableBreakInSearch="1" dummy="[0|0|0]" />
+<row id="302000" cellSizeX="30" cellSizeY="20" cellSizeZ="30" cellOffsetX="0" cellOffsetY="0" cellOffsetZ="0" enableBloodstain="1" enableBloodMessage="1" enableGhost="1" enableMultiPlay="1" enableRingSearch="1" enableBreakInSearch="1" dummy="[0|0|0]" />
+<row id="310000" cellSizeX="30" cellSizeY="20" cellSizeZ="30" cellOffsetX="0" cellOffsetY="0" cellOffsetZ="0" enableBloodstain="1" enableBloodMessage="1" enableGhost="1" enableMultiPlay="1" enableRingSearch="1" enableBreakInSearch="1" dummy="[0|0|0]" />
+<row id="320000" cellSizeX="30" cellSizeY="20" cellSizeZ="30" cellOffsetX="0" cellOffsetY="0" cellOffsetZ="0" enableBloodstain="1" enableBloodMessage="1" enableGhost="1" enableMultiPlay="1" enableRingSearch="1" enableBreakInSearch="1" dummy="[0|0|0]" />
+<row id="330000" cellSizeX="30" cellSizeY="20" cellSizeZ="30" cellOffsetX="0" cellOffsetY="0" cellOffsetZ="0" enableBloodstain="1" enableBloodMessage="1" enableGhost="1" enableMultiPlay="1" enableRingSearch="1" enableBreakInSearch="1" dummy="[0|0|0]" />
+<row id="350000" cellSizeX="30" cellSizeY="20" cellSizeZ="30" cellOffsetX="0" cellOffsetY="0" cellOffsetZ="0" enableBloodstain="1" enableBloodMessage="1" enableGhost="1" enableMultiPlay="1" enableRingSearch="1" enableBreakInSearch="1" dummy="[0|0|0]" />
+<row id="360000" cellSizeX="30" cellSizeY="20" cellSizeZ="30" cellOffsetX="0" cellOffsetY="0" cellOffsetZ="0" enableBloodstain="1" enableBloodMessage="1" enableGhost="1" enableMultiPlay="1" enableRingSearch="1" enableBreakInSearch="1" dummy="[0|0|0]" />
+<row id="370000" cellSizeX="30" cellSizeY="20" cellSizeZ="30" cellOffsetX="0" cellOffsetY="0" cellOffsetZ="0" enableBloodstain="1" enableBloodMessage="1" enableGhost="1" enableMultiPlay="1" enableRingSearch="1" enableBreakInSearch="1" dummy="[0|0|0]" />
+<row id="380000" cellSizeX="30" cellSizeY="20" cellSizeZ="30" cellOffsetX="0" cellOffsetY="0" cellOffsetZ="0" enableBloodstain="1" enableBloodMessage="1" enableGhost="1" enableMultiPlay="1" enableRingSearch="1" enableBreakInSearch="1" dummy="[0|0|0]" />
+<row id="390000" cellSizeX="30" cellSizeY="20" cellSizeZ="30" cellOffsetX="0" cellOffsetY="0" cellOffsetZ="0" enableBloodstain="1" enableBloodMessage="1" enableGhost="1" enableMultiPlay="1" enableRingSearch="1" enableBreakInSearch="1" dummy="[0|0|0]" />
+<row id="400000" cellSizeX="30" cellSizeY="20" cellSizeZ="30" cellOffsetX="0" cellOffsetY="0" cellOffsetZ="0" enableBloodstain="1" enableBloodMessage="1" enableGhost="1" enableMultiPlay="0" enableRingSearch="0" enableBreakInSearch="0" dummy="[0|0|0]" />
+<row id="981000" cellSizeX="30" cellSizeY="20" cellSizeZ="30" cellOffsetX="0" cellOffsetY="0" cellOffsetZ="0" enableBloodstain="1" enableBloodMessage="1" enableGhost="1" enableMultiPlay="1" enableRingSearch="1" enableBreakInSearch="1" dummy="[0|0|0]" />
+<row id="991000" cellSizeX="30" cellSizeY="20" cellSizeZ="30" cellOffsetX="0" cellOffsetY="0" cellOffsetZ="0" enableBloodstain="1" enableBloodMessage="1" enableGhost="1" enableMultiPlay="1" enableRingSearch="1" enableBreakInSearch="1" dummy="[0|0|0]" />
+</rows>
+</param>

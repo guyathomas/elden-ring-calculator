@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>AiSoundParam.param</filename>
+<compression>None</compression>
+<type>AI_SOUND_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>1</unk06>
+<paramdef>
+<type>AI_SOUND_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="radius" type="f32" arraylength="1" bitsize="-1" sortid="200" defaultValue="100" />
+<field name="lifeFrame" type="f32" arraylength="1" bitsize="-1" sortid="300" defaultValue="1" />
+<field name="bSpEffectEnable" type="u8" arraylength="1" bitsize="-1" sortid="400" defaultValue="0" defaultThreshold="True" />
+<field name="type" type="u8" arraylength="1" bitsize="-1" sortid="100" defaultValue="0" defaultThreshold="True" />
+<field name="opposeTarget" type="u8" arraylength="1" bitsize="1" sortid="500" defaultValue="1" />
+<field name="friendlyTarget" type="u8" arraylength="1" bitsize="1" sortid="600" defaultValue="1" />
+<field name="selfTarget" type="u8" arraylength="1" bitsize="1" sortid="700" defaultValue="0" defaultThreshold="True" />
+<field name="disableOnTargetPCompany" type="u8" arraylength="1" bitsize="1" sortid="745" defaultValue="0" defaultThreshold="True" />
+<field name="rank" type="u8" arraylength="1" bitsize="-1" sortid="800" defaultValue="7" />
+<field name="forgetTime" type="f32" arraylength="1" bitsize="-1" sortid="350" defaultValue="0.2" />
+<field name="priority" type="s32" arraylength="1" bitsize="-1" sortid="750" defaultValue="2000" />
+<field name="soundBehaviorId" type="s32" arraylength="1" bitsize="-1" sortid="900" defaultValue="-1" />
+<field name="aiSoundLevel" type="u8" arraylength="1" bitsize="-1" sortid="250" defaultValue="50" />
+<field name="replaningState" type="u8" arraylength="1" bitsize="-1" sortid="740" defaultValue="0" />
+<field name="pad1" type="dummy8" arraylength="6" bitsize="-1" sortid="901" defaultValue="[0|0|0|0|0|0]" defaultThreshold="True" />
+</fields>
+<rows>
+<row id="0" radius="0" lifeFrame="1" opposeTarget="1" friendlyTarget="0" rank="0" forgetTime="-1" priority="100" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="1000" paramdexName="Slow Walk" radius="0.5" lifeFrame="1" bSpEffectEnable="1" type="1" opposeTarget="1" friendlyTarget="0" rank="0" forgetTime="-1" priority="100" soundBehaviorId="-1" aiSoundLevel="100" replaningState="0" />
+<row id="1010" paramdexName="Normal Walk" radius="5" lifeFrame="1" bSpEffectEnable="1" type="1" opposeTarget="1" friendlyTarget="0" rank="0" forgetTime="-1" priority="100" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="1020" paramdexName="Running/Torrent Dash" radius="7" lifeFrame="1" bSpEffectEnable="1" type="1" opposeTarget="1" friendlyTarget="0" rank="0" forgetTime="-1" priority="100" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="1030" paramdexName="Roll" radius="7" lifeFrame="1" bSpEffectEnable="1" type="1" opposeTarget="1" friendlyTarget="0" rank="0" forgetTime="-1" priority="100" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="1040" radius="1" lifeFrame="1" bSpEffectEnable="1" type="1" opposeTarget="1" friendlyTarget="0" rank="0" forgetTime="-1" priority="100" soundBehaviorId="-1" aiSoundLevel="100" replaningState="0" />
+<row id="1050" radius="2" lifeFrame="1" bSpEffectEnable="1" type="1" opposeTarget="1" friendlyTarget="0" rank="0" forgetTime="-1" priority="100" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="1060" radius="5" lifeFrame="1" bSpEffectEnable="1" type="1" opposeTarget="1" friendlyTarget="0" rank="0" forgetTime="-1" priority="100" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="1070" radius="7" lifeFrame="1" bSpEffectEnable="1" type="1" opposeTarget="1" friendlyTarget="0" rank="0" forgetTime="-1" priority="100" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="1080" radius="7" lifeFrame="1" bSpEffectEnable="1" type="1" opposeTarget="1" friendlyTarget="0" rank="0" forgetTime="-1" priority="100" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="1090" radius="7" lifeFrame="1" bSpEffectEnable="1" type="1" opposeTarget="1" friendlyTarget="0" rank="0" forgetTime="-1" priority="100" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="1500" radius="15" lifeFrame="4" opposeTarget="1" friendlyTarget="0" disableOnTargetPCompany="1" rank="4" forgetTime="-1" priority="99999" soundBehaviorId="-1" aiSoundLevel="30" replaningState="0" />
+<row id="1501" radius="15" lifeFrame="3" opposeTarget="1" friendlyTarget="0" rank="5" forgetTime="3" priority="99700" soundBehaviorId="-1" aiSoundLevel="30" replaningState="0" />
+<row id="1510" radius="15" lifeFrame="3" opposeTarget="1" friendlyTarget="0" rank="9" forgetTime="3" priority="99900" soundBehaviorId="-1" aiSoundLevel="30" replaningState="0" />
+<row id="1520" radius="15" lifeFrame="2.5" opposeTarget="1" friendlyTarget="0" rank="2" forgetTime="2.5" priority="99800" soundBehaviorId="-1" aiSoundLevel="30" replaningState="0" />
+<row id="1530" radius="15" lifeFrame="3" opposeTarget="1" friendlyTarget="0" disableOnTargetPCompany="1" rank="4" forgetTime="3" priority="90600" soundBehaviorId="-1" aiSoundLevel="30" replaningState="0" />
+<row id="1531" radius="15" lifeFrame="3" opposeTarget="1" friendlyTarget="0" rank="8" forgetTime="3" priority="90500" soundBehaviorId="-1" aiSoundLevel="30" replaningState="0" />
+<row id="2000" paramdexName="Attack Appear" radius="4" lifeFrame="1" type="2" opposeTarget="1" friendlyTarget="0" rank="1" forgetTime="-1" priority="200" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="2010" paramdexName="Weapon Hit" radius="12" lifeFrame="1" type="2" opposeTarget="1" friendlyTarget="0" rank="1" forgetTime="-1" priority="200" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="2020" paramdexName="Spell Hit" radius="16" lifeFrame="1" type="2" opposeTarget="1" friendlyTarget="0" rank="1" forgetTime="-1" priority="200" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="2030" paramdexName="Spell Hit" radius="20" lifeFrame="1" type="2" opposeTarget="1" friendlyTarget="0" rank="1" forgetTime="-1" priority="200" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="2090" paramdexName="Shattershard Arrow Hit" radius="10" lifeFrame="1" type="2" opposeTarget="1" friendlyTarget="0" rank="1" forgetTime="-1" priority="200" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="2100" paramdexName="Attack Hit" radius="4" lifeFrame="1" opposeTarget="1" friendlyTarget="0" rank="0" forgetTime="-1" priority="100" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="2110" radius="10" lifeFrame="1" opposeTarget="1" friendlyTarget="0" rank="0" forgetTime="-1" priority="100" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="2120" radius="15" lifeFrame="1" opposeTarget="1" friendlyTarget="0" rank="0" forgetTime="-1" priority="100" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="2130" radius="15" lifeFrame="1" opposeTarget="1" friendlyTarget="0" rank="0" forgetTime="-1" priority="100" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="2200" paramdexName="Arrow Hit" radius="4" lifeFrame="1" type="2" opposeTarget="1" friendlyTarget="0" rank="0" forgetTime="-1" priority="100" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="2210" radius="5" lifeFrame="3.5" type="2" opposeTarget="1" friendlyTarget="0" rank="0" forgetTime="-1" priority="100" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="3000" radius="4" lifeFrame="1" opposeTarget="1" friendlyTarget="0" rank="0" forgetTime="-1" priority="100" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="3010" radius="8" lifeFrame="1" opposeTarget="1" friendlyTarget="0" rank="0" forgetTime="-1" priority="100" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="3020" radius="12" lifeFrame="1" opposeTarget="1" friendlyTarget="0" rank="0" forgetTime="-1" priority="100" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="3030" radius="20" lifeFrame="1" opposeTarget="1" friendlyTarget="0" rank="0" forgetTime="-1" priority="100" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="3100" radius="7" lifeFrame="1" opposeTarget="1" friendlyTarget="0" rank="0" forgetTime="-1" priority="100" soundBehaviorId="-1" aiSoundLevel="40" replaningState="0" />
+<row id="4000" radius="30" lifeFrame="1" opposeTarget="1" friendlyTarget="0" rank="1" forgetTime="-1" priority="200" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="4010" radius="5" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="1" forgetTime="-1" priority="200" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="4020" radius="30" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="1" forgetTime="-1" priority="200" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="4050" radius="60" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="40" priority="50" soundBehaviorId="407000" aiSoundLevel="50" replaningState="0" />
+<row id="4100" radius="10" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="7" priority="100" soundBehaviorId="410000" aiSoundLevel="50" replaningState="0" />
+<row id="4130" radius="40" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="7" priority="2000" soundBehaviorId="413000" aiSoundLevel="50" replaningState="0" />
+<row id="4131" radius="40" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="7" priority="2000" soundBehaviorId="413001" aiSoundLevel="50" replaningState="0" />
+<row id="4132" radius="40" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="7" priority="2000" soundBehaviorId="413002" aiSoundLevel="50" replaningState="0" />
+<row id="4133" radius="40" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="7" priority="2000" soundBehaviorId="413003" aiSoundLevel="50" replaningState="0" />
+<row id="4134" radius="40" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="7" priority="2000" soundBehaviorId="413004" aiSoundLevel="50" replaningState="0" />
+<row id="4135" radius="40" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="7" priority="2000" soundBehaviorId="413005" aiSoundLevel="50" replaningState="0" />
+<row id="4136" radius="40" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="3" priority="2000" soundBehaviorId="413006" aiSoundLevel="50" replaningState="0" />
+<row id="4200" radius="20" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="10" priority="1000" soundBehaviorId="420000" aiSoundLevel="50" replaningState="0" />
+<row id="4201" radius="80" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="10" priority="2000" soundBehaviorId="420001" aiSoundLevel="50" replaningState="0" />
+<row id="4300" radius="30" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="10" priority="200" soundBehaviorId="300000" aiSoundLevel="50" replaningState="0" />
+<row id="4310" radius="30" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="10" priority="200" soundBehaviorId="300000" aiSoundLevel="50" replaningState="0" />
+<row id="5000" radius="5" lifeFrame="1" opposeTarget="1" friendlyTarget="1" rank="0" forgetTime="-1" priority="100" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="6100" radius="25" lifeFrame="1" opposeTarget="1" friendlyTarget="0" rank="1" forgetTime="10" priority="200" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="6200" radius="40" lifeFrame="1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="10" priority="2000" soundBehaviorId="450000" aiSoundLevel="50" replaningState="0" />
+<row id="6201" radius="40" lifeFrame="1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="50" priority="2000" soundBehaviorId="450001" aiSoundLevel="50" replaningState="0" />
+<row id="6202" radius="40" lifeFrame="1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="10" priority="2000" soundBehaviorId="450002" aiSoundLevel="50" replaningState="0" />
+<row id="6203" radius="40" lifeFrame="1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="50" priority="2000" soundBehaviorId="450003" aiSoundLevel="50" replaningState="0" />
+<row id="6300" radius="150" lifeFrame="1" opposeTarget="0" friendlyTarget="1" selfTarget="1" rank="7" forgetTime="20" priority="2000" soundBehaviorId="400000" aiSoundLevel="50" replaningState="0" />
+<row id="6301" radius="150" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="20" priority="2000" soundBehaviorId="400002" aiSoundLevel="50" replaningState="0" />
+<row id="6320" radius="150" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="15" priority="2000" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="6321" radius="100" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="10" priority="2000" soundBehaviorId="400001" aiSoundLevel="50" replaningState="0" />
+<row id="6390" radius="1" lifeFrame="1" opposeTarget="0" friendlyTarget="0" selfTarget="1" rank="7" forgetTime="0.1" priority="2000" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="6391" radius="150" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="0.1" priority="2000" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="6400" radius="100" lifeFrame="60" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="10" priority="2000" soundBehaviorId="900000" aiSoundLevel="50" replaningState="0" />
+<row id="6410" radius="40" lifeFrame="1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="50" priority="2000" soundBehaviorId="430050" aiSoundLevel="50" replaningState="0" />
+<row id="6500" radius="20" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="1" forgetTime="-1" priority="200" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="6600" radius="300" lifeFrame="5" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="-1" priority="2000" soundBehaviorId="901000" aiSoundLevel="1" replaningState="0" />
+<row id="6610" radius="20" lifeFrame="0.5" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="3" priority="2000" soundBehaviorId="902000" aiSoundLevel="1" replaningState="2" />
+<row id="7000" radius="50" lifeFrame="5" opposeTarget="1" friendlyTarget="1" rank="1" forgetTime="20" priority="1000" soundBehaviorId="-1" aiSoundLevel="128" replaningState="1" />
+<row id="8000" radius="35" lifeFrame="5" opposeTarget="1" friendlyTarget="1" rank="1" forgetTime="20" priority="1000" soundBehaviorId="-1" aiSoundLevel="128" replaningState="1" />
+<row id="203000" radius="100" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="10" priority="2000" soundBehaviorId="203000" aiSoundLevel="1" replaningState="0" />
+<row id="203100" radius="7" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="1" priority="2000" soundBehaviorId="-1" aiSoundLevel="1" replaningState="0" />
+<row id="212000" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212001" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212002" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212003" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212004" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212005" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212006" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212007" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212008" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212009" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212010" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212011" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212012" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212013" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212014" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212015" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212016" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212017" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212018" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212019" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212020" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212021" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212022" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212023" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212024" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212025" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212026" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212027" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212028" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212029" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212030" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212031" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212032" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212033" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212034" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212035" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212036" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212037" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212038" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="212039" radius="100" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="212000" aiSoundLevel="1" replaningState="2" />
+<row id="307000" radius="5" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="7" priority="100" soundBehaviorId="307000" aiSoundLevel="50" replaningState="0" />
+<row id="307001" radius="15" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="7" priority="100" soundBehaviorId="307001" aiSoundLevel="50" replaningState="0" />
+<row id="307002" radius="25" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="7" priority="100" soundBehaviorId="307002" aiSoundLevel="50" replaningState="0" />
+<row id="337000" radius="100" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="5" priority="2000" soundBehaviorId="337000" aiSoundLevel="1" replaningState="0" />
+<row id="337001" radius="30" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="10" priority="2000" soundBehaviorId="337001" aiSoundLevel="1" replaningState="0" />
+<row id="356000" radius="10" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="2" priority="2000" soundBehaviorId="356000" aiSoundLevel="50" replaningState="0" />
+<row id="357000" radius="10" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="2" priority="2000" soundBehaviorId="357000" aiSoundLevel="50" replaningState="0" />
+<row id="357001" radius="10" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="2" priority="2000" soundBehaviorId="357001" aiSoundLevel="50" replaningState="0" />
+<row id="365000" radius="12" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="15" priority="2000" soundBehaviorId="365000" aiSoundLevel="50" replaningState="0" />
+<row id="366000" radius="30" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="5" priority="2000" soundBehaviorId="366000" aiSoundLevel="50" replaningState="0" />
+<row id="366100" radius="8" lifeFrame="1" opposeTarget="0" friendlyTarget="1" selfTarget="1" rank="7" forgetTime="5" priority="2000" soundBehaviorId="366100" aiSoundLevel="50" replaningState="2" />
+<row id="366110" radius="15" lifeFrame="1" opposeTarget="0" friendlyTarget="1" selfTarget="1" rank="7" forgetTime="60" priority="2000" soundBehaviorId="366110" aiSoundLevel="50" replaningState="2" />
+<row id="367000" radius="5" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="7" priority="1000" soundBehaviorId="367000" aiSoundLevel="50" replaningState="0" />
+<row id="367001" radius="15" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="7" priority="1000" soundBehaviorId="367001" aiSoundLevel="50" replaningState="0" />
+<row id="367002" radius="25" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="7" priority="1000" soundBehaviorId="367002" aiSoundLevel="50" replaningState="0" />
+<row id="375000" radius="10" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="7" priority="2000" soundBehaviorId="375000" aiSoundLevel="50" replaningState="0" />
+<row id="385000" radius="13" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="0" forgetTime="-1" priority="100" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="395000" radius="40" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="40" priority="1000" soundBehaviorId="395000" aiSoundLevel="50" replaningState="0" />
+<row id="397000" radius="40" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="20" priority="1000" soundBehaviorId="397000" aiSoundLevel="50" replaningState="0" />
+<row id="407000" radius="20" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="3" priority="1000" soundBehaviorId="407000" aiSoundLevel="50" replaningState="0" />
+<row id="418000" radius="20" lifeFrame="1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="10" priority="1000" soundBehaviorId="418000" aiSoundLevel="1" replaningState="0" />
+<row id="420100" radius="5" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="2.5" priority="2000" soundBehaviorId="420100" aiSoundLevel="50" replaningState="0" />
+<row id="420101" radius="15" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="2.5" priority="2000" soundBehaviorId="420101" aiSoundLevel="50" replaningState="0" />
+<row id="420102" radius="25" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="2.5" priority="2000" soundBehaviorId="420102" aiSoundLevel="50" replaningState="0" />
+<row id="430000" radius="10" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="7" priority="100" soundBehaviorId="430000" aiSoundLevel="50" replaningState="0" />
+<row id="430001" radius="20" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="7" priority="100" soundBehaviorId="430001" aiSoundLevel="50" replaningState="0" />
+<row id="430002" radius="30" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="7" priority="100" soundBehaviorId="430002" aiSoundLevel="50" replaningState="0" />
+<row id="430003" radius="40" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="7" priority="100" soundBehaviorId="430003" aiSoundLevel="50" replaningState="0" />
+<row id="430004" radius="50" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="7" priority="100" soundBehaviorId="430004" aiSoundLevel="50" replaningState="0" />
+<row id="430005" radius="60" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="7" priority="100" soundBehaviorId="430005" aiSoundLevel="50" replaningState="0" />
+<row id="431000" radius="50" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="10" priority="50" soundBehaviorId="431000" aiSoundLevel="50" replaningState="0" />
+<row id="431001" radius="50" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="10" priority="50" soundBehaviorId="431001" aiSoundLevel="50" replaningState="0" />
+<row id="431002" radius="50" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="10" priority="50" soundBehaviorId="431002" aiSoundLevel="50" replaningState="0" />
+<row id="432100" radius="25" lifeFrame="1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="10" priority="200" soundBehaviorId="432100" aiSoundLevel="50" replaningState="0" />
+<row id="432101" radius="12" lifeFrame="1" opposeTarget="0" friendlyTarget="1" selfTarget="1" rank="7" forgetTime="8" priority="2000" soundBehaviorId="432101" aiSoundLevel="50" replaningState="2" />
+<row id="432102" radius="12" lifeFrame="1" opposeTarget="0" friendlyTarget="1" selfTarget="1" rank="7" forgetTime="8" priority="2000" soundBehaviorId="432102" aiSoundLevel="50" replaningState="2" />
+<row id="434000" radius="30" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="10" priority="50" soundBehaviorId="434000" aiSoundLevel="50" replaningState="0" />
+<row id="438300" radius="5" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="7" priority="100" soundBehaviorId="438300" aiSoundLevel="50" replaningState="0" />
+<row id="438301" radius="15" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="7" priority="100" soundBehaviorId="438301" aiSoundLevel="50" replaningState="0" />
+<row id="438302" radius="25" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="7" priority="100" soundBehaviorId="438302" aiSoundLevel="50" replaningState="0" />
+<row id="452000" radius="100" lifeFrame="1" opposeTarget="1" friendlyTarget="1" selfTarget="1" rank="7" forgetTime="1" priority="2000" soundBehaviorId="452000" aiSoundLevel="1" replaningState="2" />
+<row id="452001" radius="100" lifeFrame="1" opposeTarget="1" friendlyTarget="1" selfTarget="1" rank="7" forgetTime="1" priority="2000" soundBehaviorId="452001" aiSoundLevel="1" replaningState="2" />
+<row id="452002" radius="100" lifeFrame="1" opposeTarget="1" friendlyTarget="1" selfTarget="1" rank="7" forgetTime="1" priority="2000" soundBehaviorId="452002" aiSoundLevel="1" replaningState="2" />
+<row id="452003" radius="100" lifeFrame="1" opposeTarget="1" friendlyTarget="1" selfTarget="1" rank="7" forgetTime="1" priority="2000" soundBehaviorId="452003" aiSoundLevel="1" replaningState="2" />
+<row id="452004" radius="100" lifeFrame="1" opposeTarget="1" friendlyTarget="1" selfTarget="1" rank="7" forgetTime="1" priority="2000" soundBehaviorId="452004" aiSoundLevel="1" replaningState="2" />
+<row id="455000" radius="100" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="30" priority="1000" soundBehaviorId="455000" aiSoundLevel="50" replaningState="0" />
+<row id="456000" radius="20" lifeFrame="1" bSpEffectEnable="1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="15" priority="1000" soundBehaviorId="455001" aiSoundLevel="50" replaningState="0" />
+<row id="462000" radius="999" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="1" priority="2000" soundBehaviorId="462000" aiSoundLevel="1" replaningState="2" />
+<row id="462001" radius="999" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="1" priority="2000" soundBehaviorId="462000" aiSoundLevel="1" replaningState="2" />
+<row id="462010" radius="999" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="1" priority="2000" soundBehaviorId="462010" aiSoundLevel="1" replaningState="2" />
+<row id="462011" radius="999" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="1" priority="2000" soundBehaviorId="462010" aiSoundLevel="1" replaningState="2" />
+<row id="462020" radius="999" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="1" priority="2000" soundBehaviorId="462020" aiSoundLevel="1" replaningState="2" />
+<row id="462021" radius="999" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="1" priority="2000" soundBehaviorId="462020" aiSoundLevel="1" replaningState="2" />
+<row id="462030" radius="999" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="1" priority="2000" soundBehaviorId="462030" aiSoundLevel="1" replaningState="2" />
+<row id="462031" radius="999" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="1" priority="2000" soundBehaviorId="462030" aiSoundLevel="1" replaningState="2" />
+<row id="463000" radius="150" lifeFrame="1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="1" priority="200" soundBehaviorId="463000" aiSoundLevel="50" replaningState="0" />
+<row id="467000" radius="1.2" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="1" priority="2000" soundBehaviorId="467000" aiSoundLevel="1" replaningState="0" />
+<row id="477000" radius="100" lifeFrame="1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.1" priority="2000" soundBehaviorId="477000" aiSoundLevel="1" replaningState="2" />
+<row id="495000" radius="500" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="1" priority="2000" soundBehaviorId="495000" aiSoundLevel="1" replaningState="2" />
+<row id="496000" radius="100" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="1" priority="2000" soundBehaviorId="496000" aiSoundLevel="1" replaningState="2" />
+<row id="502000" radius="200" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="502000" aiSoundLevel="1" replaningState="2" />
+<row id="502001" radius="200" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="502001" aiSoundLevel="1" replaningState="2" />
+<row id="502002" radius="200" lifeFrame="0.1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="502002" aiSoundLevel="1" replaningState="2" />
+<row id="506100" radius="999" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="7" forgetTime="12" priority="2000" soundBehaviorId="506100" aiSoundLevel="50" replaningState="0" />
+<row id="508000" radius="35" lifeFrame="1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="508000" aiSoundLevel="1" replaningState="2" />
+<row id="508001" radius="35" lifeFrame="1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="508001" aiSoundLevel="1" replaningState="2" />
+<row id="511000" radius="40" lifeFrame="1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="10" priority="1000" soundBehaviorId="511000" aiSoundLevel="1" replaningState="0" />
+<row id="531000" radius="200" lifeFrame="1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="531000" aiSoundLevel="1" replaningState="2" />
+<row id="532000" radius="200" lifeFrame="1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="0.2" priority="2000" soundBehaviorId="532000" aiSoundLevel="1" replaningState="2" />
+<row id="545000" radius="30" lifeFrame="1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="7" priority="2000" soundBehaviorId="545000" aiSoundLevel="1" replaningState="2" />
+<row id="603000" radius="70" lifeFrame="1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="10" priority="100" soundBehaviorId="300000" aiSoundLevel="50" replaningState="0" />
+<row id="603070" radius="30" lifeFrame="1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="6" priority="100" soundBehaviorId="307000" aiSoundLevel="50" replaningState="0" />
+<row id="603370" radius="70" lifeFrame="1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="10" priority="100" soundBehaviorId="337000" aiSoundLevel="50" replaningState="0" />
+<row id="603670" radius="70" lifeFrame="1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="10" priority="100" soundBehaviorId="367000" aiSoundLevel="50" replaningState="0" />
+<row id="603950" radius="70" lifeFrame="1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="10" priority="100" soundBehaviorId="395000" aiSoundLevel="50" replaningState="0" />
+<row id="603970" radius="70" lifeFrame="1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="10" priority="100" soundBehaviorId="397000" aiSoundLevel="50" replaningState="0" />
+<row id="604070" radius="50" lifeFrame="1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="10" priority="100" soundBehaviorId="407001" aiSoundLevel="50" replaningState="0" />
+<row id="604100" radius="30" lifeFrame="1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="6" priority="100" soundBehaviorId="410000" aiSoundLevel="50" replaningState="0" />
+<row id="604300" radius="30" lifeFrame="1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="6" priority="100" soundBehaviorId="430000" aiSoundLevel="50" replaningState="0" />
+<row id="604310" radius="70" lifeFrame="1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="10" priority="100" soundBehaviorId="431001" aiSoundLevel="50" replaningState="0" />
+<row id="604370" radius="70" lifeFrame="1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="10" priority="100" soundBehaviorId="431001" aiSoundLevel="50" replaningState="0" />
+<row id="604383" radius="30" lifeFrame="1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="6" priority="100" soundBehaviorId="438300" aiSoundLevel="50" replaningState="0" />
+<row id="604550" radius="100" lifeFrame="1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="10" priority="100" soundBehaviorId="455000" aiSoundLevel="50" replaningState="0" />
+<row id="604560" radius="35" lifeFrame="1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="10" priority="100" soundBehaviorId="431001" aiSoundLevel="50" replaningState="0" />
+<row id="607000" radius="70" lifeFrame="1" opposeTarget="1" friendlyTarget="1" rank="7" forgetTime="10" priority="100" soundBehaviorId="470000" aiSoundLevel="50" replaningState="0" />
+<row id="700000" radius="20" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="1" forgetTime="1" priority="200" soundBehaviorId="-1" aiSoundLevel="1" replaningState="2" />
+<row id="900000" radius="200" lifeFrame="8" opposeTarget="0" friendlyTarget="1" rank="6" forgetTime="-1" priority="99999" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="900200" radius="20" lifeFrame="1" opposeTarget="0" friendlyTarget="1" rank="1" forgetTime="-1" priority="200" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="900300" radius="0" lifeFrame="1" opposeTarget="1" friendlyTarget="0" rank="0" forgetTime="-1" priority="100" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="900400" radius="1" lifeFrame="1" opposeTarget="1" friendlyTarget="0" rank="1" forgetTime="-1" priority="200" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="900500" radius="1" lifeFrame="1" opposeTarget="1" friendlyTarget="0" rank="1" forgetTime="-1" priority="200" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="900600" radius="13" lifeFrame="1" opposeTarget="1" friendlyTarget="0" rank="9" forgetTime="-1" priority="99999" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="900700" radius="5" lifeFrame="1" opposeTarget="1" friendlyTarget="0" rank="2" forgetTime="-1" priority="99999" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="900800" radius="0" lifeFrame="1" opposeTarget="1" friendlyTarget="0" rank="1" forgetTime="-1" priority="200" soundBehaviorId="-1" aiSoundLevel="50" replaningState="0" />
+<row id="999900" radius="20" lifeFrame="1" opposeTarget="1" friendlyTarget="0" rank="2" forgetTime="5" priority="99999" soundBehaviorId="-1" aiSoundLevel="1" replaningState="0" />
+<row id="999901" radius="20" lifeFrame="1" opposeTarget="1" friendlyTarget="0" rank="4" forgetTime="5" priority="99999" soundBehaviorId="-1" aiSoundLevel="1" replaningState="0" />
+<row id="999902" radius="20" lifeFrame="1" opposeTarget="1" friendlyTarget="0" rank="5" forgetTime="5" priority="99999" soundBehaviorId="-1" aiSoundLevel="1" replaningState="0" />
+<row id="999903" radius="20" lifeFrame="1" opposeTarget="1" friendlyTarget="0" rank="8" forgetTime="5" priority="99999" soundBehaviorId="-1" aiSoundLevel="1" replaningState="0" />
+<row id="999904" radius="20" lifeFrame="1" opposeTarget="1" friendlyTarget="0" rank="9" forgetTime="5" priority="99999" soundBehaviorId="-1" aiSoundLevel="1" replaningState="0" />
+<row id="999910" radius="20" lifeFrame="1" opposeTarget="1" friendlyTarget="0" disableOnTargetPCompany="1" rank="2" forgetTime="5" priority="99999" soundBehaviorId="-1" aiSoundLevel="1" replaningState="0" />
+<row id="999911" radius="20" lifeFrame="1" opposeTarget="1" friendlyTarget="0" disableOnTargetPCompany="1" rank="4" forgetTime="5" priority="99999" soundBehaviorId="-1" aiSoundLevel="1" replaningState="0" />
+<row id="999912" radius="20" lifeFrame="1" opposeTarget="1" friendlyTarget="0" disableOnTargetPCompany="1" rank="5" forgetTime="5" priority="99999" soundBehaviorId="-1" aiSoundLevel="1" replaningState="0" />
+<row id="999913" radius="20" lifeFrame="1" opposeTarget="1" friendlyTarget="0" disableOnTargetPCompany="1" rank="8" forgetTime="5" priority="99999" soundBehaviorId="-1" aiSoundLevel="1" replaningState="0" />
+<row id="999914" radius="20" lifeFrame="1" opposeTarget="1" friendlyTarget="0" disableOnTargetPCompany="1" rank="9" forgetTime="5" priority="99999" soundBehaviorId="-1" aiSoundLevel="1" replaningState="0" />
+<row id="999990001" radius="0" lifeFrame="0" opposeTarget="1" friendlyTarget="0" rank="0" forgetTime="-1" priority="100" soundBehaviorId="-1" aiSoundLevel="0" replaningState="0" />
+<row id="999990002" radius="0" lifeFrame="0" opposeTarget="1" friendlyTarget="0" rank="0" forgetTime="-1" priority="100" soundBehaviorId="-1" aiSoundLevel="0" replaningState="0" />
+<row id="999999999" radius="0" lifeFrame="0" opposeTarget="1" friendlyTarget="0" rank="0" forgetTime="-1" priority="100" soundBehaviorId="-1" aiSoundLevel="0" replaningState="0" />
+</rows>
+</param>

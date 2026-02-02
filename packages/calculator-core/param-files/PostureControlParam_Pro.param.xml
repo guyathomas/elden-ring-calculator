@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>PostureControlParam_Pro.param</filename>
+<compression>None</compression>
+<type>POSTURE_CONTROL_PARAM_PRO_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>0</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>POSTURE_CONTROL_PARAM_PRO_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>0</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="a000_rightArmIO" type="s16" arraylength="1" bitsize="-1" sortid="1" defaultValue="0" />
+<field name="a000_rightArmFB" type="s16" arraylength="1" bitsize="-1" sortid="2" defaultValue="0" />
+<field name="a000_leftArmIO" type="s16" arraylength="1" bitsize="-1" sortid="3" defaultValue="0" />
+<field name="a000_leftArmFB" type="s16" arraylength="1" bitsize="-1" sortid="4" defaultValue="0" />
+<field name="a002_rightArmIO" type="s16" arraylength="1" bitsize="-1" sortid="5" defaultValue="0" />
+<field name="a002_rightArmFB" type="s16" arraylength="1" bitsize="-1" sortid="6" defaultValue="0" />
+<field name="a002_leftArmIO" type="s16" arraylength="1" bitsize="-1" sortid="7" defaultValue="0" />
+<field name="a002_leftArmFB" type="s16" arraylength="1" bitsize="-1" sortid="8" defaultValue="0" />
+<field name="a003_rightArmIO" type="s16" arraylength="1" bitsize="-1" sortid="9" defaultValue="0" />
+<field name="a003_rightArmFB" type="s16" arraylength="1" bitsize="-1" sortid="10" defaultValue="0" />
+<field name="a003_leftArmIO" type="s16" arraylength="1" bitsize="-1" sortid="11" defaultValue="0" />
+<field name="a003_leftArmFB" type="s16" arraylength="1" bitsize="-1" sortid="12" defaultValue="0" />
+<field name="a010_rightArmIO" type="s16" arraylength="1" bitsize="-1" sortid="13" defaultValue="0" />
+<field name="a010_rightArmFB" type="s16" arraylength="1" bitsize="-1" sortid="14" defaultValue="0" />
+<field name="a010_leftArmIO" type="s16" arraylength="1" bitsize="-1" sortid="15" defaultValue="0" />
+<field name="a010_leftArmFB" type="s16" arraylength="1" bitsize="-1" sortid="16" defaultValue="0" />
+<field name="a012_rightArmIO" type="s16" arraylength="1" bitsize="-1" sortid="17" defaultValue="0" />
+<field name="a012_rightArmFB" type="s16" arraylength="1" bitsize="-1" sortid="18" defaultValue="0" />
+<field name="a012_leftArmIO" type="s16" arraylength="1" bitsize="-1" sortid="19" defaultValue="0" />
+<field name="a012_leftArmFB" type="s16" arraylength="1" bitsize="-1" sortid="20" defaultValue="0" />
+<field name="a013_rightArmIO" type="s16" arraylength="1" bitsize="-1" sortid="21" defaultValue="0" />
+<field name="a013_rightArmFB" type="s16" arraylength="1" bitsize="-1" sortid="22" defaultValue="0" />
+<field name="a013_leftArmIO" type="s16" arraylength="1" bitsize="-1" sortid="23" defaultValue="0" />
+<field name="a013_leftArmFB" type="s16" arraylength="1" bitsize="-1" sortid="24" defaultValue="0" />
+<field name="a014_rightArmIO" type="s16" arraylength="1" bitsize="-1" sortid="25" defaultValue="0" />
+<field name="a014_rightArmFB" type="s16" arraylength="1" bitsize="-1" sortid="26" defaultValue="0" />
+<field name="a014_leftArmIO" type="s16" arraylength="1" bitsize="-1" sortid="27" defaultValue="0" />
+<field name="a014_leftArmFB" type="s16" arraylength="1" bitsize="-1" sortid="28" defaultValue="0" />
+<field name="a015_rightArmIO" type="s16" arraylength="1" bitsize="-1" sortid="29" defaultValue="0" />
+<field name="a015_rightArmFB" type="s16" arraylength="1" bitsize="-1" sortid="30" defaultValue="0" />
+<field name="a015_leftArmIO" type="s16" arraylength="1" bitsize="-1" sortid="31" defaultValue="0" />
+<field name="a015_leftArmFB" type="s16" arraylength="1" bitsize="-1" sortid="32" defaultValue="0" />
+<field name="a016_rightArmIO" type="s16" arraylength="1" bitsize="-1" sortid="33" defaultValue="0" />
+<field name="a016_rightArmFB" type="s16" arraylength="1" bitsize="-1" sortid="34" defaultValue="0" />
+<field name="a016_leftArmIO" type="s16" arraylength="1" bitsize="-1" sortid="35" defaultValue="0" />
+<field name="a016_leftArmFB" type="s16" arraylength="1" bitsize="-1" sortid="36" defaultValue="0" />
+<field name="pad" type="dummy8" arraylength="8" bitsize="-1" sortid="38" defaultValue="[0|0|0|0|0|0|0|0]" />
+</fields>
+<rows>
+<row id="0" a000_rightArmIO="0" a000_rightArmFB="0" a000_leftArmIO="0" a000_leftArmFB="0" a002_rightArmIO="0" a002_rightArmFB="0" a002_leftArmIO="0" a002_leftArmFB="0" a003_rightArmIO="0" a003_rightArmFB="0" a003_leftArmIO="0" a003_leftArmFB="0" a010_rightArmIO="0" a010_rightArmFB="0" a010_leftArmIO="0" a010_leftArmFB="0" a012_rightArmIO="0" a012_rightArmFB="0" a012_leftArmIO="0" a012_leftArmFB="0" a013_rightArmIO="0" a013_rightArmFB="0" a013_leftArmIO="0" a013_leftArmFB="0" a014_rightArmIO="0" a014_rightArmFB="0" a014_leftArmIO="0" a014_leftArmFB="0" a015_rightArmIO="0" a015_rightArmFB="0" a015_leftArmIO="0" a015_leftArmFB="0" a016_rightArmIO="0" a016_rightArmFB="0" a016_leftArmIO="0" a016_leftArmFB="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="1" a000_rightArmIO="10" a000_rightArmFB="0" a000_leftArmIO="10" a000_leftArmFB="0" a002_rightArmIO="15" a002_rightArmFB="0" a002_leftArmIO="15" a002_leftArmFB="0" a003_rightArmIO="10" a003_rightArmFB="0" a003_leftArmIO="10" a003_leftArmFB="0" a010_rightArmIO="0" a010_rightArmFB="10" a010_leftArmIO="0" a010_leftArmFB="10" a012_rightArmIO="0" a012_rightArmFB="10" a012_leftArmIO="0" a012_leftArmFB="10" a013_rightArmIO="0" a013_rightArmFB="10" a013_leftArmIO="0" a013_leftArmFB="10" a014_rightArmIO="0" a014_rightArmFB="10" a014_leftArmIO="0" a014_leftArmFB="10" a015_rightArmIO="0" a015_rightArmFB="10" a015_leftArmIO="0" a015_leftArmFB="10" a016_rightArmIO="0" a016_rightArmFB="10" a016_leftArmIO="0" a016_leftArmFB="10" pad="[0|0|0|0|0|0|0|0]" />
+<row id="2" a000_rightArmIO="15" a000_rightArmFB="0" a000_leftArmIO="15" a000_leftArmFB="0" a002_rightArmIO="15" a002_rightArmFB="0" a002_leftArmIO="15" a002_leftArmFB="0" a003_rightArmIO="15" a003_rightArmFB="0" a003_leftArmIO="15" a003_leftArmFB="0" a010_rightArmIO="0" a010_rightArmFB="20" a010_leftArmIO="0" a010_leftArmFB="20" a012_rightArmIO="0" a012_rightArmFB="10" a012_leftArmIO="0" a012_leftArmFB="10" a013_rightArmIO="0" a013_rightArmFB="17" a013_leftArmIO="0" a013_leftArmFB="17" a014_rightArmIO="0" a014_rightArmFB="17" a014_leftArmIO="0" a014_leftArmFB="17" a015_rightArmIO="0" a015_rightArmFB="17" a015_leftArmIO="0" a015_leftArmFB="17" a016_rightArmIO="0" a016_rightArmFB="25" a016_leftArmIO="0" a016_leftArmFB="25" pad="[0|0|0|0|0|0|0|0]" />
+<row id="3" a000_rightArmIO="0" a000_rightArmFB="0" a000_leftArmIO="0" a000_leftArmFB="0" a002_rightArmIO="0" a002_rightArmFB="0" a002_leftArmIO="0" a002_leftArmFB="0" a003_rightArmIO="0" a003_rightArmFB="0" a003_leftArmIO="0" a003_leftArmFB="0" a010_rightArmIO="0" a010_rightArmFB="0" a010_leftArmIO="0" a010_leftArmFB="0" a012_rightArmIO="0" a012_rightArmFB="35" a012_leftArmIO="0" a012_leftArmFB="35" a013_rightArmIO="0" a013_rightArmFB="0" a013_leftArmIO="0" a013_leftArmFB="0" a014_rightArmIO="0" a014_rightArmFB="0" a014_leftArmIO="0" a014_leftArmFB="0" a015_rightArmIO="0" a015_rightArmFB="0" a015_leftArmIO="0" a015_leftArmFB="0" a016_rightArmIO="0" a016_rightArmFB="0" a016_leftArmIO="0" a016_leftArmFB="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="100" a000_rightArmIO="0" a000_rightArmFB="0" a000_leftArmIO="0" a000_leftArmFB="0" a002_rightArmIO="0" a002_rightArmFB="0" a002_leftArmIO="0" a002_leftArmFB="0" a003_rightArmIO="0" a003_rightArmFB="0" a003_leftArmIO="0" a003_leftArmFB="0" a010_rightArmIO="0" a010_rightArmFB="0" a010_leftArmIO="0" a010_leftArmFB="0" a012_rightArmIO="0" a012_rightArmFB="0" a012_leftArmIO="0" a012_leftArmFB="0" a013_rightArmIO="0" a013_rightArmFB="0" a013_leftArmIO="0" a013_leftArmFB="0" a014_rightArmIO="0" a014_rightArmFB="0" a014_leftArmIO="0" a014_leftArmFB="0" a015_rightArmIO="0" a015_rightArmFB="0" a015_leftArmIO="0" a015_leftArmFB="0" a016_rightArmIO="0" a016_rightArmFB="0" a016_leftArmIO="0" a016_leftArmFB="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="101" a000_rightArmIO="10" a000_rightArmFB="0" a000_leftArmIO="10" a000_leftArmFB="0" a002_rightArmIO="5" a002_rightArmFB="0" a002_leftArmIO="5" a002_leftArmFB="0" a003_rightArmIO="10" a003_rightArmFB="0" a003_leftArmIO="10" a003_leftArmFB="0" a010_rightArmIO="10" a010_rightArmFB="0" a010_leftArmIO="10" a010_leftArmFB="0" a012_rightArmIO="5" a012_rightArmFB="0" a012_leftArmIO="5" a012_leftArmFB="0" a013_rightArmIO="10" a013_rightArmFB="0" a013_leftArmIO="10" a013_leftArmFB="0" a014_rightArmIO="10" a014_rightArmFB="0" a014_leftArmIO="10" a014_leftArmFB="0" a015_rightArmIO="10" a015_rightArmFB="0" a015_leftArmIO="10" a015_leftArmFB="0" a016_rightArmIO="10" a016_rightArmFB="0" a016_leftArmIO="10" a016_leftArmFB="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="102" a000_rightArmIO="15" a000_rightArmFB="0" a000_leftArmIO="15" a000_leftArmFB="0" a002_rightArmIO="10" a002_rightArmFB="0" a002_leftArmIO="10" a002_leftArmFB="0" a003_rightArmIO="15" a003_rightArmFB="0" a003_leftArmIO="15" a003_leftArmFB="0" a010_rightArmIO="15" a010_rightArmFB="0" a010_leftArmIO="15" a010_leftArmFB="0" a012_rightArmIO="10" a012_rightArmFB="0" a012_leftArmIO="10" a012_leftArmFB="0" a013_rightArmIO="15" a013_rightArmFB="0" a013_leftArmIO="15" a013_leftArmFB="0" a014_rightArmIO="15" a014_rightArmFB="0" a014_leftArmIO="15" a014_leftArmFB="0" a015_rightArmIO="15" a015_rightArmFB="0" a015_leftArmIO="15" a015_leftArmFB="0" a016_rightArmIO="15" a016_rightArmFB="0" a016_leftArmIO="15" a016_leftArmFB="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="103" a000_rightArmIO="0" a000_rightArmFB="0" a000_leftArmIO="0" a000_leftArmFB="0" a002_rightArmIO="0" a002_rightArmFB="0" a002_leftArmIO="0" a002_leftArmFB="0" a003_rightArmIO="0" a003_rightArmFB="0" a003_leftArmIO="0" a003_leftArmFB="0" a010_rightArmIO="0" a010_rightArmFB="0" a010_leftArmIO="0" a010_leftArmFB="0" a012_rightArmIO="0" a012_rightArmFB="0" a012_leftArmIO="0" a012_leftArmFB="0" a013_rightArmIO="0" a013_rightArmFB="0" a013_leftArmIO="0" a013_leftArmFB="0" a014_rightArmIO="0" a014_rightArmFB="0" a014_leftArmIO="0" a014_leftArmFB="0" a015_rightArmIO="0" a015_rightArmFB="0" a015_leftArmIO="0" a015_leftArmFB="0" a016_rightArmIO="0" a016_rightArmFB="0" a016_leftArmIO="0" a016_leftArmFB="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="200" a000_rightArmIO="0" a000_rightArmFB="0" a000_leftArmIO="0" a000_leftArmFB="0" a002_rightArmIO="0" a002_rightArmFB="0" a002_leftArmIO="0" a002_leftArmFB="0" a003_rightArmIO="0" a003_rightArmFB="0" a003_leftArmIO="0" a003_leftArmFB="0" a010_rightArmIO="0" a010_rightArmFB="0" a010_leftArmIO="0" a010_leftArmFB="0" a012_rightArmIO="0" a012_rightArmFB="0" a012_leftArmIO="0" a012_leftArmFB="0" a013_rightArmIO="0" a013_rightArmFB="0" a013_leftArmIO="0" a013_leftArmFB="0" a014_rightArmIO="0" a014_rightArmFB="0" a014_leftArmIO="0" a014_leftArmFB="0" a015_rightArmIO="0" a015_rightArmFB="0" a015_leftArmIO="0" a015_leftArmFB="0" a016_rightArmIO="0" a016_rightArmFB="0" a016_leftArmIO="0" a016_leftArmFB="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="201" a000_rightArmIO="10" a000_rightArmFB="0" a000_leftArmIO="10" a000_leftArmFB="0" a002_rightArmIO="15" a002_rightArmFB="0" a002_leftArmIO="15" a002_leftArmFB="0" a003_rightArmIO="10" a003_rightArmFB="0" a003_leftArmIO="10" a003_leftArmFB="0" a010_rightArmIO="0" a010_rightArmFB="0" a010_leftArmIO="0" a010_leftArmFB="0" a012_rightArmIO="0" a012_rightArmFB="0" a012_leftArmIO="0" a012_leftArmFB="0" a013_rightArmIO="0" a013_rightArmFB="0" a013_leftArmIO="0" a013_leftArmFB="0" a014_rightArmIO="0" a014_rightArmFB="0" a014_leftArmIO="0" a014_leftArmFB="0" a015_rightArmIO="0" a015_rightArmFB="0" a015_leftArmIO="0" a015_leftArmFB="0" a016_rightArmIO="0" a016_rightArmFB="0" a016_leftArmIO="0" a016_leftArmFB="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="202" a000_rightArmIO="15" a000_rightArmFB="0" a000_leftArmIO="15" a000_leftArmFB="0" a002_rightArmIO="15" a002_rightArmFB="0" a002_leftArmIO="15" a002_leftArmFB="0" a003_rightArmIO="15" a003_rightArmFB="0" a003_leftArmIO="15" a003_leftArmFB="0" a010_rightArmIO="0" a010_rightArmFB="10" a010_leftArmIO="0" a010_leftArmFB="10" a012_rightArmIO="0" a012_rightArmFB="0" a012_leftArmIO="0" a012_leftArmFB="0" a013_rightArmIO="0" a013_rightArmFB="0" a013_leftArmIO="0" a013_leftArmFB="0" a014_rightArmIO="0" a014_rightArmFB="0" a014_leftArmIO="0" a014_leftArmFB="0" a015_rightArmIO="0" a015_rightArmFB="0" a015_leftArmIO="0" a015_leftArmFB="0" a016_rightArmIO="0" a016_rightArmFB="0" a016_leftArmIO="0" a016_leftArmFB="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="203" a000_rightArmIO="0" a000_rightArmFB="0" a000_leftArmIO="0" a000_leftArmFB="0" a002_rightArmIO="0" a002_rightArmFB="0" a002_leftArmIO="0" a002_leftArmFB="0" a003_rightArmIO="0" a003_rightArmFB="0" a003_leftArmIO="0" a003_leftArmFB="0" a010_rightArmIO="0" a010_rightArmFB="0" a010_leftArmIO="0" a010_leftArmFB="0" a012_rightArmIO="0" a012_rightArmFB="10" a012_leftArmIO="0" a012_leftArmFB="10" a013_rightArmIO="0" a013_rightArmFB="0" a013_leftArmIO="0" a013_leftArmFB="0" a014_rightArmIO="0" a014_rightArmFB="0" a014_leftArmIO="0" a014_leftArmFB="0" a015_rightArmIO="0" a015_rightArmFB="0" a015_leftArmIO="0" a015_leftArmFB="0" a016_rightArmIO="0" a016_rightArmFB="0" a016_leftArmIO="0" a016_leftArmFB="0" pad="[0|0|0|0|0|0|0|0]" />
+</rows>
+</param>

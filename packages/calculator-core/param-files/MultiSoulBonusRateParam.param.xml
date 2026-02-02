@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>MultiSoulBonusRateParam.param</filename>
+<compression>None</compression>
+<type>MULTI_SOUL_BONUS_RATE_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>3</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>MULTI_SOUL_BONUS_RATE_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>3</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="host" type="f32" arraylength="1" bitsize="-1" sortid="1000" defaultValue="0" />
+<field name="WhiteGhost_None" type="f32" arraylength="1" bitsize="-1" sortid="2000" defaultValue="0" />
+<field name="WhiteGhost_Umbasa" type="f32" arraylength="1" bitsize="-1" sortid="2100" defaultValue="0" />
+<field name="WhiteGhost_Berserker" type="f32" arraylength="1" bitsize="-1" sortid="2200" defaultValue="0.01" />
+<field name="BlackGhost_None_Sign" type="f32" arraylength="1" bitsize="-1" sortid="3000" defaultValue="0.01" />
+<field name="BlackGhost_Umbasa_Sign" type="f32" arraylength="1" bitsize="-1" sortid="3100" defaultValue="0.01" />
+<field name="BlackGhost_Berserker_Sign" type="f32" arraylength="1" bitsize="-1" sortid="3200" defaultValue="0.01" />
+<field name="BlackGhost_None_Invade" type="f32" arraylength="1" bitsize="-1" sortid="4000" defaultValue="0.05" />
+<field name="BlackGhost_Umbasa_Invade" type="f32" arraylength="1" bitsize="-1" sortid="4500" defaultValue="0.05" />
+<field name="BlackGhost_Berserker_Invade" type="f32" arraylength="1" bitsize="-1" sortid="4600" defaultValue="0.05" />
+<field name="RedHunter1" type="f32" arraylength="1" bitsize="-1" sortid="5000" defaultValue="0" />
+<field name="RedHunter2" type="f32" arraylength="1" bitsize="-1" sortid="5100" defaultValue="0" />
+<field name="GuardianOfForest" type="f32" arraylength="1" bitsize="-1" sortid="6000" defaultValue="0.05" />
+<field name="GuardianOfAnor" type="f32" arraylength="1" bitsize="-1" sortid="6100" defaultValue="0.05" />
+<field name="BattleRoyal" type="f32" arraylength="1" bitsize="-1" sortid="7000" defaultValue="0" />
+<field name="YellowMonk" type="f32" arraylength="1" bitsize="-1" sortid="7100" defaultValue="0" />
+<field name="pad1" type="dummy8" arraylength="64" bitsize="-1" sortid="7101" defaultValue="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+</fields>
+<rows>
+<row id="0" host="0" WhiteGhost_None="0" WhiteGhost_Umbasa="0" WhiteGhost_Berserker="0.02" BlackGhost_None_Sign="0.02" BlackGhost_Umbasa_Sign="0.02" BlackGhost_Berserker_Sign="0.02" BlackGhost_None_Invade="0.15" BlackGhost_Umbasa_Invade="0.15" BlackGhost_Berserker_Invade="0.15" RedHunter1="0" RedHunter2="0" GuardianOfForest="0.1" GuardianOfAnor="0.1" BattleRoyal="0" YellowMonk="0" pad1="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="1000" host="0" WhiteGhost_None="0" WhiteGhost_Umbasa="0" WhiteGhost_Berserker="0.01" BlackGhost_None_Sign="0.01" BlackGhost_Umbasa_Sign="0.01" BlackGhost_Berserker_Sign="0.01" BlackGhost_None_Invade="0.05" BlackGhost_Umbasa_Invade="0.05" BlackGhost_Berserker_Invade="0.05" RedHunter1="0" RedHunter2="0" GuardianOfForest="0.05" GuardianOfAnor="0.05" BattleRoyal="0" YellowMonk="0" pad1="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="2000" host="0.01" WhiteGhost_None="0.01" WhiteGhost_Umbasa="0.01" WhiteGhost_Berserker="0.01" BlackGhost_None_Sign="0.01" BlackGhost_Umbasa_Sign="0.01" BlackGhost_Berserker_Sign="0.01" BlackGhost_None_Invade="0.01" BlackGhost_Umbasa_Invade="0.01" BlackGhost_Berserker_Invade="0.01" RedHunter1="0.01" RedHunter2="0.01" GuardianOfForest="0.01" GuardianOfAnor="0.01" BattleRoyal="0" YellowMonk="0" pad1="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="3000" host="0.04" WhiteGhost_None="0.04" WhiteGhost_Umbasa="0.04" WhiteGhost_Berserker="0.01" BlackGhost_None_Sign="0.01" BlackGhost_Umbasa_Sign="0.01" BlackGhost_Berserker_Sign="0.01" BlackGhost_None_Invade="0.01" BlackGhost_Umbasa_Invade="0.01" BlackGhost_Berserker_Invade="0.01" RedHunter1="0.04" RedHunter2="0.04" GuardianOfForest="0.01" GuardianOfAnor="0.01" BattleRoyal="0" YellowMonk="0" pad1="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="4000" host="0" WhiteGhost_None="0" WhiteGhost_Umbasa="0" WhiteGhost_Berserker="0.01" BlackGhost_None_Sign="0.01" BlackGhost_Umbasa_Sign="0.01" BlackGhost_Berserker_Sign="0.01" BlackGhost_None_Invade="0.05" BlackGhost_Umbasa_Invade="0.05" BlackGhost_Berserker_Invade="0.05" RedHunter1="0" RedHunter2="0" GuardianOfForest="0.05" GuardianOfAnor="0.05" BattleRoyal="0" YellowMonk="0" pad1="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+</rows>
+</param>

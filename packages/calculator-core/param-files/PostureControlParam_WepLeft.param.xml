@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>PostureControlParam_WepLeft.param</filename>
+<compression>None</compression>
+<type>POSTURE_CONTROL_PARAM_WEP_LEFT_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>POSTURE_CONTROL_PARAM_WEP_LEFT_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="a000_leftArmFB" type="s16" arraylength="1" bitsize="-1" sortid="1" defaultValue="0" />
+<field name="a000_leftWristFB" type="s16" arraylength="1" bitsize="-1" sortid="2" defaultValue="0" />
+<field name="a000_leftWristIO" type="s16" arraylength="1" bitsize="-1" sortid="3" defaultValue="0" />
+<field name="a000_leftWeaponRotation" type="s16" arraylength="1" bitsize="-1" sortid="4" defaultValue="0" />
+<field name="a002_leftArmFB" type="s16" arraylength="1" bitsize="-1" sortid="5" defaultValue="0" />
+<field name="a002_leftWristFB" type="s16" arraylength="1" bitsize="-1" sortid="6" defaultValue="0" />
+<field name="a002_leftWristIO" type="s16" arraylength="1" bitsize="-1" sortid="7" defaultValue="0" />
+<field name="a002_leftWeaponRotation" type="s16" arraylength="1" bitsize="-1" sortid="8" defaultValue="0" />
+<field name="a003_leftArmFB" type="s16" arraylength="1" bitsize="-1" sortid="9" defaultValue="0" />
+<field name="a003_leftWristFB" type="s16" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="a003_leftWristIO" type="s16" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="a003_leftWeaponRotation" type="s16" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="pad" type="dummy8" arraylength="8" bitsize="-1" sortid="11" defaultValue="[0|0|0|0|0|0|0|0]" />
+</fields>
+<rows>
+<row id="0" a000_leftArmFB="0" a000_leftWristFB="0" a000_leftWristIO="0" a000_leftWeaponRotation="0" a002_leftArmFB="0" a002_leftWristFB="0" a002_leftWristIO="0" a002_leftWeaponRotation="0" a003_leftArmFB="0" a003_leftWristFB="0" a003_leftWristIO="0" a003_leftWeaponRotation="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="1" a000_leftArmFB="-10" a000_leftWristFB="25" a000_leftWristIO="5" a000_leftWeaponRotation="0" a002_leftArmFB="-10" a002_leftWristFB="25" a002_leftWristIO="5" a002_leftWeaponRotation="0" a003_leftArmFB="-10" a003_leftWristFB="25" a003_leftWristIO="5" a003_leftWeaponRotation="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="2" a000_leftArmFB="0" a000_leftWristFB="0" a000_leftWristIO="0" a000_leftWeaponRotation="0" a002_leftArmFB="0" a002_leftWristFB="0" a002_leftWristIO="0" a002_leftWeaponRotation="0" a003_leftArmFB="0" a003_leftWristFB="0" a003_leftWristIO="0" a003_leftWeaponRotation="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="3" a000_leftArmFB="0" a000_leftWristFB="0" a000_leftWristIO="0" a000_leftWeaponRotation="0" a002_leftArmFB="0" a002_leftWristFB="0" a002_leftWristIO="0" a002_leftWeaponRotation="0" a003_leftArmFB="0" a003_leftWristFB="0" a003_leftWristIO="0" a003_leftWeaponRotation="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="4" a000_leftArmFB="-5" a000_leftWristFB="15" a000_leftWristIO="10" a000_leftWeaponRotation="0" a002_leftArmFB="-5" a002_leftWristFB="15" a002_leftWristIO="10" a002_leftWeaponRotation="0" a003_leftArmFB="-5" a003_leftWristFB="15" a003_leftWristIO="10" a003_leftWeaponRotation="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="5" a000_leftArmFB="5" a000_leftWristFB="-25" a000_leftWristIO="15" a000_leftWeaponRotation="0" a002_leftArmFB="5" a002_leftWristFB="-25" a002_leftWristIO="15" a002_leftWeaponRotation="0" a003_leftArmFB="5" a003_leftWristFB="-25" a003_leftWristIO="15" a003_leftWeaponRotation="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="6" a000_leftArmFB="-10" a000_leftWristFB="40" a000_leftWristIO="-20" a000_leftWeaponRotation="0" a002_leftArmFB="-10" a002_leftWristFB="40" a002_leftWristIO="-20" a002_leftWeaponRotation="0" a003_leftArmFB="-10" a003_leftWristFB="40" a003_leftWristIO="-20" a003_leftWeaponRotation="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="7" a000_leftArmFB="-10" a000_leftWristFB="15" a000_leftWristIO="5" a000_leftWeaponRotation="0" a002_leftArmFB="-10" a002_leftWristFB="15" a002_leftWristIO="5" a002_leftWeaponRotation="0" a003_leftArmFB="-10" a003_leftWristFB="15" a003_leftWristIO="5" a003_leftWeaponRotation="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="8" a000_leftArmFB="-10" a000_leftWristFB="20" a000_leftWristIO="10" a000_leftWeaponRotation="0" a002_leftArmFB="-10" a002_leftWristFB="20" a002_leftWristIO="10" a002_leftWeaponRotation="0" a003_leftArmFB="-10" a003_leftWristFB="20" a003_leftWristIO="10" a003_leftWeaponRotation="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="9" a000_leftArmFB="0" a000_leftWristFB="0" a000_leftWristIO="0" a000_leftWeaponRotation="0" a002_leftArmFB="0" a002_leftWristFB="0" a002_leftWristIO="0" a002_leftWeaponRotation="0" a003_leftArmFB="0" a003_leftWristFB="0" a003_leftWristIO="0" a003_leftWeaponRotation="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="10" a000_leftArmFB="0" a000_leftWristFB="0" a000_leftWristIO="0" a000_leftWeaponRotation="-5" a002_leftArmFB="0" a002_leftWristFB="0" a002_leftWristIO="0" a002_leftWeaponRotation="-5" a003_leftArmFB="0" a003_leftWristFB="0" a003_leftWristIO="0" a003_leftWeaponRotation="-5" pad="[0|0|0|0|0|0|0|0]" />
+<row id="100" a000_leftArmFB="0" a000_leftWristFB="0" a000_leftWristIO="0" a000_leftWeaponRotation="0" a002_leftArmFB="0" a002_leftWristFB="0" a002_leftWristIO="0" a002_leftWeaponRotation="0" a003_leftArmFB="0" a003_leftWristFB="0" a003_leftWristIO="0" a003_leftWeaponRotation="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="101" a000_leftArmFB="0" a000_leftWristFB="0" a000_leftWristIO="0" a000_leftWeaponRotation="0" a002_leftArmFB="0" a002_leftWristFB="0" a002_leftWristIO="0" a002_leftWeaponRotation="0" a003_leftArmFB="0" a003_leftWristFB="0" a003_leftWristIO="0" a003_leftWeaponRotation="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="102" a000_leftArmFB="0" a000_leftWristFB="0" a000_leftWristIO="0" a000_leftWeaponRotation="0" a002_leftArmFB="0" a002_leftWristFB="0" a002_leftWristIO="0" a002_leftWeaponRotation="0" a003_leftArmFB="0" a003_leftWristFB="0" a003_leftWristIO="0" a003_leftWeaponRotation="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="103" a000_leftArmFB="0" a000_leftWristFB="0" a000_leftWristIO="0" a000_leftWeaponRotation="0" a002_leftArmFB="0" a002_leftWristFB="0" a002_leftWristIO="0" a002_leftWeaponRotation="0" a003_leftArmFB="0" a003_leftWristFB="0" a003_leftWristIO="0" a003_leftWeaponRotation="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="104" a000_leftArmFB="0" a000_leftWristFB="0" a000_leftWristIO="0" a000_leftWeaponRotation="0" a002_leftArmFB="0" a002_leftWristFB="0" a002_leftWristIO="0" a002_leftWeaponRotation="0" a003_leftArmFB="0" a003_leftWristFB="0" a003_leftWristIO="0" a003_leftWeaponRotation="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="105" a000_leftArmFB="0" a000_leftWristFB="0" a000_leftWristIO="0" a000_leftWeaponRotation="0" a002_leftArmFB="0" a002_leftWristFB="0" a002_leftWristIO="0" a002_leftWeaponRotation="0" a003_leftArmFB="0" a003_leftWristFB="0" a003_leftWristIO="0" a003_leftWeaponRotation="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="106" a000_leftArmFB="0" a000_leftWristFB="0" a000_leftWristIO="0" a000_leftWeaponRotation="0" a002_leftArmFB="0" a002_leftWristFB="0" a002_leftWristIO="0" a002_leftWeaponRotation="0" a003_leftArmFB="0" a003_leftWristFB="0" a003_leftWristIO="0" a003_leftWeaponRotation="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="107" a000_leftArmFB="0" a000_leftWristFB="0" a000_leftWristIO="0" a000_leftWeaponRotation="0" a002_leftArmFB="0" a002_leftWristFB="0" a002_leftWristIO="0" a002_leftWeaponRotation="0" a003_leftArmFB="0" a003_leftWristFB="0" a003_leftWristIO="0" a003_leftWeaponRotation="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="108" a000_leftArmFB="0" a000_leftWristFB="0" a000_leftWristIO="0" a000_leftWeaponRotation="0" a002_leftArmFB="0" a002_leftWristFB="0" a002_leftWristIO="0" a002_leftWeaponRotation="0" a003_leftArmFB="0" a003_leftWristFB="0" a003_leftWristIO="0" a003_leftWeaponRotation="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="109" a000_leftArmFB="0" a000_leftWristFB="0" a000_leftWristIO="0" a000_leftWeaponRotation="0" a002_leftArmFB="0" a002_leftWristFB="0" a002_leftWristIO="0" a002_leftWeaponRotation="0" a003_leftArmFB="0" a003_leftWristFB="0" a003_leftWristIO="0" a003_leftWeaponRotation="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="110" a000_leftArmFB="0" a000_leftWristFB="0" a000_leftWristIO="0" a000_leftWeaponRotation="0" a002_leftArmFB="0" a002_leftWristFB="0" a002_leftWristIO="0" a002_leftWeaponRotation="0" a003_leftArmFB="0" a003_leftWristFB="0" a003_leftWristIO="0" a003_leftWeaponRotation="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="200" a000_leftArmFB="0" a000_leftWristFB="0" a000_leftWristIO="0" a000_leftWeaponRotation="0" a002_leftArmFB="0" a002_leftWristFB="0" a002_leftWristIO="0" a002_leftWeaponRotation="0" a003_leftArmFB="0" a003_leftWristFB="0" a003_leftWristIO="0" a003_leftWeaponRotation="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="201" a000_leftArmFB="-10" a000_leftWristFB="25" a000_leftWristIO="5" a000_leftWeaponRotation="0" a002_leftArmFB="-10" a002_leftWristFB="25" a002_leftWristIO="5" a002_leftWeaponRotation="0" a003_leftArmFB="-10" a003_leftWristFB="25" a003_leftWristIO="5" a003_leftWeaponRotation="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="202" a000_leftArmFB="0" a000_leftWristFB="0" a000_leftWristIO="0" a000_leftWeaponRotation="0" a002_leftArmFB="0" a002_leftWristFB="0" a002_leftWristIO="0" a002_leftWeaponRotation="0" a003_leftArmFB="0" a003_leftWristFB="0" a003_leftWristIO="0" a003_leftWeaponRotation="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="203" a000_leftArmFB="-20" a000_leftWristFB="60" a000_leftWristIO="-20" a000_leftWeaponRotation="0" a002_leftArmFB="-20" a002_leftWristFB="60" a002_leftWristIO="-20" a002_leftWeaponRotation="0" a003_leftArmFB="-20" a003_leftWristFB="60" a003_leftWristIO="-20" a003_leftWeaponRotation="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="204" a000_leftArmFB="10" a000_leftWristFB="-6" a000_leftWristIO="10" a000_leftWeaponRotation="0" a002_leftArmFB="10" a002_leftWristFB="-6" a002_leftWristIO="10" a002_leftWeaponRotation="0" a003_leftArmFB="10" a003_leftWristFB="-6" a003_leftWristIO="10" a003_leftWeaponRotation="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="205" a000_leftArmFB="5" a000_leftWristFB="-15" a000_leftWristIO="15" a000_leftWeaponRotation="0" a002_leftArmFB="5" a002_leftWristFB="-15" a002_leftWristIO="15" a002_leftWeaponRotation="0" a003_leftArmFB="5" a003_leftWristFB="-15" a003_leftWristIO="15" a003_leftWeaponRotation="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="206" a000_leftArmFB="-10" a000_leftWristFB="35" a000_leftWristIO="0" a000_leftWeaponRotation="0" a002_leftArmFB="-10" a002_leftWristFB="35" a002_leftWristIO="0" a002_leftWeaponRotation="0" a003_leftArmFB="-10" a003_leftWristFB="35" a003_leftWristIO="0" a003_leftWeaponRotation="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="207" a000_leftArmFB="-10" a000_leftWristFB="15" a000_leftWristIO="0" a000_leftWeaponRotation="0" a002_leftArmFB="-10" a002_leftWristFB="15" a002_leftWristIO="0" a002_leftWeaponRotation="0" a003_leftArmFB="-10" a003_leftWristFB="15" a003_leftWristIO="0" a003_leftWeaponRotation="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="208" a000_leftArmFB="-10" a000_leftWristFB="20" a000_leftWristIO="10" a000_leftWeaponRotation="0" a002_leftArmFB="-10" a002_leftWristFB="20" a002_leftWristIO="10" a002_leftWeaponRotation="0" a003_leftArmFB="-10" a003_leftWristFB="20" a003_leftWristIO="10" a003_leftWeaponRotation="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="209" a000_leftArmFB="0" a000_leftWristFB="0" a000_leftWristIO="0" a000_leftWeaponRotation="0" a002_leftArmFB="0" a002_leftWristFB="0" a002_leftWristIO="0" a002_leftWeaponRotation="0" a003_leftArmFB="0" a003_leftWristFB="0" a003_leftWristIO="0" a003_leftWeaponRotation="0" pad="[0|0|0|0|0|0|0|0]" />
+<row id="210" a000_leftArmFB="0" a000_leftWristFB="0" a000_leftWristIO="0" a000_leftWeaponRotation="-10" a002_leftArmFB="0" a002_leftWristFB="0" a002_leftWristIO="0" a002_leftWeaponRotation="-10" a003_leftArmFB="0" a003_leftWristFB="0" a003_leftWristIO="0" a003_leftWeaponRotation="-10" pad="[0|0|0|0|0|0|0|0]" />
+</rows>
+</param>

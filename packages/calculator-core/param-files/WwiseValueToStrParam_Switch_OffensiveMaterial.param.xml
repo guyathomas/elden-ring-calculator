@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>WwiseValueToStrParam_Switch_OffensiveMaterial.param</filename>
+<compression>None</compression>
+<type>WWISE_VALUE_TO_STR_CONVERT_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>2</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>WWISE_VALUE_TO_STR_CONVERT_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>2</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="disableParam_NT" type="u8" arraylength="1" bitsize="1" sortid="0" defaultValue="0" />
+<field name="disableParamReserve1" type="dummy8" arraylength="1" bitsize="7" sortid="5" defaultValue="[0]" />
+<field name="disableParamReserve2" type="dummy8" arraylength="3" bitsize="-1" sortid="6" defaultValue="[0|0|0]" />
+<field name="ParamStr" type="fixstr" arraylength="32" bitsize="-1" sortid="1" defaultValue="_006_None" />
+</fields>
+<rows>
+<row id="0" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="_000_Iron" />
+<row id="1" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="_002_Wood" />
+<row id="2" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="_002_Wood" />
+<row id="3" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="_003_Flesh" />
+<row id="4" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="_004_Stone" />
+<row id="5" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="_006_None" />
+<row id="6" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="_006_None" />
+<row id="7" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="_006_None" />
+<row id="8" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="_006_None" />
+<row id="9" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="_006_None" />
+<row id="10" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="_006_None" />
+<row id="11" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" ParamStr="_006_None" />
+</rows>
+</param>

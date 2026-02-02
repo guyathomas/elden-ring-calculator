@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>GrassLodRangeParam.param</filename>
+<compression>None</compression>
+<type>GRASS_LOD_RANGE_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>GRASS_LOD_RANGE_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="LOD0_range" type="f32" arraylength="1" bitsize="-1" sortid="1" defaultValue="10" />
+<field name="LOD0_play" type="f32" arraylength="1" bitsize="-1" sortid="2" defaultValue="5" />
+<field name="LOD1_range" type="f32" arraylength="1" bitsize="-1" sortid="3" defaultValue="120" />
+<field name="LOD1_play" type="f32" arraylength="1" bitsize="-1" sortid="4" defaultValue="6" />
+<field name="LOD2_range" type="f32" arraylength="1" bitsize="-1" sortid="5" defaultValue="200" />
+<field name="LOD2_play" type="f32" arraylength="1" bitsize="-1" sortid="6" defaultValue="12" />
+</fields>
+<rows>
+<row id="0" LOD0_range="40" LOD0_play="5" LOD1_range="80" LOD1_play="10" LOD2_range="120" LOD2_play="20" />
+<row id="1" LOD0_range="40" LOD0_play="5" LOD1_range="80" LOD1_play="10" LOD2_range="120" LOD2_play="20" />
+<row id="2" LOD0_range="20" LOD0_play="3" LOD1_range="40" LOD1_play="6" LOD2_range="60" LOD2_play="12" />
+<row id="3" LOD0_range="15" LOD0_play="3" LOD1_range="0" LOD1_play="0" LOD2_range="0" LOD2_play="0" />
+<row id="4" LOD0_range="40" LOD0_play="3" LOD1_range="50" LOD1_play="6" LOD2_range="60" LOD2_play="10" />
+<row id="5" LOD0_range="10" LOD0_play="1" LOD1_range="20" LOD1_play="6" LOD2_range="80" LOD2_play="12" />
+<row id="10" LOD0_range="10" LOD0_play="1" LOD1_range="120" LOD1_play="6" LOD2_range="140" LOD2_play="12" />
+<row id="11" LOD0_range="8" LOD0_play="1" LOD1_range="20" LOD1_play="6" LOD2_range="60" LOD2_play="12" />
+<row id="12" LOD0_range="100" LOD0_play="1" LOD1_range="140" LOD1_play="6" LOD2_range="160" LOD2_play="12" />
+<row id="13" LOD0_range="10" LOD0_play="5" LOD1_range="120" LOD1_play="10" LOD2_range="150" LOD2_play="20" />
+<row id="14" LOD0_range="20" LOD0_play="4" LOD1_range="60" LOD1_play="3" LOD2_range="70" LOD2_play="12" />
+<row id="20" LOD0_range="10" LOD0_play="1" LOD1_range="120" LOD1_play="6" LOD2_range="140" LOD2_play="12" />
+<row id="21" LOD0_range="8" LOD0_play="1" LOD1_range="20" LOD1_play="6" LOD2_range="60" LOD2_play="12" />
+<row id="22" LOD0_range="40" LOD0_play="1" LOD1_range="120" LOD1_play="6" LOD2_range="140" LOD2_play="12" />
+<row id="99" LOD0_range="20" LOD0_play="0" LOD1_range="30" LOD1_play="0" LOD2_range="60" LOD2_play="0" />
+<row id="105" LOD0_range="20" LOD0_play="2" LOD1_range="40" LOD1_play="6" LOD2_range="80" LOD2_play="12" />
+<row id="108" LOD0_range="22" LOD0_play="2" LOD1_range="40" LOD1_play="6" LOD2_range="200" LOD2_play="12" />
+<row id="109" LOD0_range="15" LOD0_play="2" LOD1_range="180" LOD1_play="6" LOD2_range="200" LOD2_play="12" />
+<row id="110" LOD0_range="10" LOD0_play="2.5" LOD1_range="40" LOD1_play="6" LOD2_range="200" LOD2_play="12" />
+<row id="111" LOD0_range="10" LOD0_play="2.5" LOD1_range="40" LOD1_play="6" LOD2_range="128" LOD2_play="12" />
+<row id="208" LOD0_range="35" LOD0_play="2" LOD1_range="60" LOD1_play="6" LOD2_range="200" LOD2_play="12" />
+<row id="209" LOD0_range="30" LOD0_play="2" LOD1_range="180" LOD1_play="6" LOD2_range="200" LOD2_play="12" />
+<row id="210" LOD0_range="40" LOD0_play="2.5" LOD1_range="80" LOD1_play="6" LOD2_range="200" LOD2_play="12" />
+<row id="211" LOD0_range="40" LOD0_play="2.5" LOD1_range="80" LOD1_play="6" LOD2_range="128" LOD2_play="12" />
+<row id="310" LOD0_range="25" LOD0_play="5" LOD1_range="60" LOD1_play="6" LOD2_range="140" LOD2_play="12" />
+<row id="311" LOD0_range="30" LOD0_play="0.5" LOD1_range="50" LOD1_play="6" LOD2_range="60" LOD2_play="12" />
+<row id="312" LOD0_range="25" LOD0_play="2" LOD1_range="100" LOD1_play="6" LOD2_range="999" LOD2_play="10" />
+<row id="313" LOD0_range="30" LOD0_play="5" LOD1_range="80" LOD1_play="6" LOD2_range="300" LOD2_play="12" />
+<row id="314" LOD0_range="25" LOD0_play="4" LOD1_range="60" LOD1_play="6" LOD2_range="80" LOD2_play="12" />
+<row id="315" LOD0_range="25" LOD0_play="2" LOD1_range="100" LOD1_play="6" LOD2_range="999" LOD2_play="10" />
+<row id="316" LOD0_range="15" LOD0_play="2" LOD1_range="75" LOD1_play="6" LOD2_range="999" LOD2_play="10" />
+<row id="317" LOD0_range="30" LOD0_play="5" LOD1_range="120" LOD1_play="10" LOD2_range="500" LOD2_play="20" />
+<row id="318" LOD0_range="3" LOD0_play="5" LOD1_range="12" LOD1_play="10" LOD2_range="50" LOD2_play="20" />
+<row id="319" LOD0_range="30" LOD0_play="0.5" LOD1_range="50" LOD1_play="6" LOD2_range="60" LOD2_play="12" />
+<row id="320" LOD0_range="10" LOD0_play="0.5" LOD1_range="25" LOD1_play="6" LOD2_range="60" LOD2_play="12" />
+<row id="410" LOD0_range="65" LOD0_play="5" LOD1_range="90" LOD1_play="3" LOD2_range="200" LOD2_play="12" />
+<row id="411" LOD0_range="15" LOD0_play="0.5" LOD1_range="40" LOD1_play="6" LOD2_range="80" LOD2_play="12" />
+<row id="412" LOD0_range="30" LOD0_play="5" LOD1_range="120" LOD1_play="10" LOD2_range="500" LOD2_play="20" />
+<row id="413" LOD0_range="50" LOD0_play="5" LOD1_range="100" LOD1_play="6" LOD2_range="200" LOD2_play="12" />
+</rows>
+</param>

@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>SoundCutsceneParam.param</filename>
+<compression>None</compression>
+<type>SOUND_CUTSCENE_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>6</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>SOUND_CUTSCENE_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>5</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="disableParam_NT" type="u8" arraylength="1" bitsize="1" sortid="0" defaultValue="1" defaultThreshold="True" />
+<field name="disableParamReserve1" type="dummy8" arraylength="1" bitsize="7" sortid="10000" defaultValue="[0]" defaultThreshold="True" />
+<field name="disableParamReserve2" type="dummy8" arraylength="3" bitsize="-1" sortid="10001" defaultValue="[0|0|0]" defaultThreshold="True" />
+<field name="ReverbType" type="u8" arraylength="1" bitsize="-1" sortid="0" defaultValue="1" />
+<field name="pad0" type="dummy8" arraylength="3" bitsize="-1" sortid="9999" defaultValue="[0|0|0]" defaultThreshold="True" />
+<field name="BgmBehaviorTypeOnStart" type="s16" arraylength="1" bitsize="-1" sortid="10" defaultValue="2" defaultThreshold="True" />
+<field name="OneShotBgmBehaviorOnStart" type="s16" arraylength="1" bitsize="-1" sortid="11" defaultValue="0" defaultThreshold="True" />
+<field name="PostPlaySeId" type="s32" arraylength="1" bitsize="-1" sortid="12" defaultValue="-1" />
+<field name="PostPlaySeIdForSkip" type="s32" arraylength="1" bitsize="-1" sortid="13" defaultValue="-1" />
+<field name="EnterMapMuteStopTimeOnDrawCutscene" type="f32" arraylength="1" bitsize="-1" sortid="14" defaultValue="1" />
+<field name="unknown_0x18" type="u8" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" defaultThreshold="True" />
+<field name="unknown_0x19" type="u8" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" defaultThreshold="True" />
+<field name="unknown_0x1a" type="u8" arraylength="1" bitsize="-1" sortid="0" defaultValue="128" defaultThreshold="True" />
+<field name="unknown_0x1b" type="u8" arraylength="1" bitsize="-1" sortid="0" defaultValue="191" defaultThreshold="True" />
+<field name="reserved" type="dummy8" arraylength="4" bitsize="-1" sortid="10002" defaultValue="[0|0|0|0]" defaultThreshold="True" />
+<field name="reserved2" type="dummy8" arraylength="4" bitsize="-1" sortid="0" defaultValue="[0|0|0|0]" defaultThreshold="True" />
+</fields>
+<rows>
+<row id="0" disableParam_NT="0" ReverbType="0" BgmBehaviorTypeOnStart="0" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="-1" />
+<row id="10000010" disableParam_NT="0" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="10000020" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="10000030" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="10000040" ReverbType="1" PostPlaySeId="999999002" PostPlaySeIdForSkip="999999002" EnterMapMuteStopTimeOnDrawCutscene="-1" />
+<row id="10000050" ReverbType="1" BgmBehaviorTypeOnStart="0" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="10010000" ReverbType="1" PostPlaySeId="999999003" PostPlaySeIdForSkip="999999003" EnterMapMuteStopTimeOnDrawCutscene="-1" />
+<row id="10010001" ReverbType="1" PostPlaySeId="999999003" PostPlaySeIdForSkip="999999003" EnterMapMuteStopTimeOnDrawCutscene="-1" />
+<row id="10010010" ReverbType="1" PostPlaySeId="999999003" PostPlaySeIdForSkip="999999003" EnterMapMuteStopTimeOnDrawCutscene="-1" />
+<row id="11000040" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="11050010" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="11050020" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="12010000" ReverbType="5" PostPlaySeId="999999002" PostPlaySeIdForSkip="999999002" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="12010001" ReverbType="5" PostPlaySeId="999999100" PostPlaySeIdForSkip="999999100" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="12020000" ReverbType="5" PostPlaySeId="999999002" PostPlaySeIdForSkip="999999002" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="12020001" ReverbType="5" PostPlaySeId="999999100" PostPlaySeIdForSkip="999999100" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="12020020" ReverbType="5" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="12020021" ReverbType="5" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="12020022" ReverbType="5" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="12030010" ReverbType="5" PostPlaySeId="999999002" PostPlaySeIdForSkip="999999002" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="12030011" ReverbType="5" PostPlaySeId="999999100" PostPlaySeIdForSkip="999999100" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="12030020" ReverbType="5" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="12030021" ReverbType="5" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="12050020" ReverbType="5" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="12060000" ReverbType="5" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="13000010" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="13000040" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="555555556" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="13000050" ReverbType="1" PostPlaySeId="999999000" PostPlaySeIdForSkip="999999010" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="13000052" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="13000054" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="13000055" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="13000056" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="13000058" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="13000060" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="14000000" ReverbType="5" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="14000001" ReverbType="5" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="14000010" ReverbType="5" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="15000000" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="15000010" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="15000020" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="16000000" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="16000010" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="16000020" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="19000000" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="19000010" ReverbType="5" PostPlaySeId="999999005" PostPlaySeIdForSkip="999999015" EnterMapMuteStopTimeOnDrawCutscene="-1" />
+<row id="19000011" ReverbType="1" PostPlaySeId="999999005" PostPlaySeIdForSkip="999999015" EnterMapMuteStopTimeOnDrawCutscene="-1" />
+<row id="19000015" ReverbType="1" PostPlaySeId="999999005" PostPlaySeIdForSkip="999999015" EnterMapMuteStopTimeOnDrawCutscene="-1" />
+<row id="19000019" ReverbType="1" PostPlaySeId="999999005" PostPlaySeIdForSkip="999999015" EnterMapMuteStopTimeOnDrawCutscene="-1" />
+<row id="19000020" ReverbType="5" PostPlaySeId="999999005" PostPlaySeIdForSkip="999999015" EnterMapMuteStopTimeOnDrawCutscene="-1" />
+<row id="19000021" ReverbType="5" PostPlaySeId="999999005" PostPlaySeIdForSkip="999999015" EnterMapMuteStopTimeOnDrawCutscene="-1" />
+<row id="19000030" ReverbType="5" PostPlaySeId="999999005" PostPlaySeIdForSkip="999999015" EnterMapMuteStopTimeOnDrawCutscene="-1" />
+<row id="19000031" ReverbType="1" PostPlaySeId="999999005" PostPlaySeIdForSkip="999999015" EnterMapMuteStopTimeOnDrawCutscene="-1" />
+<row id="19000032" ReverbType="1" PostPlaySeId="999999005" PostPlaySeIdForSkip="999999015" EnterMapMuteStopTimeOnDrawCutscene="-1" />
+<row id="19000034" ReverbType="1" PostPlaySeId="999999005" PostPlaySeIdForSkip="999999015" EnterMapMuteStopTimeOnDrawCutscene="-1" />
+<row id="19000040" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="19000050" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="19000060" ReverbType="1" PostPlaySeId="999999005" PostPlaySeIdForSkip="999999015" EnterMapMuteStopTimeOnDrawCutscene="-1" />
+<row id="19000061" ReverbType="1" PostPlaySeId="999999005" PostPlaySeIdForSkip="999999015" EnterMapMuteStopTimeOnDrawCutscene="-1" />
+<row id="19000069" ReverbType="1" PostPlaySeId="999999005" PostPlaySeIdForSkip="999999015" EnterMapMuteStopTimeOnDrawCutscene="-1" />
+<row id="19000070" ReverbType="1" PostPlaySeId="999999005" PostPlaySeIdForSkip="999999015" EnterMapMuteStopTimeOnDrawCutscene="-1" />
+<row id="19000071" ReverbType="1" PostPlaySeId="999999005" PostPlaySeIdForSkip="999999015" EnterMapMuteStopTimeOnDrawCutscene="-1" />
+<row id="19000079" ReverbType="1" PostPlaySeId="999999005" PostPlaySeIdForSkip="999999015" EnterMapMuteStopTimeOnDrawCutscene="-1" />
+<row id="19000080" ReverbType="1" PostPlaySeId="999999005" PostPlaySeIdForSkip="999999015" EnterMapMuteStopTimeOnDrawCutscene="-1" />
+<row id="19000081" ReverbType="1" PostPlaySeId="999999005" PostPlaySeIdForSkip="999999015" EnterMapMuteStopTimeOnDrawCutscene="-1" />
+<row id="19000089" ReverbType="1" PostPlaySeId="999999005" PostPlaySeIdForSkip="999999015" EnterMapMuteStopTimeOnDrawCutscene="-1" />
+<row id="20000000" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="20000001" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="20010000" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="555555570" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="20010010" ReverbType="1" BgmBehaviorTypeOnStart="0" PostPlaySeId="555555572" PostPlaySeIdForSkip="555555575" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="20010020" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="21000000" ReverbType="6" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="21000010" ReverbType="6" PostPlaySeId="555555580" PostPlaySeIdForSkip="555555580" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="21000020" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="21010000" ReverbType="6" PostPlaySeId="555555580" PostPlaySeIdForSkip="555555581" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="21010010" ReverbType="5" PostPlaySeId="-1" PostPlaySeIdForSkip="555555595" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="28000000" ReverbType="5" PostPlaySeId="-1" PostPlaySeIdForSkip="555555560" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="31000000" ReverbType="5" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="31000001" ReverbType="5" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="34100000" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="34100002" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="34110000" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="34110001" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="34110010" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="34130000" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="34130002" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="35000000" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="35000010" ReverbType="1" BgmBehaviorTypeOnStart="0" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="35000020" ReverbType="1" BgmBehaviorTypeOnStart="0" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="60370000" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="60380000" ReverbType="1" PostPlaySeId="999999012" PostPlaySeIdForSkip="999999012" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="60380001" ReverbType="1" PostPlaySeId="999999100" PostPlaySeIdForSkip="999999100" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="60380010" ReverbType="1" PostPlaySeId="999999012" PostPlaySeIdForSkip="999999012" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="60380011" ReverbType="1" PostPlaySeId="999999100" PostPlaySeIdForSkip="999999100" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="60420000" disableParam_NT="0" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="60420001" disableParam_NT="0" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="60420002" disableParam_NT="0" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="60420003" disableParam_NT="0" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="60420004" disableParam_NT="0" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="60420005" disableParam_NT="0" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="60420006" disableParam_NT="0" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="60420007" disableParam_NT="0" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="60430000" ReverbType="5" PostPlaySeId="999999100" PostPlaySeIdForSkip="999999100" EnterMapMuteStopTimeOnDrawCutscene="-1" />
+<row id="60490000" ReverbType="1" PostPlaySeId="999999012" PostPlaySeIdForSkip="999999012" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="60490001" ReverbType="1" PostPlaySeId="999999100" PostPlaySeIdForSkip="999999100" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="60490010" ReverbType="1" PostPlaySeId="999999012" PostPlaySeIdForSkip="999999012" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="60490011" ReverbType="1" PostPlaySeId="999999100" PostPlaySeIdForSkip="999999100" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="60490020" ReverbType="1" PostPlaySeId="999999012" PostPlaySeIdForSkip="999999012" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="60490021" ReverbType="1" PostPlaySeId="999999100" PostPlaySeIdForSkip="999999100" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="60490030" ReverbType="1" PostPlaySeId="999999012" PostPlaySeIdForSkip="999999012" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="60490031" ReverbType="1" PostPlaySeId="999999100" PostPlaySeIdForSkip="999999100" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="60500000" ReverbType="1" BgmBehaviorTypeOnStart="0" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="60510000" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="60510010" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="60510011" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="60520010" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="60540000" ReverbType="1" PostPlaySeId="999999000" PostPlaySeIdForSkip="999999010" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="60540001" ReverbType="1" PostPlaySeId="999999000" PostPlaySeIdForSkip="999999010" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="60540010" ReverbType="1" PostPlaySeId="999999100" PostPlaySeIdForSkip="999999100" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="60540011" ReverbType="1" PostPlaySeId="999999100" PostPlaySeIdForSkip="999999100" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="61440000" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="90000010" ReverbType="1" BgmBehaviorTypeOnStart="0" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="90009999" ReverbType="1" BgmBehaviorTypeOnStart="0" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="91000020" ReverbType="1" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="1" />
+<row id="99999901" disableParam_NT="0" ReverbType="0" BgmBehaviorTypeOnStart="0" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="-1" />
+<row id="99999902" disableParam_NT="0" ReverbType="0" BgmBehaviorTypeOnStart="0" PostPlaySeId="-1" PostPlaySeIdForSkip="-1" EnterMapMuteStopTimeOnDrawCutscene="-1" />
+</rows>
+</param>

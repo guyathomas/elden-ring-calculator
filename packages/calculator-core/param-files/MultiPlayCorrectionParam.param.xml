@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>MultiPlayCorrectionParam.param</filename>
+<compression>None</compression>
+<type>MULTI_PLAY_CORRECTION_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>3</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>MULTI_PLAY_CORRECTION_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>3</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="disableParam_NT" type="u8" arraylength="1" bitsize="1" sortid="0" defaultValue="1" />
+<field name="disableParamReserve1" type="dummy8" arraylength="1" bitsize="7" sortid="201" defaultValue="[0]" />
+<field name="disableParamReserve2" type="dummy8" arraylength="3" bitsize="-1" sortid="202" defaultValue="[0|0|0]" />
+<field name="client1SpEffectId" type="s32" arraylength="1" bitsize="-1" sortid="100" defaultValue="7820" />
+<field name="client2SpEffectId" type="s32" arraylength="1" bitsize="-1" sortid="110" defaultValue="7821" />
+<field name="client3SpEffectId" type="s32" arraylength="1" bitsize="-1" sortid="120" defaultValue="7822" />
+<field name="bOverrideSpEffect" type="u8" arraylength="1" bitsize="-1" sortid="200" defaultValue="0" />
+<field name="pad3" type="dummy8" arraylength="15" bitsize="-1" sortid="203" defaultValue="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+</fields>
+<rows>
+<row id="0" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7800" client2SpEffectId="7801" client3SpEffectId="7802" bOverrideSpEffect="1" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="100" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7800" client2SpEffectId="7801" client3SpEffectId="7802" bOverrideSpEffect="1" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="200" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7810" client2SpEffectId="7811" client3SpEffectId="7812" bOverrideSpEffect="1" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="300" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7820" client2SpEffectId="7821" client3SpEffectId="7822" bOverrideSpEffect="0" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="400" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7830" client2SpEffectId="7831" client3SpEffectId="7832" bOverrideSpEffect="2" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="203000" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7820" client2SpEffectId="7821" client3SpEffectId="7822" bOverrideSpEffect="0" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="203100" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7820" client2SpEffectId="7821" client3SpEffectId="7822" bOverrideSpEffect="0" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="211000" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7820" client2SpEffectId="7821" client3SpEffectId="7822" bOverrideSpEffect="0" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="212000" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7820" client2SpEffectId="7821" client3SpEffectId="7822" bOverrideSpEffect="0" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="213000" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7820" client2SpEffectId="7821" client3SpEffectId="7822" bOverrideSpEffect="0" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="219000" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7820" client2SpEffectId="7821" client3SpEffectId="7822" bOverrideSpEffect="0" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="219200" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7820" client2SpEffectId="7821" client3SpEffectId="7822" bOverrideSpEffect="0" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="305000" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7820" client2SpEffectId="7821" client3SpEffectId="7822" bOverrideSpEffect="0" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="325000" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7820" client2SpEffectId="7821" client3SpEffectId="7822" bOverrideSpEffect="2" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="325100" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7820" client2SpEffectId="7821" client3SpEffectId="7822" bOverrideSpEffect="2" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="325200" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7820" client2SpEffectId="7821" client3SpEffectId="7822" bOverrideSpEffect="0" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="356000" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7820" client2SpEffectId="7821" client3SpEffectId="7822" bOverrideSpEffect="0" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="357000" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7820" client2SpEffectId="7821" client3SpEffectId="7822" bOverrideSpEffect="0" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="451000" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7820" client2SpEffectId="7821" client3SpEffectId="7822" bOverrideSpEffect="0" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="452000" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7820" client2SpEffectId="7821" client3SpEffectId="7822" bOverrideSpEffect="0" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="465000" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7820" client2SpEffectId="7821" client3SpEffectId="7822" bOverrideSpEffect="0" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="467000" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7820" client2SpEffectId="7821" client3SpEffectId="7822" bOverrideSpEffect="0" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="468000" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7820" client2SpEffectId="7821" client3SpEffectId="7822" bOverrideSpEffect="0" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="471000" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7820" client2SpEffectId="7821" client3SpEffectId="7822" bOverrideSpEffect="0" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="472000" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7820" client2SpEffectId="7821" client3SpEffectId="7822" bOverrideSpEffect="0" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="472100" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7820" client2SpEffectId="7821" client3SpEffectId="7822" bOverrideSpEffect="0" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="473000" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7820" client2SpEffectId="7821" client3SpEffectId="7822" bOverrideSpEffect="0" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="475000" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7820" client2SpEffectId="7821" client3SpEffectId="7822" bOverrideSpEffect="0" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="476000" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7820" client2SpEffectId="7821" client3SpEffectId="7822" bOverrideSpEffect="0" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="480000" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7820" client2SpEffectId="7821" client3SpEffectId="7822" bOverrideSpEffect="0" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="491000" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7820" client2SpEffectId="7821" client3SpEffectId="7822" bOverrideSpEffect="0" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="495000" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7820" client2SpEffectId="7821" client3SpEffectId="7822" bOverrideSpEffect="0" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="496000" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7820" client2SpEffectId="7821" client3SpEffectId="7822" bOverrideSpEffect="0" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="498000" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7820" client2SpEffectId="7821" client3SpEffectId="7822" bOverrideSpEffect="0" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="10000100" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7850" client2SpEffectId="7851" client3SpEffectId="7852" bOverrideSpEffect="1" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="10000200" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7860" client2SpEffectId="7861" client3SpEffectId="7862" bOverrideSpEffect="1" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="10000300" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7870" client2SpEffectId="7871" client3SpEffectId="7872" bOverrideSpEffect="0" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+<row id="10000400" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" client1SpEffectId="7880" client2SpEffectId="7881" client3SpEffectId="7882" bOverrideSpEffect="2" pad3="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" />
+</rows>
+</param>

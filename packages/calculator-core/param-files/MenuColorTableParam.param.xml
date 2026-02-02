@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>MenuColorTableParam.param</filename>
+<compression>None</compression>
+<type>MENU_PARAM_COLOR_TABLE_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>2</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>1</unk06>
+<paramdef>
+<type>MENU_PARAM_COLOR_TABLE_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>2</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="lerpMode" type="u8" arraylength="1" bitsize="-1" sortid="1" defaultValue="1" />
+<field name="pad1" type="dummy8" arraylength="3" bitsize="-1" sortid="11" defaultValue="[0|0|0]" defaultThreshold="True" />
+<field name="h" type="u16" arraylength="1" bitsize="-1" sortid="2" defaultValue="0" />
+<field name="pad2" type="dummy8" arraylength="2" bitsize="-1" sortid="12" defaultValue="[0|0]" defaultThreshold="True" />
+<field name="s1" type="f32" arraylength="1" bitsize="-1" sortid="3" defaultValue="0.8" />
+<field name="v1" type="f32" arraylength="1" bitsize="-1" sortid="4" defaultValue="1" defaultThreshold="True" />
+<field name="s2" type="f32" arraylength="1" bitsize="-1" sortid="5" defaultValue="0.1" />
+<field name="v2" type="f32" arraylength="1" bitsize="-1" sortid="6" defaultValue="1" />
+<field name="s3" type="f32" arraylength="1" bitsize="-1" sortid="7" defaultValue="0.8" />
+<field name="v3" type="f32" arraylength="1" bitsize="-1" sortid="8" defaultValue="0.1" />
+</fields>
+<rows>
+<row id="0" lerpMode="0" h="0" s1="1" s2="1" v2="1" s3="1" v3="1" />
+<row id="1001" lerpMode="1" h="0" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1002" lerpMode="1" h="30" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1003" lerpMode="1" h="60" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1004" lerpMode="1" h="90" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1005" lerpMode="1" h="120" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1006" lerpMode="1" h="150" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1007" lerpMode="1" h="180" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1008" lerpMode="1" h="210" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1009" lerpMode="1" h="240" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1010" lerpMode="1" h="270" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1011" lerpMode="1" h="300" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1012" lerpMode="1" h="330" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1013" lerpMode="2" h="0" s1="0" s2="0" v2="0" s3="1" v3="1" />
+<row id="1101" lerpMode="1" h="5" s1="0.25" v1="0.9" s2="0.25" v2="0.5" s3="0.45" v3="0.1" />
+<row id="1102" lerpMode="1" h="5" s1="0.35" v1="0.9" s2="0.35" v2="0.5" s3="0.55" v3="0.1" />
+<row id="1103" lerpMode="1" h="5" s1="0.45" v1="0.9" s2="0.45" v2="0.5" s3="0.65" v3="0.1" />
+<row id="1104" lerpMode="1" h="15" s1="0.25" v1="0.9" s2="0.25" v2="0.5" s3="0.45" v3="0.1" />
+<row id="1105" lerpMode="1" h="15" s1="0.35" v1="0.9" s2="0.35" v2="0.5" s3="0.55" v3="0.1" />
+<row id="1106" lerpMode="1" h="15" s1="0.45" v1="0.9" s2="0.45" v2="0.5" s3="0.65" v3="0.1" />
+<row id="1107" lerpMode="1" h="23" s1="0.25" v1="0.9" s2="0.25" v2="0.5" s3="0.45" v3="0.1" />
+<row id="1108" lerpMode="1" h="23" s1="0.35" v1="0.9" s2="0.35" v2="0.5" s3="0.55" v3="0.1" />
+<row id="1109" lerpMode="1" h="23" s1="0.45" v1="0.9" s2="0.45" v2="0.5" s3="0.65" v3="0.1" />
+<row id="1110" lerpMode="1" h="30" s1="0.25" v1="0.9" s2="0.25" v2="0.5" s3="0.45" v3="0.1" />
+<row id="1111" lerpMode="1" h="30" s1="0.35" v1="0.9" s2="0.35" v2="0.5" s3="0.55" v3="0.1" />
+<row id="1112" lerpMode="1" h="30" s1="0.45" v1="0.9" s2="0.45" v2="0.5" s3="0.65" v3="0.1" />
+<row id="1113" lerpMode="2" h="0" s1="0" v1="0.9" s2="0" v2="0.05" s3="1" v3="1" />
+<row id="1201" lerpMode="2" h="50" s1="0.25" s2="0.25" v2="0.05" s3="1" v3="1" />
+<row id="1202" lerpMode="2" h="50" s1="0.35" s2="0.35" v2="0.05" s3="1" v3="1" />
+<row id="1203" lerpMode="2" h="50" s1="0.45" s2="0.45" v2="0.05" s3="1" v3="1" />
+<row id="1204" lerpMode="2" h="30" s1="0.25" s2="0.25" v2="0.05" s3="1" v3="1" />
+<row id="1205" lerpMode="2" h="30" s1="0.35" s2="0.35" v2="0.05" s3="1" v3="1" />
+<row id="1206" lerpMode="2" h="30" s1="0.45" s2="0.45" v2="0.05" s3="1" v3="1" />
+<row id="1207" lerpMode="2" h="15" s1="0.25" s2="0.25" v2="0.05" s3="1" v3="1" />
+<row id="1208" lerpMode="2" h="15" s1="0.35" s2="0.35" v2="0.05" s3="1" v3="1" />
+<row id="1209" lerpMode="2" h="15" s1="0.45" s2="0.45" v2="0.05" s3="1" v3="1" />
+<row id="1210" lerpMode="2" h="5" s1="0.25" s2="0.25" v2="0.05" s3="1" v3="1" />
+<row id="1211" lerpMode="2" h="5" s1="0.35" s2="0.35" v2="0.05" s3="1" v3="1" />
+<row id="1212" lerpMode="2" h="5" s1="0.45" s2="0.45" v2="0.05" s3="1" v3="1" />
+<row id="1213" lerpMode="2" h="0" s1="0" s2="0" v2="0" s3="1" v3="1" />
+<row id="1301" lerpMode="1" h="0" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1302" lerpMode="1" h="30" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1303" lerpMode="1" h="60" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1304" lerpMode="1" h="90" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1305" lerpMode="1" h="120" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1306" lerpMode="1" h="150" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1307" lerpMode="1" h="180" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1308" lerpMode="1" h="210" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1309" lerpMode="1" h="240" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1310" lerpMode="1" h="270" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1311" lerpMode="1" h="300" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1312" lerpMode="1" h="330" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1313" lerpMode="2" h="0" s1="0" s2="0" v2="0" s3="1" v3="1" />
+<row id="1401" lerpMode="1" h="0" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1402" lerpMode="1" h="30" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1403" lerpMode="1" h="60" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1404" lerpMode="1" h="90" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1405" lerpMode="1" h="120" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1406" lerpMode="1" h="150" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1407" lerpMode="1" h="180" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1408" lerpMode="1" h="210" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1409" lerpMode="1" h="240" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1410" lerpMode="1" h="270" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1411" lerpMode="1" h="300" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1412" lerpMode="1" h="330" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1413" lerpMode="2" h="0" s1="0" s2="0" v2="0" s3="1" v3="1" />
+<row id="1421" lerpMode="1" h="0" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1422" lerpMode="1" h="30" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1423" lerpMode="1" h="60" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1424" lerpMode="1" h="90" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1425" lerpMode="1" h="120" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1426" lerpMode="1" h="150" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1427" lerpMode="1" h="180" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1428" lerpMode="1" h="210" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1429" lerpMode="1" h="240" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1430" lerpMode="1" h="270" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1431" lerpMode="1" h="300" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1432" lerpMode="1" h="330" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1433" lerpMode="2" h="0" s1="0" s2="0" v2="0" s3="1" v3="1" />
+<row id="1441" lerpMode="1" h="0" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1442" lerpMode="1" h="30" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1443" lerpMode="1" h="60" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1444" lerpMode="1" h="90" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1445" lerpMode="1" h="120" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1446" lerpMode="1" h="150" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1447" lerpMode="1" h="180" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1448" lerpMode="1" h="210" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1449" lerpMode="1" h="240" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1450" lerpMode="1" h="270" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1451" lerpMode="1" h="300" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1452" lerpMode="1" h="330" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1453" lerpMode="2" h="0" s1="0" s2="0" v2="0" s3="1" v3="1" />
+<row id="1461" lerpMode="1" h="0" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1462" lerpMode="1" h="30" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1463" lerpMode="1" h="60" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1464" lerpMode="1" h="90" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1465" lerpMode="1" h="120" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1466" lerpMode="1" h="150" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1467" lerpMode="1" h="180" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1468" lerpMode="1" h="210" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1469" lerpMode="1" h="240" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1470" lerpMode="1" h="270" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1471" lerpMode="1" h="300" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1472" lerpMode="1" h="330" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1473" lerpMode="2" h="0" s1="0" s2="0" v2="0" s3="1" v3="1" />
+<row id="1481" lerpMode="1" h="0" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1482" lerpMode="1" h="30" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1483" lerpMode="1" h="60" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1484" lerpMode="1" h="90" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1485" lerpMode="1" h="120" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1486" lerpMode="1" h="150" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1487" lerpMode="1" h="180" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1488" lerpMode="1" h="210" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1489" lerpMode="1" h="240" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1490" lerpMode="1" h="270" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1491" lerpMode="1" h="300" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1492" lerpMode="1" h="330" s1="0.8" s2="0.1" v2="1" s3="0.8" v3="0.1" />
+<row id="1493" lerpMode="2" h="0" s1="0" s2="0" v2="0" s3="1" v3="1" />
+</rows>
+</param>

@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>LegacyDistantViewPartsReplaceParam.param</filename>
+<compression>None</compression>
+<type>LEGACY_DISTANT_VIEW_PARTS_REPLACE_PARAM</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>4</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>LEGACY_DISTANT_VIEW_PARTS_REPLACE_PARAM</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>4</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="TargetMapId" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="10000099" />
+<field name="TargetEventId" type="u32" arraylength="1" bitsize="-1" sortid="100" defaultValue="311" />
+<field name="SrcAssetId" type="s32" arraylength="1" bitsize="-1" sortid="200" defaultValue="-1" />
+<field name="SrcAssetPartsNo" type="s32" arraylength="1" bitsize="-1" sortid="300" defaultValue="0" />
+<field name="DstAssetId" type="s32" arraylength="1" bitsize="-1" sortid="400" defaultValue="-1" />
+<field name="DstAssetPartsNo" type="s32" arraylength="1" bitsize="-1" sortid="500" defaultValue="0" />
+<field name="SrcAssetIdRangeMin" type="s32" arraylength="1" bitsize="-1" sortid="600" defaultValue="-1" defaultThreshold="True" />
+<field name="SrcAssetIdRangeMax" type="s32" arraylength="1" bitsize="-1" sortid="700" defaultValue="-1" defaultThreshold="True" />
+<field name="DstAssetIdRangeMin" type="s32" arraylength="1" bitsize="-1" sortid="800" defaultValue="-1" />
+<field name="DstAssetIdRangeMax" type="s32" arraylength="1" bitsize="-1" sortid="900" defaultValue="-1" />
+<field name="LimitedMapRegionId0" type="s8" arraylength="1" bitsize="-1" sortid="1000" defaultValue="-1" defaultThreshold="True" />
+<field name="LimitedMapRegionId1" type="s8" arraylength="1" bitsize="-1" sortid="1001" defaultValue="-1" defaultThreshold="True" />
+<field name="LimitedMapRegionId2" type="s8" arraylength="1" bitsize="-1" sortid="1002" defaultValue="-1" defaultThreshold="True" />
+<field name="LimitedMapRegionId3" type="s8" arraylength="1" bitsize="-1" sortid="1003" defaultValue="-1" defaultThreshold="True" />
+<field name="reserve" type="dummy8" arraylength="4" bitsize="-1" sortid="9999" defaultValue="[0|0|0|0]" defaultThreshold="True" />
+<field name="LimitedMapRegionAssetId" type="s32" arraylength="1" bitsize="-1" sortid="1100" defaultValue="-1" defaultThreshold="True" />
+<field name="LimitedMapRegioAssetPartsNo" type="s32" arraylength="1" bitsize="-1" sortid="1101" defaultValue="-1" defaultThreshold="True" />
+<field name="LimitedMapRegioAssetIdRangeMin" type="s32" arraylength="1" bitsize="-1" sortid="1200" defaultValue="-1" defaultThreshold="True" />
+<field name="LimitedMapRegioAssetIdRangeMax" type="s32" arraylength="1" bitsize="-1" sortid="1201" defaultValue="-1" defaultThreshold="True" />
+</fields>
+<rows>
+<row id="100050" TargetMapId="10000099" TargetEventId="310" SrcAssetId="299045" SrcAssetPartsNo="0" DstAssetId="299201" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="100051" TargetMapId="10000099" TargetEventId="310" SrcAssetId="299044" SrcAssetPartsNo="0" DstAssetId="299200" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="100052" TargetMapId="10000099" TargetEventId="311" SrcAssetId="299068" SrcAssetPartsNo="0" DstAssetId="299206" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="100053" TargetMapId="10000099" TargetEventId="311" SrcAssetId="299069" SrcAssetPartsNo="0" DstAssetId="299207" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="100054" TargetMapId="10000099" TargetEventId="311" SrcAssetId="299070" SrcAssetPartsNo="0" DstAssetId="299208" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="100055" TargetMapId="10000099" TargetEventId="311" SrcAssetId="299071" SrcAssetPartsNo="0" DstAssetId="299209" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="100056" TargetMapId="10000099" TargetEventId="312" SrcAssetId="299046" SrcAssetPartsNo="0" DstAssetId="299202" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="100057" TargetMapId="10000099" TargetEventId="312" SrcAssetId="299048" SrcAssetPartsNo="0" DstAssetId="299204" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="100080" TargetMapId="10000099" TargetEventId="300" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" DstAssetIdRangeMin="94100" DstAssetIdRangeMax="94113" />
+<row id="100081" TargetMapId="10000099" TargetEventId="300" SrcAssetId="96611" SrcAssetPartsNo="0" DstAssetId="-1" DstAssetPartsNo="-1" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="100085" TargetMapId="10000099" TargetEventId="300" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" SrcAssetIdRangeMin="94000" SrcAssetIdRangeMax="94010" DstAssetIdRangeMin="999999" DstAssetIdRangeMax="999999" />
+<row id="100090" TargetMapId="10000099" TargetEventId="302" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" DstAssetIdRangeMin="94200" DstAssetIdRangeMax="94211" />
+<row id="100091" TargetMapId="10000099" TargetEventId="302" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" SrcAssetIdRangeMin="94000" SrcAssetIdRangeMax="94010" DstAssetIdRangeMin="999999" DstAssetIdRangeMax="999999" />
+<row id="110000" TargetMapId="11000099" TargetEventId="310" SrcAssetId="299045" SrcAssetPartsNo="0" DstAssetId="299201" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="110001" TargetMapId="11000099" TargetEventId="310" SrcAssetId="299044" SrcAssetPartsNo="0" DstAssetId="299200" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="110002" TargetMapId="11000099" TargetEventId="311" SrcAssetId="299068" SrcAssetPartsNo="0" DstAssetId="299206" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="110003" TargetMapId="11000099" TargetEventId="311" SrcAssetId="299069" SrcAssetPartsNo="0" DstAssetId="299207" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="110004" TargetMapId="11000099" TargetEventId="311" SrcAssetId="299070" SrcAssetPartsNo="0" DstAssetId="299208" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="110005" TargetMapId="11000099" TargetEventId="311" SrcAssetId="299071" SrcAssetPartsNo="0" DstAssetId="299209" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="110006" TargetMapId="11000099" TargetEventId="312" SrcAssetId="299046" SrcAssetPartsNo="0" DstAssetId="299202" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="110007" TargetMapId="11000099" TargetEventId="312" SrcAssetId="299048" SrcAssetPartsNo="0" DstAssetId="299204" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="110090" TargetMapId="11000099" TargetEventId="302" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" DstAssetIdRangeMin="94200" DstAssetIdRangeMax="94211" />
+<row id="110091" TargetMapId="11000099" TargetEventId="302" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" DstAssetIdRangeMin="94044" DstAssetIdRangeMax="94049" />
+<row id="110095" TargetMapId="11000099" TargetEventId="302" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" SrcAssetIdRangeMin="94051" SrcAssetIdRangeMax="94060" DstAssetIdRangeMin="999999" DstAssetIdRangeMax="999999" />
+<row id="110096" TargetMapId="11000099" TargetEventId="302" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" SrcAssetIdRangeMin="94074" SrcAssetIdRangeMax="94079" DstAssetIdRangeMin="999999" DstAssetIdRangeMax="999999" />
+<row id="115000" TargetMapId="11050099" TargetEventId="310" SrcAssetId="299045" SrcAssetPartsNo="0" DstAssetId="299201" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="115001" TargetMapId="11050099" TargetEventId="310" SrcAssetId="299044" SrcAssetPartsNo="0" DstAssetId="299200" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="115002" TargetMapId="11050099" TargetEventId="311" SrcAssetId="299068" SrcAssetPartsNo="0" DstAssetId="299206" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="115003" TargetMapId="11050099" TargetEventId="311" SrcAssetId="299069" SrcAssetPartsNo="0" DstAssetId="299207" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="115004" TargetMapId="11050099" TargetEventId="311" SrcAssetId="299070" SrcAssetPartsNo="0" DstAssetId="299208" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="115005" TargetMapId="11050099" TargetEventId="311" SrcAssetId="299071" SrcAssetPartsNo="0" DstAssetId="299209" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="115006" TargetMapId="11050099" TargetEventId="312" SrcAssetId="299046" SrcAssetPartsNo="0" DstAssetId="299202" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="115007" TargetMapId="11050099" TargetEventId="312" SrcAssetId="299048" SrcAssetPartsNo="0" DstAssetId="299204" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="130000" TargetMapId="13000099" TargetEventId="310" SrcAssetId="299045" SrcAssetPartsNo="0" DstAssetId="299201" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="130001" TargetMapId="13000099" TargetEventId="310" SrcAssetId="299044" SrcAssetPartsNo="0" DstAssetId="299200" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="130002" TargetMapId="13000099" TargetEventId="311" SrcAssetId="299068" SrcAssetPartsNo="0" DstAssetId="299206" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="130003" TargetMapId="13000099" TargetEventId="311" SrcAssetId="299069" SrcAssetPartsNo="0" DstAssetId="299207" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="130004" TargetMapId="13000099" TargetEventId="311" SrcAssetId="299070" SrcAssetPartsNo="0" DstAssetId="299208" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="130005" TargetMapId="13000099" TargetEventId="311" SrcAssetId="299071" SrcAssetPartsNo="0" DstAssetId="299209" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="130006" TargetMapId="13000099" TargetEventId="312" SrcAssetId="299046" SrcAssetPartsNo="0" DstAssetId="299202" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="130007" TargetMapId="13000099" TargetEventId="312" SrcAssetId="299048" SrcAssetPartsNo="0" DstAssetId="299204" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="130080" TargetMapId="13000099" TargetEventId="300" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" DstAssetIdRangeMin="94100" DstAssetIdRangeMax="94113" />
+<row id="130085" TargetMapId="13000099" TargetEventId="300" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" SrcAssetIdRangeMin="94000" SrcAssetIdRangeMax="94010" DstAssetIdRangeMin="999999" DstAssetIdRangeMax="999999" />
+<row id="130090" TargetMapId="13000099" TargetEventId="302" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" DstAssetIdRangeMin="94200" DstAssetIdRangeMax="94211" />
+<row id="130091" TargetMapId="13000099" TargetEventId="302" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" SrcAssetIdRangeMin="94000" SrcAssetIdRangeMax="94010" DstAssetIdRangeMin="999999" DstAssetIdRangeMax="999999" />
+<row id="140000" TargetMapId="14000099" TargetEventId="310" SrcAssetId="299045" SrcAssetPartsNo="0" DstAssetId="299201" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="140001" TargetMapId="14000099" TargetEventId="310" SrcAssetId="299044" SrcAssetPartsNo="0" DstAssetId="299200" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="140002" TargetMapId="14000099" TargetEventId="311" SrcAssetId="299068" SrcAssetPartsNo="0" DstAssetId="299206" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="140003" TargetMapId="14000099" TargetEventId="311" SrcAssetId="299069" SrcAssetPartsNo="0" DstAssetId="299207" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="140004" TargetMapId="14000099" TargetEventId="311" SrcAssetId="299070" SrcAssetPartsNo="0" DstAssetId="299208" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="140005" TargetMapId="14000099" TargetEventId="311" SrcAssetId="299071" SrcAssetPartsNo="0" DstAssetId="299209" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="140006" TargetMapId="14000099" TargetEventId="312" SrcAssetId="299046" SrcAssetPartsNo="0" DstAssetId="299202" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="140007" TargetMapId="14000099" TargetEventId="312" SrcAssetId="299048" SrcAssetPartsNo="0" DstAssetId="299204" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="140008" TargetMapId="14000099" TargetEventId="300" SrcAssetId="-1" SrcAssetPartsNo="0" DstAssetId="2902" DstAssetPartsNo="0" SrcAssetIdRangeMin="220912" SrcAssetIdRangeMax="220918" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="140009" TargetMapId="14000099" TargetEventId="300" SrcAssetId="-1" SrcAssetPartsNo="0" DstAssetId="-1" DstAssetPartsNo="0" SrcAssetIdRangeMin="220901" SrcAssetIdRangeMax="220908" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="140080" TargetMapId="14000099" TargetEventId="300" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" DstAssetIdRangeMin="94100" DstAssetIdRangeMax="94113" />
+<row id="140085" TargetMapId="14000099" TargetEventId="300" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" SrcAssetIdRangeMin="94000" SrcAssetIdRangeMax="94010" DstAssetIdRangeMin="999999" DstAssetIdRangeMax="999999" />
+<row id="140090" TargetMapId="14000099" TargetEventId="302" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" DstAssetIdRangeMin="94200" DstAssetIdRangeMax="94211" />
+<row id="140091" TargetMapId="14000099" TargetEventId="302" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" SrcAssetIdRangeMin="94000" SrcAssetIdRangeMax="94010" DstAssetIdRangeMin="999999" DstAssetIdRangeMax="999999" />
+<row id="150000" TargetMapId="15000099" TargetEventId="310" SrcAssetId="299045" SrcAssetPartsNo="0" DstAssetId="299201" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="150001" TargetMapId="15000099" TargetEventId="310" SrcAssetId="299044" SrcAssetPartsNo="0" DstAssetId="299200" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="150002" TargetMapId="15000099" TargetEventId="311" SrcAssetId="299068" SrcAssetPartsNo="0" DstAssetId="299206" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="150003" TargetMapId="15000099" TargetEventId="311" SrcAssetId="299069" SrcAssetPartsNo="0" DstAssetId="299207" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="150004" TargetMapId="15000099" TargetEventId="311" SrcAssetId="299070" SrcAssetPartsNo="0" DstAssetId="299208" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="150005" TargetMapId="15000099" TargetEventId="311" SrcAssetId="299071" SrcAssetPartsNo="0" DstAssetId="299209" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="150006" TargetMapId="15000099" TargetEventId="312" SrcAssetId="299046" SrcAssetPartsNo="0" DstAssetId="299202" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="150007" TargetMapId="15000099" TargetEventId="312" SrcAssetId="299048" SrcAssetPartsNo="0" DstAssetId="299204" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="150080" TargetMapId="15000099" TargetEventId="300" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" DstAssetIdRangeMin="94100" DstAssetIdRangeMax="94113" />
+<row id="150085" TargetMapId="15000099" TargetEventId="300" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" SrcAssetIdRangeMin="94000" SrcAssetIdRangeMax="94010" DstAssetIdRangeMin="999999" DstAssetIdRangeMax="999999" />
+<row id="150090" TargetMapId="15000099" TargetEventId="302" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" DstAssetIdRangeMin="94200" DstAssetIdRangeMax="94211" />
+<row id="150091" TargetMapId="15000099" TargetEventId="302" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" SrcAssetIdRangeMin="94000" SrcAssetIdRangeMax="94010" DstAssetIdRangeMin="999999" DstAssetIdRangeMax="999999" />
+<row id="160000" TargetMapId="16000099" TargetEventId="310" SrcAssetId="299045" SrcAssetPartsNo="0" DstAssetId="299201" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="160001" TargetMapId="16000099" TargetEventId="310" SrcAssetId="299044" SrcAssetPartsNo="0" DstAssetId="299200" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="160002" TargetMapId="16000099" TargetEventId="311" SrcAssetId="299068" SrcAssetPartsNo="0" DstAssetId="299206" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="160003" TargetMapId="16000099" TargetEventId="311" SrcAssetId="299069" SrcAssetPartsNo="0" DstAssetId="299207" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="160004" TargetMapId="16000099" TargetEventId="311" SrcAssetId="299070" SrcAssetPartsNo="0" DstAssetId="299208" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="160005" TargetMapId="16000099" TargetEventId="311" SrcAssetId="299071" SrcAssetPartsNo="0" DstAssetId="299209" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="160006" TargetMapId="16000099" TargetEventId="312" SrcAssetId="299046" SrcAssetPartsNo="0" DstAssetId="299202" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="160007" TargetMapId="16000099" TargetEventId="312" SrcAssetId="299048" SrcAssetPartsNo="0" DstAssetId="299204" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="160080" TargetMapId="16000099" TargetEventId="300" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" DstAssetIdRangeMin="94100" DstAssetIdRangeMax="94113" />
+<row id="160085" TargetMapId="16000099" TargetEventId="300" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" SrcAssetIdRangeMin="94000" SrcAssetIdRangeMax="94010" DstAssetIdRangeMin="999999" DstAssetIdRangeMax="999999" />
+<row id="160090" TargetMapId="16000099" TargetEventId="302" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" DstAssetIdRangeMin="94200" DstAssetIdRangeMax="94211" />
+<row id="160091" TargetMapId="16000099" TargetEventId="302" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" SrcAssetIdRangeMin="94000" SrcAssetIdRangeMax="94010" DstAssetIdRangeMin="999999" DstAssetIdRangeMax="999999" />
+<row id="210000" TargetMapId="21000099" TargetEventId="330" SrcAssetId="499006" SrcAssetPartsNo="9900" DstAssetId="499018" DstAssetPartsNo="9900" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="211000" TargetMapId="21010099" TargetEventId="330" SrcAssetId="499006" SrcAssetPartsNo="9900" DstAssetId="499018" DstAssetPartsNo="9900" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="212000" TargetMapId="21020099" TargetEventId="330" SrcAssetId="499017" SrcAssetPartsNo="9900" DstAssetId="499020" DstAssetPartsNo="9900" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="340000" TargetMapId="34100099" TargetEventId="310" SrcAssetId="299045" SrcAssetPartsNo="0" DstAssetId="299201" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="340001" TargetMapId="34100099" TargetEventId="310" SrcAssetId="299044" SrcAssetPartsNo="0" DstAssetId="299200" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="340002" TargetMapId="34100099" TargetEventId="311" SrcAssetId="299068" SrcAssetPartsNo="0" DstAssetId="299206" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="340003" TargetMapId="34100099" TargetEventId="311" SrcAssetId="299069" SrcAssetPartsNo="0" DstAssetId="299207" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="340004" TargetMapId="34100099" TargetEventId="311" SrcAssetId="299070" SrcAssetPartsNo="0" DstAssetId="299208" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="340005" TargetMapId="34100099" TargetEventId="311" SrcAssetId="299071" SrcAssetPartsNo="0" DstAssetId="299209" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="340006" TargetMapId="34100099" TargetEventId="312" SrcAssetId="299046" SrcAssetPartsNo="0" DstAssetId="299202" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="340007" TargetMapId="34100099" TargetEventId="312" SrcAssetId="299048" SrcAssetPartsNo="0" DstAssetId="299204" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="340010" TargetMapId="34100099" TargetEventId="310" SrcAssetId="26044" SrcAssetPartsNo="0" DstAssetId="26200" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="341000" TargetMapId="34110099" TargetEventId="310" SrcAssetId="299045" SrcAssetPartsNo="0" DstAssetId="299201" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="341001" TargetMapId="34110099" TargetEventId="310" SrcAssetId="299044" SrcAssetPartsNo="0" DstAssetId="299200" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="341002" TargetMapId="34110099" TargetEventId="311" SrcAssetId="299068" SrcAssetPartsNo="0" DstAssetId="299206" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="341003" TargetMapId="34110099" TargetEventId="311" SrcAssetId="299069" SrcAssetPartsNo="0" DstAssetId="299207" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="341004" TargetMapId="34110099" TargetEventId="311" SrcAssetId="299070" SrcAssetPartsNo="0" DstAssetId="299208" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="341005" TargetMapId="34110099" TargetEventId="311" SrcAssetId="299071" SrcAssetPartsNo="0" DstAssetId="299209" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="341006" TargetMapId="34110099" TargetEventId="312" SrcAssetId="299046" SrcAssetPartsNo="0" DstAssetId="299202" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="341007" TargetMapId="34110099" TargetEventId="312" SrcAssetId="299048" SrcAssetPartsNo="0" DstAssetId="299204" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="342000" TargetMapId="34120099" TargetEventId="310" SrcAssetId="299045" SrcAssetPartsNo="0" DstAssetId="299201" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="342001" TargetMapId="34120099" TargetEventId="310" SrcAssetId="299044" SrcAssetPartsNo="0" DstAssetId="299200" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="342002" TargetMapId="34120099" TargetEventId="311" SrcAssetId="299068" SrcAssetPartsNo="0" DstAssetId="299206" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="342003" TargetMapId="34120099" TargetEventId="311" SrcAssetId="299069" SrcAssetPartsNo="0" DstAssetId="299207" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="342004" TargetMapId="34120099" TargetEventId="311" SrcAssetId="299070" SrcAssetPartsNo="0" DstAssetId="299208" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="342005" TargetMapId="34120099" TargetEventId="311" SrcAssetId="299071" SrcAssetPartsNo="0" DstAssetId="299209" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="342006" TargetMapId="34120099" TargetEventId="312" SrcAssetId="299046" SrcAssetPartsNo="0" DstAssetId="299202" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="342007" TargetMapId="34120099" TargetEventId="312" SrcAssetId="299048" SrcAssetPartsNo="0" DstAssetId="299204" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="343000" TargetMapId="34130099" TargetEventId="310" SrcAssetId="299045" SrcAssetPartsNo="0" DstAssetId="299201" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="343001" TargetMapId="34130099" TargetEventId="310" SrcAssetId="299044" SrcAssetPartsNo="0" DstAssetId="299200" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="343002" TargetMapId="34130099" TargetEventId="311" SrcAssetId="299068" SrcAssetPartsNo="0" DstAssetId="299206" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="343003" TargetMapId="34130099" TargetEventId="311" SrcAssetId="299069" SrcAssetPartsNo="0" DstAssetId="299207" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="343004" TargetMapId="34130099" TargetEventId="311" SrcAssetId="299070" SrcAssetPartsNo="0" DstAssetId="299208" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="343005" TargetMapId="34130099" TargetEventId="311" SrcAssetId="299071" SrcAssetPartsNo="0" DstAssetId="299209" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="343006" TargetMapId="34130099" TargetEventId="312" SrcAssetId="299046" SrcAssetPartsNo="0" DstAssetId="299202" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="343007" TargetMapId="34130099" TargetEventId="312" SrcAssetId="299048" SrcAssetPartsNo="0" DstAssetId="299204" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="345000" TargetMapId="34150099" TargetEventId="310" SrcAssetId="299045" SrcAssetPartsNo="0" DstAssetId="299201" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="345001" TargetMapId="34150099" TargetEventId="310" SrcAssetId="299044" SrcAssetPartsNo="0" DstAssetId="299200" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="345002" TargetMapId="34150099" TargetEventId="311" SrcAssetId="299068" SrcAssetPartsNo="0" DstAssetId="299206" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="345003" TargetMapId="34150099" TargetEventId="311" SrcAssetId="299069" SrcAssetPartsNo="0" DstAssetId="299207" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="345004" TargetMapId="34150099" TargetEventId="311" SrcAssetId="299070" SrcAssetPartsNo="0" DstAssetId="299208" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="345005" TargetMapId="34150099" TargetEventId="311" SrcAssetId="299071" SrcAssetPartsNo="0" DstAssetId="299209" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="345006" TargetMapId="34150099" TargetEventId="312" SrcAssetId="299046" SrcAssetPartsNo="0" DstAssetId="299202" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="345007" TargetMapId="34150099" TargetEventId="312" SrcAssetId="299048" SrcAssetPartsNo="0" DstAssetId="299204" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="392000" TargetMapId="39200099" TargetEventId="310" SrcAssetId="299045" SrcAssetPartsNo="0" DstAssetId="299201" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="392001" TargetMapId="39200099" TargetEventId="310" SrcAssetId="299044" SrcAssetPartsNo="0" DstAssetId="299200" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="392002" TargetMapId="39200099" TargetEventId="311" SrcAssetId="299068" SrcAssetPartsNo="0" DstAssetId="299206" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="392003" TargetMapId="39200099" TargetEventId="311" SrcAssetId="299069" SrcAssetPartsNo="0" DstAssetId="299207" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="392004" TargetMapId="39200099" TargetEventId="311" SrcAssetId="299070" SrcAssetPartsNo="0" DstAssetId="299208" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="392005" TargetMapId="39200099" TargetEventId="311" SrcAssetId="299071" SrcAssetPartsNo="0" DstAssetId="299209" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="392006" TargetMapId="39200099" TargetEventId="312" SrcAssetId="299046" SrcAssetPartsNo="0" DstAssetId="299202" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="392007" TargetMapId="39200099" TargetEventId="312" SrcAssetId="299048" SrcAssetPartsNo="0" DstAssetId="299204" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="392080" TargetMapId="39200099" TargetEventId="300" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" DstAssetIdRangeMin="94100" DstAssetIdRangeMax="94113" />
+<row id="392085" TargetMapId="39200099" TargetEventId="300" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" SrcAssetIdRangeMin="94000" SrcAssetIdRangeMax="94010" DstAssetIdRangeMin="999999" DstAssetIdRangeMax="999999" />
+<row id="392090" TargetMapId="39200099" TargetEventId="302" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" DstAssetIdRangeMin="94200" DstAssetIdRangeMax="94211" />
+<row id="392091" TargetMapId="39200099" TargetEventId="302" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" SrcAssetIdRangeMin="94000" SrcAssetIdRangeMax="94010" DstAssetIdRangeMin="999999" DstAssetIdRangeMax="999999" />
+<row id="450080" TargetMapId="45000099" TargetEventId="300" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" DstAssetIdRangeMin="94100" DstAssetIdRangeMax="94113" />
+<row id="450081" TargetMapId="45000099" TargetEventId="300" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" DstAssetIdRangeMin="94084" DstAssetIdRangeMax="94092" />
+<row id="450082" TargetMapId="45000099" TargetEventId="300" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" SrcAssetIdRangeMin="400059" SrcAssetIdRangeMax="400059" DstAssetIdRangeMin="999999" DstAssetIdRangeMax="999999" />
+<row id="450085" TargetMapId="45000099" TargetEventId="300" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" SrcAssetIdRangeMin="94000" SrcAssetIdRangeMax="94010" DstAssetIdRangeMin="999999" DstAssetIdRangeMax="999999" />
+<row id="450086" TargetMapId="45000099" TargetEventId="300" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" SrcAssetIdRangeMin="94050" SrcAssetIdRangeMax="94081" DstAssetIdRangeMin="999999" DstAssetIdRangeMax="999999" />
+<row id="450090" TargetMapId="45000099" TargetEventId="302" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" DstAssetIdRangeMin="94200" DstAssetIdRangeMax="94211" />
+<row id="450091" TargetMapId="45000099" TargetEventId="302" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" DstAssetIdRangeMin="94044" DstAssetIdRangeMax="94049" />
+<row id="450095" TargetMapId="45000099" TargetEventId="302" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" SrcAssetIdRangeMin="94051" SrcAssetIdRangeMax="94060" DstAssetIdRangeMin="999999" DstAssetIdRangeMax="999999" />
+<row id="450180" TargetMapId="45010099" TargetEventId="300" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" DstAssetIdRangeMin="94100" DstAssetIdRangeMax="94113" />
+<row id="450185" TargetMapId="45010099" TargetEventId="300" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" SrcAssetIdRangeMin="94000" SrcAssetIdRangeMax="94010" DstAssetIdRangeMin="999999" DstAssetIdRangeMax="999999" />
+<row id="450190" TargetMapId="45010099" TargetEventId="302" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" DstAssetIdRangeMin="94200" DstAssetIdRangeMax="94211" />
+<row id="450191" TargetMapId="45010099" TargetEventId="302" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" SrcAssetIdRangeMin="94000" SrcAssetIdRangeMax="94010" DstAssetIdRangeMin="999999" DstAssetIdRangeMax="999999" />
+<row id="450280" TargetMapId="45020099" TargetEventId="300" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" DstAssetIdRangeMin="94100" DstAssetIdRangeMax="94113" />
+<row id="450285" TargetMapId="45020099" TargetEventId="300" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" SrcAssetIdRangeMin="94000" SrcAssetIdRangeMax="94010" DstAssetIdRangeMin="999999" DstAssetIdRangeMax="999999" />
+<row id="450290" TargetMapId="45020099" TargetEventId="302" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" DstAssetIdRangeMin="94200" DstAssetIdRangeMax="94211" />
+<row id="450291" TargetMapId="45020099" TargetEventId="302" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" SrcAssetIdRangeMin="94000" SrcAssetIdRangeMax="94010" DstAssetIdRangeMin="999999" DstAssetIdRangeMax="999999" />
+<row id="600000" TargetMapId="60000099" TargetEventId="300" SrcAssetId="226897" SrcAssetPartsNo="9900" DstAssetId="226898" DstAssetPartsNo="9900" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="600010" TargetMapId="60000099" TargetEventId="300" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" DstAssetIdRangeMin="94100" DstAssetIdRangeMax="94117" />
+<row id="600011" TargetMapId="60000099" TargetEventId="300" SrcAssetId="96411" SrcAssetPartsNo="0" DstAssetId="-1" DstAssetPartsNo="-1" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="600012" TargetMapId="60000099" TargetEventId="300" SrcAssetId="96415" SrcAssetPartsNo="0" DstAssetId="-1" DstAssetPartsNo="-1" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="600013" TargetMapId="60000099" TargetEventId="300" SrcAssetId="96416" SrcAssetPartsNo="0" DstAssetId="-1" DstAssetPartsNo="-1" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="600014" TargetMapId="60000099" TargetEventId="300" SrcAssetId="96410" SrcAssetPartsNo="0" DstAssetId="96420" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="600050" TargetMapId="60000099" TargetEventId="300" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" SrcAssetIdRangeMin="94000" SrcAssetIdRangeMax="94010" DstAssetIdRangeMin="999999" DstAssetIdRangeMax="999999" />
+<row id="600110" TargetMapId="60000099" TargetEventId="302" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" DstAssetIdRangeMin="94200" DstAssetIdRangeMax="94211" />
+<row id="600150" TargetMapId="60000099" TargetEventId="302" SrcAssetId="-1" SrcAssetPartsNo="-1" DstAssetId="-1" DstAssetPartsNo="-1" SrcAssetIdRangeMin="94000" SrcAssetIdRangeMax="94010" DstAssetIdRangeMin="999999" DstAssetIdRangeMax="999999" />
+<row id="610000" TargetMapId="61000099" TargetEventId="330" SrcAssetId="64910" SrcAssetPartsNo="9900" DstAssetId="64911" DstAssetPartsNo="9900" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="999901" TargetMapId="10000099" TargetEventId="310" SrcAssetId="299045" SrcAssetPartsNo="0" DstAssetId="299201" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+<row id="999902" TargetMapId="10000099" TargetEventId="310" SrcAssetId="299045" SrcAssetPartsNo="0" DstAssetId="299201" DstAssetPartsNo="0" DstAssetIdRangeMin="-1" DstAssetIdRangeMax="-1" />
+</rows>
+</param>

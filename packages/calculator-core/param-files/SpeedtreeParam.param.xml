@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>SpeedtreeParam.param</filename>
+<compression>None</compression>
+<type>SPEEDTREE_MODEL_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>2</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>SPEEDTREE_MODEL_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>2</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="MinFadeLeaf" type="f32" arraylength="1" bitsize="-1" sortid="1" defaultValue="0" defaultThreshold="True" />
+<field name="MinFadeFrond" type="f32" arraylength="1" bitsize="-1" sortid="2" defaultValue="0" defaultThreshold="True" />
+<field name="MinFadeBranch" type="f32" arraylength="1" bitsize="-1" sortid="3" defaultValue="0.5" defaultThreshold="True" />
+<field name="MinTranslucencyLeaf" type="f32" arraylength="1" bitsize="-1" sortid="4" defaultValue="10" defaultThreshold="True" />
+<field name="MaxTranslucencyLeaf" type="f32" arraylength="1" bitsize="-1" sortid="5" defaultValue="10" defaultThreshold="True" />
+<field name="MinTranslucencyFrond" type="f32" arraylength="1" bitsize="-1" sortid="6" defaultValue="0" defaultThreshold="True" />
+<field name="MaxTranslucencyFrond" type="f32" arraylength="1" bitsize="-1" sortid="7" defaultValue="5" defaultThreshold="True" />
+<field name="MinTranslucencyBranch" type="f32" arraylength="1" bitsize="-1" sortid="8" defaultValue="0" defaultThreshold="True" />
+<field name="MaxTranslucencyBranch" type="f32" arraylength="1" bitsize="-1" sortid="9" defaultValue="5" defaultThreshold="True" />
+<field name="BillboardBackSpecularWeakenParam" type="f32" arraylength="1" bitsize="-1" sortid="10" defaultValue="0.25" defaultThreshold="True" />
+</fields>
+<rows>
+<row id="0" MinFadeLeaf="0.5" MinFadeFrond="0.6" MinFadeBranch="0.7" MinTranslucencyLeaf="0" MaxTranslucencyLeaf="5" />
+<row id="801000" />
+<row id="801001" />
+<row id="801005" />
+<row id="801006" />
+<row id="801010" MaxTranslucencyLeaf="5" />
+<row id="801011" MaxTranslucencyLeaf="5" />
+<row id="801015" MaxTranslucencyLeaf="5" />
+<row id="801016" MaxTranslucencyLeaf="5" />
+<row id="801019" />
+<row id="801020" MinTranslucencyLeaf="0" MaxTranslucencyLeaf="5" />
+<row id="801050" />
+<row id="801051" />
+<row id="801060" />
+<row id="801061" />
+<row id="801062" />
+<row id="801063" />
+<row id="801064" />
+<row id="801070" />
+<row id="801080" />
+<row id="801081" />
+<row id="801085" />
+<row id="801086" />
+<row id="801090" />
+<row id="801091" />
+<row id="801095" />
+<row id="801096" />
+<row id="801100" MinTranslucencyLeaf="0" MaxTranslucencyLeaf="5" />
+<row id="801101" MinTranslucencyLeaf="0" MaxTranslucencyLeaf="5" />
+<row id="801110" />
+<row id="801111" />
+<row id="801120" MinTranslucencyLeaf="0" MaxTranslucencyLeaf="5" />
+<row id="801200" MinTranslucencyLeaf="0" MaxTranslucencyLeaf="5" />
+<row id="801201" MinTranslucencyLeaf="0" MaxTranslucencyLeaf="5" />
+<row id="801202" MinTranslucencyLeaf="0" MaxTranslucencyLeaf="5" />
+<row id="801203" MinTranslucencyLeaf="0" MaxTranslucencyLeaf="5" />
+<row id="801204" MinTranslucencyLeaf="0" MaxTranslucencyLeaf="5" />
+<row id="801205" MinTranslucencyLeaf="0" MaxTranslucencyLeaf="5" />
+<row id="801210" />
+<row id="801220" />
+<row id="801230" MinTranslucencyLeaf="0" MaxTranslucencyLeaf="5" />
+<row id="801232" MinTranslucencyLeaf="0" MaxTranslucencyLeaf="5" />
+<row id="801233" />
+<row id="801240" />
+<row id="801241" />
+<row id="801242" />
+<row id="801243" />
+<row id="801250" />
+<row id="801251" />
+<row id="801252" />
+<row id="801253" />
+<row id="801254" />
+<row id="801255" />
+<row id="801256" />
+<row id="801257" />
+<row id="801258" />
+<row id="801259" />
+<row id="801260" />
+<row id="801261" />
+<row id="801262" />
+<row id="801263" />
+<row id="801264" />
+<row id="801265" />
+<row id="801266" />
+<row id="801267" />
+<row id="801268" />
+<row id="801269" />
+<row id="801270" />
+<row id="801271" />
+<row id="801272" />
+<row id="801273" />
+<row id="801274" />
+<row id="801275" />
+<row id="801276" />
+<row id="801277" />
+<row id="801278" />
+<row id="801279" />
+<row id="801280" />
+<row id="801281" />
+<row id="801282" />
+<row id="801283" />
+<row id="801284" />
+<row id="801285" />
+<row id="801286" />
+<row id="801287" />
+<row id="801288" />
+<row id="801289" />
+<row id="801290" />
+<row id="801291" />
+<row id="801292" />
+<row id="801293" />
+<row id="801294" />
+<row id="801295" />
+<row id="801296" />
+<row id="801297" />
+<row id="801298" />
+<row id="801313" />
+<row id="801314" />
+<row id="801315" />
+<row id="801316" />
+<row id="801320" />
+<row id="801321" />
+<row id="801325" />
+<row id="801326" />
+<row id="801330" />
+<row id="801331" />
+<row id="801332" />
+<row id="801335" />
+<row id="801337" />
+<row id="801340" />
+<row id="801341" />
+<row id="801342" />
+<row id="801343" />
+<row id="801344" />
+<row id="801345" />
+<row id="801346" />
+<row id="801347" />
+<row id="801348" />
+<row id="801490" />
+<row id="801491" />
+<row id="801492" />
+<row id="801495" />
+<row id="801497" />
+<row id="805000" />
+<row id="805001" />
+<row id="805002" />
+<row id="805003" />
+<row id="805004" />
+<row id="810000" />
+<row id="810001" />
+<row id="810002" />
+<row id="810005" />
+<row id="810006" />
+<row id="810007" />
+<row id="810008" />
+<row id="810009" />
+<row id="810020" />
+<row id="810030" />
+<row id="810040" />
+<row id="810050" />
+<row id="810055" />
+<row id="811000" />
+<row id="811020" />
+<row id="811030" />
+<row id="811040" />
+<row id="811050" />
+<row id="811051" />
+<row id="811070" />
+<row id="811080" />
+<row id="813000" />
+<row id="813010" />
+<row id="813011" />
+<row id="813012" />
+<row id="813020" />
+<row id="813030" />
+<row id="813031" />
+<row id="813032" />
+<row id="813040" />
+<row id="813041" />
+<row id="813042" />
+<row id="813043" />
+<row id="815000" />
+<row id="815010" />
+<row id="815020" />
+<row id="815021" />
+<row id="815022" />
+<row id="815030" />
+<row id="815031" />
+<row id="815032" MinFadeLeaf="1" MinFadeFrond="1" MinFadeBranch="1" MinTranslucencyLeaf="0" MaxTranslucencyLeaf="5" BillboardBackSpecularWeakenParam="1" />
+</rows>
+</param>

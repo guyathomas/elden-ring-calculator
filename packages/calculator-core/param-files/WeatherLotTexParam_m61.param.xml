@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>WeatherLotTexParam_m61.param</filename>
+<compression>None</compression>
+<type>WEATHER_LOT_TEX_PARAM_ST_DLC02</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>2</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>WEATHER_LOT_TEX_PARAM_ST_DLC02</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>2</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="disableParam_NT" type="u8" arraylength="1" bitsize="1" sortid="0" defaultValue="0" />
+<field name="disableParamReserve1" type="dummy8" arraylength="1" bitsize="7" sortid="201" defaultValue="[0]" />
+<field name="disableParamReserve2" type="dummy8" arraylength="3" bitsize="-1" sortid="202" defaultValue="[0|0|0]" />
+<field name="srcR" type="u8" arraylength="1" bitsize="-1" sortid="110" defaultValue="0" />
+<field name="srcG" type="u8" arraylength="1" bitsize="-1" sortid="120" defaultValue="0" />
+<field name="srcB" type="u8" arraylength="1" bitsize="-1" sortid="130" defaultValue="0" />
+<field name="pad1" type="dummy8" arraylength="1" bitsize="-1" sortid="203" defaultValue="[0]" />
+<field name="weatherLogId" type="s32" arraylength="1" bitsize="-1" sortid="200" defaultValue="-1" />
+<field name="unknown_0xc" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="1" />
+<field name="unknown_0x10" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="unknown_0x14" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="-1" />
+<field name="unknown_0x18" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="-1" />
+</fields>
+<rows>
+<row id="10" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="192" srcG="192" srcB="192" pad1="[0]" weatherLogId="680000000" unknown_0xc="0" unknown_0x10="0" unknown_0x14="-1" unknown_0x18="-1" />
+<row id="11" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="144" srcG="144" srcB="144" pad1="[0]" weatherLogId="-1" unknown_0xc="1" unknown_0x10="352" unknown_0x14="680000000" unknown_0x18="690000000" />
+<row id="12" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="96" srcG="160" srcB="208" pad1="[0]" weatherLogId="-1" unknown_0xc="1" unknown_0x10="317" unknown_0x14="680000000" unknown_0x18="682000000" />
+<row id="13" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="96" srcG="160" srcB="200" pad1="[0]" weatherLogId="-1" unknown_0xc="1" unknown_0x10="309" unknown_0x14="680000000" unknown_0x18="682000000" />
+<row id="14" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="224" srcG="224" srcB="224" pad1="[0]" weatherLogId="680000100" unknown_0xc="0" unknown_0x10="0" unknown_0x14="-1" unknown_0x18="-1" />
+<row id="15" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="0" srcG="127" srcB="223" pad1="[0]" weatherLogId="682000000" unknown_0xc="0" unknown_0x10="0" unknown_0x14="-1" unknown_0x18="-1" />
+<row id="16" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="48" srcG="112" srcB="160" pad1="[0]" weatherLogId="-1" unknown_0xc="1" unknown_0x10="382" unknown_0x14="682000000" unknown_0x18="690000000" />
+<row id="20" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="96" srcG="96" srcB="96" pad1="[0]" weatherLogId="690000000" unknown_0xc="0" unknown_0x10="0" unknown_0x14="-1" unknown_0x18="-1" />
+<row id="21" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="96" srcG="255" srcB="96" pad1="[0]" weatherLogId="-1" unknown_0xc="1" unknown_0x10="400" unknown_0x14="690000000" unknown_0x18="694000000" />
+<row id="22" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="176" srcG="48" srcB="158" pad1="[0]" weatherLogId="-1" unknown_0xc="1" unknown_0x10="530" unknown_0x14="690000000" unknown_0x18="692000000" />
+<row id="30" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="0" srcG="0" srcB="255" pad1="[0]" weatherLogId="683000000" unknown_0xc="0" unknown_0x10="0" unknown_0x14="-1" unknown_0x18="-1" />
+<row id="31" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="64" srcG="61" srcB="192" pad1="[0]" weatherLogId="-1" unknown_0xc="1" unknown_0x10="70" unknown_0x14="683000000" unknown_0x18="684000000" />
+<row id="32" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="128" srcG="83" srcB="128" pad1="[0]" weatherLogId="-1" unknown_0xc="1" unknown_0x10="70" unknown_0x14="683000000" unknown_0x18="684100000" />
+<row id="33" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="172" srcG="83" srcB="128" pad1="[0]" weatherLogId="-1" unknown_0xc="1" unknown_0x10="70" unknown_0x14="683000000" unknown_0x18="685000000" />
+<row id="40" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="0" srcG="255" srcB="255" pad1="[0]" weatherLogId="684000000" unknown_0xc="0" unknown_0x10="0" unknown_0x14="-1" unknown_0x18="-1" />
+<row id="41" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="96" srcG="224" srcB="224" pad1="[0]" weatherLogId="-1" unknown_0xc="1" unknown_0x10="200" unknown_0x14="684000000" unknown_0x18="680000000" />
+<row id="50" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="128" srcB="0" pad1="[0]" weatherLogId="684100000" unknown_0xc="0" unknown_0x10="0" unknown_0x14="-1" unknown_0x18="-1" />
+<row id="51" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="224" srcG="197" srcB="96" pad1="[0]" weatherLogId="-1" unknown_0xc="1" unknown_0x10="352" unknown_0x14="684000000" unknown_0x18="680000000" />
+<row id="60" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="225" srcG="0" srcB="0" pad1="[0]" weatherLogId="685000000" unknown_0xc="0" unknown_0x10="0" unknown_0x14="-1" unknown_0x18="-1" />
+<row id="61" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="240" srcG="0" srcB="0" pad1="[0]" weatherLogId="-1" unknown_0xc="1" unknown_0x10="600" unknown_0x14="685000000" unknown_0x18="685100000" />
+<row id="65" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="0" srcB="0" pad1="[0]" weatherLogId="685100000" unknown_0xc="0" unknown_0x10="0" unknown_0x14="-1" unknown_0x18="-1" />
+<row id="70" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="196" srcG="0" srcB="220" pad1="[0]" weatherLogId="692000000" unknown_0xc="0" unknown_0x10="0" unknown_0x14="-1" unknown_0x18="-1" />
+<row id="80" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="255" srcB="0" pad1="[0]" weatherLogId="686000000" unknown_0xc="0" unknown_0x10="0" unknown_0x14="-1" unknown_0x18="-1" />
+<row id="81" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="224" srcG="224" srcB="96" pad1="[0]" weatherLogId="-1" unknown_0xc="1" unknown_0x10="65336" unknown_0x14="686000000" unknown_0x18="680000000" />
+<row id="82" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="156" srcG="156" srcB="24" pad1="[0]" weatherLogId="-1" unknown_0xc="1" unknown_0x10="65336" unknown_0x14="686000000" unknown_0x18="690000000" />
+<row id="83" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="128" srcG="224" srcB="96" pad1="[0]" weatherLogId="-1" unknown_0xc="1" unknown_0x10="65336" unknown_0x14="686000000" unknown_0x18="684000000" />
+<row id="84" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="192" srcB="0" pad1="[0]" weatherLogId="-1" unknown_0xc="1" unknown_0x10="65336" unknown_0x14="686000000" unknown_0x18="684100000" />
+<row id="85" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="64" srcB="0" pad1="[0]" weatherLogId="-1" unknown_0xc="1" unknown_0x10="65336" unknown_0x14="686000000" unknown_0x18="685100000" />
+<row id="90" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="0" srcG="255" srcB="0" pad1="[0]" weatherLogId="694000000" unknown_0xc="0" unknown_0x10="0" unknown_0x14="-1" unknown_0x18="-1" />
+<row id="255" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="0" srcG="0" srcB="0" pad1="[0]" weatherLogId="-1" unknown_0xc="0" unknown_0x10="0" unknown_0x14="-1" unknown_0x18="-1" />
+</rows>
+</param>

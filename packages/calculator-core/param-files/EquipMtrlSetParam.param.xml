@@ -1,0 +1,894 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>EquipMtrlSetParam.param</filename>
+<compression>None</compression>
+<type>EQUIP_MTRL_SET_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>2</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>EQUIP_MTRL_SET_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>2</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="materialId01" type="s32" arraylength="1" bitsize="-1" sortid="100" defaultValue="10102" />
+<field name="materialId02" type="s32" arraylength="1" bitsize="-1" sortid="300" defaultValue="-1" defaultThreshold="True" />
+<field name="materialId03" type="s32" arraylength="1" bitsize="-1" sortid="500" defaultValue="-1" defaultThreshold="True" />
+<field name="materialId04" type="s32" arraylength="1" bitsize="-1" sortid="700" defaultValue="-1" defaultThreshold="True" />
+<field name="materialId05" type="s32" arraylength="1" bitsize="-1" sortid="900" defaultValue="-1" defaultThreshold="True" />
+<field name="materialId06" type="s32" arraylength="1" bitsize="-1" sortid="1100" defaultValue="-1" defaultThreshold="True" />
+<field name="pad_id" type="dummy8" arraylength="8" bitsize="-1" sortid="99999999" defaultValue="[0|0|0|0|0|0|0|0]" defaultThreshold="True" />
+<field name="itemNum01" type="s8" arraylength="1" bitsize="-1" sortid="200" defaultValue="1" />
+<field name="itemNum02" type="s8" arraylength="1" bitsize="-1" sortid="400" defaultValue="-1" defaultThreshold="True" />
+<field name="itemNum03" type="s8" arraylength="1" bitsize="-1" sortid="600" defaultValue="-1" defaultThreshold="True" />
+<field name="itemNum04" type="s8" arraylength="1" bitsize="-1" sortid="800" defaultValue="-1" defaultThreshold="True" />
+<field name="itemNum05" type="s8" arraylength="1" bitsize="-1" sortid="1000" defaultValue="-1" defaultThreshold="True" />
+<field name="itemNum06" type="s8" arraylength="1" bitsize="-1" sortid="1200" defaultValue="-1" defaultThreshold="True" />
+<field name="pad_num" type="dummy8" arraylength="2" bitsize="-1" sortid="99999999" defaultValue="[0|0]" defaultThreshold="True" />
+<field name="materialCate01" type="u8" arraylength="1" bitsize="-1" sortid="110" defaultValue="4" />
+<field name="materialCate02" type="u8" arraylength="1" bitsize="-1" sortid="310" defaultValue="4" />
+<field name="materialCate03" type="u8" arraylength="1" bitsize="-1" sortid="510" defaultValue="4" />
+<field name="materialCate04" type="u8" arraylength="1" bitsize="-1" sortid="710" defaultValue="4" />
+<field name="materialCate05" type="u8" arraylength="1" bitsize="-1" sortid="910" defaultValue="4" />
+<field name="materialCate06" type="u8" arraylength="1" bitsize="-1" sortid="1110" defaultValue="4" />
+<field name="pad_cate" type="dummy8" arraylength="2" bitsize="-1" sortid="99999999" defaultValue="[0|0]" defaultThreshold="True" />
+<field name="isDisableDispNum01" type="u8" arraylength="1" bitsize="1" sortid="250" defaultValue="0" defaultThreshold="True" />
+<field name="isDisableDispNum02" type="u8" arraylength="1" bitsize="1" sortid="450" defaultValue="0" defaultThreshold="True" />
+<field name="isDisableDispNum03" type="u8" arraylength="1" bitsize="1" sortid="650" defaultValue="0" defaultThreshold="True" />
+<field name="isDisableDispNum04" type="u8" arraylength="1" bitsize="1" sortid="850" defaultValue="0" defaultThreshold="True" />
+<field name="isDisableDispNum05" type="u8" arraylength="1" bitsize="1" sortid="1050" defaultValue="0" defaultThreshold="True" />
+<field name="isDisableDispNum06" type="u8" arraylength="1" bitsize="1" sortid="1250" defaultValue="0" defaultThreshold="True" />
+<field name="pad" type="dummy8" arraylength="3" bitsize="-1" sortid="99999999" defaultValue="[0|0|0]" defaultThreshold="True" />
+</fields>
+<rows>
+<row id="0" paramdexName="None" materialId01="1250" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1" paramdexName="Smithing Stone [1] * 2" materialId01="10100" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="2" paramdexName="Smithing Stone [1] * 4" materialId01="10100" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="3" paramdexName="Smithing Stone [1] * 6" materialId01="10100" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="4" paramdexName="Smithing Stone [2] * 2" materialId01="10101" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="5" paramdexName="Smithing Stone [2] * 4" materialId01="10101" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="6" paramdexName="Smithing Stone [2] * 6" materialId01="10101" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="7" paramdexName="Smithing Stone [3] * 2" materialId01="10102" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="8" paramdexName="Smithing Stone [3] * 4" materialId01="10102" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="9" paramdexName="Smithing Stone [3] * 6" materialId01="10102" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="10" paramdexName="Smithing Stone [4] * 2" materialId01="10103" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="11" paramdexName="Smithing Stone [4] * 4" materialId01="10103" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="12" paramdexName="Smithing Stone [4] * 6" materialId01="10103" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="13" paramdexName="Smithing Stone [5] * 2" materialId01="10104" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="14" paramdexName="Smithing Stone [5] * 4" materialId01="10104" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="15" paramdexName="Smithing Stone [5] * 6" materialId01="10104" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="16" paramdexName="Smithing Stone [6] * 2" materialId01="10105" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="17" paramdexName="Smithing Stone [6] * 4" materialId01="10105" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="18" paramdexName="Smithing Stone [6] * 6" materialId01="10105" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="19" paramdexName="Smithing Stone [7] * 2" materialId01="10106" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="20" paramdexName="Smithing Stone [7] * 4" materialId01="10106" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="21" paramdexName="Smithing Stone [7] * 6" materialId01="10106" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="22" paramdexName="Smithing Stone [8] * 2" materialId01="10107" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="23" paramdexName="Smithing Stone [8] * 4" materialId01="10107" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="24" paramdexName="Smithing Stone [8] * 6" materialId01="10107" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="25" paramdexName="Ancient Dragon Smithing Stone * 1" materialId01="10140" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="100" materialId01="1110" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="101" materialId01="10100" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="102" materialId01="10100" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="103" materialId01="10100" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="104" materialId01="10101" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="105" materialId01="10101" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="106" materialId01="10101" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="107" materialId01="10102" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="108" materialId01="10102" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="109" materialId01="10102" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="110" materialId01="10103" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="111" materialId01="10103" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="112" materialId01="10103" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="113" materialId01="10104" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="114" materialId01="10104" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="115" materialId01="10104" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="116" materialId01="10105" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="117" materialId01="10105" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="118" materialId01="10105" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="119" materialId01="10106" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="120" materialId01="10106" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="121" materialId01="10106" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="122" materialId01="10107" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="123" materialId01="10107" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="124" materialId01="10107" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="125" materialId01="10140" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="200" materialId01="1100" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="201" materialId01="10100" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="202" materialId01="10100" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="203" materialId01="10100" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="204" materialId01="10101" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="205" materialId01="10101" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="206" materialId01="10101" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="207" materialId01="10102" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="208" materialId01="10102" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="209" materialId01="10102" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="210" materialId01="10103" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="211" materialId01="10103" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="212" materialId01="10103" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="213" materialId01="10104" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="214" materialId01="10104" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="215" materialId01="10104" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="216" materialId01="10105" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="217" materialId01="10105" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="218" materialId01="10105" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="219" materialId01="10106" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="220" materialId01="10106" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="221" materialId01="10106" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="222" materialId01="10107" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="223" materialId01="10107" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="224" materialId01="10107" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="225" materialId01="10140" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="300" materialId01="1120" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="301" materialId01="10100" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="302" materialId01="10100" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="303" materialId01="10100" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="304" materialId01="10101" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="305" materialId01="10101" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="306" materialId01="10101" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="307" materialId01="10102" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="308" materialId01="10102" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="309" materialId01="10102" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="310" materialId01="10103" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="311" materialId01="10103" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="312" materialId01="10103" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="313" materialId01="10104" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="314" materialId01="10104" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="315" materialId01="10104" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="316" materialId01="10105" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="317" materialId01="10105" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="318" materialId01="10105" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="319" materialId01="10106" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="320" materialId01="10106" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="321" materialId01="10106" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="322" materialId01="10107" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="323" materialId01="10107" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="324" materialId01="10107" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="325" materialId01="10140" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="400" materialId01="1130" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="401" materialId01="10100" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="402" materialId01="10100" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="403" materialId01="10100" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="404" materialId01="10101" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="405" materialId01="10101" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="406" materialId01="10101" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="407" materialId01="10102" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="408" materialId01="10102" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="409" materialId01="10102" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="410" materialId01="10103" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="411" materialId01="10103" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="412" materialId01="10103" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="413" materialId01="10104" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="414" materialId01="10104" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="415" materialId01="10104" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="416" materialId01="10105" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="417" materialId01="10105" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="418" materialId01="10105" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="419" materialId01="10106" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="420" materialId01="10106" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="421" materialId01="10106" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="422" materialId01="10107" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="423" materialId01="10107" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="424" materialId01="10107" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="425" materialId01="10140" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="500" materialId01="1140" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="501" materialId01="10100" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="502" materialId01="10100" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="503" materialId01="10100" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="504" materialId01="10101" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="505" materialId01="10101" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="506" materialId01="10101" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="507" materialId01="10102" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="508" materialId01="10102" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="509" materialId01="10102" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="510" materialId01="10103" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="511" materialId01="10103" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="512" materialId01="10103" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="513" materialId01="10104" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="514" materialId01="10104" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="515" materialId01="10104" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="516" materialId01="10105" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="517" materialId01="10105" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="518" materialId01="10105" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="519" materialId01="10106" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="520" materialId01="10106" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="521" materialId01="10106" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="522" materialId01="10107" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="523" materialId01="10107" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="524" materialId01="10107" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="525" materialId01="10140" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="600" materialId01="1150" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="601" materialId01="10100" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="602" materialId01="10100" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="603" materialId01="10100" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="604" materialId01="10101" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="605" materialId01="10101" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="606" materialId01="10101" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="607" materialId01="10102" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="608" materialId01="10102" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="609" materialId01="10102" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="610" materialId01="10103" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="611" materialId01="10103" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="612" materialId01="10103" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="613" materialId01="10104" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="614" materialId01="10104" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="615" materialId01="10104" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="616" materialId01="10105" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="617" materialId01="10105" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="618" materialId01="10105" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="619" materialId01="10106" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="620" materialId01="10106" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="621" materialId01="10106" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="622" materialId01="10107" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="623" materialId01="10107" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="624" materialId01="10107" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="625" materialId01="10140" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="700" materialId01="1160" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="701" materialId01="10100" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="702" materialId01="10100" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="703" materialId01="10100" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="704" materialId01="10101" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="705" materialId01="10101" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="706" materialId01="10101" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="707" materialId01="10102" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="708" materialId01="10102" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="709" materialId01="10102" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="710" materialId01="10103" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="711" materialId01="10103" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="712" materialId01="10103" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="713" materialId01="10104" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="714" materialId01="10104" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="715" materialId01="10104" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="716" materialId01="10105" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="717" materialId01="10105" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="718" materialId01="10105" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="719" materialId01="10106" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="720" materialId01="10106" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="721" materialId01="10106" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="722" materialId01="10107" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="723" materialId01="10107" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="724" materialId01="10107" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="725" materialId01="10140" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="800" materialId01="1170" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="801" materialId01="10100" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="802" materialId01="10100" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="803" materialId01="10100" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="804" materialId01="10101" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="805" materialId01="10101" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="806" materialId01="10101" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="807" materialId01="10102" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="808" materialId01="10102" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="809" materialId01="10102" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="810" materialId01="10103" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="811" materialId01="10103" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="812" materialId01="10103" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="813" materialId01="10104" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="814" materialId01="10104" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="815" materialId01="10104" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="816" materialId01="10105" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="817" materialId01="10105" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="818" materialId01="10105" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="819" materialId01="10106" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="820" materialId01="10106" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="821" materialId01="10106" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="822" materialId01="10107" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="823" materialId01="10107" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="824" materialId01="10107" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="825" materialId01="10140" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="900" materialId01="1180" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="901" materialId01="10100" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="902" materialId01="10100" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="903" materialId01="10100" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="904" materialId01="10101" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="905" materialId01="10101" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="906" materialId01="10101" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="907" materialId01="10102" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="908" materialId01="10102" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="909" materialId01="10102" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="910" materialId01="10103" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="911" materialId01="10103" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="912" materialId01="10103" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="913" materialId01="10104" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="914" materialId01="10104" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="915" materialId01="10104" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="916" materialId01="10105" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="917" materialId01="10105" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="918" materialId01="10105" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="919" materialId01="10106" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="920" materialId01="10106" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="921" materialId01="10106" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="922" materialId01="10107" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="923" materialId01="10107" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="924" materialId01="10107" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="925" materialId01="10140" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1000" materialId01="1190" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1001" materialId01="10100" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1002" materialId01="10100" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1003" materialId01="10100" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1004" materialId01="10101" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1005" materialId01="10101" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1006" materialId01="10101" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1007" materialId01="10102" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1008" materialId01="10102" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1009" materialId01="10102" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1010" materialId01="10103" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1011" materialId01="10103" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1012" materialId01="10103" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1013" materialId01="10104" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1014" materialId01="10104" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1015" materialId01="10104" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1016" materialId01="10105" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1017" materialId01="10105" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1018" materialId01="10105" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1019" materialId01="10106" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1020" materialId01="10106" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1021" materialId01="10106" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1022" materialId01="10107" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1023" materialId01="10107" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1024" materialId01="10107" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1025" materialId01="10140" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1100" materialId01="1200" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1101" materialId01="10100" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1102" materialId01="10100" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1103" materialId01="10100" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1104" materialId01="10101" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1105" materialId01="10101" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1106" materialId01="10101" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1107" materialId01="10102" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1108" materialId01="10102" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1109" materialId01="10102" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1110" materialId01="10140" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1200" materialId01="1210" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1201" materialId01="10100" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1202" materialId01="10100" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1203" materialId01="10100" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1204" materialId01="10101" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1205" materialId01="10101" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1206" materialId01="10101" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1207" materialId01="10102" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1208" materialId01="10102" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1209" materialId01="10102" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1210" materialId01="10140" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1300" materialId01="1220" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1301" materialId01="10100" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1302" materialId01="10100" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1303" materialId01="10100" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1304" materialId01="10101" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1305" materialId01="10101" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1306" materialId01="10101" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1307" materialId01="10102" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1308" materialId01="10102" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1309" materialId01="10102" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1310" materialId01="10140" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1400" materialId01="1230" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1401" materialId01="10100" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1402" materialId01="10100" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1403" materialId01="10100" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1404" materialId01="10101" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1405" materialId01="10101" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1406" materialId01="10101" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1407" materialId01="10102" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1408" materialId01="10102" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1409" materialId01="10102" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1410" materialId01="10140" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1500" materialId01="1240" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1501" materialId01="10100" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1502" materialId01="10100" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1503" materialId01="10100" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1504" materialId01="10101" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1505" materialId01="10101" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1506" materialId01="10101" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1507" materialId01="10102" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1508" materialId01="10102" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1509" materialId01="10102" itemNum01="6" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="1510" materialId01="10140" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="2000" materialId01="-1" itemNum01="-1" materialCate01="15" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="2001" materialId01="10150" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="2002" materialId01="10150" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="2003" materialId01="10150" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="2004" materialId01="10150" itemNum01="8" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="2005" materialId01="10140" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="2006" materialId01="1020" itemNum01="5" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="4" />
+<row id="2100" materialId01="-1" itemNum01="-1" materialCate01="15" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="2101" materialId01="1010" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="2102" materialId01="1010" itemNum01="2" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="2103" materialId01="1010" itemNum01="4" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="2104" materialId01="1010" itemNum01="8" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="2105" materialId01="10140" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="2200" paramdexName="None" materialId01="-1" itemNum01="-1" materialCate01="15" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="2201" paramdexName="Somber Smithing Stone [1] * 1" materialId01="10160" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="2202" paramdexName="Somber Smithing Stone [2] * 1" materialId01="10161" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="2203" paramdexName="Somber Smithing Stone [3] * 1" materialId01="10162" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="2204" paramdexName="Somber Smithing Stone [4] * 1" materialId01="10163" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="2205" paramdexName="Somber Smithing Stone [5] * 1" materialId01="10164" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="2206" paramdexName="Somber Smithing Stone [6] * 1" materialId01="10165" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="2207" paramdexName="Somber Smithing Stone [7] * 1" materialId01="10166" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="2208" paramdexName="Somber Smithing Stone [8] * 1" materialId01="10167" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="2209" paramdexName="Somber Smithing Stone [9] * 1" materialId01="10200" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="2210" paramdexName="Somber Ancient Dragon Smithing Stone * 1" materialId01="10168" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="10000" paramdexName="Grave Glovewort [1] * 1" materialId01="10900" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="10001" paramdexName="Grave Glovewort [2] * 1" materialId01="10901" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="10002" paramdexName="Grave Glovewort [3] * 1" materialId01="10902" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="10003" paramdexName="Grave Glovewort [4] * 1" materialId01="10903" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="10004" paramdexName="Grave Glovewort [5] * 1" materialId01="10904" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="10005" paramdexName="Grave Glovewort [6] * 1" materialId01="10905" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="10006" paramdexName="Grave Glovewort [7] * 1" materialId01="10906" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="10007" paramdexName="Grave Glovewort [8] * 1" materialId01="10907" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="10008" paramdexName="Grave Glovewort [9] * 1" materialId01="10908" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="10009" paramdexName="Great Grave Glovewort * 1" materialId01="10909" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="10010" materialId01="-1" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="10100" paramdexName="Ghost Glovewort [1] * 1" materialId01="10910" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="10101" paramdexName="Ghost Glovewort [2] * 1" materialId01="10911" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="10102" paramdexName="Ghost Glovewort [3] * 1" materialId01="10912" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="10103" paramdexName="Ghost Glovewort [4] * 1" materialId01="10913" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="10104" paramdexName="Ghost Glovewort [5] * 1" materialId01="10914" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="10105" paramdexName="Ghost Glovewort [6] * 1" materialId01="10915" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="10106" paramdexName="Ghost Glovewort [7] * 1" materialId01="10916" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="10107" paramdexName="Ghost Glovewort [8] * 1" materialId01="10917" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="10108" paramdexName="Ghost Glovewort [9] * 1" materialId01="10918" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="10109" paramdexName="Great Ghost Glovewort * 1" materialId01="10919" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="10110" materialId01="-1" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="100000" materialId01="712" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="100001" materialId01="713" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="100002" materialId01="714" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="100003" materialId01="715" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="100004" materialId01="717" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="100005" materialId01="718" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="100006" materialId01="719" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="100007" materialId01="720" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="100008" materialId01="721" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="100009" materialId01="722" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="100010" materialId01="723" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="100011" materialId01="724" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="100012" materialId01="725" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="100013" materialId01="726" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="100014" materialId01="727" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="100015" materialId01="729" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="100016" materialId01="731" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="100017" materialId01="732" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="100018" materialId01="733" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="100019" materialId01="739" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="100020" materialId01="742" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="100021" materialId01="728" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="100022" materialId01="743" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="110352" materialId01="-1" itemNum01="-1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="110353" materialId01="12300" materialId02="12109" materialId03="12107" materialId04="12105" materialId05="12203" itemNum01="30" itemNum02="5" itemNum03="5" itemNum04="10" itemNum05="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="15" />
+<row id="110400" materialId01="12304" materialId02="12101" materialId03="12106" materialId04="12235" materialId05="12216" itemNum01="15" itemNum02="5" itemNum03="5" itemNum04="1" itemNum05="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="15" />
+<row id="110401" materialId01="12301" materialId02="12110" materialId03="12105" materialId04="12102" materialId05="12236" materialId06="12204" itemNum01="2" itemNum02="10" itemNum03="10" itemNum04="10" itemNum05="1" itemNum06="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="110402" materialId01="12302" materialId02="12103" materialId03="12239" materialId04="12218" itemNum01="1" itemNum02="1" itemNum03="1" itemNum04="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="15" materialCate06="15" />
+<row id="110403" materialId01="12100" materialId02="12101" materialId03="12201" itemNum01="2" itemNum02="10" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="15" materialCate05="15" materialCate06="15" />
+<row id="110404" materialId01="12114" materialId02="12120" materialId03="12102" materialId04="12206" materialId05="12205" itemNum01="3" itemNum02="3" itemNum03="10" itemNum04="1" itemNum05="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="15" />
+<row id="110405" materialId01="12307" materialId02="12112" materialId03="12219" materialId04="12220" itemNum01="1" itemNum02="3" itemNum03="1" itemNum04="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="15" materialCate06="15" />
+<row id="110406" materialId01="12304" materialId02="12115" materialId03="12108" materialId04="12107" materialId05="12221" itemNum01="30" itemNum02="10" itemNum03="2" itemNum04="10" itemNum05="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="15" />
+<row id="111008" materialId01="12301" materialId02="12119" materialId03="12111" materialId04="12222" materialId05="12214" itemNum01="1" itemNum02="5" itemNum03="1" itemNum04="1" itemNum05="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="15" />
+<row id="112000" materialId01="12601" materialId02="12312" materialId03="12315" itemNum01="1" itemNum02="3" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="15" materialCate05="15" materialCate06="15" />
+<row id="112001" materialId01="12602" materialId02="12319" materialId03="12258" materialId04="12253" materialId05="12302" itemNum01="1" itemNum02="1" itemNum03="1" itemNum04="1" itemNum05="2" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="15" />
+<row id="113000" materialId01="12700" materialId02="12300" itemNum01="1" itemNum02="10" materialCate01="4" materialCate02="4" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="113001" materialId01="12700" materialId02="12313" materialId03="12306" itemNum01="1" itemNum02="10" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="113002" materialId01="12700" materialId02="12314" materialId03="12306" materialId04="12307" itemNum01="1" itemNum02="10" itemNum03="1" itemNum04="2" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="15" materialCate06="0" />
+<row id="113003" materialId01="12303" itemNum01="1" materialCate01="4" materialCate02="15" materialCate03="15" materialCate04="15" materialCate05="15" materialCate06="0" />
+<row id="300000" paramdexName="Erdleaf Flower * 2" materialId01="20680" itemNum01="2" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="301000" paramdexName="Mushroom * 1, Smoldering Butterfly * 1" materialId01="20760" materialId02="20802" itemNum01="1" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="301010" paramdexName="Mushroom * 2, Smoldering Butterfly * 1, Old Fang * 1" materialId01="20760" materialId02="20802" materialId03="15040" itemNum01="2" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="301020" paramdexName="Fire Blossom * 2" materialId01="20682" itemNum01="2" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="301030" paramdexName="Mushroom * 1, Fulgurbloom * 1" materialId01="20760" materialId02="20652" itemNum01="1" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="301040" paramdexName="Mushroom * 2, Fulgurbloom * 1, Gravel Stone * 1" materialId01="20760" materialId02="20652" materialId05="20855" itemNum01="2" itemNum02="1" itemNum05="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="301050" paramdexName="Mushroom * 1, Gold-Tinged Excrement * 1" materialId01="20760" materialId02="20830" itemNum01="1" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="301060" paramdexName="Mushroom * 1, Blood-Tainted Excrement * 1" materialId01="20760" materialId02="20831" itemNum01="1" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="301070" paramdexName="Mushroom * 1, Tarnished Golden Sunflower * 1" materialId01="20760" materialId02="20685" itemNum01="1" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="301080" paramdexName="Mushroom * 2, Golden Sunflower * 1, Golden Centipede * 1" materialId01="20760" materialId02="20683" materialId05="20820" itemNum01="2" itemNum02="1" itemNum05="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="301090" paramdexName="Rimed Crystal Bud * 2" materialId01="20751" itemNum01="2" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="301100" paramdexName="Toxic Mushroom * 1, Poisonbloom * 1" materialId01="20770" materialId02="20650" itemNum01="1" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="301110" paramdexName="Melted Mushroom * 1" materialId01="20761" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="301120" paramdexName="Albinauric Bloodclot * 1, Human Bone Shard * 5" materialId01="15420" materialId02="15100" itemNum01="1" itemNum02="5" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="301130" paramdexName="Beast Blood * 1, Hefty Beast Bone * 2" materialId01="-1" materialId02="15030" materialId03="15341" itemNum01="-1" itemNum02="1" itemNum03="2" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="301140" paramdexName="Mushroom * 1, Smoldering Butterfly * 1, String * 1" materialId01="20760" materialId02="20802" materialId03="15400" itemNum01="1" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="301150" paramdexName="Mushroom * 1, Fulgurbloom * 1, String * 1" materialId01="20760" materialId02="20652" materialId03="15400" itemNum01="1" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="301160" paramdexName="Mushroom * 1, Gold-Tinged Excrement * 1, String * 1" materialId01="20760" materialId02="20830" materialId03="15400" itemNum01="1" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="301170" paramdexName="Toxic Mushroom * 1, Poisonbloom * 1, String * 1" materialId01="20770" materialId02="20650" materialId03="15400" itemNum01="1" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="301180" paramdexName="Melted Mushroom * 1, String * 1" materialId01="20761" materialId03="15400" itemNum01="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="301190" paramdexName="Glintstone Firefly * 2, String * 1" materialId01="20812" materialId03="15400" itemNum01="2" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="301200" paramdexName="Mushroom * 1, Blood-Tainted Excrement * 1, String * 1" materialId01="20760" materialId02="20831" materialId03="15400" itemNum01="1" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="301220" paramdexName="Volcanic Stone * 2, String * 1" materialId01="20850" materialId03="15400" itemNum01="2" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="301230" paramdexName="Mushroom * 1, Tarnished Golden Sunflower * 1, String * 1" materialId01="20760" materialId02="20685" materialId03="15400" itemNum01="1" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="301240" paramdexName="Volcanic Stone * 2" materialId01="20850" itemNum01="2" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="301250" paramdexName="Mushroom * 2, Albinauric Bloodclot * 1" materialId01="20760" materialId02="15420" itemNum01="2" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="301260" paramdexName="Mushroom * 2, Beast Blood * 1, Bloodrose * 1" materialId01="20760" materialId02="15030" materialId03="20723" itemNum01="2" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="301270" paramdexName="Mushroom * 1, Trina's Lily * 1" materialId01="20760" materialId05="20651" itemNum01="1" itemNum05="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="301280" paramdexName="Grave Violet * 2, Human Bone Shard * 1" materialId01="-1" materialId02="20654" materialId03="15100" itemNum01="-1" itemNum02="2" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="301290" paramdexName="Glintstone Firefly * 2" materialId01="20812" itemNum01="2" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="301300" paramdexName="Glintstone Firefly * 2, Old Fang * 1" materialId01="20812" materialId03="15040" itemNum01="2" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="301310" paramdexName="Toxic Mushroom * 2, Faded Erdleaf Flower * 2, Aeonian Butterfly * 1" materialId01="20770" materialId02="20660" materialId05="20801" itemNum01="2" itemNum02="2" itemNum05="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="302000" paramdexName="Rowa Fruit * 1" materialId01="20720" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="302010" paramdexName="Golden Rowa * 1" materialId01="20721" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="302020" paramdexName="Rimed Rowa * 1" materialId01="20722" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="303000" paramdexName="Herba * 1, Cave Moss * 1, Great Dragonfly Head * 1" materialId01="20690" materialId02="20840" materialId03="15110" itemNum01="1" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="303010" paramdexName="Herba * 1, Cave Moss * 1, Land Octopus Ovary * 1" materialId01="20690" materialId02="20840" materialId03="15140" itemNum01="1" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="303020" paramdexName="Herba * 1, Cave Moss * 1, Crab Eggs * 1" materialId01="20690" materialId02="20840" materialId03="15130" itemNum01="1" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="303030" paramdexName="Herba * 1, Cave Moss * 1, Slumbering Egg * 1" materialId01="20690" materialId02="20840" materialId03="15120" itemNum01="1" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="303040" paramdexName="Dewkissed Herba * 2, Crystal Cave Moss * 1, Sacramental Bud * 1" materialId01="20710" materialId02="20842" materialId05="20753" itemNum01="2" itemNum02="1" itemNum05="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="303050" paramdexName="Dewkissed Herba * 2, Crystal Cave Moss * 1, Golden Centipede * 1" materialId01="20710" materialId02="20842" materialId05="20820" itemNum01="2" itemNum02="1" itemNum05="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="303060" paramdexName="Dewkissed Herba * 2, Crystal Cave Moss * 1, Eye of Yelough * 1" materialId01="20710" materialId02="20842" materialId05="20740" itemNum01="2" itemNum02="1" itemNum05="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="304000" paramdexName="Rowa Fruit * 3, Turtle Neck Meat * 1, Herba * 1" materialId01="20720" materialId02="15090" materialId03="20690" itemNum01="3" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="304010" paramdexName="Rowa Fruit * 3, Sliver of Meat * 1, Great Dragonfly Head * 1, Smoldering Butterfly * 1" materialId01="20720" materialId02="15000" materialId03="15110" materialId04="20802" itemNum01="3" itemNum02="1" itemNum03="1" itemNum04="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="304020" paramdexName="Golden Rowa * 3, Sliver of Meat * 1, Crab Eggs * 1, Land Octopus Ovary * 1" materialId01="20721" materialId02="15000" materialId03="15130" materialId04="15140" itemNum01="3" itemNum02="1" itemNum03="1" itemNum04="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="304030" paramdexName="Rimed Rowa * 5, Sliver of Meat * 1, Slumbering Egg * 1, Eye of Yelough * 1" materialId01="20722" materialId02="15000" materialId03="15120" materialId05="20740" itemNum01="5" itemNum02="1" itemNum03="1" itemNum05="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="304040" paramdexName="Golden Rowa * 5, Sliver of Meat * 1, Budding Horn * 1, Nascent Butterfly * 1" materialId01="20721" materialId02="15000" materialId03="15050" materialId05="20800" itemNum01="5" itemNum02="1" itemNum03="1" itemNum05="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="304050" paramdexName="Rowa Fruit * 3, Beast Liver * 1, Glintstone Firefly * 2" materialId01="20720" materialId02="15010" materialId03="20812" itemNum01="3" itemNum02="1" itemNum03="2" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="304060" paramdexName="Rowa Fruit * 3, Beast Liver * 1, Smoldering Butterfly * 1" materialId01="20720" materialId02="15010" materialId03="20802" itemNum01="3" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="304070" paramdexName="Rowa Fruit * 3, Beast Liver * 1, Fulgurbloom * 1" materialId01="20720" materialId02="15010" materialId03="20652" itemNum01="3" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="304080" paramdexName="Golden Rowa * 5, Beast Liver * 1, Golden Sunflower * 3" materialId01="20721" materialId02="15010" materialId03="20683" itemNum01="5" itemNum02="1" itemNum03="3" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="304090" paramdexName="Rowa Fruit * 3, Four-Toed Fowl Foot * 1, Silver Firefly * 1" materialId01="20720" materialId02="15080" materialId03="20810" itemNum01="3" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="304100" paramdexName="Rowa Fruit * 3, Four-Toed Fowl Foot * 1, Gold Firefly * 1" materialId01="20720" materialId02="15080" materialId03="20811" itemNum01="3" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="304110" paramdexName="Rowa Fruit * 5, Lump of Flesh * 1, Hefty Beast Bone * 1, Arteria Leaf * 1" materialId01="20720" materialId02="15020" materialId03="15341" materialId05="20691" itemNum01="5" itemNum02="1" itemNum03="1" itemNum05="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="304130" paramdexName="Rowa Fruit * 3, Strip of White Flesh * 1, Great Dragonfly Head * 1, Smoldering Butterfly * 1" materialId01="20720" materialId02="15160" materialId03="15110" materialId04="20802" itemNum01="3" itemNum02="1" itemNum03="1" itemNum04="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="304140" paramdexName="Golden Rowa * 3, Strip of White Flesh * 1, Crab Eggs * 1, Land Octopus Ovary * 1" materialId01="20721" materialId02="15160" materialId03="15130" materialId04="15140" itemNum01="3" itemNum02="1" itemNum03="1" itemNum04="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="304150" paramdexName="Rimed Rowa * 5, Strip of White Flesh * 1, Slumbering Egg * 1, Eye of Yelough * 1" materialId01="20722" materialId02="15160" materialId03="15120" materialId05="20740" itemNum01="5" itemNum02="1" itemNum03="1" itemNum05="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="304160" paramdexName="Golden Rowa * 5, Strip of White Flesh * 1, Budding Horn * 1, Nascent Butterfly * 1" materialId01="20721" materialId02="15160" materialId03="15050" materialId05="20800" itemNum01="5" itemNum02="1" itemNum03="1" itemNum05="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="305000" paramdexName="Root Resin * 1, Smoldering Butterfly * 1" materialId01="20775" materialId02="20802" itemNum01="1" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="305010" paramdexName="Root Resin * 1, Fulgurbloom * 1" materialId01="20775" materialId02="20652" itemNum01="1" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="305020" paramdexName="Root Resin * 1, Crystal Bud * 1" materialId01="20775" materialId02="20750" itemNum01="1" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="305030" paramdexName="Root Resin * 1, Golden Sunflower * 1" materialId01="20775" materialId02="20683" itemNum01="1" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="305040" paramdexName="Root Resin * 1, Bloodrose * 1" materialId01="20775" materialId02="20723" itemNum01="1" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="305050" paramdexName="Root Resin * 1, Trina's Lily * 1" materialId01="20775" materialId05="20651" itemNum01="1" itemNum05="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="305060" paramdexName="Root Resin * 1, Poisonbloom * 1" materialId01="20775" materialId02="20650" itemNum01="1" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="305070" paramdexName="Root Resin * 1, Rimed Crystal Bud * 1" materialId01="20775" materialId02="20751" itemNum01="1" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="305080" paramdexName="Root Resin * 1, Beast Blood * 1, Gravel Stone * 1" materialId01="20775" materialId02="15030" materialId05="20855" itemNum01="1" itemNum02="1" itemNum05="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="305090" paramdexName="Root Resin * 1, Aeonian Butterfly * 1" materialId01="20775" materialId05="20801" itemNum01="1" itemNum05="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="305100" paramdexName="Root Resin * 1, Smoldering Butterfly * 1, String * 1" materialId01="20775" materialId02="20802" materialId03="15400" itemNum01="1" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="305110" paramdexName="Root Resin * 1, Fulgurbloom * 1, String * 1" materialId01="20775" materialId02="20652" materialId03="15400" itemNum01="1" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="305120" paramdexName="Root Resin * 1, Crystal Bud * 1, String * 1" materialId01="20775" materialId02="20750" materialId03="15400" itemNum01="1" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="305130" paramdexName="Root Resin * 1, Golden Sunflower * 1, String * 1" materialId01="20775" materialId02="20683" materialId03="15400" itemNum01="1" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="305140" paramdexName="Root Resin * 1, Bloodrose * 1, String * 1" materialId01="20775" materialId02="20723" materialId03="15400" itemNum01="1" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="305150" paramdexName="Root Resin * 1, String * 1, Trina's Lily * 1" materialId01="20775" materialId03="15400" materialId05="20651" itemNum01="1" itemNum03="1" itemNum05="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="305160" paramdexName="Root Resin * 1, Poisonbloom * 1, String * 1" materialId01="20775" materialId02="20650" materialId03="15400" itemNum01="1" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="305180" paramdexName="Root Resin * 1, String * 1, Aeonian Butterfly * 1" materialId01="20775" materialId03="15400" materialId05="20801" itemNum01="1" itemNum03="1" itemNum05="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="305190" paramdexName="Root Resin * 1, Silver Tear Husk * 1, Crystal Bud * 1" materialId01="20775" materialId02="20825" materialId03="20750" itemNum01="1" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="306000" paramdexName="Thin Beast Bones * 2" materialId01="15340" itemNum01="2" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="306010" paramdexName="Thin Beast Bones * 2, Poisonbloom * 1" materialId01="15340" materialId02="20650" itemNum01="2" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="306020" paramdexName="Cracked Crystal * 3" materialId01="-1" materialId02="20780" itemNum01="-1" itemNum02="3" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="307000" paramdexName="Ruin Fragment * 1" materialId01="1760" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="307010" paramdexName="Ruin Fragment * 1, Dewkissed Herba * 1" materialId01="1760" materialId02="20710" itemNum01="1" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="307020" paramdexName="Erdleaf Flower * 1, Human Bone Shard * 1" materialId01="20680" materialId02="15100" itemNum01="1" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="307030" paramdexName="Rowa Fruit * 3, Smoldering Butterfly * 1" materialId01="20720" materialId02="20802" itemNum01="3" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="307040" paramdexName="Melted Mushroom * 2" materialId01="20761" itemNum01="2" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="308000" paramdexName="Crystal Bud * 1, Cracked Crystal * 1" materialId01="20750" materialId02="20780" itemNum01="1" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="308010" paramdexName="Erdleaf Flower * 1, Smoldering Butterfly * 1, Sanctuary Stone * 1" materialId01="20680" materialId02="20802" materialId03="20795" itemNum01="1" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="308020" paramdexName="Yellow Ember * 1, Sanctuary Stone * 1" materialId01="20845" materialId03="20795" itemNum01="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="308030" paramdexName="Ruin Fragment * 1, Human Bone Shard * 1" materialId01="1760" materialId02="15100" itemNum01="1" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="308040" paramdexName="Sacramental Bud * 1, Miquella's Lily * 1" materialId01="-1" materialId04="20753" materialId05="20653" itemNum01="-1" itemNum04="1" itemNum05="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="309000" paramdexName="Altus Bloom * 1, Budding Cave Moss * 1, Silver Tear Husk * 1, Arteria Leaf * 1" materialId01="20681" materialId02="20841" materialId03="20825" materialId05="20691" itemNum01="1" itemNum02="1" itemNum03="1" itemNum05="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="309010" paramdexName="Altus Bloom * 1, Miranda Powder * 1" materialId01="20681" materialId02="15150" itemNum01="1" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="309020" paramdexName="Altus Bloom * 2, Budding Cave Moss * 1, Living Jar Shard * 3" materialId01="20681" materialId02="20841" materialId03="15410" itemNum01="2" itemNum02="1" itemNum03="3" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="309030" paramdexName="Altus Bloom * 2, Budding Cave Moss * 1, Land Octopus Ovary * 1, Arteria Leaf * 1" materialId01="20681" materialId02="20841" materialId03="15140" materialId05="20691" itemNum01="2" itemNum02="1" itemNum03="1" itemNum05="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="309040" paramdexName="Altus Bloom * 1, Miranda Powder * 1, Poisonbloom * 1" materialId01="20681" materialId02="15150" materialId03="20650" itemNum01="1" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="309050" paramdexName="Altus Bloom * 1, Miranda Powder * 1, Formic Rock * 4" materialId01="20681" materialId02="15150" materialId05="20852" itemNum01="1" itemNum02="1" itemNum05="4" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="320000" paramdexName="Thin Beast Bones * 3, Flight Pinion * 1" materialId01="15340" materialId03="15060" itemNum01="3" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="320010" paramdexName="Thin Beast Bones * 3" materialId01="15340" itemNum01="3" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="320020" paramdexName="Thin Beast Bones * 3, Smoldering Butterfly * 1, Flight Pinion * 1" materialId01="15340" materialId02="20802" materialId03="15060" itemNum01="3" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="320030" paramdexName="Thin Beast Bones * 3, Smoldering Butterfly * 1" materialId01="15340" materialId02="20802" itemNum01="3" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="320040" paramdexName="Thin Beast Bones * 3, Poisonbloom * 1, Flight Pinion * 1" materialId01="15340" materialId02="20650" materialId03="15060" itemNum01="3" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="320050" paramdexName="Thin Beast Bones * 3, Poisonbloom * 1" materialId01="15340" materialId02="20650" itemNum01="3" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="320060" paramdexName="Thin Beast Bones * 3, Flight Pinion * 1, Trina's Lily * 1" materialId01="15340" materialId03="15060" materialId05="20651" itemNum01="3" itemNum03="1" itemNum05="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="320070" paramdexName="Thin Beast Bones * 3, Trina's Lily * 1" materialId01="15340" materialId05="20651" itemNum01="3" itemNum05="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="320080" paramdexName="Thin Beast Bones * 3, Stormhawk Feather * 1" materialId01="15340" materialId02="15430" itemNum01="3" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="320090" paramdexName="Thin Beast Bones * 3, Fulgurbloom * 1, Flight Pinion * 1" materialId01="15340" materialId02="20652" materialId03="15060" itemNum01="3" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="320100" paramdexName="Thin Beast Bones * 3, Fulgurbloom * 1" materialId01="15340" materialId02="20652" itemNum01="3" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="320110" paramdexName="Thin Beast Bones * 3, Ruin Fragment * 3" materialId01="15340" materialId02="1760" itemNum01="3" itemNum02="3" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="320120" paramdexName="Thin Beast Bones * 3, Cracked Crystal * 2" materialId01="15340" materialId02="20780" itemNum01="3" itemNum02="2" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="320130" paramdexName="Thin Beast Bones * 3, Glintstone Firefly * 2, Flight Pinion * 1" materialId01="15340" materialId02="20812" materialId03="15060" itemNum01="3" itemNum02="2" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="320140" paramdexName="Thin Beast Bones * 3, Glintstone Firefly * 2" materialId01="15340" materialId02="20812" itemNum01="3" itemNum02="2" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="320150" paramdexName="Thin Beast Bones * 3, Golden Sunflower * 2, Flight Pinion * 1" materialId01="15340" materialId02="20683" materialId03="15060" itemNum01="3" itemNum02="2" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="320160" paramdexName="Thin Beast Bones * 3, Golden Sunflower * 2" materialId01="15340" materialId02="20683" itemNum01="3" itemNum02="2" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="320170" paramdexName="Thin Beast Bones * 3, Bloodrose * 1, Flight Pinion * 1" materialId01="15340" materialId02="20723" materialId03="15060" itemNum01="3" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="320180" paramdexName="Thin Beast Bones * 3, Bloodrose * 1" materialId01="15340" materialId02="20723" itemNum01="3" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="320190" paramdexName="Thin Beast Bones * 3, Rimed Crystal Bud * 3, Flight Pinion * 1" materialId01="15340" materialId02="20751" materialId03="15060" itemNum01="3" itemNum02="3" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="320200" paramdexName="Thin Beast Bones * 3, Rimed Crystal Bud * 3" materialId01="15340" materialId02="20751" itemNum01="3" itemNum02="3" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="320210" paramdexName="Thin Beast Bones * 3, Flight Pinion * 1, Aeonian Butterfly * 1" materialId01="15340" materialId03="15060" materialId05="20801" itemNum01="3" itemNum03="1" itemNum05="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="320220" paramdexName="Thin Beast Bones * 3, Aeonian Butterfly * 1" materialId01="15340" materialId05="20801" itemNum01="3" itemNum05="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="321000" paramdexName="Hefty Beast Bone * 1, Flight Pinion * 1" materialId01="15341" materialId02="15060" itemNum01="1" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="321010" paramdexName="Hefty Beast Bone * 1" materialId01="15341" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="322000" paramdexName="Thin Beast Bones * 2" materialId01="15340" itemNum01="2" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="322010" paramdexName="Thin Beast Bones * 2, Smoldering Butterfly * 1" materialId01="15340" materialId02="20802" itemNum01="2" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="322020" paramdexName="Thin Beast Bones * 2, Fulgurbloom * 1" materialId01="15340" materialId02="20652" itemNum01="2" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="322030" paramdexName="Thin Beast Bones * 2, Glintstone Firefly * 2" materialId01="15340" materialId02="20812" itemNum01="2" itemNum02="2" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="322040" paramdexName="Thin Beast Bones * 2, Golden Sunflower * 2" materialId01="15340" materialId02="20683" itemNum01="2" itemNum02="2" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="322050" paramdexName="Thin Beast Bones * 2, Poisonbloom * 1" materialId01="15340" materialId02="20650" itemNum01="2" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="322060" paramdexName="Thin Beast Bones * 2, Bloodrose * 1" materialId01="15340" materialId02="20723" itemNum01="2" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="322070" paramdexName="Thin Beast Bones * 2, Rimed Crystal Bud * 3" materialId01="15340" materialId02="20751" itemNum01="2" itemNum02="3" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="322080" paramdexName="Thin Beast Bones * 2, Aeonian Butterfly * 1" materialId01="15340" materialId05="20801" itemNum01="2" itemNum05="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="322090" paramdexName="Thin Beast Bones * 2, Trina's Lily * 1" materialId01="15340" materialId05="20651" itemNum01="2" itemNum05="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="323000" paramdexName="Hefty Beast Bone * 1" materialId01="15341" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="351000" materialId01="2020002" materialId02="2020006" itemNum01="3" itemNum02="2" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="351010" materialId01="2020002" materialId02="2020007" itemNum01="3" itemNum02="3" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="351020" materialId01="2020002" materialId02="2020008" itemNum01="3" itemNum02="2" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="351030" materialId01="-1" itemNum01="-1" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="351040" materialId01="-1" materialId02="2020027" itemNum01="-1" itemNum02="3" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="351050" materialId01="2015040" materialId02="2020010" itemNum01="2" itemNum02="2" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="351060" materialId01="2015040" materialId02="2020011" itemNum01="2" itemNum02="2" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="351070" materialId01="2015040" materialId02="2020012" itemNum01="2" itemNum02="2" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="351080" materialId01="2020003" materialId02="2020013" itemNum01="3" itemNum02="3" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="351090" materialId01="-1" itemNum01="-1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="351100" materialId01="2020003" materialId02="2020016" itemNum01="3" itemNum02="2" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="351110" materialId01="2015040" materialId02="2020019" itemNum01="2" itemNum02="3" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="351120" materialId01="2020003" materialId02="2020005" itemNum01="3" itemNum02="3" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="351130" materialId01="2020002" materialId02="2020020" itemNum01="3" itemNum02="2" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="351140" materialId01="2020003" materialId02="2020021" itemNum01="3" itemNum02="2" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="351150" materialId01="2020002" materialId02="2020032" itemNum01="3" itemNum02="2" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="351160" materialId01="2020002" materialId02="2020030" materialId03="2020035" itemNum01="2" itemNum02="2" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="351200" materialId01="2020002" materialId02="2020032" itemNum01="1" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="351210" materialId01="2020003" materialId02="2020016" itemNum01="1" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="351220" materialId01="2020003" materialId02="2020014" itemNum01="1" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="351300" materialId01="-1" itemNum01="-1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="351310" materialId01="2020003" materialId02="2020016" materialId03="15400" itemNum01="1" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="352000" materialId01="2020001" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="353000" materialId01="2020005" materialId02="2020015" materialId03="2015000" itemNum01="1" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="354000" materialId01="2020001" materialId02="15020" materialId03="2020034" materialId04="2020023" itemNum01="5" itemNum02="1" itemNum03="1" itemNum04="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="354010" materialId01="2020005" materialId02="2015000" materialId03="2015020" materialId04="2020024" itemNum01="3" itemNum02="1" itemNum03="1" itemNum04="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="354100" materialId01="2020001" materialId02="15010" materialId03="2015030" materialId04="2020007" itemNum01="3" itemNum02="1" itemNum03="1" itemNum04="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="354110" materialId01="2020001" materialId02="15010" materialId03="2015030" materialId04="2020006" itemNum01="3" itemNum02="1" itemNum03="1" itemNum04="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="354120" materialId01="2020001" materialId02="15010" materialId03="2015030" materialId04="2020008" itemNum01="3" itemNum02="1" itemNum03="1" itemNum04="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="354130" materialId01="2020001" materialId02="15010" materialId03="2015030" materialId04="2020009" itemNum01="3" itemNum02="1" itemNum03="1" itemNum04="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="354140" materialId01="2020001" materialId02="15010" materialId03="2015030" materialId04="2015020" itemNum01="3" itemNum02="1" itemNum03="1" itemNum04="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="354150" materialId01="2020001" materialId02="15090" materialId03="2015030" materialId04="2020005" itemNum01="3" itemNum02="1" itemNum03="1" itemNum04="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="355000" materialId01="2020004" materialId02="2020006" itemNum01="1" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="355010" materialId01="2020004" materialId02="2020008" itemNum01="1" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="355020" materialId01="2020004" materialId02="2020007" itemNum01="1" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="355030" materialId01="2020004" materialId02="2020009" itemNum01="1" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="355040" materialId01="2020004" materialId02="2020014" itemNum01="1" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="355050" materialId01="2020004" materialId02="2020034" itemNum01="1" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="355060" materialId01="2020004" materialId02="2020006" materialId03="15400" itemNum01="1" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="355070" materialId01="2020004" materialId02="2020008" materialId03="15400" itemNum01="1" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="355080" materialId01="2020004" materialId02="2020007" materialId03="15400" itemNum01="1" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="355090" materialId01="2020004" materialId02="2020009" materialId03="15400" itemNum01="1" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="355100" materialId01="2020004" materialId02="2020014" materialId03="15400" itemNum01="1" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="355110" materialId01="2020004" materialId02="2020031" itemNum01="1" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="356000" materialId01="2020034" materialId02="15341" materialId03="15400" itemNum01="2" itemNum02="1" itemNum03="2" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="357000" materialId01="2020028" materialId02="2020022" itemNum01="1" itemNum02="2" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="358000" materialId01="2020029" materialId02="2015010" materialId03="2015000" itemNum01="1" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="358010" materialId01="2020018" materialId02="2020022" materialId03="15100" itemNum01="1" itemNum02="3" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="358020" materialId01="2020028" materialId02="2020017" itemNum01="1" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="358030" materialId01="2020031" materialId02="2020009" itemNum01="1" itemNum02="2" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="358040" materialId01="2020030" itemNum01="3" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="358050" materialId01="2020029" materialId02="2020030" materialId03="2015000" itemNum01="2" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="358060" materialId01="2020033" materialId02="2015020" itemNum01="3" itemNum02="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="358070" materialId01="2020028" materialId02="2020006" materialId03="2020031" itemNum01="1" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="358080" materialId01="2020005" materialId02="2020025" materialId03="2015000" itemNum01="1" itemNum02="1" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="370000" materialId01="15340" materialId02="2020026" materialId03="15100" materialId04="15060" itemNum01="3" itemNum02="2" itemNum03="1" itemNum04="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="370010" materialId01="15340" materialId02="2020026" materialId03="15100" itemNum01="3" itemNum02="2" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="371000" materialId01="15340" materialId02="2020026" materialId03="15100" itemNum01="2" itemNum02="2" itemNum03="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900000" paramdexName="Remembrance of the Grafted * 1" materialId01="2950" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900001" paramdexName="Remembrance of the Grafted * 1" materialId01="2950" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900002" paramdexName="Remembrance of the Starscourge * 1" materialId01="2951" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900003" paramdexName="Remembrance of the Starscourge * 1" materialId01="2951" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900004" paramdexName="Remembrance of the Omen King * 1" materialId01="2952" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900005" paramdexName="Remembrance of the Omen King * 1" materialId01="2952" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900006" paramdexName="Remembrance of the Blasphemous * 1" materialId01="2953" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900007" paramdexName="Remembrance of the Blasphemous * 1" materialId01="2953" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900008" paramdexName="Remembrance of the Rot Goddess * 1" materialId01="2954" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900009" paramdexName="Remembrance of the Rot Goddess * 1" materialId01="2954" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900010" paramdexName="Remembrance of the Blood Lord * 1" materialId01="2955" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900011" paramdexName="Remembrance of the Blood Lord * 1" materialId01="2955" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900012" paramdexName="Remembrance of the Black Blade * 1" materialId01="2956" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900013" paramdexName="Remembrance of the Black Blade * 1" materialId01="2956" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900014" paramdexName="Remembrance of Hoarah Loux * 1" materialId01="2957" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900015" paramdexName="Remembrance of Hoarah Loux * 1" materialId01="2957" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900016" paramdexName="Remembrance of the Dragonlord * 1" materialId01="2958" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900017" paramdexName="Remembrance of the Dragonlord * 1" materialId01="2958" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900018" paramdexName="Remembrance of the Full Moon Queen * 1" materialId01="2959" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900019" paramdexName="Remembrance of the Full Moon Queen * 1" materialId01="2959" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900020" paramdexName="Remembrance of the Lichdragon * 1" materialId01="2960" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900021" paramdexName="Remembrance of the Lichdragon * 1" materialId01="2960" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900022" paramdexName="Remembrance of the Fire Giant * 1" materialId01="2961" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900023" paramdexName="Remembrance of the Fire Giant * 1" materialId01="2961" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900024" paramdexName="Remembrance of the Regal Ancestor * 1" materialId01="2962" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900025" paramdexName="Remembrance of the Regal Ancestor * 1" materialId01="2962" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900026" paramdexName="Elden Remembrance * 1" materialId01="2963" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900027" paramdexName="Elden Remembrance * 1" materialId01="2963" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900028" paramdexName="Remembrance of the Naturalborn * 1" materialId01="2964" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900029" paramdexName="Remembrance of the Naturalborn * 1" materialId01="2964" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900050" paramdexName="Remembrance of the Dancing Lion * 1" materialId01="2002905" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900051" paramdexName="Remembrance of the Dancing Lion * 1" materialId01="2002905" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900052" paramdexName="Remembrance of the Twin Moon Knight * 1" materialId01="2002903" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900053" paramdexName="Remembrance of the Twin Moon Knight * 1" materialId01="2002903" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900054" paramdexName="Remembrance of the Wild Boar Rider * 1" materialId01="2002900" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900055" paramdexName="Remembrance of the Wild Boar Rider * 1" materialId01="2002900" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900056" paramdexName="Remembrance of Putrescence * 1" materialId01="2002910" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900057" paramdexName="Remembrance of Putrescence * 1" materialId01="2002910" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900058" paramdexName="Remembrance of the Saint of the Bud * 1" materialId01="2002904" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900059" paramdexName="Remembrance of the Saint of the Bud * 1" materialId01="2002904" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900060" materialId01="2002906" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900061" materialId01="2002906" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900062" paramdexName="Remembrance of the Lord of Frenzied Flame * 1" materialId01="2002908" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900063" paramdexName="Remembrance of the Lord of Frenzied Flame * 1" materialId01="2002908" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900064" paramdexName="Remembrance of the Shadow Sunflower * 1" materialId01="2002902" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900065" paramdexName="Remembrance of the Shadow Sunflower * 1" materialId01="2002902" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900066" paramdexName="Remembrance of the Impaler * 1" materialId01="2002901" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900067" paramdexName="Remembrance of the Impaler * 1" materialId01="2002901" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900068" paramdexName="Remembrance of the Mother of Fingers * 1" materialId01="2002909" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900069" paramdexName="Remembrance of the Mother of Fingers * 1" materialId01="2002909" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900070" paramdexName="Remembrance of a God and a Lord * 1" materialId01="2002907" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900071" paramdexName="Remembrance of a God and a Lord * 1" materialId01="2002907" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900072" paramdexName="Remembrance of a God and a Lord * 1" materialId01="2002907" itemNum01="1" materialCate01="4" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900100" paramdexName="Drake Knight Helm * 1" materialId01="60000" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900101" paramdexName="Drake Knight Armor * 1" materialId01="60100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900102" paramdexName="Scaled Armor * 1" materialId01="80100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900103" paramdexName="Perfumer Robe * 1" materialId01="90100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900104" paramdexName="Perfumer's Traveling Garb * 1" materialId01="100100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900105" paramdexName="Spellblade's Traveling Attire * 1" materialId01="130100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900106" paramdexName="Ronin's Armor * 1" materialId01="150100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900107" paramdexName="Blaidd's Armor * 1" materialId01="170100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900108" paramdexName="Black Knife Armor * 1" materialId01="180100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900109" paramdexName="Briar Armor * 1" materialId01="210100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900110" paramdexName="Page Garb * 1" materialId01="220100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900111" paramdexName="Night's Cavalry Helm * 1" materialId01="230000" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900112" paramdexName="Night's Cavalry Armor * 1" materialId01="230100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900113" paramdexName="Blue Silver Mail Armor * 1" materialId01="240100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900114" paramdexName="Nomadic Merchant's Finery * 1" materialId01="250100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900115" paramdexName="Tree Sentinel Armor * 1" materialId01="270100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900116" paramdexName="Royal Knight Armor * 1" materialId01="280100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900117" paramdexName="Nox Monk Hood * 1" materialId01="290000" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900118" paramdexName="Nox Monk Armor * 1" materialId01="290100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900119" paramdexName="Nox Swordstress Crown * 1" materialId01="292000" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900120" paramdexName="Nox Swordstress Armor * 1" materialId01="292100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900121" paramdexName="Gravekeeper Cloak * 1" materialId01="310100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900122" paramdexName="Cleanrot Helm * 1" materialId01="340000" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900123" paramdexName="Cleanrot Armor * 1" materialId01="340100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900124" paramdexName="Depraved Perfumer Robe * 1" materialId01="540100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900125" paramdexName="All-Knowing Armor * 1" materialId01="590100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900126" paramdexName="Twinned Armor * 1" materialId01="600100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900129" paramdexName="Prophet Robe * 1" materialId01="622100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900130" paramdexName="Astrologer Robe * 1" materialId01="630100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900131" paramdexName="Lionel's Armor * 1" materialId01="640100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900132" paramdexName="Hoslow's Armor * 1" materialId01="650100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900133" paramdexName="Vagabond Knight Armor * 1" materialId01="660100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900134" paramdexName="War Surgeon Gown * 1" materialId01="680100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900136" paramdexName="Veteran's Armor * 1" materialId01="780100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900137" paramdexName="Bloodhound Knight Armor * 1" materialId01="790100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900138" paramdexName="Festive Hood * 1" materialId01="800000" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900139" paramdexName="Commoner's Garb * 1" materialId01="810100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900140" paramdexName="Commoner's Simple Garb * 1" materialId01="812000" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900141" paramdexName="Raging Wolf Armor * 1" materialId01="860100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900142" paramdexName="Land of Reeds Armor * 1" materialId01="870100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900143" paramdexName="Confessor Hood * 1" materialId01="880000" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900144" paramdexName="Confessor Armor * 1" materialId01="880100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900145" paramdexName="Finger Maiden Robe * 1" materialId01="902100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900147" paramdexName="Preceptor's Long Gown * 1" materialId01="910100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900149" paramdexName="Eccentric's Hood * 1" materialId01="940000" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900150" paramdexName="Fingerprint Armor * 1" materialId01="950100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900151" paramdexName="Carian Knight Armor * 1" materialId01="980100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900152" paramdexName="Errant Sorcerer Robe * 1" materialId01="990100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900153" paramdexName="Gelmir Knight Armor * 1" materialId01="1760100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900154" paramdexName="Godrick Knight Armor * 1" materialId01="1770100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900155" paramdexName="Cuckoo Knight Armor * 1" materialId01="1780100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900156" paramdexName="Leyndell Knight Armor * 1" materialId01="1790100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900157" paramdexName="Redmane Knight Armor * 1" materialId01="1800100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900158" paramdexName="Mausoleum Knight Armor * 1" materialId01="1810100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900159" paramdexName="Haligtree Knight Armor * 1" materialId01="1820100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900160" paramdexName="High Page Clothes * 1" materialId01="1990100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900161" paramdexName="Rotten Gravekeeper Cloak * 1" materialId01="2000100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900162" paramdexName="Beast Champion Armor * 1" materialId01="720100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900163" paramdexName="Snow Witch Robe * 1" materialId01="1010100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900164" paramdexName="Crucible Axe Armor * 1" materialId01="570100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900165" paramdexName="Crucible Tree Armor * 1" materialId01="571100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900166" paramdexName="Fia's Robe * 1" materialId01="1940100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900167" paramdexName="Alberich's Pointed Hat * 1" materialId01="120000" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900168" paramdexName="Alberich's Robe * 1" materialId01="120100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900169" paramdexName="Traveling Maiden Robe * 1" materialId01="900100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900170" materialId01="3000100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900171" materialId01="5000100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900172" materialId01="5020000" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900173" materialId01="5030100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900174" materialId01="5062100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900175" materialId01="5080100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900176" materialId01="5100000" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900177" materialId01="5100100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900178" materialId01="5110100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900179" materialId01="5120100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900180" materialId01="5130100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900181" materialId01="5140100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900182" materialId01="5180100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900183" materialId01="5190100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900200" paramdexName="Elden Lord Armor * 1" materialId01="460100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900201" paramdexName="Radahn's Lion Armor * 1" materialId01="470100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900202" paramdexName="Lord of Blood's Robe * 1" materialId01="480100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900203" paramdexName="Maliketh's Armor * 1" materialId01="760100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900204" paramdexName="Malenia's Armor * 1" materialId01="770100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900205" materialId01="5220000" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900206" materialId01="5270100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900300" paramdexName="Drake Knight Helm (Altered) * 1" materialId01="61000" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900301" paramdexName="Drake Knight Armor (Altered) * 1" materialId01="61100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900302" paramdexName="Scaled Armor (Altered) * 1" materialId01="81100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900303" paramdexName="Perfumer Robe (Altered) * 1" materialId01="91100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900304" paramdexName="Perfumer's Traveling Garb (Altered) * 1" materialId01="101100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900305" paramdexName="Spellblade's Traveling Attire (Altered) * 1" materialId01="131100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900306" paramdexName="Ronin's Armor (Altered) * 1" materialId01="151100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900307" paramdexName="Blaidd's Armor (Altered) * 1" materialId01="171100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900308" paramdexName="Black Knife Armor (Altered) * 1" materialId01="181100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900309" paramdexName="Briar Armor (Altered) * 1" materialId01="211100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900310" paramdexName="Page Garb (Altered) * 1" materialId01="221100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900311" paramdexName="Night's Cavalry Helm (Altered) * 1" materialId01="231000" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900312" paramdexName="Night's Cavalry Armor (Altered) * 1" materialId01="231100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900313" paramdexName="Blue Silver Mail Armor (Altered) * 1" materialId01="241100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900314" paramdexName="Nomadic Merchant's Finery (Altered) * 1" materialId01="251100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900315" paramdexName="Tree Sentinel Armor (Altered) * 1" materialId01="271100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900316" paramdexName="Royal Knight Armor (Altered) * 1" materialId01="281100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900317" paramdexName="Nox Monk Hood (Altered) * 1" materialId01="291000" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900318" paramdexName="Nox Monk Armor (Altered) * 1" materialId01="291100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900319" paramdexName="Nox Swordstress Crown (Altered) * 1" materialId01="294000" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900320" paramdexName="Nox Swordstress Armor (Altered) * 1" materialId01="294100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900321" paramdexName="Gravekeeper Cloak (Altered) * 1" materialId01="311100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900322" paramdexName="Cleanrot Helm (Altered) * 1" materialId01="341000" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900323" paramdexName="Cleanrot Armor (Altered) * 1" materialId01="341100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900324" paramdexName="Depraved Perfumer Robe (Altered) * 1" materialId01="541100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900325" paramdexName="All-Knowing Armor (Altered) * 1" materialId01="591100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900326" paramdexName="Twinned Armor (Altered) * 1" materialId01="601100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900329" paramdexName="Prophet Robe (Altered) * 1" materialId01="621100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900330" paramdexName="Astrologer Robe (Altered) * 1" materialId01="631100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900331" paramdexName="Lionel's Armor (Altered) * 1" materialId01="641100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900332" paramdexName="Hoslow's Armor (Altered) * 1" materialId01="652100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900333" paramdexName="Vagabond Knight Armor (Altered) * 1" materialId01="661100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900334" paramdexName="War Surgeon Gown (Altered) * 1" materialId01="681100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900336" paramdexName="Veteran's Armor (Altered) * 1" materialId01="781100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900337" paramdexName="Bloodhound Knight Armor (Altered) * 1" materialId01="791100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900338" paramdexName="Festive Hood (Altered) * 1" materialId01="801000" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900339" paramdexName="Commoner's Garb (Altered) * 1" materialId01="811100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900340" paramdexName="Commoner's Simple Garb (Altered) * 1" materialId01="812100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900341" paramdexName="Raging Wolf Armor (Altered) * 1" materialId01="861100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900342" paramdexName="Land of Reeds Armor (Altered) * 1" materialId01="871100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900343" paramdexName="Confessor Hood (Altered) * 1" materialId01="881000" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900344" paramdexName="Confessor Armor (Altered) * 1" materialId01="881100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900345" paramdexName="Finger Maiden Robe (Altered) * 1" materialId01="903100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900347" paramdexName="Preceptor's Long Gown (Altered) * 1" materialId01="911100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900349" paramdexName="Eccentric's Hood (Altered) * 1" materialId01="941000" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900350" paramdexName="Fingerprint Armor (Altered) * 1" materialId01="951100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900351" paramdexName="Carian Knight Armor (Altered) * 1" materialId01="981100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900352" paramdexName="Errant Sorcerer Robe (Altered) * 1" materialId01="991100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900353" paramdexName="Gelmir Knight Armor (Altered) * 1" materialId01="1761100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900354" paramdexName="Godrick Knight Armor (Altered) * 1" materialId01="1771100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900355" paramdexName="Cuckoo Knight Armor (Altered) * 1" materialId01="1781100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900356" paramdexName="Leyndell Knight Armor (Altered) * 1" materialId01="1791100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900357" paramdexName="Redmane Knight Armor (Altered) * 1" materialId01="1801100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900358" paramdexName="Mausoleum Knight Armor (Altered) * 1" materialId01="1811100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900359" paramdexName="Haligtree Knight Armor (Altered) * 1" materialId01="1821100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900360" paramdexName="High Page Clothes (Altered) * 1" materialId01="1991100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900361" paramdexName="Rotten Gravekeeper Cloak (Altered) * 1" materialId01="2001100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900362" paramdexName="Beast Champion Armor (Altered) * 1" materialId01="721100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900363" paramdexName="Snow Witch Robe (Altered) * 1" materialId01="1011100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900364" paramdexName="Crucible Axe Armor (Altered) * 1" materialId01="572100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900365" paramdexName="Crucible Tree Armor (Altered) * 1" materialId01="573100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900366" paramdexName="Fia's Robe (Altered) * 1" materialId01="1941100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900367" paramdexName="Alberich's Pointed Hat (Altered) * 1" materialId01="121000" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900368" paramdexName="Alberich's Robe (Altered) * 1" materialId01="121100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900369" paramdexName="Traveling Maiden Robe (Altered) * 1" materialId01="901100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900370" materialId01="3001100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900371" materialId01="5001100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900372" materialId01="5021000" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900373" materialId01="5031100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900374" materialId01="5060100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900375" materialId01="5081100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900376" materialId01="5101000" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900377" materialId01="5101100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900378" materialId01="5111100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900379" materialId01="5121100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900380" materialId01="5131100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900381" materialId01="5141100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900382" materialId01="5181100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900383" materialId01="5191100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900400" paramdexName="Elden Lord Armor (Altered) * 1" materialId01="461100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900401" paramdexName="Radahn's Lion Armor (Altered) * 1" materialId01="471100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900402" paramdexName="Lord of Blood's Robe (Altered) * 1" materialId01="481100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900403" paramdexName="Maliketh's Armor (Altered) * 1" materialId01="761100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900404" paramdexName="Malenia's Armor (Altered) * 1" materialId01="771100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900405" materialId01="5221000" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+<row id="900406" materialId01="5271100" itemNum01="1" materialCate01="1" materialCate02="4" materialCate03="4" materialCate04="4" materialCate05="4" materialCate06="4" />
+</rows>
+</param>

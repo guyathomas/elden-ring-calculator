@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>SoundAssetSoundObjEnableDistParam.param</filename>
+<compression>None</compression>
+<type>SOUND_ASSET_SOUND_OBJ_ENABLE_DIST_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>SOUND_ASSET_SOUND_OBJ_ENABLE_DIST_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="SoundObjEnableDist" type="f32" arraylength="1" bitsize="-1" sortid="0" defaultValue="55" />
+</fields>
+<rows>
+<row id="3362" SoundObjEnableDist="8" />
+<row id="9200" SoundObjEnableDist="35" />
+<row id="27002" SoundObjEnableDist="8" />
+<row id="27005" SoundObjEnableDist="8" />
+<row id="99005" SoundObjEnableDist="35" />
+<row id="390000" SoundObjEnableDist="8" />
+<row id="600000" SoundObjEnableDist="8" />
+<row id="600001" SoundObjEnableDist="8" />
+<row id="610000" SoundObjEnableDist="55" />
+<row id="700000" SoundObjEnableDist="8" />
+<row id="800000" SoundObjEnableDist="55" />
+<row id="800001" SoundObjEnableDist="55" />
+<row id="800002" SoundObjEnableDist="55" />
+<row id="800003" SoundObjEnableDist="55" />
+<row id="800004" SoundObjEnableDist="55" />
+<row id="800005" SoundObjEnableDist="55" />
+<row id="800006" SoundObjEnableDist="55" />
+<row id="800007" SoundObjEnableDist="55" />
+<row id="800008" SoundObjEnableDist="70" />
+<row id="800009" SoundObjEnableDist="70" />
+<row id="800010" SoundObjEnableDist="70" />
+<row id="800011" SoundObjEnableDist="70" />
+<row id="800012" SoundObjEnableDist="55" />
+<row id="800013" SoundObjEnableDist="55" />
+<row id="810000" SoundObjEnableDist="45" />
+<row id="810001" SoundObjEnableDist="35" />
+<row id="810002" SoundObjEnableDist="35" />
+<row id="810003" SoundObjEnableDist="35" />
+<row id="810004" SoundObjEnableDist="45" />
+<row id="810005" SoundObjEnableDist="45" />
+<row id="810006" SoundObjEnableDist="45" />
+<row id="810007" SoundObjEnableDist="35" />
+<row id="810008" SoundObjEnableDist="45" />
+<row id="810009" SoundObjEnableDist="35" />
+<row id="810020" SoundObjEnableDist="35" />
+<row id="810021" SoundObjEnableDist="35" />
+<row id="810022" SoundObjEnableDist="35" />
+<row id="810023" SoundObjEnableDist="35" />
+<row id="810030" SoundObjEnableDist="75" />
+<row id="810100" SoundObjEnableDist="110" />
+<row id="815000" SoundObjEnableDist="55" />
+<row id="815001" SoundObjEnableDist="55" />
+<row id="815002" SoundObjEnableDist="55" />
+<row id="815003" SoundObjEnableDist="55" />
+<row id="815004" SoundObjEnableDist="35" />
+<row id="815005" SoundObjEnableDist="35" />
+<row id="815006" SoundObjEnableDist="35" />
+<row id="815007" SoundObjEnableDist="35" />
+<row id="815008" SoundObjEnableDist="55" />
+<row id="815009" SoundObjEnableDist="55" />
+<row id="815010" SoundObjEnableDist="55" />
+<row id="820000" SoundObjEnableDist="55" />
+<row id="820001" SoundObjEnableDist="55" />
+<row id="820002" SoundObjEnableDist="55" />
+<row id="820003" SoundObjEnableDist="55" />
+<row id="820004" SoundObjEnableDist="55" />
+<row id="820005" SoundObjEnableDist="35" />
+<row id="820006" SoundObjEnableDist="35" />
+<row id="820007" SoundObjEnableDist="70" />
+<row id="820008" SoundObjEnableDist="70" />
+<row id="820009" SoundObjEnableDist="70" />
+<row id="820010" SoundObjEnableDist="55" />
+<row id="820011" SoundObjEnableDist="55" />
+<row id="820012" SoundObjEnableDist="55" />
+<row id="820020" SoundObjEnableDist="35" />
+<row id="820021" SoundObjEnableDist="50" />
+<row id="820022" SoundObjEnableDist="80" />
+<row id="820023" SoundObjEnableDist="80" />
+<row id="820024" SoundObjEnableDist="80" />
+<row id="820025" SoundObjEnableDist="110" />
+<row id="820026" SoundObjEnableDist="55" />
+<row id="820100" SoundObjEnableDist="45" />
+<row id="830000" SoundObjEnableDist="55" />
+<row id="830001" SoundObjEnableDist="55" />
+<row id="830002" SoundObjEnableDist="55" />
+<row id="830003" SoundObjEnableDist="55" />
+<row id="830004" SoundObjEnableDist="55" />
+<row id="830005" SoundObjEnableDist="55" />
+<row id="830006" SoundObjEnableDist="55" />
+<row id="830007" SoundObjEnableDist="55" />
+<row id="830008" SoundObjEnableDist="55" />
+<row id="830020" SoundObjEnableDist="55" />
+<row id="830100" SoundObjEnableDist="100" />
+<row id="830101" SoundObjEnableDist="75" />
+<row id="840000" SoundObjEnableDist="35" />
+<row id="840001" SoundObjEnableDist="55" />
+<row id="840002" SoundObjEnableDist="35" />
+<row id="840003" SoundObjEnableDist="55" />
+<row id="840004" SoundObjEnableDist="55" />
+<row id="840005" SoundObjEnableDist="25" />
+<row id="850000" SoundObjEnableDist="35" />
+<row id="850001" SoundObjEnableDist="55" />
+<row id="850002" SoundObjEnableDist="55" />
+<row id="850003" SoundObjEnableDist="55" />
+<row id="850004" SoundObjEnableDist="55" />
+<row id="850005" SoundObjEnableDist="55" />
+<row id="850006" SoundObjEnableDist="55" />
+<row id="880000" SoundObjEnableDist="100" />
+<row id="890000" SoundObjEnableDist="100" />
+<row id="890001" SoundObjEnableDist="100" />
+<row id="890002" SoundObjEnableDist="100" />
+<row id="890003" SoundObjEnableDist="100" />
+<row id="900000" SoundObjEnableDist="80" />
+<row id="900010" SoundObjEnableDist="70" />
+<row id="900011" SoundObjEnableDist="110" />
+<row id="900012" SoundObjEnableDist="100" />
+<row id="900013" SoundObjEnableDist="100" />
+<row id="900014" SoundObjEnableDist="55" />
+<row id="900015" SoundObjEnableDist="100" />
+<row id="900016" SoundObjEnableDist="70" />
+<row id="900020" SoundObjEnableDist="55" />
+<row id="900021" SoundObjEnableDist="55" />
+<row id="900028" SoundObjEnableDist="55" />
+<row id="900030" SoundObjEnableDist="190" />
+<row id="900031" SoundObjEnableDist="100" />
+<row id="900032" SoundObjEnableDist="55" />
+<row id="900035" SoundObjEnableDist="55" />
+<row id="900061" SoundObjEnableDist="55" />
+<row id="930001" SoundObjEnableDist="55" />
+<row id="930002" SoundObjEnableDist="100" />
+<row id="930003" SoundObjEnableDist="70" />
+<row id="930004" SoundObjEnableDist="110" />
+<row id="930005" SoundObjEnableDist="-1" />
+<row id="930006" SoundObjEnableDist="55" />
+<row id="930007" SoundObjEnableDist="90" />
+<row id="930008" SoundObjEnableDist="60" />
+<row id="930009" SoundObjEnableDist="320" />
+<row id="930100" SoundObjEnableDist="75" />
+<row id="930101" SoundObjEnableDist="100" />
+<row id="930102" SoundObjEnableDist="75" />
+<row id="930103" SoundObjEnableDist="100" />
+<row id="930104" SoundObjEnableDist="100" />
+<row id="930105" SoundObjEnableDist="100" />
+<row id="930106" SoundObjEnableDist="80" />
+<row id="930107" SoundObjEnableDist="250" />
+<row id="950000" SoundObjEnableDist="35" />
+<row id="950001" SoundObjEnableDist="35" />
+<row id="950002" SoundObjEnableDist="35" />
+<row id="950003" SoundObjEnableDist="35" />
+<row id="950004" SoundObjEnableDist="35" />
+<row id="980000" SoundObjEnableDist="55" />
+<row id="980001" SoundObjEnableDist="70" />
+<row id="999901" SoundObjEnableDist="-1" />
+<row id="999902" SoundObjEnableDist="-1" />
+</rows>
+</param>

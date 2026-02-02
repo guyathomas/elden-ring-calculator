@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>ToughnessParam.param</filename>
+<compression>None</compression>
+<type>TOUGHNESS_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>TOUGHNESS_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="correctionRate" type="f32" arraylength="1" bitsize="-1" sortid="100" defaultValue="0.5" />
+<field name="minToughness" type="u16" arraylength="1" bitsize="-1" sortid="200" defaultValue="0" />
+<field name="isNonEffectiveCorrectionForMin" type="u8" arraylength="1" bitsize="-1" sortid="250" defaultValue="1" />
+<field name="pad2" type="dummy8" arraylength="1" bitsize="-1" sortid="301" defaultValue="[0]" />
+<field name="spEffectId" type="s32" arraylength="1" bitsize="-1" sortid="300" defaultValue="6352" />
+<field name="proCorrectionRate" type="f32" arraylength="1" bitsize="-1" sortid="150" defaultValue="0.5" />
+<field name="unk1" type="f32" arraylength="1" bitsize="-1" sortid="0" defaultValue="0.5" />
+<field name="unk2" type="f32" arraylength="1" bitsize="-1" sortid="0" defaultValue="0.925" />
+<field name="pad1" type="dummy8" arraylength="8" bitsize="-1" sortid="302" defaultValue="[0|0|0|0|0|0|0|0]" />
+</fields>
+<rows>
+<row id="0" correctionRate="0" minToughness="0" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="1" unk2="1" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="2" correctionRate="0.2" minToughness="0" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="1" unk2="1" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="3" correctionRate="0.25" minToughness="0" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="1" unk2="1" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="4" correctionRate="0.3" minToughness="0" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="1" unk2="1" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="5" correctionRate="0.35" minToughness="0" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="1" unk2="1" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="6" correctionRate="0.4" minToughness="0" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="1" unk2="1" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="7" correctionRate="0.45" minToughness="0" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="1" unk2="1" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="8" correctionRate="0.5" minToughness="0" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="1" unk2="1" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="9" correctionRate="0.55" minToughness="0" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="1" unk2="1" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="10" correctionRate="0.6" minToughness="0" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="1" unk2="1" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="11" correctionRate="0.65" minToughness="0" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="1" unk2="1" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="12" correctionRate="0.7" minToughness="0" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="1" unk2="1" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="13" correctionRate="0.75" minToughness="0" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="1" unk2="1" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="14" correctionRate="0.8" minToughness="0" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="1" unk2="1" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="15" correctionRate="0.85" minToughness="0" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="1" unk2="1" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="16" correctionRate="0.9" minToughness="0" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="1" unk2="1" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="17" correctionRate="0.95" minToughness="0" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="1" unk2="1" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="18" correctionRate="1" minToughness="0" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="1" unk2="1" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="20" correctionRate="1.5" minToughness="0" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="1" unk2="1" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="25" correctionRate="2" minToughness="0" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="1" unk2="1" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="30" correctionRate="2.5" minToughness="0" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="1" unk2="1" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="35" correctionRate="3" minToughness="0" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="1" unk2="1" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="50" correctionRate="0.5" minToughness="135" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6353" proCorrectionRate="0.5" unk1="0.5" unk2="1" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="51" correctionRate="0.5" minToughness="70" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6353" proCorrectionRate="0.5" unk1="0.7" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="52" correctionRate="0.2" minToughness="20" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6352" proCorrectionRate="0.5" unk1="0.5" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="100" correctionRate="1" minToughness="80" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="0.65" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="101" correctionRate="1" minToughness="80" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="0.45" unk2="0.825" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="110" correctionRate="1" minToughness="80" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="0.65" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="111" correctionRate="1" minToughness="80" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="0.45" unk2="0.825" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="120" correctionRate="2" minToughness="80" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="0.65" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="121" correctionRate="2" minToughness="80" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="0.45" unk2="0.825" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="130" correctionRate="0.75" minToughness="80" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="0.65" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="131" correctionRate="0.75" minToughness="80" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="0.45" unk2="0.825" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="135" correctionRate="1" minToughness="80" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="0.65" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="136" correctionRate="1" minToughness="80" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="0.45" unk2="0.825" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="140" correctionRate="0.75" minToughness="80" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="0.65" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="141" correctionRate="0.75" minToughness="80" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="0.45" unk2="0.825" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="145" correctionRate="1" minToughness="80" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="0.65" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="146" correctionRate="1" minToughness="80" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="0.45" unk2="0.825" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="150" correctionRate="0.5" minToughness="80" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="0.65" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="151" correctionRate="0.5" minToughness="80" isNonEffectiveCorrectionForMin="0" pad2="[0]" spEffectId="6352" proCorrectionRate="1" unk1="0.45" unk2="0.825" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="160" correctionRate="0.1" minToughness="10" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6352" proCorrectionRate="0.5" unk1="0.5" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="161" correctionRate="0.11" minToughness="11" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6352" proCorrectionRate="0.5" unk1="0.5" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="162" correctionRate="0.12" minToughness="12" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6352" proCorrectionRate="0.5" unk1="0.5" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="163" correctionRate="0.13" minToughness="13" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6352" proCorrectionRate="0.5" unk1="0.5" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="164" correctionRate="0.14" minToughness="14" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6352" proCorrectionRate="0.5" unk1="0.5" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="165" correctionRate="0.15" minToughness="15" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6352" proCorrectionRate="0.5" unk1="0.5" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="166" correctionRate="0.16" minToughness="16" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6352" proCorrectionRate="0.5" unk1="0.5" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="167" correctionRate="0.17" minToughness="17" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6352" proCorrectionRate="0.5" unk1="0.5" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="168" correctionRate="0.18" minToughness="18" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6352" proCorrectionRate="0.5" unk1="0.5" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="169" correctionRate="0.19" minToughness="19" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6352" proCorrectionRate="0.5" unk1="0.5" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="170" correctionRate="0.2" minToughness="20" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6352" proCorrectionRate="0.5" unk1="0.5" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="175" correctionRate="0.25" minToughness="25" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6352" proCorrectionRate="0.5" unk1="0.5" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="180" correctionRate="0.3" minToughness="30" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6352" proCorrectionRate="0.5" unk1="0.5" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="181" correctionRate="0.3" minToughness="30" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6352" proCorrectionRate="0.5" unk1="0.5" unk2="0.825" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="183" correctionRate="0.3" minToughness="30" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6352" proCorrectionRate="0.5" unk1="0.8" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="185" correctionRate="0.35" minToughness="35" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6352" proCorrectionRate="0.5" unk1="0.5" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="186" correctionRate="0.35" minToughness="35" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6352" proCorrectionRate="0.5" unk1="0.5" unk2="0.825" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="190" correctionRate="0.4" minToughness="40" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6352" proCorrectionRate="0.5" unk1="0.5" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="191" correctionRate="0.4" minToughness="40" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6352" proCorrectionRate="0.5" unk1="0.5" unk2="0.825" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="195" correctionRate="0.45" minToughness="45" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6352" proCorrectionRate="0.5" unk1="0.5" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="196" correctionRate="0.45" minToughness="45" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6352" proCorrectionRate="0.5" unk1="0.5" unk2="0.825" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="200" correctionRate="0.5" minToughness="50" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6352" proCorrectionRate="0.5" unk1="0.5" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="201" correctionRate="0.5" minToughness="50" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6352" proCorrectionRate="0.5" unk1="0.5" unk2="0.825" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="205" correctionRate="0.5" minToughness="55" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6353" proCorrectionRate="0.5" unk1="0.5" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="206" correctionRate="0.5" minToughness="55" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6353" proCorrectionRate="0.5" unk1="0.5" unk2="0.825" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="210" correctionRate="0.5" minToughness="60" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6353" proCorrectionRate="0.5" unk1="0.5" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="211" correctionRate="0.5" minToughness="60" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6353" proCorrectionRate="0.5" unk1="0.5" unk2="0.825" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="215" correctionRate="0.5" minToughness="65" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6353" proCorrectionRate="0.5" unk1="0.5" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="216" correctionRate="0.5" minToughness="65" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6353" proCorrectionRate="0.5" unk1="0.5" unk2="0.825" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="220" correctionRate="0.5" minToughness="70" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6353" proCorrectionRate="0.5" unk1="0.5" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="221" correctionRate="0.5" minToughness="70" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6353" proCorrectionRate="0.5" unk1="0.5" unk2="0.825" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="225" correctionRate="0.5" minToughness="75" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6353" proCorrectionRate="0.5" unk1="0.5" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="226" correctionRate="0.5" minToughness="75" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6353" proCorrectionRate="0.5" unk1="0.5" unk2="0.825" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="230" correctionRate="0.5" minToughness="80" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6353" proCorrectionRate="0.5" unk1="0.5" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="231" correctionRate="0.5" minToughness="80" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6353" proCorrectionRate="0.5" unk1="0.5" unk2="0.825" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="235" correctionRate="0.5" minToughness="85" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6353" proCorrectionRate="0.5" unk1="0.5" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="236" correctionRate="0.5" minToughness="85" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6353" proCorrectionRate="0.5" unk1="0.5" unk2="0.825" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="240" correctionRate="0.5" minToughness="90" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6353" proCorrectionRate="0.5" unk1="0.5" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="241" correctionRate="0.5" minToughness="90" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6353" proCorrectionRate="0.5" unk1="0.5" unk2="0.825" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="245" correctionRate="0.5" minToughness="95" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6353" proCorrectionRate="0.5" unk1="0.5" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="246" correctionRate="0.5" minToughness="95" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6353" proCorrectionRate="0.5" unk1="0.5" unk2="0.825" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="250" correctionRate="0.5" minToughness="100" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6353" proCorrectionRate="0.5" unk1="0.5" unk2="0.925" pad1="[0|0|0|0|0|0|0|0]" />
+<row id="251" correctionRate="0.5" minToughness="100" isNonEffectiveCorrectionForMin="1" pad2="[0]" spEffectId="6353" proCorrectionRate="0.5" unk1="0.5" unk2="0.825" pad1="[0|0|0|0|0|0|0|0]" />
+</rows>
+</param>

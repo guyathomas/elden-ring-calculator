@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>AutoCreateEnvSoundParam.param</filename>
+<compression>None</compression>
+<type>AUTO_CREATE_ENV_SOUND_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>0</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>AUTO_CREATE_ENV_SOUND_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>0</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="RangeMin" type="f32" arraylength="1" bitsize="-1" sortid="1" defaultValue="5" />
+<field name="RangeMax" type="f32" arraylength="1" bitsize="-1" sortid="2" defaultValue="20" />
+<field name="LifeTimeMin" type="f32" arraylength="1" bitsize="-1" sortid="3" defaultValue="10" />
+<field name="LifeTimeMax" type="f32" arraylength="1" bitsize="-1" sortid="4" defaultValue="15" />
+<field name="DeleteDist" type="f32" arraylength="1" bitsize="-1" sortid="5" defaultValue="40" />
+<field name="NearDist" type="f32" arraylength="1" bitsize="-1" sortid="6" defaultValue="15" />
+<field name="LimiteRotateMin" type="f32" arraylength="1" bitsize="-1" sortid="7" defaultValue="10" />
+<field name="LimiteRotateMax" type="f32" arraylength="1" bitsize="-1" sortid="8" defaultValue="45" />
+</fields>
+<rows>
+<row id="950000500" RangeMin="5" RangeMax="20" LifeTimeMin="10" LifeTimeMax="20" DeleteDist="40" NearDist="15" LimiteRotateMin="10" LimiteRotateMax="45" />
+<row id="950002100" RangeMin="5" RangeMax="35" LifeTimeMin="10" LifeTimeMax="15" DeleteDist="40" NearDist="5" LimiteRotateMin="45" LimiteRotateMax="150" />
+<row id="950100500" RangeMin="5" RangeMax="20" LifeTimeMin="10" LifeTimeMax="20" DeleteDist="40" NearDist="15" LimiteRotateMin="10" LimiteRotateMax="45" />
+<row id="950102100" RangeMin="5" RangeMax="35" LifeTimeMin="10" LifeTimeMax="15" DeleteDist="40" NearDist="5" LimiteRotateMin="45" LimiteRotateMax="150" />
+<row id="950200121" RangeMin="5" RangeMax="30" LifeTimeMin="15" LifeTimeMax="15" DeleteDist="40" NearDist="35" LimiteRotateMin="0" LimiteRotateMax="60" />
+<row id="950200500" RangeMin="5" RangeMax="20" LifeTimeMin="10" LifeTimeMax="20" DeleteDist="40" NearDist="15" LimiteRotateMin="10" LimiteRotateMax="45" />
+<row id="950500500" RangeMin="5" RangeMax="20" LifeTimeMin="10" LifeTimeMax="20" DeleteDist="40" NearDist="15" LimiteRotateMin="10" LimiteRotateMax="45" />
+<row id="950502100" RangeMin="5" RangeMax="35" LifeTimeMin="10" LifeTimeMax="15" DeleteDist="40" NearDist="5" LimiteRotateMin="45" LimiteRotateMax="150" />
+<row id="950510500" RangeMin="5" RangeMax="20" LifeTimeMin="10" LifeTimeMax="20" DeleteDist="40" NearDist="15" LimiteRotateMin="10" LimiteRotateMax="45" />
+<row id="950512100" RangeMin="5" RangeMax="35" LifeTimeMin="10" LifeTimeMax="15" DeleteDist="40" NearDist="5" LimiteRotateMin="45" LimiteRotateMax="150" />
+<row id="950520511" RangeMin="5" RangeMax="20" LifeTimeMin="10" LifeTimeMax="20" DeleteDist="40" NearDist="15" LimiteRotateMin="10" LimiteRotateMax="45" />
+<row id="950522111" RangeMin="5" RangeMax="35" LifeTimeMin="10" LifeTimeMax="15" DeleteDist="40" NearDist="5" LimiteRotateMin="45" LimiteRotateMax="150" />
+</rows>
+</param>

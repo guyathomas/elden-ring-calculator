@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>SignPuddleTabParam.param</filename>
+<compression>None</compression>
+<type>SIGN_PUDDLE_TAB_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>SIGN_PUDDLE_TAB_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>2</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="isDlcTab" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="tabTextId" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="241414" />
+<field name="unknown_0x8" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="-1" />
+<field name="unknown_0xc" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="65" />
+</fields>
+<rows>
+<row id="0" isDlcTab="1" tabTextId="-1" unknown_0x8="-1" unknown_0xc="0" />
+<row id="6800" paramdexName="Gravesite Plain" isDlcTab="1" tabTextId="241417" unknown_0x8="8000" unknown_0xc="68" />
+<row id="6900" paramdexName="Scadu Altus" isDlcTab="1" tabTextId="241418" unknown_0x8="9000" unknown_0xc="69" />
+<row id="10000" paramdexName="Stormveil Castle" isDlcTab="0" tabTextId="241401" unknown_0x8="1010" unknown_0xc="10" />
+<row id="11000" paramdexName="Leyndell, Royal Capital" isDlcTab="0" tabTextId="241402" unknown_0x8="3020" unknown_0xc="11" />
+<row id="11100" paramdexName="Roundtable Hold" isDlcTab="0" tabTextId="241400" unknown_0x8="-1" unknown_0xc="1" />
+<row id="12000" paramdexName="Ainsel River" isDlcTab="0" tabTextId="241407" unknown_0x8="6000" unknown_0xc="40" />
+<row id="12001" paramdexName="Siofra River" isDlcTab="0" tabTextId="241408" unknown_0x8="6100" unknown_0xc="41" />
+<row id="12002" paramdexName="Deeproot Depths" isDlcTab="0" tabTextId="241409" unknown_0x8="6200" unknown_0xc="42" />
+<row id="13000" paramdexName="Crumbling Farum Azula" isDlcTab="0" tabTextId="241403" unknown_0x8="7000" unknown_0xc="13" />
+<row id="14000" paramdexName="Academy of Raya Lucaria" isDlcTab="0" tabTextId="241404" unknown_0x8="2010" unknown_0xc="14" />
+<row id="15000" paramdexName="Miquella's Haligtree" isDlcTab="0" tabTextId="241405" unknown_0x8="5010" unknown_0xc="15" />
+<row id="16000" paramdexName="Volcano Manor" isDlcTab="0" tabTextId="241406" unknown_0x8="3010" unknown_0xc="16" />
+<row id="20000" paramdexName="Land of the Tower" isDlcTab="1" tabTextId="241419" unknown_0x8="8010" unknown_0xc="20" />
+<row id="21000" paramdexName="Shadow Keep" isDlcTab="1" tabTextId="241420" unknown_0x8="9010" unknown_0xc="21" />
+<row id="61000" paramdexName="Limgrave" isDlcTab="0" tabTextId="241410" unknown_0x8="1000" unknown_0xc="61" />
+<row id="62000" paramdexName="Liurnia of the Lakes" isDlcTab="0" tabTextId="241411" unknown_0x8="2000" unknown_0xc="62" />
+<row id="63000" paramdexName="Altus Plateau" isDlcTab="0" tabTextId="241412" unknown_0x8="3000" unknown_0xc="63" />
+<row id="64000" paramdexName="Caelid" isDlcTab="0" tabTextId="241413" unknown_0x8="4000" unknown_0xc="64" />
+<row id="65000" paramdexName="Mountaintops of the Giants" isDlcTab="0" tabTextId="241414" unknown_0x8="5000" unknown_0xc="65" />
+</rows>
+</param>

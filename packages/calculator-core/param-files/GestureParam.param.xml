@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>GestureParam.param</filename>
+<compression>None</compression>
+<type>GESTURE_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>2</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>1</unk06>
+<paramdef>
+<type>GESTURE_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>2</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="disableParam_NT" type="u8" arraylength="1" bitsize="1" sortid="0" defaultValue="1" />
+<field name="disableParamReserve1" type="dummy8" arraylength="1" bitsize="7" sortid="301" defaultValue="[0]" />
+<field name="disableParamReserve2" type="dummy8" arraylength="3" bitsize="-1" sortid="302" defaultValue="[0|0|0]" />
+<field name="itemId" type="s32" arraylength="1" bitsize="-1" sortid="100" defaultValue="2009000" />
+<field name="msgAnimId" type="s32" arraylength="1" bitsize="-1" sortid="200" defaultValue="81100" />
+<field name="cannotUseRiding" type="u8" arraylength="1" bitsize="1" sortid="300" defaultValue="1" />
+<field name="pad2" type="dummy8" arraylength="1" bitsize="7" sortid="303" defaultValue="[0]" />
+<field name="pad1" type="dummy8" arraylength="3" bitsize="-1" sortid="304" defaultValue="[0|0|0]" />
+</fields>
+<rows>
+<row id="0" paramdexName="Bow" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9000" msgAnimId="80000" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="1" paramdexName="Polite Bow" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9001" msgAnimId="80010" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="2" paramdexName="My Thanks" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9002" msgAnimId="80020" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="3" paramdexName="Curtsy" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9003" msgAnimId="80030" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="4" paramdexName="Reverential Bow" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9004" msgAnimId="80040" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="5" paramdexName="My Lord" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9005" msgAnimId="80050" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="6" paramdexName="Warm Welcome" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9006" msgAnimId="80060" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="7" paramdexName="Wave" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9007" msgAnimId="80070" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="8" paramdexName="Casual Greeting" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9008" msgAnimId="80080" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="9" paramdexName="Strength!" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9009" msgAnimId="80090" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="10" paramdexName="As You Wish" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9010" msgAnimId="80100" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="20" paramdexName="Point Forwards" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9011" msgAnimId="80200" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="21" paramdexName="Point Upwards" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9012" msgAnimId="80210" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="22" paramdexName="Point Downwards" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9013" msgAnimId="80220" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="23" paramdexName="Beckon" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9014" msgAnimId="80230" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="24" paramdexName="Wait!" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9015" msgAnimId="80240" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="25" paramdexName="Calm Down!" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9016" msgAnimId="80250" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="30" paramdexName="Nod In Thought" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9017" msgAnimId="80300" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="40" paramdexName="Extreme Repentance" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9018" msgAnimId="80400" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="41" paramdexName="Grovel For Mercy" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9019" msgAnimId="80410" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="50" paramdexName="Rallying Cry" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9020" msgAnimId="80500" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="51" paramdexName="Heartening Cry" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9021" msgAnimId="80510" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="52" paramdexName="By My Sword" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9022" msgAnimId="80520" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="53" paramdexName="Hoslow's Oath" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9023" msgAnimId="80530" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="54" paramdexName="Fire Spur Me" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9024" msgAnimId="80540" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="55" paramdexName="The Carian Oath (Cut?)" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9025" msgAnimId="80550" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="60" paramdexName="Bravo!" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9026" msgAnimId="80600" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="70" paramdexName="Jump for Joy" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9027" msgAnimId="80700" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="71" paramdexName="Triumphant Delight" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9028" msgAnimId="80710" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="72" paramdexName="Fancy Spin" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9029" msgAnimId="80720" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="73" paramdexName="Finger Snap" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9030" msgAnimId="80730" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="80" paramdexName="Dejection" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9031" msgAnimId="80800" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="90" paramdexName="Patches' Crouch" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9032" msgAnimId="80900" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="91" paramdexName="Crossed Legs" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9033" msgAnimId="80910" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="92" paramdexName="Rest" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9034" msgAnimId="80920" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="93" paramdexName="Sitting Sideways" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9035" msgAnimId="80930" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="94" paramdexName="Dozing Cross-Legged" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9036" msgAnimId="80940" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="95" paramdexName="Spread Out" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9037" msgAnimId="80950" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="96" paramdexName="Fetal Position (Cut?)" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9038" msgAnimId="80960" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="97" paramdexName="Balled Up" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9039" msgAnimId="80970" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="98" paramdexName="What Do You Want?" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9040" msgAnimId="80980" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="100" paramdexName="Prayer" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9041" msgAnimId="81000" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="101" paramdexName="Desperate Prayer" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9042" msgAnimId="81010" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="102" paramdexName="Rapture" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9043" msgAnimId="81020" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="103" paramdexName="Erudition" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9045" msgAnimId="81030" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="104" paramdexName="Outer Order" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9046" msgAnimId="81040" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="105" paramdexName="Inner Order" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9047" msgAnimId="81050" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="106" paramdexName="Golden Order Totality" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9048" msgAnimId="81060" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="108" paramdexName="The Ring" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9049" msgAnimId="81080" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="109" paramdexName="The Ring (Duplicate?)" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9050" msgAnimId="81080" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="110" paramdexName="Unused" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="9051" msgAnimId="81100" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="111" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="2009001" msgAnimId="81110" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="112" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="2009002" msgAnimId="81120" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="113" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="2009000" msgAnimId="81100" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="114" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="2009003" msgAnimId="81140" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="115" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="2009004" msgAnimId="81150" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+<row id="116" disableParam_NT="1" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" itemId="2009000" msgAnimId="81100" cannotUseRiding="1" pad2="[0]" pad1="[0|0|0]" />
+</rows>
+</param>

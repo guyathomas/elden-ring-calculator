@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>EquipParamAccessory.param</filename>
+<compression>None</compression>
+<type>EQUIP_PARAM_ACCESSORY_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>2</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>1</unk06>
+<paramdef>
+<type>EQUIP_PARAM_ACCESSORY_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>2</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="disableParam_NT" type="u8" arraylength="1" bitsize="1" sortid="0" defaultValue="1" />
+<field name="disableParamReserve1" type="dummy8" arraylength="1" bitsize="7" sortid="13011" defaultValue="[0]" defaultThreshold="True" />
+<field name="disableParamReserve2" type="dummy8" arraylength="3" bitsize="-1" sortid="13012" defaultValue="[0|0|0]" defaultThreshold="True" />
+<field name="refId" type="s32" arraylength="1" bitsize="-1" sortid="700" defaultValue="361100" />
+<field name="sfxVariationId" type="s32" arraylength="1" bitsize="-1" sortid="800" defaultValue="-1" defaultThreshold="True" />
+<field name="weight" type="f32" arraylength="1" bitsize="-1" sortid="1100" defaultValue="0.6" />
+<field name="behaviorId" type="s32" arraylength="1" bitsize="-1" sortid="1200" defaultValue="0" defaultThreshold="True" />
+<field name="basicPrice" type="s32" arraylength="1" bitsize="-1" sortid="1300" defaultValue="0" defaultThreshold="True" />
+<field name="sellValue" type="s32" arraylength="1" bitsize="-1" sortid="1310" defaultValue="500" />
+<field name="sortId" type="s32" arraylength="1" bitsize="-1" sortid="1600" defaultValue="999999" />
+<field name="qwcId" type="s32" arraylength="1" bitsize="-1" sortid="1900" defaultValue="0" defaultThreshold="True" />
+<field name="equipModelId" type="u16" arraylength="1" bitsize="-1" sortid="300" defaultValue="0" defaultThreshold="True" />
+<field name="iconId" type="u16" arraylength="1" bitsize="-1" sortid="400" defaultValue="18880" />
+<field name="shopLv" type="s16" arraylength="1" bitsize="-1" sortid="1400" defaultValue="-1" defaultThreshold="True" />
+<field name="trophySGradeId" type="s16" arraylength="1" bitsize="-1" sortid="1700" defaultValue="-1" defaultThreshold="True" />
+<field name="trophySeqId" type="s16" arraylength="1" bitsize="-1" sortid="1750" defaultValue="-1" defaultThreshold="True" />
+<field name="equipModelCategory" type="u8" arraylength="1" bitsize="-1" sortid="100" defaultValue="0" defaultThreshold="True" />
+<field name="equipModelGender" type="u8" arraylength="1" bitsize="-1" sortid="200" defaultValue="0" defaultThreshold="True" />
+<field name="accessoryCategory" type="u8" arraylength="1" bitsize="-1" sortid="500" defaultValue="0" defaultThreshold="True" />
+<field name="refCategory" type="u8" arraylength="1" bitsize="-1" sortid="600" defaultValue="2" defaultThreshold="True" />
+<field name="spEffectCategory" type="u8" arraylength="1" bitsize="-1" sortid="900" defaultValue="0" defaultThreshold="True" />
+<field name="sortGroupId" type="u8" arraylength="1" bitsize="-1" sortid="1610" defaultValue="20" />
+<field name="vagrantItemLotId" type="s32" arraylength="1" bitsize="-1" sortid="10000" defaultValue="-1" defaultThreshold="True" />
+<field name="vagrantBonusEneDropItemLotId" type="s32" arraylength="1" bitsize="-1" sortid="10000" defaultValue="-1" defaultThreshold="True" />
+<field name="vagrantItemEneDropItemLotId" type="s32" arraylength="1" bitsize="-1" sortid="10000" defaultValue="-1" defaultThreshold="True" />
+<field name="isDeposit" type="u8" arraylength="1" bitsize="1" sortid="1800" defaultValue="1" defaultThreshold="True" />
+<field name="isEquipOutBrake" type="u8" arraylength="1" bitsize="1" sortid="1810" defaultValue="0" defaultThreshold="True" />
+<field name="disableMultiDropShare" type="u8" arraylength="1" bitsize="1" sortid="1805" defaultValue="0" defaultThreshold="True" />
+<field name="isDiscard" type="u8" arraylength="1" bitsize="1" sortid="1780" defaultValue="1" defaultThreshold="True" />
+<field name="isDrop" type="u8" arraylength="1" bitsize="1" sortid="1790" defaultValue="1" defaultThreshold="True" />
+<field name="showLogCondType" type="u8" arraylength="1" bitsize="1" sortid="13000" defaultValue="1" defaultThreshold="True" />
+<field name="showDialogCondType" type="u8" arraylength="1" bitsize="2" sortid="12900" defaultValue="2" defaultThreshold="True" />
+<field name="rarity" type="u8" arraylength="1" bitsize="-1" sortid="13010" defaultValue="2" defaultThreshold="True" />
+<field name="pad2" type="dummy8" arraylength="2" bitsize="-1" sortid="13013" defaultValue="[0|0]" defaultThreshold="True" />
+<field name="saleValue" type="s32" arraylength="1" bitsize="-1" sortid="1320" defaultValue="0" defaultThreshold="True" />
+<field name="accessoryGroup" type="s16" arraylength="1" bitsize="-1" sortid="11000" defaultValue="1000" />
+<field name="pad3" type="dummy8" arraylength="1" bitsize="-1" sortid="13014" defaultValue="[0]" defaultThreshold="True" />
+<field name="compTrophySedId" type="s8" arraylength="1" bitsize="-1" sortid="1725" defaultValue="-1" defaultThreshold="True" />
+<field name="residentSpEffectId1" type="s32" arraylength="1" bitsize="-1" sortid="710" defaultValue="0" defaultThreshold="True" />
+<field name="residentSpEffectId2" type="s32" arraylength="1" bitsize="-1" sortid="720" defaultValue="0" defaultThreshold="True" />
+<field name="residentSpEffectId3" type="s32" arraylength="1" bitsize="-1" sortid="730" defaultValue="0" defaultThreshold="True" />
+<field name="residentSpEffectId4" type="s32" arraylength="1" bitsize="-1" sortid="740" defaultValue="0" defaultThreshold="True" />
+<field name="pad1" type="dummy8" arraylength="4" bitsize="-1" sortid="13015" defaultValue="[0|0|0|0]" defaultThreshold="True" />
+</fields>
+<rows>
+<row id="1000" paramdexName="Crimson Amber Medallion" disableParam_NT="0" refId="310000" weight="0.3" sellValue="100" sortId="400000" iconId="18000" sortGroupId="10" accessoryGroup="1000" />
+<row id="1001" paramdexName="Crimson Amber Medallion +1" disableParam_NT="1" refId="310010" weight="0.3" sellValue="500" sortId="400010" iconId="18001" sortGroupId="10" accessoryGroup="1000" />
+<row id="1002" paramdexName="Crimson Amber Medallion +2" disableParam_NT="1" refId="310020" weight="0.3" sellValue="1000" sortId="400020" iconId="18002" sortGroupId="10" accessoryGroup="1000" />
+<row id="1010" paramdexName="Cerulean Amber Medallion" disableParam_NT="1" refId="310100" weight="0.3" sellValue="100" sortId="400050" iconId="18010" sortGroupId="10" accessoryGroup="1010" />
+<row id="1011" paramdexName="Cerulean Amber Medallion +1" disableParam_NT="1" refId="310110" weight="0.3" sellValue="500" sortId="400060" iconId="18011" sortGroupId="10" accessoryGroup="1010" />
+<row id="1012" paramdexName="Cerulean Amber Medallion +2" disableParam_NT="1" refId="310120" weight="0.3" sellValue="1000" sortId="400070" iconId="18012" sortGroupId="10" accessoryGroup="1010" />
+<row id="1020" paramdexName="Viridian Amber Medallion" disableParam_NT="0" refId="310200" weight="0.3" sellValue="100" sortId="400090" iconId="18020" sortGroupId="10" accessoryGroup="1020" />
+<row id="1021" paramdexName="Viridian Amber Medallion +1" disableParam_NT="1" refId="310210" weight="0.3" sellValue="500" sortId="400100" iconId="18021" sortGroupId="10" accessoryGroup="1020" />
+<row id="1022" paramdexName="Viridian Amber Medallion +2" disableParam_NT="1" refId="310220" weight="0.3" sellValue="1000" sortId="400110" iconId="18022" sortGroupId="10" accessoryGroup="1020" />
+<row id="1030" paramdexName="Arsenal Charm" disableParam_NT="0" refId="310300" weight="1.5" sellValue="100" sortId="400130" iconId="18030" sortGroupId="10" accessoryGroup="1030" />
+<row id="1031" paramdexName="Arsenal Charm +1" disableParam_NT="1" refId="310310" weight="1.5" sellValue="500" sortId="400140" iconId="18031" sortGroupId="10" accessoryGroup="1030" />
+<row id="1032" paramdexName="Great-Jar's Arsenal" disableParam_NT="1" refId="310320" weight="1.5" sellValue="1000" sortId="400150" iconId="18032" sortGroupId="10" accessoryGroup="1030" />
+<row id="1040" paramdexName="Erdtree's Favor" disableParam_NT="1" refId="310400" weight="1.5" sellValue="500" sortId="400160" iconId="18040" sortGroupId="10" accessoryGroup="1040" />
+<row id="1041" paramdexName="Erdtree's Favor +1" disableParam_NT="1" refId="310410" weight="1.5" sellValue="1500" sortId="400170" iconId="18041" sortGroupId="10" accessoryGroup="1040" />
+<row id="1042" paramdexName="Erdtree's Favor +2" disableParam_NT="1" refId="310420" weight="1.5" sellValue="3000" sortId="400180" iconId="18042" sortGroupId="10" rarity="3" accessoryGroup="1040" compTrophySedId="17" />
+<row id="1050" paramdexName="Radagon's Scarseal" disableParam_NT="1" refId="310500" weight="0.8" sellValue="3000" sortId="400190" iconId="18050" sortGroupId="10" accessoryGroup="1050" />
+<row id="1051" paramdexName="Radagon's Soreseal" disableParam_NT="1" refId="310510" weight="0.8" sellValue="3000" sortId="400200" iconId="18051" sortGroupId="10" rarity="3" accessoryGroup="1050" compTrophySedId="17" />
+<row id="1060" paramdexName="Starscourge Heirloom" disableParam_NT="1" refId="310600" weight="0.8" sellValue="1000" sortId="400230" iconId="18070" sortGroupId="10" accessoryGroup="1060" />
+<row id="1070" paramdexName="Prosthesis-Wearer Heirloom" disableParam_NT="1" refId="310700" weight="0.8" sellValue="1000" sortId="400240" iconId="18080" sortGroupId="10" accessoryGroup="1070" />
+<row id="1080" paramdexName="Stargazer Heirloom" disableParam_NT="1" refId="310800" weight="0.6" sellValue="1000" sortId="400250" iconId="18090" sortGroupId="10" accessoryGroup="1080" />
+<row id="1090" paramdexName="Two Fingers Heirloom" disableParam_NT="1" refId="310900" weight="0.6" sellValue="1000" sortId="400260" iconId="18100" sortGroupId="10" accessoryGroup="1090" />
+<row id="1100" paramdexName="Silver Scarab" disableParam_NT="1" refId="311000" weight="1.2" sellValue="500" sortId="406150" iconId="18110" sortGroupId="70" accessoryGroup="1100" />
+<row id="1110" paramdexName="Gold Scarab" disableParam_NT="1" refId="311100" weight="1.2" sellValue="500" sortId="406140" iconId="18120" sortGroupId="70" accessoryGroup="1110" />
+<row id="1140" paramdexName="Moon of Nokstella" disableParam_NT="1" refId="311400" weight="0.8" sellValue="2000" sortId="403050" iconId="18150" sortGroupId="40" rarity="3" accessoryGroup="1140" compTrophySedId="17" />
+<row id="1150" paramdexName="Green Turtle Talisman" disableParam_NT="1" refId="311500" weight="0.7" sellValue="500" sortId="400120" iconId="18160" sortGroupId="10" accessoryGroup="1150" />
+<row id="1160" paramdexName="Stalwart Horn Charm" disableParam_NT="1" refId="311600" weight="0.6" sellValue="500" sortId="401210" iconId="18170" sortGroupId="20" accessoryGroup="1160" />
+<row id="1161" paramdexName="Stalwart Horn Charm +1" disableParam_NT="1" refId="311610" weight="0.6" sellValue="1000" sortId="401220" iconId="18171" sortGroupId="20" accessoryGroup="1160" />
+<row id="1170" paramdexName="Immunizing Horn Charm" disableParam_NT="1" refId="311700" weight="0.6" sellValue="500" sortId="401190" iconId="18180" sortGroupId="20" accessoryGroup="1170" />
+<row id="1171" paramdexName="Immunizing Horn Charm +1" disableParam_NT="1" refId="311710" weight="0.6" sellValue="1000" sortId="401200" iconId="18181" sortGroupId="20" accessoryGroup="1170" />
+<row id="1180" paramdexName="Clarifying Horn Charm" disableParam_NT="1" refId="311800" weight="0.6" sellValue="500" sortId="401230" iconId="18190" sortGroupId="20" accessoryGroup="1180" />
+<row id="1181" paramdexName="Clarifying Horn Charm +1" disableParam_NT="1" refId="311810" weight="0.6" sellValue="1000" sortId="401240" iconId="18191" sortGroupId="20" accessoryGroup="1180" />
+<row id="1190" paramdexName="Prince of Death's Pustule" disableParam_NT="1" refId="311900" weight="0.6" sellValue="500" sortId="401270" iconId="3220" sortGroupId="20" accessoryGroup="1190" />
+<row id="1191" paramdexName="Prince of Death's Cyst" disableParam_NT="1" refId="311910" weight="0.6" sellValue="1000" sortId="401280" iconId="18201" sortGroupId="20" accessoryGroup="1190" />
+<row id="1200" paramdexName="Mottled Necklace" disableParam_NT="1" refId="312000" weight="0.9" sellValue="1000" sortId="401250" iconId="18210" sortGroupId="20" accessoryGroup="1200" />
+<row id="1201" paramdexName="Mottled Necklace +1" disableParam_NT="1" refId="312010" weight="0.9" sellValue="2000" sortId="401260" iconId="18211" sortGroupId="20" accessoryGroup="1200" />
+<row id="1210" paramdexName="Bull-Goat's Talisman" disableParam_NT="1" refId="312100" weight="0.5" sellValue="1000" sortId="405000" iconId="18220" sortGroupId="60" accessoryGroup="1210" />
+<row id="1220" paramdexName="Marika's Scarseal" disableParam_NT="1" refId="312200" weight="0.8" sellValue="3000" sortId="400210" iconId="18060" sortGroupId="10" accessoryGroup="1220" />
+<row id="1221" paramdexName="Marika's Soreseal" disableParam_NT="1" refId="312210" weight="0.8" sellValue="3000" sortId="400220" iconId="18061" sortGroupId="10" rarity="3" accessoryGroup="1220" compTrophySedId="17" />
+<row id="1230" paramdexName="Warrior Jar Shard" disableParam_NT="1" refId="312300" weight="0.9" sellValue="500" sortId="404040" iconId="18870" sortGroupId="50" accessoryGroup="1230" />
+<row id="1231" paramdexName="Shard of Alexander" disableParam_NT="1" refId="312310" weight="0.9" sellValue="1000" sortId="404050" iconId="18871" sortGroupId="50" accessoryGroup="1230" />
+<row id="1250" paramdexName="Millicent's Prosthesis" disableParam_NT="1" refId="312500" weight="1.6" sellValue="1000" sortId="406080" iconId="18890" sortGroupId="70" accessoryGroup="1250" residentSpEffectId1="312501" residentSpEffectId2="312502" residentSpEffectId3="312503" residentSpEffectId4="312504" />
+<row id="2000" paramdexName="Magic Scorpion Charm" disableParam_NT="1" refId="320000" weight="0.8" sellValue="500" sortId="405020" iconId="18230" sortGroupId="60" accessoryGroup="2000" />
+<row id="2010" paramdexName="Lightning Scorpion Charm" disableParam_NT="1" refId="320100" weight="0.8" sellValue="500" sortId="405040" iconId="18240" sortGroupId="60" accessoryGroup="2010" />
+<row id="2020" paramdexName="Fire Scorpion Charm" disableParam_NT="1" refId="320200" weight="0.8" sellValue="500" sortId="405030" iconId="18250" sortGroupId="60" accessoryGroup="2020" />
+<row id="2030" paramdexName="Sacred Scorpion Charm" disableParam_NT="1" refId="320300" weight="0.8" sellValue="500" sortId="405050" iconId="18260" sortGroupId="60" accessoryGroup="2030" />
+<row id="2040" paramdexName="Red-Feathered Branchsword" disableParam_NT="1" refId="320400" weight="1.4" sellValue="500" sortId="406000" iconId="18270" sortGroupId="70" accessoryGroup="2040" />
+<row id="2050" paramdexName="Ritual Sword Talisman" disableParam_NT="1" refId="320500" weight="0.9" sellValue="500" sortId="406020" iconId="18280" sortGroupId="70" accessoryGroup="2050" />
+<row id="2060" paramdexName="Spear Talisman" disableParam_NT="1" refId="320600" weight="0.5" sellValue="500" sortId="402050" iconId="18290" sortGroupId="30" accessoryGroup="2060" />
+<row id="2070" paramdexName="Hammer Talisman" disableParam_NT="1" refId="320700" weight="0.9" sellValue="500" sortId="402040" iconId="18300" sortGroupId="30" accessoryGroup="2070" />
+<row id="2080" paramdexName="Winged Sword Insignia" disableParam_NT="1" refId="320800" weight="1.4" sellValue="500" sortId="406060" iconId="18310" sortGroupId="70" accessoryGroup="2080" residentSpEffectId1="320801" residentSpEffectId2="320802" residentSpEffectId3="320803" />
+<row id="2081" paramdexName="Rotten Winged Sword Insignia" disableParam_NT="1" refId="320810" weight="1.4" sellValue="500" sortId="406070" iconId="18311" sortGroupId="70" accessoryGroup="2080" residentSpEffectId1="320811" residentSpEffectId2="320812" residentSpEffectId3="320813" />
+<row id="2090" paramdexName="Dagger Talisman" disableParam_NT="1" refId="320900" weight="1.1" sellValue="500" sortId="402000" iconId="18320" sortGroupId="30" accessoryGroup="2090" />
+<row id="2100" paramdexName="Arrow's Reach Talisman" disableParam_NT="1" refId="321000" weight="0.7" sellValue="500" sortId="402100" iconId="18330" sortGroupId="30" accessoryGroup="2100" />
+<row id="2110" paramdexName="Blue Dancer Charm" disableParam_NT="1" refId="321100" weight="0.9" sellValue="500" sortId="405010" iconId="18350" sortGroupId="60" accessoryGroup="2110" />
+<row id="2120" paramdexName="Twinblade Talisman" disableParam_NT="1" refId="321200" weight="0.7" sellValue="500" sortId="402020" iconId="18360" sortGroupId="30" accessoryGroup="2120" />
+<row id="2130" paramdexName="Axe Talisman" disableParam_NT="1" refId="321300" weight="0.8" sellValue="500" sortId="402030" iconId="18370" sortGroupId="30" accessoryGroup="2130" />
+<row id="2140" paramdexName="Lance Talisman" disableParam_NT="1" refId="321400" weight="0.7" sellValue="500" sortId="402060" iconId="18380" sortGroupId="30" accessoryGroup="2140" />
+<row id="2150" paramdexName="Arrow's Sting Talisman" disableParam_NT="1" refId="321500" weight="0.7" sellValue="500" sortId="402090" iconId="18340" sortGroupId="30" accessoryGroup="2150" />
+<row id="2160" paramdexName="Lord of Blood's Exultation" disableParam_NT="1" refId="321600" weight="0.9" sellValue="500" sortId="406110" iconId="18390" sortGroupId="70" accessoryGroup="2160" />
+<row id="2170" paramdexName="Kindred of Rot's Exultation" disableParam_NT="1" refId="321700" weight="0.9" sellValue="500" sortId="406100" iconId="18400" sortGroupId="70" accessoryGroup="2170" />
+<row id="2180" paramdexName="Claw Talisman" disableParam_NT="1" refId="321800" weight="0.7" sellValue="500" sortId="402070" iconId="18800" sortGroupId="30" accessoryGroup="2180" />
+<row id="2190" paramdexName="Roar Medallion" disableParam_NT="1" refId="321900" weight="0.7" sellValue="500" sortId="404000" iconId="18810" sortGroupId="50" accessoryGroup="2190" residentSpEffectId1="321901" />
+<row id="2200" paramdexName="Curved Sword Talisman" disableParam_NT="0" refId="322000" weight="0.7" sellValue="500" sortId="402010" iconId="18820" sortGroupId="30" accessoryGroup="2200" />
+<row id="2210" paramdexName="Companion Jar" disableParam_NT="1" refId="322100" weight="0.6" sellValue="500" sortId="404010" iconId="18830" sortGroupId="50" accessoryGroup="2210" residentSpEffectId1="20383000" />
+<row id="2220" paramdexName="Perfumer's Talisman" disableParam_NT="1" refId="322200" weight="0.6" sellValue="500" sortId="404020" iconId="18840" sortGroupId="50" accessoryGroup="2220" />
+<row id="3000" paramdexName="Graven-School Talisman" disableParam_NT="1" refId="330000" weight="0.7" sellValue="1000" sortId="403000" iconId="18410" sortGroupId="40" accessoryGroup="3000" />
+<row id="3001" paramdexName="Graven-Mass Talisman" disableParam_NT="1" refId="330010" weight="1" sellValue="2000" sortId="403010" iconId="18411" sortGroupId="40" accessoryGroup="3001" />
+<row id="3040" paramdexName="Faithful's Canvas Talisman" disableParam_NT="1" refId="330400" weight="0.7" sellValue="1000" sortId="403020" iconId="18440" sortGroupId="40" accessoryGroup="3040" />
+<row id="3050" paramdexName="Flock's Canvas Talisman" disableParam_NT="1" refId="330500" weight="1" sellValue="2000" sortId="403030" iconId="18450" sortGroupId="40" accessoryGroup="3050" />
+<row id="3060" paramdexName="Old Lord's Talisman" disableParam_NT="1" refId="330600" weight="0.5" sellValue="1000" sortId="403060" iconId="18460" sortGroupId="40" rarity="3" accessoryGroup="3060" compTrophySedId="17" />
+<row id="3070" paramdexName="Radagon Icon" disableParam_NT="1" refId="330700" weight="0.7" sellValue="1000" sortId="403070" iconId="18470" sortGroupId="40" rarity="3" accessoryGroup="3070" compTrophySedId="17" />
+<row id="3080" paramdexName="Primal Glintstone Blade" disableParam_NT="1" refId="330800" weight="0.6" sellValue="2000" sortId="403040" iconId="18480" sortGroupId="40" accessoryGroup="3080" />
+<row id="3090" paramdexName="Godfrey Icon" disableParam_NT="1" refId="330900" weight="0.8" sellValue="1000" sortId="404060" iconId="18860" sortGroupId="50" rarity="3" accessoryGroup="3090" compTrophySedId="17" />
+<row id="4000" paramdexName="Dragoncrest Shield Talisman" disableParam_NT="1" refId="340000" weight="0.8" sellValue="100" sortId="401000" iconId="18490" sortGroupId="20" accessoryGroup="4000" />
+<row id="4001" paramdexName="Dragoncrest Shield Talisman +1" disableParam_NT="1" refId="340010" weight="0.8" sellValue="500" sortId="401010" iconId="18491" sortGroupId="20" accessoryGroup="4000" />
+<row id="4002" paramdexName="Dragoncrest Shield Talisman +2" disableParam_NT="1" refId="340020" weight="0.8" sellValue="1000" sortId="401020" iconId="18492" sortGroupId="20" accessoryGroup="4000" />
+<row id="4003" paramdexName="Dragoncrest Greatshield Talisman" disableParam_NT="1" refId="340030" weight="0.8" sellValue="2000" sortId="401030" iconId="18493" sortGroupId="20" rarity="3" accessoryGroup="4000" compTrophySedId="17" />
+<row id="4010" paramdexName="Spelldrake Talisman" disableParam_NT="1" refId="340100" weight="0.6" sellValue="100" sortId="401040" iconId="18500" sortGroupId="20" accessoryGroup="4010" />
+<row id="4011" paramdexName="Spelldrake Talisman +1" disableParam_NT="1" refId="340110" weight="0.6" sellValue="500" sortId="401050" iconId="18501" sortGroupId="20" accessoryGroup="4010" />
+<row id="4012" paramdexName="Spelldrake Talisman +2" disableParam_NT="1" refId="340120" weight="0.6" sellValue="1000" sortId="401060" iconId="18502" sortGroupId="20" accessoryGroup="4010" />
+<row id="4020" paramdexName="Flamedrake Talisman" disableParam_NT="1" refId="340200" weight="0.6" sellValue="100" sortId="401070" iconId="18510" sortGroupId="20" accessoryGroup="4020" />
+<row id="4021" paramdexName="Flamedrake Talisman +1" disableParam_NT="1" refId="340210" weight="0.6" sellValue="500" sortId="401080" iconId="18511" sortGroupId="20" accessoryGroup="4020" />
+<row id="4022" paramdexName="Flamedrake Talisman +2" disableParam_NT="1" refId="340220" weight="0.6" sellValue="1000" sortId="401090" iconId="18512" sortGroupId="20" accessoryGroup="4020" />
+<row id="4030" paramdexName="Boltdrake Talisman" disableParam_NT="1" refId="340300" weight="0.6" sellValue="100" sortId="401100" iconId="18520" sortGroupId="20" accessoryGroup="4030" />
+<row id="4031" paramdexName="Boltdrake Talisman +1" disableParam_NT="1" refId="340310" weight="0.6" sellValue="500" sortId="401110" iconId="18521" sortGroupId="20" accessoryGroup="4030" />
+<row id="4032" paramdexName="Boltdrake Talisman +2" disableParam_NT="1" refId="340320" weight="0.6" sellValue="1000" sortId="401120" iconId="18522" sortGroupId="20" accessoryGroup="4030" />
+<row id="4040" paramdexName="Haligdrake Talisman" disableParam_NT="1" refId="340400" weight="0.6" sellValue="100" sortId="401130" iconId="18530" sortGroupId="20" accessoryGroup="4040" />
+<row id="4041" paramdexName="Haligdrake Talisman +1" disableParam_NT="1" refId="340410" weight="0.6" sellValue="500" sortId="401140" iconId="18531" sortGroupId="20" accessoryGroup="4040" />
+<row id="4042" paramdexName="Haligdrake Talisman +2" disableParam_NT="1" refId="340420" weight="0.6" sellValue="1000" sortId="401150" iconId="18532" sortGroupId="20" accessoryGroup="4040" />
+<row id="4050" paramdexName="Pearldrake Talisman" disableParam_NT="1" refId="340500" weight="0.9" sellValue="100" sortId="401160" iconId="18540" sortGroupId="20" accessoryGroup="4050" />
+<row id="4051" paramdexName="Pearldrake Talisman +1" disableParam_NT="1" refId="340510" weight="0.9" sellValue="500" sortId="401170" iconId="18541" sortGroupId="20" accessoryGroup="4050" />
+<row id="4052" paramdexName="Pearldrake Talisman +2" disableParam_NT="1" refId="340520" weight="0.9" sellValue="1000" sortId="401180" iconId="18542" sortGroupId="20" accessoryGroup="4050" />
+<row id="4060" paramdexName="Crucible Scale Talisman" disableParam_NT="1" refId="340600" weight="1.1" sellValue="500" sortId="405060" iconId="18550" sortGroupId="60" accessoryGroup="4060" />
+<row id="4070" paramdexName="Crucible Feather Talisman" disableParam_NT="1" refId="340700" weight="0.8" sellValue="1000" sortId="405070" iconId="18560" sortGroupId="60" accessoryGroup="4070" />
+<row id="4080" paramdexName="Blue-Feathered Branchsword" disableParam_NT="1" refId="340800" weight="1.1" sellValue="500" sortId="406010" iconId="18570" sortGroupId="70" accessoryGroup="4080" />
+<row id="4090" paramdexName="Ritual Shield Talisman" disableParam_NT="1" refId="340900" weight="0.9" sellValue="500" sortId="406030" iconId="18580" sortGroupId="70" accessoryGroup="4090" />
+<row id="4100" paramdexName="Greatshield Talisman" disableParam_NT="1" refId="341000" weight="0.9" sellValue="500" sortId="402080" iconId="18590" sortGroupId="30" accessoryGroup="4100" />
+<row id="4110" paramdexName="Crucible Knot Talisman" disableParam_NT="1" refId="341100" weight="0.5" sellValue="500" sortId="405080" iconId="18600" sortGroupId="60" accessoryGroup="4110" />
+<row id="5000" paramdexName="Crimson Seed Talisman" disableParam_NT="1" refId="350000" weight="0.8" sellValue="1000" sortId="400030" iconId="18610" sortGroupId="10" accessoryGroup="5000" />
+<row id="5010" paramdexName="Cerulean Seed Talisman" disableParam_NT="1" refId="350100" weight="0.8" sellValue="1000" sortId="400080" iconId="18620" sortGroupId="10" accessoryGroup="5010" />
+<row id="5020" paramdexName="Blessed Dew Talisman" disableParam_NT="1" refId="350200" weight="0.6" sellValue="1000" sortId="400040" iconId="18630" sortGroupId="10" accessoryGroup="5020" />
+<row id="5030" paramdexName="Taker's Cameo" disableParam_NT="1" refId="350300" weight="1" sellValue="1000" sortId="406120" iconId="18640" sortGroupId="70" accessoryGroup="5030" />
+<row id="5040" paramdexName="Godskin Swaddling Cloth" disableParam_NT="1" refId="350400" weight="0.9" sellValue="1000" sortId="406090" iconId="18650" sortGroupId="70" accessoryGroup="5040" />
+<row id="5050" paramdexName="Assassin's Crimson Dagger" disableParam_NT="1" refId="350500" weight="0.8" sellValue="1500" sortId="406040" iconId="18660" sortGroupId="70" accessoryGroup="5050" />
+<row id="5060" paramdexName="Assassin's Cerulean Dagger" disableParam_NT="1" refId="350600" weight="0.8" sellValue="1500" sortId="406050" iconId="18670" sortGroupId="70" accessoryGroup="5060" />
+<row id="6000" paramdexName="Crepus's Vial" disableParam_NT="1" refId="360000" weight="0.7" sellValue="500" sortId="407000" iconId="18680" sortGroupId="80" accessoryGroup="6000" />
+<row id="6010" paramdexName="Concealing Veil" disableParam_NT="1" refId="360100" weight="0.9" sellValue="500" sortId="407010" iconId="18690" sortGroupId="80" accessoryGroup="6010" />
+<row id="6020" paramdexName="Carian Filigreed Crest" disableParam_NT="1" refId="360200" weight="0.8" sellValue="1000" sortId="404030" iconId="18700" sortGroupId="50" accessoryGroup="6020" />
+<row id="6040" paramdexName="Longtail Cat Talisman" disableParam_NT="1" refId="360400" weight="0.6" sellValue="500" sortId="407020" iconId="18720" sortGroupId="80" accessoryGroup="6040" />
+<row id="6050" paramdexName="Shabriri's Woe" disableParam_NT="1" refId="360500" weight="0.6" sellValue="500" sortId="407050" iconId="18730" sortGroupId="80" accessoryGroup="6050" />
+<row id="6060" paramdexName="Daedicar's Woe" disableParam_NT="1" refId="360600" weight="0.8" sellValue="500" sortId="407060" iconId="18740" sortGroupId="80" accessoryGroup="6060" />
+<row id="6070" paramdexName="Sacrificial Twig" disableParam_NT="1" refId="360700" weight="1" sellValue="1000" sortId="407070" iconId="18750" sortGroupId="80" rarity="1" accessoryGroup="6070" />
+<row id="6080" paramdexName="Furled Finger's Trick-Mirror" disableParam_NT="1" refId="360800" weight="0.7" sellValue="1000" sortId="407030" iconId="18760" sortGroupId="80" accessoryGroup="6080" />
+<row id="6090" paramdexName="Host's Trick-Mirror" disableParam_NT="1" refId="360900" weight="0.7" sellValue="1000" sortId="407040" iconId="18770" sortGroupId="80" accessoryGroup="6080" />
+<row id="6100" paramdexName="Entwining Umbilical Cord" disableParam_NT="1" refId="361000" weight="0.5" sellValue="1000" sortId="999999" iconId="18780" sortGroupId="255" isDrop="0" accessoryGroup="6100" />
+<row id="6110" paramdexName="Ancestral Spirit's Horne" disableParam_NT="1" refId="361100" weight="1.2" sellValue="500" sortId="406130" iconId="18880" sortGroupId="70" rarity="3" accessoryGroup="6110" />
+<row id="7000" paramdexName="Crimson Amber Medallion +3" disableParam_NT="0" refId="20370000" weight="0.6" sellValue="2000" sortId="400025" iconId="18900" sortGroupId="10" accessoryGroup="1000" />
+<row id="7010" paramdexName="Cerulean Amber Medallion +3" disableParam_NT="0" refId="20370100" weight="0.6" sellValue="2000" sortId="400075" iconId="18901" sortGroupId="10" accessoryGroup="1010" />
+<row id="7020" paramdexName="Viridian Amber Medallion +3" disableParam_NT="0" refId="20370200" weight="0.6" sellValue="2000" sortId="400115" iconId="18902" sortGroupId="10" accessoryGroup="1020" />
+<row id="7030" paramdexName="Two-Headed Turtle Talisman" disableParam_NT="0" refId="20370300" weight="1" sellValue="1000" sortId="400125" iconId="18903" sortGroupId="10" accessoryGroup="1150" />
+<row id="7040" paramdexName="Stalwart Horn Charm +2" disableParam_NT="0" refId="20370400" weight="0.9" sellValue="2000" sortId="401221" iconId="18904" sortGroupId="20" accessoryGroup="1160" />
+<row id="7050" paramdexName="Immunizing Horn Charm +2" disableParam_NT="0" refId="20370500" weight="0.9" sellValue="2000" sortId="401201" iconId="18905" sortGroupId="20" accessoryGroup="1170" />
+<row id="7060" paramdexName="Clarifying Horn Charm +2" disableParam_NT="0" refId="20370600" weight="0.9" sellValue="2000" sortId="401241" iconId="18906" sortGroupId="20" accessoryGroup="1180" />
+<row id="7080" paramdexName="Mottled Necklace +2" disableParam_NT="0" refId="20370800" weight="1.2" sellValue="3000" sortId="401261" iconId="18908" sortGroupId="20" accessoryGroup="1200" />
+<row id="7090" paramdexName="Spelldrake Talisman +3" disableParam_NT="0" refId="20370900" weight="0.9" sellValue="2000" sortId="401061" iconId="18909" sortGroupId="20" accessoryGroup="4010" />
+<row id="7100" paramdexName="Flamedrake Talisman +3" disableParam_NT="0" refId="20371000" weight="0.9" sellValue="2000" sortId="401091" iconId="18910" sortGroupId="20" accessoryGroup="4020" />
+<row id="7110" paramdexName="Boltdrake Talisman +3" disableParam_NT="0" refId="20371100" weight="0.9" sellValue="2000" sortId="401121" iconId="18911" sortGroupId="20" accessoryGroup="4030" />
+<row id="7120" paramdexName="Golden Braid" disableParam_NT="0" refId="20371200" weight="0.9" sellValue="2000" sortId="401151" iconId="18912" sortGroupId="20" accessoryGroup="4040" />
+<row id="7130" paramdexName="Pearldrake Talisman +3" disableParam_NT="0" refId="20371300" weight="1.2" sellValue="2000" sortId="401181" iconId="18913" sortGroupId="20" accessoryGroup="4050" />
+<row id="7140" paramdexName="Crimson Seed Talisman +1" disableParam_NT="0" refId="20371400" weight="1.1" sellValue="2000" sortId="400035" iconId="18914" sortGroupId="10" accessoryGroup="5000" />
+<row id="7150" paramdexName="Cerulean Seed Talisman +1" disableParam_NT="0" refId="20371500" weight="1.1" sellValue="2000" sortId="400081" iconId="18915" sortGroupId="10" accessoryGroup="5010" />
+<row id="8000" paramdexName="Blessed Blue Dew Talisman" disableParam_NT="0" refId="20380000" weight="1.2" sellValue="1000" sortId="400082" iconId="18916" sortGroupId="10" accessoryGroup="8000" />
+<row id="8010" paramdexName="Fine Crucible Feather Talisman" disableParam_NT="0" refId="20380100" weight="0.6" sellValue="500" sortId="405090" iconId="18917" sortGroupId="60" accessoryGroup="8010" />
+<row id="8020" paramdexName="Outer God Heirloom" disableParam_NT="0" refId="20380200" weight="0.6" sellValue="1000" sortId="400270" iconId="18918" sortGroupId="10" accessoryGroup="8020" />
+<row id="8030" paramdexName="Shattered Stone Talisman" disableParam_NT="0" refId="20380300" weight="0.8" sellValue="500" sortId="404080" iconId="18924" sortGroupId="50" accessoryGroup="8030" />
+<row id="8040" paramdexName="Two-Handed Sword Talisman" disableParam_NT="0" refId="20380400" weight="1.2" sellValue="500" sortId="402075" iconId="18919" sortGroupId="30" accessoryGroup="8040" />
+<row id="8050" paramdexName="Crusade Insignia" disableParam_NT="0" refId="20380500" weight="1.2" sellValue="500" sortId="406131" iconId="18920" sortGroupId="70" accessoryGroup="8050" />
+<row id="8060" paramdexName="Aged One's Exultation" disableParam_NT="0" refId="20380600" weight="0.9" sellValue="500" sortId="406111" iconId="18921" sortGroupId="70" accessoryGroup="8060" />
+<row id="8070" paramdexName="Arrow's Soaring Sting Talisman" disableParam_NT="0" refId="20380700" weight="1.1" sellValue="1000" sortId="402110" iconId="18922" sortGroupId="30" accessoryGroup="2100" />
+<row id="8090" paramdexName="Pearl Shield Talisman" disableParam_NT="0" refId="20380900" weight="0.9" sellValue="500" sortId="402081" iconId="18925" sortGroupId="30" accessoryGroup="8090" />
+<row id="8100" paramdexName="Dried Bouquet" disableParam_NT="0" refId="20381000" weight="0.8" sellValue="500" sortId="406133" iconId="18923" sortGroupId="70" accessoryGroup="8100" />
+<row id="8110" paramdexName="Smithing Talisman" disableParam_NT="0" refId="20381100" weight="1.3" sellValue="500" sortId="404090" iconId="18934" sortGroupId="50" accessoryGroup="8110" />
+<row id="8120" paramdexName="Ailment Talisman" disableParam_NT="0" refId="20381200" weight="0.6" sellValue="500" sortId="401281" iconId="18926" sortGroupId="20" accessoryGroup="8120" />
+<row id="8130" paramdexName="Retaliatory Crossed-Tree" disableParam_NT="0" refId="20381300" weight="0.8" sellValue="500" sortId="402082" iconId="18937" sortGroupId="30" accessoryGroup="8130" />
+<row id="8140" paramdexName="Lacerating Crossed-Tree" disableParam_NT="0" refId="20381400" weight="0.8" sellValue="500" sortId="402083" iconId="18938" sortGroupId="30" accessoryGroup="8140" />
+<row id="8150" paramdexName="Sharpshot Talisman" disableParam_NT="0" refId="19990" weight="0.6" sellValue="500" sortId="402120" iconId="18927" sortGroupId="30" accessoryGroup="8150" />
+<row id="8160" paramdexName="St. Trina's Smile" disableParam_NT="0" refId="20381600" weight="0.9" sellValue="500" sortId="406112" iconId="18928" sortGroupId="70" accessoryGroup="8160" />
+<row id="8170" paramdexName="Talisman of the Dread" disableParam_NT="0" refId="20381700" weight="0.6" sellValue="500" sortId="404110" iconId="18929" sortGroupId="50" accessoryGroup="8170" />
+<row id="8180" paramdexName="Enraged Divine Beast" disableParam_NT="0" refId="20381800" weight="0.7" sellValue="500" sortId="404100" iconId="18930" sortGroupId="50" accessoryGroup="8180" />
+<row id="8190" paramdexName="Beloved Stardust" disableParam_NT="0" refId="20381900" weight="1.3" sellValue="2000" sortId="403080" iconId="18931" sortGroupId="40" accessoryGroup="3070" />
+<row id="8200" paramdexName="Talisman of Lord's Bestowal" disableParam_NT="0" refId="20382000" weight="3" sellValue="1000" sortId="400083" iconId="18932" sortGroupId="10" accessoryGroup="8200" />
+<row id="8210" paramdexName="Verdigris Discus" disableParam_NT="0" refId="19985" weight="4.5" sellValue="500" sortId="405015" iconId="18933" sortGroupId="60" accessoryGroup="8210" />
+<row id="8220" paramdexName="Rellana's Cameo" disableParam_NT="0" refId="20382200" weight="0.8" sellValue="500" sortId="404070" iconId="18935" sortGroupId="50" accessoryGroup="8220" />
+<row id="8230" paramdexName="Blade of Mercy" disableParam_NT="0" refId="20382300" weight="1.3" sellValue="500" sortId="406113" iconId="18936" sortGroupId="70" accessoryGroup="8230" />
+<row id="8240" paramdexName="Talisman of All Crucibles" disableParam_NT="0" refId="20382400" weight="1.9" sellValue="2000" sortId="405100" iconId="18939" sortGroupId="60" accessoryGroup="4060" residentSpEffectId1="20382401" residentSpEffectId2="20382402" residentSpEffectId3="20382403" residentSpEffectId4="20382404" />
+<row id="204000" disableParam_NT="0" refId="20511070" weight="0.3" sellValue="100" sortId="999999" iconId="0" sortGroupId="255" accessoryGroup="1000" />
+<row id="999999999" disableParam_NT="1" refId="361100" weight="0.8" sellValue="100" sortId="9999999" iconId="18880" sortGroupId="255" isDrop="0" rarity="1" accessoryGroup="6100" />
+</rows>
+</param>

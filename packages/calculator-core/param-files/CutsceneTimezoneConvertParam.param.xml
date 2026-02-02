@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>CutsceneTimezoneConvertParam.param</filename>
+<compression>None</compression>
+<type>CUTSCENE_TIMEZONE_CONVERT_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>CUTSCENE_TIMEZONE_CONVERT_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="SrcTimezoneStart" type="f32" arraylength="1" bitsize="-1" sortid="1" defaultValue="3" />
+<field name="DstCutscenTime" type="f32" arraylength="1" bitsize="-1" sortid="2" defaultValue="3.75" />
+</fields>
+<rows>
+<row id="0" SrcTimezoneStart="5.75" DstCutscenTime="6.5" />
+<row id="1" SrcTimezoneStart="8.5" DstCutscenTime="10.5" />
+<row id="2" SrcTimezoneStart="12.5" DstCutscenTime="14.5" />
+<row id="3" SrcTimezoneStart="16.5" DstCutscenTime="18" />
+<row id="4" SrcTimezoneStart="19.5" DstCutscenTime="22.5" />
+<row id="5" SrcTimezoneStart="1.5" DstCutscenTime="2.25" />
+<row id="6" SrcTimezoneStart="3" DstCutscenTime="3.75" />
+</rows>
+</param>

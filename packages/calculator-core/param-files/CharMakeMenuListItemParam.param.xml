@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>CharMakeMenuListItemParam.param</filename>
+<compression>None</compression>
+<type>CHARMAKEMENU_LISTITEM_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>2</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>CHARMAKEMENU_LISTITEM_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>2</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="value" type="s32" arraylength="1" bitsize="-1" sortid="1" defaultValue="1" />
+<field name="captionId" type="s32" arraylength="1" bitsize="-1" sortid="2" defaultValue="0" />
+<field name="iconId" type="u8" arraylength="1" bitsize="-1" sortid="2" defaultValue="0" />
+<field name="reserved" type="dummy8" arraylength="7" bitsize="-1" sortid="3" defaultValue="[0|0|0|0|0|0|0]" defaultThreshold="True" />
+</fields>
+<rows>
+<row id="0" value="1" captionId="0" iconId="0" />
+<row id="1" value="2" captionId="0" iconId="0" />
+<row id="2" value="3" captionId="0" iconId="0" />
+<row id="100" paramdexName="Build - Standard" value="0" captionId="421110" iconId="0" />
+<row id="101" paramdexName="Build - Slim" value="1" captionId="421111" iconId="0" />
+<row id="102" paramdexName="Build - Very Slim" value="2" captionId="421112" iconId="0" />
+<row id="103" paramdexName="Build - Burly" value="3" captionId="421113" iconId="0" />
+<row id="104" paramdexName="Build - Very Burly" value="4" captionId="421114" iconId="0" />
+<row id="105" paramdexName="Build - Burly Upper-body" value="5" captionId="421115" iconId="0" />
+<row id="106" paramdexName="Build - Burly Lower-body" value="6" captionId="421116" iconId="0" />
+<row id="107" paramdexName="Build - Small Head" value="7" captionId="421117" iconId="0" />
+<row id="108" paramdexName="Build - Big Head" value="8" captionId="421118" iconId="0" />
+<row id="120" paramdexName="Musculature - Standard" value="0" captionId="297170" iconId="0" />
+<row id="121" paramdexName="Musculature - Muscular" value="1" captionId="297171" iconId="0" />
+<row id="130" paramdexName="Body Hair - Type 1" value="0" captionId="0" iconId="180" />
+<row id="131" paramdexName="Body Hair - Type 2" value="1" captionId="0" iconId="181" />
+<row id="132" paramdexName="Body Hair - Type 3" value="2" captionId="0" iconId="182" />
+<row id="133" paramdexName="Body Hair - Type 4" value="3" captionId="0" iconId="183" />
+<row id="134" paramdexName="Body Hair - Type 5" value="4" captionId="0" iconId="184" />
+<row id="135" paramdexName="Body Hair - Type 6" value="5" captionId="0" iconId="185" />
+<row id="240" paramdexName="Base Template - Warrior" value="1000" captionId="297200" iconId="110" />
+<row id="241" paramdexName="Base Template - Truth-Seeker" value="1001" captionId="297201" iconId="111" />
+<row id="242" paramdexName="Base Template - Aristocrat" value="1002" captionId="297202" iconId="112" />
+<row id="243" paramdexName="Base Template - Loner" value="1003" captionId="297203" iconId="113" />
+<row id="244" paramdexName="Base Template - Northerner" value="1004" captionId="297204" iconId="114" />
+<row id="245" paramdexName="Base Template - Seafarer" value="1005" captionId="297205" iconId="115" />
+<row id="246" paramdexName="Base Template - Reedlander" value="1006" captionId="297206" iconId="116" />
+<row id="247" paramdexName="Base Template - Draconian" value="1007" captionId="297207" iconId="117" />
+<row id="248" paramdexName="Base Template - Nightfolk" value="1008" captionId="297208" iconId="118" />
+<row id="249" paramdexName="Base Template - Numen" value="1009" captionId="297209" iconId="119" />
+<row id="260" paramdexName="Base Template - Warrior (Female)" value="2000" captionId="297220" iconId="130" />
+<row id="261" paramdexName="Base Template - Truth-Seeker (Female)" value="2001" captionId="297221" iconId="131" />
+<row id="262" paramdexName="Base Template - Aristocrat (Female)" value="2002" captionId="297222" iconId="132" />
+<row id="263" paramdexName="Base Template - Loner (Female)" value="2003" captionId="297223" iconId="133" />
+<row id="264" paramdexName="Base Template - Northerner (Female)" value="2004" captionId="297224" iconId="134" />
+<row id="265" paramdexName="Base Template - Seafarer (Female)" value="2005" captionId="297225" iconId="135" />
+<row id="266" paramdexName="Base Template - Reedlander (Female)" value="2006" captionId="297226" iconId="136" />
+<row id="267" paramdexName="Base Template - Draconian (Female)" value="2007" captionId="297227" iconId="137" />
+<row id="268" paramdexName="Base Template - Nightfolk (Female)" value="2008" captionId="297228" iconId="138" />
+<row id="269" paramdexName="Base Template - Numen (Female)" value="2009" captionId="297229" iconId="139" />
+<row id="300" paramdexName="Right Eye - Normal Eye (Medium)" value="0" captionId="0" iconId="1" />
+<row id="301" paramdexName="Right Eye - Normal Eye (Small)" value="1" captionId="0" iconId="2" />
+<row id="302" paramdexName="Right Eye - Normal Eye (Large)" value="2" captionId="0" iconId="3" />
+<row id="303" paramdexName="Right Eye - All Sclera (Medium)" value="3" captionId="0" iconId="4" />
+<row id="304" paramdexName="Right Eye - All Sclera (Small)" value="4" captionId="0" iconId="5" />
+<row id="305" paramdexName="Right Eye - All Sclera (Large)" value="5" captionId="0" iconId="6" />
+<row id="306" paramdexName="Right Eye - All Pupil (Medium)" value="6" captionId="0" iconId="7" />
+<row id="307" paramdexName="Right Eye - All Pupil (Small)" value="7" captionId="0" iconId="8" />
+<row id="308" paramdexName="Right Eye - All Pupil (Large)" value="8" captionId="0" iconId="9" />
+<row id="400" paramdexName="Left Eye - Normal Eye (Medium)" value="0" captionId="0" iconId="1" />
+<row id="401" paramdexName="Left Eye - Normal Eye (Small)" value="1" captionId="0" iconId="2" />
+<row id="402" paramdexName="Left Eye - Normal Eye (Large)" value="2" captionId="0" iconId="3" />
+<row id="403" paramdexName="Left Eye - All Sclera (Medium)" value="3" captionId="0" iconId="4" />
+<row id="404" paramdexName="Left Eye - All Sclera (Small)" value="4" captionId="0" iconId="5" />
+<row id="405" paramdexName="Left Eye - All Sclera (Large)" value="5" captionId="0" iconId="6" />
+<row id="406" paramdexName="Left Eye - All Pupil (Medium)" value="6" captionId="0" iconId="7" />
+<row id="407" paramdexName="Left Eye - All Pupil (Small)" value="7" captionId="0" iconId="8" />
+<row id="408" paramdexName="Left Eye - All Pupil (Large)" value="8" captionId="0" iconId="9" />
+<row id="500" paramdexName="Eyebrows - Type 1" value="0" captionId="0" iconId="10" />
+<row id="501" paramdexName="Eyebrows - Type 2" value="1" captionId="0" iconId="11" />
+<row id="502" paramdexName="Eyebrows - Type 3" value="2" captionId="0" iconId="12" />
+<row id="503" paramdexName="Eyebrows - Type 4" value="3" captionId="0" iconId="13" />
+<row id="504" paramdexName="Eyebrows - Type 5" value="4" captionId="0" iconId="14" />
+<row id="505" paramdexName="Eyebrows - Type 6" value="5" captionId="0" iconId="15" />
+<row id="506" paramdexName="Eyebrows - Type 7" value="6" captionId="0" iconId="16" />
+<row id="507" paramdexName="Eyebrows - Type 8" value="7" captionId="0" iconId="17" />
+<row id="508" paramdexName="Eyebrows - Type 9" value="8" captionId="0" iconId="18" />
+<row id="509" paramdexName="Eyebrows - Type 10" value="9" captionId="0" iconId="19" />
+<row id="510" paramdexName="Eyebrows - Type 11" value="10" captionId="0" iconId="20" />
+<row id="511" paramdexName="Eyebrows - Type 12" value="11" captionId="0" iconId="21" />
+<row id="512" paramdexName="Eyebrows - Type 13" value="12" captionId="0" iconId="22" />
+<row id="513" paramdexName="Eyebrows - Type 14" value="13" captionId="0" iconId="23" />
+<row id="514" paramdexName="Eyebrows - Type 15" value="14" captionId="0" iconId="24" />
+<row id="515" paramdexName="Eyebrows - Type 16" value="15" captionId="0" iconId="25" />
+<row id="516" paramdexName="Eyebrows - Type 17" value="16" captionId="0" iconId="26" />
+<row id="600" paramdexName="Beard - Type 1" value="0" captionId="0" iconId="30" />
+<row id="601" paramdexName="Beard - Type 2" value="1" captionId="0" iconId="31" />
+<row id="602" paramdexName="Beard - Type 3" value="2" captionId="0" iconId="32" />
+<row id="603" paramdexName="Beard - Type 4" value="3" captionId="0" iconId="33" />
+<row id="604" paramdexName="Beard - Type 5" value="4" captionId="0" iconId="34" />
+<row id="605" paramdexName="Beard - Type 6" value="5" captionId="0" iconId="35" />
+<row id="606" paramdexName="Beard - Type 7" value="6" captionId="0" iconId="36" />
+<row id="607" paramdexName="Beard - Type 8" value="7" captionId="0" iconId="37" />
+<row id="608" paramdexName="Beard - Type 9" value="8" captionId="0" iconId="38" />
+<row id="609" paramdexName="Beard - Type 10" value="9" captionId="0" iconId="39" />
+<row id="610" paramdexName="Beard - Type 11" value="10" captionId="0" iconId="40" />
+<row id="611" paramdexName="Beard - Type 12" value="11" captionId="0" iconId="41" />
+<row id="620" paramdexName="Beard (Female) - Type 1" value="0" captionId="0" iconId="30" />
+<row id="621" paramdexName="Beard (Female) - Type 2" value="1" captionId="0" iconId="31" />
+<row id="622" paramdexName="Beard (Female) - Type 3" value="2" captionId="0" iconId="32" />
+<row id="623" paramdexName="Beard (Female) - Type 4" value="3" captionId="0" iconId="33" />
+<row id="624" paramdexName="Beard (Female) - Type 5" value="4" captionId="0" iconId="34" />
+<row id="625" paramdexName="Beard (Female) - Type 6" value="5" captionId="0" iconId="35" />
+<row id="626" paramdexName="Beard (Female) - Type 7" value="6" captionId="0" iconId="36" />
+<row id="627" paramdexName="Beard (Female) - Type 8" value="7" captionId="0" iconId="37" />
+<row id="628" paramdexName="Beard (Female) - Type 9" value="8" captionId="0" iconId="38" />
+<row id="629" paramdexName="Beard (Female) - Type 10" value="9" captionId="0" iconId="39" />
+<row id="630" paramdexName="Beard (Female) - Type 11" value="10" captionId="0" iconId="40" />
+<row id="631" paramdexName="Beard (Female) - Type 12" value="11" captionId="0" iconId="41" />
+<row id="700" paramdexName="Hairstyle - Type 1" value="0" captionId="0" iconId="70" />
+<row id="701" paramdexName="Hairstyle - Type 2" value="113" captionId="0" iconId="71" />
+<row id="702" paramdexName="Hairstyle - Type 3" value="112" captionId="0" iconId="72" />
+<row id="703" paramdexName="Hairstyle - Type 4" value="1" captionId="0" iconId="73" />
+<row id="704" paramdexName="Hairstyle - Type 5" value="3" captionId="0" iconId="75" />
+<row id="705" paramdexName="Hairstyle - Type 6" value="100" captionId="0" iconId="76" />
+<row id="706" paramdexName="Hairstyle - Type 7" value="5" captionId="0" iconId="77" />
+<row id="707" paramdexName="Hairstyle - Type 8" value="10" captionId="0" iconId="78" />
+<row id="708" paramdexName="Hairstyle - Type 9" value="101" captionId="0" iconId="79" />
+<row id="709" paramdexName="Hairstyle - Type 10" value="9" captionId="0" iconId="80" />
+<row id="710" paramdexName="Hairstyle - Type 11" value="8" captionId="0" iconId="81" />
+<row id="711" paramdexName="Hairstyle - Type 12" value="6" captionId="0" iconId="82" />
+<row id="712" paramdexName="Hairstyle - Type 13" value="7" captionId="0" iconId="83" />
+<row id="713" paramdexName="Hairstyle - Type 14" value="115" captionId="0" iconId="96" />
+<row id="714" paramdexName="Hairstyle - Type 15" value="114" captionId="0" iconId="95" />
+<row id="715" paramdexName="Hairstyle - Type 16" value="2" captionId="0" iconId="74" />
+<row id="716" paramdexName="Hairstyle - Type 17" value="4" captionId="0" iconId="84" />
+<row id="717" paramdexName="Hairstyle - Type 18" value="102" captionId="0" iconId="85" />
+<row id="718" paramdexName="Hairstyle - Type 19" value="103" captionId="0" iconId="86" />
+<row id="719" paramdexName="Hairstyle - Type 20" value="104" captionId="0" iconId="87" />
+<row id="720" paramdexName="Hairstyle - Type 21" value="105" captionId="0" iconId="88" />
+<row id="721" paramdexName="Hairstyle - Type 22" value="106" captionId="0" iconId="89" />
+<row id="722" paramdexName="Hairstyle - Type 23" value="107" captionId="0" iconId="90" />
+<row id="723" paramdexName="Hairstyle - Type 24" value="109" captionId="0" iconId="91" />
+<row id="724" paramdexName="Hairstyle - Type 25" value="108" captionId="0" iconId="92" />
+<row id="725" paramdexName="Hairstyle - Type 26" value="111" captionId="0" iconId="93" />
+<row id="726" paramdexName="Hairstyle - Type 27" value="110" captionId="0" iconId="94" />
+<row id="727" paramdexName="Hairstyle - Type 28" value="117" captionId="0" iconId="193" />
+<row id="728" paramdexName="Hairstyle - Type 29" value="119" captionId="0" iconId="194" />
+<row id="729" paramdexName="Hairstyle - Type 30" value="118" captionId="0" iconId="191" />
+<row id="730" paramdexName="Hairstyle - Type 31" value="116" captionId="0" iconId="190" />
+<row id="731" paramdexName="Hairstyle - Type 32" value="121" captionId="0" iconId="192" />
+<row id="732" paramdexName="Hairstyle - Type 33" value="125" captionId="0" iconId="199" />
+<row id="733" paramdexName="Hairstyle - Type 34" value="122" captionId="0" iconId="196" />
+<row id="734" paramdexName="Hairstyle - Type 35" value="120" captionId="0" iconId="195" />
+<row id="735" paramdexName="Hairstyle - Type 36" value="123" captionId="0" iconId="197" />
+<row id="736" paramdexName="Hairstyle - Type 37" value="124" captionId="0" iconId="198" />
+<row id="800" paramdexName="Tattoo - Type 1" value="0" captionId="0" iconId="50" />
+<row id="801" paramdexName="Tattoo - Type 2" value="1" captionId="0" iconId="51" />
+<row id="802" paramdexName="Tattoo - Type 3" value="2" captionId="0" iconId="57" />
+<row id="803" paramdexName="Tattoo - Type 4" value="3" captionId="0" iconId="58" />
+<row id="804" paramdexName="Tattoo - Type 5" value="4" captionId="0" iconId="59" />
+<row id="805" paramdexName="Tattoo - Type 6" value="5" captionId="0" iconId="60" />
+<row id="806" paramdexName="Tattoo - Type 7" value="6" captionId="0" iconId="61" />
+<row id="807" paramdexName="Tattoo - Type 8" value="7" captionId="0" iconId="62" />
+<row id="808" paramdexName="Tattoo - Type 9" value="8" captionId="0" iconId="63" />
+<row id="809" paramdexName="Tattoo - Type 10" value="9" captionId="0" iconId="64" />
+<row id="810" paramdexName="Tattoo - Type 11" value="10" captionId="0" iconId="65" />
+<row id="811" paramdexName="Tattoo - Type 12" value="11" captionId="0" iconId="68" />
+<row id="812" paramdexName="Tattoo - Type 13" value="12" captionId="0" iconId="69" />
+<row id="813" paramdexName="Tattoo - Type 14" value="13" captionId="0" iconId="111" />
+<row id="814" paramdexName="Tattoo - Type 15" value="14" captionId="0" iconId="113" />
+<row id="815" paramdexName="Tattoo - Type 16" value="15" captionId="0" iconId="114" />
+<row id="816" paramdexName="Tattoo - Type 17" value="16" captionId="0" iconId="116" />
+<row id="817" paramdexName="Tattoo - Type 18" value="17" captionId="0" iconId="117" />
+<row id="818" paramdexName="Tattoo - Type 19" value="18" captionId="0" iconId="118" />
+<row id="819" paramdexName="Tattoo - Type 20" value="20" captionId="0" iconId="120" />
+<row id="820" paramdexName="Tattoo - Type 21" value="21" captionId="0" iconId="121" />
+<row id="821" paramdexName="Tattoo - Type 22" value="22" captionId="0" iconId="122" />
+<row id="822" paramdexName="Tattoo - Type 23" value="23" captionId="0" iconId="123" />
+<row id="823" paramdexName="Tattoo - Type 24" value="24" captionId="0" iconId="124" />
+<row id="824" paramdexName="Tattoo - Type 25" value="25" captionId="0" iconId="125" />
+<row id="825" paramdexName="Tattoo - Type 26" value="26" captionId="0" iconId="126" />
+<row id="826" paramdexName="Tattoo - Type 27" value="27" captionId="0" iconId="128" />
+<row id="827" paramdexName="Tattoo - Type 28" value="28" captionId="0" iconId="129" />
+<row id="828" paramdexName="Tattoo - Type 29" value="29" captionId="0" iconId="130" />
+<row id="829" paramdexName="Tattoo - Type 30" value="30" captionId="0" iconId="131" />
+<row id="830" paramdexName="Tattoo - Type 31" value="31" captionId="0" iconId="132" />
+<row id="831" paramdexName="Tattoo - Type 32" value="32" captionId="0" iconId="133" />
+<row id="832" paramdexName="Tattoo - Type 33" value="33" captionId="0" iconId="134" />
+<row id="833" paramdexName="Tattoo - Type 34" value="34" captionId="0" iconId="135" />
+<row id="834" paramdexName="Tattoo - Type 35" value="35" captionId="0" iconId="136" />
+<row id="835" paramdexName="Tattoo - Type 36" value="36" captionId="0" iconId="137" />
+<row id="836" paramdexName="Tattoo - Type 37" value="37" captionId="0" iconId="138" />
+<row id="837" paramdexName="Tattoo - Type 38" value="38" captionId="0" iconId="139" />
+<row id="900" paramdexName="Accessories - Type 1" value="0" captionId="0" iconId="240" />
+<row id="901" paramdexName="Accessories - Type 2" value="2" captionId="0" iconId="241" />
+<row id="902" paramdexName="Accessories - Type 3" value="1" captionId="0" iconId="242" />
+<row id="903" paramdexName="Accessories - Type 4" value="10" captionId="0" iconId="243" />
+<row id="1000" paramdexName="Pupil Type - Normal 1" value="0" captionId="0" iconId="1" />
+<row id="1001" paramdexName="Pupil Type - Normal 2" value="1" captionId="0" iconId="2" />
+<row id="1002" paramdexName="Pupil Type - Normal 3" value="2" captionId="0" iconId="3" />
+<row id="1003" paramdexName="Pupil Type - Sclera 1" value="3" captionId="0" iconId="4" />
+<row id="1004" paramdexName="Pupil Type - Sclera 2" value="4" captionId="0" iconId="5" />
+<row id="1005" paramdexName="Pupil Type - Sclera 3" value="5" captionId="0" iconId="6" />
+<row id="1006" paramdexName="Pupil Color - Cornea 1" value="6" captionId="0" iconId="7" />
+<row id="1007" paramdexName="Pupil Color - Cornea 2" value="7" captionId="0" iconId="8" />
+<row id="1008" paramdexName="Pupil Color - Cornea 3" value="8" captionId="0" iconId="9" />
+<row id="1100" paramdexName="Eyelashes - None" value="0" captionId="0" iconId="100" />
+<row id="1101" paramdexName="Eyelashes - Short" value="1" captionId="0" iconId="101" />
+<row id="1102" paramdexName="Eyelashes - Medium" value="2" captionId="0" iconId="102" />
+<row id="1103" paramdexName="Eyelashes - Long" value="3" captionId="0" iconId="103" />
+<row id="1200" paramdexName="ON" value="0" captionId="297180" iconId="0" />
+<row id="1201" paramdexName="OFF" value="1" captionId="297181" iconId="0" />
+<row id="1300" paramdexName="ON" value="1" captionId="297185" iconId="0" />
+<row id="1301" paramdexName="OFF" value="0" captionId="297186" iconId="0" />
+<row id="1310" paramdexName="ON" value="1" captionId="297187" iconId="0" />
+<row id="1311" paramdexName="OFF" value="0" captionId="297188" iconId="0" />
+<row id="100000" paramdexName="Body Type - A" value="0" captionId="297100" iconId="0" />
+<row id="100001" paramdexName="Body Type - B" value="1" captionId="297101" iconId="0" />
+<row id="100100" paramdexName="Age - Young" value="0" captionId="297110" iconId="0" />
+<row id="100101" paramdexName="Age - Mature" value="1" captionId="297111" iconId="0" />
+<row id="100102" paramdexName="Age - Aged" value="2" captionId="297112" iconId="0" />
+<row id="100200" paramdexName="Class - Vagabond" value="0" captionId="297130" iconId="0" />
+<row id="100201" paramdexName="Class - Warrior" value="1" captionId="297131" iconId="0" />
+<row id="100202" paramdexName="Class - Hero" value="2" captionId="297132" iconId="0" />
+<row id="100203" paramdexName="Class - Bandit" value="3" captionId="297133" iconId="0" />
+<row id="100204" paramdexName="Class - Astrologer" value="4" captionId="297134" iconId="0" />
+<row id="100205" paramdexName="Class - Prophet" value="5" captionId="297135" iconId="0" />
+<row id="100206" paramdexName="Class - Samurai" value="7" captionId="297136" iconId="0" />
+<row id="100207" paramdexName="Class - Prisoner" value="8" captionId="297137" iconId="0" />
+<row id="100208" paramdexName="Class - Confessor" value="6" captionId="297138" iconId="0" />
+<row id="100209" paramdexName="Class - Wretch" value="9" captionId="297139" iconId="0" />
+<row id="100300" paramdexName="Gift - None" value="0" captionId="297150" iconId="0" />
+<row id="100301" paramdexName="Gift - Crimson Amber Medallion" value="1" captionId="297151" iconId="0" />
+<row id="100302" paramdexName="Gift - Lands Between Rune" value="2" captionId="297152" iconId="0" />
+<row id="100303" paramdexName="Gift - Golden Seed" value="3" captionId="297153" iconId="0" />
+<row id="100304" paramdexName="Gift - Fanged Imp Ashes" value="4" captionId="297154" iconId="0" />
+<row id="100305" paramdexName="Gift - Cracked Pot" value="5" captionId="297156" iconId="0" />
+<row id="100306" paramdexName="Gift - Stonesword Key" value="6" captionId="297157" iconId="0" />
+<row id="100307" paramdexName="Gift - Bewitching Branch" value="7" captionId="297158" iconId="0" />
+<row id="100308" paramdexName="Gift - Boiled Prawn" value="8" captionId="297159" iconId="0" />
+<row id="100309" paramdexName="Gift - Shabriri's Woe" value="9" captionId="297160" iconId="0" />
+<row id="100400" paramdexName="Voice - Young 1" value="0" captionId="297120" iconId="0" />
+<row id="100401" paramdexName="Voice - Young 2" value="1" captionId="297125" iconId="0" />
+<row id="100402" paramdexName="Voice - Mature 1" value="2" captionId="297121" iconId="0" />
+<row id="100403" paramdexName="Voice - Mature 2" value="3" captionId="297126" iconId="0" />
+<row id="100404" paramdexName="Voice - Aged 1" value="4" captionId="297122" iconId="0" />
+<row id="100405" paramdexName="Voice - Aged 2" value="5" captionId="297127" iconId="0" />
+</rows>
+</param>

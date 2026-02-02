@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>MimicryEstablishmentTexParam.param</filename>
+<compression>None</compression>
+<type>MIMICRY_ESTABLISHMENT_TEX_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>MIMICRY_ESTABLISHMENT_TEX_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="disableParam_NT" type="u8" arraylength="1" bitsize="1" sortid="0" defaultValue="0" />
+<field name="disableParamReserve1" type="dummy8" arraylength="1" bitsize="7" sortid="201" defaultValue="[0]" />
+<field name="disableParamReserve2" type="dummy8" arraylength="3" bitsize="-1" sortid="202" defaultValue="[0|0|0]" />
+<field name="srcR" type="u8" arraylength="1" bitsize="-1" sortid="110" defaultValue="0" />
+<field name="srcG" type="u8" arraylength="1" bitsize="-1" sortid="120" defaultValue="0" />
+<field name="srcB" type="u8" arraylength="1" bitsize="-1" sortid="130" defaultValue="0" />
+<field name="pad1" type="dummy8" arraylength="1" bitsize="-1" sortid="203" defaultValue="[0]" />
+<field name="mimicryEstablishmentParamId" type="s32" arraylength="1" bitsize="-1" sortid="200" defaultValue="-1" />
+<field name="pad2" type="dummy8" arraylength="4" bitsize="-1" sortid="204" defaultValue="[0|0|0|0]" />
+</fields>
+<rows>
+<row id="255" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="0" srcG="0" srcB="0" pad1="[0]" mimicryEstablishmentParamId="-1" pad2="[0|0|0|0]" />
+</rows>
+</param>

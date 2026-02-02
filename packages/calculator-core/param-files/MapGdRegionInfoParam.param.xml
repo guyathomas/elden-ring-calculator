@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>MapGdRegionInfoParam.param</filename>
+<compression>None</compression>
+<type>MAP_GD_REGION_ID_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>2</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>MAP_GD_REGION_ID_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>2</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="disableParam_NT" type="u8" arraylength="1" bitsize="1" sortid="0" defaultValue="1" defaultThreshold="True" />
+<field name="disableParamReserve1" type="dummy8" arraylength="1" bitsize="7" sortid="6" defaultValue="[0]" defaultThreshold="True" />
+<field name="disableParamReserve2" type="dummy8" arraylength="3" bitsize="-1" sortid="7" defaultValue="[0|0|0]" defaultThreshold="True" />
+<field name="mapRegionId" type="u32" arraylength="1" bitsize="-1" sortid="0" defaultValue="20" />
+<field name="Reserve" type="dummy8" arraylength="24" bitsize="-1" sortid="8" defaultValue="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" defaultThreshold="True" />
+</fields>
+<rows>
+<row id="10000000" paramdexName="Stormveil Castle" disableParam_NT="0" mapRegionId="1000" />
+<row id="10010000" paramdexName="Chapel of Anticipation" mapRegionId="1001" />
+<row id="11000000" paramdexName="Leyndell, Royal Capital" mapRegionId="1100" />
+<row id="11050000" paramdexName="Leyndell, Ashen Capital" mapRegionId="1105" />
+<row id="11100000" mapRegionId="1110" />
+<row id="11710000" mapRegionId="1171" />
+<row id="12010000" paramdexName="Ainsel River" mapRegionId="1201" />
+<row id="12020000" paramdexName="Siofra River" mapRegionId="1202" />
+<row id="12030000" paramdexName="Deeproot Depths" mapRegionId="1203" />
+<row id="12040000" paramdexName="Ainsel River - Boss" mapRegionId="1204" />
+<row id="12050000" paramdexName="Mohgwyn Palace" mapRegionId="1205" />
+<row id="12060000" mapRegionId="1206" />
+<row id="12070000" mapRegionId="1207" />
+<row id="12080000" mapRegionId="1208" />
+<row id="13000000" paramdexName="Crumbling Farum Azula" mapRegionId="1300" />
+<row id="14000000" paramdexName="Academy of Raya Lucaria" mapRegionId="1400" />
+<row id="15000000" paramdexName="Miquella's Haligtree" mapRegionId="1500" />
+<row id="16000000" paramdexName="Volcano Manor" mapRegionId="1600" />
+<row id="18000000" paramdexName="Stranded Graveyard" disableParam_NT="0" mapRegionId="1800" />
+<row id="19000000" paramdexName="Stone Platform" mapRegionId="1900" />
+<row id="20000000" mapRegionId="2000" />
+<row id="20010000" mapRegionId="2001" />
+<row id="21000000" mapRegionId="2100" />
+<row id="21010000" mapRegionId="2101" />
+<row id="21020000" mapRegionId="2102" />
+<row id="22000000" mapRegionId="2200" />
+<row id="25000000" mapRegionId="2500" />
+<row id="28000000" mapRegionId="2800" />
+<row id="30000000" paramdexName="Tombsward Catacombs" mapRegionId="3000" />
+<row id="30010000" paramdexName="Impaler's Catacombs" mapRegionId="3001" />
+<row id="30020000" paramdexName="Stormfoot Catacombs" disableParam_NT="0" mapRegionId="3002" />
+<row id="30030000" paramdexName="Road's End Catacombs" mapRegionId="3003" />
+<row id="30040000" paramdexName="Murkwater Catacombs" disableParam_NT="0" mapRegionId="3004" />
+<row id="30050000" paramdexName="Black Knife Catacombs" mapRegionId="3005" />
+<row id="30060000" paramdexName="Cliffbottom Catacombs" mapRegionId="3006" />
+<row id="30070000" paramdexName="Wyndham Catacombs" mapRegionId="3007" />
+<row id="30080000" paramdexName="Sainted Hero's Grave" mapRegionId="3008" />
+<row id="30090000" paramdexName="Gelmir Hero's Grave" mapRegionId="3009" />
+<row id="30100000" paramdexName="Auriza Hero's Grave" mapRegionId="3010" />
+<row id="30110000" paramdexName="Deathtouched Catacombs" mapRegionId="3011" />
+<row id="30120000" paramdexName="Unsightly Catacombs" mapRegionId="3012" />
+<row id="30130000" paramdexName="Auriza Side Tomb" mapRegionId="3013" />
+<row id="30140000" paramdexName="Minor Erdtree Catacombs" mapRegionId="3014" />
+<row id="30150000" paramdexName="Caelid Catacombs" mapRegionId="3015" />
+<row id="30160000" paramdexName="War-Dead Catacombs" mapRegionId="3016" />
+<row id="30170000" paramdexName="Giant-Conquering Hero's Grave" mapRegionId="3017" />
+<row id="30180000" paramdexName="Giants' Mountaintop Catacombs" mapRegionId="3018" />
+<row id="30190000" paramdexName="Consecrated Snowfield Catacombs" mapRegionId="3019" />
+<row id="30200000" mapRegionId="3020" />
+<row id="31000000" mapRegionId="3100" />
+<row id="31010000" paramdexName="Earthbore Cave" mapRegionId="3101" />
+<row id="31020000" paramdexName="Tombsward Cave" mapRegionId="3102" />
+<row id="31030000" paramdexName="Groveside Cave" disableParam_NT="0" mapRegionId="3103" />
+<row id="31040000" paramdexName="Stillwater Cave" mapRegionId="3104" />
+<row id="31050000" paramdexName="Lakeside Crystal Cave" mapRegionId="3105" />
+<row id="31060000" paramdexName="Academy Crystal Cave" mapRegionId="3106" />
+<row id="31070000" paramdexName="Seethewater Cave" mapRegionId="3107" />
+<row id="31080000" mapRegionId="3108" />
+<row id="31090000" paramdexName="Volcano Cave" mapRegionId="3109" />
+<row id="31100000" paramdexName="Dragonbarrow Cave" mapRegionId="3110" />
+<row id="31110000" paramdexName="Sellia Hideaway" mapRegionId="3111" />
+<row id="31120000" paramdexName="Cave of the Forlorn" mapRegionId="3112" />
+<row id="31130000" mapRegionId="3113" />
+<row id="31140000" mapRegionId="3114" />
+<row id="31150000" paramdexName="Coastal Cave" disableParam_NT="0" mapRegionId="3115" />
+<row id="31170000" paramdexName="Highroad Cave" mapRegionId="3117" />
+<row id="31180000" mapRegionId="3118" />
+<row id="31190000" mapRegionId="3119" />
+<row id="31200000" mapRegionId="3120" />
+<row id="31210000" mapRegionId="3121" />
+<row id="31220000" mapRegionId="3122" />
+<row id="32000000" paramdexName="Morne Tunnel" mapRegionId="3200" />
+<row id="32010000" paramdexName="Limgrave Tunnels" disableParam_NT="0" mapRegionId="3201" />
+<row id="32020000" paramdexName="Raya Lucaria Crystal Tunnel" mapRegionId="3202" />
+<row id="32030000" mapRegionId="3203" />
+<row id="32040000" paramdexName="Old Altus Tunnel" mapRegionId="3204" />
+<row id="32050000" paramdexName="Altus Tunnel" mapRegionId="3205" />
+<row id="32060000" mapRegionId="3206" />
+<row id="32070000" paramdexName="Gael Tunnel" mapRegionId="3207" />
+<row id="32080000" paramdexName="Sellia Crystal Tunnel" mapRegionId="3208" />
+<row id="32090000" mapRegionId="3209" />
+<row id="32100000" mapRegionId="3210" />
+<row id="32110000" paramdexName="Yelough Anix Tunnel" mapRegionId="3211" />
+<row id="32120000" mapRegionId="3212" />
+<row id="34100000" paramdexName="Divine Tower of Limgrave" mapRegionId="3410" />
+<row id="34110000" paramdexName="Divine Tower of Liurnia" mapRegionId="3411" />
+<row id="34120000" paramdexName="Divine Tower of West Altus" mapRegionId="3412" />
+<row id="34130000" paramdexName="Divine Tower of Caelid" mapRegionId="3413" />
+<row id="34140000" paramdexName="Divine Tower of East Altus" mapRegionId="3414" />
+<row id="34150000" paramdexName="Isolated Divine Tower" mapRegionId="3415" />
+<row id="34160000" mapRegionId="3416" />
+<row id="35000000" paramdexName="Subterranean Shunning-Grounds" mapRegionId="3500" />
+<row id="39200000" paramdexName="Ruin-Strewn Precipice" mapRegionId="3920" />
+<row id="40000000" mapRegionId="4000" />
+<row id="40010000" mapRegionId="4001" />
+<row id="40020000" mapRegionId="4002" />
+<row id="41000000" mapRegionId="4100" />
+<row id="41010000" mapRegionId="4101" />
+<row id="41020000" mapRegionId="4102" />
+<row id="42000000" mapRegionId="4200" />
+<row id="42010000" mapRegionId="4201" />
+<row id="42020000" mapRegionId="4202" />
+<row id="42030000" mapRegionId="4203" />
+<row id="43000000" mapRegionId="4300" />
+<row id="43010000" mapRegionId="4301" />
+<row id="50523700" mapRegionId="31" />
+<row id="60081002" mapRegionId="10" />
+<row id="60081102" mapRegionId="10" />
+<row id="60081202" mapRegionId="10" />
+<row id="60091002" mapRegionId="10" />
+<row id="60091102" mapRegionId="10" />
+<row id="60182401" mapRegionId="10" />
+<row id="60191901" mapRegionId="10" />
+<row id="60192401" mapRegionId="10" />
+<row id="60202001" mapRegionId="10" />
+<row id="60202201" mapRegionId="10" />
+<row id="60232001" mapRegionId="30" />
+<row id="60241801" mapRegionId="30" />
+<row id="60241901" mapRegionId="30" />
+<row id="60242001" mapRegionId="30" />
+<row id="60251701" mapRegionId="30" />
+<row id="60251801" mapRegionId="30" />
+<row id="60251901" mapRegionId="30" />
+<row id="60252001" mapRegionId="30" />
+<row id="60252101" mapRegionId="30" />
+<row id="60252201" mapRegionId="30" />
+<row id="60261701" mapRegionId="30" />
+<row id="60261801" mapRegionId="31" />
+<row id="60261901" mapRegionId="31" />
+<row id="60262001" mapRegionId="30" />
+<row id="60262101" mapRegionId="30" />
+<row id="60262201" mapRegionId="30" />
+<row id="60345200" mapRegionId="21" />
+<row id="60345300" mapRegionId="21" />
+<row id="60345400" mapRegionId="21" />
+<row id="60345500" mapRegionId="21" />
+<row id="60355200" paramdexName="Mt. Gelmir - Before Hermit Shack" mapRegionId="21" />
+<row id="60355300" paramdexName="Mt. Gelmir - Seethewater Terminus" mapRegionId="21" />
+<row id="60355400" paramdexName="Mt. Gelmir - Fort Laiedd" mapRegionId="21" />
+<row id="60355500" mapRegionId="21" />
+<row id="60365000" paramdexName="Liurnia of the Lakes - Behind Caria Manor, Royal Grave Evergaol, Part of Ravine" mapRegionId="10" />
+<row id="60365100" paramdexName="Altus Plateau - Perfumer's Ruins, Unsightly Catacombs Entrance" mapRegionId="20" />
+<row id="60365200" paramdexName="Mt. Gelmir - Craftsman's Shack, Hermit's Shack" mapRegionId="21" />
+<row id="60365300" paramdexName="Mt. Gelmir - Outside Volcano Manor" mapRegionId="21" />
+<row id="60365400" paramdexName="Mt. Gelmir - Ninth Mt. Gelmir Campsite, Road of Iniquity, Volcano Manor Entrance" mapRegionId="21" />
+<row id="60365500" mapRegionId="21" />
+<row id="60375000" paramdexName="Liurnia of the Lake - Northeast Ravine; Bellum Highway - West of Grand Lift of Dectus" mapRegionId="10" />
+<row id="60375100" paramdexName="Altus Plateau - Abandoned Coffin, Ruin-Strewn Precipice Exit" mapRegionId="20" />
+<row id="60375200" paramdexName="Mt. Gelmir - Seethewater River, Hermit Village, Wyndham Catacombs Entrance, Sage's Cave Entrance" mapRegionId="21" />
+<row id="60375300" paramdexName="Mt. Gelmir - Azur, Gelmir Hero's Grave Entrance" mapRegionId="21" />
+<row id="60375400" paramdexName="Mt. Gelmir - Minor Erdtree, Seethewater Cave Entrance" mapRegionId="21" />
+<row id="60375500" paramdexName="Mt. Gelmir - Volcano Cave Entrance" mapRegionId="21" />
+<row id="60385000" paramdexName="Liurnia of the Lakes - Ravine-Veiled Village; Bellum Highway - Grand Lift of Dectus; Altus Plateau - Altus Plateau; Ruin-Strewn Precipice Entrance" mapRegionId="10" />
+<row id="60385100" paramdexName="Altus Plateau - Erdtree-Gazing Hill, Lux Ruins" mapRegionId="20" />
+<row id="60385200" paramdexName="Altus Plateau - Wyndham Ruins, Wyndham Catacombs Entrance" mapRegionId="20" />
+<row id="60385300" paramdexName="Altus Plateau - Old Altus Tunnel Entrance" mapRegionId="21" />
+<row id="60385400" paramdexName="Mt. Gelmir - First Mt. Gelmir Campsite, Corpse-Stench Shack; Altus Plateau - West of Shaded Castle" mapRegionId="21" />
+<row id="60385500" mapRegionId="21" />
+<row id="60395000" paramdexName="Altus Plateau - Golden Lineage Evergaol" mapRegionId="20" />
+<row id="60395100" paramdexName="Altus Plateau - Altus Highway Junction" mapRegionId="20" />
+<row id="60395200" paramdexName="Altus Plateau - Second Church of Marika" mapRegionId="20" />
+<row id="60395300" paramdexName="Altus Plateau - Mirage Rise; Mt. Gelmir - Bridge of Iniquity" mapRegionId="20" />
+<row id="60395400" paramdexName="Altus Plateau - Shaded Castle" mapRegionId="20" />
+<row id="60395500" mapRegionId="20" />
+<row id="60405000" paramdexName="Altus Plateau - Southwest of Tree Sentinel Duo" mapRegionId="20" />
+<row id="60405100" paramdexName="Altus Plateau - West of Tree Sentinel Duo, Stormcaller Church" mapRegionId="20" />
+<row id="60405200" paramdexName="Altus Plateau - Forest-Spanning Greatbridge, St. Trina's Hideaway, Sainted Hero's Grave Entrance" mapRegionId="20" />
+<row id="60405300" paramdexName="Altus Plateau - Bower of Bounty, Writheblood Ruins" mapRegionId="20" />
+<row id="60405400" paramdexName="Altus Plateau - Road of Iniquity Side Path" mapRegionId="20" />
+<row id="60405500" paramdexName="Altus Plateau - West Windmill Pasture" mapRegionId="20" />
+<row id="60414900" mapRegionId="20" />
+<row id="60415000" paramdexName="Altus Plateau - South of Tree Sentinel Duo" mapRegionId="20" />
+<row id="60415100" paramdexName="Altus Plateau - Tree Sentinel Duo, Perfumer's Grotto Entrance" mapRegionId="20" />
+<row id="60415200" paramdexName="Altus Plateau - Rampartside Path, Altus Tunnel Entrance" mapRegionId="20" />
+<row id="60415300" paramdexName="Altus Plateau - Woodfolk Ruins, Minor Erdtree" mapRegionId="20" />
+<row id="60415400" paramdexName="Altus Plateau - West Windmill Village" mapRegionId="20" />
+<row id="60415500" paramdexName="Altus Plateau - Village Windmill Pasture, East Windmill Pasture" mapRegionId="20" />
+<row id="60424900" mapRegionId="20" />
+<row id="60425000" paramdexName="Leyndell - South of Outer Wall Phantom Tree" mapRegionId="20" />
+<row id="60425100" paramdexName="Leyndell - Outer Wall Phantom Tree" mapRegionId="20" />
+<row id="60425200" paramdexName="Leyndell - Southwest Outer Wall Battleground" mapRegionId="20" />
+<row id="60425300" paramdexName="Leyndell - Northwest Outer Wall Battleground" mapRegionId="20" />
+<row id="60425400" paramdexName="Altus Plateau - East Windmill Village, Highway Lookout Tower" mapRegionId="20" />
+<row id="60425500" paramdexName="Altus Plateau - Windmill Heights" mapRegionId="20" />
+<row id="60434900" mapRegionId="20" />
+<row id="60435000" paramdexName="Leyndell - Minor Erdtree Church, Sealed Tunnel Entrance" mapRegionId="20" />
+<row id="60435100" paramdexName="Leyndell - East of Outer Wall Phantom Tree" mapRegionId="20" />
+<row id="60435200" paramdexName="Leyndell - Southeast Outer Wall Battleground" mapRegionId="20" />
+<row id="60435300" paramdexName="Leyndell - Northeast Outer Wall Battleground, Hermit Merchant's Shack" mapRegionId="20" />
+<row id="60435400" paramdexName="Altus Plateau - Cliffside Northeast of Outer Wall Battlefield" mapRegionId="20" />
+<row id="60435500" mapRegionId="20" />
+<row id="60444900" mapRegionId="20" />
+<row id="60445000" mapRegionId="20" />
+<row id="60445100" mapRegionId="20" />
+<row id="60445200" paramdexName="Leyndell - South of Minor Erdtree" mapRegionId="20" />
+<row id="60445300" paramdexName="Leyndell - Minor Erdtree" mapRegionId="20" />
+<row id="60445400" mapRegionId="20" />
+<row id="60445500" mapRegionId="20" />
+<row id="60454900" mapRegionId="20" />
+<row id="60455000" mapRegionId="20" />
+<row id="60455100" paramdexName="Leyndell - Auriza Hero's Grave Entrance" mapRegionId="20" />
+<row id="60455200" paramdexName="Leyndell - Capital Rampart, Auriza Side Tomb Entrance" mapRegionId="20" />
+<row id="60455300" paramdexName="Leyndell - Capital Rampart North Cliffside" mapRegionId="20" />
+<row id="60455400" mapRegionId="20" />
+<row id="60455500" mapRegionId="20" />
+<row id="60464900" mapRegionId="20" />
+<row id="60465000" mapRegionId="21" />
+<row id="60465100" mapRegionId="20" />
+<row id="60465200" mapRegionId="20" />
+<row id="60465300" mapRegionId="20" />
+<row id="60465500" mapRegionId="41" />
+<row id="60465600" mapRegionId="41" />
+<row id="60465700" paramdexName="Consecrated Snowfield - Far West Cliffside" mapRegionId="41" />
+<row id="60465800" mapRegionId="41" />
+<row id="60473600" mapRegionId="30" />
+<row id="60473700" paramdexName="Caelid - West of Caelid Highway South" mapRegionId="30" />
+<row id="60473800" paramdexName="Caelid - Fort Gael, Caelid Waypoint Ruins, Gaol Cave Entrance" mapRegionId="30" />
+<row id="60473900" paramdexName="Caelid - Fort Gael North" mapRegionId="30" />
+<row id="60474200" paramdexName="Caelid - North Great-Jar Area" mapRegionId="30" />
+<row id="60474900" mapRegionId="20" />
+<row id="60475000" mapRegionId="20" />
+<row id="60475100" paramdexName="Leyndell - Divine Tower of East Altus Entrance; Mountaintops of the Giants - Forbidden Lands Start" mapRegionId="42" />
+<row id="60475400" mapRegionId="41" />
+<row id="60475500" paramdexName="Consecrated Snowfield - Yelough Anix Ruins, Yelough Anix Tunnel Entrance" mapRegionId="41" />
+<row id="60475600" paramdexName="Consecrated Snowfield - North of Yelough Anix Ruins" mapRegionId="41" />
+<row id="60475700" paramdexName="Consecrated Snowfield - West of Ordina" mapRegionId="41" />
+<row id="60475800" paramdexName="Consecrated Snowfield - Apostate Derelict" mapRegionId="41" />
+<row id="60485000" mapRegionId="42" />
+<row id="60485100" paramdexName="Mountaintops of the Giants - Forbidden Lands Midway" mapRegionId="42" />
+<row id="60485200" mapRegionId="42" />
+<row id="60485300" mapRegionId="41" />
+<row id="60485400" paramdexName="Consecrated Snowfield - Southwest Foggy Area" mapRegionId="41" />
+<row id="60485500" paramdexName="Consecrated Snowfield - Northwest Foggy Area, East of Yelough Anix Ruins" mapRegionId="41" />
+<row id="60485600" paramdexName="Consecrated Snowfield - South of Ordina" mapRegionId="41" />
+<row id="60485700" paramdexName="Consecrated Snowfield - Ordina, Liturgical Town" mapRegionId="41" />
+<row id="60485800" paramdexName="Consecrated Snowfield - East of Apostate Derelict" mapRegionId="41" />
+<row id="60495000" mapRegionId="42" />
+<row id="60495100" mapRegionId="42" />
+<row id="60495200" paramdexName="Mountaintops of the Giants - Before Grand Lift of Rold" mapRegionId="42" />
+<row id="60495300" paramdexName="Mountaintops of the Giants - West Zamor Ruins, Grand Lift of Rold" mapRegionId="40" />
+<row id="60495400" paramdexName="Consecrated Snowfield - Hidden Path to the Haligtree, Southeast Foggy Area" mapRegionId="41" />
+<row id="60495500" paramdexName="Consecrated Snowfield - Northeast Foggy Area, Inner Consecrated Snowfield" mapRegionId="41" />
+<row id="60495600" paramdexName="Consecrated Snowfield - Southeast of Ordina" mapRegionId="41" />
+<row id="60495700" paramdexName="Consecrated Snowfield - East of Ordina" mapRegionId="41" />
+<row id="60495800" mapRegionId="41" />
+<row id="60505000" mapRegionId="42" />
+<row id="60505200" mapRegionId="40" />
+<row id="60505300" paramdexName="Mountaintops of the Giants - East Zamor Ruins" mapRegionId="40" />
+<row id="60505400" paramdexName="Mountaintops of the Giants - North of Zamor Ruins" mapRegionId="40" />
+<row id="60505500" paramdexName="Consecrated Snowfield - Consecrated Snowfield Catacombs Entrance" mapRegionId="40" />
+<row id="60505600" paramdexName="Mountaintops of the Giants - Shack of the Lofty; Consecrated Snowfield - Minor Erdtree, Albinauric Rise, Cave of the Forlorn Entrance" mapRegionId="40" />
+<row id="60505700" paramdexName="Mountaintops of the Giants - West of Castle Sol; Consecrated Snowfield - North of Minor Erdtree" mapRegionId="40" />
+<row id="60505800" mapRegionId="41" />
+<row id="60515200" paramdexName="Mountaintops of the Giants - Giants' Gravepost South Cliffside" mapRegionId="40" />
+<row id="60515300" paramdexName="Mountaintops of the Giants - Southwest Giants' Gravepost" mapRegionId="40" />
+<row id="60515400" paramdexName="Mountaintops of the Giants - Northwest Giants' Gravepost" mapRegionId="40" />
+<row id="60515500" paramdexName="Mountaintops of the Giants - Before Ancient Snow Valley Ruins" mapRegionId="40" />
+<row id="60515600" paramdexName="Mountaintops of the Giants - Ancient Snow Valley Ruins, Stargazers' Ruins" mapRegionId="40" />
+<row id="60515700" paramdexName="Mountaintops of the Giants - South Castle Sol, Snow Valley Ruins Overlook" mapRegionId="40" />
+<row id="60515800" paramdexName="Mountaintops of the Giants - North Castle Sol" mapRegionId="40" />
+<row id="60523800" paramdexName="Caelid - Central Radahn Arena" mapRegionId="31" />
+<row id="60523900" paramdexName="Caelid - North Radahn Arena" mapRegionId="31" />
+<row id="60524000" paramdexName="Caelid - Far North Radahn Arena" mapRegionId="31" />
+<row id="60525200" paramdexName="Mountaintops of the Giants - Southwest Fire Giant Arena" mapRegionId="40" />
+<row id="60525300" paramdexName="Mountaintops of the Giants - Northwest Fire Giant Arena, Foot of the Forge" mapRegionId="40" />
+<row id="60525400" paramdexName="Mountaintops of the Giants - Northeast Giants' Gravepost" mapRegionId="40" />
+<row id="60525500" paramdexName="Mountaintops of the Giants - Guardians' Garrison" mapRegionId="40" />
+<row id="60525600" paramdexName="Mountaintops of the Giants - Whiteridge Road, Minor Erdtree" mapRegionId="40" />
+<row id="60525700" paramdexName="Mountaintops of the Giants - Before Freezing Lake, Heretical Rise" mapRegionId="40" />
+<row id="60525800" paramdexName="Mountaintops of the Giants - Northwest of Freezing Lake, East of Castle Sol" mapRegionId="40" />
+<row id="60533700" mapRegionId="31" />
+<row id="60533800" paramdexName="Caelid - East Radahn Arena" mapRegionId="31" />
+<row id="60533900" paramdexName="Caelid - Northeast Radahn Arena" mapRegionId="31" />
+<row id="60535200" paramdexName="Mountaintops of the Giants - Southeast Fire Giant Arena" mapRegionId="40" />
+<row id="60535300" paramdexName="Mountaintops of the Giants - Northeast Fire Giant Arena" mapRegionId="40" />
+<row id="60535400" paramdexName="Mountaintops of the Giants - Giants' Gravepost Northeast Cliffside" mapRegionId="40" />
+<row id="60535500" paramdexName="Mountaintops of the Giants - West of First Church of Marika" mapRegionId="40" />
+<row id="60535600" paramdexName="Mountaintops of the Giants - Southwest Freezing Lake, Lord Contender's Evergaol, Spiritcaller's Cave Entrance" mapRegionId="40" />
+<row id="60535700" paramdexName="Mountaintops of the Giants - Northwest Freezing Lake" mapRegionId="40" />
+<row id="60535800" paramdexName="Mountaintops of the Giants - Freezing Lake North Cliffside" mapRegionId="40" />
+<row id="60545200" mapRegionId="40" />
+<row id="60545300" paramdexName="Mountaintops of the Giants - Forge of the Giants" mapRegionId="40" />
+<row id="60545400" mapRegionId="40" />
+<row id="60545500" paramdexName="Mountaintops of the Giants - First Church of Marika" mapRegionId="40" />
+<row id="60545600" paramdexName="Mountaintops of the Giants - Southeast Freezing Lake" mapRegionId="40" />
+<row id="60545700" paramdexName="Mountaintops of the Giants - Northeast Freezing Lake" mapRegionId="40" />
+<row id="60545800" mapRegionId="40" />
+<row id="60555500" mapRegionId="40" />
+<row id="60555600" mapRegionId="40" />
+<row id="60555700" mapRegionId="40" />
+<row id="61110902" mapRegionId="60" />
+<row id="61120902" mapRegionId="60" />
+<row id="99999901" disableParam_NT="0" mapRegionId="0" />
+</rows>
+</param>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>MimicryEstablishmentTexParam_m61.param</filename>
+<compression>None</compression>
+<type>MIMICRY_ESTABLISHMENT_TEX_PARAM_ST_DLC02</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>3</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>MIMICRY_ESTABLISHMENT_TEX_PARAM_ST_DLC02</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>2</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="disableParam_NT" type="u8" arraylength="1" bitsize="1" sortid="0" defaultValue="0" />
+<field name="disableParamReserve1" type="dummy8" arraylength="1" bitsize="7" sortid="201" defaultValue="[0]" />
+<field name="disableParamReserve2" type="dummy8" arraylength="3" bitsize="-1" sortid="202" defaultValue="[0|0|0]" />
+<field name="srcR" type="u8" arraylength="1" bitsize="-1" sortid="110" defaultValue="255" />
+<field name="srcG" type="u8" arraylength="1" bitsize="-1" sortid="120" defaultValue="0" />
+<field name="srcB" type="u8" arraylength="1" bitsize="-1" sortid="130" defaultValue="96" />
+<field name="pad1" type="dummy8" arraylength="1" bitsize="-1" sortid="203" defaultValue="[0]" />
+<field name="mimicryEstablishmentParamId" type="s32" arraylength="1" bitsize="-1" sortid="200" defaultValue="-1" />
+<field name="unknown_0xc" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="-1" />
+<field name="unknown_0x10" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="-1" />
+<field name="unknown_0x14" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="unknown_0x18" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="unknown_0x1c" type="s32" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+</fields>
+<rows>
+<row id="10" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="192" srcG="192" srcB="192" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="0" unknown_0x18="1" unknown_0x1c="0" />
+<row id="15" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="164" srcG="164" srcB="164" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="0" unknown_0x18="1" unknown_0x1c="0" />
+<row id="16" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="144" srcG="144" srcB="144" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="65888" unknown_0x18="16777216" unknown_0x1c="65536" />
+<row id="17" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="144" srcG="192" srcB="144" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="65904" unknown_0x18="16777216" unknown_0x1c="16777216" />
+<row id="20" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="192" srcG="192" srcB="236" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="0" unknown_0x18="1" unknown_0x1c="0" />
+<row id="21" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="192" srcG="192" srcB="224" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="65606" unknown_0x18="16777216" unknown_0x1c="65536" />
+<row id="22" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="144" srcG="144" srcB="224" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="65606" unknown_0x18="16777216" unknown_0x1c="65536" />
+<row id="23" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="144" srcG="192" srcB="224" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="65606" unknown_0x18="16777216" unknown_0x1c="16777216" />
+<row id="25" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="0" srcG="127" srcB="223" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="16777216" unknown_0x18="0" unknown_0x1c="0" />
+<row id="30" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="96" srcG="96" srcB="96" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="0" unknown_0x18="1" unknown_0x1c="0" />
+<row id="35" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="96" srcG="160" srcB="96" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="0" unknown_0x18="256" unknown_0x1c="0" />
+<row id="36" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="96" srcG="255" srcB="96" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="65936" unknown_0x18="0" unknown_0x1c="1" />
+<row id="37" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="160" srcB="96" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="65936" unknown_0x18="0" unknown_0x1c="1" />
+<row id="40" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="96" srcG="96" srcB="160" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="0" unknown_0x18="1" unknown_0x1c="0" />
+<row id="41" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="176" srcG="48" srcB="158" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="66066" unknown_0x18="16777216" unknown_0x1c="65536" />
+<row id="42" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="176" srcG="48" srcB="210" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="16777216" unknown_0x18="0" unknown_0x1c="0" />
+<row id="45" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="160" srcG="160" srcB="96" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="0" unknown_0x18="0" unknown_0x1c="0" />
+<row id="46" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="128" srcG="128" srcB="96" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="65836" unknown_0x18="0" unknown_0x1c="65536" />
+<row id="47" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="128" srcG="128" srcB="160" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="65816" unknown_0x18="0" unknown_0x1c="65536" />
+<row id="48" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="128" srcG="128" srcB="210" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="65816" unknown_0x18="0" unknown_0x1c="65536" />
+<row id="50" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="0" srcG="0" srcB="255" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="0" unknown_0x18="1" unknown_0x1c="0" />
+<row id="51" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="192" srcG="192" srcB="255" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="65686" unknown_0x18="16777216" unknown_0x1c="65536" />
+<row id="52" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="128" srcG="83" srcB="128" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="65606" unknown_0x18="16777216" unknown_0x1c="0" />
+<row id="53" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="64" srcG="61" srcB="192" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="65606" unknown_0x18="16777216" unknown_0x1c="0" />
+<row id="54" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="128" srcG="0" srcB="255" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="65606" unknown_0x18="16777216" unknown_0x1c="0" />
+<row id="55" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="128" srcG="10" srcB="128" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="65606" unknown_0x18="65536" unknown_0x1c="1" />
+<row id="56" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="0" srcG="100" srcB="255" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="16777216" unknown_0x18="256" unknown_0x1c="0" />
+<row id="60" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="0" srcG="255" srcB="255" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="0" unknown_0x18="0" unknown_0x1c="0" />
+<row id="61" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="96" srcG="224" srcB="224" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="65736" unknown_0x18="0" unknown_0x1c="65536" />
+<row id="65" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="0" srcB="0" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="0" unknown_0x18="0" unknown_0x1c="0" />
+<row id="70" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="128" srcB="0" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="0" unknown_0x18="0" unknown_0x1c="0" />
+<row id="71" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="224" srcG="197" srcB="96" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="65888" unknown_0x18="0" unknown_0x1c="65536" />
+<row id="72" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="64" srcB="0" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="65888" unknown_0x18="0" unknown_0x1c="0" />
+<row id="80" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="0" srcG="255" srcB="0" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="0" unknown_0x18="0" unknown_0x1c="0" />
+<row id="81" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="64" srcB="128" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="0" unknown_0x18="0" unknown_0x1c="0" />
+<row id="90" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="220" srcB="220" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="0" unknown_0x18="0" unknown_0x1c="0" />
+<row id="91" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="0" srcB="220" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="0" unknown_0x18="0" unknown_0x1c="0" />
+<row id="92" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="196" srcG="0" srcB="220" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="0" unknown_0x18="1" unknown_0x1c="0" />
+<row id="93" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="30" srcG="0" srcB="220" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="16777216" unknown_0x18="256" unknown_0x1c="0" />
+<row id="100" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="255" srcB="0" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="0" unknown_0x18="1" unknown_0x1c="0" />
+<row id="101" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="224" srcG="224" srcB="96" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="130872" unknown_0x18="16777216" unknown_0x1c="65536" />
+<row id="102" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="176" srcG="176" srcB="48" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="130872" unknown_0x18="16777216" unknown_0x1c="65536" />
+<row id="103" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="156" srcG="156" srcB="24" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="130872" unknown_0x18="16777216" unknown_0x1c="0" />
+<row id="104" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="156" srcG="156" srcB="224" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="130872" unknown_0x18="16777216" unknown_0x1c="256" />
+<row id="105" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="64" srcB="0" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="130872" unknown_0x18="16777216" unknown_0x1c="0" />
+<row id="106" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="255" srcG="192" srcB="0" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="130872" unknown_0x18="16777216" unknown_0x1c="0" />
+<row id="107" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="128" srcG="224" srcB="96" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="130872" unknown_0x18="16777216" unknown_0x1c="0" />
+<row id="255" disableParam_NT="0" disableParamReserve1="[0]" disableParamReserve2="[0|0|0]" srcR="0" srcG="0" srcB="0" pad1="[0]" mimicryEstablishmentParamId="-1" unknown_0xc="-1" unknown_0x10="-1" unknown_0x14="0" unknown_0x18="0" unknown_0x1c="0" />
+</rows>
+</param>

@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>LockCamParam.param</filename>
+<compression>None</compression>
+<type>LOCK_CAM_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>LOCK_CAM_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="camDistTarget" type="f32" arraylength="1" bitsize="-1" sortid="100" defaultValue="3.8" />
+<field name="rotRangeMinX" type="f32" arraylength="1" bitsize="-1" sortid="200" defaultValue="-40" />
+<field name="lockRotXShiftRatio" type="f32" arraylength="1" bitsize="-1" sortid="300" defaultValue="0.3" />
+<field name="chrOrgOffset_Y" type="f32" arraylength="1" bitsize="-1" sortid="400" defaultValue="1.45" />
+<field name="chrLockRangeMaxRadius" type="f32" arraylength="1" bitsize="-1" sortid="500" defaultValue="15" defaultThreshold="True" />
+<field name="camFovY" type="f32" arraylength="1" bitsize="-1" sortid="600" defaultValue="48" defaultThreshold="True" />
+<field name="chrLockRangeMaxRadius_forD" type="f32" arraylength="1" bitsize="-1" sortid="510" defaultValue="-1" defaultThreshold="True" />
+<field name="chrLockRangeMaxRadius_forPD" type="f32" arraylength="1" bitsize="-1" sortid="520" defaultValue="-1" defaultThreshold="True" />
+<field name="closeMaxHeight" type="f32" arraylength="1" bitsize="-1" sortid="700" defaultValue="0" defaultThreshold="True" />
+<field name="closeMinHeight" type="f32" arraylength="1" bitsize="-1" sortid="800" defaultValue="0" defaultThreshold="True" />
+<field name="closeAngRange" type="f32" arraylength="1" bitsize="-1" sortid="900" defaultValue="0" defaultThreshold="True" />
+<field name="closeMaxRadius" type="f32" arraylength="1" bitsize="-1" sortid="1000" defaultValue="0" defaultThreshold="True" />
+<field name="closeMaxRadius_forD" type="f32" arraylength="1" bitsize="-1" sortid="1100" defaultValue="0" defaultThreshold="True" />
+<field name="closeMaxRadius_forPD" type="f32" arraylength="1" bitsize="-1" sortid="1200" defaultValue="0" defaultThreshold="True" />
+<field name="bulletMaxRadius" type="f32" arraylength="1" bitsize="-1" sortid="1300" defaultValue="15" defaultThreshold="True" />
+<field name="bulletMaxRadius_forD" type="f32" arraylength="1" bitsize="-1" sortid="1400" defaultValue="10" defaultThreshold="True" />
+<field name="bulletMaxRadius_forPD" type="f32" arraylength="1" bitsize="-1" sortid="1500" defaultValue="6" defaultThreshold="True" />
+<field name="bulletAngRange" type="f32" arraylength="1" bitsize="-1" sortid="1250" defaultValue="20" defaultThreshold="True" />
+<field name="lockTgtKeepTime" type="f32" arraylength="1" bitsize="-1" sortid="2000" defaultValue="2" defaultThreshold="True" />
+<field name="chrTransChaseRateForNormal" type="f32" arraylength="1" bitsize="-1" sortid="450" defaultValue="-1" defaultThreshold="True" />
+<field name="pad" type="dummy8" arraylength="48" bitsize="-1" sortid="2001" defaultValue="[0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0]" defaultThreshold="True" />
+</fields>
+<rows>
+<row id="0" camDistTarget="3.8" rotRangeMinX="-40" lockRotXShiftRatio="0.45" chrOrgOffset_Y="1.45" />
+<row id="1" camDistTarget="4" rotRangeMinX="-40" lockRotXShiftRatio="0.6" chrOrgOffset_Y="1.42" camFovY="43" bulletMaxRadius="0" bulletMaxRadius_forD="0" bulletMaxRadius_forPD="0" bulletAngRange="0" />
+<row id="1000" camDistTarget="4.5" rotRangeMinX="-40" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.87" camFovY="54.5" chrTransChaseRateForNormal="0.2" />
+<row id="1001" camDistTarget="4.5" rotRangeMinX="-40" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.87" camFovY="54.5" chrTransChaseRateForNormal="0.2" />
+<row id="1010" camDistTarget="4.5" rotRangeMinX="-40" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.87" camFovY="54.5" chrTransChaseRateForNormal="0.2" />
+<row id="1011" camDistTarget="10" rotRangeMinX="-40" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.87" camFovY="54.5" chrTransChaseRateForNormal="0.5" />
+<row id="1020" camDistTarget="4.5" rotRangeMinX="-40" lockRotXShiftRatio="0.6" chrOrgOffset_Y="1.65" />
+<row id="1021" camDistTarget="5.2" rotRangeMinX="-40" lockRotXShiftRatio="0.6" chrOrgOffset_Y="1.95" />
+<row id="1022" camDistTarget="4.5" rotRangeMinX="-40" lockRotXShiftRatio="0.6" chrOrgOffset_Y="2.55" />
+<row id="1040" camDistTarget="3" rotRangeMinX="5" lockRotXShiftRatio="0.6" chrOrgOffset_Y="1" />
+<row id="1041" camDistTarget="3.8" rotRangeMinX="-40" lockRotXShiftRatio="0.45" chrOrgOffset_Y="1.65" />
+<row id="1050" camDistTarget="5.4" rotRangeMinX="-15" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.42" camFovY="43" chrLockRangeMaxRadius_forD="10" chrLockRangeMaxRadius_forPD="6" closeMaxHeight="0.8" closeMinHeight="2" closeAngRange="20" closeMaxRadius="4.5" closeMaxRadius_forD="4.5" closeMaxRadius_forPD="4.5" />
+<row id="1099" camDistTarget="10" rotRangeMinX="-40" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.87" camFovY="54.5" chrTransChaseRateForNormal="0.5" />
+<row id="2031" camDistTarget="4.2" rotRangeMinX="-45" lockRotXShiftRatio="0.5" chrOrgOffset_Y="1.45" />
+<row id="2110" camDistTarget="4.8" rotRangeMinX="-30" lockRotXShiftRatio="0.5" chrOrgOffset_Y="1.65" />
+<row id="2120" camDistTarget="4.5" rotRangeMinX="-25" lockRotXShiftRatio="0.45" chrOrgOffset_Y="1.55" />
+<row id="2121" camDistTarget="4.5" rotRangeMinX="-30" lockRotXShiftRatio="0.45" chrOrgOffset_Y="1.55" />
+<row id="2122" camDistTarget="4.5" rotRangeMinX="-50" lockRotXShiftRatio="0.45" chrOrgOffset_Y="1.55" />
+<row id="2130" camDistTarget="6.5" rotRangeMinX="-20" lockRotXShiftRatio="0.6" chrOrgOffset_Y="1.55" />
+<row id="2200" camDistTarget="6" rotRangeMinX="-20" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.45" lockTgtKeepTime="10" />
+<row id="2201" camDistTarget="6" rotRangeMinX="-40" lockRotXShiftRatio="0.3" chrOrgOffset_Y="2.05" camFovY="50" lockTgtKeepTime="10" />
+<row id="3010" camDistTarget="4.5" rotRangeMinX="-40" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.87" camFovY="54.5" chrTransChaseRateForNormal="0.2" />
+<row id="3015" camDistTarget="3.8" rotRangeMinX="-40" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.45" />
+<row id="3050" camDistTarget="3.8" rotRangeMinX="-40" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.45" />
+<row id="3180" camDistTarget="3.8" rotRangeMinX="-40" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.2" />
+<row id="3181" camDistTarget="4.3" rotRangeMinX="-40" lockRotXShiftRatio="0.5" chrOrgOffset_Y="1.45" camFovY="50" />
+<row id="3204" camDistTarget="8.5" rotRangeMinX="0" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.49" camFovY="56" />
+<row id="3210" camDistTarget="3.8" rotRangeMinX="-40" lockRotXShiftRatio="0.4" chrOrgOffset_Y="1.45" />
+<row id="3250" camDistTarget="4" rotRangeMinX="-40" lockRotXShiftRatio="0.5" chrOrgOffset_Y="1.65" />
+<row id="3251" camDistTarget="4" rotRangeMinX="-40" lockRotXShiftRatio="0.5" chrOrgOffset_Y="1.62" />
+<row id="3252" camDistTarget="4" rotRangeMinX="-40" lockRotXShiftRatio="0.45" chrOrgOffset_Y="1.6" />
+<row id="3460" camDistTarget="4.6" rotRangeMinX="-40" lockRotXShiftRatio="0.45" chrOrgOffset_Y="1.45" />
+<row id="3470" camDistTarget="4.2" rotRangeMinX="-40" lockRotXShiftRatio="0.6" chrOrgOffset_Y="1.45" />
+<row id="3560" camDistTarget="4.1" rotRangeMinX="-40" lockRotXShiftRatio="0.2" chrOrgOffset_Y="1.5" />
+<row id="3570" camDistTarget="4.1" rotRangeMinX="-40" lockRotXShiftRatio="0.4" chrOrgOffset_Y="1.5" />
+<row id="3600" camDistTarget="3.8" rotRangeMinX="-40" lockRotXShiftRatio="0.45" chrOrgOffset_Y="1.45" />
+<row id="3620" camDistTarget="3.8" rotRangeMinX="-40" lockRotXShiftRatio="0.25" chrOrgOffset_Y="1.45" />
+<row id="3630" camDistTarget="4.2" rotRangeMinX="-40" lockRotXShiftRatio="0.35" chrOrgOffset_Y="1.45" />
+<row id="3664" camDistTarget="3.8" rotRangeMinX="-40" lockRotXShiftRatio="0.45" chrOrgOffset_Y="1.3" />
+<row id="3670" camDistTarget="4" rotRangeMinX="-40" lockRotXShiftRatio="0.4" chrOrgOffset_Y="1.4" />
+<row id="3704" camDistTarget="4" rotRangeMinX="-40" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.5" />
+<row id="3810" camDistTarget="3.8" rotRangeMinX="-40" lockRotXShiftRatio="0.5" chrOrgOffset_Y="1.45" />
+<row id="3910" camDistTarget="4.2" rotRangeMinX="-40" lockRotXShiftRatio="0.45" chrOrgOffset_Y="1.48" />
+<row id="3950" camDistTarget="3.8" rotRangeMinX="-40" lockRotXShiftRatio="0.45" chrOrgOffset_Y="1.45" />
+<row id="4020" camDistTarget="4" rotRangeMinX="-20" lockRotXShiftRatio="0.2" chrOrgOffset_Y="1.3" camFovY="50" />
+<row id="4060" camDistTarget="3.8" rotRangeMinX="-40" lockRotXShiftRatio="0.4" chrOrgOffset_Y="1.45" />
+<row id="4120" camDistTarget="4" rotRangeMinX="-40" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.5" />
+<row id="4130" camDistTarget="4.5" rotRangeMinX="-40" lockRotXShiftRatio="0" chrOrgOffset_Y="1.7" />
+<row id="4190" camDistTarget="3.8" rotRangeMinX="-40" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.5" />
+<row id="4191" camDistTarget="3.8" rotRangeMinX="-40" lockRotXShiftRatio="0.55" chrOrgOffset_Y="1.5" />
+<row id="4192" camDistTarget="3.8" rotRangeMinX="-40" lockRotXShiftRatio="0.25" chrOrgOffset_Y="1.49" />
+<row id="4220" camDistTarget="4" rotRangeMinX="-40" lockRotXShiftRatio="0.35" chrOrgOffset_Y="1.55" />
+<row id="4240" camDistTarget="4" rotRangeMinX="-40" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.3" />
+<row id="4241" camDistTarget="5" rotRangeMinX="-80" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.8" />
+<row id="4260" camDistTarget="3.8" rotRangeMinX="-25" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.45" />
+<row id="4280" camDistTarget="3.8" rotRangeMinX="-80" lockRotXShiftRatio="0.15" chrOrgOffset_Y="1.45" />
+<row id="4320" camDistTarget="3.8" rotRangeMinX="-40" lockRotXShiftRatio="0.1" chrOrgOffset_Y="1.45" />
+<row id="4360" camDistTarget="4" rotRangeMinX="-40" lockRotXShiftRatio="0.2" chrOrgOffset_Y="1.5" />
+<row id="4381" camDistTarget="3.9" rotRangeMinX="-40" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.5" />
+<row id="4385" camDistTarget="3.9" rotRangeMinX="-40" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.5" />
+<row id="4410" camDistTarget="6" rotRangeMinX="-40" lockRotXShiftRatio="0.4" chrOrgOffset_Y="1.7" chrLockRangeMaxRadius="25" bulletMaxRadius="25" bulletMaxRadius_forD="18" bulletMaxRadius_forPD="12" />
+<row id="4430" camDistTarget="4" rotRangeMinX="-40" lockRotXShiftRatio="0.5" chrOrgOffset_Y="1.3" />
+<row id="4441" camDistTarget="5" rotRangeMinX="-40" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.8" />
+<row id="4460" camDistTarget="3.8" rotRangeMinX="-40" lockRotXShiftRatio="0.1" chrOrgOffset_Y="1.45" />
+<row id="4470" camDistTarget="4.1" rotRangeMinX="0" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.6" />
+<row id="4490" camDistTarget="3.8" rotRangeMinX="-40" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.5" />
+<row id="4500" camDistTarget="4.3" rotRangeMinX="-20" lockRotXShiftRatio="0.25" chrOrgOffset_Y="1.48" />
+<row id="4501" camDistTarget="5.8" rotRangeMinX="-30" lockRotXShiftRatio="0.5" chrOrgOffset_Y="1.98" />
+<row id="4504" camDistTarget="4.4" rotRangeMinX="-30" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.65" />
+<row id="4505" camDistTarget="4.3" rotRangeMinX="-20" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.55" />
+<row id="4510" camDistTarget="4.8" rotRangeMinX="-20" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.95" />
+<row id="4511" camDistTarget="4.8" rotRangeMinX="-80" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.95" lockTgtKeepTime="10" />
+<row id="4512" camDistTarget="4.8" rotRangeMinX="-30" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.95" />
+<row id="4513" camDistTarget="4.8" rotRangeMinX="-20" lockRotXShiftRatio="0.4" chrOrgOffset_Y="1.65" camFovY="56" />
+<row id="4514" camDistTarget="4.8" rotRangeMinX="-80" lockRotXShiftRatio="0.6" chrOrgOffset_Y="1.45" camFovY="50" />
+<row id="4515" camDistTarget="4.8" rotRangeMinX="-30" lockRotXShiftRatio="0" chrOrgOffset_Y="1.45" camFovY="50" />
+<row id="4516" camDistTarget="4.8" rotRangeMinX="-30" lockRotXShiftRatio="0.8" chrOrgOffset_Y="2.05" />
+<row id="4517" camDistTarget="4.8" rotRangeMinX="-20" lockRotXShiftRatio="0.4" chrOrgOffset_Y="1.65" camFovY="53" />
+<row id="4518" camDistTarget="4.8" rotRangeMinX="-10" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.95" />
+<row id="4520" camDistTarget="4.7" rotRangeMinX="-18" lockRotXShiftRatio="0.2" chrOrgOffset_Y="1.7" />
+<row id="4521" camDistTarget="4.7" rotRangeMinX="-40" lockRotXShiftRatio="0.2" chrOrgOffset_Y="1.7" />
+<row id="4525" camDistTarget="4.7" rotRangeMinX="-40" lockRotXShiftRatio="0.2" chrOrgOffset_Y="1.7" />
+<row id="4550" camDistTarget="4.3" rotRangeMinX="-40" lockRotXShiftRatio="0.6" chrOrgOffset_Y="1.8" />
+<row id="4560" camDistTarget="4.8" rotRangeMinX="-20" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.8" />
+<row id="4570" camDistTarget="4.5" rotRangeMinX="-40" lockRotXShiftRatio="0.2" chrOrgOffset_Y="1.6" />
+<row id="4580" camDistTarget="5" rotRangeMinX="-10" lockRotXShiftRatio="0.2" chrOrgOffset_Y="1.9" camFovY="50" />
+<row id="4581" camDistTarget="10" rotRangeMinX="0" lockRotXShiftRatio="0.35" chrOrgOffset_Y="1.55" />
+<row id="4600" camDistTarget="4.8" rotRangeMinX="-20" lockRotXShiftRatio="0.2" chrOrgOffset_Y="1.82" camFovY="50" />
+<row id="4620" camDistTarget="4.8" rotRangeMinX="-40" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.95" />
+<row id="4640" camDistTarget="5.5" rotRangeMinX="-15" lockRotXShiftRatio="0" chrOrgOffset_Y="2.04" camFovY="50" />
+<row id="4641" camDistTarget="8.5" rotRangeMinX="0" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.49" camFovY="56" />
+<row id="4650" camDistTarget="5" rotRangeMinX="-10" lockRotXShiftRatio="0.1" chrOrgOffset_Y="1.82" camFovY="50" />
+<row id="4651" camDistTarget="5" rotRangeMinX="-22.5" lockRotXShiftRatio="0.1" chrOrgOffset_Y="1.82" camFovY="50" />
+<row id="4660" camDistTarget="5" rotRangeMinX="-12" lockRotXShiftRatio="0.4" chrOrgOffset_Y="1.82" />
+<row id="4670" camDistTarget="5" rotRangeMinX="-15" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.6" />
+<row id="4680" camDistTarget="5" rotRangeMinX="-15" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.6" />
+<row id="4681" camDistTarget="5.7" rotRangeMinX="-15" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.6" camFovY="50" />
+<row id="4690" camDistTarget="3.6" rotRangeMinX="-25" lockRotXShiftRatio="0.45" chrOrgOffset_Y="1.6" />
+<row id="4710" camDistTarget="3.8" rotRangeMinX="-40" lockRotXShiftRatio="0.6" chrOrgOffset_Y="1.45" />
+<row id="4711" camDistTarget="5" rotRangeMinX="-55" lockRotXShiftRatio="0.6" chrOrgOffset_Y="2" camFovY="56" />
+<row id="4712" camDistTarget="4.4" rotRangeMinX="-40" lockRotXShiftRatio="0.4" chrOrgOffset_Y="1.7" />
+<row id="4713" camDistTarget="8" rotRangeMinX="0" lockRotXShiftRatio="0.35" chrOrgOffset_Y="1.55" />
+<row id="4714" camDistTarget="12" rotRangeMinX="0" lockRotXShiftRatio="0.35" chrOrgOffset_Y="1.55" />
+<row id="4720" camDistTarget="4.5" rotRangeMinX="-20" lockRotXShiftRatio="0.2" chrOrgOffset_Y="1.65" />
+<row id="4721" camDistTarget="4.5" rotRangeMinX="-20" lockRotXShiftRatio="0.15" chrOrgOffset_Y="1.65" />
+<row id="4722" camDistTarget="3.8" rotRangeMinX="-40" lockRotXShiftRatio="0.5" chrOrgOffset_Y="1.45" />
+<row id="4723" camDistTarget="3.8" rotRangeMinX="-40" lockRotXShiftRatio="0.5" chrOrgOffset_Y="1.45" />
+<row id="4724" camDistTarget="3.8" rotRangeMinX="-40" lockRotXShiftRatio="0.5" chrOrgOffset_Y="1.45" />
+<row id="4725" camDistTarget="4.5" rotRangeMinX="-40" lockRotXShiftRatio="0.5" chrOrgOffset_Y="1.8" />
+<row id="4730" camDistTarget="4.8" rotRangeMinX="-20" lockRotXShiftRatio="0.15" chrOrgOffset_Y="1.82" />
+<row id="4750" camDistTarget="3.8" rotRangeMinX="-40" lockRotXShiftRatio="0.35" chrOrgOffset_Y="1.45" />
+<row id="4751" camDistTarget="7" rotRangeMinX="-40" lockRotXShiftRatio="0.35" chrOrgOffset_Y="1.55" />
+<row id="4760" camDistTarget="5.5" rotRangeMinX="-30" lockRotXShiftRatio="0" chrOrgOffset_Y="2" />
+<row id="4761" camDistTarget="5.3" rotRangeMinX="-30" lockRotXShiftRatio="0.2" chrOrgOffset_Y="1.8" />
+<row id="4770" camDistTarget="5.5" rotRangeMinX="-15" lockRotXShiftRatio="0.2" chrOrgOffset_Y="1.82" />
+<row id="4775" camDistTarget="4" rotRangeMinX="-25" lockRotXShiftRatio="0.5" chrOrgOffset_Y="1.42" />
+<row id="4800" camDistTarget="4.5" rotRangeMinX="-30" lockRotXShiftRatio="0.45" chrOrgOffset_Y="1.55" />
+<row id="4810" camDistTarget="4.3" rotRangeMinX="-15" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.45" />
+<row id="4811" camDistTarget="4.3" rotRangeMinX="-40" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.45" />
+<row id="4820" camDistTarget="3.8" rotRangeMinX="-40" lockRotXShiftRatio="0.45" chrOrgOffset_Y="1.45" />
+<row id="4910" camDistTarget="4.8" rotRangeMinX="-40" lockRotXShiftRatio="0" chrOrgOffset_Y="1.95" />
+<row id="4950" camDistTarget="4.3" rotRangeMinX="-40" lockRotXShiftRatio="0.4" chrOrgOffset_Y="1.5" />
+<row id="4960" camDistTarget="4.5" rotRangeMinX="-10" lockRotXShiftRatio="0.45" chrOrgOffset_Y="1.55" />
+<row id="4980" camDistTarget="4.8" rotRangeMinX="-40" lockRotXShiftRatio="0.45" chrOrgOffset_Y="1.7" />
+<row id="5000" camDistTarget="4.5" rotRangeMinX="-12" lockRotXShiftRatio="0.4" chrOrgOffset_Y="1.72" />
+<row id="5001" camDistTarget="4.8" rotRangeMinX="-30" lockRotXShiftRatio="0.2" chrOrgOffset_Y="1.8" />
+<row id="5010" camDistTarget="6.3" rotRangeMinX="-45" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.55" camFovY="50" />
+<row id="5020" camDistTarget="4.8" rotRangeMinX="-15" lockRotXShiftRatio="0.58" chrOrgOffset_Y="2.05" />
+<row id="5021" camDistTarget="4.8" rotRangeMinX="-40" lockRotXShiftRatio="0.35" chrOrgOffset_Y="1.8" />
+<row id="5022" camDistTarget="5" rotRangeMinX="-10" lockRotXShiftRatio="0.6" chrOrgOffset_Y="2.05" />
+<row id="5030" camDistTarget="5" rotRangeMinX="-40" lockRotXShiftRatio="0.6" chrOrgOffset_Y="1.75" />
+<row id="5050" camDistTarget="4.4" rotRangeMinX="-20" lockRotXShiftRatio="0.65" chrOrgOffset_Y="1.55" />
+<row id="5090" camDistTarget="3.8" rotRangeMinX="-15" lockRotXShiftRatio="0.45" chrOrgOffset_Y="1.45" />
+<row id="5120" camDistTarget="5" rotRangeMinX="-20" lockRotXShiftRatio="0.14" chrOrgOffset_Y="2" />
+<row id="5121" camDistTarget="6" rotRangeMinX="-20" lockRotXShiftRatio="0.14" chrOrgOffset_Y="3" />
+<row id="5122" camDistTarget="7" rotRangeMinX="-30" lockRotXShiftRatio="0.14" chrOrgOffset_Y="2.7" />
+<row id="5123" camDistTarget="7" rotRangeMinX="-20" lockRotXShiftRatio="0.14" chrOrgOffset_Y="2.7" />
+<row id="5125" camDistTarget="7" rotRangeMinX="-20" lockRotXShiftRatio="0.14" chrOrgOffset_Y="2.7" />
+<row id="5126" camDistTarget="4.7" rotRangeMinX="-40" lockRotXShiftRatio="0.2" chrOrgOffset_Y="1.7" />
+<row id="5130" camDistTarget="4.5" rotRangeMinX="-40" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.4" />
+<row id="5131" camDistTarget="5.5" rotRangeMinX="-40" lockRotXShiftRatio="0.1" chrOrgOffset_Y="1.3" />
+<row id="5142" camDistTarget="5" rotRangeMinX="-40" lockRotXShiftRatio="0.4" chrOrgOffset_Y="1.8" camFovY="50" />
+<row id="5143" camDistTarget="5.5" rotRangeMinX="-40" lockRotXShiftRatio="0.62" chrOrgOffset_Y="1.3" camFovY="50" />
+<row id="5200" camDistTarget="5" rotRangeMinX="-15" lockRotXShiftRatio="0" chrOrgOffset_Y="2.04" camFovY="50" />
+<row id="5210" camDistTarget="4.5" rotRangeMinX="-40" lockRotXShiftRatio="0.17" chrOrgOffset_Y="1.5" />
+<row id="5211" camDistTarget="6.4" rotRangeMinX="-40" lockRotXShiftRatio="0.6" chrOrgOffset_Y="2" camFovY="50" />
+<row id="5212" camDistTarget="5.6" rotRangeMinX="-40" lockRotXShiftRatio="0.7" chrOrgOffset_Y="1.6" camFovY="50" />
+<row id="5220" camDistTarget="3.85" rotRangeMinX="-20" lockRotXShiftRatio="0.15" chrOrgOffset_Y="1.65" />
+<row id="5221" camDistTarget="4.8" rotRangeMinX="-30" lockRotXShiftRatio="0.2" chrOrgOffset_Y="1.8" />
+<row id="5230" camDistTarget="5.6" rotRangeMinX="-15" lockRotXShiftRatio="0.1" chrOrgOffset_Y="2.15" />
+<row id="5231" camDistTarget="5.6" rotRangeMinX="-40" lockRotXShiftRatio="0.1" chrOrgOffset_Y="2.15" />
+<row id="5232" camDistTarget="5.6" rotRangeMinX="-40" lockRotXShiftRatio="0.1" chrOrgOffset_Y="2.15" />
+<row id="5240" camDistTarget="4.8" rotRangeMinX="-20" lockRotXShiftRatio="0.45" chrOrgOffset_Y="1.62" />
+<row id="5241" camDistTarget="6.5" rotRangeMinX="-20" lockRotXShiftRatio="0.45" chrOrgOffset_Y="1.45" />
+<row id="5560" camDistTarget="4" rotRangeMinX="-40" lockRotXShiftRatio="0" chrOrgOffset_Y="1.3" camFovY="50" />
+<row id="5800" camDistTarget="4.3" rotRangeMinX="-40" lockRotXShiftRatio="0.2" chrOrgOffset_Y="1.5" />
+<row id="5860" camDistTarget="4.3" rotRangeMinX="-20" lockRotXShiftRatio="0.25" chrOrgOffset_Y="1.48" />
+<row id="5861" camDistTarget="6.4" rotRangeMinX="-40" lockRotXShiftRatio="0.6" chrOrgOffset_Y="1.7" />
+<row id="6031" camDistTarget="3.8" rotRangeMinX="-40" lockRotXShiftRatio="0.3" chrOrgOffset_Y="1.45" />
+<row id="7100" camDistTarget="3.8" rotRangeMinX="-40" lockRotXShiftRatio="0.5" chrOrgOffset_Y="1.45" />
+<row id="600000" camDistTarget="2.2" rotRangeMinX="-40" lockRotXShiftRatio="0.6" chrOrgOffset_Y="1.22" camFovY="43" bulletAngRange="0" />
+<row id="600001" camDistTarget="3.2" rotRangeMinX="-40" lockRotXShiftRatio="0.6" chrOrgOffset_Y="1.32" camFovY="43" bulletAngRange="0" />
+<row id="600002" camDistTarget="5" rotRangeMinX="-20" lockRotXShiftRatio="0.4" chrOrgOffset_Y="1.6" camFovY="43" bulletAngRange="0" />
+<row id="1000000" camDistTarget="2.5" rotRangeMinX="-40" lockRotXShiftRatio="0.6" chrOrgOffset_Y="1.45" bulletMaxRadius="0" bulletMaxRadius_forD="0" bulletMaxRadius_forPD="0" bulletAngRange="0" />
+<row id="1001000" camDistTarget="3" rotRangeMinX="5" lockRotXShiftRatio="0.6" chrOrgOffset_Y="1" />
+<row id="1001001" camDistTarget="3" rotRangeMinX="-20" lockRotXShiftRatio="0.6" chrOrgOffset_Y="1" />
+</rows>
+</param>

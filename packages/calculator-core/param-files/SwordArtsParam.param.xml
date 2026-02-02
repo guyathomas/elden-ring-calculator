@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>SwordArtsParam.param</filename>
+<compression>None</compression>
+<type>SWORD_ARTS_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>3</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>SWORD_ARTS_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>3</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="disableParam_NT" type="u8" arraylength="1" bitsize="1" sortid="0" defaultValue="1" />
+<field name="disableParamReserve1" type="dummy8" arraylength="1" bitsize="7" sortid="1101" defaultValue="[0]" defaultThreshold="True" />
+<field name="disableParamReserve2" type="dummy8" arraylength="3" bitsize="-1" sortid="1102" defaultValue="[0|0|0]" defaultThreshold="True" />
+<field name="swordArtsType" type="u8" arraylength="1" bitsize="-1" sortid="100" defaultValue="0" defaultThreshold="True" />
+<field name="artsSpeedType" type="u8" arraylength="1" bitsize="-1" sortid="200" defaultValue="2" />
+<field name="refStatus" type="s8" arraylength="1" bitsize="-1" sortid="400" defaultValue="0" defaultThreshold="True" />
+<field name="isRefRightArts" type="u8" arraylength="1" bitsize="1" sortid="900" defaultValue="1" defaultThreshold="True" />
+<field name="isGrayoutLeftHand" type="u8" arraylength="1" bitsize="1" sortid="910" defaultValue="1" defaultThreshold="True" />
+<field name="isGrayoutRightHand" type="u8" arraylength="1" bitsize="1" sortid="920" defaultValue="0" defaultThreshold="True" />
+<field name="isGrayoutBothHand" type="u8" arraylength="1" bitsize="1" sortid="930" defaultValue="0" defaultThreshold="True" />
+<field name="reserve2" type="dummy8" arraylength="1" bitsize="4" sortid="1103" defaultValue="[0]" defaultThreshold="True" />
+<field name="usePoint_L1" type="s8" arraylength="1" bitsize="-1" sortid="500" defaultValue="0" defaultThreshold="True" />
+<field name="usePoint_L2" type="s8" arraylength="1" bitsize="-1" sortid="600" defaultValue="0" defaultThreshold="True" />
+<field name="usePoint_R1" type="s8" arraylength="1" bitsize="-1" sortid="700" defaultValue="0" defaultThreshold="True" />
+<field name="usePoint_R2" type="s8" arraylength="1" bitsize="-1" sortid="800" defaultValue="0" defaultThreshold="True" />
+<field name="textId" type="s32" arraylength="1" bitsize="-1" sortid="300" defaultValue="0" />
+<field name="useMagicPoint_L1" type="s16" arraylength="1" bitsize="-1" sortid="810" defaultValue="-1" defaultThreshold="True" />
+<field name="useMagicPoint_L2" type="s16" arraylength="1" bitsize="-1" sortid="820" defaultValue="16" />
+<field name="useMagicPoint_R1" type="s16" arraylength="1" bitsize="-1" sortid="830" defaultValue="-1" defaultThreshold="True" />
+<field name="useMagicPoint_R2" type="s16" arraylength="1" bitsize="-1" sortid="840" defaultValue="-1" />
+<field name="swordArtsTypeNew" type="u16" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" />
+<field name="iconId" type="u16" arraylength="1" bitsize="-1" sortid="310" defaultValue="0" />
+<field name="aiUsageId" type="s32" arraylength="1" bitsize="-1" sortid="1100" defaultValue="11000000" />
+</fields>
+<rows>
+<row id="0" disableParam_NT="0" artsSpeedType="0" isRefRightArts="0" isGrayoutLeftHand="0" textId="70000" useMagicPoint_L1="0" useMagicPoint_L2="0" useMagicPoint_R1="0" useMagicPoint_R2="0" swordArtsTypeNew="0" iconId="0" aiUsageId="-1" />
+<row id="1" disableParam_NT="0" artsSpeedType="0" isRefRightArts="0" textId="10" useMagicPoint_L1="0" useMagicPoint_L2="0" useMagicPoint_R1="0" useMagicPoint_R2="0" swordArtsTypeNew="255" iconId="0" aiUsageId="-1" />
+<row id="10" paramdexName="No Skill" disableParam_NT="0" artsSpeedType="1" textId="10" useMagicPoint_L2="-1" useMagicPoint_R2="-1" swordArtsTypeNew="255" iconId="0" aiUsageId="90000000" />
+<row id="100" paramdexName="Lion's Claw" disableParam_NT="0" artsSpeedType="2" textId="100" useMagicPoint_L2="20" useMagicPoint_R2="-1" swordArtsTypeNew="0" iconId="21000" aiUsageId="11000000" />
+<row id="101" paramdexName="Impaling Thrust" disableParam_NT="1" artsSpeedType="1" textId="101" useMagicPoint_L2="9" useMagicPoint_R2="-1" swordArtsTypeNew="1" iconId="0" aiUsageId="11000000" />
+<row id="102" paramdexName="Piercing Fang" disableParam_NT="0" artsSpeedType="1" textId="102" useMagicPoint_L2="16" useMagicPoint_R2="-1" swordArtsTypeNew="2" iconId="0" aiUsageId="11000000" />
+<row id="103" paramdexName="Spinning Slash" disableParam_NT="0" artsSpeedType="2" textId="103" useMagicPoint_L2="6" useMagicPoint_R2="12" swordArtsTypeNew="3" iconId="0" aiUsageId="12001003" />
+<row id="104" paramdexName="%null%" disableParam_NT="1" artsSpeedType="1" textId="104" useMagicPoint_L2="8" useMagicPoint_R2="14" swordArtsTypeNew="4" iconId="0" aiUsageId="12001003" />
+<row id="105" paramdexName="Charge Forth" disableParam_NT="0" artsSpeedType="1" textId="105" useMagicPoint_L2="16" useMagicPoint_R2="-1" swordArtsTypeNew="5" iconId="0" aiUsageId="11003000" />
+<row id="106" paramdexName="Stamp (Upward Cut)" disableParam_NT="0" artsSpeedType="1" textId="106" useMagicPoint_L2="5" useMagicPoint_R2="8" swordArtsTypeNew="6" iconId="0" aiUsageId="12001100" />
+<row id="107" paramdexName="Stamp (Sweep)" disableParam_NT="1" artsSpeedType="1" textId="107" useMagicPoint_L2="5" useMagicPoint_R2="8" swordArtsTypeNew="7" iconId="0" aiUsageId="12001100" />
+<row id="108" paramdexName="Blood Tax" disableParam_NT="0" artsSpeedType="1" textId="108" useMagicPoint_L2="14" useMagicPoint_R2="-1" swordArtsTypeNew="8" iconId="0" aiUsageId="12000000" />
+<row id="109" paramdexName="Repeating Thrust" disableParam_NT="0" artsSpeedType="1" textId="109" useMagicPoint_L2="7" useMagicPoint_R2="-1" swordArtsTypeNew="9" iconId="0" aiUsageId="12000000" />
+<row id="110" paramdexName="Wild Strikes" disableParam_NT="0" artsSpeedType="1" textId="110" useMagicPoint_L2="2" useMagicPoint_R1="10" useMagicPoint_R2="15" swordArtsTypeNew="10" iconId="21030" aiUsageId="12004004" />
+<row id="111" paramdexName="Spinning Strikes" disableParam_NT="1" artsSpeedType="1" textId="111" useMagicPoint_L2="2" useMagicPoint_R1="10" useMagicPoint_R2="15" swordArtsTypeNew="11" iconId="0" aiUsageId="12004003" />
+<row id="112" paramdexName="Double Slash" disableParam_NT="1" artsSpeedType="1" textId="112" useMagicPoint_L2="6" useMagicPoint_R2="3" swordArtsTypeNew="12" iconId="0" aiUsageId="11001203" />
+<row id="113" paramdexName="Prelate's Charge" disableParam_NT="1" artsSpeedType="2" textId="113" useMagicPoint_L2="7" useMagicPoint_R2="7" swordArtsTypeNew="13" iconId="0" aiUsageId="11003000" />
+<row id="114" paramdexName="Unsheathe" disableParam_NT="0" artsSpeedType="1" textId="114" useMagicPoint_L2="0" useMagicPoint_R1="10" useMagicPoint_R2="15" swordArtsTypeNew="14" iconId="0" aiUsageId="11004003" />
+<row id="115" paramdexName="Square Off" disableParam_NT="0" artsSpeedType="1" textId="115" useMagicPoint_L2="0" useMagicPoint_R1="6" useMagicPoint_R2="8" swordArtsTypeNew="15" iconId="0" aiUsageId="11004003" />
+<row id="116" paramdexName="Giant Hunt" disableParam_NT="0" artsSpeedType="1" textId="116" useMagicPoint_L2="16" useMagicPoint_R2="-1" swordArtsTypeNew="16" iconId="21062" aiUsageId="11000000" />
+<row id="117" paramdexName="Torch Attack" disableParam_NT="1" artsSpeedType="2" isRefRightArts="0" isGrayoutLeftHand="0" isGrayoutRightHand="1" isGrayoutBothHand="1" textId="117" useMagicPoint_L2="0" useMagicPoint_R2="-1" swordArtsTypeNew="17" iconId="21062" aiUsageId="12000004" />
+<row id="118" paramdexName="Loretta's Slash" disableParam_NT="1" artsSpeedType="1" textId="118" useMagicPoint_L2="14" useMagicPoint_R2="-1" swordArtsTypeNew="18" iconId="21062" aiUsageId="11000000" />
+<row id="119" paramdexName="Poison Moth Flight" disableParam_NT="1" artsSpeedType="1" textId="119" useMagicPoint_L2="7" useMagicPoint_R2="-1" swordArtsTypeNew="19" iconId="0" aiUsageId="12000000" />
+<row id="120" paramdexName="Spinning Weapon" disableParam_NT="1" artsSpeedType="1" textId="120" useMagicPoint_L2="12" useMagicPoint_R2="-1" swordArtsTypeNew="20" iconId="21062" aiUsageId="12004005" />
+<row id="121" paramdexName="%null%" disableParam_NT="1" artsSpeedType="2" textId="121" useMagicPoint_L2="14" useMagicPoint_R2="-1" swordArtsTypeNew="21" iconId="0" aiUsageId="11004000" />
+<row id="122" paramdexName="Storm Assault" disableParam_NT="1" artsSpeedType="2" textId="122" useMagicPoint_L2="22" useMagicPoint_R2="-1" swordArtsTypeNew="22" iconId="21062" aiUsageId="12000000" />
+<row id="123" paramdexName="Stormcaller" disableParam_NT="1" artsSpeedType="2" textId="123" useMagicPoint_L2="9" useMagicPoint_R2="11" swordArtsTypeNew="23" iconId="0" aiUsageId="12001202" />
+<row id="124" paramdexName="Sword Dance" disableParam_NT="1" artsSpeedType="1" textId="124" useMagicPoint_L2="6" useMagicPoint_R2="6" swordArtsTypeNew="24" iconId="0" aiUsageId="11000000" />
+<row id="125" paramdexName="Spinning Chain" disableParam_NT="1" artsSpeedType="2" textId="125" useMagicPoint_L2="8" useMagicPoint_R1="8" useMagicPoint_R2="10" swordArtsTypeNew="25" iconId="0" aiUsageId="12004004" />
+<row id="200" paramdexName="Glintblade Phalanx" disableParam_NT="0" artsSpeedType="2" textId="200" useMagicPoint_L2="10" useMagicPoint_R2="4" swordArtsTypeNew="50" iconId="21001" aiUsageId="11001101" />
+<row id="201" paramdexName="Sacred Blade" disableParam_NT="1" artsSpeedType="2" textId="201" useMagicPoint_L2="19" useMagicPoint_R2="-1" swordArtsTypeNew="51" iconId="0" aiUsageId="11000000" />
+<row id="202" paramdexName="Ice Spear" disableParam_NT="1" artsSpeedType="2" textId="202" useMagicPoint_L2="15" useMagicPoint_R2="-1" swordArtsTypeNew="52" iconId="0" aiUsageId="10000000" />
+<row id="203" paramdexName="Glintstone Pebble" disableParam_NT="1" artsSpeedType="2" textId="203" useMagicPoint_L2="8" useMagicPoint_R2="4" swordArtsTypeNew="53" iconId="0" aiUsageId="11001102" />
+<row id="204" paramdexName="Bloody Slash" disableParam_NT="1" artsSpeedType="1" textId="204" useMagicPoint_L2="6" useMagicPoint_R2="-1" swordArtsTypeNew="54" iconId="0" aiUsageId="11000000" />
+<row id="205" paramdexName="Lifesteal Fist" disableParam_NT="1" artsSpeedType="1" textId="205" useMagicPoint_L2="14" useMagicPoint_R2="-1" swordArtsTypeNew="55" iconId="0" aiUsageId="12000000" />
+<row id="207" paramdexName="Eruption" disableParam_NT="1" artsSpeedType="2" textId="207" useMagicPoint_L2="14" useMagicPoint_R2="-1" swordArtsTypeNew="56" iconId="0" aiUsageId="12000000" />
+<row id="208" paramdexName="Prayerful Strike" disableParam_NT="1" artsSpeedType="2" textId="208" useMagicPoint_L2="20" useMagicPoint_R2="-1" swordArtsTypeNew="57" iconId="0" aiUsageId="12000000" />
+<row id="209" paramdexName="Gravitas" disableParam_NT="0" artsSpeedType="2" textId="209" useMagicPoint_L2="13" useMagicPoint_R2="-1" swordArtsTypeNew="58" iconId="21011" aiUsageId="11000000" />
+<row id="210" paramdexName="Storm Blade" disableParam_NT="0" artsSpeedType="1" textId="210" useMagicPoint_L2="10" useMagicPoint_R2="6" swordArtsTypeNew="59" iconId="21014" aiUsageId="10001200" />
+<row id="212" paramdexName="Earthshaker" disableParam_NT="1" artsSpeedType="2" textId="212" useMagicPoint_L2="10" useMagicPoint_R2="5" swordArtsTypeNew="61" iconId="0" aiUsageId="11001103" />
+<row id="213" paramdexName="Golden Land" disableParam_NT="1" artsSpeedType="2" textId="213" useMagicPoint_L2="16" useMagicPoint_R2="5" swordArtsTypeNew="62" iconId="0" aiUsageId="11001103" />
+<row id="214" paramdexName="Flaming Strike" disableParam_NT="1" artsSpeedType="1" textId="214" useMagicPoint_L2="4" useMagicPoint_R2="10" swordArtsTypeNew="63" iconId="0" aiUsageId="12001103" />
+<row id="216" paramdexName="Thunderbolt" disableParam_NT="0" artsSpeedType="2" textId="216" useMagicPoint_L2="10" useMagicPoint_R2="10" swordArtsTypeNew="64" iconId="21028" aiUsageId="10001200" />
+<row id="217" paramdexName="Lightning Slash" disableParam_NT="1" artsSpeedType="1" textId="217" useMagicPoint_L2="10" useMagicPoint_R2="-1" swordArtsTypeNew="65" iconId="0" aiUsageId="12000000" />
+<row id="218" paramdexName="Carian Grandeur" disableParam_NT="1" artsSpeedType="2" textId="218" useMagicPoint_L2="26" useMagicPoint_R2="-1" swordArtsTypeNew="66" iconId="0" aiUsageId="12002000" />
+<row id="219" paramdexName="Carian Greatsword" disableParam_NT="0" artsSpeedType="2" textId="219" useMagicPoint_L2="16" useMagicPoint_R2="-1" swordArtsTypeNew="67" iconId="21033" aiUsageId="12002000" />
+<row id="220" paramdexName="Vacuum Slice" disableParam_NT="1" artsSpeedType="2" textId="220" useMagicPoint_L2="14" useMagicPoint_R2="-1" swordArtsTypeNew="68" iconId="0" aiUsageId="10000000" />
+<row id="221" paramdexName="Black Flame Tornado" disableParam_NT="1" artsSpeedType="2" textId="221" useMagicPoint_L2="30" useMagicPoint_R2="-1" swordArtsTypeNew="69" iconId="0" aiUsageId="12002000" />
+<row id="222" paramdexName="Sacred Ring of Light" disableParam_NT="1" artsSpeedType="2" textId="222" useMagicPoint_L2="9" useMagicPoint_R2="9" swordArtsTypeNew="70" iconId="0" aiUsageId="11001201" />
+<row id="223" paramdexName="Firebreather" disableParam_NT="1" artsSpeedType="2" isRefRightArts="0" isGrayoutLeftHand="0" textId="223" useMagicPoint_L2="8" useMagicPoint_R2="-1" swordArtsTypeNew="71" iconId="0" aiUsageId="11003000" />
+<row id="224" paramdexName="Blood Blade" disableParam_NT="1" artsSpeedType="1" textId="224" useMagicPoint_L2="3" useMagicPoint_R2="3" swordArtsTypeNew="72" iconId="0" aiUsageId="11001201" />
+<row id="225" paramdexName="Phantom Slash" disableParam_NT="1" artsSpeedType="1" textId="225" useMagicPoint_L2="8" useMagicPoint_R2="8" swordArtsTypeNew="73" iconId="0" aiUsageId="11001002" />
+<row id="226" paramdexName="Spectral Lance" disableParam_NT="1" artsSpeedType="2" textId="226" useMagicPoint_L2="9" useMagicPoint_R2="-1" swordArtsTypeNew="74" iconId="0" aiUsageId="10000000" />
+<row id="227" paramdexName="Chilling Mist" disableParam_NT="1" artsSpeedType="2" textId="227" useMagicPoint_L2="14" useMagicPoint_R2="-1" swordArtsTypeNew="75" iconId="0" aiUsageId="11000000" />
+<row id="228" paramdexName="Poisonous Mist" disableParam_NT="1" artsSpeedType="2" textId="228" useMagicPoint_L2="14" useMagicPoint_R2="-1" swordArtsTypeNew="76" iconId="0" aiUsageId="11000000" />
+<row id="300" paramdexName="Shield Bash" disableParam_NT="0" artsSpeedType="2" isRefRightArts="0" isGrayoutLeftHand="0" textId="300" useMagicPoint_L2="10" useMagicPoint_R2="-1" swordArtsTypeNew="90" iconId="0" aiUsageId="42000000" />
+<row id="301" paramdexName="Barricade Shield" disableParam_NT="0" artsSpeedType="2" isRefRightArts="0" isGrayoutLeftHand="0" textId="301" useMagicPoint_L2="12" useMagicPoint_R2="-1" swordArtsTypeNew="91" iconId="0" aiUsageId="42000000" />
+<row id="302" paramdexName="Parry" disableParam_NT="0" artsSpeedType="2" isRefRightArts="0" isGrayoutLeftHand="0" textId="302" useMagicPoint_L2="0" useMagicPoint_R2="-1" swordArtsTypeNew="92" iconId="21055" aiUsageId="42000000" />
+<row id="303" paramdexName="Buckler Parry" disableParam_NT="0" artsSpeedType="2" isRefRightArts="0" isGrayoutLeftHand="0" textId="303" useMagicPoint_L2="0" useMagicPoint_R2="-1" swordArtsTypeNew="93" iconId="21055" aiUsageId="42000000" />
+<row id="305" paramdexName="Carian Retaliation" disableParam_NT="0" artsSpeedType="2" isRefRightArts="0" isGrayoutLeftHand="0" textId="305" useMagicPoint_L2="8" useMagicPoint_R2="-1" swordArtsTypeNew="95" iconId="0" aiUsageId="42000000" />
+<row id="306" paramdexName="Storm Wall" disableParam_NT="1" artsSpeedType="2" isRefRightArts="0" isGrayoutLeftHand="0" textId="306" useMagicPoint_L2="3" useMagicPoint_R2="-1" swordArtsTypeNew="96" iconId="0" aiUsageId="42000000" />
+<row id="307" paramdexName="Golden Parry" disableParam_NT="1" artsSpeedType="2" isRefRightArts="0" isGrayoutLeftHand="0" textId="307" useMagicPoint_L2="4" useMagicPoint_R2="-1" swordArtsTypeNew="97" iconId="21055" aiUsageId="42000000" />
+<row id="308" paramdexName="Shield Crash" disableParam_NT="1" artsSpeedType="2" isRefRightArts="0" isGrayoutLeftHand="0" textId="308" useMagicPoint_L2="12" useMagicPoint_R2="-1" swordArtsTypeNew="98" iconId="0" aiUsageId="11003000" />
+<row id="309" paramdexName="Thops's Barrier" disableParam_NT="1" artsSpeedType="2" isRefRightArts="0" isGrayoutLeftHand="0" textId="309" useMagicPoint_L2="0" useMagicPoint_R2="-1" swordArtsTypeNew="99" iconId="0" aiUsageId="42000000" />
+<row id="400" paramdexName="Through and Through" disableParam_NT="1" artsSpeedType="2" isRefRightArts="0" textId="400" useMagicPoint_L2="0" useMagicPoint_R1="9" useMagicPoint_R2="9" swordArtsTypeNew="100" iconId="0" aiUsageId="10004200" />
+<row id="401" paramdexName="Barrage" disableParam_NT="0" artsSpeedType="2" isRefRightArts="0" textId="401" useMagicPoint_L2="0" useMagicPoint_R1="2" useMagicPoint_R2="2" swordArtsTypeNew="101" iconId="0" aiUsageId="10004100" />
+<row id="402" paramdexName="Mighty Shot" disableParam_NT="0" artsSpeedType="2" isRefRightArts="0" textId="402" useMagicPoint_L2="0" useMagicPoint_R1="6" useMagicPoint_R2="6" swordArtsTypeNew="102" iconId="0" aiUsageId="10004100" />
+<row id="404" paramdexName="Enchanted Shot" disableParam_NT="1" artsSpeedType="2" isRefRightArts="0" textId="404" useMagicPoint_L2="0" useMagicPoint_R1="8" useMagicPoint_R2="8" swordArtsTypeNew="103" iconId="0" aiUsageId="10004100" />
+<row id="405" paramdexName="Sky Shot" disableParam_NT="1" artsSpeedType="2" isRefRightArts="0" textId="405" useMagicPoint_L2="0" useMagicPoint_R1="3" useMagicPoint_R2="3" swordArtsTypeNew="108" iconId="0" aiUsageId="10004200" />
+<row id="406" paramdexName="Rain of Arrows" disableParam_NT="1" artsSpeedType="2" isRefRightArts="0" textId="406" useMagicPoint_L2="0" useMagicPoint_R1="20" useMagicPoint_R2="20" swordArtsTypeNew="105" iconId="0" aiUsageId="10004200" />
+<row id="407" paramdexName="%null%" disableParam_NT="1" artsSpeedType="2" isRefRightArts="0" textId="407" useMagicPoint_L2="0" useMagicPoint_R1="8" useMagicPoint_R2="8" swordArtsTypeNew="106" iconId="0" aiUsageId="10004100" />
+<row id="501" paramdexName="Hoarfrost Stomp" disableParam_NT="1" artsSpeedType="2" textId="501" useMagicPoint_L2="10" useMagicPoint_R2="-1" swordArtsTypeNew="110" iconId="21042" aiUsageId="11001200" />
+<row id="502" paramdexName="Storm Stomp" disableParam_NT="0" artsSpeedType="2" textId="502" useMagicPoint_L2="6" useMagicPoint_R2="-1" swordArtsTypeNew="111" iconId="21042" aiUsageId="12000000" />
+<row id="503" paramdexName="Kick" disableParam_NT="0" artsSpeedType="2" textId="503" useMagicPoint_L2="0" useMagicPoint_R2="-1" swordArtsTypeNew="112" iconId="21045" aiUsageId="12000004" />
+<row id="504" paramdexName="Lightning Ram" disableParam_NT="1" artsSpeedType="1" textId="504" useMagicPoint_L2="5" useMagicPoint_R2="5" swordArtsTypeNew="113" iconId="0" aiUsageId="12000000" />
+<row id="505" paramdexName="Flame of the Redmanes" disableParam_NT="1" artsSpeedType="1" textId="505" useMagicPoint_L2="14" useMagicPoint_R2="-1" swordArtsTypeNew="114" iconId="0" aiUsageId="11000000" />
+<row id="506" paramdexName="Ground Slam" disableParam_NT="1" artsSpeedType="2" textId="506" useMagicPoint_L2="14" useMagicPoint_R2="-1" swordArtsTypeNew="115" iconId="21062" aiUsageId="11000000" />
+<row id="507" paramdexName="Golden Slam" disableParam_NT="1" artsSpeedType="2" textId="507" useMagicPoint_L2="22" useMagicPoint_R2="-1" swordArtsTypeNew="116" iconId="21062" aiUsageId="11000000" />
+<row id="508" paramdexName="Waves of Darkness" disableParam_NT="1" artsSpeedType="2" textId="508" useMagicPoint_L2="16" useMagicPoint_R2="5" swordArtsTypeNew="117" iconId="21062" aiUsageId="11001103" />
+<row id="509" paramdexName="Hoarah Loux's Earthshaker" disableParam_NT="1" artsSpeedType="2" textId="509" useMagicPoint_L2="16" useMagicPoint_R2="16" swordArtsTypeNew="118" iconId="21062" aiUsageId="11000000" />
+<row id="600" paramdexName="Determination" disableParam_NT="0" artsSpeedType="1" textId="600" useMagicPoint_L2="10" useMagicPoint_R2="-1" swordArtsTypeNew="130" iconId="21017" aiUsageId="30010000" />
+<row id="601" paramdexName="Royal Knight's Resolve" disableParam_NT="1" artsSpeedType="1" textId="601" useMagicPoint_L2="15" useMagicPoint_R2="-1" swordArtsTypeNew="131" iconId="21017" aiUsageId="30010000" />
+<row id="602" paramdexName="Assassin's Gambit" disableParam_NT="1" artsSpeedType="2" textId="602" useMagicPoint_L2="5" useMagicPoint_R2="-1" swordArtsTypeNew="132" iconId="0" aiUsageId="30000000" />
+<row id="603" paramdexName="Golden Vow" disableParam_NT="1" artsSpeedType="2" textId="603" useMagicPoint_L2="40" useMagicPoint_R2="-1" swordArtsTypeNew="133" iconId="0" aiUsageId="30000000" />
+<row id="604" paramdexName="Sacred Order" disableParam_NT="1" artsSpeedType="2" textId="604" useMagicPoint_L2="18" useMagicPoint_R2="-1" swordArtsTypeNew="134" iconId="0" aiUsageId="30010000" />
+<row id="605" paramdexName="Shared Order" disableParam_NT="1" artsSpeedType="2" textId="605" useMagicPoint_L2="20" useMagicPoint_R2="-1" swordArtsTypeNew="135" iconId="0" aiUsageId="30010000" />
+<row id="606" paramdexName="Seppuku" disableParam_NT="1" artsSpeedType="2" textId="606" useMagicPoint_L2="4" useMagicPoint_R2="-1" swordArtsTypeNew="136" iconId="21062" aiUsageId="30010000" />
+<row id="607" paramdexName="Cragblade" disableParam_NT="1" artsSpeedType="2" textId="607" useMagicPoint_L2="16" useMagicPoint_R2="-1" swordArtsTypeNew="137" iconId="21062" aiUsageId="30010000" />
+<row id="650" paramdexName="Barbaric Roar" disableParam_NT="0" artsSpeedType="1" textId="650" useMagicPoint_L2="16" useMagicPoint_R2="-1" swordArtsTypeNew="140" iconId="21050" aiUsageId="30010000" />
+<row id="651" paramdexName="War Cry" disableParam_NT="1" artsSpeedType="1" textId="651" useMagicPoint_L2="16" useMagicPoint_R2="-1" swordArtsTypeNew="141" iconId="21050" aiUsageId="30010000" />
+<row id="652" paramdexName="Beast's Roar" disableParam_NT="1" artsSpeedType="2" textId="652" useMagicPoint_L2="10" useMagicPoint_R2="-1" swordArtsTypeNew="142" iconId="21050" aiUsageId="10000000" />
+<row id="653" paramdexName="Troll's Roar" disableParam_NT="1" artsSpeedType="2" textId="653" useMagicPoint_L2="22" useMagicPoint_R2="-1" swordArtsTypeNew="143" iconId="21050" aiUsageId="30010002" />
+<row id="654" paramdexName="Braggart's Roar" disableParam_NT="1" artsSpeedType="2" textId="654" useMagicPoint_L2="16" useMagicPoint_R2="-1" swordArtsTypeNew="144" iconId="0" aiUsageId="30010000" />
+<row id="700" paramdexName="Endure" disableParam_NT="0" artsSpeedType="1" textId="700" useMagicPoint_L2="9" useMagicPoint_R2="-1" swordArtsTypeNew="150" iconId="0" aiUsageId="30000000" />
+<row id="701" paramdexName="Vow of the Indomitable" disableParam_NT="1" artsSpeedType="1" isRefRightArts="0" isGrayoutLeftHand="0" textId="701" useMagicPoint_L2="20" useMagicPoint_R2="-1" swordArtsTypeNew="151" iconId="0" aiUsageId="41000000" />
+<row id="702" paramdexName="Holy Ground" disableParam_NT="0" artsSpeedType="2" isRefRightArts="0" isGrayoutLeftHand="0" textId="702" useMagicPoint_L2="30" useMagicPoint_R2="-1" swordArtsTypeNew="152" iconId="21054" aiUsageId="30200000" />
+<row id="800" paramdexName="Quickstep" disableParam_NT="0" artsSpeedType="1" textId="800" useMagicPoint_L2="3" useMagicPoint_R2="-1" swordArtsTypeNew="155" iconId="21058" aiUsageId="40000000" />
+<row id="801" paramdexName="Bloodhound's Step" disableParam_NT="1" artsSpeedType="1" textId="801" useMagicPoint_L2="5" useMagicPoint_R2="-1" swordArtsTypeNew="156" iconId="0" aiUsageId="40000000" />
+<row id="802" paramdexName="Raptor of the Mists" disableParam_NT="1" artsSpeedType="1" textId="802" useMagicPoint_L2="6" useMagicPoint_R2="-1" swordArtsTypeNew="157" iconId="0" aiUsageId="41001104" />
+<row id="850" paramdexName="White Shadow's Lure" disableParam_NT="1" artsSpeedType="1" textId="850" useMagicPoint_L2="15" useMagicPoint_R2="-1" swordArtsTypeNew="160" iconId="0" aiUsageId="11010000" />
+<row id="1000" paramdexName="Surge of Faith" disableParam_NT="1" artsSpeedType="2" textId="1000" useMagicPoint_L2="15" useMagicPoint_R2="15" swordArtsTypeNew="200" iconId="21000" aiUsageId="12000000" />
+<row id="1001" paramdexName="Flame Spit" disableParam_NT="1" artsSpeedType="2" isRefRightArts="0" isGrayoutLeftHand="0" textId="1001" useMagicPoint_L2="28" useMagicPoint_R2="-1" swordArtsTypeNew="201" iconId="21000" aiUsageId="10002000" />
+<row id="1002" paramdexName="Tongues of Fire" disableParam_NT="1" artsSpeedType="2" isRefRightArts="0" isGrayoutLeftHand="0" textId="1002" useMagicPoint_L2="5" useMagicPoint_R2="-1" swordArtsTypeNew="202" iconId="21000" aiUsageId="11004005" />
+<row id="1003" paramdexName="Oracular Bubble" disableParam_NT="1" artsSpeedType="2" textId="1003" useMagicPoint_L2="6" useMagicPoint_R2="6" swordArtsTypeNew="203" iconId="21000" aiUsageId="10000000" />
+<row id="1004" paramdexName="Bubble Shower" disableParam_NT="1" artsSpeedType="2" textId="1004" useMagicPoint_L2="16" useMagicPoint_R2="-1" swordArtsTypeNew="204" iconId="21000" aiUsageId="11000000" />
+<row id="1005" paramdexName="Great Oracular Bubble" disableParam_NT="1" artsSpeedType="2" textId="1005" useMagicPoint_L2="16" useMagicPoint_R2="-1" swordArtsTypeNew="205" iconId="21000" aiUsageId="10000000" />
+<row id="1006" paramdexName="Sea of Magma" disableParam_NT="1" artsSpeedType="2" textId="1006" useMagicPoint_L2="5" useMagicPoint_R2="5" swordArtsTypeNew="206" iconId="21000" aiUsageId="12000000" />
+<row id="1007" paramdexName="Viper Bite" disableParam_NT="0" artsSpeedType="2" isRefRightArts="0" isGrayoutLeftHand="0" textId="1007" useMagicPoint_L2="8" useMagicPoint_R2="-1" swordArtsTypeNew="207" iconId="21000" aiUsageId="11000000" />
+<row id="1008" paramdexName="Moonlight Greatsword" disableParam_NT="1" artsSpeedType="2" textId="1008" useMagicPoint_L2="32" useMagicPoint_R2="-1" swordArtsTypeNew="208" iconId="21000" aiUsageId="30010000" />
+<row id="1009" paramdexName="Siluria's Woe" disableParam_NT="1" artsSpeedType="2" textId="1009" useMagicPoint_L2="25" useMagicPoint_R2="-1" swordArtsTypeNew="209" iconId="21000" aiUsageId="12002000" />
+<row id="1010" paramdexName="Rallying Standard" disableParam_NT="1" artsSpeedType="2" textId="1010" useMagicPoint_L2="30" useMagicPoint_R2="-1" swordArtsTypeNew="210" iconId="21000" aiUsageId="30000000" />
+<row id="1011" paramdexName="Bear Witness!" disableParam_NT="1" artsSpeedType="2" isRefRightArts="0" isGrayoutLeftHand="0" textId="1011" useMagicPoint_L2="20" useMagicPoint_R2="-1" swordArtsTypeNew="211" iconId="21000" aiUsageId="11000000" />
+<row id="1012" paramdexName="Eochaid's Dancing Blade" disableParam_NT="1" artsSpeedType="1" textId="1012" useMagicPoint_L2="15" useMagicPoint_R2="-1" swordArtsTypeNew="212" iconId="21000" aiUsageId="12002000" />
+<row id="1013" paramdexName="Soul Stifler" disableParam_NT="1" artsSpeedType="2" textId="1013" useMagicPoint_L2="12" useMagicPoint_R2="-1" swordArtsTypeNew="213" iconId="21000" aiUsageId="50000000" />
+<row id="1014" paramdexName="Taker's Flames" disableParam_NT="1" artsSpeedType="2" textId="1014" useMagicPoint_L2="30" useMagicPoint_R2="-1" swordArtsTypeNew="214" iconId="21000" aiUsageId="11000000" />
+<row id="1015" paramdexName="Shriek of Milos" disableParam_NT="1" artsSpeedType="2" textId="1015" useMagicPoint_L2="30" useMagicPoint_R2="-1" swordArtsTypeNew="215" iconId="21000" aiUsageId="30010000" />
+<row id="1016" paramdexName="Reduvia Blood Blade" disableParam_NT="0" artsSpeedType="2" textId="1016" useMagicPoint_L2="6" useMagicPoint_R2="6" swordArtsTypeNew="216" iconId="21000" aiUsageId="11001200" />
+<row id="1017" paramdexName="Glintstone Dart" disableParam_NT="1" artsSpeedType="2" textId="1017" useMagicPoint_L2="10" useMagicPoint_R2="4" swordArtsTypeNew="217" iconId="21000" aiUsageId="11001100" />
+<row id="1018" paramdexName="Flowing Form" disableParam_NT="1" artsSpeedType="2" textId="1018" useMagicPoint_L2="9" useMagicPoint_R2="-1" swordArtsTypeNew="218" iconId="21000" aiUsageId="11000000" />
+<row id="1019" paramdexName="Night-and-Flame Stance" disableParam_NT="1" artsSpeedType="2" textId="1019" useMagicPoint_L2="0" useMagicPoint_R1="26" useMagicPoint_R2="32" swordArtsTypeNew="219" iconId="21000" aiUsageId="11004000" />
+<row id="1020" paramdexName="Wave of Gold" disableParam_NT="1" artsSpeedType="2" textId="1020" useMagicPoint_L2="42" useMagicPoint_R2="-1" swordArtsTypeNew="220" iconId="21000" aiUsageId="11000000" />
+<row id="1021" paramdexName="Ruinous Ghostflame" disableParam_NT="1" artsSpeedType="2" textId="1021" useMagicPoint_L2="20" useMagicPoint_R2="-1" swordArtsTypeNew="221" iconId="21000" aiUsageId="30010000" />
+<row id="1022" paramdexName="Establish Order" disableParam_NT="1" artsSpeedType="2" textId="1022" useMagicPoint_L2="20" useMagicPoint_R2="20" swordArtsTypeNew="222" iconId="21000" aiUsageId="12001001" />
+<row id="1023" paramdexName="Mists of Slumber" disableParam_NT="1" artsSpeedType="2" textId="1023" useMagicPoint_L2="20" useMagicPoint_R2="-1" swordArtsTypeNew="223" iconId="21000" aiUsageId="11000000" />
+<row id="1024" paramdexName="Spearcall Ritual" disableParam_NT="1" artsSpeedType="2" textId="1024" useMagicPoint_L2="20" useMagicPoint_R2="-1" swordArtsTypeNew="224" iconId="21000" aiUsageId="10000000" />
+<row id="1025" paramdexName="Wolf's Assault" disableParam_NT="1" artsSpeedType="2" textId="1025" useMagicPoint_L2="20" useMagicPoint_R2="-1" swordArtsTypeNew="225" iconId="21000" aiUsageId="11000000" />
+<row id="1026" paramdexName="Thundercloud Form" disableParam_NT="1" artsSpeedType="2" textId="1026" useMagicPoint_L2="28" useMagicPoint_R2="-1" swordArtsTypeNew="226" iconId="21000" aiUsageId="11000000" />
+<row id="1027" paramdexName="Cursed-Blood Slice" disableParam_NT="1" artsSpeedType="1" textId="1027" useMagicPoint_L2="20" useMagicPoint_R2="20" swordArtsTypeNew="227" iconId="21000" aiUsageId="11001000" />
+<row id="1028" paramdexName="Waterfowl Dance" disableParam_NT="1" artsSpeedType="2" textId="1028" useMagicPoint_L2="12" useMagicPoint_R2="9" swordArtsTypeNew="228" iconId="21000" aiUsageId="11001200" />
+<row id="1029" paramdexName="Gold Breaker" disableParam_NT="1" artsSpeedType="2" textId="1029" useMagicPoint_L2="26" useMagicPoint_R2="-1" swordArtsTypeNew="229" iconId="21000" aiUsageId="11000000" />
+<row id="1030" paramdexName="I Command Thee Kneel!" disableParam_NT="1" artsSpeedType="2" textId="1030" useMagicPoint_L2="15" useMagicPoint_R2="15" swordArtsTypeNew="230" iconId="21000" aiUsageId="12001202" />
+<row id="1031" paramdexName="Regal Roar" disableParam_NT="1" artsSpeedType="2" textId="1031" useMagicPoint_L2="25" useMagicPoint_R2="-1" swordArtsTypeNew="231" iconId="21000" aiUsageId="11000000" />
+<row id="1032" paramdexName="Starcaller Cry" disableParam_NT="1" artsSpeedType="2" textId="1032" useMagicPoint_L2="20" useMagicPoint_R2="20" swordArtsTypeNew="232" iconId="21000" aiUsageId="11001003" />
+<row id="1033" paramdexName="Wave of Destruction" disableParam_NT="1" artsSpeedType="2" textId="1033" useMagicPoint_L2="25" useMagicPoint_R2="-1" swordArtsTypeNew="233" iconId="21000" aiUsageId="11000000" />
+<row id="1034" paramdexName="Bloodboon Ritual" disableParam_NT="1" artsSpeedType="2" textId="1034" useMagicPoint_L2="20" useMagicPoint_R2="20" swordArtsTypeNew="234" iconId="21000" aiUsageId="11001201" />
+<row id="1035" paramdexName="Flowing Form" disableParam_NT="1" artsSpeedType="2" textId="1035" useMagicPoint_L2="16" useMagicPoint_R2="-1" swordArtsTypeNew="235" iconId="21000" aiUsageId="11000000" />
+<row id="1036" paramdexName="Blade of Death" disableParam_NT="1" artsSpeedType="2" textId="1036" useMagicPoint_L2="25" useMagicPoint_R2="-1" swordArtsTypeNew="236" iconId="21000" aiUsageId="11000000" />
+<row id="1037" paramdexName="Blade of Gold" disableParam_NT="1" artsSpeedType="2" textId="1037" useMagicPoint_L2="17" useMagicPoint_R2="-1" swordArtsTypeNew="237" iconId="21000" aiUsageId="11000000" />
+<row id="1038" paramdexName="Destined Death" disableParam_NT="1" artsSpeedType="2" textId="1038" useMagicPoint_L2="40" useMagicPoint_R2="-1" swordArtsTypeNew="238" iconId="21000" aiUsageId="12000000" />
+<row id="1039" paramdexName="Spinning Wheel" disableParam_NT="1" artsSpeedType="2" textId="1039" useMagicPoint_L2="3" useMagicPoint_R2="-1" swordArtsTypeNew="239" iconId="21000" aiUsageId="11004005" />
+<row id="1040" paramdexName="Alabaster Lords' Pull" disableParam_NT="1" artsSpeedType="2" textId="1040" useMagicPoint_L2="15" useMagicPoint_R2="-1" swordArtsTypeNew="240" iconId="21000" aiUsageId="11000000" />
+<row id="1041" paramdexName="Onyx Lords' Repulsion" disableParam_NT="1" artsSpeedType="2" textId="1041" useMagicPoint_L2="27" useMagicPoint_R2="-1" swordArtsTypeNew="241" iconId="21000" aiUsageId="11000000" />
+<row id="1042" paramdexName="Oath of Vengeance" disableParam_NT="1" artsSpeedType="2" textId="1042" useMagicPoint_L2="20" useMagicPoint_R2="-1" swordArtsTypeNew="242" iconId="21000" aiUsageId="50000000" />
+<row id="1043" paramdexName="Ice Lightning Sword" disableParam_NT="0" artsSpeedType="2" textId="1043" useMagicPoint_L2="25" useMagicPoint_R2="-1" swordArtsTypeNew="243" iconId="21000" aiUsageId="12000000" />
+<row id="1044" paramdexName="Regal Beastclaw" disableParam_NT="1" artsSpeedType="2" textId="1044" useMagicPoint_L2="20" useMagicPoint_R2="-1" swordArtsTypeNew="244" iconId="21000" aiUsageId="11000000" />
+<row id="1045" paramdexName="Flame Dance" disableParam_NT="1" artsSpeedType="2" textId="1045" useMagicPoint_L2="25" useMagicPoint_R2="-1" swordArtsTypeNew="245" iconId="21000" aiUsageId="11000000" />
+<row id="1046" paramdexName="Claw Flick" disableParam_NT="1" artsSpeedType="2" textId="1046" useMagicPoint_L2="14" useMagicPoint_R2="-1" swordArtsTypeNew="246" iconId="21000" aiUsageId="12000000" />
+<row id="1047" paramdexName="Nebula" disableParam_NT="1" artsSpeedType="2" textId="1047" useMagicPoint_L2="25" useMagicPoint_R2="-1" swordArtsTypeNew="247" iconId="21000" aiUsageId="11000000" />
+<row id="1048" paramdexName="Ghostflame Ignition" disableParam_NT="1" artsSpeedType="2" textId="1048" useMagicPoint_L2="15" useMagicPoint_R1="10" useMagicPoint_R2="10" swordArtsTypeNew="248" iconId="21000" aiUsageId="12001103" />
+<row id="1049" paramdexName="Ancient Lightning Spear" disableParam_NT="1" artsSpeedType="2" textId="1049" useMagicPoint_L2="24" useMagicPoint_R2="-1" swordArtsTypeNew="249" iconId="21000" aiUsageId="10000000" />
+<row id="1050" paramdexName="Frenzyflame Thrust" disableParam_NT="1" artsSpeedType="2" textId="1050" useMagicPoint_L2="14" useMagicPoint_R2="-1" swordArtsTypeNew="250" iconId="21000" aiUsageId="11000000" />
+<row id="1051" paramdexName="Miquella's Ring of Light" disableParam_NT="1" artsSpeedType="2" textId="1051" useMagicPoint_L2="11" useMagicPoint_R2="11" swordArtsTypeNew="251" iconId="21000" aiUsageId="11001201" />
+<row id="1052" paramdexName="Golden Tempering" disableParam_NT="1" artsSpeedType="2" textId="1052" useMagicPoint_L2="24" useMagicPoint_R2="-1" swordArtsTypeNew="252" iconId="21000" aiUsageId="30010000" />
+<row id="1053" paramdexName="Last Rites" disableParam_NT="1" artsSpeedType="2" textId="1053" useMagicPoint_L2="25" useMagicPoint_R2="-1" swordArtsTypeNew="253" iconId="21000" aiUsageId="30010000" />
+<row id="1054" paramdexName="Unblockable Blade" disableParam_NT="1" artsSpeedType="2" textId="1054" useMagicPoint_L2="18" useMagicPoint_R2="-1" swordArtsTypeNew="254" iconId="21000" aiUsageId="11000000" />
+<row id="1055" paramdexName="Eochaid's Dancing Blade" disableParam_NT="1" artsSpeedType="1" textId="1055" useMagicPoint_L2="15" useMagicPoint_R2="-1" swordArtsTypeNew="212" iconId="21000" aiUsageId="12002000" />
+<row id="1165" disableParam_NT="1" artsSpeedType="2" textId="118" useMagicPoint_L2="14" useMagicPoint_R2="-1" swordArtsTypeNew="165" iconId="21062" aiUsageId="11000000" />
+<row id="1166" disableParam_NT="1" artsSpeedType="2" textId="103" useMagicPoint_L2="17" useMagicPoint_R2="11" swordArtsTypeNew="166" iconId="0" aiUsageId="12001003" />
+<row id="1167" paramdexName="Corpse Wax Cutter" disableParam_NT="1" artsSpeedType="2" textId="1167" useMagicPoint_L2="16" useMagicPoint_R2="-1" swordArtsTypeNew="167" iconId="21000" aiUsageId="11000000" />
+<row id="1168" paramdexName="Zamor Ice Storm" disableParam_NT="1" artsSpeedType="2" textId="1168" useMagicPoint_L2="15" useMagicPoint_R2="-1" swordArtsTypeNew="168" iconId="21000" aiUsageId="12000000" />
+<row id="1169" paramdexName="Radahn's Rain" disableParam_NT="1" artsSpeedType="2" isRefRightArts="0" textId="1169" useMagicPoint_L2="-1" useMagicPoint_R1="32" useMagicPoint_R2="-1" swordArtsTypeNew="169" iconId="21000" aiUsageId="10004100" />
+<row id="1170" paramdexName="The Queen's Black Flame" disableParam_NT="1" artsSpeedType="2" textId="1170" useMagicPoint_L2="15" useMagicPoint_R2="15" swordArtsTypeNew="170" iconId="21000" aiUsageId="12001000" />
+<row id="1171" paramdexName="Dynast's Finesse" disableParam_NT="1" artsSpeedType="2" textId="1171" useMagicPoint_L2="5" useMagicPoint_R2="7" swordArtsTypeNew="171" iconId="21000" aiUsageId="12001602" />
+<row id="1172" paramdexName="Magma Shower" disableParam_NT="1" artsSpeedType="2" textId="1172" useMagicPoint_L2="12" useMagicPoint_R2="12" swordArtsTypeNew="172" iconId="21000" aiUsageId="12001003" />
+<row id="1173" paramdexName="Nebula" disableParam_NT="1" artsSpeedType="2" textId="1173" useMagicPoint_L2="20" useMagicPoint_R2="-1" swordArtsTypeNew="173" iconId="21000" aiUsageId="11000000" />
+<row id="1174" paramdexName="Death Flare" disableParam_NT="1" artsSpeedType="2" textId="1174" useMagicPoint_L2="16" useMagicPoint_R2="16" swordArtsTypeNew="174" iconId="21000" aiUsageId="30010000" />
+<row id="1175" paramdexName="Bloodhound's Finesse" disableParam_NT="1" artsSpeedType="2" textId="1175" useMagicPoint_L2="8" useMagicPoint_R2="12" swordArtsTypeNew="175" iconId="21000" aiUsageId="12001602" />
+<row id="1176" paramdexName="Magma Guillotine" disableParam_NT="1" artsSpeedType="2" textId="1176" useMagicPoint_L2="20" useMagicPoint_R2="10" swordArtsTypeNew="176" iconId="21000" aiUsageId="11000000" />
+<row id="1177" paramdexName="Corpse Piler" disableParam_NT="1" artsSpeedType="2" textId="1177" useMagicPoint_L2="17" useMagicPoint_R2="9" swordArtsTypeNew="177" iconId="21000" aiUsageId="11001202" />
+<row id="1178" paramdexName="Transient Moonlight" disableParam_NT="1" artsSpeedType="2" textId="1178" useMagicPoint_L2="0" useMagicPoint_R1="15" useMagicPoint_R2="20" swordArtsTypeNew="178" iconId="21000" aiUsageId="11004001" />
+<row id="1179" paramdexName="Bloodblade Dance" disableParam_NT="1" artsSpeedType="2" textId="1179" useMagicPoint_L2="11" useMagicPoint_R2="6" swordArtsTypeNew="179" iconId="21000" aiUsageId="11001000" />
+<row id="1180" paramdexName="%null%" disableParam_NT="1" artsSpeedType="2" textId="1180" useMagicPoint_L2="15" useMagicPoint_R2="-1" swordArtsTypeNew="180" iconId="21000" aiUsageId="11000000" />
+<row id="1181" paramdexName="%null%" disableParam_NT="1" artsSpeedType="2" textId="1181" useMagicPoint_L2="15" useMagicPoint_R2="-1" swordArtsTypeNew="181" iconId="21000" aiUsageId="30010000" />
+<row id="1182" paramdexName="Knowledge Above All" disableParam_NT="1" artsSpeedType="2" textId="1182" useMagicPoint_L2="35" useMagicPoint_R2="-1" swordArtsTypeNew="182" iconId="21000" aiUsageId="50010000" />
+<row id="1183" paramdexName="Devourer of Worlds" disableParam_NT="1" artsSpeedType="2" textId="1183" useMagicPoint_L2="35" useMagicPoint_R2="-1" swordArtsTypeNew="183" iconId="21000" aiUsageId="11000000" />
+<row id="1184" paramdexName="Familal Rancor" disableParam_NT="1" artsSpeedType="2" textId="1184" useMagicPoint_L2="25" useMagicPoint_R2="-1" swordArtsTypeNew="184" iconId="21000" aiUsageId="11000000" />
+<row id="1185" paramdexName="Rosus's Summons" disableParam_NT="1" artsSpeedType="2" textId="1185" useMagicPoint_L2="15" useMagicPoint_R2="-1" swordArtsTypeNew="185" iconId="21000" aiUsageId="11000000" />
+<row id="1186" paramdexName="Thunderstorm" disableParam_NT="1" artsSpeedType="2" textId="1186" useMagicPoint_L2="19" useMagicPoint_R2="12" swordArtsTypeNew="186" iconId="21000" aiUsageId="12001004" />
+<row id="1187" paramdexName="Sacred Phalanx" disableParam_NT="1" artsSpeedType="2" textId="1187" useMagicPoint_L2="12" useMagicPoint_R2="-1" swordArtsTypeNew="187" iconId="21000" aiUsageId="11000000" />
+<row id="1188" paramdexName="Great-Serpent Hunt" disableParam_NT="1" artsSpeedType="2" textId="1188" useMagicPoint_L2="10" useMagicPoint_R2="20" swordArtsTypeNew="188" iconId="21000" aiUsageId="12001000" />
+<row id="1189" paramdexName="Angel's Wings" disableParam_NT="1" artsSpeedType="2" textId="1189" useMagicPoint_L2="17" useMagicPoint_R2="-1" swordArtsTypeNew="189" iconId="21000" aiUsageId="11000000" />
+<row id="1190" paramdexName="Storm Kick" disableParam_NT="1" artsSpeedType="2" textId="1190" useMagicPoint_L2="10" useMagicPoint_R2="-1" swordArtsTypeNew="190" iconId="21000" aiUsageId="12001102" />
+<row id="1191" paramdexName="Unblockable Blade" disableParam_NT="1" artsSpeedType="1" textId="1191" useMagicPoint_L2="17" useMagicPoint_R2="-1" swordArtsTypeNew="191" iconId="21000" aiUsageId="11000000" />
+<row id="1192" paramdexName="Sorcery of the Crozier" disableParam_NT="1" artsSpeedType="2" textId="1192" useMagicPoint_L2="15" useMagicPoint_R2="-1" swordArtsTypeNew="192" iconId="21000" aiUsageId="11000000" />
+<row id="1193" paramdexName="Erdtree Slam" disableParam_NT="1" artsSpeedType="2" textId="1193" useMagicPoint_L2="19" useMagicPoint_R2="-1" swordArtsTypeNew="193" iconId="21000" aiUsageId="11000000" />
+<row id="1194" paramdexName="Gravity Bolt" disableParam_NT="1" artsSpeedType="2" textId="1194" useMagicPoint_L2="13" useMagicPoint_R2="13" swordArtsTypeNew="194" iconId="21000" aiUsageId="10001200" />
+<row id="1195" paramdexName="Fires of Slumber" disableParam_NT="1" artsSpeedType="2" isRefRightArts="0" isGrayoutLeftHand="0" textId="1195" useMagicPoint_L2="15" useMagicPoint_R2="-1" swordArtsTypeNew="195" iconId="21000" aiUsageId="11000000" />
+<row id="1196" paramdexName="Golden Retaliation" disableParam_NT="1" artsSpeedType="2" isRefRightArts="0" isGrayoutLeftHand="0" textId="1196" useMagicPoint_L2="4" useMagicPoint_R2="-1" swordArtsTypeNew="196" iconId="21000" aiUsageId="-1" />
+<row id="1197" paramdexName="Contagious Fury" disableParam_NT="1" artsSpeedType="2" isRefRightArts="0" isGrayoutLeftHand="0" textId="1197" useMagicPoint_L2="9" useMagicPoint_R2="-1" swordArtsTypeNew="197" iconId="21000" aiUsageId="30010000" />
+<row id="1198" paramdexName="Ordovis's Vortex" disableParam_NT="0" artsSpeedType="2" textId="1198" useMagicPoint_L2="15" useMagicPoint_R2="-1" swordArtsTypeNew="198" iconId="21000" aiUsageId="12002000" />
+<row id="1199" paramdexName="Spinning Weapon" disableParam_NT="1" artsSpeedType="2" textId="1199" useMagicPoint_L2="20" useMagicPoint_R2="-1" swordArtsTypeNew="199" iconId="21000" aiUsageId="12004005" />
+<row id="2000" paramdexName="Dryleaf Whirlwind" disableParam_NT="0" artsSpeedType="1" textId="2000" useMagicPoint_L2="9" useMagicPoint_R2="-1" swordArtsTypeNew="258" iconId="0" aiUsageId="12000003" />
+<row id="2001" paramdexName="Aspects of the Crucible: Wings" disableParam_NT="0" artsSpeedType="1" textId="2001" useMagicPoint_L2="22" useMagicPoint_R2="-1" swordArtsTypeNew="256" iconId="0" aiUsageId="11000002" />
+<row id="4000" paramdexName="Spinning Gravity Thrust" disableParam_NT="0" artsSpeedType="2" textId="4000" useMagicPoint_L2="26" useMagicPoint_R2="12" swordArtsTypeNew="260" iconId="0" aiUsageId="12001004" />
+<row id="4010" paramdexName="Palm Blast" disableParam_NT="0" artsSpeedType="1" textId="4010" useMagicPoint_L2="14" useMagicPoint_R2="-1" swordArtsTypeNew="261" iconId="0" aiUsageId="12002003" />
+<row id="4020" paramdexName="Piercing Throw" disableParam_NT="0" artsSpeedType="1" textId="4020" useMagicPoint_L2="8" useMagicPoint_R2="-1" swordArtsTypeNew="262" iconId="0" aiUsageId="10000000" />
+<row id="4030" paramdexName="Scattershot Throw" disableParam_NT="0" artsSpeedType="1" textId="4030" useMagicPoint_L2="11" useMagicPoint_R2="11" swordArtsTypeNew="263" iconId="0" aiUsageId="10000000" />
+<row id="4040" paramdexName="Wall of Sparks" disableParam_NT="0" artsSpeedType="1" textId="4040" useMagicPoint_L2="16" useMagicPoint_R2="-1" swordArtsTypeNew="264" iconId="0" aiUsageId="11000000" />
+<row id="4050" paramdexName="Rolling Sparks" disableParam_NT="0" artsSpeedType="1" textId="4050" useMagicPoint_L2="14" useMagicPoint_R2="-1" swordArtsTypeNew="265" iconId="0" aiUsageId="10000000" />
+<row id="4060" paramdexName="Raging Beast" disableParam_NT="0" artsSpeedType="1" textId="4060" useMagicPoint_L2="7" useMagicPoint_R2="7" swordArtsTypeNew="273" iconId="0" aiUsageId="12001102" />
+<row id="4070" paramdexName="Savage Claws" disableParam_NT="0" artsSpeedType="1" textId="4070" useMagicPoint_L2="13" useMagicPoint_R2="-1" swordArtsTypeNew="274" iconId="0" aiUsageId="12000003" />
+<row id="4080" paramdexName="Red Bear Hunt" disableParam_NT="0" artsSpeedType="1" textId="4080" useMagicPoint_L2="8" useMagicPoint_R2="8" swordArtsTypeNew="275" iconId="0" aiUsageId="12001204" />
+<row id="4090" paramdexName="Blind Spot" disableParam_NT="0" artsSpeedType="1" textId="4090" useMagicPoint_L2="9" useMagicPoint_R2="-1" swordArtsTypeNew="276" iconId="0" aiUsageId="12000004" />
+<row id="4100" paramdexName="Swift Slash" disableParam_NT="0" artsSpeedType="1" textId="4100" useMagicPoint_L2="16" useMagicPoint_R2="-1" swordArtsTypeNew="277" iconId="0" aiUsageId="11000002" />
+<row id="4110" paramdexName="Overhead Stance" disableParam_NT="0" artsSpeedType="1" textId="4110" useMagicPoint_L2="-1" useMagicPoint_R1="8" useMagicPoint_R2="10" swordArtsTypeNew="278" iconId="0" aiUsageId="11004003" />
+<row id="4120" paramdexName="Wing Stance" disableParam_NT="0" artsSpeedType="1" textId="4120" useMagicPoint_L2="-1" useMagicPoint_R1="8" useMagicPoint_R2="10" swordArtsTypeNew="279" iconId="0" aiUsageId="11004003" />
+<row id="4130" paramdexName="Blinkbolt" disableParam_NT="0" artsSpeedType="1" textId="4130" useMagicPoint_L2="8" useMagicPoint_R2="-1" swordArtsTypeNew="280" iconId="0" aiUsageId="11000002" />
+<row id="4140" paramdexName="Flame Skewer" disableParam_NT="0" artsSpeedType="1" textId="4140" useMagicPoint_L2="18" useMagicPoint_R2="8" swordArtsTypeNew="281" iconId="0" aiUsageId="11001102" />
+<row id="4150" paramdexName="Savage Lion's Claw" disableParam_NT="0" artsSpeedType="1" textId="4150" useMagicPoint_L2="20" useMagicPoint_R2="10" swordArtsTypeNew="282" iconId="0" aiUsageId="11001002" />
+<row id="4160" paramdexName="Divine Beast Frost Stomp" disableParam_NT="0" artsSpeedType="1" textId="4160" useMagicPoint_L2="18" useMagicPoint_R2="-1" swordArtsTypeNew="283" iconId="0" aiUsageId="11002002" />
+<row id="4170" paramdexName="Flame Spear" disableParam_NT="0" artsSpeedType="1" textId="4170" useMagicPoint_L2="19" useMagicPoint_R2="-1" swordArtsTypeNew="284" iconId="0" aiUsageId="12000000" />
+<row id="4180" paramdexName="Carian Sovereignty" disableParam_NT="0" artsSpeedType="1" textId="4180" useMagicPoint_L2="30" useMagicPoint_R2="12" swordArtsTypeNew="285" iconId="0" aiUsageId="11004001" />
+<row id="4190" paramdexName="Shriek of Sorrow" disableParam_NT="0" artsSpeedType="1" textId="4190" useMagicPoint_L2="19" useMagicPoint_R2="-1" swordArtsTypeNew="286" iconId="0" aiUsageId="11000000" />
+<row id="4210" paramdexName="Igon's Drake Hunt" disableParam_NT="0" artsSpeedType="2" isRefRightArts="0" textId="4210" useMagicPoint_L2="0" useMagicPoint_R1="13" useMagicPoint_R2="13" swordArtsTypeNew="357" iconId="0" aiUsageId="10004200" />
+<row id="4220" paramdexName="Ghostflame Call" disableParam_NT="0" artsSpeedType="2" textId="4220" useMagicPoint_L2="15" useMagicPoint_R1="10" useMagicPoint_R2="10" swordArtsTypeNew="364" iconId="0" aiUsageId="12004003" />
+<row id="4990" disableParam_NT="0" artsSpeedType="2" isRefRightArts="0" textId="503" useMagicPoint_L2="0" useMagicPoint_R2="-1" swordArtsTypeNew="112" iconId="21045" aiUsageId="12000004" />
+<row id="5000" paramdexName="Dragonwound Slash" disableParam_NT="0" artsSpeedType="1" textId="5000" useMagicPoint_L2="18" useMagicPoint_R2="-1" swordArtsTypeNew="300" iconId="0" aiUsageId="10002000" />
+<row id="5010" paramdexName="Needle Piercer" disableParam_NT="0" artsSpeedType="1" textId="5010" useMagicPoint_L2="19" useMagicPoint_R2="-1" swordArtsTypeNew="301" iconId="0" aiUsageId="11000000" />
+<row id="5020" paramdexName="Light" disableParam_NT="0" artsSpeedType="1" textId="5020" useMagicPoint_L2="30" useMagicPoint_R2="-1" swordArtsTypeNew="302" iconId="0" aiUsageId="11000000" />
+<row id="5030" paramdexName="Darkness" disableParam_NT="0" artsSpeedType="1" textId="5030" useMagicPoint_L2="30" useMagicPoint_R2="-1" swordArtsTypeNew="303" iconId="0" aiUsageId="11000000" />
+<row id="5040" paramdexName="Onze's Line of Stars" disableParam_NT="0" artsSpeedType="1" textId="5040" useMagicPoint_L2="10" useMagicPoint_R2="8" swordArtsTypeNew="304" iconId="0" aiUsageId="11001701" />
+<row id="5050" paramdexName="The Poison Flower Blooms Twice" disableParam_NT="0" artsSpeedType="1" textId="5050" useMagicPoint_L2="14" useMagicPoint_R2="-1" swordArtsTypeNew="305" iconId="0" aiUsageId="11000000" />
+<row id="5080" paramdexName="Spinning Guillotine" disableParam_NT="0" artsSpeedType="1" textId="5080" useMagicPoint_L2="12" useMagicPoint_R2="7" swordArtsTypeNew="308" iconId="0" aiUsageId="10001203" />
+<row id="5090" paramdexName="Unending Dance" disableParam_NT="0" artsSpeedType="2" textId="5090" useMagicPoint_L2="2" useMagicPoint_R2="-1" swordArtsTypeNew="309" iconId="0" aiUsageId="11001400" />
+<row id="5100" paramdexName="Revenger's Blade" disableParam_NT="0" artsSpeedType="1" textId="5100" useMagicPoint_L2="15" useMagicPoint_R2="10" swordArtsTypeNew="310" iconId="0" aiUsageId="11003000" />
+<row id="5110" paramdexName="Mists of Eternal Sleep" disableParam_NT="0" artsSpeedType="1" textId="5110" useMagicPoint_L2="23" useMagicPoint_R2="-1" swordArtsTypeNew="311" iconId="0" aiUsageId="11000003" />
+<row id="5120" paramdexName="Dynastic Sickleplay" disableParam_NT="0" artsSpeedType="1" textId="5120" useMagicPoint_L2="7" useMagicPoint_R2="9" swordArtsTypeNew="313" iconId="0" aiUsageId="11001104" />
+<row id="5130" paramdexName="Blinkbolt: Twinaxe" disableParam_NT="0" artsSpeedType="1" textId="5130" useMagicPoint_L2="8" useMagicPoint_R2="10" swordArtsTypeNew="314" iconId="0" aiUsageId="11001102" />
+<row id="5140" paramdexName="Blinkbolt: Long-hafted Axe" disableParam_NT="0" artsSpeedType="1" textId="5140" useMagicPoint_L2="8" useMagicPoint_R2="13" swordArtsTypeNew="315" iconId="0" aiUsageId="11001102" />
+<row id="5150" paramdexName="Promised Consort" disableParam_NT="0" artsSpeedType="1" textId="5150" useMagicPoint_L2="20" useMagicPoint_R2="10" swordArtsTypeNew="316" iconId="0" aiUsageId="12001703" />
+<row id="5160" paramdexName="Shadow Sunflower Headbutts" disableParam_NT="0" artsSpeedType="1" textId="5160" useMagicPoint_L2="16" useMagicPoint_R2="8" swordArtsTypeNew="317" iconId="0" aiUsageId="11001203" />
+<row id="5170" paramdexName="Moon-and-Fire Stance" disableParam_NT="0" artsSpeedType="1" textId="5170" useMagicPoint_L2="0" useMagicPoint_R1="10" useMagicPoint_R2="25" swordArtsTypeNew="318" iconId="0" aiUsageId="11004001" />
+<row id="5180" paramdexName="Devonia's Vortex" disableParam_NT="0" artsSpeedType="1" textId="5180" useMagicPoint_L2="16" useMagicPoint_R2="-1" swordArtsTypeNew="319" iconId="0" aiUsageId="10002002" />
+<row id="5190" paramdexName="Messmer's Assault" disableParam_NT="0" artsSpeedType="1" textId="5190" useMagicPoint_L2="15" useMagicPoint_R2="9" swordArtsTypeNew="320" iconId="0" aiUsageId="12001200" />
+<row id="5210" paramdexName="Sleep Evermore" disableParam_NT="0" artsSpeedType="1" isRefRightArts="0" isGrayoutLeftHand="0" textId="5210" useMagicPoint_L2="16" useMagicPoint_R2="-1" swordArtsTypeNew="322" iconId="0" aiUsageId="10000004" />
+<row id="5220" paramdexName="Golden Crux" disableParam_NT="0" artsSpeedType="1" textId="5220" useMagicPoint_L2="21" useMagicPoint_R2="10" swordArtsTypeNew="323" iconId="0" aiUsageId="12001003" />
+<row id="5230" paramdexName="Moore's Charge" disableParam_NT="0" artsSpeedType="1" isRefRightArts="0" isGrayoutLeftHand="0" textId="5230" useMagicPoint_L2="16" useMagicPoint_R2="-1" swordArtsTypeNew="324" iconId="0" aiUsageId="11003002" />
+<row id="5240" paramdexName="White Light Charge" disableParam_NT="0" artsSpeedType="1" textId="5240" useMagicPoint_L2="10" useMagicPoint_R2="25" swordArtsTypeNew="325" iconId="0" aiUsageId="11001003" />
+<row id="5250" paramdexName="Rancor Slash" disableParam_NT="0" artsSpeedType="1" textId="5250" useMagicPoint_L2="12" useMagicPoint_R2="12" swordArtsTypeNew="365" iconId="0" aiUsageId="12001504" />
+<row id="5260" paramdexName="Witching Hour Slash" disableParam_NT="0" artsSpeedType="1" textId="5260" useMagicPoint_L2="21" useMagicPoint_R2="-1" swordArtsTypeNew="327" iconId="0" aiUsageId="12002003" />
+<row id="5270" paramdexName="Euporia Vortex" disableParam_NT="0" artsSpeedType="1" textId="5270" useMagicPoint_L2="28" useMagicPoint_R2="-1" swordArtsTypeNew="328" iconId="0" aiUsageId="12000004" />
+<row id="5280" paramdexName="Smithing Art Spears" disableParam_NT="0" artsSpeedType="1" textId="5280" useMagicPoint_L2="18" useMagicPoint_R2="-1" swordArtsTypeNew="329" iconId="0" aiUsageId="12000004" />
+<row id="5290" paramdexName="Rancor Slash" disableParam_NT="0" artsSpeedType="1" textId="5290" useMagicPoint_L2="12" useMagicPoint_R2="12" swordArtsTypeNew="366" iconId="0" aiUsageId="12001504" />
+<row id="5300" paramdexName="Romina's Purification" disableParam_NT="0" artsSpeedType="1" textId="5300" useMagicPoint_L2="24" useMagicPoint_R2="-1" swordArtsTypeNew="331" iconId="0" aiUsageId="11000000" />
+<row id="5310" paramdexName="Poison Spear-Hand Strike" disableParam_NT="0" artsSpeedType="2" textId="5310" useMagicPoint_L2="13" useMagicPoint_R2="-1" swordArtsTypeNew="332" iconId="0" aiUsageId="12000004" />
+<row id="5320" paramdexName="Madding Spear-Hand Strike" disableParam_NT="0" artsSpeedType="2" textId="5320" useMagicPoint_L2="13" useMagicPoint_R2="-1" swordArtsTypeNew="333" iconId="0" aiUsageId="12000004" />
+<row id="5330" paramdexName="Feeble Lord's Frenzied Flame" disableParam_NT="0" artsSpeedType="1" isRefRightArts="0" isGrayoutLeftHand="0" textId="5330" useMagicPoint_L2="3" useMagicPoint_R2="-1" swordArtsTypeNew="334" iconId="0" aiUsageId="11000000" />
+<row id="5340" paramdexName="Repeating Fire" disableParam_NT="0" artsSpeedType="1" isRefRightArts="0" textId="5340" useMagicPoint_L2="-1" useMagicPoint_R1="26" useMagicPoint_R2="26" swordArtsTypeNew="335" iconId="0" aiUsageId="10004200" />
+<row id="5350" paramdexName="Deadly Dance" disableParam_NT="0" artsSpeedType="1" textId="5350" useMagicPoint_L2="15" useMagicPoint_R2="8" swordArtsTypeNew="336" iconId="0" aiUsageId="12001003" />
+<row id="5360" paramdexName="Fan Shot" disableParam_NT="0" artsSpeedType="2" isRefRightArts="0" textId="5360" useMagicPoint_L2="-1" useMagicPoint_R1="12" useMagicPoint_R2="12" swordArtsTypeNew="337" iconId="0" aiUsageId="11004200" />
+<row id="5370" paramdexName="Discus Hurl" disableParam_NT="0" artsSpeedType="1" isRefRightArts="0" isGrayoutLeftHand="0" textId="5370" useMagicPoint_L2="3" useMagicPoint_R2="-1" swordArtsTypeNew="348" iconId="0" aiUsageId="10000000" />
+<row id="5380" paramdexName="Flower Dragonbolt" disableParam_NT="0" artsSpeedType="1" textId="5380" useMagicPoint_L2="18" useMagicPoint_R2="-1" swordArtsTypeNew="349" iconId="0" aiUsageId="10002000" />
+<row id="5390" paramdexName="Kowtower's Resentment" disableParam_NT="0" artsSpeedType="1" textId="5390" useMagicPoint_L2="31" useMagicPoint_R2="-1" swordArtsTypeNew="350" iconId="0" aiUsageId="12002000" />
+<row id="5420" paramdexName="Painful Strike" disableParam_NT="0" artsSpeedType="1" textId="5420" useMagicPoint_L2="16" useMagicPoint_R2="-1" swordArtsTypeNew="269" iconId="0" aiUsageId="12000003" />
+<row id="5430" paramdexName="Solitary Moon Slash" disableParam_NT="0" artsSpeedType="1" textId="5430" useMagicPoint_L2="12" useMagicPoint_R2="10" swordArtsTypeNew="351" iconId="0" aiUsageId="11001100" />
+<row id="5440" paramdexName="Revenge of the Night" disableParam_NT="0" artsSpeedType="1" isRefRightArts="0" isGrayoutLeftHand="0" textId="5440" useMagicPoint_L2="5" useMagicPoint_R2="-1" swordArtsTypeNew="352" iconId="0" aiUsageId="42000000" />
+<row id="5450" paramdexName="Weed Cutter" disableParam_NT="0" artsSpeedType="1" textId="5450" useMagicPoint_L2="8" useMagicPoint_R2="8" swordArtsTypeNew="353" iconId="0" aiUsageId="12001401" />
+<row id="5460" paramdexName="Blindfold of Happiness" disableParam_NT="0" artsSpeedType="1" isRefRightArts="0" isGrayoutLeftHand="0" textId="5460" useMagicPoint_L2="10" useMagicPoint_R2="-1" swordArtsTypeNew="354" iconId="0" aiUsageId="30000000" />
+<row id="5461" disableParam_NT="0" artsSpeedType="1" isRefRightArts="0" isGrayoutLeftHand="0" textId="5461" useMagicPoint_L2="10" useMagicPoint_R2="-1" swordArtsTypeNew="355" iconId="0" aiUsageId="50000000" />
+<row id="5470" paramdexName="Jori's Inquisition" disableParam_NT="0" artsSpeedType="1" textId="5470" useMagicPoint_L2="6" useMagicPoint_R2="-1" swordArtsTypeNew="356" iconId="0" aiUsageId="11002000" />
+<row id="5480" paramdexName="Roaring Bash" disableParam_NT="0" artsSpeedType="1" isRefRightArts="0" isGrayoutLeftHand="0" textId="5480" useMagicPoint_L2="12" useMagicPoint_R2="-1" swordArtsTypeNew="359" iconId="0" aiUsageId="12000003" />
+<row id="5490" paramdexName="Deadly Poison Spray" disableParam_NT="0" artsSpeedType="1" textId="5490" useMagicPoint_L2="21" useMagicPoint_R2="-1" swordArtsTypeNew="358" iconId="0" aiUsageId="11000000" />
+<row id="5500" paramdexName="Flare- O Serpent" disableParam_NT="0" artsSpeedType="1" textId="5500" useMagicPoint_L2="8" useMagicPoint_R2="-1" swordArtsTypeNew="360" iconId="0" aiUsageId="30010000" />
+<row id="5510" paramdexName="Scattershot (Claws)" disableParam_NT="0" artsSpeedType="1" textId="4030" useMagicPoint_L2="11" useMagicPoint_R2="11" swordArtsTypeNew="361" iconId="0" aiUsageId="10000000" />
+<row id="5520" paramdexName="Hone Blade" disableParam_NT="0" artsSpeedType="1" textId="5520" useMagicPoint_L2="16" useMagicPoint_R2="-1" swordArtsTypeNew="272" iconId="0" aiUsageId="30000000" />
+<row id="5530" paramdexName="Horn Calling" disableParam_NT="0" artsSpeedType="1" textId="5530" useMagicPoint_L2="17" useMagicPoint_R2="-1" swordArtsTypeNew="362" iconId="0" aiUsageId="11000000" />
+<row id="5540" paramdexName="Horn Calling: Storm" disableParam_NT="0" artsSpeedType="1" textId="5540" useMagicPoint_L2="22" useMagicPoint_R2="10" swordArtsTypeNew="363" iconId="0" aiUsageId="11001202" />
+<row id="5550" paramdexName="Tremendous Phalanx" disableParam_NT="0" artsSpeedType="1" textId="5550" useMagicPoint_L2="16" useMagicPoint_R2="6" swordArtsTypeNew="367" iconId="0" aiUsageId="11003000" />
+<row id="5560" paramdexName="Bloodfiends' Bloodboon" disableParam_NT="0" artsSpeedType="1" textId="5560" useMagicPoint_L2="20" useMagicPoint_R2="20" swordArtsTypeNew="368" iconId="0" aiUsageId="11001200" />
+<row id="5570" paramdexName="Dragonform Flame" disableParam_NT="0" artsSpeedType="1" textId="5570" useMagicPoint_L2="14" useMagicPoint_R2="-1" swordArtsTypeNew="369" iconId="0" aiUsageId="11002007" />
+<row id="5580" paramdexName="Lightspeed Slash" disableParam_NT="0" artsSpeedType="1" textId="5580" useMagicPoint_L2="32" useMagicPoint_R2="-1" swordArtsTypeNew="370" iconId="0" aiUsageId="11002000" />
+<row id="5590" disableParam_NT="0" artsSpeedType="1" isRefRightArts="0" textId="101" useMagicPoint_L2="9" useMagicPoint_R2="-1" swordArtsTypeNew="1" iconId="0" aiUsageId="11000000" />
+<row id="5600" paramdexName="Rancor Shot" disableParam_NT="0" artsSpeedType="1" isRefRightArts="0" textId="5600" useMagicPoint_L2="0" useMagicPoint_R1="3" useMagicPoint_R2="3" swordArtsTypeNew="371" iconId="0" aiUsageId="10004100" />
+<row id="8000" disableParam_NT="0" artsSpeedType="2" isRefRightArts="0" isGrayoutLeftHand="0" isGrayoutRightHand="1" isGrayoutBothHand="1" textId="4200" useMagicPoint_L2="-1" useMagicPoint_R2="-1" swordArtsTypeNew="399" iconId="0" aiUsageId="12001200" />
+<row id="9991" disableParam_NT="0" artsSpeedType="0" isRefRightArts="0" isGrayoutLeftHand="0" textId="0" useMagicPoint_L1="0" useMagicPoint_L2="0" useMagicPoint_R1="0" useMagicPoint_R2="0" swordArtsTypeNew="0" iconId="0" aiUsageId="-1" />
+<row id="9992" disableParam_NT="0" artsSpeedType="0" isRefRightArts="0" isGrayoutLeftHand="0" textId="0" useMagicPoint_L1="0" useMagicPoint_L2="0" useMagicPoint_R1="0" useMagicPoint_R2="0" swordArtsTypeNew="0" iconId="0" aiUsageId="-1" />
+</rows>
+</param>

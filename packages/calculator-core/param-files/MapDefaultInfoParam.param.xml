@@ -1,0 +1,926 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>MapDefaultInfoParam.param</filename>
+<compression>None</compression>
+<type>MAP_DEFAULT_INFO_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>6</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>0</unk06>
+<paramdef>
+<type>MAP_DEFAULT_INFO_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>6</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="disableParam_NT" type="u8" arraylength="1" bitsize="1" sortid="0" defaultValue="1" defaultThreshold="True" />
+<field name="disableParamReserve1" type="dummy8" arraylength="1" bitsize="7" sortid="5103" defaultValue="[0]" defaultThreshold="True" />
+<field name="disableParamReserve2" type="dummy8" arraylength="3" bitsize="-1" sortid="5104" defaultValue="[0|0|0]" defaultThreshold="True" />
+<field name="EnableFastTravelEventFlagId" type="u32" arraylength="1" bitsize="-1" sortid="0" defaultValue="0" defaultThreshold="True" />
+<field name="WeatherLotTimeOffsetIngameSeconds" type="s32" arraylength="1" bitsize="-1" sortid="1" defaultValue="0" defaultThreshold="True" />
+<field name="WeatherCreateAssetLimitId" type="s8" arraylength="1" bitsize="-1" sortid="100" defaultValue="4" />
+<field name="MapAiSightType" type="u8" arraylength="1" bitsize="-1" sortid="105" defaultValue="0" defaultThreshold="True" />
+<field name="SoundIndoorType" type="u8" arraylength="1" bitsize="-1" sortid="108" defaultValue="0" defaultThreshold="True" />
+<field name="ReverbDefaultType" type="s8" arraylength="1" bitsize="-1" sortid="109" defaultValue="-1" defaultThreshold="True" />
+<field name="BgmPlaceInfo" type="s16" arraylength="1" bitsize="-1" sortid="110" defaultValue="40" />
+<field name="EnvPlaceInfo" type="s16" arraylength="1" bitsize="-1" sortid="111" defaultValue="40" />
+<field name="MapAdditionalSoundBankId" type="s32" arraylength="1" bitsize="-1" sortid="112" defaultValue="-1" />
+<field name="MapHeightForSound" type="s16" arraylength="1" bitsize="-1" sortid="113" defaultValue="0" defaultThreshold="True" />
+<field name="IsEnableBlendTimezoneEnvmap" type="u8" arraylength="1" bitsize="-1" sortid="5100" defaultValue="1" defaultThreshold="True" />
+<field name="OverrideGIResolution_XSS" type="s8" arraylength="1" bitsize="-1" sortid="5101" defaultValue="-1" defaultThreshold="True" />
+<field name="MapLoHiChangeBorderDist_XZ" type="f32" arraylength="1" bitsize="-1" sortid="200" defaultValue="40" defaultThreshold="True" />
+<field name="MapLoHiChangeBorderDist_Y" type="f32" arraylength="1" bitsize="-1" sortid="201" defaultValue="40" defaultThreshold="True" />
+<field name="MapLoHiChangePlayDist" type="f32" arraylength="1" bitsize="-1" sortid="202" defaultValue="5" defaultThreshold="True" />
+<field name="MapAutoDrawGroupBackFacePixelNum" type="u32" arraylength="1" bitsize="-1" sortid="5000" defaultValue="32400" defaultThreshold="True" />
+<field name="PlayerLigntScale" type="f32" arraylength="1" bitsize="-1" sortid="121" defaultValue="1" defaultThreshold="True" />
+<field name="IsEnableTimezonnePlayerLigntScale" type="u8" arraylength="1" bitsize="-1" sortid="122" defaultValue="1" defaultThreshold="True" />
+<field name="isDisableAutoCliffWind" type="u8" arraylength="1" bitsize="-1" sortid="114" defaultValue="0" defaultThreshold="True" />
+<field name="OpenChrActivateThreshold" type="s16" arraylength="1" bitsize="-1" sortid="117" defaultValue="-1" defaultThreshold="True" />
+<field name="MapMimicryEstablishmentParamId" type="s32" arraylength="1" bitsize="-1" sortid="106" defaultValue="-1" defaultThreshold="True" />
+<field name="OverrideGIResolution_XSX" type="s8" arraylength="1" bitsize="-1" sortid="5101" defaultValue="-1" defaultThreshold="True" />
+<field name="Reserve" type="dummy8" arraylength="7" bitsize="-1" sortid="5102" defaultValue="[0|0|0|0|0|0|0]" defaultThreshold="True" />
+</fields>
+<rows>
+<row id="0" disableParam_NT="0" WeatherCreateAssetLimitId="-1" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="-1" />
+<row id="10000000" paramdexName="Stormveil Castle" disableParam_NT="0" WeatherCreateAssetLimitId="-1" MapAiSightType="1" BgmPlaceInfo="999" EnvPlaceInfo="100" MapAdditionalSoundBankId="-1" MapHeightForSound="-273" OverrideGIResolution_XSS="0" MapLoHiChangeBorderDist_XZ="25" MapLoHiChangeBorderDist_Y="5" MapLoHiChangePlayDist="1" isDisableAutoCliffWind="1" OverrideGIResolution_XSX="0" />
+<row id="10010000" paramdexName="Chapel of Anticipation" WeatherCreateAssetLimitId="-1" MapAiSightType="1" BgmPlaceInfo="180" EnvPlaceInfo="100" MapAdditionalSoundBankId="-1" isDisableAutoCliffWind="1" />
+<row id="11000000" paramdexName="Leyndell, Royal Capital" WeatherCreateAssetLimitId="-1" MapAiSightType="1" BgmPlaceInfo="110" EnvPlaceInfo="110" MapAdditionalSoundBankId="-1" OverrideGIResolution_XSS="0" MapLoHiChangeBorderDist_Y="20" MapLoHiChangePlayDist="4" MapAutoDrawGroupBackFacePixelNum="81000" isDisableAutoCliffWind="1" OverrideGIResolution_XSX="0" />
+<row id="11050000" paramdexName="Leyndell, Ashen Capital" WeatherCreateAssetLimitId="-1" MapAiSightType="1" BgmPlaceInfo="110" EnvPlaceInfo="110" MapAdditionalSoundBankId="11005" OverrideGIResolution_XSS="0" isDisableAutoCliffWind="1" OverrideGIResolution_XSX="0" />
+<row id="11100000" WeatherCreateAssetLimitId="-1" MapAiSightType="1" BgmPlaceInfo="111" EnvPlaceInfo="110" MapAdditionalSoundBankId="11010" IsEnableBlendTimezoneEnvmap="0" isDisableAutoCliffWind="1" />
+<row id="11700000" WeatherCreateAssetLimitId="-1" MapAiSightType="1" BgmPlaceInfo="999" EnvPlaceInfo="110" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" isDisableAutoCliffWind="1" />
+<row id="11710000" WeatherCreateAssetLimitId="-1" MapAiSightType="1" BgmPlaceInfo="999" EnvPlaceInfo="110" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" OverrideGIResolution_XSS="0" isDisableAutoCliffWind="1" OverrideGIResolution_XSX="0" />
+<row id="11720000" WeatherCreateAssetLimitId="-1" MapAiSightType="1" BgmPlaceInfo="999" EnvPlaceInfo="110" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" isDisableAutoCliffWind="1" />
+<row id="12010000" paramdexName="Ainsel River" WeatherCreateAssetLimitId="-1" MapAiSightType="1" SoundIndoorType="1" BgmPlaceInfo="120" EnvPlaceInfo="120" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" />
+<row id="12020000" paramdexName="Siofra River" WeatherCreateAssetLimitId="-1" MapAiSightType="1" SoundIndoorType="1" BgmPlaceInfo="120" EnvPlaceInfo="120" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" OverrideGIResolution_XSS="0" MapLoHiChangeBorderDist_Y="20" MapLoHiChangePlayDist="4" OverrideGIResolution_XSX="0" />
+<row id="12030000" paramdexName="Deeproot Depths" WeatherCreateAssetLimitId="-1" MapAiSightType="1" SoundIndoorType="1" BgmPlaceInfo="120" EnvPlaceInfo="120" MapAdditionalSoundBankId="12003" IsEnableBlendTimezoneEnvmap="0" MapLoHiChangeBorderDist_XZ="30" MapLoHiChangeBorderDist_Y="20" MapLoHiChangePlayDist="4" />
+<row id="12040000" paramdexName="Ainsel River - Boss" WeatherCreateAssetLimitId="-1" MapAiSightType="1" SoundIndoorType="1" BgmPlaceInfo="120" EnvPlaceInfo="120" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" />
+<row id="12050000" paramdexName="Mohgwyn Palace" WeatherCreateAssetLimitId="-1" MapAiSightType="1" SoundIndoorType="1" BgmPlaceInfo="120" EnvPlaceInfo="120" MapAdditionalSoundBankId="12005" IsEnableBlendTimezoneEnvmap="0" />
+<row id="12060000" WeatherCreateAssetLimitId="-1" MapAiSightType="1" SoundIndoorType="1" BgmPlaceInfo="120" EnvPlaceInfo="120" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" />
+<row id="12070000" WeatherCreateAssetLimitId="-1" MapAiSightType="1" SoundIndoorType="1" BgmPlaceInfo="120" EnvPlaceInfo="120" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" />
+<row id="12080000" WeatherCreateAssetLimitId="-1" MapAiSightType="1" SoundIndoorType="1" BgmPlaceInfo="120" EnvPlaceInfo="120" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" />
+<row id="12090000" WeatherCreateAssetLimitId="-1" MapAiSightType="1" SoundIndoorType="1" BgmPlaceInfo="120" EnvPlaceInfo="120" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" />
+<row id="13000000" paramdexName="Crumbling Farum Azula" WeatherCreateAssetLimitId="-1" MapAiSightType="1" BgmPlaceInfo="130" EnvPlaceInfo="130" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" />
+<row id="14000000" paramdexName="Academy of Raya Lucaria" WeatherCreateAssetLimitId="-1" MapAiSightType="1" BgmPlaceInfo="140" EnvPlaceInfo="140" MapAdditionalSoundBankId="-1" OverrideGIResolution_XSS="0" MapLoHiChangeBorderDist_XZ="30" MapLoHiChangeBorderDist_Y="20" MapAutoDrawGroupBackFacePixelNum="130000" isDisableAutoCliffWind="1" OverrideGIResolution_XSX="0" />
+<row id="15000000" paramdexName="Miquella's Haligtree" WeatherCreateAssetLimitId="-1" MapAiSightType="1" BgmPlaceInfo="150" EnvPlaceInfo="150" MapAdditionalSoundBankId="-1" MapLoHiChangeBorderDist_XZ="30" MapLoHiChangeBorderDist_Y="5" MapLoHiChangePlayDist="3" />
+<row id="15020000" WeatherCreateAssetLimitId="-1" MapAiSightType="1" BgmPlaceInfo="999" EnvPlaceInfo="150" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" />
+<row id="16000000" paramdexName="Volcano Manor" WeatherCreateAssetLimitId="-1" MapAiSightType="1" BgmPlaceInfo="160" EnvPlaceInfo="160" MapAdditionalSoundBankId="-1" OverrideGIResolution_XSS="0" MapLoHiChangeBorderDist_XZ="18" MapLoHiChangeBorderDist_Y="16" MapLoHiChangePlayDist="3" isDisableAutoCliffWind="1" OverrideGIResolution_XSX="0" />
+<row id="18000000" paramdexName="Stranded Graveyard" disableParam_NT="0" WeatherCreateAssetLimitId="-1" MapAiSightType="1" ReverbDefaultType="6" BgmPlaceInfo="180" EnvPlaceInfo="300" MapAdditionalSoundBankId="-1" OverrideGIResolution_XSS="0" isDisableAutoCliffWind="1" OverrideGIResolution_XSX="0" />
+<row id="19000000" paramdexName="Stone Platform" WeatherCreateAssetLimitId="-1" MapAiSightType="1" BgmPlaceInfo="190" EnvPlaceInfo="190" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" isDisableAutoCliffWind="1" />
+<row id="20000000" WeatherCreateAssetLimitId="-1" BgmPlaceInfo="200" EnvPlaceInfo="200" MapAdditionalSoundBankId="-1" isDisableAutoCliffWind="1" />
+<row id="20010000" WeatherCreateAssetLimitId="-1" BgmPlaceInfo="201" EnvPlaceInfo="201" MapAdditionalSoundBankId="20010" IsEnableBlendTimezoneEnvmap="0" isDisableAutoCliffWind="1" />
+<row id="21000000" WeatherCreateAssetLimitId="-1" BgmPlaceInfo="210" EnvPlaceInfo="210" MapAdditionalSoundBankId="-1" MapLoHiChangeBorderDist_XZ="15" MapLoHiChangeBorderDist_Y="10" MapLoHiChangePlayDist="3" MapAutoDrawGroupBackFacePixelNum="230000" isDisableAutoCliffWind="1" />
+<row id="21010000" WeatherCreateAssetLimitId="-1" BgmPlaceInfo="210" EnvPlaceInfo="210" MapAdditionalSoundBankId="-1" MapLoHiChangeBorderDist_XZ="30" MapLoHiChangeBorderDist_Y="25" isDisableAutoCliffWind="1" />
+<row id="21020000" WeatherCreateAssetLimitId="-1" BgmPlaceInfo="210" EnvPlaceInfo="210" MapAdditionalSoundBankId="-1" MapAutoDrawGroupBackFacePixelNum="120000" isDisableAutoCliffWind="1" />
+<row id="22000000" WeatherCreateAssetLimitId="-1" SoundIndoorType="1" ReverbDefaultType="7" BgmPlaceInfo="220" EnvPlaceInfo="220" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" isDisableAutoCliffWind="1" />
+<row id="25000000" WeatherCreateAssetLimitId="-1" SoundIndoorType="1" ReverbDefaultType="4" BgmPlaceInfo="250" EnvPlaceInfo="250" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" isDisableAutoCliffWind="1" />
+<row id="28000000" WeatherCreateAssetLimitId="-1" SoundIndoorType="1" ReverbDefaultType="3" BgmPlaceInfo="280" EnvPlaceInfo="280" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" isDisableAutoCliffWind="1" />
+<row id="30000000" paramdexName="Tombsward Catacombs" EnableFastTravelEventFlagId="30000800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="5" BgmPlaceInfo="300" EnvPlaceInfo="300" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="30010000" paramdexName="Impaler's Catacombs" EnableFastTravelEventFlagId="30010800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="5" BgmPlaceInfo="300" EnvPlaceInfo="300" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="30020000" paramdexName="Stormfoot Catacombs" disableParam_NT="0" EnableFastTravelEventFlagId="30020800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="5" BgmPlaceInfo="300" EnvPlaceInfo="300" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="30030000" paramdexName="Road's End Catacombs" EnableFastTravelEventFlagId="30030800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="5" BgmPlaceInfo="300" EnvPlaceInfo="300" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="30040000" paramdexName="Murkwater Catacombs" disableParam_NT="0" EnableFastTravelEventFlagId="30040800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="5" BgmPlaceInfo="300" EnvPlaceInfo="300" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="30050000" paramdexName="Black Knife Catacombs" EnableFastTravelEventFlagId="30050800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="5" BgmPlaceInfo="300" EnvPlaceInfo="300" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="30060000" paramdexName="Cliffbottom Catacombs" EnableFastTravelEventFlagId="30060800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="5" BgmPlaceInfo="300" EnvPlaceInfo="300" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="30070000" paramdexName="Wyndham Catacombs" EnableFastTravelEventFlagId="30070800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="5" BgmPlaceInfo="300" EnvPlaceInfo="300" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="30080000" paramdexName="Sainted Hero's Grave" EnableFastTravelEventFlagId="30080800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="5" BgmPlaceInfo="300" EnvPlaceInfo="300" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="30090000" paramdexName="Gelmir Hero's Grave" EnableFastTravelEventFlagId="30090800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="5" BgmPlaceInfo="300" EnvPlaceInfo="300" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="30100000" paramdexName="Auriza Hero's Grave" EnableFastTravelEventFlagId="30100800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="5" BgmPlaceInfo="300" EnvPlaceInfo="300" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="30110000" paramdexName="Deathtouched Catacombs" EnableFastTravelEventFlagId="30110800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="5" BgmPlaceInfo="300" EnvPlaceInfo="300" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="30120000" paramdexName="Unsightly Catacombs" EnableFastTravelEventFlagId="30120800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="5" BgmPlaceInfo="300" EnvPlaceInfo="300" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="30130000" paramdexName="Auriza Side Tomb" EnableFastTravelEventFlagId="30130800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="5" BgmPlaceInfo="300" EnvPlaceInfo="300" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="30140000" paramdexName="Minor Erdtree Catacombs" EnableFastTravelEventFlagId="30140800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="5" BgmPlaceInfo="300" EnvPlaceInfo="300" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="30150000" paramdexName="Caelid Catacombs" EnableFastTravelEventFlagId="30150800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="5" BgmPlaceInfo="300" EnvPlaceInfo="300" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="30160000" paramdexName="War-Dead Catacombs" EnableFastTravelEventFlagId="30160800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="5" BgmPlaceInfo="300" EnvPlaceInfo="300" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="30170000" paramdexName="Giant-Conquering Hero's Grave" EnableFastTravelEventFlagId="30170800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="5" BgmPlaceInfo="300" EnvPlaceInfo="300" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" OverrideGIResolution_XSS="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" OverrideGIResolution_XSX="0" />
+<row id="30180000" paramdexName="Giants' Mountaintop Catacombs" EnableFastTravelEventFlagId="30180800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="5" BgmPlaceInfo="300" EnvPlaceInfo="300" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" OverrideGIResolution_XSS="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" OverrideGIResolution_XSX="0" />
+<row id="30190000" paramdexName="Consecrated Snowfield Catacombs" EnableFastTravelEventFlagId="30190800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="5" BgmPlaceInfo="300" EnvPlaceInfo="300" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="30200000" EnableFastTravelEventFlagId="30200800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="5" BgmPlaceInfo="300" EnvPlaceInfo="300" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" OverrideGIResolution_XSS="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" OverrideGIResolution_XSX="0" />
+<row id="31000000" EnableFastTravelEventFlagId="31000800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="7" BgmPlaceInfo="310" EnvPlaceInfo="310" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.6" isDisableAutoCliffWind="1" />
+<row id="31010000" paramdexName="Earthbore Cave" EnableFastTravelEventFlagId="31010800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="7" BgmPlaceInfo="310" EnvPlaceInfo="310" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.6" isDisableAutoCliffWind="1" />
+<row id="31020000" paramdexName="Tombsward Cave" EnableFastTravelEventFlagId="31020800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="7" BgmPlaceInfo="310" EnvPlaceInfo="310" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.6" isDisableAutoCliffWind="1" />
+<row id="31030000" paramdexName="Groveside Cave" disableParam_NT="0" EnableFastTravelEventFlagId="31030800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="7" BgmPlaceInfo="310" EnvPlaceInfo="310" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.6" isDisableAutoCliffWind="1" />
+<row id="31040000" paramdexName="Stillwater Cave" EnableFastTravelEventFlagId="31040800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="7" BgmPlaceInfo="310" EnvPlaceInfo="310" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.6" isDisableAutoCliffWind="1" />
+<row id="31050000" paramdexName="Lakeside Crystal Cave" EnableFastTravelEventFlagId="31050800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="7" BgmPlaceInfo="310" EnvPlaceInfo="310" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.6" isDisableAutoCliffWind="1" />
+<row id="31060000" paramdexName="Academy Crystal Cave" EnableFastTravelEventFlagId="31060800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="7" BgmPlaceInfo="310" EnvPlaceInfo="310" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.6" isDisableAutoCliffWind="1" />
+<row id="31070000" paramdexName="Seethewater Cave" EnableFastTravelEventFlagId="31070800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="7" BgmPlaceInfo="310" EnvPlaceInfo="310" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.6" isDisableAutoCliffWind="1" />
+<row id="31080000" EnableFastTravelEventFlagId="31080800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="7" BgmPlaceInfo="310" EnvPlaceInfo="310" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.6" isDisableAutoCliffWind="1" />
+<row id="31090000" paramdexName="Volcano Cave" EnableFastTravelEventFlagId="31090800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="7" BgmPlaceInfo="310" EnvPlaceInfo="310" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.6" isDisableAutoCliffWind="1" />
+<row id="31100000" paramdexName="Dragonbarrow Cave" EnableFastTravelEventFlagId="31100800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="7" BgmPlaceInfo="310" EnvPlaceInfo="310" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.6" isDisableAutoCliffWind="1" />
+<row id="31110000" paramdexName="Sellia Hideaway" EnableFastTravelEventFlagId="31110800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="7" BgmPlaceInfo="310" EnvPlaceInfo="310" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.6" isDisableAutoCliffWind="1" />
+<row id="31120000" paramdexName="Cave of the Forlorn" EnableFastTravelEventFlagId="31120800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="7" BgmPlaceInfo="310" EnvPlaceInfo="310" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.6" isDisableAutoCliffWind="1" />
+<row id="31130000" EnableFastTravelEventFlagId="31130800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="7" BgmPlaceInfo="310" EnvPlaceInfo="310" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.6" isDisableAutoCliffWind="1" />
+<row id="31140000" EnableFastTravelEventFlagId="31140800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="7" BgmPlaceInfo="310" EnvPlaceInfo="310" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.6" isDisableAutoCliffWind="1" />
+<row id="31150000" paramdexName="Coastal Cave" disableParam_NT="0" EnableFastTravelEventFlagId="31150800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="7" BgmPlaceInfo="310" EnvPlaceInfo="310" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.6" isDisableAutoCliffWind="1" />
+<row id="31170000" paramdexName="Highroad Cave" EnableFastTravelEventFlagId="31170800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="7" BgmPlaceInfo="310" EnvPlaceInfo="310" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.6" isDisableAutoCliffWind="1" />
+<row id="31180000" EnableFastTravelEventFlagId="31180800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="7" BgmPlaceInfo="310" EnvPlaceInfo="310" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.6" isDisableAutoCliffWind="1" />
+<row id="31190000" EnableFastTravelEventFlagId="31190800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="7" BgmPlaceInfo="310" EnvPlaceInfo="310" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.6" isDisableAutoCliffWind="1" />
+<row id="31200000" EnableFastTravelEventFlagId="31200800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="7" BgmPlaceInfo="310" EnvPlaceInfo="310" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.6" isDisableAutoCliffWind="1" />
+<row id="31210000" EnableFastTravelEventFlagId="31210800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="7" BgmPlaceInfo="310" EnvPlaceInfo="310" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.6" isDisableAutoCliffWind="1" />
+<row id="31220000" EnableFastTravelEventFlagId="31220800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="7" BgmPlaceInfo="310" EnvPlaceInfo="310" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.6" isDisableAutoCliffWind="1" />
+<row id="32000000" paramdexName="Morne Tunnel" EnableFastTravelEventFlagId="32000800" WeatherCreateAssetLimitId="-1" MapAiSightType="3" SoundIndoorType="1" ReverbDefaultType="6" BgmPlaceInfo="320" EnvPlaceInfo="320" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="32010000" paramdexName="Limgrave Tunnels" disableParam_NT="0" EnableFastTravelEventFlagId="32010800" WeatherCreateAssetLimitId="-1" MapAiSightType="3" SoundIndoorType="1" ReverbDefaultType="6" BgmPlaceInfo="320" EnvPlaceInfo="320" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="32020000" paramdexName="Raya Lucaria Crystal Tunnel" EnableFastTravelEventFlagId="32020800" WeatherCreateAssetLimitId="-1" MapAiSightType="3" SoundIndoorType="1" ReverbDefaultType="6" BgmPlaceInfo="320" EnvPlaceInfo="320" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="32030000" EnableFastTravelEventFlagId="32030800" WeatherCreateAssetLimitId="-1" MapAiSightType="3" SoundIndoorType="1" ReverbDefaultType="6" BgmPlaceInfo="320" EnvPlaceInfo="320" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="32040000" paramdexName="Old Altus Tunnel" EnableFastTravelEventFlagId="32040800" WeatherCreateAssetLimitId="-1" MapAiSightType="3" SoundIndoorType="1" ReverbDefaultType="6" BgmPlaceInfo="320" EnvPlaceInfo="320" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="32050000" paramdexName="Altus Tunnel" EnableFastTravelEventFlagId="32050800" WeatherCreateAssetLimitId="-1" MapAiSightType="3" SoundIndoorType="1" ReverbDefaultType="6" BgmPlaceInfo="320" EnvPlaceInfo="320" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="32060000" EnableFastTravelEventFlagId="32060800" WeatherCreateAssetLimitId="-1" MapAiSightType="3" SoundIndoorType="1" ReverbDefaultType="6" BgmPlaceInfo="320" EnvPlaceInfo="320" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="32070000" paramdexName="Gael Tunnel" EnableFastTravelEventFlagId="32070800" WeatherCreateAssetLimitId="-1" MapAiSightType="3" SoundIndoorType="1" ReverbDefaultType="6" BgmPlaceInfo="320" EnvPlaceInfo="320" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="32080000" paramdexName="Sellia Crystal Tunnel" EnableFastTravelEventFlagId="32080800" WeatherCreateAssetLimitId="-1" MapAiSightType="3" SoundIndoorType="1" ReverbDefaultType="6" BgmPlaceInfo="320" EnvPlaceInfo="320" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" OverrideGIResolution_XSS="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" OverrideGIResolution_XSX="0" />
+<row id="32090000" EnableFastTravelEventFlagId="32090800" WeatherCreateAssetLimitId="-1" MapAiSightType="3" SoundIndoorType="1" ReverbDefaultType="6" BgmPlaceInfo="320" EnvPlaceInfo="320" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="32100000" EnableFastTravelEventFlagId="32100800" WeatherCreateAssetLimitId="-1" MapAiSightType="3" SoundIndoorType="1" ReverbDefaultType="6" BgmPlaceInfo="320" EnvPlaceInfo="320" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="32110000" paramdexName="Yelough Anix Tunnel" EnableFastTravelEventFlagId="32110800" WeatherCreateAssetLimitId="-1" MapAiSightType="3" SoundIndoorType="1" ReverbDefaultType="6" BgmPlaceInfo="320" EnvPlaceInfo="320" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="32120000" EnableFastTravelEventFlagId="32120800" WeatherCreateAssetLimitId="-1" MapAiSightType="3" SoundIndoorType="1" ReverbDefaultType="6" BgmPlaceInfo="320" EnvPlaceInfo="320" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="34100000" paramdexName="Divine Tower of Limgrave" WeatherCreateAssetLimitId="-1" MapAiSightType="1" BgmPlaceInfo="340" EnvPlaceInfo="340" MapAdditionalSoundBankId="34010" isDisableAutoCliffWind="1" />
+<row id="34110000" paramdexName="Divine Tower of Liurnia" WeatherCreateAssetLimitId="-1" MapAiSightType="1" BgmPlaceInfo="340" EnvPlaceInfo="340" MapAdditionalSoundBankId="34011" OverrideGIResolution_XSS="0" isDisableAutoCliffWind="1" OverrideGIResolution_XSX="0" />
+<row id="34120000" paramdexName="Divine Tower of West Altus" WeatherCreateAssetLimitId="-1" MapAiSightType="1" BgmPlaceInfo="320" EnvPlaceInfo="340" MapAdditionalSoundBankId="-1" isDisableAutoCliffWind="1" />
+<row id="34130000" paramdexName="Divine Tower of Caelid" WeatherCreateAssetLimitId="-1" MapAiSightType="1" BgmPlaceInfo="340" EnvPlaceInfo="340" MapAdditionalSoundBankId="-1" isDisableAutoCliffWind="1" />
+<row id="34140000" paramdexName="Divine Tower of East Altus" WeatherCreateAssetLimitId="-1" MapAiSightType="1" BgmPlaceInfo="340" EnvPlaceInfo="340" MapAdditionalSoundBankId="34010" isDisableAutoCliffWind="1" />
+<row id="34150000" paramdexName="Isolated Divine Tower" WeatherCreateAssetLimitId="-1" MapAiSightType="1" BgmPlaceInfo="340" EnvPlaceInfo="340" MapAdditionalSoundBankId="-1" OverrideGIResolution_XSS="0" isDisableAutoCliffWind="1" OverrideGIResolution_XSX="0" />
+<row id="34160000" WeatherCreateAssetLimitId="-1" MapAiSightType="1" BgmPlaceInfo="340" EnvPlaceInfo="340" MapAdditionalSoundBankId="-1" isDisableAutoCliffWind="1" />
+<row id="35000000" paramdexName="Subterranean Shunning-Grounds" WeatherCreateAssetLimitId="-1" MapAiSightType="1" SoundIndoorType="1" ReverbDefaultType="6" BgmPlaceInfo="350" EnvPlaceInfo="350" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" MapLoHiChangeBorderDist_Y="20" MapLoHiChangePlayDist="3" isDisableAutoCliffWind="1" />
+<row id="39200000" paramdexName="Ruin-Strewn Precipice" WeatherCreateAssetLimitId="-1" MapAiSightType="1" BgmPlaceInfo="390" EnvPlaceInfo="390" MapAdditionalSoundBankId="60020" OverrideGIResolution_XSS="0" isDisableAutoCliffWind="1" OverrideGIResolution_XSX="0" />
+<row id="40000000" EnableFastTravelEventFlagId="40000800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="5" BgmPlaceInfo="400" EnvPlaceInfo="400" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="40010000" EnableFastTravelEventFlagId="40010800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="5" BgmPlaceInfo="400" EnvPlaceInfo="400" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="40020000" EnableFastTravelEventFlagId="2052430800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="5" BgmPlaceInfo="400" EnvPlaceInfo="400" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="41000000" EnableFastTravelEventFlagId="41000800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="7" BgmPlaceInfo="410" EnvPlaceInfo="410" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="41010000" EnableFastTravelEventFlagId="41010800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="7" BgmPlaceInfo="410" EnvPlaceInfo="410" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="41020000" EnableFastTravelEventFlagId="41020800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="7" BgmPlaceInfo="410" EnvPlaceInfo="410" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="42000000" EnableFastTravelEventFlagId="42007000" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="5" BgmPlaceInfo="420" EnvPlaceInfo="420" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" MapLoHiChangeBorderDist_XZ="15" MapLoHiChangeBorderDist_Y="5" MapLoHiChangePlayDist="1" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="42010000" EnableFastTravelEventFlagId="42017000" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="5" BgmPlaceInfo="420" EnvPlaceInfo="420" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="42020000" EnableFastTravelEventFlagId="42027000" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="5" BgmPlaceInfo="420" EnvPlaceInfo="420" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" MapLoHiChangeBorderDist_XZ="20" MapLoHiChangeBorderDist_Y="5" MapLoHiChangePlayDist="1" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="42030000" EnableFastTravelEventFlagId="42037000" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="5" BgmPlaceInfo="420" EnvPlaceInfo="420" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" MapLoHiChangeBorderDist_XZ="15" MapLoHiChangeBorderDist_Y="5" MapLoHiChangePlayDist="1" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="43000000" EnableFastTravelEventFlagId="43000800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="7" BgmPlaceInfo="430" EnvPlaceInfo="430" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="43010000" EnableFastTravelEventFlagId="43010800" WeatherCreateAssetLimitId="-1" MapAiSightType="2" SoundIndoorType="1" ReverbDefaultType="7" BgmPlaceInfo="430" EnvPlaceInfo="430" MapAdditionalSoundBankId="-1" IsEnableBlendTimezoneEnvmap="0" PlayerLigntScale="1.2" isDisableAutoCliffWind="1" />
+<row id="45000000" WeatherCreateAssetLimitId="-1" MapAiSightType="1" BgmPlaceInfo="180" EnvPlaceInfo="110" MapAdditionalSoundBankId="-1" isDisableAutoCliffWind="1" />
+<row id="45010000" WeatherCreateAssetLimitId="-1" MapAiSightType="1" BgmPlaceInfo="180" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" isDisableAutoCliffWind="1" />
+<row id="45020000" WeatherCreateAssetLimitId="-1" MapAiSightType="1" BgmPlaceInfo="180" EnvPlaceInfo="0" MapAdditionalSoundBankId="-1" isDisableAutoCliffWind="1" />
+<row id="60324100" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60324200" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60324300" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60324400" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60324500" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60324600" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60324700" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60324800" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60334000" paramdexName="Moonlight Altar - Altar South, Chelona's Rise" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60334100" paramdexName="Moonlight Altar - West of Deep Ainsel Well" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60334200" paramdexName="Moonlight Altar - Ringleader's Evergaol" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60334300" paramdexName="Liurnia of the Lakes - Minor Erdtree, Road's End Catacombs Entrance" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60334400" paramdexName="Liurnia of the Lakes - Revenger's Shack" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60334500" paramdexName="Liurnia of the Lakes - Cuckoo's Evergaol, West of Meeting Place" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60334600" paramdexName="Liurnia of the Lakes - Foot of the Four Belfries" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60334700" paramdexName="Liurnia of the Lakes - The Four Belfries, Giant's Caravan Below" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60334800" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60344000" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60344100" paramdexName="Moonlight Altar - Deep Ainsel Well" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60344200" paramdexName="Liurnia of the Lakes - Village of the Albinaurics; Moonlight Altar - Moonfolk Ruins" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60344300" paramdexName="Liurnia of the Lakes - Converted Tower" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60344400" paramdexName="Liurnia of the Lakes - Temple Quarter" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60344500" paramdexName="Liurnia of the Lakes - Meeting Place, Academy Crystal Cave Entrance" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60344600" paramdexName="Liurnia of the Lakes - Crystalline Woods, Path to the Four Belfries" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60344700" paramdexName="Liurnia of the Lakes - Sorcerer's Isle West, East Belfry" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60344800" paramdexName="Liurnia of the Lakes - Northern Liurnia Lake Shore, Kingsrealm Ruins" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60344900" paramdexName="Liurnia of the Lakes - Road to the Manor" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60345000" paramdexName="Liurnia of the Lakes - Ranni's Rise, Seluvis's Rise" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60345100" paramdexName="Liurnia of the Lakes - Renna's Rise" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60345200" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60345300" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60345400" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60345500" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60354000" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60354100" paramdexName="Moonlight Altar - Lunar Estate Ruins" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60354200" paramdexName="Moonlight Altar - Cathedral of Manus Celes" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60354300" paramdexName="Liurnia of the Lakes - Folly on the Lake, South Rose Church" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60354400" paramdexName="Liurnia of the Lakes - Far West Gate Town, North Rose Church" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60354500" paramdexName="Liurnia of the Lakes - South Raya Lucaria Gate" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60354600" paramdexName="Liurnia of the Lakes - Main Academy Gate, Academy of Raya Lucaria Entrance" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60354700" paramdexName="Liurnia of the Lakes - Testu's Rise, East Gate Bridge Trestle" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60354800" paramdexName="Liurnia of the Lakes - North of Sorcerer's Isle" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60354900" paramdexName="Liurnia of the Lakes - South of Caria Manor, West of Ravine Entrance" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60355000" paramdexName="Liurnia of the Lakes - Caria Manor" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60355100" paramdexName="Liurnia of the Lakes - North of Caria Manor" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60355200" paramdexName="Mt. Gelmir - Before Hermit Shack" WeatherCreateAssetLimitId="21" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60355300" paramdexName="Mt. Gelmir - Seethewater Terminus" WeatherCreateAssetLimitId="21" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="60020" />
+<row id="60355400" paramdexName="Mt. Gelmir - Fort Laiedd" WeatherCreateAssetLimitId="21" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60355500" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60364000" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60364100" paramdexName="Liurnia of the Lakes - Slumbering Wolf's Shack, Lakeside Crystal Cave Entrance" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60364200" paramdexName="Liurnia of the Lakes - West of Scenic Isle" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60364300" paramdexName="Liurnia of the Lakes - Boilprawn Shack, Fallen Ruins of the Lake" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60364400" paramdexName="Liurnia of the Lakes - Gate Town Southwest" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60364500" paramdexName="Liurnia of the Lakes - Gate Town Northwest" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60364600" paramdexName="Liurnia of the Lakes - West of Church of Vows" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60364700" paramdexName="Liurnia of the Lakes - West of Raya Lucaria Crystal Tunnel; Bellum Highway - South of East Raya Lucaria Gate" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60364800" paramdexName="Bellum Highway - East Raya Lucaria Gate" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60364900" paramdexName="Liurnia of the Lakes - Southeast Ravine, Lake at Caria Manor Entrance; Bellum Highway - Bellum Church" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60365000" paramdexName="Liurnia of the Lakes - Behind Caria Manor, Royal Grave Evergaol, Part of Ravine" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60365100" paramdexName="Altus Plateau - Perfumer's Ruins, Unsightly Catacombs Entrance" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="60020" />
+<row id="60365200" paramdexName="Mt. Gelmir - Craftsman's Shack, Hermit's Shack" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="60020" />
+<row id="60365300" paramdexName="Mt. Gelmir - Outside Volcano Manor" WeatherCreateAssetLimitId="21" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="60020" />
+<row id="60365400" paramdexName="Mt. Gelmir - Ninth Mt. Gelmir Campsite, Road of Iniquity, Volcano Manor Entrance" WeatherCreateAssetLimitId="21" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="60020" />
+<row id="60365500" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60374000" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60374100" paramdexName="Liurnia of the Lakes - South of Scenic Isle, East of Slumbering Wolf's Shack" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60374200" paramdexName="Liurnia of the Lakes - Scenic Isle, Laskyar Ruins" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60374300" paramdexName="Liurnia of the Lakes - North of Scenic Isle" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60374400" paramdexName="Liurnia of the Lakes - Gate Town Southeast" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60374500" paramdexName="Liurnia of the Lakes - Gate Town Northeast" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60374600" paramdexName="Liurnia of the Lakes - Church of Vows" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60374700" paramdexName="Liurnia of the Lakes - South of Mausoleum Compound, Raya Lucaria Crystal Tunnel Entrance" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60374800" paramdexName="Liurnia of the Lakes - Mausoleum Compound" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60374900" paramdexName="Bellum Highway - Church of Inhibition, Southwest of Grand Lift of Dectus" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60375000" paramdexName="Liurnia of the Lake - Northeast Ravine; Bellum Highway - West of Grand Lift of Dectus" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60375100" paramdexName="Altus Plateau - Abandoned Coffin, Ruin-Strewn Precipice Exit" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="60020" />
+<row id="60375200" paramdexName="Mt. Gelmir - Seethewater River, Hermit Village, Wyndham Catacombs Entrance, Sage's Cave Entrance" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="60020" />
+<row id="60375300" paramdexName="Mt. Gelmir - Azur, Gelmir Hero's Grave Entrance" WeatherCreateAssetLimitId="21" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="60020" />
+<row id="60375400" paramdexName="Mt. Gelmir - Minor Erdtree, Seethewater Cave Entrance" WeatherCreateAssetLimitId="21" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="60020" />
+<row id="60375500" paramdexName="Mt. Gelmir - Volcano Cave Entrance" WeatherCreateAssetLimitId="21" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60383900" paramdexName="Liurnia of the Lakes - West of Church of Irith" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60384000" paramdexName="Liurnia of the Lakes - Liurnia Lake Shore" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60384100" paramdexName="Liurnia of the Lakes - Laskyar Ruins, Malefactor's Evergaol" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60384200" paramdexName="Liurnia of the Lakes - Highway Lookout Tower" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60384300" paramdexName="Liurnia of the Lakes - Gate Town Bridge" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60384400" paramdexName="Liurnia of the Lakes - North of Gate Town Bridge" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60384500" paramdexName="Liurnia of the Lakes - Artist's Shack, Eastern Liurnia Lake Shore" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60384600" paramdexName="Liurnia of the Lakes - Eastern Tableland, Ainsel River Well" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60384700" paramdexName="Liurnia of the Lakes - Ruined Labyrinth, Uld Palace Ruins" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60384800" paramdexName="Bellum Highway - Frenzied Flame Village, Minor Erdtree" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60384900" paramdexName="Bellum Highway - Frenzy-Flaming Tower" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60011" />
+<row id="60385000" paramdexName="Liurnia of the Lakes - Ravine-Veiled Village; Bellum Highway - Grand Lift of Dectus; Altus Plateau - Altus Plateau; Ruin-Strewn Precipice Entrance" WeatherCreateAssetLimitId="2" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60385100" paramdexName="Altus Plateau - Erdtree-Gazing Hill, Lux Ruins" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="60020" />
+<row id="60385200" paramdexName="Altus Plateau - Wyndham Ruins, Wyndham Catacombs Entrance" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="60020" />
+<row id="60385300" paramdexName="Altus Plateau - Old Altus Tunnel Entrance" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="60020" />
+<row id="60385400" paramdexName="Mt. Gelmir - First Mt. Gelmir Campsite, Corpse-Stench Shack; Altus Plateau - West of Shaded Castle" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="60020" />
+<row id="60385500" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60393600" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60393700" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60393800" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60393900" paramdexName="Liurnia of the Lakes - Church of Irith" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60394000" paramdexName="Liurnia of the Lakes - Lake-Facing Cliffs, Stormveil Castle Exit, Stillwater Cave Entrance" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60394100" paramdexName="Liurnia of the Lakes - Liurnia Highway South, Purified Ruins, Cliffbottom Catacombs Entrance" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60394200" paramdexName="Liurnia of the Lakes - Liurnia Highway North" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60394300" paramdexName="Liurnia of the Lakes - Liurnia Highway Far North" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60394400" paramdexName="Liurnia of the Lakes - Jarburg, Divine Tower of Liurnia Entrance" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60394500" paramdexName="Liurnia of the Lakes - Eastern Tableland Southeast Cliffside" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60394600" paramdexName="Liurnia of the Lakes - Eastern Tableland Northeast Cliffside" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60394700" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60394800" paramdexName="Bellum Highway - Converted Fringe Tower; Liurnia of the Lakes - Black Knife Catacombs Entrance" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60394900" paramdexName="Bellum Highway - Converted Fringe Tower North Cliffside" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60395000" paramdexName="Altus Plateau - Golden Lineage Evergaol" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="60020" />
+<row id="60395100" paramdexName="Altus Plateau - Altus Highway Junction" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="60020" />
+<row id="60395200" paramdexName="Altus Plateau - Second Church of Marika" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="60020" />
+<row id="60395300" paramdexName="Altus Plateau - Mirage Rise; Mt. Gelmir - Bridge of Iniquity" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="60020" />
+<row id="60395400" paramdexName="Altus Plateau - Shaded Castle" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60395500" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60395600" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60403200" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60403300" paramdexName="Weeping Peninsula - Far West Shore" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60403400" disableParam_NT="0" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60403500" disableParam_NT="0" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60403600" disableParam_NT="0" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60403700" disableParam_NT="0" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60403800" paramdexName="Stormhill - Forested West Cliffside" disableParam_NT="0" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60403900" paramdexName="Stormhill - Path to Liurnia" disableParam_NT="0" WeatherCreateAssetLimitId="1" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60404000" paramdexName="Liurnia - Liurnia Highway South Endpoint, Path to Stormhill" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60404100" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60404200" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60404300" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60404400" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60404500" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60404600" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60404700" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60404800" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60404900" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60405000" paramdexName="Altus Plateau - Southwest of Tree Sentinel Duo" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60405100" paramdexName="Altus Plateau - West of Tree Sentinel Duo, Stormcaller Church" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60405200" paramdexName="Altus Plateau - Forest-Spanning Greatbridge, St. Trina's Hideaway, Sainted Hero's Grave Entrance" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60405300" paramdexName="Altus Plateau - Bower of Bounty, Writheblood Ruins" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60405400" paramdexName="Altus Plateau - Road of Iniquity Side Path" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60405500" paramdexName="Altus Plateau - West Windmill Pasture" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="60020" />
+<row id="60405600" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60413200" paramdexName="Weeping Peninsula - Isolated Merchant's Shack" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60413300" paramdexName="Weeping Peninsula - Fourth Church of Marika, Witchbane Ruins" WeatherLotTimeOffsetIngameSeconds="3600" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60413400" paramdexName="Weeping Peninsula - North of Fourth Church of Marika" disableParam_NT="0" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60413500" paramdexName="Limgrave - Church of Dragon Communion, Coastal Cave Exit" disableParam_NT="0" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60413600" paramdexName="Limgrave - Coastal Cave Entrance" disableParam_NT="0" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60413700" paramdexName="Limgrave - Stormfoot Catacombs Entrance" disableParam_NT="0" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60413800" paramdexName="Stormhill - Stormhill Shack, Stormveil Castle Entrance" disableParam_NT="0" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60413900" paramdexName="Stormhill - North of Stormhill Shack" disableParam_NT="0" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60414000" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60414100" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60414200" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60414300" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60414400" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60414500" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60414600" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60414700" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60414800" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60414900" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60415000" paramdexName="Altus Plateau - South of Tree Sentinel Duo" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="60020" />
+<row id="60415100" paramdexName="Altus Plateau - Tree Sentinel Duo, Perfumer's Grotto Entrance" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="60020" />
+<row id="60415200" paramdexName="Altus Plateau - Rampartside Path, Altus Tunnel Entrance" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="60020" />
+<row id="60415300" paramdexName="Altus Plateau - Woodfolk Ruins, Minor Erdtree" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60415400" paramdexName="Altus Plateau - West Windmill Village" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60415500" paramdexName="Altus Plateau - Village Windmill Pasture, East Windmill Pasture" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60415600" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60415700" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60415800" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60415900" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60416000" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60416100" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60423000" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60423100" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60423200" paramdexName="Weeping Peninsula - Tower of Return" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60423300" paramdexName="Weeping Peninsula - Tombsward; Weeping Evergaol; Tombsward Cave Entrance" WeatherLotTimeOffsetIngameSeconds="2400" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60423400" paramdexName="Weeping Peninsula - Tombsward Ruins" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60423500" paramdexName="Limgrave - South of Stranded Graveyard Exit" disableParam_NT="0" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60423600" paramdexName="Limgrave - Church of Elleh, Stranded Graveyard Exit" disableParam_NT="0" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60423700" paramdexName="Limgrave - Gatefront, Stormhill Evergaol, Groveside Cave Entrance, Limgrave Tunnels Entrance" disableParam_NT="0" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60423800" paramdexName="Stormhill - Warmaster's Shack, Stormgate" disableParam_NT="0" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60423900" paramdexName="Stormhill - North of Warmaster's Shack" disableParam_NT="0" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60424000" paramdexName="Stormhill - Northwest Cliffside" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60424100" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60424200" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60424300" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60424400" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60424500" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60424600" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60424700" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60424800" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60424900" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60425000" paramdexName="Leyndell - South of Outer Wall Phantom Tree" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="60020" />
+<row id="60425100" paramdexName="Leyndell - Outer Wall Phantom Tree" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="60020" />
+<row id="60425200" paramdexName="Leyndell - Southwest Outer Wall Battleground" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="60020" />
+<row id="60425300" paramdexName="Leyndell - Northwest Outer Wall Battleground" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60425400" paramdexName="Altus Plateau - East Windmill Village, Highway Lookout Tower" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60425500" paramdexName="Altus Plateau - Windmill Heights" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60425600" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60425700" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60425800" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60425900" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60426000" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60426100" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60426200" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60433000" paramdexName="Weeping Peninsula - Morne Moangrave" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60433100" paramdexName="Weeping Peninsula - Castle Morne" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60433200" paramdexName="Weeping Peninsula - Castle Morne Approach Northwest Cliffside" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60433300" paramdexName="Weeping Peninsula - Minor Erdtree, Tombsward Catacombs Entrance, Morne Tunnel Entrance" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60433400" paramdexName="Weeping Peninsula - Church of Pilgrimage, Demi-Human Forest Ruins" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60433500" paramdexName="Limgrave - Seaside Ruins" disableParam_NT="0" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60433600" paramdexName="Limgrave - Dragon-Burnt Ruins" disableParam_NT="0" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60433700" paramdexName="Limgrave - Agheel Lake North, Murkwater Cave Entrance" disableParam_NT="0" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60433800" paramdexName="Limgrave - Murkwater Coast, Murkwater Catacombs Entrance" disableParam_NT="0" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60433900" paramdexName="Stormhill - Saintsbridge, Deathtouched Catacombs Entrance, Highroad Cave Entrance" disableParam_NT="0" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60434000" paramdexName="Stormhill - Northeast Cliffside" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60434100" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60434200" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60434300" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60434400" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60434500" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60434600" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60434700" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60434800" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60434900" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60435000" paramdexName="Leyndell - Minor Erdtree Church, Sealed Tunnel Entrance" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="60020" />
+<row id="60435100" paramdexName="Leyndell - East of Outer Wall Phantom Tree" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="60020" />
+<row id="60435200" paramdexName="Leyndell - Southeast Outer Wall Battleground" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="60020" />
+<row id="60435300" paramdexName="Leyndell - Northeast Outer Wall Battleground, Hermit Merchant's Shack" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60435400" paramdexName="Altus Plateau - Cliffside Northeast of Outer Wall Battlefield" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60435500" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60435600" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60435700" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60435800" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60435900" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60436000" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60436100" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60436200" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60443000" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60443100" paramdexName="Weeping Peninsula - Castle Morne Approach South" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60443200" paramdexName="Weeping Peninsula - Castle Morne Approach North" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60443300" paramdexName="Weeping Peninsula - Castle Morne Rampart, Ailing Village Outskirts" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60443400" paramdexName="Weeping Peninsula - Bridge of Sacrifice, Forest Lookout Tower, Earthbore Cave Entrance" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60443500" paramdexName="Limgrave - Agheel Lake South, Forlorn Hound Evergaol" disableParam_NT="0" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60443600" paramdexName="Limgrave - Waypoint Ruins" disableParam_NT="0" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60443700" paramdexName="Limgrave - Mistwood Outskirts" disableParam_NT="0" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60443800" paramdexName="Limgrave - Artist's Shack" disableParam_NT="0" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60443900" paramdexName="Limgrave - Summonwater Village Outskirts" disableParam_NT="0" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60444000" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60444100" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60444200" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60444300" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60444400" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60444500" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60444600" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60444700" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60444800" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60444900" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60445000" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60445100" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60445200" paramdexName="Leyndell - South of Minor Erdtree" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="60020" />
+<row id="60445300" paramdexName="Leyndell - Minor Erdtree" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60445400" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60445500" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60445600" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60445700" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60445800" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60445900" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60446000" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60446100" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60446200" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60453100" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60453200" paramdexName="Weeping Peninsula - Castle Morne Approach Northeast Cliffside" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60453300" paramdexName="Weeping Peninsula - Beside the Crater-Pocked Glade, Oridys's Rise" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60453400" paramdexName="Weeping Peninsula - Impaler's Catacombs Entrance" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60453500" paramdexName="Limgrave - Southwest of Fort Haight" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60453600" paramdexName="Limgrave - Fort Haight West" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60453700" paramdexName="Limgrave - Siofra River Well, Mistwood Ruins, Minor Erdtree, Nokron Entrance" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60453800" paramdexName="Limgrave - South of Summonwater Village" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60453900" paramdexName="Limgrave - Summonwater Village" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60454000" paramdexName="Limgrave - North of Summonwater Village" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60454100" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60454200" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60454300" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60454400" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60454500" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60454600" WeatherCreateAssetLimitId="1" BgmPlaceInfo="10" EnvPlaceInfo="10" MapAdditionalSoundBankId="60010" />
+<row id="60454700" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60454800" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60454900" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60455000" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60455100" paramdexName="Leyndell - Auriza Hero's Grave Entrance" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60455200" paramdexName="Leyndell - Capital Rampart, Auriza Side Tomb Entrance" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60455300" paramdexName="Leyndell - Capital Rampart North Cliffside" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60455400" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60455500" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60455600" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60455700" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60455800" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60455900" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60456000" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60456100" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60456200" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60456300" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60463400" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60463500" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60463600" paramdexName="Limgrave - Fort Haight" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60463700" paramdexName="Limgrave - East of Siofra River Well" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60463800" paramdexName="Limgrave - Third Church of Marika, Gaol Cave Exit" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60463900" paramdexName="Limgrave - Rear Gael Tunnel Entrance; Caelid - Gael Tunnel Entrance" WeatherCreateAssetLimitId="0" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60464000" paramdexName="Caelid - Smoldering Church, Rotview Balcony" WeatherCreateAssetLimitId="3" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="60000" />
+<row id="60464100" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60464200" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60464300" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60464400" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60464500" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60464600" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60464700" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60464800" WeatherCreateAssetLimitId="2" BgmPlaceInfo="20" EnvPlaceInfo="20" MapAdditionalSoundBankId="-1" />
+<row id="60464900" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60465000" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60465100" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60465200" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60465300" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60465400" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60465500" WeatherCreateAssetLimitId="41" BgmPlaceInfo="41" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60465600" WeatherCreateAssetLimitId="41" BgmPlaceInfo="41" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60465700" paramdexName="Consecrated Snowfield - Far West Cliffside" WeatherCreateAssetLimitId="41" BgmPlaceInfo="41" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60465800" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60465900" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60466000" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60466100" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60466200" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60466300" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60473600" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60473700" paramdexName="Caelid - West of Caelid Highway South" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60473800" paramdexName="Caelid - Fort Gael, Caelid Waypoint Ruins, Gaol Cave Entrance" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="60030" />
+<row id="60473900" paramdexName="Caelid - Fort Gael North" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60474000" paramdexName="Caelid - Caelem Ruins, Forsaken Ruins, Minor Erdtree, Minor Erdtree Catacombs Entrance" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="60030" />
+<row id="60474100" paramdexName="Caelid - South Great-Jar Area" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60474200" paramdexName="Caelid - North Great-Jar Area" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60474300" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60474400" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60474500" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60474600" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60474700" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60474800" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60474900" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60475000" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60475100" paramdexName="Leyndell - Divine Tower of East Altus Entrance; Mountaintops of the Giants - Forbidden Lands Start" WeatherCreateAssetLimitId="42" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60475200" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60475300" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60475400" WeatherCreateAssetLimitId="41" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60475500" paramdexName="Consecrated Snowfield - Yelough Anix Ruins, Yelough Anix Tunnel Entrance" WeatherCreateAssetLimitId="41" BgmPlaceInfo="41" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60475600" paramdexName="Consecrated Snowfield - North of Yelough Anix Ruins" WeatherCreateAssetLimitId="41" BgmPlaceInfo="41" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60475700" paramdexName="Consecrated Snowfield - West of Ordina" WeatherCreateAssetLimitId="41" BgmPlaceInfo="41" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60475800" paramdexName="Consecrated Snowfield - Apostate Derelict" WeatherCreateAssetLimitId="41" BgmPlaceInfo="41" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60475900" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60476000" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60476100" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60476200" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60476300" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60483600" paramdexName="Caelid - Cathedral of Dragon Communion, Caelid Catacombs Entrance" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60483700" paramdexName="Caelid - Caelid Highway South" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60483800" paramdexName="Caelid - West Aeonia Swamp" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60483900" paramdexName="Caelid - Smoldering Wall, Abandoned Cave Entrance" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60484000" paramdexName="Caelid - Deep Siofra Well; Greyoll's Dragonbarrow - Dragonbarrow West" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60484100" paramdexName="Greyoll's Dragonbarrow - Isolated Merchant's Shack" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60484200" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60484300" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60484400" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60484500" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60484600" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60484700" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60484800" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60484900" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60485000" WeatherCreateAssetLimitId="42" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60485100" paramdexName="Mountaintops of the Giants - Forbidden Lands Midway" WeatherCreateAssetLimitId="42" BgmPlaceInfo="180" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60485200" WeatherCreateAssetLimitId="42" BgmPlaceInfo="180" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60485300" WeatherCreateAssetLimitId="41" BgmPlaceInfo="41" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60485400" paramdexName="Consecrated Snowfield - Southwest Foggy Area" WeatherCreateAssetLimitId="41" BgmPlaceInfo="41" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60485500" paramdexName="Consecrated Snowfield - Northwest Foggy Area, East of Yelough Anix Ruins" WeatherCreateAssetLimitId="41" BgmPlaceInfo="41" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60485600" paramdexName="Consecrated Snowfield - South of Ordina" WeatherCreateAssetLimitId="41" BgmPlaceInfo="41" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60485700" paramdexName="Consecrated Snowfield - Ordina, Liturgical Town" WeatherCreateAssetLimitId="41" BgmPlaceInfo="41" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60485800" paramdexName="Consecrated Snowfield - East of Apostate Derelict" WeatherCreateAssetLimitId="41" BgmPlaceInfo="41" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60485900" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60486000" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60486100" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60486200" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60486300" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60486400" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60493600" paramdexName="Caelid - Southwest of Caelid Highway South" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60493700" paramdexName="Caelid - Southern Aeonia Swamp Bank" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60493800" paramdexName="Caelid - East Aeonia Swamp" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60493900" paramdexName="Caelid - West Sellia, Sellia Crystal Tunnel Entrance" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="60030" />
+<row id="60494000" paramdexName="Greyoll's Dragonbarrow - South of Divine Tower of Caelid, Deep Siofra Well" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="60030" />
+<row id="60494100" paramdexName="Greyoll's Dragonbarrow - Divine Tower of Caelid Entrance" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60494200" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60494300" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60494400" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60494500" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60494600" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60494700" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60494800" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60494900" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60495000" WeatherCreateAssetLimitId="42" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60495100" WeatherCreateAssetLimitId="42" BgmPlaceInfo="180" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60495200" paramdexName="Mountaintops of the Giants - Before Grand Lift of Rold" WeatherCreateAssetLimitId="42" BgmPlaceInfo="180" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60495300" paramdexName="Mountaintops of the Giants - West Zamor Ruins, Grand Lift of Rold" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60495400" paramdexName="Consecrated Snowfield - Hidden Path to the Haligtree, Southeast Foggy Area" WeatherCreateAssetLimitId="41" BgmPlaceInfo="41" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60495500" paramdexName="Consecrated Snowfield - Northeast Foggy Area, Inner Consecrated Snowfield" WeatherCreateAssetLimitId="41" BgmPlaceInfo="41" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60495600" paramdexName="Consecrated Snowfield - Southeast of Ordina" WeatherCreateAssetLimitId="41" BgmPlaceInfo="41" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60495700" paramdexName="Consecrated Snowfield - East of Ordina" WeatherCreateAssetLimitId="41" BgmPlaceInfo="41" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60495800" WeatherCreateAssetLimitId="41" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60495900" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60496000" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60496100" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60496200" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60496300" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60503600" paramdexName="Caelid - Impassable Greatbridge" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60503700" paramdexName="Caelid - Far Southwest Radahn Arena" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60503800" paramdexName="Caelid - Gowry's Shack" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60503900" paramdexName="Caelid - East Sellia, Church of the Plague" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60504000" paramdexName="Greyoll's Dragonbarrow - Dragonbarrow Fork" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60504100" paramdexName="Greyoll's Dragonbarrow - North of Dragonbarrow Fork" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60504200" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60504300" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60504400" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60504500" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60504600" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60504700" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60504800" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60504900" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60505000" WeatherCreateAssetLimitId="42" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60505100" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60505200" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60505300" paramdexName="Mountaintops of the Giants - East Zamor Ruins" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60505400" paramdexName="Mountaintops of the Giants - North of Zamor Ruins" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="60040" />
+<row id="60505500" paramdexName="Consecrated Snowfield - Consecrated Snowfield Catacombs Entrance" WeatherCreateAssetLimitId="4" BgmPlaceInfo="41" EnvPlaceInfo="40" MapAdditionalSoundBankId="60040" />
+<row id="60505600" paramdexName="Mountaintops of the Giants - Shack of the Lofty; Consecrated Snowfield - Minor Erdtree, Albinauric Rise, Cave of the Forlorn Entrance" WeatherCreateAssetLimitId="4" BgmPlaceInfo="41" EnvPlaceInfo="40" MapAdditionalSoundBankId="60040" />
+<row id="60505700" paramdexName="Mountaintops of the Giants - West of Castle Sol; Consecrated Snowfield - North of Minor Erdtree" WeatherCreateAssetLimitId="4" BgmPlaceInfo="41" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60505800" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60505900" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60506000" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60506100" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60506200" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60513500" paramdexName="Caelid - Redmane Castle South Cliffside" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60513600" paramdexName="Caelid - Redmane Castle" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60513700" paramdexName="Caelid - Southwest Radahn Arena" WeatherCreateAssetLimitId="31" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60513800" paramdexName="Caelid - West Radahn Arena" WeatherCreateAssetLimitId="31" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60513900" paramdexName="Greyoll's Dragonbarrow - Fort Faroth" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60514000" paramdexName="Greyoll's Dragonbarrow - Minor Erdtree, Dragonbarrow Cave Entrance" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60514100" paramdexName="Greyoll's Dragonbarrow - Southwest Farum Greatbridge" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60514200" paramdexName="Greyoll's Dragonbarrow - Northwest Farum Greatbridge" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60514300" paramdexName="Greyoll's Dragonbarrow - Bestial Sanctum" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="60030" />
+<row id="60514400" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60514500" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60514600" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60514700" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60514800" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60514900" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60515000" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60515100" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60515200" paramdexName="Mountaintops of the Giants - Giants' Gravepost South Cliffside" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60515300" paramdexName="Mountaintops of the Giants - Southwest Giants' Gravepost" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60515400" paramdexName="Mountaintops of the Giants - Northwest Giants' Gravepost" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="60040" />
+<row id="60515500" paramdexName="Mountaintops of the Giants - Before Ancient Snow Valley Ruins" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="60040" />
+<row id="60515600" paramdexName="Mountaintops of the Giants - Ancient Snow Valley Ruins, Stargazers' Ruins" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60515700" paramdexName="Mountaintops of the Giants - South Castle Sol, Snow Valley Ruins Overlook" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60515800" paramdexName="Mountaintops of the Giants - North Castle Sol" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60515900" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60516000" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60516100" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60523600" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60523700" paramdexName="Caelid - South Radahn Arena" WeatherCreateAssetLimitId="31" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60523800" paramdexName="Caelid - Central Radahn Arena" WeatherCreateAssetLimitId="31" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60523900" paramdexName="Caelid - North Radahn Arena" WeatherCreateAssetLimitId="31" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60524000" paramdexName="Caelid - Far North Radahn Arena" WeatherCreateAssetLimitId="31" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60524100" paramdexName="Greyoll's Dragonbarrow - Southeast Farum Greatbridge, Lenne's Rise" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60524200" paramdexName="Greyoll's Dragonbarrow - Northeast Farum Greatbridge" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="60030" />
+<row id="60524300" paramdexName="Greyoll's Dragonbarrow - Northeast Cliffside" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60524400" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60524500" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60524600" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60524700" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60524800" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60524900" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60525000" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60525100" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60525200" paramdexName="Mountaintops of the Giants - Southwest Fire Giant Arena" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60525300" paramdexName="Mountaintops of the Giants - Northwest Fire Giant Arena, Foot of the Forge" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60525400" paramdexName="Mountaintops of the Giants - Northeast Giants' Gravepost" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60525500" paramdexName="Mountaintops of the Giants - Guardians' Garrison" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60525600" paramdexName="Mountaintops of the Giants - Whiteridge Road, Minor Erdtree" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60525700" paramdexName="Mountaintops of the Giants - Before Freezing Lake, Heretical Rise" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60525800" paramdexName="Mountaintops of the Giants - Northwest of Freezing Lake, East of Castle Sol" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60525900" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60526000" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60526100" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60533600" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60533700" WeatherCreateAssetLimitId="31" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60533800" paramdexName="Caelid - East Radahn Arena" WeatherCreateAssetLimitId="31" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60533900" paramdexName="Caelid - Northeast Radahn Arena" WeatherCreateAssetLimitId="31" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60534000" WeatherCreateAssetLimitId="31" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60534100" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60534200" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60534300" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60534400" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60534500" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60534600" WeatherCreateAssetLimitId="3" BgmPlaceInfo="30" EnvPlaceInfo="30" MapAdditionalSoundBankId="-1" />
+<row id="60534700" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60534800" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60534900" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60535000" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60535100" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60535200" paramdexName="Mountaintops of the Giants - Southeast Fire Giant Arena" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60535300" paramdexName="Mountaintops of the Giants - Northeast Fire Giant Arena" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60535400" paramdexName="Mountaintops of the Giants - Giants' Gravepost Northeast Cliffside" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60535500" paramdexName="Mountaintops of the Giants - West of First Church of Marika" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60535600" paramdexName="Mountaintops of the Giants - Southwest Freezing Lake, Lord Contender's Evergaol, Spiritcaller's Cave Entrance" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="60040" />
+<row id="60535700" paramdexName="Mountaintops of the Giants - Northwest Freezing Lake" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60535800" paramdexName="Mountaintops of the Giants - Freezing Lake North Cliffside" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60535900" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60536000" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60536100" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60544800" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60544900" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60545000" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60545100" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60545200" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60545300" paramdexName="Mountaintops of the Giants - Forge of the Giants" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60545400" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60545500" paramdexName="Mountaintops of the Giants - First Church of Marika" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60545600" paramdexName="Mountaintops of the Giants - Southeast Freezing Lake" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60545700" paramdexName="Mountaintops of the Giants - Northeast Freezing Lake" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60545800" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60545900" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60546000" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60546100" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60554800" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60554900" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60555000" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60555100" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60555200" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60555300" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60555400" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60555500" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60555600" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60555700" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60555800" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60555900" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60556000" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60556100" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60564900" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60565000" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60565100" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60565200" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60565300" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60565400" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60565500" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60565600" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60565700" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60565800" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60565900" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60566000" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60566100" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60575000" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60575100" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60575200" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60575300" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60575400" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60575500" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60575600" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60575700" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60575800" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60575900" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60576000" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="60576100" WeatherCreateAssetLimitId="4" BgmPlaceInfo="40" EnvPlaceInfo="40" MapAdditionalSoundBankId="-1" />
+<row id="61424600" WeatherCreateAssetLimitId="60" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61424700" WeatherCreateAssetLimitId="60" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61424800" WeatherCreateAssetLimitId="60" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61434000" WeatherCreateAssetLimitId="60" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61434100" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61434200" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61434300" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61434400" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61434500" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61434600" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61434700" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61434800" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61444000" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61444100" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61444200" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61444300" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61444400" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61444500" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61010" />
+<row id="61444600" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61010" />
+<row id="61444700" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61010" />
+<row id="61444800" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61010" />
+<row id="61444900" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61445000" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61445100" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61453800" WeatherCreateAssetLimitId="60" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61453900" WeatherCreateAssetLimitId="60" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61454000" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61454100" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61454200" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61454300" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61454400" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61454500" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61010" />
+<row id="61454600" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61010" />
+<row id="61454700" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61010" />
+<row id="61454800" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61010" />
+<row id="61454900" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61455000" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61455100" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61463500" WeatherCreateAssetLimitId="60" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61463600" WeatherCreateAssetLimitId="60" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61463700" WeatherCreateAssetLimitId="60" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61463800" WeatherCreateAssetLimitId="60" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61463900" WeatherCreateAssetLimitId="60" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61464000" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61464100" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61464200" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61464300" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61464400" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61464500" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61464600" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61010" />
+<row id="61464700" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61010" />
+<row id="61464800" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61010" />
+<row id="61464900" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61465000" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61465100" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61473500" WeatherCreateAssetLimitId="60" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61473600" WeatherCreateAssetLimitId="60" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61473700" WeatherCreateAssetLimitId="60" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61473800" WeatherCreateAssetLimitId="60" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61473900" WeatherCreateAssetLimitId="60" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61474000" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61474100" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61474200" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61474300" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61474400" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61474500" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61474600" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61010" />
+<row id="61474700" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61010" />
+<row id="61474800" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61010" />
+<row id="61474900" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61475000" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61483600" WeatherCreateAssetLimitId="60" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61483700" WeatherCreateAssetLimitId="60" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61483800" WeatherCreateAssetLimitId="60" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61020" />
+<row id="61483900" WeatherCreateAssetLimitId="60" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61020" />
+<row id="61484000" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61020" />
+<row id="61484100" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61020" />
+<row id="61484200" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61020" />
+<row id="61484300" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61020" />
+<row id="61484400" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61484500" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61484600" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61484700" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61484800" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61484900" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61485000" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61493600" WeatherCreateAssetLimitId="60" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61493700" WeatherCreateAssetLimitId="60" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61493800" WeatherCreateAssetLimitId="60" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61020" />
+<row id="61493900" WeatherCreateAssetLimitId="60" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61020" />
+<row id="61494000" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61020" />
+<row id="61494100" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61020" />
+<row id="61494200" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61020" />
+<row id="61494300" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61020" />
+<row id="61494400" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61494500" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61494600" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61494700" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61494800" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61494900" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61495000" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61503600" WeatherCreateAssetLimitId="60" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61503700" WeatherCreateAssetLimitId="60" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61503800" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61503900" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61504000" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61020" />
+<row id="61504100" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61020" />
+<row id="61504200" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61020" />
+<row id="61504300" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61020" />
+<row id="61504400" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61504500" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61504600" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61504700" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61504800" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61504900" WeatherCreateAssetLimitId="75" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61505000" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61505100" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61513600" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61513700" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61513800" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61513900" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61514000" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61020" />
+<row id="61514100" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61020" />
+<row id="61514200" WeatherCreateAssetLimitId="65" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61020" />
+<row id="61514300" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61020" />
+<row id="61514400" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61514500" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61514600" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61514700" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61514800" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61514900" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61515000" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61523800" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61523900" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61524000" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61020" />
+<row id="61524100" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61020" />
+<row id="61524200" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61020" />
+<row id="61524300" EnableFastTravelEventFlagId="2052430800" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61020" />
+<row id="61524400" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61524500" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61524600" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61524700" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61524800" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61524900" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61525000" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61533800" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61533900" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61534000" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61020" />
+<row id="61534100" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61020" />
+<row id="61534200" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61020" />
+<row id="61534300" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="61020" />
+<row id="61534400" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61534500" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61534600" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61534700" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61534800" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61534900" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61544000" WeatherCreateAssetLimitId="70" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61544100" WeatherCreateAssetLimitId="70" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61544200" WeatherCreateAssetLimitId="70" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61544300" WeatherCreateAssetLimitId="70" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61544400" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61544500" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61544600" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61544700" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61544800" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61544900" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61545000" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61545100" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61554000" WeatherCreateAssetLimitId="70" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61554100" WeatherCreateAssetLimitId="70" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61554200" WeatherCreateAssetLimitId="70" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61554300" WeatherCreateAssetLimitId="70" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61554400" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61554500" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61554600" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61554700" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61554800" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61554900" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61555000" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="61555100" WeatherCreateAssetLimitId="50" BgmPlaceInfo="999" EnvPlaceInfo="999" MapAdditionalSoundBankId="-1" />
+<row id="99990001" disableParam_NT="0" WeatherCreateAssetLimitId="-1" BgmPlaceInfo="0" EnvPlaceInfo="0" MapAdditionalSoundBankId="-1" />
+</rows>
+</param>

@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<param WitchyVersion="2150000">
+<filename>SeMaterialConvertParam.param</filename>
+<compression>None</compression>
+<type>SE_MATERIAL_CONVERT_PARAM_ST</type>
+<game>ER</game>
+<cellStyle>0</cellStyle>
+<format2D>133</format2D>
+<format2E>7</format2E>
+<dataVersion>1</dataVersion>
+<formatVersion>0</formatVersion>
+<unk06>1</unk06>
+<paramdef>
+<type>SE_MATERIAL_CONVERT_PARAM_ST</type>
+<bigEndian>0</bigEndian>
+<compression>None</compression>
+<unicode>1</unicode>
+<dataVersion>1</dataVersion>
+<formatVersion>203</formatVersion>
+</paramdef>
+<fields>
+<field name="seMaterialId" type="u8" arraylength="1" bitsize="-1" sortid="1" defaultValue="85" />
+<field name="pad" type="dummy8" arraylength="3" bitsize="-1" sortid="3" defaultValue="[0|0|0]" defaultThreshold="True" />
+</fields>
+<rows>
+<row id="1" seMaterialId="1" />
+<row id="2" seMaterialId="2" />
+<row id="3" seMaterialId="3" />
+<row id="4" seMaterialId="4" />
+<row id="5" seMaterialId="5" />
+<row id="6" seMaterialId="6" />
+<row id="7" seMaterialId="7" />
+<row id="8" seMaterialId="8" />
+<row id="9" seMaterialId="9" />
+<row id="10" seMaterialId="10" />
+<row id="11" seMaterialId="11" />
+<row id="12" seMaterialId="12" />
+<row id="13" seMaterialId="13" />
+<row id="14" seMaterialId="14" />
+<row id="15" seMaterialId="15" />
+<row id="16" seMaterialId="16" />
+<row id="17" seMaterialId="17" />
+<row id="18" seMaterialId="18" />
+<row id="19" seMaterialId="19" />
+<row id="20" seMaterialId="20" />
+<row id="21" seMaterialId="21" />
+<row id="22" seMaterialId="22" />
+<row id="23" seMaterialId="23" />
+<row id="24" seMaterialId="24" />
+<row id="25" seMaterialId="25" />
+<row id="26" seMaterialId="26" />
+<row id="27" seMaterialId="27" />
+<row id="28" seMaterialId="28" />
+<row id="29" seMaterialId="29" />
+<row id="30" seMaterialId="30" />
+<row id="31" seMaterialId="31" />
+<row id="32" seMaterialId="32" />
+<row id="33" seMaterialId="33" />
+<row id="34" seMaterialId="34" />
+<row id="35" seMaterialId="35" />
+<row id="36" seMaterialId="36" />
+<row id="37" seMaterialId="37" />
+<row id="38" seMaterialId="38" />
+<row id="39" seMaterialId="39" />
+<row id="40" seMaterialId="40" />
+<row id="41" seMaterialId="41" />
+<row id="42" seMaterialId="42" />
+<row id="43" seMaterialId="43" />
+<row id="44" seMaterialId="44" />
+<row id="45" seMaterialId="45" />
+<row id="46" seMaterialId="46" />
+<row id="47" seMaterialId="47" />
+<row id="48" seMaterialId="48" />
+<row id="49" seMaterialId="49" />
+<row id="52" seMaterialId="49" />
+<row id="60" seMaterialId="23" />
+<row id="61" seMaterialId="46" />
+<row id="62" seMaterialId="7" />
+<row id="100" seMaterialId="50" />
+<row id="101" seMaterialId="51" />
+<row id="102" seMaterialId="52" />
+<row id="103" seMaterialId="53" />
+<row id="104" seMaterialId="54" />
+<row id="105" seMaterialId="55" />
+<row id="106" seMaterialId="56" />
+<row id="107" seMaterialId="94" />
+<row id="108" seMaterialId="58" />
+<row id="109" seMaterialId="59" />
+<row id="110" seMaterialId="60" />
+<row id="111" seMaterialId="61" />
+<row id="112" seMaterialId="62" />
+<row id="113" seMaterialId="63" />
+<row id="114" seMaterialId="64" />
+<row id="115" seMaterialId="65" />
+<row id="116" seMaterialId="66" />
+<row id="117" seMaterialId="67" />
+<row id="118" seMaterialId="68" />
+<row id="119" seMaterialId="69" />
+<row id="120" seMaterialId="70" />
+<row id="121" seMaterialId="71" />
+<row id="122" seMaterialId="72" />
+<row id="123" seMaterialId="95" />
+<row id="124" seMaterialId="74" />
+<row id="125" seMaterialId="75" />
+<row id="126" seMaterialId="76" />
+<row id="127" seMaterialId="77" />
+<row id="128" seMaterialId="78" />
+<row id="129" seMaterialId="79" />
+<row id="130" seMaterialId="80" />
+<row id="131" seMaterialId="80" />
+<row id="132" seMaterialId="80" />
+<row id="133" seMaterialId="80" />
+<row id="134" seMaterialId="84" />
+<row id="135" seMaterialId="85" />
+<row id="136" seMaterialId="85" />
+<row id="137" seMaterialId="85" />
+<row id="138" seMaterialId="85" />
+<row id="139" seMaterialId="89" />
+<row id="140" seMaterialId="90" />
+<row id="141" seMaterialId="91" />
+<row id="142" seMaterialId="92" />
+<row id="143" seMaterialId="93" />
+<row id="144" seMaterialId="57" />
+<row id="145" seMaterialId="95" />
+<row id="146" seMaterialId="59" />
+<row id="147" seMaterialId="60" />
+<row id="148" seMaterialId="98" />
+</rows>
+</param>

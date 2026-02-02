@@ -14,7 +14,7 @@ import type { PrecomputedAowData, EnemyData } from './data/index.js';
 import { loadPrecomputedData, loadAowData, getEnemyByKey, getAvailableAowNames, canWeaponMountAoW, getWeaponSkillName } from './data/index.js';
 import { buildWeaponList, findOptimalStats } from './utils/damageCalculator.js';
 import type { RollType } from './utils/equipLoad.js';
-import { Menu } from 'lucide-react';
+import { Github, Menu } from 'lucide-react';
 import { useWeaponQueryParam } from './hooks/useWeaponQueryParam.js';
 import { useBuilds } from './hooks/useBuilds.js';
 
@@ -328,6 +328,14 @@ export default function App() {
               Elden Ring Weapon Calculator (Beta)
             </h1>
           </div>
+          <a
+            href="https://github.com/guyathomas/elden-ring-calculator"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-2 hover:bg-[#2a2a2a] rounded text-[#8b8b8b] hover:text-[#e8e6e3] transition-colors"
+          >
+            <Github className="w-5 h-5" />
+          </a>
         </div>
       </header>
 

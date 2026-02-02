@@ -76,6 +76,31 @@ export function getStatValue(config: StatConfig): number {
   return config.min;
 }
 
+export const DAMAGE_STATS = ['str', 'dex', 'int', 'fai', 'arc'] as const;
+
+export function lockAllDamageStats(
+  statConfigs: Record<string, StatConfig>,
+  onChange: (stat: string, config: StatConfig) => void,
+): void {
+  for (const stat of DAMAGE_STATS) {
+    if (!isStatLocked(statConfigs[stat])) {
+      onChange(stat, { min: statConfigs[stat].min, max: statConfigs[stat].min });
+    }
+  }
+}
+
+export function unlockAllDamageStats(
+  statConfigs: Record<string, StatConfig>,
+  classMinMap: Record<string, number>,
+  onChange: (stat: string, config: StatConfig) => void,
+): void {
+  for (const stat of DAMAGE_STATS) {
+    if (isStatLocked(statConfigs[stat])) {
+      onChange(stat, { min: classMinMap[stat], max: 99 });
+    }
+  }
+}
+
 // ============================================================================
 // Weapon Types (UI Display)
 // ============================================================================

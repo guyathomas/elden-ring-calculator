@@ -22,7 +22,7 @@ import { NumericInput } from './ui/numeric-input.js';
 import type { StatConfig, StartingClass, WeaponListItem, CharacterStats, PrecomputedDataV2 } from '../types.js';
 import type { Build } from '../types/buildTypes.js';
 import type { FilterValue } from './ui/column-filter.js';
-import { INITIAL_CLASS_VALUES, STARTING_CLASS_LIST, WEAPON_SKILL_FILTER, getStatValue, isStatLocked } from '../types.js';
+import { INITIAL_CLASS_VALUES, STARTING_CLASS_LIST, WEAPON_SKILL_FILTER, getStatValue, isStatLocked, lockAllDamageStats, unlockAllDamageStats } from '../types.js';
 import type { SolverOptimizationMode } from '../types/solverTypes.js';
 import { getBossNames, getEnemyByKey, getAvailableAowNames, getUniqueSkillNames } from '../data/index.js';
 import type { PrecomputedAowData } from '../data/index.js';
@@ -547,27 +547,14 @@ const SidebarBody = ({
               <label className="text-[#d4af37] text-[10px] uppercase tracking-wider font-medium">Damage Stats</label>
               <div className="flex items-center gap-1">
                 <button
-                  onClick={() => {
-                    for (const stat of ['str', 'dex', 'int', 'fai', 'arc']) {
-                      if (!isStatLocked(statConfigs[stat])) {
-                        onStatConfigChange(stat, { min: statConfigs[stat].min, max: statConfigs[stat].min });
-                      }
-                    }
-                  }}
+                  onClick={() => lockAllDamageStats(statConfigs, onStatConfigChange)}
                   className="p-0.5 hover:bg-[#2a2a2a] rounded transition-colors"
                   title="Lock all damage stats"
                 >
                   <Lock className="w-3 h-3 text-[#8b8b8b]" />
                 </button>
                 <button
-                  onClick={() => {
-                    const classMinMap: Record<string, number> = { str: classData.str, dex: classData.dex, int: classData.int, fai: classData.fai, arc: classData.arc };
-                    for (const stat of ['str', 'dex', 'int', 'fai', 'arc']) {
-                      if (isStatLocked(statConfigs[stat])) {
-                        onStatConfigChange(stat, { min: classMinMap[stat], max: 99 });
-                      }
-                    }
-                  }}
+                  onClick={() => unlockAllDamageStats(statConfigs, classData, onStatConfigChange)}
                   className="p-0.5 hover:bg-[#2a2a2a] rounded transition-colors"
                   title="Unlock all damage stats"
                 >

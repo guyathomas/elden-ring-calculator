@@ -1,5 +1,5 @@
 import type { StatConfig, StartingClass } from '../types';
-import { INITIAL_CLASS_VALUES, STARTING_CLASS_LIST, getStatValue, isStatLocked } from '../types';
+import { INITIAL_CLASS_VALUES, STARTING_CLASS_LIST, getStatValue, isStatLocked, lockAllDamageStats, unlockAllDamageStats } from '../types';
 import { Calculator, ChevronDown, ChevronUp, Lock, Unlock } from 'lucide-react';
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
@@ -194,27 +194,14 @@ export function StatInputPanel({ level, setLevel, startingClass, setStartingClas
                       <div className="text-[#d4af37] text-xs uppercase tracking-wider">Damage Stats</div>
                       <div className="flex items-center gap-1">
                         <button
-                          onClick={() => {
-                            for (const stat of ['str', 'dex', 'int', 'fai', 'arc']) {
-                              if (!isStatLocked(statConfigs[stat])) {
-                                onStatConfigChange(stat, { min: statConfigs[stat].min, max: statConfigs[stat].min });
-                              }
-                            }
-                          }}
+                          onClick={() => lockAllDamageStats(statConfigs, onStatConfigChange)}
                           className="p-0.5 hover:bg-[#2a2a2a] rounded transition-colors"
                           title="Lock all damage stats"
                         >
                           <Lock className="w-3 h-3 text-[#8b8b8b]" />
                         </button>
                         <button
-                          onClick={() => {
-                            const classMinMap: Record<string, number> = { str: classData.str, dex: classData.dex, int: classData.int, fai: classData.fai, arc: classData.arc };
-                            for (const stat of ['str', 'dex', 'int', 'fai', 'arc']) {
-                              if (isStatLocked(statConfigs[stat])) {
-                                onStatConfigChange(stat, { min: classMinMap[stat], max: 99 });
-                              }
-                            }
-                          }}
+                          onClick={() => unlockAllDamageStats(statConfigs, classData, onStatConfigChange)}
                           className="p-0.5 hover:bg-[#2a2a2a] rounded transition-colors"
                           title="Unlock all damage stats"
                         >

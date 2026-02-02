@@ -1057,8 +1057,7 @@ export function Sidebar({
             animate={{ x: 0 }}
             exit={{ x: "-100%" }}
             transition={{ type: "spring", damping: 25, stiffness: 200 }}
-            style={{ width: SIDEBAR_WIDTH, maxWidth: SIDEBAR_WIDTH }}
-            className="fixed inset-y-0 left-0 z-[101] h-[100dvh] bg-[#111111] shadow-xl border-r border-[#2a2a2a] focus:outline-none overflow-hidden"
+            className="fixed inset-0 z-[101] h-[100dvh] bg-[#111111] shadow-xl focus:outline-none overflow-hidden"
           >
               <div className="flex flex-col h-full w-full bg-[#111111] text-[#e8e6e3] overflow-hidden">
                 {/* Header with close button */}

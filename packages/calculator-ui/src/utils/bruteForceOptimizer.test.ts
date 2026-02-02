@@ -389,8 +389,8 @@ describe('Consistency between solver.ts and bruteForceOptimizer', () => {
     const getObjective = (stats: CharacterStats) => stats.str * 2 + stats.dex;
 
     const statConfigs: Record<string, StatConfig> = {
-      str: { min: baseStats.str, max: 99, locked: false },
-      dex: { min: baseStats.dex, max: 99, locked: false },
+      str: { min: baseStats.str, max: 99 },
+      dex: { min: baseStats.dex, max: 99 },
     };
 
     // Run solver's greedy
@@ -659,9 +659,9 @@ describe('Algorithm Comparison: Solver vs Investment Path vs Brute Force', () =>
 
     // Build stat configs for solver
     const statConfigs: Record<string, StatConfig> = {
-      str: { min: baseStats.str, max: 99, locked: false },
-      dex: { min: baseStats.dex, max: 99, locked: false },
-      int: { min: baseStats.int, max: 99, locked: false },
+      str: { min: baseStats.str, max: 99 },
+      dex: { min: baseStats.dex, max: 99 },
+      int: { min: baseStats.int, max: 99 },
     };
 
     console.log('\n=== Algorithm Comparison: Moonveil ===');

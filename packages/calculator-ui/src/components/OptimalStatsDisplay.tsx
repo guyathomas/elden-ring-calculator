@@ -1,4 +1,5 @@
 import type { CharacterStats, StatConfig } from '../types';
+import { isStatLocked } from '../types';
 import { TrendingUp } from 'lucide-react';
 
 interface OptimalStatsDisplayProps {
@@ -8,8 +9,8 @@ interface OptimalStatsDisplayProps {
 
 export function OptimalStatsDisplay({ optimalStats, statConfigs }: OptimalStatsDisplayProps) {
   const damageStats = ['str', 'dex', 'int', 'fai', 'arc'];
-  const unlockedStats = damageStats.filter(stat => !statConfigs[stat].locked);
-  
+  const unlockedStats = damageStats.filter(stat => !isStatLocked(statConfigs[stat]));
+
   if (unlockedStats.length === 0) return null;
 
   return (
@@ -21,7 +22,7 @@ export function OptimalStatsDisplay({ optimalStats, statConfigs }: OptimalStatsD
       <div className="bg-[#1a2618] border border-[#2d4a24] rounded p-4">
         <div className="grid grid-cols-5 gap-3">
           {damageStats.map(stat => {
-            const isUnlocked = !statConfigs[stat].locked;
+            const isUnlocked = !isStatLocked(statConfigs[stat]);
             const value = optimalStats[stat as keyof CharacterStats];
             
             return (

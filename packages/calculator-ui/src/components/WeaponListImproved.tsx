@@ -46,7 +46,7 @@ import type {
   StatConfig,
   WeaponListItem,
 } from "../types";
-import { INITIAL_CLASS_VALUES, WEAPON_SKILL_FILTER } from "../types";
+import { INITIAL_CLASS_VALUES, WEAPON_SKILL_FILTER, isStatLocked, getStatValue } from "../types";
 import type { SolverOptimizationMode } from "../types/solverTypes";
 import {
   calculateCriticalDamage,
@@ -1509,8 +1509,8 @@ export function WeaponList({
       "arc",
     ];
     return budgetStats.reduce((sum, stat) => {
-      if (deferredStatConfigs[stat].locked) {
-        return sum + (deferredStatConfigs[stat].value || 0);
+      if (isStatLocked(deferredStatConfigs[stat])) {
+        return sum + getStatValue(deferredStatConfigs[stat]);
       }
       return sum + (deferredStatConfigs[stat].max || 0);
     }, 0);
@@ -1930,8 +1930,8 @@ export function WeaponList({
 
       // Check if stats are over budget
       const totalUsed = Object.keys(deferredStatConfigs).reduce((sum, stat) => {
-        if (deferredStatConfigs[stat].locked) {
-          return sum + (deferredStatConfigs[stat].value || 0);
+        if (isStatLocked(deferredStatConfigs[stat])) {
+          return sum + getStatValue(deferredStatConfigs[stat]);
         }
         return (
           sum +

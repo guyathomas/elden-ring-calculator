@@ -2,7 +2,6 @@
  * Sidebar Component Tests
  *
  * Tests for the Sidebar component including:
- * - Mode switching (Fixed vs Solver)
  * - Stat input behavior
  * - Column toggles
  * - Two-handing toggle
@@ -67,8 +66,6 @@ function createDefaultProps(overrides = {}) {
     setStartingClass: vi.fn(),
     statConfigs: createMockStatConfigs(),
     onStatConfigChange: vi.fn(),
-    solverEnabled: false,
-    onSolverToggle: vi.fn(),
     twoHanding: false,
     onTwoHandingToggle: vi.fn(),
     upgradeLevel: 25,
@@ -92,26 +89,31 @@ function createDefaultProps(overrides = {}) {
     onOptimizationModeChange: vi.fn(),
     hasCatalystsSelected: false,
     hasAowSelected: false,
-    // Unified weapon filters
-    weaponFilters: {
-      searchText: '',
-      sortKey: 'totalAR',
-      sortDirection: 'desc' as const,
-      categoryFilter: new Set<string>(),
-      affinityFilter: new Set<string>(),
-      damageTypeFilter: new Set<string>(),
-      statusEffectFilter: new Set<string>(),
-      weightRange: {},
-      arRange: {},
-      buffableFilter: null,
-      meetsReqsFilter: true,
-    },
-    onFilterChange: vi.fn(),
+    // Column visibility extras
+    showAttributeInvestments: false,
+    setShowAttributeInvestments: vi.fn(),
+    // Column filters
+    columnFilters: {},
+    onColumnFilterChange: vi.fn(),
     // Available options
     availableCategories: ['Katana', 'Greatsword', 'Dagger'],
     availableAffinities: ['Standard', 'Heavy', 'Keen'],
     availableDamageTypes: ['Slash', 'Pierce', 'Strike'],
     availableStatusEffects: ['Bleed', 'Frost', 'Poison'],
+    // Build props
+    builds: [],
+    activeBuild: null,
+    storageAvailable: true,
+    onSelectBuild: vi.fn(),
+    onCreateBuild: vi.fn(),
+    onRenameBuild: vi.fn(),
+    onDeleteBuild: vi.fn(),
+    onClearBuild: vi.fn(),
+    onToggleWeapon: vi.fn(),
+    weapons: [],
+    precomputed: null,
+    currentStats: { vig: 40, mnd: 20, end: 25, str: 20, dex: 20, int: 10, fai: 10, arc: 10 },
+    onWeaponSelect: vi.fn(),
     ...overrides,
   };
 }
@@ -131,82 +133,30 @@ describe('Sidebar', () => {
     });
   });
 
-  describe('Mode Switching', () => {
-    it('renders Fixed mode by default when solverEnabled is false', () => {
-      const props = createDefaultProps({ solverEnabled: false });
-      render(<Sidebar {...props} />);
-
-      const fixedButton = screen.getByRole('button', { name: /fixed/i });
-      const solverButton = screen.getByRole('button', { name: /solver/i });
-
-      // Fixed button should have active styling (bg-[#2a2a2a])
-      expect(fixedButton).toHaveClass('bg-[#2a2a2a]');
-      // Solver should not have active styling
-      expect(solverButton).not.toHaveClass('bg-[#1a1505]');
-    });
-
-    it('renders Solver mode when solverEnabled is true', () => {
-      const props = createDefaultProps({ solverEnabled: true });
-      render(<Sidebar {...props} />);
-
-      const solverButton = screen.getByRole('button', { name: /solver/i });
-
-      // Solver button should have golden active styling
-      expect(solverButton).toHaveClass('bg-[#1a1505]');
-    });
-
-    it('calls onSolverToggle when switching to Solver mode', async () => {
-      const onSolverToggle = vi.fn();
-      const props = createDefaultProps({
-        solverEnabled: false,
-        onSolverToggle
-      });
-      render(<Sidebar {...props} />);
-
-      const solverButton = screen.getByRole('button', { name: /solver/i });
-      await userEvent.click(solverButton);
-
-      expect(onSolverToggle).toHaveBeenCalledWith(true);
-    });
-
-    it('calls onSolverToggle when switching to Fixed mode', async () => {
-      const onSolverToggle = vi.fn();
-      const props = createDefaultProps({
-        solverEnabled: true,
-        onSolverToggle
-      });
-      render(<Sidebar {...props} />);
-
-      const fixedButton = screen.getByRole('button', { name: /fixed/i });
-      await userEvent.click(fixedButton);
-
-      expect(onSolverToggle).toHaveBeenCalledWith(false);
-    });
-  });
-
   describe('Two-Handing Toggle', () => {
-    it('renders 1H/2H toggle buttons', () => {
+    it('renders 1H/2H toggle items', () => {
       const props = createDefaultProps();
       render(<Sidebar {...props} />);
 
-      expect(screen.getByRole('button', { name: '1H' })).toBeInTheDocument();
-      expect(screen.getByRole('button', { name: '2H' })).toBeInTheDocument();
+      // Radix ToggleGroupItem renders as buttons with aria-checked, not role="button"
+      expect(screen.getByText('1H')).toBeInTheDocument();
+      expect(screen.getByText('2H')).toBeInTheDocument();
     });
 
     it('shows 1H as active when twoHanding is false', () => {
       const props = createDefaultProps({ twoHanding: false });
       render(<Sidebar {...props} />);
 
-      const oneHandButton = screen.getByRole('button', { name: '1H' });
-      expect(oneHandButton).toHaveClass('bg-[#2a2a2a]');
+      const oneHandButton = screen.getByText('1H').closest('button');
+      expect(oneHandButton).toHaveAttribute('data-state', 'on');
     });
 
     it('shows 2H as active when twoHanding is true', () => {
       const props = createDefaultProps({ twoHanding: true });
       render(<Sidebar {...props} />);
 
-      const twoHandButton = screen.getByRole('button', { name: '2H' });
-      expect(twoHandButton).toHaveClass('bg-[#2a2a2a]');
+      const twoHandButton = screen.getByText('2H').closest('button');
+      expect(twoHandButton).toHaveAttribute('data-state', 'on');
     });
 
     it('calls onTwoHandingToggle when clicking 2H', async () => {
@@ -217,7 +167,7 @@ describe('Sidebar', () => {
       });
       render(<Sidebar {...props} />);
 
-      await userEvent.click(screen.getByRole('button', { name: '2H' }));
+      await userEvent.click(screen.getByText('2H'));
 
       expect(onTwoHandingToggle).toHaveBeenCalledWith(true);
     });
@@ -253,16 +203,17 @@ describe('Sidebar', () => {
       const props = createDefaultProps({ showScaling: true });
       render(<Sidebar {...props} />);
 
+      // Radix Checkbox renders as <button role="checkbox">, not <input type="checkbox">
       const scalingLabel = screen.getByText('Scaling').closest('label');
-      const checkbox = scalingLabel?.querySelector('input[type="checkbox"]') as HTMLInputElement;
+      const checkbox = scalingLabel?.querySelector('[role="checkbox"]');
 
-      expect(checkbox.checked).toBe(true);
+      expect(checkbox).toHaveAttribute('data-state', 'checked');
     });
   });
 
-  describe('Fixed Mode Stats', () => {
-    it('renders stat inputs in Fixed mode', () => {
-      const props = createDefaultProps({ solverEnabled: false });
+  describe('Stat Inputs', () => {
+    it('renders stat inputs', () => {
+      const props = createDefaultProps();
       render(<Sidebar {...props} />);
 
       // Should have stat labels
@@ -273,48 +224,24 @@ describe('Sidebar', () => {
       expect(screen.getByText('ARC')).toBeInTheDocument();
     });
 
-    it('calls onStatConfigChange when changing stat value in Fixed mode', async () => {
+    it('calls onStatConfigChange when changing stat value', async () => {
       const onStatConfigChange = vi.fn();
       const props = createDefaultProps({
-        solverEnabled: false,
         onStatConfigChange,
-        statConfigs: createMockStatConfigs({ str: { locked: true, value: 20 } })
+        statConfigs: createMockStatConfigs({ str: { min: 20, max: 99 } })
       });
       render(<Sidebar {...props} />);
 
-      // Find STR input - in Fixed mode, inputs are: Level, STR, DEX, INT, FAI, ARC
-      // So STR is at index 1 (Level is at index 0)
+      // In the unified layout, spinbutton order is:
+      // 0: Level, 1: VIG, 2: MND, 3: END,
+      // 4: STR-min, 5: STR-max, 6: DEX-min, 7: DEX-max, ...
       const inputs = screen.getAllByRole('spinbutton');
-      const strInput = inputs[1]; // Second input is STR (first is Level)
+      const strMinInput = inputs[4]; // STR min input
 
-      fireEvent.change(strInput, { target: { value: '40' } });
+      fireEvent.change(strMinInput, { target: { value: '40' } });
 
       expect(onStatConfigChange).toHaveBeenCalled();
     });
   });
 
-  describe('Solver Mode Stats', () => {
-    it('renders range inputs in Solver mode', () => {
-      const props = createDefaultProps({
-        solverEnabled: true,
-        statConfigs: createMockStatConfigs({
-          str: { locked: false, min: 10, max: 99 },
-          dex: { locked: false, min: 10, max: 99 },
-          int: { locked: false, min: 10, max: 99 },
-          fai: { locked: false, min: 10, max: 99 },
-          arc: { locked: false, min: 10, max: 99 },
-        })
-      });
-      render(<Sidebar {...props} />);
-
-      // In solver mode, we have:
-      // - Level input (1)
-      // - VIG, MND, END inputs (3)
-      // - Armor Weight input (1)
-      // - 5 damage stats × 2 range inputs (10)
-      // Total spinbuttons should be 15 (Budget is now a div, not an input)
-      const inputs = screen.getAllByRole('spinbutton');
-      expect(inputs.length).toBe(15);
-    });
-  });
 });

@@ -237,15 +237,15 @@ export function WeaponDetail({
     // This prevents the solver from wasting budget on non-contributing stats.
     const damageStatConfig = (stat: 'str' | 'dex' | 'int' | 'fai' | 'arc'): StatConfig => {
       if (optimizationMode === 'SP' && spellScalingStats.size > 0 && !spellScalingStats.has(stat)) {
-        return { locked: true, value: classMinMap[stat] };
+        return { min: classMinMap[stat], max: classMinMap[stat] };
       }
-      return { locked: false, min: classMinMap[stat], max: 99 };
+      return { min: classMinMap[stat], max: 99 };
     };
 
     const optimizerStatConfigs: Record<string, StatConfig> = {
-      vig: { locked: true, value: currentStats.vig },
-      mnd: { locked: true, value: currentStats.mnd },
-      end: { locked: true, value: currentStats.end },
+      vig: { min: currentStats.vig, max: currentStats.vig },
+      mnd: { min: currentStats.mnd, max: currentStats.mnd },
+      end: { min: currentStats.end, max: currentStats.end },
       str: damageStatConfig('str'),
       dex: damageStatConfig('dex'),
       int: damageStatConfig('int'),

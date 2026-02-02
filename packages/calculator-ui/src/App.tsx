@@ -6,7 +6,7 @@ import { Sidebar } from './components/Sidebar.js';
 import { useIsMobile } from './components/ui/use-mobile.js';
 
 import type { StatConfig, CharacterStats, WeaponListItem, PrecomputedDataV2, StartingClass } from './types.js';
-import { INITIAL_CLASS_VALUES, WEAPON_SKILL_FILTER } from './types.js';
+import { INITIAL_CLASS_VALUES, WEAPON_SKILL_FILTER, isStatLocked, getStatValue } from './types.js';
 import type { FilterValue } from './components/ui/column-filter.js';
 import { getDefaultFilters } from './components/ui/active-filter-chips.js';
 import type { SolverOptimizationMode } from './types/solverTypes.js';
@@ -59,7 +59,6 @@ export default function App() {
   const [level, setLevel] = useState(INITIAL_CLASS_VALUES['Vagabond'].lvl);
   const [upgradeLevel, setUpgradeLevel] = useState<number>(25);
   const [twoHanding, setTwoHanding] = useState(false);
-  const [solverEnabled, setSolverEnabled] = useState(false);
   const [optimizationMode, setOptimizationMode] = useState<SolverOptimizationMode>('AR');
 
   // Solver-specific state
@@ -119,16 +118,17 @@ export default function App() {
   }, [selectedEnemyKey]);
 
   // Initialize stats with Vagabond class defaults (the initial startingClass)
+  // VIG/MND/END start as fixed (min === max), damage stats start as fixed too
   const initialClassData = INITIAL_CLASS_VALUES['Vagabond'];
   const [statConfigs, setStatConfigs] = useState<Record<string, StatConfig>>({
-    vig: { locked: true, value: initialClassData.vig },
-    mnd: { locked: true, value: initialClassData.min },
-    end: { locked: true, value: initialClassData.end },
-    str: { locked: true, value: 30 },
-    dex: { locked: true, value: 30 },
-    int: { locked: true, value: 30 },
-    fai: { locked: true, value: 30 },
-    arc: { locked: true, value: 30 },
+    vig: { min: initialClassData.vig, max: initialClassData.vig },
+    mnd: { min: initialClassData.min, max: initialClassData.min },
+    end: { min: initialClassData.end, max: initialClassData.end },
+    str: { min: 30, max: 30 },
+    dex: { min: 30, max: 30 },
+    int: { min: 30, max: 30 },
+    fai: { min: 30, max: 30 },
+    arc: { min: 30, max: 30 },
   });
 
   // Handle class change - bump stats to class minimums if needed
@@ -144,16 +144,8 @@ export default function App() {
         const classMin = classData[classKey];
         const config = prev[stat];
 
-        if (config.locked) {
-          // For locked stats, bump value up to class minimum if needed
-          if ((config.value ?? 0) < classMin) {
-            updated[stat] = { ...config, value: classMin };
-          }
-        } else {
-          // For unlocked stats, bump min up to class minimum if needed
-          if ((config.min ?? 0) < classMin) {
-            updated[stat] = { ...config, min: classMin };
-          }
+        if (config.min < classMin) {
+          updated[stat] = { min: classMin, max: Math.max(config.max, classMin) };
         }
       }
       return updated;
@@ -239,33 +231,33 @@ export default function App() {
   // Formula: classTotal - classLvl + currentLvl - vig - end - mnd
   const pointsBudget = useMemo(() => {
     const classData = INITIAL_CLASS_VALUES[startingClass];
-    const vig = statConfigs.vig.locked ? statConfigs.vig.value! : (statConfigs.vig.min ?? classData.vig);
-    const mnd = statConfigs.mnd.locked ? statConfigs.mnd.value! : (statConfigs.mnd.min ?? classData.min);
-    const end = statConfigs.end.locked ? statConfigs.end.value! : (statConfigs.end.min ?? classData.end);
+    const vig = getStatValue(statConfigs.vig);
+    const mnd = getStatValue(statConfigs.mnd);
+    const end = getStatValue(statConfigs.end);
 
     return classData.total - classData.lvl + level - vig - end - mnd;
   }, [startingClass, level, statConfigs]);
 
-  // Calculate if any damage stats are unlocked
+  // Calculate if any damage stats are unlocked (have a range, i.e. min !== max)
   const hasUnlockedStats = Object.entries(statConfigs)
     .filter(([key]) => ['str', 'dex', 'int', 'fai', 'arc'].includes(key))
-    .some(([_, config]) => !config.locked);
+    .some(([_, config]) => !isStatLocked(config));
 
   // Get current stats for calculations - memoized to maintain stable reference
-  // For unlocked stats in solver mode, use their min value (class minimum)
+  // Always uses the min value (the committed floor for each stat)
   const classData = INITIAL_CLASS_VALUES[startingClass];
   const currentStats = useMemo((): CharacterStats => {
     return {
-      vig: statConfigs.vig.locked ? statConfigs.vig.value! : (statConfigs.vig.min ?? classData.vig),
-      mnd: statConfigs.mnd.locked ? statConfigs.mnd.value! : (statConfigs.mnd.min ?? classData.min),
-      end: statConfigs.end.locked ? statConfigs.end.value! : (statConfigs.end.min ?? classData.end),
-      str: statConfigs.str.locked ? statConfigs.str.value! : (statConfigs.str.min ?? classData.str),
-      dex: statConfigs.dex.locked ? statConfigs.dex.value! : (statConfigs.dex.min ?? classData.dex),
-      int: statConfigs.int.locked ? statConfigs.int.value! : (statConfigs.int.min ?? classData.int),
-      fai: statConfigs.fai.locked ? statConfigs.fai.value! : (statConfigs.fai.min ?? classData.fai),
-      arc: statConfigs.arc.locked ? statConfigs.arc.value! : (statConfigs.arc.min ?? classData.arc),
+      vig: getStatValue(statConfigs.vig),
+      mnd: getStatValue(statConfigs.mnd),
+      end: getStatValue(statConfigs.end),
+      str: getStatValue(statConfigs.str),
+      dex: getStatValue(statConfigs.dex),
+      int: getStatValue(statConfigs.int),
+      fai: getStatValue(statConfigs.fai),
+      arc: getStatValue(statConfigs.arc),
     };
-  }, [statConfigs, classData]);
+  }, [statConfigs]);
 
   const handleStatConfigChange = (stat: string, config: StatConfig) => {
     setStatConfigs(prev => ({ ...prev, [stat]: config }));
@@ -380,8 +372,6 @@ export default function App() {
           setStartingClass={handleStartingClassChange}
           statConfigs={statConfigs}
           onStatConfigChange={handleStatConfigChange}
-          solverEnabled={solverEnabled}
-          onSolverToggle={setSolverEnabled}
           twoHanding={twoHanding}
           onTwoHandingToggle={setTwoHanding}
           upgradeLevel={upgradeLevel}

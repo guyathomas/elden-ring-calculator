@@ -898,6 +898,22 @@ const SidebarBody = ({
         </div>
       </div>
 
+      {/* Credits */}
+      <div className="pt-4 border-t border-[#2a2a2a]">
+        <p className="text-xs text-[#5a5a5a] mb-1">Data sources:</p>
+        <ul className="text-xs text-[#5a5a5a] space-y-0.5">
+          <li>
+            <a href="https://docs.google.com/spreadsheets/d/1q8GBymIayKbQivML-k8yCzUSYGm8YWSFGetIH8mDrbQ/copy" target="_blank" rel="noopener noreferrer" className="hover:text-[#8b8b8b] transition-colors">Weapon data</a> by CryptidTracker
+          </li>
+          <li>
+            <a href="https://er-frame-data.nyasu.business/" target="_blank" rel="noopener noreferrer" className="hover:text-[#8b8b8b] transition-colors">Frame data</a> by Emilia
+          </li>
+          <li>
+            <a href="https://eldenring.tclark.io/" target="_blank" rel="noopener noreferrer" className="hover:text-[#8b8b8b] transition-colors">Scaling data</a> by Tom Clarke
+          </li>
+        </ul>
+      </div>
+
       {/* iOS safe area spacer */}
       {isMobile && <div className="h-[env(safe-area-inset-bottom)]" />}
     </div>

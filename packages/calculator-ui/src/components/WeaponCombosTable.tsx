@@ -44,14 +44,6 @@ function getComboTypeColor(type: 'true' | 'pseudo' | 'none'): string {
   }
 }
 
-function getComboTypeBgColor(type: 'true' | 'pseudo' | 'none'): string {
-  switch (type) {
-    case 'true': return 'bg-[#1a2a1a]';
-    case 'pseudo': return 'bg-[#2a2a1a]';
-    case 'none': return 'bg-[#1a1a1a]';
-  }
-}
-
 // Check if attack is 1H, 2H, or Paired based on type number
 function isOneHanded(attackType: number): boolean {
   return attackType < 200 || (attackType >= 500 && attackType < 600);
@@ -408,7 +400,7 @@ export function WeaponCombosTable({ weaponName, twoHanding }: WeaponCombosTableP
                 return (
                   <Fragment key={key}>
                     <tr
-                      className={`border-b border-[#1a1a1a] hover:bg-[#1a1a1a] transition-colors cursor-pointer ${getComboTypeBgColor(combo.comboType)}`}
+                      className="border-b border-[#1a1a1a] hover:bg-[#1a1a1a] transition-colors cursor-pointer"
                       onClick={() => setExpandedCombo(isExpanded ? null : key)}
                     >
                       <td className="px-1.5 md:px-3 py-2.5 text-[#6a6a6a]">

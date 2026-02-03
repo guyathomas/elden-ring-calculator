@@ -36,14 +36,6 @@ function getComboTypeLabel(type: 'true' | 'pseudo' | 'none'): string {
   }
 }
 
-function getComboTypeColor(type: 'true' | 'pseudo' | 'none'): string {
-  switch (type) {
-    case 'true': return 'text-[#4ade80]';
-    case 'pseudo': return 'text-[#f0ad4e]';
-    case 'none': return 'text-[#6a6a6a]';
-  }
-}
-
 // Check if attack is 1H, 2H, or Paired based on type number
 function isOneHanded(attackType: number): boolean {
   return attackType < 200 || (attackType >= 500 && attackType < 600);
@@ -424,10 +416,10 @@ export function WeaponCombosTable({ weaponName, twoHanding }: WeaponCombosTableP
                       <td className="hidden md:table-cell px-3 py-2.5 text-right text-[#9b9b9b] font-mono">
                         {combo.poiseDamageA}
                       </td>
-                      <td className={`px-1.5 md:px-3 py-2.5 text-right font-mono ${getComboTypeColor(combo.comboType)}`}>
+                      <td className="px-1.5 md:px-3 py-2.5 text-right font-mono text-[#9b9b9b]">
                         {combo.gap > 0 ? `+${combo.gap}` : combo.gap}
                       </td>
-                      <td className={`hidden md:table-cell px-3 py-2.5 text-right font-medium ${getComboTypeColor(combo.comboType)}`}>
+                      <td className="hidden md:table-cell px-3 py-2.5 text-right font-medium text-[#9b9b9b]">
                         {getComboTypeLabel(combo.comboType)}
                       </td>
                     </tr>

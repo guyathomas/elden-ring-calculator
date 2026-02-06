@@ -1010,51 +1010,51 @@ export function Sidebar({
   // Desktop: render inline sidebar; Mobile: render nothing here (drawer handles it)
   if (!isMobile) {
     return (
-      <div className="h-full overflow-hidden">
-        <Tabs defaultValue="settings" className="flex flex-col h-full bg-[#111111] border-r border-[#2a2a2a] text-[#e8e6e3] gap-0">
-          <TabsList className="bg-transparent border-b border-[#2a2a2a] rounded-none h-auto p-0 w-full shrink-0">
-            <TabsTrigger
-              value="settings"
-              className="flex items-center gap-1.5 px-4 py-3 text-xs font-medium border-0 border-b-2 border-transparent transition-colors -mb-px uppercase tracking-wider rounded-none bg-transparent text-[#6a6a6a] hover:text-[#8b8b8b] data-[state=active]:text-[#d4af37] data-[state=active]:border-[#d4af37] data-[state=active]:bg-transparent data-[state=active]:shadow-none"
-            >
-              Settings
-            </TabsTrigger>
-            <TabsTrigger
-              value="build"
-              className="flex items-center gap-1.5 px-4 py-3 text-xs font-medium border-0 border-b-2 border-transparent transition-colors -mb-px uppercase tracking-wider rounded-none bg-transparent text-[#6a6a6a] hover:text-[#8b8b8b] data-[state=active]:text-[#d4af37] data-[state=active]:border-[#d4af37] data-[state=active]:bg-transparent data-[state=active]:shadow-none"
-            >
-              Build
-              {starredCount > 0 && (
-                <span className="ml-1 px-1.5 py-0.5 text-[10px] rounded-full bg-[#d4af37] text-black font-medium">
-                  {starredCount}
-                </span>
-              )}
-            </TabsTrigger>
-          </TabsList>
+        <div className="h-full overflow-hidden">
+          <Tabs defaultValue="settings" className="flex flex-col h-full bg-[#111111] border-r border-[#2a2a2a] text-[#e8e6e3] gap-0">
+            <TabsList className="bg-transparent border-b border-[#2a2a2a] rounded-none h-auto p-0 w-full shrink-0">
+              <TabsTrigger
+                value="settings"
+                className="flex items-center gap-1.5 px-4 py-3 text-xs font-medium border-0 border-b-2 border-transparent transition-colors -mb-px uppercase tracking-wider rounded-none bg-transparent text-[#6a6a6a] hover:text-[#8b8b8b] data-[state=active]:text-[#d4af37] data-[state=active]:border-[#d4af37] data-[state=active]:bg-transparent data-[state=active]:shadow-none"
+              >
+                Settings
+              </TabsTrigger>
+              <TabsTrigger
+                value="build"
+                className="flex items-center gap-1.5 px-4 py-3 text-xs font-medium border-0 border-b-2 border-transparent transition-colors -mb-px uppercase tracking-wider rounded-none bg-transparent text-[#6a6a6a] hover:text-[#8b8b8b] data-[state=active]:text-[#d4af37] data-[state=active]:border-[#d4af37] data-[state=active]:bg-transparent data-[state=active]:shadow-none"
+              >
+                Build
+                {starredCount > 0 && (
+                  <span className="ml-1 px-1.5 py-0.5 text-[10px] rounded-full bg-[#d4af37] text-black font-medium">
+                    {starredCount}
+                  </span>
+                )}
+              </TabsTrigger>
+            </TabsList>
 
-          <TabsContent value="settings" className="p-0 mt-0 flex-1 overflow-hidden flex flex-col">
-            <SidebarBody {...sidebarBodyProps} />
-          </TabsContent>
-          <TabsContent value="build" className="p-0 mt-0 flex-1 overflow-hidden flex flex-col">
-            <BuildPanel
-              builds={builds}
-              activeBuild={activeBuild}
-              storageAvailable={storageAvailable}
-              onSelectBuild={onSelectBuild}
-              onCreateBuild={onCreateBuild}
-              onRenameBuild={onRenameBuild}
-              onDeleteBuild={onDeleteBuild}
-              onClearBuild={onClearBuild}
-              onToggleWeapon={onToggleWeapon}
-              weapons={weapons}
-              precomputed={precomputed}
-              currentStats={currentStats}
-              twoHanding={twoHanding}
-              onWeaponSelect={onWeaponSelect}
-            />
-          </TabsContent>
-        </Tabs>
-      </div>
+            <TabsContent value="settings" className="p-0 mt-0 flex-1 overflow-hidden flex flex-col">
+                <SidebarBody {...sidebarBodyProps} />
+            </TabsContent>
+            <TabsContent value="build" className="p-0 mt-0 flex-1 overflow-hidden flex flex-col">
+                <BuildPanel
+                  builds={builds}
+                  activeBuild={activeBuild}
+                  storageAvailable={storageAvailable}
+                  onSelectBuild={onSelectBuild}
+                  onCreateBuild={onCreateBuild}
+                  onRenameBuild={onRenameBuild}
+                  onDeleteBuild={onDeleteBuild}
+                  onClearBuild={onClearBuild}
+                  onToggleWeapon={onToggleWeapon}
+                  weapons={weapons}
+                  precomputed={precomputed}
+                  currentStats={currentStats}
+                  twoHanding={twoHanding}
+                  onWeaponSelect={onWeaponSelect}
+                />
+            </TabsContent>
+          </Tabs>
+        </div>
     );
   }
 
@@ -1123,7 +1123,7 @@ export function Sidebar({
                       </TabsList>
 
                       <TabsContent value="settings" className="p-0 mt-0 flex-1 flex flex-col overflow-hidden">
-                        <SidebarBody {...sidebarBodyProps} isMobile />
+                          <SidebarBody {...sidebarBodyProps} isMobile />
                       </TabsContent>
                       <TabsContent value="filters" className="p-0 mt-0 flex-1 flex flex-col overflow-hidden">
                         <MobileFiltersTab

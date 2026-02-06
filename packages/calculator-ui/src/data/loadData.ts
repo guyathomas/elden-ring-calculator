@@ -2,7 +2,7 @@
  * Shared data loading utilities for compressed static data files.
  * Handles gzip decompression and MessagePack/JSON parsing.
  */
-import { decode as msgpackDecode } from '@msgpack/msgpack';
+import { decode as msgpackDecode } from "@msgpack/msgpack";
 
 // In production: use MessagePack (opaque binary, fast parsing)
 // In development: use JSON (human-readable for debugging)
@@ -14,7 +14,7 @@ export const USE_MSGPACK = !import.meta.env.DEV;
  */
 async function decompressGzipToBytes(response: Response): Promise<ArrayBuffer> {
   const blob = await response.blob();
-  const ds = new DecompressionStream('gzip');
+  const ds = new DecompressionStream("gzip");
   const decompressedStream = blob.stream().pipeThrough(ds);
   const decompressedBlob = await new Response(decompressedStream).blob();
   return decompressedBlob.arrayBuffer();
@@ -25,11 +25,13 @@ async function decompressGzipToBytes(response: Response): Promise<ArrayBuffer> {
  * Vite dev server sends content-encoding: gzip which browser auto-decompresses
  * Production build serves raw .gz files that need manual decompression
  */
-export async function getDecompressedBytes(response: Response): Promise<ArrayBuffer> {
-  const contentEncoding = response.headers.get('content-encoding');
+export async function getDecompressedBytes(
+  response: Response,
+): Promise<ArrayBuffer> {
+  const contentEncoding = response.headers.get("content-encoding");
 
   // If server sent content-encoding: gzip, browser already decompressed it
-  if (contentEncoding === 'gzip') {
+  if (contentEncoding === "gzip") {
     return response.arrayBuffer();
   }
 

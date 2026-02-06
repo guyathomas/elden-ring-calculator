@@ -2,6 +2,7 @@ import { useMemo } from 'react';
 import type { PrecomputedDataV2, CharacterStats } from '../types';
 import type { SolverOptimizationMode } from '../types/solverTypes';
 import { calculateWeaponAR } from '../utils/damageCalculator';
+import { timeSync } from '../utils/diagnostics';
 
 export interface StatGain {
   stat: keyof CharacterStats;
@@ -65,7 +66,7 @@ export function useStatGains({
   optimizationMode = 'AR',
 }: UseStatGainsProps): StatGainsResult {
   // Memoize with primitive dependencies to avoid unnecessary recalculations
-  return useMemo(() => {
+  return useMemo(() => timeSync("useStatGains", "compute", () => {
     const currentResult = calculateWeaponAR(
       precomputed,
       weaponName,
@@ -128,7 +129,7 @@ export function useStatGains({
       currentAR,
       requirementsMet,
     };
-  }, [
+  }), [
     precomputed,
     weaponName,
     affinity,

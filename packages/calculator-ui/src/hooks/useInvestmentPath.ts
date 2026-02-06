@@ -12,6 +12,7 @@ import { calculateWeaponAR } from '../utils/damageCalculator';
 import { selectBestAllocation } from '../utils/solver';
 import type { SolverOptimizationMode } from '../types/solverTypes';
 import { STAT_KEY_TO_FULL_NAME } from '../constants';
+import { timeSync } from '../utils/diagnostics';
 
 // ============================================================================
 // Types
@@ -409,7 +410,7 @@ export function useInvestmentPath({
       return [];
     }
 
-    return computeInvestmentPathGreedy(
+    return timeSync("investmentPathGreedy", "compute", () => computeInvestmentPathGreedy(
       precomputed,
       weapon,
       baseStats,
@@ -417,7 +418,7 @@ export function useInvestmentPath({
       twoHanding,
       ignoreRequirements,
       optimizationMode
-    );
+    ));
   }, [precomputed, weapon, baseStats, scalingStats, twoHanding, ignoreRequirements, optimizationMode]);
 
   // Create lookup function for optimal stats at a specific budget

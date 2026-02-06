@@ -5,6 +5,7 @@ import { Checkbox } from './ui/checkbox.js';
 import { DAMAGE_COLORS, DAMAGE_TYPE_LABELS } from '../constants';
 import type { CharacterStats } from '../types';
 import type { ScalingDataPoint, ScalingStat, ViewMode } from '../types/scaling';
+import { computeYAxisWidth } from '../utils/axisWidth';
 
 // Re-export types for convenience
 export type { ScalingDataPoint, ScalingStat, ViewMode } from '../types/scaling';
@@ -122,6 +123,7 @@ interface ScalingLineChartProps {
   dataPointsByLevel: Map<number, ScalingDataPoint>;
   config: ChartConfig;
   yAxisLabel: string;
+  yAxisWidth: number;
   tooltipStyle: {
     contentStyle: React.CSSProperties;
     labelStyle: React.CSSProperties;
@@ -138,6 +140,7 @@ function ScalingLineChart({
   dataPointsByLevel,
   config,
   yAxisLabel,
+  yAxisWidth,
   tooltipStyle,
   width,
   height,
@@ -180,11 +183,14 @@ function ScalingLineChart({
       ))}
       <XAxis
         dataKey="level"
+        interval={0}
         stroke={CHART_COLORS.axis}
         tick={{ fill: CHART_COLORS.axis, fontSize: 12 }}
         label={{ value: config.xAxisLabel, position: 'insideBottom', offset: -5, fill: CHART_COLORS.axisLabel, fontSize: 11 }}
       />
       <YAxis
+        width={yAxisWidth}
+        interval={0}
         stroke={CHART_COLORS.axis}
         tick={{ fill: CHART_COLORS.axis, fontSize: 12 }}
         label={{ value: yAxisLabel, angle: -90, position: 'insideLeft', fill: CHART_COLORS.axisLabel, fontSize: 11 }}
@@ -389,6 +395,12 @@ export function ScalingChart({
     };
   }, [selection, scalingStats, availableDamageTypes, requirements, markerStats]);
 
+  const yAxisWidth = useMemo(() => {
+    if (dataPoints.length === 0) return 60;
+    const dataKeys = chartConfig.lines.map(l => l.dataKey);
+    return computeYAxisWidth(dataPoints, dataKeys);
+  }, [dataPoints, chartConfig.lines]);
+
   // Empty state
   if (scalingStats.length === 0) {
     return (
@@ -481,6 +493,7 @@ export function ScalingChart({
           dataPointsByLevel={dataPointsByLevel}
           config={chartConfig}
           yAxisLabel={yAxisLabel}
+          yAxisWidth={yAxisWidth}
           tooltipStyle={tooltipStyle}
           viewMode={viewMode}
         />

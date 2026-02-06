@@ -27,6 +27,7 @@ import { calculateWeaponAR } from '../utils/damageCalculator';
 import { selectBestAllocation } from '../utils/solver';
 import type { SolverOptimizationMode } from '../types/solverTypes';
 import { STAT_KEY_TO_FULL_NAME } from '../constants';
+import { computeYAxisWidth } from '../utils/axisWidth';
 
 // ============================================================================
 // Constants
@@ -676,6 +677,17 @@ export function OptimalInvestmentChart({
       ? 'Stat Level'
       : (optimizationMode === 'SP' ? 'Spell Power' : 'Attack Rating');
 
+  const yAxisWidth = useMemo(() => {
+    if (viewMode === 'perPoint') {
+      return computeYAxisWidth(perPointData, ['perPointGain']);
+    }
+    if (viewMode === 'statLevels') {
+      return computeYAxisWidth(investmentData, activeChartStats.map(s => `stats.${s}`), { domain: [0, 99] });
+    }
+    // breakdown mode: stacked area with baseDamage + statContributions
+    return computeYAxisWidth(investmentData, ['value']);
+  }, [viewMode, perPointData, investmentData, activeChartStats]);
+
   return (
     <div>
       {/* Header */}
@@ -734,6 +746,7 @@ export function OptimalInvestmentChart({
             <XAxis
               dataKey="pointsInvested"
               type="number"
+              interval={0}
               domain={[0, 'dataMax']}
               tickCount={10}
               stroke={CHART_COLORS.axis}
@@ -747,6 +760,8 @@ export function OptimalInvestmentChart({
               }}
             />
             <YAxis
+              width={yAxisWidth}
+              interval={0}
               stroke={CHART_COLORS.axis}
               tick={{ fill: CHART_COLORS.axis, fontSize: 12 }}
               label={{
@@ -790,6 +805,7 @@ export function OptimalInvestmentChart({
             <XAxis
               dataKey="pointsInvested"
               type="number"
+              interval={0}
               domain={[0, 'dataMax']}
               tickCount={10}
               stroke={CHART_COLORS.axis}
@@ -803,6 +819,8 @@ export function OptimalInvestmentChart({
               }}
             />
             <YAxis
+              width={yAxisWidth}
+              interval={0}
               stroke={CHART_COLORS.axis}
               tick={{ fill: CHART_COLORS.axis, fontSize: 12 }}
               label={{
@@ -859,6 +877,7 @@ export function OptimalInvestmentChart({
             <XAxis
               dataKey="pointsInvested"
               type="number"
+              interval={0}
               domain={[0, 'dataMax']}
               tickCount={10}
               stroke={CHART_COLORS.axis}
@@ -872,6 +891,8 @@ export function OptimalInvestmentChart({
               }}
             />
             <YAxis
+              width={yAxisWidth}
+              interval={0}
               stroke={CHART_COLORS.axis}
               tick={{ fill: CHART_COLORS.axis, fontSize: 12 }}
               domain={[0, 99]}

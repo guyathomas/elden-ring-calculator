@@ -24,6 +24,7 @@ import type { EnemyData } from '../data';
 import { calculateSimpleEnemyDamage } from '../data';
 import { calculateWeaponAR } from '../utils/damageCalculator';
 import { selectBestAllocation } from '../utils/solver';
+import { computeYAxisWidth } from '../utils/axisWidth';
 
 // ============================================================================
 // Constants
@@ -412,6 +413,11 @@ export function AffinityComparisonChart({
 
   const hasEnemy = !!selectedEnemy;
   const yAxisLabel = hasEnemy ? 'Effective Damage' : 'Total AR';
+
+  const yAxisWidth = useMemo(() => {
+    if (chartData.length === 0) return 60;
+    return computeYAxisWidth(chartData, availableAffinities);
+  }, [chartData, availableAffinities]);
   const tooltipLabel = hasEnemy ? `Damage vs ${selectedEnemy!.name}` : 'Total AR';
 
   return (
@@ -439,6 +445,7 @@ export function AffinityComparisonChart({
           <XAxis
             dataKey="pointsInvested"
             type="number"
+            interval={0}
             domain={[0, 'dataMax']}
             tickCount={10}
             stroke={CHART_COLORS.axis}
@@ -452,6 +459,8 @@ export function AffinityComparisonChart({
             }}
           />
           <YAxis
+            width={yAxisWidth}
+            interval={0}
             stroke={CHART_COLORS.axis}
             tick={{ fill: CHART_COLORS.axis, fontSize: 12 }}
             label={{

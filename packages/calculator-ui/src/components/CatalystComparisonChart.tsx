@@ -23,6 +23,7 @@ import type {
   PrecomputedDataV2,
   WeaponListItem,
 } from "../types";
+import { computeYAxisWidth } from "../utils/axisWidth";
 
 // ============================================================================
 // Constants
@@ -304,6 +305,12 @@ export function CatalystComparisonChart({
     return total;
   }, [precomputed, weapon, currentStats]);
 
+  const yAxisWidth = useMemo(() => {
+    if (chartData.length === 0) return 60;
+    const dataKeys = catalystPaths.map(c => c.name);
+    return computeYAxisWidth(chartData, dataKeys);
+  }, [chartData, catalystPaths]);
+
   // Don't render if fewer than 2 catalysts to compare
   if (catalystPaths.length < 2) return null;
 
@@ -333,6 +340,7 @@ export function CatalystComparisonChart({
           <XAxis
             dataKey="pointsInvested"
             type="number"
+            interval={0}
             domain={[0, "dataMax"]}
             tickCount={10}
             stroke={CHART_COLORS.axis}
@@ -346,6 +354,8 @@ export function CatalystComparisonChart({
             }}
           />
           <YAxis
+            width={yAxisWidth}
+            interval={0}
             stroke={CHART_COLORS.axis}
             tick={{ fill: CHART_COLORS.axis, fontSize: 12 }}
             label={{

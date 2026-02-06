@@ -5,6 +5,7 @@ import type { PrecomputedAowData, AowAttackResult } from '../data';
 import { calculateAowDamage } from '../data';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, ReferenceDot } from 'recharts';
 import { STAT_COLORS } from '../constants';
+import { computeYAxisWidth } from '../utils/axisWidth';
 import { useAoWScalingData } from '../hooks/useAoWScalingData';
 import { ScalingChart } from './ScalingChart';
 import type { ScalingStat } from '../types/scaling';
@@ -118,6 +119,11 @@ function UpgradeLevelChart({
     return points;
   }, [aowData, precomputed, weapon, currentStats, twoHanding, aowName, selectedAttack.atkId, maxUpgradeLevel]);
 
+  const yAxisWidth = useMemo(() => {
+    if (dataPoints.length === 0) return 60;
+    return computeYAxisWidth(dataPoints, ['damage']);
+  }, [dataPoints]);
+
   const hasUpgradeScaling = dataPoints.length > 1 &&
     dataPoints[dataPoints.length - 1].damage !== dataPoints[0].damage;
 
@@ -142,11 +148,14 @@ function UpgradeLevelChart({
           <CartesianGrid strokeDasharray="3 3" stroke={CHART_COLORS.grid} />
           <XAxis
             dataKey="level"
+            interval={0}
             stroke={CHART_COLORS.axis}
             tick={{ fill: CHART_COLORS.axis, fontSize: 12 }}
             label={{ value: 'Upgrade Level', position: 'insideBottom', offset: -5, fill: CHART_COLORS.axisLabel, fontSize: 11 }}
           />
           <YAxis
+            width={yAxisWidth}
+            interval={0}
             stroke={CHART_COLORS.axis}
             tick={{ fill: CHART_COLORS.axis, fontSize: 12 }}
             label={{ value: 'Damage', angle: -90, position: 'insideLeft', fill: CHART_COLORS.axisLabel, fontSize: 11 }}

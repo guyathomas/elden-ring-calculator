@@ -5,6 +5,7 @@ import { Check } from 'lucide-react';
 import type { WeaponListItem, CharacterStats, PrecomputedDataV2 } from '../types';
 import { useStatusEffectScalingData } from '../hooks/useStatusEffectScalingData';
 import type { ViewMode } from '../types/scaling';
+import { computeYAxisWidth } from '../utils/axisWidth';
 
 // ============================================================================
 // Constants
@@ -128,6 +129,11 @@ export function StatusEffectScalingCurve({
     color: effect.color,
   }));
 
+  const yAxisWidth = useMemo(() => {
+    if (dataPoints.length === 0) return 60;
+    return computeYAxisWidth(dataPoints, lines.map(l => l.dataKey));
+  }, [dataPoints, lines]);
+
   // Build requirement marker
   const requirementMarkerData = arcaneRequirement > 0 ? (() => {
     const dataPoint = dataPointsByLevel.get(arcaneRequirement);
@@ -245,11 +251,14 @@ export function StatusEffectScalingCurve({
           )}
           <XAxis
             dataKey="level"
+            interval={0}
             stroke={CHART_COLORS.axis}
             tick={{ fill: CHART_COLORS.axis, fontSize: 12 }}
             label={{ value: 'Arcane Level', position: 'insideBottom', offset: -5, fill: CHART_COLORS.axisLabel, fontSize: 11 }}
           />
           <YAxis
+            width={yAxisWidth}
+            interval={0}
             stroke={CHART_COLORS.axis}
             tick={{ fill: CHART_COLORS.axis, fontSize: 12 }}
             label={{ value: getYAxisLabel(), angle: -90, position: 'insideLeft', fill: CHART_COLORS.axisLabel, fontSize: 11 }}

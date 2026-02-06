@@ -34,6 +34,7 @@ import { calculateAowDamage, canWeaponMountAoW, getWeaponSkillName, getWeaponDam
 import { fetchWeaponAttacks, type WeaponAttack } from '../data/weaponAttacks';
 import type { StatusEffectResult } from '../data';
 
+
 const statusEffectConfig = [
   { key: 'bleed', label: 'Blood Loss', color: '#c9302c' },
   { key: 'frost', label: 'Frostbite', color: '#5bc0de' },
@@ -709,15 +710,15 @@ export function WeaponDetail({
         const primaryAttackAttribute = weapon.damageType !== '-' ? weapon.damageType : 'Standard';
         return (
           <DamageBreakdown
-            precomputed={precomputed}
-            weapon={weapon}
-            stats={displayedStats}
-            twoHanding={twoHanding}
-            statGains={statGains.gainByStat}
-            selectedEnemy={selectedEnemy}
-            attackAttribute={primaryAttackAttribute}
-            optimizationMode={optimizationMode}
-          />
+              precomputed={precomputed}
+              weapon={weapon}
+              stats={displayedStats}
+              twoHanding={twoHanding}
+              statGains={statGains.gainByStat}
+              selectedEnemy={selectedEnemy}
+              attackAttribute={primaryAttackAttribute}
+              optimizationMode={optimizationMode}
+            />
         );
       })()}
 
@@ -727,70 +728,70 @@ export function WeaponDetail({
           should reflect their actual input, not the investment path's optimal allocation. */}
       <div className="bg-[#141414] border border-[#2a2a2a] rounded-lg p-5">
         {optimizationMode === 'SP' && hasSpellScaling ? (
-          <SpellScalingCurve
-            precomputed={precomputed}
-            weapon={weapon}
-            currentStats={displayedStats}
-            twoHanding={twoHanding}
-            optimalStats={shouldRunLocalSolver ? (optimalStatsForMarkers ?? undefined) : undefined}
-          />
+            <SpellScalingCurve
+              precomputed={precomputed}
+              weapon={weapon}
+              currentStats={displayedStats}
+              twoHanding={twoHanding}
+              optimalStats={shouldRunLocalSolver ? (optimalStatsForMarkers ?? undefined) : undefined}
+            />
         ) : (
-          <ScalingCurve
-            precomputed={precomputed}
-            weapon={weapon}
-            currentStats={displayedStats}
-            twoHanding={twoHanding}
-            optimalStats={shouldRunLocalSolver ? (optimalStatsForMarkers ?? undefined) : undefined}
-          />
+            <ScalingCurve
+              precomputed={precomputed}
+              weapon={weapon}
+              currentStats={displayedStats}
+              twoHanding={twoHanding}
+              optimalStats={shouldRunLocalSolver ? (optimalStatsForMarkers ?? undefined) : undefined}
+            />
         )}
       </div>
 
       {/* Optimal Investment Path */}
       {startingClass && (
         <div className="bg-[#141414] border border-[#2a2a2a] rounded-lg p-5">
-          <OptimalInvestmentChart
-            precomputed={precomputed}
-            weapon={weapon}
-            currentStats={displayedStats}
-            twoHanding={twoHanding}
-            baseStats={{
-              vig: classData.vig,
-              mnd: classData.min,
-              end: classData.end,
-              str: classData.str,
-              dex: classData.dex,
-              int: classData.int,
-              fai: classData.fai,
-              arc: classData.arc,
-            }}
-            optimizationMode={optimizationMode}
-          />
+            <OptimalInvestmentChart
+              precomputed={precomputed}
+              weapon={weapon}
+              currentStats={displayedStats}
+              twoHanding={twoHanding}
+              baseStats={{
+                vig: classData.vig,
+                mnd: classData.min,
+                end: classData.end,
+                str: classData.str,
+                dex: classData.dex,
+                int: classData.int,
+                fai: classData.fai,
+                arc: classData.arc,
+              }}
+              optimizationMode={optimizationMode}
+            />
         </div>
       )}
 
       {/* Catalyst Comparison (only in SP mode for catalysts) */}
       {optimizationMode === 'SP' && hasSpellScaling && (
         <div className="bg-[#141414] border border-[#2a2a2a] rounded-lg p-5">
-          <CatalystComparisonChart
-            precomputed={precomputed}
-            weapon={weapon}
-            currentStats={displayedStats}
-            allWeapons={allWeapons}
-          />
+            <CatalystComparisonChart
+              precomputed={precomputed}
+              weapon={weapon}
+              currentStats={displayedStats}
+              allWeapons={allWeapons}
+            />
         </div>
       )}
 
       {/* Affinity Comparison Chart */}
       {startingClass && (
         <Suspense fallback={null}>
-          <AffinityComparisonChart
-            precomputed={precomputed}
-            weapon={weapon}
-            currentStats={displayedStats}
-            twoHanding={twoHanding}
-            baseStats={investmentBaseStats}
-            selectedEnemy={selectedEnemy}
-          />
+            <AffinityComparisonChart
+              precomputed={precomputed}
+              weapon={weapon}
+              currentStats={displayedStats}
+              twoHanding={twoHanding}
+              baseStats={investmentBaseStats}
+              selectedEnemy={selectedEnemy}
+            />
         </Suspense>
       )}
 
@@ -841,16 +842,16 @@ export function WeaponDetail({
           {/* AoW Scaling Curve - shown when an attack is selected */}
           {selectedAow && selectedAttack && (
             <div className="mt-4 pt-4 border-t border-[#2a2a2a]">
-              <AoWScalingCurve
-                precomputed={precomputed}
-                aowData={aowData}
-                weapon={weapon}
-                currentStats={displayedStats}
-                twoHanding={twoHanding}
-                aowName={selectedAow}
-                selectedAttack={selectedAttack}
-              />
-            </div>
+                <AoWScalingCurve
+                  precomputed={precomputed}
+                  aowData={aowData}
+                  weapon={weapon}
+                  currentStats={displayedStats}
+                  twoHanding={twoHanding}
+                  aowName={selectedAow}
+                  selectedAttack={selectedAttack}
+                />
+                </div>
           )}
 
           {/* AoW with no attacks message */}
@@ -904,13 +905,13 @@ export function WeaponDetail({
 
       {/* Status Effect Scaling Curve (if any status effects scale with arcane, hidden in SP mode) */}
       {optimizationMode !== 'SP' && (
-        <StatusEffectScalingCurve
-          precomputed={precomputed}
-          weapon={weapon}
-          currentStats={displayedStats}
-          twoHanding={twoHanding}
-          optimalStats={shouldRunLocalSolver ? (optimalStatsForMarkers ?? undefined) : undefined}
-        />
+          <StatusEffectScalingCurve
+            precomputed={precomputed}
+            weapon={weapon}
+            currentStats={displayedStats}
+            twoHanding={twoHanding}
+            optimalStats={shouldRunLocalSolver ? (optimalStatsForMarkers ?? undefined) : undefined}
+          />
       )}
 
       {/* Guard Stats (hidden in SP mode) */}
@@ -979,26 +980,26 @@ export function WeaponDetail({
             <div className="text-[#c9302c] text-sm">{attacksError}</div>
           ) : (
             <>
-              <WeaponAttacksTable
-                attacks={weaponAttacks}
-                twoHanding={twoHanding}
-                selectedEnemy={selectedEnemy ?? null}
-                weaponAR={arResult ? {
-                  physical: arResult.physical.total,
-                  magic: arResult.magic.total,
-                  fire: arResult.fire.total,
-                  lightning: arResult.lightning.total,
-                  holy: arResult.holy.total,
-                } : null}
-                onAttackClick={handleAttackClick}
-                wepmotionCategory={weapon.wepmotionCategory}
-                currentWeaponName={weapon.name}
-                precomputed={precomputed}
-                onWeaponSelect={onWeaponSelect}
-                allWeapons={allWeapons}
-                animationUsers={animationUsers ?? undefined}
-              />
-              <p className="text-[#6a6a6a] text-xs mt-2 italic">
+                <WeaponAttacksTable
+                  attacks={weaponAttacks}
+                  twoHanding={twoHanding}
+                  selectedEnemy={selectedEnemy ?? null}
+                  weaponAR={arResult ? {
+                    physical: arResult.physical.total,
+                    magic: arResult.magic.total,
+                    fire: arResult.fire.total,
+                    lightning: arResult.lightning.total,
+                    holy: arResult.holy.total,
+                  } : null}
+                  onAttackClick={handleAttackClick}
+                  wepmotionCategory={weapon.wepmotionCategory}
+                  currentWeaponName={weapon.name}
+                  precomputed={precomputed}
+                  onWeaponSelect={onWeaponSelect}
+                  allWeapons={allWeapons}
+                  animationUsers={animationUsers ?? undefined}
+                />
+                  <p className="text-[#6a6a6a] text-xs mt-2 italic">
                 Click a row to view animation timeline. Click the sharing count to see weapons with the same attack.
               </p>
             </>
@@ -1060,20 +1061,20 @@ export function WeaponDetail({
               </div>
             )}
           </div>
-          <WeaponDpsTable
-            weaponName={weapon.name}
-            totalAR={arResult.rounded}
-            twoHanding={twoHanding}
-            weaponAR={{
-              physical: arResult.physical.total,
-              magic: arResult.magic.total,
-              fire: arResult.fire.total,
-              lightning: arResult.lightning.total,
-              holy: arResult.holy.total,
-            }}
-            attackAttribute={weapon.damageType !== '-' ? weapon.damageType : 'Standard'}
-            selectedEnemy={selectedEnemy}
-          />
+            <WeaponDpsTable
+              weaponName={weapon.name}
+              totalAR={arResult.rounded}
+              twoHanding={twoHanding}
+              weaponAR={{
+                physical: arResult.physical.total,
+                magic: arResult.magic.total,
+                fire: arResult.fire.total,
+                lightning: arResult.lightning.total,
+                holy: arResult.holy.total,
+              }}
+              attackAttribute={weapon.damageType !== '-' ? weapon.damageType : 'Standard'}
+              selectedEnemy={selectedEnemy}
+            />
         </div>
       )}
 
@@ -1083,10 +1084,10 @@ export function WeaponDetail({
           <h3 className="text-[#8b8b8b] uppercase tracking-wider text-xs mb-3">
             Attack Combos
           </h3>
-          <WeaponCombosTable
-            weaponName={weapon.name}
-            twoHanding={twoHanding}
-          />
+            <WeaponCombosTable
+              weaponName={weapon.name}
+              twoHanding={twoHanding}
+            />
           <p className="text-[#6a6a6a] text-xs mt-2 italic">
             Click a combo to view frame data details
           </p>

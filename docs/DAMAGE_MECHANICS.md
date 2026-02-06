@@ -66,6 +66,8 @@ flowchart TB
 4. [Param File Field Reference](#4-param-file-field-reference)
 5. [Status Effect Calculation](#5-status-effect-calculation)
 6. [Spell Scaling (Catalysts)](#6-spell-scaling-catalysts)
+7. [Guard Stats (Blocking)](#7-guard-stats-blocking)
+8. [Combo System](#8-combo-system)
 
 ---
 
@@ -549,41 +551,242 @@ Where:
 
 ## 5. Status Effect Calculation
 
-Status effects (poison, bleed, frost, etc.) use a simpler formula:
+Status effects (Poison, Scarlet Rot, Bleed, Frost, Sleep, Madness) represent buildup per hit. Only **Arcane** affects status scaling — no other stats contribute.
+
+```mermaid
+flowchart LR
+    subgraph Lookup["Base Value Lookup"]
+        BID[spEffectBehaviorId]
+        OFF[spEffectIdOffset]
+        SID["actualId = BID + offset"]
+        SP[SpEffectParam]
+        BASE[Base Value]
+    end
+
+    subgraph Scale["Arcane Scaling"]
+        ARC[Arcane Stat]
+        CV[correctLuck × rate]
+        SAT[Saturation from curve]
+        SC["scaling = base × (CV/100) × sat"]
+    end
+
+    BID --> SID
+    OFF --> SID
+    SID --> SP
+    SP --> BASE
+    BASE --> SC
+    ARC --> SAT
+    CV --> SC
+    SAT --> SC
+    SC --> TOTAL["total = base + scaling"]
+```
+
+### 5.1 Base Value Lookup
+
+The base buildup value comes from `SpEffectParam`, but the ID changes with upgrade level:
 
 ```
-base = SpEffectParam value at (spEffectBehaviorId + spEffectIdOffset)
+actualSpEffectId = spEffectBehaviorId + spEffectIdOffset
+```
+
+| Component | Source |
+|-----------|--------|
+| `spEffectBehaviorId` | `EquipParamWeapon.spEffectBehaviorId0` or `spEffectBehaviorId1` |
+| `spEffectIdOffset` | `ReinforceParamWeapon.spEffectId1` or `spEffectId2` (varies by upgrade level) |
+
+Each status type reads a different field from the `SpEffectParam` entry:
+
+| Status | SpEffectParam Field |
+|--------|---------------------|
+| Poison | `poizonAttackPower` |
+| Scarlet Rot | `diseaseAttackPower` |
+| Bleed | `bloodAttackPower` |
+| Frost | `freezeAttackPower` |
+| Sleep | `sleepAttackPower` |
+| Madness | `madnessAttackPower` |
+
+### 5.2 Arcane Scaling
+
+```
 scaling = base × (arcaneScaling / 100) × arcaneSaturation
-total = base + scaling
 ```
 
-If arcane requirement is not met:
+| Component | Description |
+|-----------|-------------|
+| `arcaneScaling` | `correctLuck × correctLuckRate` — the weapon's arcane scaling value after reinforcement |
+| `arcaneSaturation` | `CalcCorrectGraph` curve value at the player's Arcane level, divided by 100 |
+
+Each status type uses its own curve ID (from `correctType_Poison`, `correctType_Blood`, etc.).
+
+### 5.3 Requirement Penalty
+
+The penalty only applies when the weapon has arcane scaling on the status effect **and** the player doesn't meet the arcane requirement:
+
 ```
-total = (base + scaling) × 0.6
+If arcane requirement not met AND weapon has arcane scaling on this status:
+  total = (base + scaling) × 0.6
+
+Otherwise:
+  total = base + scaling
 ```
 
-Only Arcane affects status effect scaling, using the `correctLuck` value and `correctType_Poison/Blood/Sleep/Madness` curves.
+Final value: `rounded = trunc(total)`
 
 ---
 
 ## 6. Spell Scaling (Catalysts)
 
-Staffs and Seals use spell scaling instead of damage:
+Staffs and Seals display a **spell scaling** value (Sorcery Scaling or Incantation Scaling) that determines how much damage spells deal. This is separate from the weapon's AR.
 
+```mermaid
+flowchart LR
+    subgraph Stats["Per-Stat Contribution"]
+        SV["scalingRatio = scalingValue / 100"]
+        SAT["saturation = curve(statLevel) / 100"]
+        CONT["contribution = 100 × ratio × sat"]
+    end
+
+    subgraph Result["Final Scaling"]
+        BASE["Base = 100"]
+        SUM["Σ contributions"]
+        TOTAL["total = 100 + Σ contributions"]
+    end
+
+    SV --> CONT
+    SAT --> CONT
+    CONT --> SUM
+    BASE --> TOTAL
+    SUM --> TOTAL
+```
+
+### 6.1 Formula
+
+```
+spellScaling = 100 + Σ(100 × scalingRatio × saturation)
+```
+
+Which is equivalent to:
 ```
 spellScaling = 100 × (1 + Σ(scalingRatio × saturation))
 ```
 
-Where:
-- Base is always 100
-- `scalingRatio = scalingValue / 100`
-- Saturation comes from the catalyst's curves
+Where, for each stat (STR, DEX, INT, FAI, ARC):
+- `scalingRatio = scalingValue / 100` (e.g., `correctMagic × correctMagicRate / 100`)
+- `saturation = CalcCorrectGraph(curveId, statLevel) / 100`
 
-If requirements aren't met:
+### 6.2 Requirement Penalty
+
+If **any** stat that contributes to spell scaling doesn't meet its requirement:
+
 ```
-spellScaling = 60
+spellScaling = 60  (base 100 × 0.6, all scaling zeroed)
 ```
 
-Catalyst flags in `EquipParamWeapon`:
-- `enableMagic`: Can cast sorceries (staffs)
-- `enableMiracle`: Can cast incantations (seals)
+### 6.3 Catalyst Types
+
+| Type | Flag in EquipParamWeapon | Used by |
+|------|--------------------------|---------|
+| Sorcery Scaling | `enableMagic` | Staffs (glintstone staves) |
+| Incantation Scaling | `enableMiracle` | Seals (sacred seals) |
+
+A weapon can have both if it sets both flags (the code handles them independently).
+
+---
+
+## 7. Guard Stats (Blocking)
+
+When blocking, a weapon reduces incoming damage by its **guard negation** percentages. Guard stats scale with upgrade level.
+
+### 7.1 Damage Negation
+
+```
+negation = min(baseGuardCut × guardCutRate, 100)
+```
+
+Capped at 100% — a fully upgraded greatshield can block all physical damage.
+
+| Damage Type | Base Field | Rate Field |
+|-------------|-----------|------------|
+| Physical | `physGuardCutRate` | `physicsGuardCutRate` |
+| Magic | `magGuardCutRate` | `magicGuardCutRate` |
+| Fire | `fireGuardCutRate` | `fireGuardCutRate` |
+| Lightning | `thunGuardCutRate` | `thunderGuardCutRate` |
+| Holy | `darkGuardCutRate` | `darkGuardCutRate` |
+
+### 7.2 Guard Boost
+
+Guard Boost reduces stamina consumed when blocking:
+
+```
+guardBoost = trunc(baseGuardBoost × staminaGuardDefRate)
+```
+
+| Component | Source |
+|-----------|--------|
+| `baseGuardBoost` | `EquipParamWeapon.staminaGuardDef` |
+| `staminaGuardDefRate` | `ReinforceParamWeapon.staminaGuardDefRate` |
+
+### 7.3 Status Resistance
+
+Status resistance values (Poison, Bleed, Frost, etc.) when blocking do **not** scale with upgrade level — they use the base values directly.
+
+---
+
+## 8. Combo System
+
+The calculator validates attack chains and classifies whether consecutive hits form **true combos** (guaranteed) or **pseudo combos** (escapable with tight timing).
+
+### 8.1 Combo Classification
+
+The **gap** between attacks determines combo type:
+
+```
+gap = (cancelFrame + startupFrameB) - (hitFrameA + stunDuration)
+```
+
+| Gap (frames) | Classification | Meaning |
+|--------------|----------------|---------|
+| ≤ 0 | True combo | Next hit lands before stun ends — guaranteed |
+| 1–5 | Pseudo combo | Extremely tight escape window — practically guaranteed |
+| > 5 | Not a combo | Opponent can roll/act between hits |
+
+### 8.2 Stun Duration
+
+Each attack has a **damage level** that determines how long the target is stunned:
+
+| Damage Level | Stun Duration (frames) |
+|--------------|------------------------|
+| 0 | 0 |
+| 1 | 10 |
+| 2 | 25 |
+| 3 | 35 |
+
+### 8.3 Chain Rules
+
+Attack chains (R1 → R1 → R1, etc.) follow strict sequencing:
+
+- Attacks labeled `[2]`, `[3]`, etc. can **only** follow the immediately preceding attack in the same chain
+- Attacks labeled `[1]` can **only** follow attacks from a **different** chain type (starts a new chain)
+- Non-chain attacks can follow any valid attack
+
+### 8.4 Grip Compatibility
+
+Attacks must share the same grip to combo:
+
+| Grip | Can Combo With |
+|------|----------------|
+| 1H | 1H only |
+| 2H | 2H only |
+| Paired | Paired only |
+
+Some attacks (e.g., guard counters) are grip-neutral and combo with either.
+
+### 8.5 Invalid Follow-ups
+
+These attack categories cannot appear mid-combo (they require a neutral state):
+
+Running, Crouching, Rolling, Backstep, Guard, Mounted, Special, Jumping, Charged
+
+### 8.6 Poise Breakpoints
+
+The calculator computes poise breakpoints — threshold arrays showing how many true-combo hits are available at each poise value. Higher enemy poise means fewer guaranteed hits before they can poise through.

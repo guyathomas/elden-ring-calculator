@@ -95,7 +95,6 @@ export {
   calculateGuardStatsV2,
 };
 
-import { startTiming } from "../utils/diagnostics";
 // Shared data loading utilities
 import {
   USE_MSGPACK,
@@ -289,13 +288,10 @@ export function getWeaponDpsData(weaponName: string): WeaponDpsData | null {
  */
 export async function loadPrecomputedData(): Promise<PrecomputedDataV2> {
   if (cachedData) return cachedData;
-  const done = startTiming("loadPrecomputedData (total)", "data-load");
   cachedData = await loadCompressedData<PrecomputedDataV2>(
     msgpackDataUrl,
     jsonGzippedDataUrl,
-    "precomputed-weapons",
   );
-  done();
   return cachedData;
 }
 
@@ -306,13 +302,10 @@ export async function loadPrecomputedData(): Promise<PrecomputedDataV2> {
  */
 export async function loadAowData(): Promise<PrecomputedAowData> {
   if (cachedAowData) return cachedAowData;
-  const done = startTiming("loadAowData (total)", "data-load");
   cachedAowData = await loadCompressedData<PrecomputedAowData>(
     aowMsgpackDataUrl,
     aowJsonGzippedDataUrl,
-    "aow-data",
   );
-  done();
   return cachedAowData;
 }
 

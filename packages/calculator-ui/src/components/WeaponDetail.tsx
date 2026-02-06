@@ -21,6 +21,7 @@ import { getAnimationId } from '../utils/animationMapping';
 import { useStatGains } from '../hooks/useStatGains';
 import { useSolverWorker } from '../hooks/useSolverWorker';
 import { useInvestmentPath } from '../hooks/useInvestmentPath';
+import { startTiming, timeSync } from '../utils/diagnostics.js';
 import { useState, useMemo, useEffect, useCallback, lazy, Suspense } from 'react';
 import { ToggleGroup, ToggleGroupItem } from './ui/toggle-group.js';
 import { NumericInput } from './ui/numeric-input.js';
@@ -253,6 +254,7 @@ export function WeaponDetail({
       arc: damageStatConfig('arc'),
     };
 
+    const doneSolver = startTiming("findOptimalStats (solver)", "compute");
     findOptimalStats({
       weaponName: weapon.name,
       affinity: weapon.affinity,
@@ -261,11 +263,13 @@ export function WeaponDetail({
       options: { twoHanding, pointsBudget: Math.max(0, calculatedBudget), optimizationMode },
     })
       .then((result) => {
+        doneSolver();
         if (!cancelled && result) {
           setOptimalStatsForBudget(result.stats);
         }
       })
       .catch((error) => {
+        doneSolver();
         if (!cancelled) {
           console.error('Solver error:', error);
         }
@@ -437,7 +441,7 @@ export function WeaponDetail({
 
     const calcStats = toCalculatorStats(displayedStats);
 
-    return calculateAowDamage(
+    return timeSync("calculateAowDamage", "compute", () => calculateAowDamage(
       aowData,
       precomputed,
       {
@@ -456,7 +460,7 @@ export function WeaponDetail({
         showLackingFp: false,
         aowName: selectedAow,
       }
-    );
+    ));
   }, [aowData, selectedAow, displayedStats, weapon, twoHanding, precomputed]);
 
   // Fetch weapon attacks on demand
@@ -469,7 +473,9 @@ export function WeaponDetail({
     setAttacksLoading(true);
     setAttacksError(null);
 
+    const done = startTiming("fetchWeaponAttacks", "data-load");
     fetchWeaponAttacks(weapon.name).then(result => {
+      done();
       if (!cancelled) {
         setWeaponAttacks(result.attacks);
         setAttacksError(result.error);
@@ -487,7 +493,9 @@ export function WeaponDetail({
 
   useEffect(() => {
     let cancelled = false;
+    const done = startTiming("loadAnimationUsers", "data-load");
     loadAnimationUsers().then(data => {
+      done();
       if (!cancelled) {
         setAnimationUsers(data);
       }
@@ -498,14 +506,14 @@ export function WeaponDetail({
   }, []);
 
   // Calculate AR with displayed stats (memoized to avoid recalculating on unrelated re-renders)
-  const arResult = useMemo(() => calculateWeaponAR(
+  const arResult = useMemo(() => timeSync("calculateWeaponAR", "compute", () => calculateWeaponAR(
     precomputed,
     weapon.name,
     weapon.affinity,
     weapon.upgradeLevel,
     displayedStats,
     { twoHanding }
-  ), [precomputed, weapon.name, weapon.affinity, weapon.upgradeLevel, displayedStats, twoHanding]);
+  )), [precomputed, weapon.name, weapon.affinity, weapon.upgradeLevel, displayedStats, twoHanding]);
 
   // Calculate marginal gains for each stat (based on displayed stats)
   // In SP mode, computes spell power gains instead of AR gains

@@ -1,7 +1,6 @@
-import { useMemo, useState, useEffect, Profiler } from 'react';
+import { useMemo, useState, useEffect } from 'react';
 import { useIsMobile } from './ui/use-mobile.js';
 import { motion, AnimatePresence } from 'motion/react';
-import { onRenderCallback, timeSync } from '../utils/diagnostics.js';
 import {
   X,
   Columns,
@@ -352,7 +351,7 @@ const WEAPON_LEVEL_OPTIONS = Array.from({ length: 26 }, (_, i) => ({
 }));
 
 // Generate boss options dynamically from enemy data, deduplicated by name
-const BOSS_OPTIONS = timeSync('BOSS_OPTIONS init', 'memo', () => {
+const BOSS_OPTIONS = (() => {
   const seen = new Set<string>();
   const options: { label: string; value: string }[] = [];
   for (const bossKey of getBossNames()) {
@@ -364,7 +363,7 @@ const BOSS_OPTIONS = timeSync('BOSS_OPTIONS init', 'memo', () => {
     }
   }
   return options;
-});
+})();
 
 // Starting class options for Combobox
 const STARTING_CLASS_OPTIONS = STARTING_CLASS_LIST.map((cls) => ({ label: cls, value: cls }));
@@ -431,22 +430,20 @@ const SidebarBody = ({
 
   // Build grouped AoW options from aowData
   const aowGroups = useMemo(() => {
-    return timeSync('aowGroups memo', 'memo', () => {
-      if (!aowData) return [];
+    if (!aowData) return [];
 
-      // Get mountable ashes of war
-      const mountableAowNames = getAvailableAowNames(aowData);
-      const aowOptions = mountableAowNames.map((name: string) => ({ label: name, value: name }));
+    // Get mountable ashes of war
+    const mountableAowNames = getAvailableAowNames(aowData);
+    const aowOptions = mountableAowNames.map((name: string) => ({ label: name, value: name }));
 
-      // Get unique weapon skills
-      const uniqueSkillsNames = getUniqueSkillNames(aowData);
-      const uniqueOptions = uniqueSkillsNames.map((name: string) => ({ label: name, value: name }));
+    // Get unique weapon skills
+    const uniqueSkillsNames = getUniqueSkillNames(aowData);
+    const uniqueOptions = uniqueSkillsNames.map((name: string) => ({ label: name, value: name }));
 
-      return [
-        { label: 'Ash of War', options: aowOptions },
-        { label: 'Unique Skill', options: uniqueOptions },
-      ];
-    });
+    return [
+      { label: 'Ash of War', options: aowOptions },
+      { label: 'Unique Skill', options: uniqueOptions },
+    ];
   }, [aowData]);
 
   const handleResetStats = () => {
@@ -1013,7 +1010,6 @@ export function Sidebar({
   // Desktop: render inline sidebar; Mobile: render nothing here (drawer handles it)
   if (!isMobile) {
     return (
-      <Profiler id="Sidebar" onRender={onRenderCallback}>
         <div className="h-full overflow-hidden">
           <Tabs defaultValue="settings" className="flex flex-col h-full bg-[#111111] border-r border-[#2a2a2a] text-[#e8e6e3] gap-0">
             <TabsList className="bg-transparent border-b border-[#2a2a2a] rounded-none h-auto p-0 w-full shrink-0">
@@ -1037,12 +1033,9 @@ export function Sidebar({
             </TabsList>
 
             <TabsContent value="settings" className="p-0 mt-0 flex-1 overflow-hidden flex flex-col">
-              <Profiler id="SidebarBody" onRender={onRenderCallback}>
                 <SidebarBody {...sidebarBodyProps} />
-              </Profiler>
             </TabsContent>
             <TabsContent value="build" className="p-0 mt-0 flex-1 overflow-hidden flex flex-col">
-              <Profiler id="BuildPanel" onRender={onRenderCallback}>
                 <BuildPanel
                   builds={builds}
                   activeBuild={activeBuild}
@@ -1059,11 +1052,9 @@ export function Sidebar({
                   twoHanding={twoHanding}
                   onWeaponSelect={onWeaponSelect}
                 />
-              </Profiler>
             </TabsContent>
           </Tabs>
         </div>
-      </Profiler>
     );
   }
 
@@ -1132,12 +1123,9 @@ export function Sidebar({
                       </TabsList>
 
                       <TabsContent value="settings" className="p-0 mt-0 flex-1 flex flex-col overflow-hidden">
-                        <Profiler id="SidebarBody-mobile" onRender={onRenderCallback}>
                           <SidebarBody {...sidebarBodyProps} isMobile />
-                        </Profiler>
                       </TabsContent>
                       <TabsContent value="filters" className="p-0 mt-0 flex-1 flex flex-col overflow-hidden">
-                        <Profiler id="MobileFiltersTab" onRender={onRenderCallback}>
                         <MobileFiltersTab
                           sortKey="name"
                           onSortKeyChange={() => {}}
@@ -1230,10 +1218,8 @@ export function Sidebar({
                           availableDamageTypes={availableDamageTypes}
                           availableStatusEffects={availableStatusEffects}
                         />
-                        </Profiler>
                       </TabsContent>
                       <TabsContent value="build" className="p-0 mt-0 flex-1 flex flex-col overflow-hidden">
-                        <Profiler id="BuildPanel-mobile" onRender={onRenderCallback}>
                         <BuildPanel
                           builds={builds}
                           activeBuild={activeBuild}
@@ -1251,7 +1237,6 @@ export function Sidebar({
                           onWeaponSelect={onWeaponSelect}
                           isMobile
                         />
-                        </Profiler>
                       </TabsContent>
                     </Tabs>
               </div>

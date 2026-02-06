@@ -1,10 +1,9 @@
-import { useState, useEffect, useMemo, useDeferredValue, useCallback, Profiler } from 'react';
+import { useState, useEffect, useMemo, useDeferredValue, useCallback } from 'react';
 import { WeaponList } from './components/WeaponList.js';
 import { WeaponDetailPanel } from './components/WeaponDetailPanel.js';
 
 import { Sidebar } from './components/Sidebar.js';
 import { useIsMobile } from './components/ui/use-mobile.js';
-import { startTiming, timeSync, printDiagnostics, onRenderCallback } from './utils/diagnostics.js';
 
 import type { StatConfig, CharacterStats, WeaponListItem, PrecomputedDataV2, StartingClass } from './types.js';
 import { INITIAL_CLASS_VALUES, WEAPON_SKILL_FILTER, isStatLocked, getStatValue } from './types.js';
@@ -44,16 +43,13 @@ export default function App() {
 
   // Load data on mount
   useEffect(() => {
-    const doneAll = startTiming('App data load (total)', 'data-load');
     Promise.all([loadPrecomputedData(), loadAowData()])
       .then(([weaponData, aowDataResult]) => {
-        doneAll();
         setPrecomputed(weaponData);
         setAowData(aowDataResult);
         setLoading(false);
       })
       .catch((err) => {
-        doneAll();
         setError(err.message);
         setLoading(false);
       });
@@ -161,7 +157,7 @@ export default function App() {
   // Build weapon list from precomputed data
   const weapons = useMemo(() => {
     if (!precomputed) return [];
-    return timeSync('buildWeaponList', 'memo', () => buildWeaponList(precomputed, upgradeLevel));
+    return buildWeaponList(precomputed, upgradeLevel);
   }, [precomputed, upgradeLevel]);
 
   // Extract unique categories and affinities for mobile filters
@@ -198,7 +194,7 @@ export default function App() {
   // Filter weapons by Ash of War compatibility (other filtering done in table)
   // Also filter out unique weapon affinity variants (they only work with Standard affinity)
   const filteredWeapons = useMemo(() => {
-    return timeSync('filteredWeapons', 'memo', () => weapons.filter(weapon => {
+    return weapons.filter(weapon => {
       // Filter by Ash of War compatibility
       if (deferredAowFilter && aowData && precomputed) {
         if (deferredAowFilter === WEAPON_SKILL_FILTER) {
@@ -228,7 +224,7 @@ export default function App() {
       }
 
       return true;
-    }));
+    });
   }, [weapons, deferredAowFilter, aowData, precomputed]);
 
   // Calculate points budget based on starting class and level
@@ -272,18 +268,6 @@ export default function App() {
     setSelectedWeapon(weapon);
   }, [setSelectedWeapon]);
 
-  // Print diagnostics after initial data load + first render.
-  // Timing data is always collected; this just prints the summary table.
-  // Users can also call __diag.print() from the console at any time.
-  useEffect(() => {
-    if (!loading && !error) {
-      // Defer to next frame so the first paint completes before we print
-      requestAnimationFrame(() => {
-        printDiagnostics();
-      });
-    }
-  }, [loading, error]);
-
   // Show loading state
   if (loading) {
     return (
@@ -312,7 +296,6 @@ export default function App() {
   }
 
   return (
-    <Profiler id="App" onRender={onRenderCallback}>
     <div className="h-screen bg-[#0a0a0a] text-[#e8e6e3] grid grid-rows-[auto_1fr]">
       <header className="border-b border-[#2a2a2a] bg-[#111111]">
         <div
@@ -514,6 +497,5 @@ export default function App() {
         />
       )}
     </div>
-    </Profiler>
   );
 }

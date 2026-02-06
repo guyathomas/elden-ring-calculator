@@ -1,10 +1,11 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Profiler } from 'react';
 import { Skull } from 'lucide-react';
 import type { WeaponListItem, CharacterStats, StatConfig, PrecomputedDataV2, StartingClass } from '../types';
 import type { PrecomputedAowData, EnemyData } from '../data';
 import { WeaponDetail } from './WeaponDetail';
 import { useIsMobile } from './ui/use-mobile.js';
 import { cn } from './ui/utils.js';
+import { resetDiagnostics, printDiagnostics, onRenderCallback } from '../utils/diagnostics.js';
 import {
   Sheet,
   SheetContent,
@@ -58,6 +59,16 @@ export function WeaponDetailPanel({
   // Reset local state when navigating to a different weapon
   useEffect(() => {
     setLocalTwoHanding(twoHanding);
+  }, [weapon.name, weapon.affinity]);
+
+  // Reset diagnostics and print after mount render settles
+  useEffect(() => {
+    resetDiagnostics();
+    // Print after the next frame so mount profiler data is captured
+    const raf = requestAnimationFrame(() => {
+      printDiagnostics();
+    });
+    return () => cancelAnimationFrame(raf);
   }, [weapon.name, weapon.affinity]);
 
   return (
@@ -129,23 +140,25 @@ export function WeaponDetailPanel({
 
         {/* Scrollable content */}
         <div className="flex-1 overflow-auto p-3 md:p-6">
-          <WeaponDetail
-            precomputed={precomputed}
-            aowData={aowData}
-            weapon={weapon}
-            statConfigs={statConfigs}
-            currentStats={currentStats}
-            hasUnlockedStats={hasUnlockedStats}
-            twoHanding={localTwoHanding}
-            selectedEnemy={selectedEnemy}
-            startingClass={startingClass}
-            defaultAow={defaultAow}
-            initialOptimalStats={initialOptimalStats}
-            level={level}
-            onLevelChange={onLevelChange}
-            onWeaponSelect={onWeaponSelect}
-            allWeapons={allWeapons}
-          />
+          <Profiler id="WeaponDetail" onRender={onRenderCallback}>
+            <WeaponDetail
+              precomputed={precomputed}
+              aowData={aowData}
+              weapon={weapon}
+              statConfigs={statConfigs}
+              currentStats={currentStats}
+              hasUnlockedStats={hasUnlockedStats}
+              twoHanding={localTwoHanding}
+              selectedEnemy={selectedEnemy}
+              startingClass={startingClass}
+              defaultAow={defaultAow}
+              initialOptimalStats={initialOptimalStats}
+              level={level}
+              onLevelChange={onLevelChange}
+              onWeaponSelect={onWeaponSelect}
+              allWeapons={allWeapons}
+            />
+          </Profiler>
         </div>
       </SheetContent>
     </Sheet>

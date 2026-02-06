@@ -8,6 +8,7 @@
  */
 
 import { useEffect, useRef, useState, useCallback } from 'react';
+import { startTiming } from '../utils/diagnostics';
 import * as Comlink from 'comlink';
 import type { SolverWorkerApi, FindOptimalStatsParams } from '../workers/solver.worker';
 import type { PrecomputedDataV2, OptimalStats } from '../types';
@@ -86,10 +87,12 @@ export function useSolverWorker({ precomputed, aowData }: UseSolverWorkerOptions
   useEffect(() => {
     let mounted = true;
 
+    const doneInit = startTiming("solverWorker init", "data-load");
     const initWorker = async () => {
       // Check if Web Workers are supported
       if (!supportsWebWorkers()) {
         console.warn('Web Workers not supported, using main thread fallback');
+        doneInit();
         if (mounted) {
           setIsUsingFallback(true);
           setIsReady(true);
@@ -108,6 +111,7 @@ export function useSolverWorker({ precomputed, aowData }: UseSolverWorkerOptions
 
         // Initialize with precomputed weapon and AoW data
         await api.initialize(precomputed, aowData);
+        doneInit();
 
         if (mounted) {
           setIsReady(true);
@@ -115,6 +119,7 @@ export function useSolverWorker({ precomputed, aowData }: UseSolverWorkerOptions
           setError(null);
         }
       } catch (err) {
+        doneInit();
         console.warn('Worker initialization failed, using main thread fallback:', err);
         if (mounted) {
           // Fall back to main thread instead of failing

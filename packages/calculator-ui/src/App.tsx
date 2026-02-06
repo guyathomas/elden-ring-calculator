@@ -272,10 +272,12 @@ export default function App() {
     setSelectedWeapon(weapon);
   }, [setSelectedWeapon]);
 
-  // Print diagnostics after initial data load + first render
+  // Print diagnostics after initial data load + first render.
+  // Timing data is always collected; this just prints the summary table.
+  // Users can also call __diag.print() from the console at any time.
   useEffect(() => {
     if (!loading && !error) {
-      // Defer to allow the first render to complete before printing
+      // Defer to next frame so the first paint completes before we print
       requestAnimationFrame(() => {
         printDiagnostics();
       });

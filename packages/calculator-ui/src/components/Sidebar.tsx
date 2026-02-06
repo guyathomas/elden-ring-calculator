@@ -1,7 +1,7 @@
 import { useMemo, useState, useEffect, Profiler } from 'react';
 import { useIsMobile } from './ui/use-mobile.js';
 import { motion, AnimatePresence } from 'motion/react';
-import { onRenderCallback, timeSync, isDiagnosticsEnabled } from '../utils/diagnostics.js';
+import { onRenderCallback, timeSync } from '../utils/diagnostics.js';
 import {
   X,
   Columns,

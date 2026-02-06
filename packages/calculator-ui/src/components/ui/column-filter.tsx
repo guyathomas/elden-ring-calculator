@@ -188,8 +188,36 @@ function SetFilter({
   onSearchChange,
 }: SetFilterProps) {
   const allSelected = value === undefined;
-  const selectedOption =
-    value && value.size === 1 ? [...value][0] : null;
+
+  const toggleOption = (option: string) => {
+    if (allSelected) {
+      // Switching from "All" to a specific selection: select only this option
+      const newSet = new Set(allOptions);
+      newSet.delete(option);
+      onChange(newSet);
+    } else {
+      const newSet = new Set(value);
+      if (newSet.has(option)) {
+        newSet.delete(option);
+      } else {
+        newSet.add(option);
+      }
+      // If all options are selected, revert to "All" (undefined)
+      if (newSet.size === allOptions.length) {
+        onChange(undefined);
+      } else if (newSet.size === 0) {
+        // Don't allow empty selection — revert to all
+        onChange(undefined);
+      } else {
+        onChange(newSet);
+      }
+    }
+  };
+
+  const isChecked = (option: string) => {
+    if (allSelected) return true;
+    return value!.has(option);
+  };
 
   return (
     <div className="space-y-1">
@@ -203,8 +231,7 @@ function SetFilter({
       )}
       <label className="flex items-center gap-2 p-1 rounded hover:bg-[#2a2a2a] cursor-pointer">
         <input
-          type="radio"
-          name="set-filter"
+          type="checkbox"
           checked={allSelected}
           onChange={() => onChange(undefined)}
           className="accent-[#d4af37]"
@@ -219,10 +246,9 @@ function SetFilter({
             title={option}
           >
             <input
-              type="radio"
-              name="set-filter"
-              checked={selectedOption === option}
-              onChange={() => onChange(new Set([option]))}
+              type="checkbox"
+              checked={isChecked(option)}
+              onChange={() => toggleOption(option)}
               className="accent-[#d4af37]"
             />
             <span className="text-xs text-[#e8e6e3] truncate">

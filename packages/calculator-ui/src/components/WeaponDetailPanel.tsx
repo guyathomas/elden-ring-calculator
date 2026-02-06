@@ -61,12 +61,11 @@ export function WeaponDetailPanel({
     setLocalTwoHanding(twoHanding);
   }, [weapon.name, weapon.affinity]);
 
-  // Reset diagnostics and print after mount render settles
+  // Print diagnostics after mount render settles, then reset for next open
   useEffect(() => {
-    resetDiagnostics();
-    // Print after the next frame so mount profiler data is captured
     const raf = requestAnimationFrame(() => {
       printDiagnostics();
+      resetDiagnostics();
     });
     return () => cancelAnimationFrame(raf);
   }, [weapon.name, weapon.affinity]);

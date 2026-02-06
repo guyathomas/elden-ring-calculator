@@ -711,14 +711,11 @@ export function WeaponDetail({
           const diff = optimalAR - currentAR;
           if (diff <= 0) return null;
           return (
-            <div className="flex items-center justify-between mb-2 px-2 py-1.5 rounded border border-[#2a2a2a] bg-[#0a0a0a]">
-              <div className="flex items-center gap-2 text-[11px]">
-                <span className="text-[#6a6a6a]">AR:</span>
-                <span className="text-[#c8c8c8]">{currentAR}</span>
-                <span className="text-[#4a4a4a]">/</span>
-                <span className="text-[#4ade80]">{optimalAR}</span>
-                <span className="text-[#4ade80]">(+{diff})</span>
-              </div>
+            <div className="flex items-center gap-3 mb-2 px-2 py-1.5 rounded border border-[#2a2a2a] bg-[#0a0a0a] text-[11px]">
+              <span className="text-[#c8c8c8]">AR {currentAR}</span>
+              <span className="text-[#4a4a4a]">→</span>
+              <span className="text-[#4ade80]">{optimalAR} optimal</span>
+              <span className="text-[#4ade80]">(+{diff})</span>
             </div>
           );
         })()}

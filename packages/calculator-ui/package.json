@@ -74,7 +74,7 @@
     },
     "scripts": {
         "dev": "yarn generate-data:if-missing && vite",
-        "build": "yarn generate-data:if-missing && vite build",
+        "build": "yarn generate-data && vite build",
         "generate-data": "tsx scripts/generate-precomputed.ts",
         "generate-data:if-missing": "test -f src/data/precomputed.msgpack.gz || yarn generate-data",
         "test": "vitest run",

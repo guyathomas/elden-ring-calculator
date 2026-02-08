@@ -44,8 +44,8 @@ export function SolverOptimizationModeToggle({
         value={mode}
         onValueChange={(v) => { if (v) onChange(v as SolverOptimizationMode); }}
         variant="subtle"
-        size="touch"
-        className="rounded border border-[#333] bg-[#141414] p-1"
+        size="sm"
+        className="rounded border border-[#333] bg-[#141414] p-0.5"
       >
         {options.map(({ value, label, disabled }) => (
           <ToggleGroupItem

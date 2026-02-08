@@ -5,7 +5,7 @@ import { StarButton } from './builds/StarButton.js';
 // Visibility configuration for optional card sections
 // Maps to the sidebar column group toggles
 export interface CardVisibility {
-  weaponStats?: boolean;         // Weight, Damage Type, Critical, Buffable, True Combos, Unique Attacks
+  weaponStats?: boolean;         // Weight, Damage Type, Critical, Buffable, True Combos, Unique Attacks, Guard Boost
   guardStats?: boolean;          // Physical, Magic, Fire, Lightning, Holy, Guard Boost
   attributeInvestments?: boolean; // Per-stat deficits, total, min level, points required
   statusEffects?: boolean;       // Bleed, Frost, Poison, Scarlet Rot, Sleep, Madness
@@ -281,7 +281,7 @@ function Section({ title, children, show }: { title: string; children: React.Rea
   );
 }
 
-// Weapon Stats section: Weight, Damage Type, Critical, Buffable, True Combos, Unique Attacks
+// Weapon Stats section: Weight, Damage Type, Critical, Buffable, True Combos, Unique Attacks, Guard Boost
 function WeaponStatsSection({ weapon }: { weapon: MobileWeaponData }) {
   return (
     <div className="flex flex-wrap gap-1.5">
@@ -291,6 +291,7 @@ function WeaponStatsSection({ weapon }: { weapon: MobileWeaponData }) {
       {weapon.isBuffable && <PropertyTag label="Buff" value="✓" />}
       {weapon.trueCombos > 0 && <PropertyTag label="Combos" value={weapon.trueCombos} />}
       {weapon.hasUniqueAttacks && <PropertyTag label="Unique" value="✓" />}
+      <PropertyTag label="Boost" value={weapon.guardStats.guardBoost} highlight={weapon.guardStats.guardBoost >= 50} />
     </div>
   );
 }

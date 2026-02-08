@@ -820,7 +820,7 @@ const WeaponRowCells = memo(function WeaponRowCells({
         {weapon.isUnique ? "Unique" : weapon.affinity}
       </td>
 
-      {/* Weapon Stats (Dmg, Wgt, TC, Buff, Uniq) */}
+      {/* Weapon Stats (Dmg, Wgt, TC, Buff, Uniq, Boost) */}
       {showWeaponStats && (
         <>
           {/* Damage Types */}
@@ -852,7 +852,7 @@ const WeaponRowCells = memo(function WeaponRowCells({
 
           {/* Unique Attacks */}
           <td
-            className="px-2 py-2 text-center text-xs text-[#9b59b6] border-r border-[#1a1a1a]"
+            className="px-2 py-2 text-center text-xs text-[#9b59b6]"
             title={
               weapon.hasUniqueAttacks
                 ? "Has unique attack animations compared to weapon class"
@@ -860,6 +860,11 @@ const WeaponRowCells = memo(function WeaponRowCells({
             }
           >
             {weapon.hasUniqueAttacks ? "✓" : "-"}
+          </td>
+
+          {/* Guard Boost */}
+          <td className="px-2 py-2 text-center text-xs text-[#8b8b8b] border-r border-[#1a1a1a]">
+            {weapon.guardStats.guardBoost}
           </td>
         </>
       )}
@@ -2919,7 +2924,7 @@ export function WeaponList({
         </th>
         {/* Weapon Stats */}
         {showWeaponStats && (
-          <th colSpan={5} className="text-center px-2 py-1 border-r border-[#2a2a2a] uppercase tracking-wider">
+          <th colSpan={6} className="text-center px-2 py-1 border-r border-[#2a2a2a] uppercase tracking-wider">
             Weapon Stats
           </th>
         )}
@@ -3088,7 +3093,7 @@ export function WeaponList({
             />
           </div>
         </th>
-        {/* Weapon Stats columns (Dmg, Wgt, TC, Buff, Uniq) */}
+        {/* Weapon Stats columns (Dmg, Wgt, TC, Buff, Uniq, Boost) */}
         {showWeaponStats && (
           <>
             <th className="text-left px-3 py-2 cursor-pointer hover:text-[#d4af37] whitespace-nowrap" onClick={() => handleSort('damageType')} title="Primary Damage Type">
@@ -3136,7 +3141,7 @@ export function WeaponList({
                 />
               </div>
             </th>
-            <th className="text-center px-2 py-2 border-r border-[#2a2a2a] cursor-pointer hover:text-[#d4af37] text-[#9b59b6]" onClick={() => handleSort('uniqueAttacks')} title="Has unique attack animations compared to weapon class">
+            <th className="text-center px-2 py-2 cursor-pointer hover:text-[#d4af37] text-[#9b59b6]" onClick={() => handleSort('uniqueAttacks')} title="Has unique attack animations compared to weapon class">
               <div className="flex items-center justify-center gap-1">
                 Uniq <SortIcon columnKey="uniqueAttacks" />
                 <ColumnFilter
@@ -3144,6 +3149,17 @@ export function WeaponList({
                   filterType="boolean"
                   value={columnFilters['uniqueAttacks']}
                   onChange={(value) => updateColumnFilter('uniqueAttacks', value)}
+                />
+              </div>
+            </th>
+            <th className="px-2 py-2 border-r border-[#2a2a2a] cursor-pointer hover:text-[#d4af37] text-[#8b8b8b]" onClick={() => handleSort('guardBoost')} title="Guard Boost - reduces stamina loss when blocking">
+              <div className="flex items-center justify-center gap-1">
+                Boost <SortIcon columnKey="guardBoost" />
+                <ColumnFilter
+                  columnKey="guardBoost"
+                  filterType="range"
+                  value={columnFilters['guardBoost']}
+                  onChange={(value) => updateColumnFilter('guardBoost', value)}
                 />
               </div>
             </th>

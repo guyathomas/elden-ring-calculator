@@ -219,6 +219,67 @@ export function WeaponDetail({
   // In Solver mode: always run to compute optimal stats for the local detailLevel
   const shouldRunLocalSolver = (isOptimalMode && !hasUnlockedStats) || hasUnlockedStats;
 
+  // Background optimal stats: always computed in Fixed mode for comparison display
+  const [backgroundOptimalStats, setBackgroundOptimalStats] = useState<CharacterStats | null>(null);
+
+  // Budget based on the implied level from fixedStats (tracks user edits reactively)
+  const fixedModeBudget = useMemo(() => {
+    const vig = currentStats.vig;
+    const mnd = currentStats.mnd;
+    const end = currentStats.end;
+    return classData.total - classData.lvl + calculatedFixedLevel - vig - end - mnd;
+  }, [classData, calculatedFixedLevel, currentStats]);
+
+  // Always run solver in background during Fixed mode to enable comparison
+  useEffect(() => {
+    if (hasUnlockedStats || isOptimalMode || !startingClass || !solverReady) {
+      setBackgroundOptimalStats(null);
+      return;
+    }
+
+    let cancelled = false;
+
+    const damageStatConfig = (stat: 'str' | 'dex' | 'int' | 'fai' | 'arc'): StatConfig => {
+      if (optimizationMode === 'SP' && spellScalingStats.size > 0 && !spellScalingStats.has(stat)) {
+        return { min: classMinMap[stat], max: classMinMap[stat] };
+      }
+      return { min: classMinMap[stat], max: 99 };
+    };
+
+    const optimizerStatConfigs: Record<string, StatConfig> = {
+      vig: { min: currentStats.vig, max: currentStats.vig },
+      mnd: { min: currentStats.mnd, max: currentStats.mnd },
+      end: { min: currentStats.end, max: currentStats.end },
+      str: damageStatConfig('str'),
+      dex: damageStatConfig('dex'),
+      int: damageStatConfig('int'),
+      fai: damageStatConfig('fai'),
+      arc: damageStatConfig('arc'),
+    };
+
+    findOptimalStats({
+      weaponName: weapon.name,
+      affinity: weapon.affinity,
+      upgradeLevel: weapon.upgradeLevel,
+      statConfigs: optimizerStatConfigs,
+      options: { twoHanding, pointsBudget: Math.max(0, fixedModeBudget), optimizationMode },
+    })
+      .then((result) => {
+        if (!cancelled && result) {
+          setBackgroundOptimalStats(result.stats);
+        }
+      })
+      .catch((error) => {
+        if (!cancelled) {
+          console.error('Background solver error:', error);
+        }
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [hasUnlockedStats, isOptimalMode, startingClass, solverReady, weapon.name, weapon.affinity, weapon.upgradeLevel, twoHanding, fixedModeBudget, currentStats, findOptimalStats, classMinMap, optimizationMode, spellScalingStats]);
+
   // Calculate optimal stats async when dependencies change
   useEffect(() => {
     // Skip if not in a mode that needs local solving, no starting class, or worker not ready
@@ -507,6 +568,19 @@ export function WeaponDetail({
     { twoHanding }
   ), [precomputed, weapon.name, weapon.affinity, weapon.upgradeLevel, displayedStats, twoHanding]);
 
+  // Calculate optimal AR from background solver stats (for Fixed mode comparison)
+  const optimalArResult = useMemo(() => {
+    if (!backgroundOptimalStats) return null;
+    return calculateWeaponAR(
+      precomputed,
+      weapon.name,
+      weapon.affinity,
+      weapon.upgradeLevel,
+      backgroundOptimalStats,
+      { twoHanding }
+    );
+  }, [precomputed, weapon.name, weapon.affinity, weapon.upgradeLevel, backgroundOptimalStats, twoHanding]);
+
   // Calculate marginal gains for each stat (based on displayed stats)
   // In SP mode, computes spell power gains instead of AR gains
   const statGains = useStatGains({
@@ -630,6 +704,21 @@ export function WeaponDetail({
             })()}
           </div>
         </div>
+        {/* AR comparison banner - shown in Fixed mode when optimal differs */}
+        {!hasUnlockedStats && !isOptimalMode && arResult && optimalArResult && (() => {
+          const currentAR = arResult.rounded;
+          const optimalAR = optimalArResult.rounded;
+          const diff = optimalAR - currentAR;
+          if (diff <= 0) return null;
+          return (
+            <div className="flex items-center gap-3 mb-2 px-2 py-1.5 rounded border border-[#2a2a2a] bg-[#0a0a0a] text-[11px]">
+              <span className="text-[#c8c8c8]">AR {currentAR}</span>
+              <span className="text-[#4a4a4a]">→</span>
+              <span className="text-[#4ade80]">{optimalAR} optimal</span>
+              <span className="text-[#4ade80]">(+{diff})</span>
+            </div>
+          );
+        })()}
         {/* VIG, MND, END display - as disabled inputs */}
         <div className="grid grid-cols-5 gap-2 mb-2">
           {(['vig', 'mnd', 'end'] as const).map((stat) => {
@@ -688,6 +777,16 @@ export function WeaponDetail({
                 {isBelowClassMin && !isDisabled && (
                   <span className="text-[9px] text-error">Min: {classMin}</span>
                 )}
+                {/* Optimal stat delta badge - shown in Fixed mode */}
+                {!isOptimalMode && backgroundOptimalStats && (() => {
+                  const delta = backgroundOptimalStats[stat] - value;
+                  if (delta === 0) return null;
+                  return (
+                    <span className={`text-[10px] font-medium ${delta > 0 ? 'text-[#4ade80]' : 'text-[#f59e0b]'}`}>
+                      {delta > 0 ? `+${delta}` : delta}
+                    </span>
+                  );
+                })()}
                 {/* AR gain per point */}
                 <span className={`text-[10px] ${isBest ? 'text-[#4ade80] font-medium' : gain > 0 ? 'text-[#6a6a6a]' : 'text-[#3a3a3a]'}`}>
                   {gain > 0 ? `+${gain.toFixed(2)}` : '—'}

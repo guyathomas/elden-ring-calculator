@@ -78,6 +78,10 @@ export function getStatValue(config: StatConfig): number {
 
 export const DAMAGE_STATS = ['str', 'dex', 'int', 'fai', 'arc'] as const;
 
+export function areAllDamageStatsLocked(statConfigs: Record<string, StatConfig>): boolean {
+  return DAMAGE_STATS.every((stat) => isStatLocked(statConfigs[stat]));
+}
+
 export function lockAllDamageStats(
   statConfigs: Record<string, StatConfig>,
   onChange: (stat: string, config: StatConfig) => void,

@@ -1,5 +1,5 @@
 import type { StatConfig, StartingClass } from '../types';
-import { INITIAL_CLASS_VALUES, STARTING_CLASS_LIST, getStatValue, isStatLocked, lockAllDamageStats, unlockAllDamageStats } from '../types';
+import { INITIAL_CLASS_VALUES, STARTING_CLASS_LIST, getStatValue, isStatLocked, areAllDamageStatsLocked, lockAllDamageStats, unlockAllDamageStats } from '../types';
 import { Calculator, ChevronDown, ChevronUp, Lock, Unlock } from 'lucide-react';
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
@@ -192,22 +192,24 @@ export function StatInputPanel({ level, setLevel, startingClass, setStartingClas
                   <div>
                     <div className="flex items-center justify-between mb-1">
                       <div className="text-[#d4af37] text-xs uppercase tracking-wider">Damage Stats</div>
-                      <div className="flex items-center gap-1">
-                        <button
-                          onClick={() => lockAllDamageStats(statConfigs, onStatConfigChange)}
-                          className="p-0.5 hover:bg-[#2a2a2a] rounded transition-colors"
-                          title="Lock all damage stats"
-                        >
-                          <Lock className="w-3 h-3 text-[#8b8b8b]" />
-                        </button>
-                        <button
-                          onClick={() => unlockAllDamageStats(statConfigs, classData, onStatConfigChange)}
-                          className="p-0.5 hover:bg-[#2a2a2a] rounded transition-colors"
-                          title="Unlock all damage stats"
-                        >
-                          <Unlock className="w-3 h-3 text-[#d4af37]" />
-                        </button>
-                      </div>
+                      {(() => {
+                        const allLocked = areAllDamageStatsLocked(statConfigs);
+                        return (
+                          <button
+                            onClick={() => allLocked
+                              ? unlockAllDamageStats(statConfigs, classData, onStatConfigChange)
+                              : lockAllDamageStats(statConfigs, onStatConfigChange)
+                            }
+                            className="p-0.5 hover:bg-[#2a2a2a] rounded transition-colors"
+                            title={allLocked ? 'Unlock all damage stats' : 'Lock all damage stats'}
+                          >
+                            {allLocked
+                              ? <Lock className="w-3 h-3 text-[#8b8b8b]" />
+                              : <Unlock className="w-3 h-3 text-[#d4af37]" />
+                            }
+                          </button>
+                        );
+                      })()}
                     </div>
                     <p className="text-[10px] text-[#6a6a6a] mb-2">Unlock stats for the solver to optimize</p>
                     <div className="grid grid-cols-2 gap-3">

@@ -46,11 +46,11 @@ console.log(`Using ${Object.keys(precomputed.curves).length} curve definitions`)
 
 // Generate JSON and gzip it
 const jsonString = JSON.stringify(precomputed);
-const gzipped = gzipSync(Buffer.from(jsonString));
+const gzipped = gzipSync(jsonString);
 
 // Generate MessagePack and gzip it (for production)
 const msgpacked = msgpackEncode(precomputed);
-const msgpackGzipped = gzipSync(Buffer.from(msgpacked));
+const msgpackGzipped = gzipSync(msgpacked);
 
 // Write gzipped JSON (for dev server backwards compat)
 const gzipPath = path.join(OUTPUT_DIR, 'precomputed.json.gz');
@@ -87,11 +87,11 @@ console.log(`Using ${Object.keys(aowData.equipParamGem).length} EquipParamGem en
 
 // Generate JSON and gzip it
 const aowJsonString = JSON.stringify(aowData);
-const aowGzipped = gzipSync(Buffer.from(aowJsonString));
+const aowGzipped = gzipSync(aowJsonString);
 
 // Generate MessagePack and gzip it (for production)
 const aowMsgpacked = msgpackEncode(aowData);
-const aowMsgpackGzipped = gzipSync(Buffer.from(aowMsgpacked));
+const aowMsgpackGzipped = gzipSync(aowMsgpacked);
 
 // Write gzipped JSON (for dev server backwards compat)
 const aowGzipPath = path.join(OUTPUT_DIR, 'aow-precomputed.json.gz');
@@ -611,11 +611,11 @@ console.log('Top 10 labels:', topLabels.join(', '));
 
 // Generate JSON and gzip it
 const animationIndexJsonString = JSON.stringify(animationIndex);
-const animationIndexGzipped = gzipSync(Buffer.from(animationIndexJsonString));
+const animationIndexGzipped = gzipSync(animationIndexJsonString);
 
 // Generate MessagePack and gzip it (for production)
 const animationIndexMsgpacked = msgpackEncode(animationIndex);
-const animationIndexMsgpackGzipped = gzipSync(Buffer.from(animationIndexMsgpacked));
+const animationIndexMsgpackGzipped = gzipSync(animationIndexMsgpacked);
 
 // Write all versions
 const animationIndexGzipPath = path.join(OUTPUT_DIR, 'animation-index.json.gz');
@@ -676,11 +676,11 @@ console.log(`Average users per animation: ${(totalUsers / animationUsersCount).t
 
 // Generate JSON and gzip it
 const animationUsersJsonString = JSON.stringify(animationUsers);
-const animationUsersGzipped = gzipSync(Buffer.from(animationUsersJsonString));
+const animationUsersGzipped = gzipSync(animationUsersJsonString);
 
 // Generate MessagePack and gzip it (for production)
 const animationUsersMsgpacked = msgpackEncode(animationUsers);
-const animationUsersMsgpackGzipped = gzipSync(Buffer.from(animationUsersMsgpacked));
+const animationUsersMsgpackGzipped = gzipSync(animationUsersMsgpacked);
 
 // Write all versions
 const animationUsersGzipPath = path.join(OUTPUT_DIR, 'animation-users.json.gz');
@@ -1286,9 +1286,9 @@ console.log(`Generated attacks data for ${weaponAttacksCount} weapons`);
 
 // Write as gzip + msgpack (lazy loaded by frontend)
 const weaponAttacksJsonString = JSON.stringify(weaponAttacksDataMap);
-const weaponAttacksGzipped = gzipSync(Buffer.from(weaponAttacksJsonString));
+const weaponAttacksGzipped = gzipSync(weaponAttacksJsonString);
 const weaponAttacksMsgpacked = msgpackEncode(weaponAttacksDataMap);
-const weaponAttacksMsgpackGzipped = gzipSync(Buffer.from(weaponAttacksMsgpacked));
+const weaponAttacksMsgpackGzipped = gzipSync(weaponAttacksMsgpacked);
 
 writeFileSync(path.join(OUTPUT_DIR, 'weapon-attacks-data.json.gz'), weaponAttacksGzipped);
 writeFileSync(path.join(OUTPUT_DIR, 'weapon-attacks-data.msgpack.gz'), weaponAttacksMsgpackGzipped);
@@ -1634,9 +1634,9 @@ console.log(`Generated combo detail data for ${Object.keys(precomputed.weapons).
 console.log(`Weapons with combos: ${combosWeaponCount}`);
 
 const combosDetailJsonString = JSON.stringify(allWeaponCombosDetail);
-const combosDetailGzipped = gzipSync(Buffer.from(combosDetailJsonString));
+const combosDetailGzipped = gzipSync(combosDetailJsonString);
 const combosDetailMsgpacked = msgpackEncode(allWeaponCombosDetail);
-const combosDetailMsgpackGzipped = gzipSync(Buffer.from(combosDetailMsgpacked));
+const combosDetailMsgpackGzipped = gzipSync(combosDetailMsgpacked);
 
 writeFileSync(path.join(OUTPUT_DIR, 'weapon-combos-detail.json.gz'), combosDetailGzipped);
 writeFileSync(path.join(OUTPUT_DIR, 'weapon-combos-detail.msgpack.gz'), combosDetailMsgpackGzipped);
@@ -1850,8 +1850,8 @@ let totalJsonGzSize = 0;
 let totalMsgpackGzSize = 0;
 
 for (const [prefix, chunkData] of Object.entries(animEventsByPrefix)) {
-  const jsonGz = gzipSync(Buffer.from(JSON.stringify(chunkData)));
-  const msgpackGz = gzipSync(Buffer.from(msgpackEncode(chunkData)));
+  const jsonGz = gzipSync(JSON.stringify(chunkData));
+  const msgpackGz = gzipSync(msgpackEncode(chunkData));
   writeFileSync(path.join(CHUNKS_DIR, `${prefix}.json.gz`), jsonGz);
   writeFileSync(path.join(CHUNKS_DIR, `${prefix}.msgpack.gz`), msgpackGz);
   totalJsonGzSize += jsonGz.length;
